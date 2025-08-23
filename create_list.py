@@ -1,3 +1,5 @@
+# Creates a text file every two hours using GitHub actions.
+
 import datetime
 
 # Get the current date and time
