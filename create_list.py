@@ -1,6 +1,7 @@
 
 """
-This module is being developed. Creates a text file every hour using GitHub actions.
+Creates a text file every hour using GitHub actions.
+This module is being developed.
 """
 
 import datetime
