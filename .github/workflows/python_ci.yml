@@ -1,4 +1,4 @@
-name: Python CI - Pylint, flake8, black
+name: Python CI - - analyse with Pylint, lint with flake8, format with black
 
 on: [push]
 
@@ -30,4 +30,5 @@ jobs:
         pip install black
         black .
         black --check .
+
 
