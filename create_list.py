@@ -13,10 +13,7 @@ SYDNEY_TIMEZONE = ZoneInfo('Australia/Sydney')
 NOW_IN_SYDNEY = datetime.now(SYDNEY_TIMEZONE)
 
 NOW = NOW_IN_SYDNEY.strftime("%A, %B %d, %Y, %I:%M:%S %p")
-# NOW = datetime.datetime.now()
-
-# Format the date in Australian format (DD/MM/YYYY)
-DATE_STRING = NOW.strftime("%d/%m/%Y")
+DATE_STRING = NOW
 
 # Create a text file with a specified filename
 FILENAME = "current_date.txt"
