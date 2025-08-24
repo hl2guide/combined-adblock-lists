@@ -1,12 +1,8 @@
 """
-This module is being developed.
+This module is being developed. Creates a text file every hour using GitHub actions.
 """
 
 import datetime
-
-"""
-Creates a text file every hour using GitHub actions.
-"""
 
 # Get the current date and time
 NOW = datetime.datetime.now()
