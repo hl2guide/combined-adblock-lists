@@ -16,7 +16,7 @@ DATE_STRING = NOW.strftime("%d/%m/%Y")
 FILENAME = "current_date.txt"
 
 try:
-    with open(FILENAME, 'w', encoding='utf-8') as file:
+    with open(FILENAME, "w", encoding="utf-8") as file:
         # Write only the formatted date string to the file
         file.write(DATE_STRING)
     print(f"File '{FILENAME}' created with date '{DATE_STRING}'.")
