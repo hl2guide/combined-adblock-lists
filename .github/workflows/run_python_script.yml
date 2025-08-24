@@ -6,6 +6,10 @@ on:
 
   workflow_dispatch:
 
+# Grant write permissions for all jobs in this workflow
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
