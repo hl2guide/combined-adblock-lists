@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-  - cron: '0 */2 * * *'
+  - cron: '0 */1 * * *'
 
 jobs:
   build:
