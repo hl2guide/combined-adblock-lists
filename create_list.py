@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 SYDNEY_TIMEZONE = ZoneInfo('Australia/Sydney')
 NOW_IN_SYDNEY = datetime.now(SYDNEY_TIMEZONE)
 
-NOW = NOW_IN_SYDNEY.strftime("%A, %B %d, %Y, %I:%M:%S %p")
+NOW = NOW_IN_SYDNEY.strftime("%A, %B %d, %Y, %H:%M:%S %p")
 DATE_STRING = NOW
 
 # Create a text file with a specified filename
