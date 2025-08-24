@@ -28,6 +28,7 @@ jobs:
     - name: Format with Black
       run: |
         pip install black
-        black create_list.py
+        black .
         black --check .
+
 
