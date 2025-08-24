@@ -5,9 +5,15 @@ This module is being developed.
 """
 
 import datetime
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # Get the current date and time
-NOW = datetime.datetime.now()
+SYDNEY_TIMEZONE = ZoneInfo('Australia/Sydney')
+NOW_IN_SYDNEY = datetime.now(SYDNEY_TIMEZONE)
+
+NOW = NOW_IN_SYDNEY.strftime("%A, %B %d, %Y, %I:%M:%S %p")
+# NOW = datetime.datetime.now()
 
 # Format the date in Australian format (DD/MM/YYYY)
 DATE_STRING = NOW.strftime("%d/%m/%Y")
