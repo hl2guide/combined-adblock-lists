@@ -2,7 +2,7 @@ name: Python Run - run a script and then save to GitHub repo
 
 on:
   schedule:
-  - cron: '0 * * * *' # Run every 1 hour, every day
+  - cron: '0 */2 * * *' # Run every 1 hour, every day
 
   workflow_dispatch:
 
