@@ -4,6 +4,15 @@ Creates a text file every hour using GitHub actions.
 This module is being developed.
 """
 
+# Downloads and then combines cosmetic filter lists into one text file.
+# It also REMOVES allow rules, comment lines and duplicate lines.
+
+# Version 1.0.1
+# Edited: 2025-11-14 13:29:04 +1100
+
+# Generated using AI
+# Tested on local PC
+
 # IMPORTS
 import locale
 import os
