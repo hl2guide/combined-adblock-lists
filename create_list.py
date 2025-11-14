@@ -23,6 +23,9 @@ import requests
 
 URL_PREFIX_GH = "https://raw.githubusercontent.com"
 URL_PREFIX_EASYLIST = "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties"
+URL_PREFIX_EASYLIST2 = "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties"
+URL_PART_ADG = "AdguardTeam/FiltersRegistry/master/filters"
+URL_PART_EL = "easylist/antiadblockfilters/refs/heads/master/antiadblockfilters"
 
 # Testing list URLs
 TESTING_URLS = [
@@ -69,17 +72,17 @@ TESTING_URLS = [
     # Hide YouTube Shorts
     f"{URL_PREFIX_GH}/gijsdev/ublock-hide-yt-shorts/refs/heads/master/list.txt",
     # AdGuard Popups filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_19_Annoyances_Popups/filter.txt",
     # AdGuard Cookie Notices filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_18_Annoyances_Cookies/filter.txt",
     # AdGuard Mobile App Banners filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_20_Annoyances_MobileApp/filter.txt",
     # AdGuard Other Annoyances filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_21_Annoyances_Other/filter.txt",
     # AdGuard Widgets filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_22_Annoyances_Widgets/filter.txt",
     # Adblock Warning Removal List
-    f"{URL_PREFIX_GH}/easylist/antiadblockfilters/refs/heads/master/antiadblockfilters/antiadblock_english.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_EL}/antiadblock_english.txt",
     # EasyList
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt",
     # AdGuard - Base filter
@@ -89,7 +92,7 @@ TESTING_URLS = [
     # EasyPrivacy
     "https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
     # EasyList - Cookie Notices
-    "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist-cookies.txt",
+    f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
     # EasyList - Social Widgets
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-social.txt",
     # AdGuard Social Media filter
@@ -101,7 +104,7 @@ TESTING_URLS = [
     # EasyList - Newsletter Notices
     "https://ublockorigin.pages.dev/thirdparties/easylist-newsletters.txt",
     # EasyList - Notifications
-    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-notifications.txt",
+    f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
     # uBlock filters - Annoyances
