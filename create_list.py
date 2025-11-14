@@ -14,44 +14,46 @@ This module is being developed.
 # Tested on local PC
 
 # IMPORTS
-import locale
-import os
-import sys
+#import locale
+#import os
+#import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import requests
 
+URL_PREFIX_GH = "https://raw.githubusercontent.com"
+
 # Testing list URLs
 TESTING_URLS = [
     # Brave - YouTube Shorts (https://github.com/brave/adblock-lists/tree/master/brave-lists)
-    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
+    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
     # Brave - YouTube Recommendations (https://github.com/brave/adblock-lists/tree/master/brave-lists)
-    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt",
+    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt",
     # Brave - YouTube Distractions (https://github.com/brave/adblock-lists/tree/master/brave-lists)
-    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt",
+    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt",
     # Brave - Social Elements Blocker (https://github.com/brave/adblock-lists/tree/master/brave-lists)
-    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/brave-social.txt",
+    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/brave-social.txt",
     # Brave-specific additions to Easylist Cookie (https://github.com/brave/adblock-lists/tree/master/brave-lists)
-    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/brave-cookie-specific.txt",
+    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/brave-cookie-specific.txt",
     # uBlock - Cookie Notices
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-cookies.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-cookies.txt",
     # uBlock - Other Annoyances
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-others.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-others.txt",
     # uBlock - Badware Risks
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/badware.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/badware.txt",
     # uBlock filters (years)
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2020.txt",
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2021.txt",
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2022.txt",
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2023.txt",
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2024.txt",
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2025.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2020.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2021.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2022.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2023.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2024.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2025.txt",
     # uBlock - Privacy
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt",
     # uBlock - Filters
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt",
     # uBlock - Unbreak
-    "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt",
+    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt",
     # EasyList
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt",
     # AdGuard - Base filter
@@ -79,29 +81,29 @@ TESTING_URLS = [
     # uBlock filters - Annoyances
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/annoyances.min.txt",
     # YouTube Neuter - sponsorblock
-    "https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
+    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
-    "https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt",
+    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
     # HaGeZi's The World's Most Abused TLDs
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
+    f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
     # YouTube Clear View
-    "https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt",
+    f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
     # Web Annoyances Ultralist by yourduskquibbles
-    "https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt",
+    f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
     # Hide YouTube Shorts
-    "https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/refs/heads/master/list.txt",
+    f"{URL_PREFIX_GH}/gijsdev/ublock-hide-yt-shorts/refs/heads/master/list.txt",
     # AdGuard Popups filter
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt",
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt",
     # AdGuard Cookie Notices filter
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt",
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt",
     # AdGuard Mobile App Banners filter
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt",
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt",
     # AdGuard Other Annoyances filter
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt",
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt",
     # AdGuard Widgets filter
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt",
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt",
     # Adblock Warning Removal List
-    "https://raw.githubusercontent.com/easylist/antiadblockfilters/refs/heads/master/antiadblockfilters/antiadblock_english.txt",
+    f"{URL_PREFIX_GH}/easylist/antiadblockfilters/refs/heads/master/antiadblockfilters/antiadblock_english.txt",
     # Fanboy's Anti-Facebook List
     "https://www.fanboy.co.nz/fanboy-antifacebook.txt"
 ]
