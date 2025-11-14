@@ -14,18 +14,20 @@ This module is being developed.
 # Tested on local PC
 
 # IMPORTS
-#import locale
-#import os
-#import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import requests
 
-URL_PREFIX_GH = "https://raw.githubusercontent.com"
-URL_PREFIX_EASYLIST = "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties"
-URL_PREFIX_EASYLIST2 = "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties"
-URL_PART_ADG = "AdguardTeam/FiltersRegistry/master/filters"
-URL_PART_EL = "easylist/antiadblockfilters/refs/heads/master/antiadblockfilters"
+URL_PREFIX_GH = \
+"https://raw.githubusercontent.com"
+URL_PREFIX_EASYLIST = \
+"https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties"
+URL_PREFIX_EASYLIST2 = \
+"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties"
+URL_PART_ADG = \
+"AdguardTeam/FiltersRegistry/master/filters"
+URL_PART_EL = \
+"easylist/antiadblockfilters/refs/heads/master/antiadblockfilters"
 
 # Testing list URLs
 TESTING_URLS = [
