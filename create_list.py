@@ -16,10 +16,10 @@ This module is being developed.
 # IMPORTS
 import locale
 import os
-import requests
 import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import requests
 
 # Testing list URLs
 TESTING_URLS = [
@@ -122,7 +122,7 @@ print("Downloading lists..")
 # Downloads the text data from the URLs
 for URL in URLS:
     print(f"Trying download: {URL}")
-    response = requests.get(URL)
+    response = requests.get(URL, timeout=10)
     if response.ok:
         FILTER_LISTS.append(response.text)
     else:
