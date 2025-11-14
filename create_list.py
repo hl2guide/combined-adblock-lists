@@ -22,6 +22,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 URL_PREFIX_GH = "https://raw.githubusercontent.com"
+URL_PREFIX_EASYLIST = "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties"
 
 # Testing list URLs
 TESTING_URLS = [
@@ -102,7 +103,7 @@ TESTING_URLS = [
     # EasyList - Notifications
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-notifications.txt",
     # EasyList - Annoyances
-    "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist-annoyances.txt",
+    f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
     # uBlock filters - Annoyances
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/annoyances.min.txt",
     # Fanboy's Anti-Facebook List
