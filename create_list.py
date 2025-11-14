@@ -32,6 +32,14 @@ URL_PART_BR = \
     "brave/adblock-lists/refs/heads/master/brave-lists"
 URL_PART_UB = \
     "uBlockOrigin/uAssets/refs/heads/master/filters"
+URL_PART_YTS = \
+    "gijsdev/ublock-hide-yt-shorts/refs/heads/master"
+URL_PART_1 = \
+    "filter_20_Annoyances_MobileApp"
+URL_PART_2 = \
+    "filter_21_Annoyances_Other"
+URL_PREFIX_1 = \
+    "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main"
 
 # Testing list URLs
 TESTING_URLS = [
@@ -76,23 +84,24 @@ TESTING_URLS = [
     # Web Annoyances Ultralist by yourduskquibbles
     f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
     # Hide YouTube Shorts
-    f"{URL_PREFIX_GH}/gijsdev/ublock-hide-yt-shorts/refs/heads/master/list.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_YTS}/list.txt",
     # AdGuard Popups filter
     f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_19_Annoyances_Popups/filter.txt",
     # AdGuard Cookie Notices filter
     f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_18_Annoyances_Cookies/filter.txt",
     # AdGuard Mobile App Banners filter
-    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_20_Annoyances_MobileApp/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/{URL_PART_1}/filter.txt",
     # AdGuard Other Annoyances filter
-    f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_21_Annoyances_Other/filter.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_ADG}/{URL_PART_2}/filter.txt",
     # AdGuard Widgets filter
     f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_22_Annoyances_Widgets/filter.txt",
     # Adblock Warning Removal List
     f"{URL_PREFIX_GH}/{URL_PART_EL}/antiadblock_english.txt",
     # EasyList
-    "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt",
+    f"{URL_PREFIX_1}/thirdparties/easylist.txt",
     # AdGuard - Base filter
-    "https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt",
+    "https://filters.adtidy.org/extension/ublock/filters/" + \
+        "2_without_easylist.txt",
     # AdGuard - Mobile Ads filter
     "https://filters.adtidy.org/extension/ublock/filters/11.txt",
     # EasyPrivacy
@@ -100,21 +109,24 @@ TESTING_URLS = [
     # EasyList - Cookie Notices
     f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
     # EasyList - Social Widgets
-    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-social.txt",
+    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" + \
+        "thirdparties/easylist-social.txt",
     # AdGuard Social Media filter
     "https://filters.adtidy.org/extension/ublock/filters/4.txt",
     # Anti-Facebook List
     "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyList - Chat Widgets
-    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-chat.txt",
+    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" + \
+        "thirdparties/easylist-chat.txt",
     # EasyList - Newsletter Notices
-    "https://ublockorigin.pages.dev/thirdparties/easylist-newsletters.txt",
+    "https://ublockorigin.pages.dev/thirdparties/" + \
+        "easylist-newsletters.txt",
     # EasyList - Notifications
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
     # uBlock filters - Annoyances
-    "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/annoyances.min.txt",
+    f"{URL_PREFIX_1}/filters/annoyances.min.txt",
     # Fanboy's Anti-Facebook List
     "https://www.fanboy.co.nz/fanboy-antifacebook.txt"
 ]
