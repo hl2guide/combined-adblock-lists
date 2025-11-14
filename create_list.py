@@ -25,15 +25,16 @@ URL_PREFIX_GH = "https://raw.githubusercontent.com"
 
 # Testing list URLs
 TESTING_URLS = [
-    # Brave - YouTube Shorts (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave Lists : (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
-    # Brave - YouTube Recommendations (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave - YouTube Recommendations
     f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt",
-    # Brave - YouTube Distractions (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave - YouTube Distractions
     f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt",
-    # Brave - Social Elements Blocker (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave - Social Elements Blocker
     f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/brave-social.txt",
-    # Brave-specific additions to Easylist Cookie (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave-specific additions to Easylist Cookie
     f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/brave-cookie-specific.txt",
     # uBlock - Cookie Notices
     f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-cookies.txt",
@@ -54,6 +55,30 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt",
     # uBlock - Unbreak
     f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt",
+    # YouTube Neuter - sponsorblock
+    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
+    # YouTube Neuter
+    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
+    # HaGeZi's The World's Most Abused TLDs
+    f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
+    # YouTube Clear View
+    f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
+    # Web Annoyances Ultralist by yourduskquibbles
+    f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
+    # Hide YouTube Shorts
+    f"{URL_PREFIX_GH}/gijsdev/ublock-hide-yt-shorts/refs/heads/master/list.txt",
+    # AdGuard Popups filter
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt",
+    # AdGuard Cookie Notices filter
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt",
+    # AdGuard Mobile App Banners filter
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt",
+    # AdGuard Other Annoyances filter
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt",
+    # AdGuard Widgets filter
+    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt",
+    # Adblock Warning Removal List
+    f"{URL_PREFIX_GH}/easylist/antiadblockfilters/refs/heads/master/antiadblockfilters/antiadblock_english.txt",
     # EasyList
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt",
     # AdGuard - Base filter
@@ -80,30 +105,6 @@ TESTING_URLS = [
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist-annoyances.txt",
     # uBlock filters - Annoyances
     "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/annoyances.min.txt",
-    # YouTube Neuter - sponsorblock
-    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
-    # YouTube Neuter
-    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
-    # HaGeZi's The World's Most Abused TLDs
-    f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
-    # YouTube Clear View
-    f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
-    # Web Annoyances Ultralist by yourduskquibbles
-    f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
-    # Hide YouTube Shorts
-    f"{URL_PREFIX_GH}/gijsdev/ublock-hide-yt-shorts/refs/heads/master/list.txt",
-    # AdGuard Popups filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt",
-    # AdGuard Cookie Notices filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt",
-    # AdGuard Mobile App Banners filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt",
-    # AdGuard Other Annoyances filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt",
-    # AdGuard Widgets filter
-    f"{URL_PREFIX_GH}/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt",
-    # Adblock Warning Removal List
-    f"{URL_PREFIX_GH}/easylist/antiadblockfilters/refs/heads/master/antiadblockfilters/antiadblock_english.txt",
     # Fanboy's Anti-Facebook List
     "https://www.fanboy.co.nz/fanboy-antifacebook.txt"
 ]
