@@ -19,19 +19,19 @@ from zoneinfo import ZoneInfo
 import requests
 
 URL_PREFIX_GH = \
-"https://raw.githubusercontent.com"
+    "https://raw.githubusercontent.com"
 URL_PREFIX_EASYLIST = \
-"https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties"
+    "https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties"
 URL_PREFIX_EASYLIST2 = \
-"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties"
+    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties"
 URL_PART_ADG = \
-"AdguardTeam/FiltersRegistry/master/filters"
+    "AdguardTeam/FiltersRegistry/master/filters"
 URL_PART_EL = \
-"easylist/antiadblockfilters/refs/heads/master/antiadblockfilters"
+    "easylist/antiadblockfilters/refs/heads/master/antiadblockfilters"
 
 # Testing list URLs
 TESTING_URLS = [
-    # Brave Lists : (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
     # Brave - YouTube Recommendations
