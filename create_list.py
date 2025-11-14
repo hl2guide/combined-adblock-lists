@@ -100,7 +100,7 @@ TESTING_URLS = [
     # EasyList
     f"{URL_PREFIX_1}/thirdparties/easylist.txt",
     # AdGuard - Base filter
-    "https://filters.adtidy.org/extension/ublock/filters/" + \
+    "https://filters.adtidy.org/extension/ublock/filters/" +
         "2_without_easylist.txt",
     # AdGuard - Mobile Ads filter
     "https://filters.adtidy.org/extension/ublock/filters/11.txt",
@@ -109,17 +109,17 @@ TESTING_URLS = [
     # EasyList - Cookie Notices
     f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
     # EasyList - Social Widgets
-    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" + \
+    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
         "thirdparties/easylist-social.txt",
     # AdGuard Social Media filter
     "https://filters.adtidy.org/extension/ublock/filters/4.txt",
     # Anti-Facebook List
     "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyList - Chat Widgets
-    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" + \
+    "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
         "thirdparties/easylist-chat.txt",
     # EasyList - Newsletter Notices
-    "https://ublockorigin.pages.dev/thirdparties/" + \
+    "https://ublockorigin.pages.dev/thirdparties/" +
         "easylist-newsletters.txt",
     # EasyList - Notifications
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
@@ -132,8 +132,6 @@ TESTING_URLS = [
 ]
 
 # Combines the URL lists to one list of URLs
-#urls = adguardURLs + generalURLs
-#urls = urls + testingURLs
 URLS = TESTING_URLS
 
 # Sorts the combined list of URLs : 2025-08-31 09:17:43 +1000
@@ -157,22 +155,15 @@ for URL in URLS:
 print("Combining and cleaning lists..")
 COMBINED = "\n".join(FILTER_LISTS)
 LINES = set(LINE.strip() for LINE in COMBINED.splitlines() \
-    if LINE.strip() and \
+    if LINE.strip() and
     # Skips lines that are allow rules or comments
-    not LINE.startswith("[Adblock Plus") and \
-    #not line.startswith("@@") and \
     not LINE.startswith("!") and \
     not LINE.startswith("#") and \
-    not LINE.startswith("||") and \
-    #not line.startswith("*") and \
-    # Remove junk lines (17.10.2025 changes)
-    #not line.startswith("$") and \
-    #not line.startswith(".") and \
-    #not line.startswith("/") and \
-    #not line.startswith("~") and \
     not LINE.startswith("%") and \
-    not LINE.startswith("-") and \
     not LINE.startswith("&") and \
+    not LINE.startswith("-") and \
+    not LINE.startswith("[Adblock Plus") and \
+    not LINE.startswith("||") and \
     not LINE.startswith("мв"))
 
 OUTPUT_FILE = "cosmetic_combined_filterlist.txt"
