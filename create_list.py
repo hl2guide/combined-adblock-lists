@@ -8,7 +8,7 @@ This module is being developed.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
 # Version 1.0.1
-# Edited: 2025-11-14 13:29:04 +1100
+# Edited: 2025-11-14 14:34:27 +1100
 
 # Generated using AI
 # Tested on local PC
@@ -28,39 +28,43 @@ URL_PART_ADG = \
     "AdguardTeam/FiltersRegistry/master/filters"
 URL_PART_EL = \
     "easylist/antiadblockfilters/refs/heads/master/antiadblockfilters"
+URL_PART_BR = \
+    "brave/adblock-lists/refs/heads/master/brave-lists"
+URL_PART_UB = \
+    "uBlockOrigin/uAssets/refs/heads/master/filters"
 
 # Testing list URLs
 TESTING_URLS = [
     # Brave: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
-    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
     # Brave - YouTube Recommendations
-    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-recommended.txt",
     # Brave - YouTube Distractions
-    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-distracting.txt",
     # Brave - Social Elements Blocker
-    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/brave-social.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_BR}/brave-social.txt",
     # Brave-specific additions to Easylist Cookie
-    f"{URL_PREFIX_GH}/brave/adblock-lists/refs/heads/master/brave-lists/brave-cookie-specific.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_BR}/brave-cookie-specific.txt",
     # uBlock - Cookie Notices
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-cookies.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/annoyances-cookies.txt",
     # uBlock - Other Annoyances
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-others.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/annoyances-others.txt",
     # uBlock - Badware Risks
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/badware.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/badware.txt",
     # uBlock filters (years)
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2020.txt",
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2021.txt",
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2022.txt",
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2023.txt",
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2024.txt",
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2025.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters-2020.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters-2021.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters-2022.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters-2023.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters-2024.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters-2025.txt",
     # uBlock - Privacy
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/privacy.txt",
     # uBlock - Filters
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/filters.txt",
     # uBlock - Unbreak
-    f"{URL_PREFIX_GH}/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt",
+    f"{URL_PREFIX_GH}/{URL_PART_UB}/unbreak.txt",
     # YouTube Neuter - sponsorblock
     f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
