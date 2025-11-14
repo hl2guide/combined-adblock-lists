@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.13.9"]
+        python-version: ["3.13"]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5 # Action to clone the repo
