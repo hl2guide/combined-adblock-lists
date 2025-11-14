@@ -155,18 +155,18 @@ for URL in URLS:
 print("Combining and cleaning lists..")
 COMBINED = "\n".join(FILTER_LISTS)
 LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
-if (
-    LINE.strip() and
-    # Skips lines that are allow rules or comments
-    not LINE.startswith("!") and
-    not LINE.startswith("#") and
-    not LINE.startswith("%") and
-    not LINE.startswith("&") and
-    not LINE.startswith("-") and
-    not LINE.startswith("[Adblock Plus") and
-    not LINE.startswith("||") and
-    not LINE.startswith("мв")
-)
+            if (
+                LINE.strip() and
+                # Skips lines that are allow rules or comments
+                not LINE.startswith("!") and
+                not LINE.startswith("#") and
+                not LINE.startswith("%") and
+                not LINE.startswith("&") and
+                not LINE.startswith("-") and
+                not LINE.startswith("[Adblock Plus") and
+                not LINE.startswith("||") and
+                not LINE.startswith("мв")
+            )
 )
 
 OUTPUT_FILE = "cosmetic_combined_filterlist.txt"
