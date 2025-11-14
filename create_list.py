@@ -101,7 +101,7 @@ TESTING_URLS = [
     f"{URL_PREFIX_1}/thirdparties/easylist.txt",
     # AdGuard - Base filter
     "https://filters.adtidy.org/extension/ublock/filters/" +
-        "2_without_easylist.txt",
+    "2_without_easylist.txt",
     # AdGuard - Mobile Ads filter
     "https://filters.adtidy.org/extension/ublock/filters/11.txt",
     # EasyPrivacy
@@ -110,17 +110,17 @@ TESTING_URLS = [
     f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
     # EasyList - Social Widgets
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
-        "thirdparties/easylist-social.txt",
+    "thirdparties/easylist-social.txt",
     # AdGuard Social Media filter
     "https://filters.adtidy.org/extension/ublock/filters/4.txt",
     # Anti-Facebook List
     "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyList - Chat Widgets
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
-        "thirdparties/easylist-chat.txt",
+    "thirdparties/easylist-chat.txt",
     # EasyList - Newsletter Notices
     "https://ublockorigin.pages.dev/thirdparties/" +
-        "easylist-newsletters.txt",
+    "easylist-newsletters.txt",
     # EasyList - Notifications
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
