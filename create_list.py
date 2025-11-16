@@ -7,8 +7,8 @@ This module is being developed.
 # Downloads and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.1
-# Edited: 2025-11-14 14:34:27 +1100
+# Version 1.0.2
+# Edited: 2025-11-16 21:36:37 +1100
 
 # Generated using AI
 # Tested on local PC
@@ -43,7 +43,7 @@ URL_PREFIX_1 = \
 
 # Testing list URLs
 TESTING_URLS = [
-    # Brave: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
+    # Brave Filterlists: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
     # Brave - YouTube Recommendations
@@ -54,6 +54,7 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/{URL_PART_BR}/brave-social.txt",
     # Brave-specific additions to Easylist Cookie
     f"{URL_PREFIX_GH}/{URL_PART_BR}/brave-cookie-specific.txt",
+    # uBlock Filterlists
     # uBlock - Cookie Notices
     f"{URL_PREFIX_GH}/{URL_PART_UB}/annoyances-cookies.txt",
     # uBlock - Other Annoyances
@@ -73,18 +74,20 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/{URL_PART_UB}/filters.txt",
     # uBlock - Unbreak
     f"{URL_PREFIX_GH}/{URL_PART_UB}/unbreak.txt",
+    # uBlock filters - Annoyances
+    f"{URL_PREFIX_1}/filters/annoyances.min.txt",
     # YouTube Neuter - sponsorblock
     f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
     f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
-    # HaGeZi's The World's Most Abused TLDs
-    f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
     # YouTube Clear View
     f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
-    # Web Annoyances Ultralist by yourduskquibbles
-    f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
     # Hide YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_YTS}/list.txt",
+    # HaGeZi's The World's Most Abused TLDs
+    f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
+    # Web Annoyances Ultralist by yourduskquibbles
+    f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
     # AdGuard Popups filter
     f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_19_Annoyances_Popups/filter.txt",
     # AdGuard Cookie Notices filter
@@ -104,6 +107,10 @@ TESTING_URLS = [
     "2_without_easylist.txt",
     # AdGuard - Mobile Ads filter
     "https://filters.adtidy.org/extension/ublock/filters/11.txt",
+    # AdGuard Social Media filter
+    "https://filters.adtidy.org/extension/ublock/filters/4.txt",
+    # Anti-Facebook List
+    "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyPrivacy
     "https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
     # EasyList - Cookie Notices
@@ -111,10 +118,6 @@ TESTING_URLS = [
     # EasyList - Social Widgets
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
     "thirdparties/easylist-social.txt",
-    # AdGuard Social Media filter
-    "https://filters.adtidy.org/extension/ublock/filters/4.txt",
-    # Anti-Facebook List
-    "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyList - Chat Widgets
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
     "thirdparties/easylist-chat.txt",
@@ -125,8 +128,6 @@ TESTING_URLS = [
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
-    # uBlock filters - Annoyances
-    f"{URL_PREFIX_1}/filters/annoyances.min.txt",
     # Fanboy's Anti-Facebook List
     "https://www.fanboy.co.nz/fanboy-antifacebook.txt"
 ]
@@ -134,7 +135,7 @@ TESTING_URLS = [
 # Combines the URL lists to one list of URLs
 URLS = TESTING_URLS
 
-# Sorts the combined list of URLs : 2025-08-31 09:17:43 +1000
+# Sorts the combined list of URLs : 2025-11-16 21:34:58 +1100
 URLS = sorted(URLS)
 
 FILTER_LISTS = []
