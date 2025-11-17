@@ -4,7 +4,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 
 - Python code runs on GitHub directly using GitHub Actions
 - Updates every 4 hours, every day
-- Includes specific filters lists from _Brave_, _uBlock_, _YouTube_, _AdGuard_, _EasyList_, _EasyPrivacy_
+- Includes specific filters lists from _Brave_, _uBlock_, _AdGuard_, _EasyList_, _EasyPrivacy_ and _YouTube Cleanup_
     - (can be viewed in the `create_list.py` file.)
 - All domain blocking rules are excluded from the list
 - Duplicate lines are ignored and the list is sorted
