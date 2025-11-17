@@ -1,6 +1,6 @@
 # combined-adblock-lists
 
-A combined filter list of the very best cosmetic rules for use in Adblockers like **uBlock Origin** and **AdGuard**'s browser extension.
+A combined filter list of the very best cosmetic rules for use in Adblockers like **uBlock Origin** and **AdGuard**'s browser extension or app for Windows 11.
 
 - Python code runs on GitHub directly using GitHub Actions
 - Updates every 4 hours, every day
