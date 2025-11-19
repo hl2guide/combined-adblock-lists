@@ -9,7 +9,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 - All domain blocking rules are excluded from the list
 - Duplicate lines are ignored and the list is sorted
 - The list is approximately 10MB in size
-- Does not work in AdGuard Home or similar software
+- Does not work in AdGuard Home or similar domain-based software
 
 ## Direct raw text link
 
