@@ -7,8 +7,8 @@ This module is being developed.
 # Downloads and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.2
-# Edited: 2025-11-16 21:36:37 +1100
+# Version 1.0.3
+# Edited: 2025-11-19 15:18:14 +1100
 
 # Generated using AI
 # Tested on local PC
@@ -128,14 +128,16 @@ TESTING_URLS = [
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
-    # Fanboy's Anti-Facebook List
-    "https://www.fanboy.co.nz/fanboy-antifacebook.txt"
+    # Fanboy's Anti-Facebook and Age Gate Filterlists
+    "https://fanboy.co.nz/fanboy-antifacebook.txt",
+    "https://fanboy.co.nz/fanboy-agegate.txt",
+    "https://easylist-downloads.adblockplus.org/fanboy-social.txt"
 ]
 
 # Combines the URL lists to one list of URLs
 URLS = TESTING_URLS
 
-# Sorts the combined list of URLs : 2025-11-16 21:34:58 +1100
+# Sorts the combined list of URLs : 2025-11-19 15:19:25 +1100
 URLS = sorted(URLS)
 
 FILTER_LISTS = []
