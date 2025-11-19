@@ -4,12 +4,12 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 
 - Includes specific filters lists from _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
     - (can be viewed in the `create_list.py` file.)
-- _Does not work in AdGuard Home or similar domain-based software_
 - All domain blocking rules are excluded from the list
+    - _Does not work in AdGuard Home or similar domain-based software_
 - Comments and duplicate lines are ignored and the list is sorted
 - The list is approximately 10MB in size
 - Python code runs on GitHub directly using GitHub Actions
-- Updates every 4 hours, every day
+    - Updates every 4 hours, every day
 
 ## Direct raw text link
 
