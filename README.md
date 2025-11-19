@@ -2,7 +2,7 @@
 
 A combined filter list of the very best cosmetic rules for use in Adblockers like **uBlock Origin** and **AdGuard**'s browser extension or app for Windows 11.
 
-- Includes specific filters lists from _Brave_, _uBlock_, _AdGuard_, _EasyList_, _EasyPrivacy_ and _YouTube Cleanup_
+- Includes specific filters lists from _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
     - (can be viewed in the `create_list.py` file.)
 - _Does not work in AdGuard Home or similar domain-based software_
 - All domain blocking rules are excluded from the list
