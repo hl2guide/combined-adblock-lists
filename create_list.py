@@ -7,16 +7,26 @@ This module is being developed.
 # Downloads and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.3
-# Edited: 2025-11-19 15:18:14 +1100
+# Version 1.0.4
+# Edited: 2025-11-22 13:27:39 +1100
 
 # Generated using AI
-# Tested on local PC
+# Tested on local PC and on GitHub
 
 # IMPORTS
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import requests
+
+def datetime_sydney() -> str:
+    """
+    Returns the current datetime in Sydney, Australia as a string.
+
+    Returns:
+        string: The current datetime in Sydney, Australia.
+    """
+    now = datetime.now(ZoneInfo("Australia/Sydney"))
+    return now.strftime("%Y.%m.%d.%H%M%z AEST")  # e.g., 2025.11.22.1435+1100
 
 URL_PREFIX_GH = \
     "https://raw.githubusercontent.com"
@@ -197,24 +207,42 @@ for LINE in LINES:
         SEEN.add(LINE)
         # 3 lines were here.. (|| related)
         UNIQUE_LINES.append(LINE)
+
+LAST_MODIFIED = datetime_sydney()
+
+COMMENT_BLOCK = f"""[Adblock Plus 2.0]
+! Title: Cosmetic Combined Filterlist
+! Version: {LAST_MODIFIED}
+! Last modified: {LAST_MODIFIED}
+! Expires: 4 hours (update frequency)
+! Homepage: https://github.com/hl2guide/combined-adblock-lists
+! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
+!
+
+!--------------------------Cosmetic filtering rules-----------------------------!
+"""
+
+# Adds the comment block to start of the text file
+UNIQUE_LINES = COMMENT_BLOCK + UNIQUE_LINES
+
 # Writes out the text file
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.writelines(UNIQUE_LINES)
 
 # Get the current date and time
-SYDNEY_TIMEZONE = ZoneInfo('Australia/Sydney')
-NOW_IN_SYDNEY = datetime.now(SYDNEY_TIMEZONE)
+# SYDNEY_TIMEZONE = ZoneInfo('Australia/Sydney')
+# NOW_IN_SYDNEY = datetime.now(SYDNEY_TIMEZONE)
 
-NOW = NOW_IN_SYDNEY.strftime("%A, %B %d, %Y, %H:%M:%S %p")
-DATE_STRING = NOW
+# NOW = NOW_IN_SYDNEY.strftime("%A, %B %d, %Y, %H:%M:%S %p")
+# DATE_STRING = NOW
 
 # Create a text file with a specified filename
-FILENAME = "current_date.txt"
+# FILENAME = "current_date.txt"
 
-try:
-    with open(FILENAME, "w", encoding="utf-8") as file:
-        # Write only the formatted date string to the file
-        file.write(DATE_STRING)
-    print(f"File '{FILENAME}' created with date '{DATE_STRING}'.")
-except IOError as e:
-    print(f"An error occurred while creating the file: {e}")
+# try:
+#     with open(FILENAME, "w", encoding="utf-8") as file:
+#         # Write only the formatted date string to the file
+#         file.write(DATE_STRING)
+#     print(f"File '{FILENAME}' created with date '{DATE_STRING}'.")
+# except IOError as e:
+#     print(f"An error occurred while creating the file: {e}")
