@@ -223,7 +223,7 @@ COMMENT_BLOCK = f"""[Adblock Plus 2.0]
 """
 
 # Adds the comment block to start of the text file
-UNIQUE_LINES = COMMENT_BLOCK + UNIQUE_LINES
+UNIQUE_LINES.insert(0, COMMENT_BLOCK)
 
 # Writes out the text file
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
