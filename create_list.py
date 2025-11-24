@@ -141,7 +141,11 @@ TESTING_URLS = [
     # Fanboy's Anti-Facebook and Age Gate Filterlists
     "https://fanboy.co.nz/fanboy-antifacebook.txt",
     "https://fanboy.co.nz/fanboy-agegate.txt",
-    "https://easylist-downloads.adblockplus.org/fanboy-social.txt"
+    "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
+    # AdBlockPlus Filterlists
+    "https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt",
+    "https://easylist-downloads.adblockplus.org/v3/full/fanboy-notifications.txt",
+    "https://easylist-downloads.adblockplus.org/v3/full/abp-filters-anti-cv.txt"
 ]
 
 # Combines the URL lists to one list of URLs
@@ -176,6 +180,7 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not LINE.startswith("%") and
                 not LINE.startswith("&") and
                 not LINE.startswith("-") and
+                not LINE.startswith("@@") and
                 not LINE.startswith("[Adblock Plus") and
                 not LINE.startswith("||") and
                 not LINE.startswith("мв")
