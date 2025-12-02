@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.13"]
+        python-version: ["3.14"]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5 # Action to clone the repo
+        uses: actions/checkout@v6 # Action to clone the repo
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6
         with:
