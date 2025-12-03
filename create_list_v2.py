@@ -108,7 +108,7 @@ def main():
             errors.append((url, payload))
         else:
             # Separate each file with a clear delimiter (optional)
-            ALL_TEXT += f"\n--- Begin {url} ---\n{payload}\n--- End {url} ---\n"
+            ALL_TEXT1 += f"\n--- Begin {url} ---\n{payload}\n--- End {url} ---\n"
 
     # -----------------------------------------------------------------
     # Output / further processing
