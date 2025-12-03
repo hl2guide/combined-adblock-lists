@@ -95,7 +95,7 @@ def main():
     # Assemble the final string that holds every successful download.
     # You could also keep a dict if you need per‑URL access.
     # -----------------------------------------------------------------
-    all_text = ""
+    ALL_TEXT = ""
     errors = []
 
     while not result_q.empty():
@@ -104,13 +104,13 @@ def main():
             errors.append((url, payload))
         else:
             # Separate each file with a clear delimiter (optional)
-            all_text += f"\n--- Begin {url} ---\n{payload}\n--- End {url} ---\n"
+            ALL_TEXT += f"\n--- Begin {url} ---\n{payload}\n--- End {url} ---\n"
 
     # -----------------------------------------------------------------
     # Output / further processing
     # -----------------------------------------------------------------
     #print("\n=== Combined Text ===")
-    #print(all_text[:500])          # preview first 500 chars
+    #print(ALL_TEXT[:500])          # preview first 500 chars
     #print("…")                     # indicate there may be more
 
     if errors:
@@ -118,9 +118,9 @@ def main():
         for u, msg in errors:
             print(f" • {u}: {msg}")
 
-    # `all_text` now contains the concatenated contents of every successful download
+    # `ALL_TEXT` now contains the concatenated contents of every successful download
     # You can return it, write it to a file, feed it to another function, etc.
-    return all_text
+    return ALL_TEXT
 
 URL_PREFIX_GH = \
     "https://raw.githubusercontent.com"
@@ -256,12 +256,14 @@ URLS = sorted(URLS)
 
 FILTER_LISTS = []
 
+ALL_TEXT = ''
+
 if __name__ == "__main__":
-    all_text = main()
+    ALL_TEXT = main()
 
-# print(len(all_text.splitlines()))
+# print(len(ALL_TEXT.splitlines()))
 
-COMBINED = all_text
+COMBINED = ALL_TEXT
 
 # Combines and cleans up text data
 print()
