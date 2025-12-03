@@ -99,7 +99,7 @@ def main():
     # Assemble the final string that holds every successful download.
     # You could also keep a dict if you need per‑URL access.
     # -----------------------------------------------------------------
-    ALL_TEXT1 = ""
+    all_text1 = ""
     errors = []
 
     while not result_q.empty():
@@ -108,7 +108,7 @@ def main():
             errors.append((url, payload))
         else:
             # Separate each file with a clear delimiter (optional)
-            ALL_TEXT1 += f"\n--- Begin {url} ---\n{payload}\n--- End {url} ---\n"
+            all_text1 += f"\n--- Begin {url} ---\n{payload}\n--- End {url} ---\n"
 
     # -----------------------------------------------------------------
     # Output / further processing
@@ -124,7 +124,7 @@ def main():
 
     # `ALL_TEXT` now contains the concatenated contents of every successful download
     # You can return it, write it to a file, feed it to another function, etc.
-    return ALL_TEXT1
+    return all_text1
 
 URL_PREFIX_GH = \
     "https://raw.githubusercontent.com"
@@ -260,14 +260,14 @@ URLS = sorted(URLS)
 
 FILTER_LISTS = []
 
-ALL_TEXT = ''
+all_text = ''
 
 if __name__ == "__main__":
-    ALL_TEXT = main()
+    all_text = main()
 
 # print(len(ALL_TEXT.splitlines()))
 
-COMBINED = ALL_TEXT
+COMBINED = all_text
 
 # Combines and cleans up text data
 print()
