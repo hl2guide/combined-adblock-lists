@@ -57,7 +57,7 @@ def download_worker(url_q: queue.Queue, result_q: queue.Queue):
             result_q.put((url, txt))
             print(f"\n[{threading.current_thread().name}] ✓ {url}")
 
-        except Exception as exc:
+        except TimeoutError as exc:
             # Record the failure so the main thread can see it
             result_q.put((url, f"<error: {exc}>"))
             print(f"[{threading.current_thread().name}] ✗ {url} - {exc}")
