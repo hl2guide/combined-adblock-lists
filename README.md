@@ -22,4 +22,4 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 
 # Testing v2
 
-I'm currently testing **v2** that uses threading and workers to speed up the Python script.
+I'm currently testing **v2** that uses threading and many workers to speed up the Python script from 25 seconds to 3 seconds.
