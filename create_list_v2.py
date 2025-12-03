@@ -99,7 +99,7 @@ def main():
     # Assemble the final string that holds every successful download.
     # You could also keep a dict if you need per‑URL access.
     # -----------------------------------------------------------------
-    ALL_TEXT = ""
+    ALL_TEXT1 = ""
     errors = []
 
     while not result_q.empty():
@@ -124,7 +124,7 @@ def main():
 
     # `ALL_TEXT` now contains the concatenated contents of every successful download
     # You can return it, write it to a file, feed it to another function, etc.
-    return ALL_TEXT
+    return ALL_TEXT1
 
 URL_PREFIX_GH = \
     "https://raw.githubusercontent.com"
