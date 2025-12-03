@@ -66,6 +66,10 @@ def download_worker(url_q: queue.Queue, result_q: queue.Queue):
             url_q.task_done()
 
 def main():
+    """
+    The main function.
+    """
+
     # Queues: one for work, one for results
     work_q = queue.Queue()
     result_q = queue.Queue()
