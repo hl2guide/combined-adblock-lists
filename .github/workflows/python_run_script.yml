@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run script and generate changes
-        run: python create_list.py
+        run: python create_list_v2.py
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
