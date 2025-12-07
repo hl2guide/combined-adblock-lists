@@ -27,8 +27,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Run script and generate changes
+      - name: Run create_list_v2.py
         run: python create_list_v2.py
+      - name: Run create_torrent_trackers_list.py
         run: python create_torrent_trackers_list.py
       - name: Commit and push changes
         run: |
