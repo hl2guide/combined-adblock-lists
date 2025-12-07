@@ -2,6 +2,8 @@ name: Python CI - format using "black", lint using "flake8" then analyse using "
 
 on: [push]
 
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
