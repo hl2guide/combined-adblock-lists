@@ -1,6 +1,6 @@
 import asyncio
-import aiohttp
 import re
+import aiohttp
 
 # ----------------------------------------------------------------------
 # Helper: fetch raw file content from a GitHub URL
