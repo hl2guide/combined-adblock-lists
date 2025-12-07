@@ -1,3 +1,15 @@
+
+"""
+Creates a combined list of torrent trackers every 4 hours using GitHub actions.
+"""
+
+# Version: 1.0
+# Edited: 2025-12-07 12:28:02 +1100
+
+# Generated using AI
+# Tested on local PC and on GitHub
+
+# IMPORTS
 import asyncio
 import re
 import aiohttp

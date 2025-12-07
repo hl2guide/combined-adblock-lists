@@ -1,14 +1,13 @@
 
 """
-Creates a text file every hour using GitHub actions.
-This module is being developed.
+Creates a combined text file of cosmetic filter every 4 hours using GitHub actions.
 """
 
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.1
-# Edited: 2025-12-03 13:34:57 +1100
+# Version 2.0.2
+# Edited: 2025-12-07 12:27:44 +1100
 
 # Generated using AI
 # Tested on local PC and on GitHub
