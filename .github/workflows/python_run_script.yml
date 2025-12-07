@@ -29,8 +29,6 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run create_list_v2.py
         run: python create_list_v2.py
-      - name: Run create_torrent_trackers_list.py
-        run: python create_torrent_trackers_list.py
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
