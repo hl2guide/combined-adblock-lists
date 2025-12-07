@@ -67,7 +67,7 @@ if __name__ == "__main__":
     combined = asyncio.run(combine_tracker_lists(github_urls))
     #print(combined)
 
-    customlines = """\
+    CUSTOM_LINES = """\
     http://plab.site/ann?uk=3ZA1fbbgjL
     http://plab.site/ann?uk=0EQxNEINP3
     http://plab.site/ann?uk=0EQxNEINP3
@@ -235,7 +235,7 @@ if __name__ == "__main__":
     http://ipv4announce.sktorrent.eu:6969/announce
     """
 
-    combined = combined + customlines
+    combined = combined + CUSTOM_LINES
     combined = double_space_trackers(combined)
 
     # Write the combined list to a file
