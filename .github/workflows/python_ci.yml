@@ -16,6 +16,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies for Python CI
       run: |
+        pip install pylint pytest pytest-cov
         if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
     - name: Format with Black
       run: |
