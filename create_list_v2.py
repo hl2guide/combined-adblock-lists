@@ -186,7 +186,7 @@ TESTING_URLS = [
     # Disabled YouTube Neuter Filter Lists to test fullscreen video fix
     # (2025-12-12 10:55:51 +1100)
     # YouTube Neuter - sponsorblock
-    #"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
+    #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
     #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
     # YouTube Clear View
