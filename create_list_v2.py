@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 4 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.2
-# Edited: 2025-12-07 13:01:50 +1100
+# Version 2.0.3
+# Edited: 2025-12-12 10:53:52 +1100
 
 # Generated using AI
 # Tested on local PC and on GitHub
@@ -183,10 +183,12 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/{URL_PART_UB}/unbreak.txt",
     # uBlock filters - Annoyances
     f"{URL_PREFIX_1}/filters/annoyances.min.txt",
+    # Disabled YouTube Neuter Filter Lists to test fullscreen video fix
+    # (2025-12-12 10:55:51 +1100)
     # YouTube Neuter - sponsorblock
-    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
+    #"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
-    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
+    #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
     # YouTube Clear View
     f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
     # Hide YouTube Shorts
