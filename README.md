@@ -20,12 +20,13 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 - Comments and duplicate lines are ignored and the list is sorted
 - The list is approximately 10MB in size
 - Python code runs on GitHub directly using GitHub Actions
-    - Updates every 4 hours, every day
+    - Updates every 3 hours, every day
 
 ## Testing v2
 
 I'm currently testing **v2** that uses threading and many workers to speed up the Python script.
 
+I also changed the frequency of generation from every 4 hours to every 3 hours.
 
 Item | Improvement
 ---------|---------

@@ -2,7 +2,7 @@ name: Python Run - every 4 hours run a script and then commit to GitHub repo
 
 on:
   schedule:
-  - cron: '0 */4 * * *' # Run every 4 hours, every day
+  - cron: '0 */3 * * *' # Run every 3 hours, every day
 
   workflow_dispatch:
 
