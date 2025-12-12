@@ -285,6 +285,7 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not LINE.startswith("-") and
                 not LINE.startswith("@@") and
                 not LINE.startswith("[Adblock Plus") and
+                not LINE.startswith("[uBlock") and
                 not LINE.startswith("||") and
                 not LINE.startswith("мв")
             )
