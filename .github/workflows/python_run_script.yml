@@ -23,6 +23,18 @@ jobs:
         uses: actions/setup-python@v6.1.0
         with:
           python-version: ${{ matrix.python-version }} # Specify the Python version
+      - name: Cache pip packages
+        id: pip-cache
+        uses: actions/cache@v5
+        with:
+        # Cache key includes OS, Python version, and a hash of the lock file
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements_ci.txt') }}
+        # Restore from any previous cache with the same OS and Python version
+          restore-keys: |
+            ${{ runner.os }}-pip-
+        # Directories to cache (default pip cache location)
+          path: |
+            ~/.cache/pip
       - name: Install dependencies
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -38,4 +50,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+# OLD
 # python -m pip install --upgrade pip
