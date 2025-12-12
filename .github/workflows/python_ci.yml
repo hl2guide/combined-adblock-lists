@@ -14,11 +14,11 @@ jobs:
         python-version: ["3.14"]
     steps:
       - uses: actions/checkout@v6
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: 1. Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6.1.0
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Cache pip packages
+      - name: 2. Cache pip packages
         uses: actions/cache@v4
         with:
         # Cache key includes OS, Python version, and a hash of the lock file
@@ -29,18 +29,18 @@ jobs:
         # Directories to cache (default pip cache location)
           path: |
             ~/.cache/pip
-      - name: Install dependencies for Python CI
+      - name: 3. Install dependencies for Python CI
         run: |
           pip install pylint pytest pytest-cov
           if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
-      - name: Format with Black
+      - name: 4. Format with Black
         run: |
           black .
           black --check .
-      - name: Lint with Flake8
+      - name: 5. Lint with Flake8
         run: |
           flake8 . --count --show-source --statistics --max-line-length=90
-      - name: Analyse code with pylint
+      - name: 6. Analyse code with pylint
         run: |
           pylint $(git ls-files '*.py')
 
