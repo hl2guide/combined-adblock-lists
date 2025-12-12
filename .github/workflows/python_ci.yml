@@ -19,6 +19,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Cache pip packages
+        id: pip-cache
         uses: actions/cache@v5
         with:
         # Cache key includes OS, Python version, and a hash of the lock file
