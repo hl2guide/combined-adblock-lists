@@ -28,7 +28,7 @@ jobs:
         uses: actions/cache@v5
         with:
         # Cache key includes OS, Python version, and a hash of the lock file
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements_ci.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         # Restore from any previous cache with the same OS and Python version
           restore-keys: |
             ${{ runner.os }}-pip-
