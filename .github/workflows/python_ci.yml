@@ -38,8 +38,8 @@ jobs:
           if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
       - name: Format with Black
         run: |
-          black .
-          black --check .
+          python -m black .
+          python -m black --check .
       - name: Lint with Flake8
         run: |
           flake8 . --count --show-source --statistics --max-line-length=90
