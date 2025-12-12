@@ -1,6 +1,10 @@
 name: Python CI - format using "black", lint using "flake8" then analyse using "Pylint"
 
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -9,26 +13,49 @@ jobs:
       matrix:
         python-version: ["3.14"]
     steps:
+    # 1) Checkout repo
     - uses: actions/checkout@v6
+    # 2) Set up Python
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v6.1.0
       with:
         python-version: ${{ matrix.python-version }}
+    # 3) Restore pip cache
+    - name: Cache pip packages
+      uses: actions/cache@v4
+      with:
+        # Cache key includes OS, Python version, and a hash of the lock file
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements_ci.txt') }}
+        # Restore from any previous cache with the same OS and Python version
+        restore-keys: |
+          ${{ runner.os }}-pip-
+        # Directories to cache (default pip cache location)
+        path: |
+          ~/.cache/pip
+    # 4) Install dependencies
     - name: Install dependencies for Python CI
       run: |
         pip install pylint pytest pytest-cov
         if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
-    - name: Format with Black
+    # 5) Format with Black
+        - name: Format with Black
       run: |
         black .
         black --check .
-    - name: Lint with Flake8
+    # 6) Lint with Flake8
+        - name: Lint with Flake8
       run: |
         flake8 . --count --show-source --statistics --max-line-length=90
-    - name: Analyse code with pylint
+    # 7) Analyse code with pylint
+        - name: Analyse code with pylint
       run: |
         pylint $(git ls-files '*.py')
 
+# SOURCES:
+# https://github.com/actions/setup-python
+# https://github.com/actions/checkout
+
+# OLD:
 # python -m pip install --upgrade pip
 # pip install black
 # pip install flake8
