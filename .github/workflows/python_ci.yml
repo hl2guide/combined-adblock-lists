@@ -13,7 +13,6 @@ jobs:
       matrix:
         python-version: ["3.14"]
     steps:
-    # 1) Checkout repo
     - name: Checkout repo
       - uses: actions/checkout@v6
     # 2) Set up Python
