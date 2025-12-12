@@ -41,14 +41,15 @@ jobs:
           python -m black --check .
       - name: Lint with Flake8
         run: |
-          flake8 . --count --show-source --statistics --max-line-length=90
+          python -m flake8 . --count --show-source --statistics --max-line-length=90
       - name: Analyse code with pylint
         run: |
-          pylint $(git ls-files '*.py')
+          python -m pylint $(git ls-files '*.py')
 
 # SOURCES:
-# https://github.com/actions/setup-python
 # https://github.com/actions/checkout
+# https://github.com/actions/setup-python
+# https://github.com/actions/cache
 
 # OLD:
 # python -m pip install --upgrade pip
