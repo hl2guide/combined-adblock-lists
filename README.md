@@ -26,9 +26,8 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 
 I'm currently testing **v2** that uses threading and many workers to speed up the Python script.
 
-I also changed the frequency of generation from every 4 hours to every 3 hours.
-
 Item | Improvement
 ---------|---------
  `create_list_v2.py` execution time | from 25 seconds to 3 seconds
  total build and run time | from 30 seconds to about 13 seconds
+ frequency of generation | 4 => 3
