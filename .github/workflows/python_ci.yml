@@ -32,6 +32,7 @@ jobs:
             ~/.cache/pip
             ~/.local
       - name: Install dependencies for Python CI
+        if: steps.pip-cache.outputs.cache-hit != 'true'
         run: |
           pip install pylint pytest pytest-cov
           if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
