@@ -30,4 +30,4 @@ Item | Improvement
 ---------|---------
  `create_list_v2.py` execution time | from 25 seconds to 3 seconds
  total build and run time | from 30 seconds to about 13 seconds
- frequency of generation | 4 => 3
+ frequency of generation (hours) | 4 change to 3
