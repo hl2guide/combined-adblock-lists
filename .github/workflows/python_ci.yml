@@ -30,6 +30,7 @@ jobs:
         # Directories to cache (default pip cache location)
           path: |
             ~/.cache/pip
+            ~/.local
       - name: Install dependencies for Python CI
         run: |
           pip install pylint pytest pytest-cov
