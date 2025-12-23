@@ -6,10 +6,10 @@ Creates a combined text file of cosmetic filter every 4 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.3
-# Edited: 2025-12-12 10:53:52 +1100
+# Version 2.0.4
+# Edited: 2025-12-23 14:02:41 +1100
 
-# Generated using AI
+# Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
 
 # IMPORTS
@@ -183,16 +183,20 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/{URL_PART_UB}/unbreak.txt",
     # uBlock filters - Annoyances
     f"{URL_PREFIX_1}/filters/annoyances.min.txt",
-    # Disabled YouTube Neuter Filter Lists to test fullscreen video fix
-    # (2025-12-12 10:55:51 +1100)
+    # Re-enabled YouTube Neuter Filter Lists to test fullscreen video fix
+    # (2025-12-23 13:47:43 +1100)
     # YouTube Neuter - sponsorblock
-    #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
+    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
-    #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
+    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
     # YouTube Clear View
     f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
     # Hide YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_YTS}/list.txt",
+    # Hide YouTube Shorts by Harren06 (https://github.com/Harren06/ublock-yt-shorts)
+    f"{URL_PREFIX_GH}/Harren06/ublock-yt-shorts/main/list.txt",
+    # YouTube Clean - Onsotumenh
+    f"{URL_PREFIX_GH}/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin/main/YouTubeFilterList.txt",
     # HaGeZi's The World's Most Abused TLDs
     f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
     # Web Annoyances Ultralist by yourduskquibbles

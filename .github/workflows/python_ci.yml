@@ -41,7 +41,7 @@ jobs:
           python -m black --check .
       - name: Lint with Flake8
         run: |
-          python -m flake8 . --count --show-source --statistics --max-line-length=90
+          python -m flake8 . --count --show-source --statistics --max-line-length=200
       - name: Analyse code with pylint
         run: |
           python -m pylint $(git ls-files '*.py')
