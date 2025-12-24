@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 4 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.4
-# Edited: 2025-12-23 14:02:41 +1100
+# Version 2.0.5
+# Edited: 2025-12-24 19:45:42 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -150,6 +150,10 @@ URL_PREFIX_1 = \
 
 # Testing list URLs
 TESTING_URLS = [
+    # EasyList - Testing (more reliable links)
+    "https://easylist.to/easylist/easylist.txt",
+    "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
+    "https://secure.fanboy.co.nz/fanboy-annoyance.txt",
     # Brave Filterlists: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
@@ -182,7 +186,7 @@ TESTING_URLS = [
     # uBlock - Unbreak
     f"{URL_PREFIX_GH}/{URL_PART_UB}/unbreak.txt",
     # uBlock filters - Annoyances
-    f"{URL_PREFIX_1}/filters/annoyances.min.txt",
+    # f"{URL_PREFIX_1}/filters/annoyances.min.txt",
     # Re-enabled YouTube Neuter Filter Lists to test fullscreen video fix
     # (2025-12-23 13:47:43 +1100)
     # YouTube Neuter - sponsorblock
@@ -214,7 +218,7 @@ TESTING_URLS = [
     # Adblock Warning Removal List
     f"{URL_PREFIX_GH}/{URL_PART_EL}/antiadblock_english.txt",
     # EasyList
-    f"{URL_PREFIX_1}/thirdparties/easylist.txt",
+    # f"{URL_PREFIX_1}/thirdparties/easylist.txt",
     # AdGuard - Base filter
     "https://filters.adtidy.org/extension/ublock/filters/" +
     "2_without_easylist.txt",
@@ -227,7 +231,7 @@ TESTING_URLS = [
     # EasyPrivacy
     "https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
     # EasyList - Cookie Notices
-    f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
+    # f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
     # EasyList - Social Widgets
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
     "thirdparties/easylist-social.txt",
@@ -240,7 +244,7 @@ TESTING_URLS = [
     # EasyList - Notifications
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
-    f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
+    #f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
     # Fanboy's Anti-Facebook and Age Gate Filterlists
     "https://fanboy.co.nz/fanboy-antifacebook.txt",
     "https://fanboy.co.nz/fanboy-agegate.txt",
