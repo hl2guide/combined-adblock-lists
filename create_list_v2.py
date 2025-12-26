@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 4 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.5
-# Edited: 2025-12-24 19:45:42 +1100
+# Version 2.0.6
+# Edited: 2025-12-26 14:22:46 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -19,6 +19,7 @@ import queue
 import threading
 import time
 import urllib.request
+import sys
 
 start = time.perf_counter()
 
@@ -120,6 +121,8 @@ def main():
         print("\nThe following URLs failed:")
         for u, msg in errors:
             print(f" • {u}: {msg}")
+            # Report the error to console (CLI)
+            sys.exit(1)
 
     # `ALL_TEXT` now contains the concatenated contents of every successful download
     # You can return it, write it to a file, feed it to another function, etc.
