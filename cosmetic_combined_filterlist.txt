@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2025.12.28.2355+1100 AEST
-! Last modified: 2025.12.28.2355+1100 AEST
+! Version: 2025.12.29.0226+1100 AEST
+! Last modified: 2025.12.29.0226+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -585,7 +585,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,3p,denyallow=cloudflare.net|jsdelivr.net|sc.gl|unpkg.com,domain=hitprn.com
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|facebook.net|fastlylb.net|fbcdn.net|google.com|onesignal.com,domain=mangahub.io
 *$script,3p,denyallow=cloudfront.net|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|utteranc.es|x.com,domain=readcomiconline.*
-*$script,3p,denyallow=cloudfront.net|google.com|gstatic.com|recaptcha.net,domain=7r6.com
 *$script,3p,denyallow=facebook.net|fbcdn.net,domain=sukidesuost.info
 *$script,3p,denyallow=facebook.net|google.com|gstatic.com|recaptcha.net,domain=dz4link.com
 *$script,3p,denyallow=fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=13x4.com
@@ -2343,7 +2342,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/(www\.)?sp\d{4,5}p\.com\//$doc,to=com|~shopee.vn
 /^https:\/\/[-a-z]{16,}\.z\d{2}\.web\.core\.windows\.net\/[a-z]{70,}(\/[a-z]{40,})?\.html/$doc,match-case,to=web.core.windows.net
 /^https:\/\/[-a-z]{4,}\.dogfriendlytahoe\.com\//$doc,to=dogfriendlytahoe.com
-/^https:\/\/[-a-z]{8,}\.com\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\/[0-9A-Za-z][-\/0-9A-Z_a-z]{118,132}$/$script,xhr,match-case,3p
+/^https:\/\/[-a-z]{8,}\.com\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\/[0-9A-Za-z][-\/0-9A-Z_a-z]{115,132}$/$script,xhr,match-case,3p
 /^https:\/\/[.\w]+\.[a-z]{2,3}\/z-[5-9]\d{6}$/$script,match-case,1p,strict1p
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[a-f0-9]+\/\d+\?version_name=\w&domain=/$xhr,3p
@@ -8291,7 +8290,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /suv5.js$third-party
 /svs.gif?
 /sw.js$domain=avtoblog.ua|tmearn.com|infox.ru
-/sw.js$script,1p,domain=eio.io|exe.app|exee.io
+/sw.js$script,1p,domain=eio.io|exe.app
 /sw.js$script,1p,domain=strcloud.*|streamtape.*|streamta.*|strtape.*|strtpe.*|strtapeadblock.*
 /sw.js$script,domain=androidapks.biz|androidsite.net|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|downloadgames.info|downloadsite.org|ebooksite.org|emulatorsite.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|tvonlinesports.com|warezsite.net|watchmovies2.com|watchsite.net|youapk.net
 /sw.js$script,domain=lolabits.se|filechan.org|megaupload.nz|rapidshare.nu|openload.cc|hotfile.io
@@ -11664,11 +11663,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 7news.com.au,sortter.com##div[class^="cookie-consent"]
 7ogorod.ru,autonevod.ru,shtrafsud.ru,tophallclub.ru,zazloo.ru#$#abort-on-property-read fpm_attr
 7plus.com.au##div[class^="cookieContainer"]
-7r6.com##+js(aopr, LieDetector)
-7r6.com##+js(aopr, app_vars.force_disable_adblock)
-7r6.com##+js(aopr, console.clear)
-7r6.com##+js(set, blurred, false)
-7r6.com##.banner
 7starhd.*##+js(nowoif)
 7starhd.*##div[style^="clear:both;float:left;width:100%;"] > a[target="_blank"] > img
 7starhd.*#?#.primary-sidebar > div.widget-body:has(> div.textwidget > form[action^="https://feedburner.google.com/"])
@@ -32458,6 +32452,7 @@ celebmafia.com##div:has(> div[data-ad])
 celebmafia.com#@#.addtoany_share_save_container
 celebmix.com##+js(set, jQuery.adblock, false)
 celebrityaccess.com##.single-footer-subscribe
+celebritydeeplink.com,japaneseholes.com,javlab.net,javmeta.com,vipserije.com,javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.*,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com##+js(abort-current-script, WebAssembly, atob)
 celebritygalls.com##.articles-container > article.card[style="border:5px solid black;"]
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
@@ -39199,8 +39194,8 @@ cutpaid.com##+js(set, blurred, false)
 cutpaid.com##center
 cutpaid.com,tmearn.*##+js(aopr, AaDetector)
 cuts-url.com##.content
-cuts-url.com,eio.io,exe.app,exee.io##+js(set, blurred, false)
-cuts-url.com,eio.io,exe.io,exe.app,exee.io##+js(aopr, app_vars.force_disable_adblock)
+cuts-url.com,eio.io,exe.app##+js(set, blurred, false)
+cuts-url.com,eio.io,exe.io,exe.app##+js(aopr, app_vars.force_disable_adblock)
 cuttlinks.com,cuttty.com,cuttyy.com,cutynow.com,exnion.com,cutyion.com,jixo.online,exe-urls.com,evernia.site,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net##.share-icons-container
 cuttlinks.com,exe-links.com,cuttty.com,cuttyy.com,cutynow.com,exnion.com,cutyion.com,jixo.online,exe-urls.com,evernia.site,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net##+js(prevent-fetch, pagead2.googlesyndication.com)
 cuttlinks.com,exe-links.com,cuttty.com,cutynow.com,exnion.com,cutyion.com,jixo.online,exe-urls.com,evernia.site,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net##+js(abort-on-property-write, onpopstate)
@@ -47142,7 +47137,7 @@ einthusan.tv##+js(set, login_completed, true)
 einthusan.tv#$##social-wrapper { position: absolute!important; left: -3000px!important; }
 einvestidor.estadao.com.br###push-notification-prompt-container
 einvestidor.estadao.com.br##.teaser-share
-eio.io,exee.io,exe.app##+js(aopr, adBlockDetected)
+eio.io,exe.app##+js(aopr, adBlockDetected)
 eisamay.com###holderContainer
 eisamay.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 eisamay.com,iamgujarat.com,indiatimes.com,maharashtratimes.com,samayam.com,vijaykarnataka.com##.wdt-taboola
@@ -50564,6 +50559,7 @@ excnn.com##+js(abort-on-property-read, popunder)
 excnn.com##.sexy-bookmarks
 exe-links.com,mrproblogger.com,cuttyy.com,fc-lc.xyz,link4earn.com,atglinks.com,megaurl.in,megafly.in,tii.la,ckk.ai,xpshort.com,rajsayt.xyz,insurglobal.xyz,usanewstoday.club,cutp.in,try2link.com,filmyzilla-in.xyz,samaa-pro.com,earnme.club,adshort.*,adurly.cc,swzz.xyz,crazyblog.in,baominh.tech,seulink.online,ez4short.com,upshrink.com,beingtek.com,link.rota.cc,insuranceblog.xyz,webo.one,linkfly.io,coinadfly.com,ownurl.site,coinsurl.com,clk.ink,dl.tech-story.net,link.asiaon.top,xfiles.io,upfiles.*,dz-linkk.com,shorterall.com,promo-visits.site,shrink.icu,rshrt.com,tei.ai,exey.*,claimfreebits.com,jameeltips.us,turkdown.com,tui.click,short.food-royal.com,linkpoi.me,galaxy-link.space,finanzas-vida.com,linkebr.com,smoner.com,charexempire.com,forex-trnd.com,linkshorts.*,mycut.me,cuts-url.com,gainbtc.click,st23q.com,hotel.menjelajahi.com,ccurl.net,shrt10.com,shrinkforearn.in,seulink.net,modapk.link,miklpro.com,afly.pro,exe.app,adcorto.xyz,droplink.co,curto.win,linksfire.co,illink.net,ilinks.in,bitfly.io,imagenesderopaparaperros.com,url.namaidani.com,c-ut.com,4cash.me,shrinkme.in,fir3.net,link1s.net,apksvip.com,pkr.pw,shrinke.me,stfly.me,bolssc.com,cutdl.xyz,shortearn.in,linksly.co,link1s.*,tmearn.com,samapro.me,mondainai.moe,pnd.*,popimed.com,tipsforce.com,aii.sh,7r6.com,iir.ai,tii.ai,biroads.com,dz4link.com,linkad.in,fc.lc,rifurl.com,oncehelp.com,shortpaid.com,slink.bid,encurta.eu,leechpremium.link,readnnews.com,gplinks.co,memoo.xyz,linkviet.top,salez.site,caat.site,shortearn.eu,earnload.com,gplinks.in,stfly.io,eio.io,cutwin.com,uii.io,techbeast.xyz,zoom-link.com,short.pe,myhealthlytips.com,clik.pw,payskip.org,shrinkme.io,ex-foary.com,linkfinal.com,shrinkurl.org,exe.io,liclink.com,adsafelink.com,enrt.eu,lkop.me,suqdz.com,getlink.deadtoonsindia.net,bollyreveal.com,shrtfly.net,mysiterank.org##+js(set-constant, app_vars.force_disable_adblock, undefined)
 exe-urls.com,evernia.site,cety.app##+js(abort-on-stack-trace, document.createElement, openPopup)
+exe.app##.banner-page > .short
 exe.app,eio.io,ufacw.com##+js(no-fetch-if, google)
 exe.io##+js(aopr, parcelRequire)
 exe.io#%#!function(){if(window.location.href.includes("api")&&window.location.href.includes("&url=")){var b=location.href.split("&url=")[1];a:{try{var a=new URL(b)}catch(c){a=!1;break a}a="http:"===a.protocol||"https:"===a.protocol}if(a)try{window.location=b}catch(c){}}}();
@@ -50577,7 +50573,6 @@ executivegov.com##.execu-target
 executivegov.com##.execu-widget
 exedb.com##a[href^="https://www.exedb.com/ads.asp?id="]
 exee.app,exep.app,exe.app##+js(no-window-open-if)
-exee.io,exe.app##.banner-page > .short
 exeedme.com###gatsby-focus-wrapper > div[class] > .chakra-stack
 exefiles.com#?#body > div.row:has(> div.large-12 a[href*="/recommended/winthruster/"])
 exego.app##+js(set, blurred, false)
@@ -74733,7 +74728,6 @@ javhub.net##[class^="banner-"]
 javhub.net##[href^="https://r.trwl1.com/"]
 javhub.net##[href^="https://t.javhd-trk.com/"]
 javhub.net##div[class*="banner-"]
-javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.*,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com##+js(abort-current-script, WebAssembly, atob)
 javiku.com##+js(no-window-open-if)
 javjav.top##+js(no-window-open-if)
 javjavhd.com##+js(acs, $, contextmenu)
@@ -92162,9 +92156,6 @@ moddroid.com##.fixed-icons
 moddroid.com##.text-center > div.swiper-pointer-events
 moddrop.com##.cm-fill-bot
 moddrop.com##.cm-z-4
-modebaca.com##+js(acs, $, click)
-modebaca.com##+js(aopr, app_vars.force_disable_adblock)
-modebaca.com##[href="https://www.tautan.pro/"]
 modehaus.de###solbox
 model-viewer.com##.adsbygoogle:style(width:11px;height:11px)
 model-viewer.com##.adsbygoogle:upward(1):style(min-height:11px!important;height:11px!important;opacity:0)
