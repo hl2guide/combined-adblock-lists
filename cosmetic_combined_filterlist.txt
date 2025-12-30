@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2025.12.30.2032+1100 AEST
-! Last modified: 2025.12.30.2032+1100 AEST
+! Version: 2025.12.30.2359+1100 AEST
+! Last modified: 2025.12.30.2359+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -10841,6 +10841,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 360tv.ru##footer[class^="LinkZen_wrap"]
 360tv.ru$$amp-img[alt="google_news_image"]
 365i.co.uk##.elementor-element-96feaee
+365scores.com##._main-content_ad__ifF3C
+365scores.com##._main-content_prediction__Gwi2c
 365scores.com##div[class^="_main-content_ad_"]
 365scores.com##div[class^="all-scores-container_ad_placeholder_"]
 365scores.com##div[class^="bookmakers-review-widget_"]
@@ -19854,6 +19856,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwesterndaily.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,portnews.com.au,thecourier.com.au,thesenior.com.au#%#//scriptlet('set-cookie', 'dismissCheck', '1')
 armonieartecasa.com###div_alert_cookies
 armorgames.com###cc-alert
+armorgames.com##.ad-large-leaderboard-90
+armorgames.com##.ad-leaderboard
 armorgames.com##.ad-lrgrec
 armorgames.com##.promos
 armorgames.com##.subscription-ad
@@ -29831,6 +29835,7 @@ bunkr.si##header .catflix
 bunkr.sk##+js(no-setTimeout-if, ;return!_0x)
 bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunnings.co.nz##.gkDSfm
+bunnings.co.nz,bunnings.com.au##.gAsToc.sc-c292709d-0
 bunny.net##.bn-cookies-wr
 bunnyhop.de,funktionelles.de,futspo.de###cookie-jar
 bunnylust.com##a[href^="http://wcrgl.freeadult.games/hit.php"]
@@ -66986,11 +66991,9 @@ historiapoznania.pl,pcformat.pl,parenting.pl,informacje.wp.pl,deliciousmagazine.
 historic-uk.com#?#.article-sidebar:has-text(Advertisement)
 historicaerials.com###xcontent_container > div[id][style*="position: fixed"][style*="z-index:"]:has(> .modal-content > div > button[onclick="window.location.reload();"]):style(display: none !important;)
 historicaerials.com##+js(abort-current-script, EventTarget.prototype.addEventListener, googletag.pubads)
+historicaerials.com##+js(aost, Promise, window.onload inlineScript)
 historicaerials.com##+js(nostif, /Executed|modal/)
-historicaerials.com##+js(rmnt, script, "'flex'")
-historicaerials.com##+js(rmnt, script, window.googletag.pubads)
 historicaerials.com##.border-bottom.container:has(#historicaerials_728x90_ATF)
-historicaerials.com##^script:has-text(window.googletag.pubads)
 historicaerials.com##body:style(overflow: auto !important;)
 historiccity.com##.header-block-1
 historiccity.com##.wp-block-group-is-layout-flow:has-text(Subscribe)
@@ -82923,8 +82926,11 @@ liquipedia.net##.mobile-sticky-ad:style(display: none !important;)
 liquipedia.net##body:has(> .mobile-sticky-ad):style(padding-top: 5.375rem !important;)
 liquipedia.net,wiki.teamliquid.net##.fo-nttax-infobox-adbox
 liquor.com##.on-right.sans.collection-tip
+liquor.com#@##onetrust-consent-sdk
 liquor.com,eatingwell.com,thespruce.com,parents.com,thesprucepets.com###onetrust-consent-sdk
 liquor.com,eatingwell.com,thespruce.com,parents.com,thesprucepets.com##html:style(overflow: auto !important; position: initial !important;)
+liquor.com,thebalancemoney.com,www-thoughtco-com.translate.goog,thoughtco.com#$#body #onetrust-consent-sdk { display: none !important; }
+liquor.com,thebalancemoney.com,www-thoughtco-com.translate.goog,thoughtco.com#$#html:has(>body>div#onetrust-consent-sdk.show-banner) { overflow-y: auto !important; }
 liquorland.co.nz##+js(set-cookie, lq-age-gate, true, , reload, 1)
 liquorlegends.co.nz###modal_home_pop
 liquorlegends.co.nz##.modal-backdrop
@@ -83468,6 +83474,7 @@ livesport24.net##+js(acs, setTimeout, admc)
 livesport24.net##+js(aopr, Adcash)
 livesport24.net##a[href^="https://1xbet.onelink.me/"]
 livesports.pw###adb-enabled
+livesportsontv.com##+js(set-local-storage-item, promotion-popup-closed, 1)
 livestream.com##.js-cookie_policy
 livestreamfails.com###oranum_livefeed_container_0
 livestreams.*,maxicast.*###openLinks
@@ -89770,7 +89777,9 @@ memeburn.com,ventureburn.com##.wrapper--grey
 memeburn.com,ventureburn.com##[id^="x_inter_ad"]
 memedroid.com###aside-affix-container > div[style] > a[target="_blank"] > img
 memedroid.com###detailed-item-sharing-container
+memedroid.com###footer-sticky-ad-widget
 memedroid.com##+js(nostif, /adScriptPath|MMDConfig/)
+memedroid.com##.empower-ad
 memedroid.com##body.top-banner-in:style(padding-top: 0 !important;)
 memedroid.com##div[id^="aside-ad-container"]
 memedroid.com##div[id^="freestar-ad-"]
@@ -133847,9 +133856,8 @@ thebaggiestore.com##+js(set-cookie, goodav_block_popup-3146, 0)
 thebagster.com###ctl00_privacybanner_pnlPrivacyPolicy
 thebagster.com##.modalBackground
 thebakermama.com,judgehype.com,abril.com.br,conjur.com.br,60millions-mag.com,imore.com,computerhoy.com,windowscentral.com,androidcentral.com##.block-newsletter
+thebalancemoney.com##.money-outbrain
 thebalancemoney.com#@##onetrust-consent-sdk
-thebalancemoney.com,www-thoughtco-com.translate.goog,thoughtco.com#$#body #onetrust-consent-sdk { display: none !important; }
-thebalancemoney.com,www-thoughtco-com.translate.goog,thoughtco.com#$#html:has(>body>div#onetrust-consent-sdk.show-banner) { overflow-y: auto !important; }
 thebank.vn##.black_overlayss
 thebank.vn##.popup_vitas
 thebanker.com##div[data-trackable-section="social-networks-widget"]
