@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.01.0228+1100 AEST
-! Last modified: 2026.01.01.0228+1100 AEST
+! Version: 2026.01.01.0538+1100 AEST
+! Last modified: 2026.01.01.0538+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -16332,6 +16332,8 @@ alza.sk##.branding-bg:style(background: #bae2fc !important;)
 alza.sk##.brandingEars
 alza.sk##.gtm-promo-binded
 am-our.com##div[style="min-height: 100px"]
+am-qualitaetsmatratzen.de#$#div[class*="kl-private-reset-css"] { display: none !important; }
+am-qualitaetsmatratzen.de#$?#.klaviyo-prevent-body-scrolling { overflow: auto !important; }
 am.lk##.bannergroup
 am5.com##.ad-box-pc-3
 am5.com##.ad-box-right-pc-1
@@ -105639,6 +105641,7 @@ pastedownload.com##.aadb-overlay
 pastedownload.com##.ad
 pastedownload.com##.hemmm
 pastedownload.com##.jegulo
+pastedownload.com##.uk-list > li:has(> .uk-label + span > a[rel][target="_blank"])
 pastedownload.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adskeeper.com')
 pastehouse.com##+js(abort-current-script, document.write, Banner)
 pastehouse.com##.col-md-9 > .text-center > a[target="_blank"][rel="nofollow"] > img
@@ -121894,6 +121897,7 @@ seznam.cz##.app-promotion
 seznam.cz##.atm-ad-label
 seznam.cz##.mol-ssp-advert-content--responsive
 seznam.cz##.ssp-advert
+seznam.cz##div[class^="app-promo"]
 seznam.cz##div[data-dot="gadgetCommercial"]
 seznam.cz##div[data-dot^="reklama"]
 seznam.cz##li[data-analytics-entity-type="nativeSspAdvert"]
@@ -142122,6 +142126,7 @@ u-f.ru##body div.g-news
 u-f.ru##body div.ya-news
 u-news.com.ua##.related_news + center
 u-rennai.jp###floating_button
+u-rennai.jp##li[style="list-style: none;"]
 u-s-news.com##+js(set, ulp_noadb, true)
 u-s-news.com##+js(set-constant, ulp_noadb, true)
 u-tv.ru##.banner-cookie-advertisement
@@ -148865,6 +148870,7 @@ web.lmarena.ai#%#//scriptlet('set-local-storage-item', 'd-ua', 'false')
 web.magentatv.de#%#//scriptlet('trusted-click-element', '#OVERLAY-REJECT')
 web.napster.com###root > div > div[class^="sc-"] > div[class^="sc-"]:only-child:has(> p > a[href*="napster.com/privacy"])
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
+web.nhk##body > div[class] > div[role="region"]
 web.nhk##body > div[class^="_"] > div[class*=" "][role="region"][aria-labelledby]
 web.nhk##div[class*=" _"][role="region"][aria-labelledby="_r_1_"]
 web.nhk##p[style$="calc(1rem * (var(--font-size-scale-factor, 1)))"] + div[class] > div[class] > button[style^="--"][style$="auto"]
