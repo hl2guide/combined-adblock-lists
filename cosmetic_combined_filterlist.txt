@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2025.12.31.1312+1100 AEST
-! Last modified: 2025.12.31.1312+1100 AEST
+! Version: 2025.12.31.1503+1100 AEST
+! Last modified: 2025.12.31.1503+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -21574,7 +21574,6 @@ auto.onliner.by#?#.news-text > div.news-media > div.news-media__inside a[href^="
 auto.orange.fr##body #oSocialPopin
 auto.ria.com##.entry-promo-app
 auto.ria.com,dw.com,wps.com,juksy.com,prothomalo.com,hikvision.com,norway.no,radiozu.ro##.gdpr-wrapper
-auto.ria.com,tatilsepeti.com##.app-banner-wrapper
 auto.ru###PostBody > div[class^="SectionBlock"]:has(> div.MarkupText > a[href^="https://t.me/autoruonline"])
 auto.ru###PostBody div[class^="SectionBlock"]:has(> div.MarkupText > a[href^="https://t.me/"])
 auto.ru##.ArticleFooterTelegram
@@ -22964,6 +22963,7 @@ bairesdev.com,bootstrap.academy,doppelherz.com,energydashboard.co.uk,freelway.co
 bairroarte.com###dvcookie
 baithak.news,digitalmalayali.in,manhuaga.com,kvadratmetr.uz,daemon-hentai.com,4horlover.com,tgnscripts.xyz,crackthemes.com,game-2u.com,nsw2u.*,mhscans.com,3rabsnews.com,novel-gate.com,pornktubes.net,porhubvideo.com,freemen.jp,kanaeblog.net,tutorialsduniya.com,hentaiseason.com,monoqlo.tokyo,anime-torrent.com,officialpanda.com,plugintorrent.com,pupuweb.com,mylivewallpapers.com,kurobatch.com,mantrazscan.com,tora-scripts.com,ntucgm.com,iggtech.com,javhdworld.com##body > script + div[id][class*=" "]
 baithak.news,ikramlar.online##body > div#page ~ script + div[id][class*=" "]:not(.Ad-Container)
+baito.line.me##div[class^="AppDownloadLinkBar"]
 baito.mynavi.jp##.wrapMynavibaitoApplication div.panel_area
 baitoru.com##.common-cutSpace > div[style="padding: 40px 10px 0px;"]
 baitoru.com##a[href*="adj.st"]
@@ -68069,6 +68069,8 @@ hotpepper.jp##.store-share-sns
 hotpepper.jp##[class^="app-"][class$="-banner"]
 hotpepper.jp##div[style*="text-align: center;"] > div > a
 hotpepper.jp##img[width="760"][height="140"]
+hotpepper.jp#$#.app-bottom-modal-container { display: none !important; }
+hotpepper.jp#$#body.fixed-body { overflow: auto !important }
 hotpepper.jp#%#//scriptlet('set-cookie-reload', 'HPGDEV230842_app-bottom-modal-closed', 'true')
 hotping.jp##.mtopbn
 hotping.jp##.snsLink
@@ -79633,6 +79635,7 @@ kurashiru.com##.RightPane-shareButtons
 kurashiru.com##.SearchSuggestModal-toAppBannerWrap
 kurashiru.com##.SpApp-floatButton
 kurashiru.com##.SpApp-recipesShowFloatButton
+kurashiru.com##.SpApp-share
 kurashiru.com##.SpRoot-adsWrapper
 kurashiru.com##.SpRoot-topBannerWrapper
 kurashiru.com##.SpRoot-topToAppButtonWrapper
@@ -83206,6 +83209,8 @@ livebasah.eu.org##+js(remove-class, xepo_ads, body)
 liveblocks.io##.shadow-marketing-elevation-popover
 liveblog.pro##.lb-post-share
 livecamcroatia.com##section[class^="newsletter_wrap"]
+livecamrips.*##+js(abort-current-script, EventTarget.prototype.addEventListener, clickadu)
+livecamrips.*##+js(no-window-open-if)
 livecamrips.*##+js(rmnt, script, window.open)
 livecareer.com##.anun-re-sample
 livecareer.com##.social-icons-bar
@@ -86255,6 +86260,7 @@ macdailynews.com##[href^="https://apple.news/subscription"]
 macdailynews.com##div[class^="boxzilla-"]
 macfarlanes.com##+js(set-cookie, macfarlanes-necessary-cookies, accepted)
 macg.co,igen.fr###og-banner
+machbaito.jp,auto.ria.com,tatilsepeti.com##.app-banner-wrapper
 machicon.jp##.floatFooter
 machinations.io##.terms-privacy
 machinelearning.apple.com##button.social-icon:not([aria-label="Copy link to clipboard"])
@@ -90543,7 +90549,6 @@ mgnet.xyz##.container-bns
 mgnet.xyz##h6.article-center[style="font-size:10px"] > strong
 mgnetu.com##.banner-container .box-success > h4
 mgprojekt.com.pl##.code-block .ai-attributes
-mgram.me,okanyu.jp,yomotto.jp,gundam.matome-gamers.com,yugi-nippon.com,au.com,kankyo-mirai.jp,dashimasu.com,otona-seicil.com,xn--tfrx3syx3c.com,kajitown.jp,reachblog.site,tabiiro.jp,gpoint.co.jp,gia-chan.com,xn--8mr619f.gamerstand.net,zenless.gamerstand.net,yuumi-sokuhou.com,tour.ne.jp,seikyuresyasokuho.com,music.oricon.co.jp,abemahouse.com,itselect.itmedia.co.jp,fromcocoro.com,magazine.photojoy.jp,real-sports.jp,fitnesslove.net,bbm-japan.com,ebetsunopporo.com,umaumanews.com,pizzalover.jp,berd.benesse.jp,tokyo.grand.hyatt.co.jp,tohotheater.jp,brainbox.co.kr,verdy.co.jp,mito-hollyhock.net,baito.nights.fun,blog.tinect.jp,finders.me,osaka-ue.ac.jp,diamond.jp,sfc.jp,cocacola.co.jp,kokugakuin.ac.jp,powerwatch.jp,entamenext.com,kajidaikou-hikaku.jp,kids-zoo.com,tabanavi.com,ai-no-idenshi.com,cybersocean.net,maxmovie.com,videor.co.jp,lifehacktivist.com,bamka.info,y-aoyama.jp,goobike.com,hypnosismic-stage.com,pacoma.jp,kojintekibikematomeblog.com,wipe-udc.com,ryohi.guide,colopl.co.jp,utaten.com,pcmanabu.com,mogalabo.com,k2-hobbyworld.com,level69.net,izakayanonbiri.owst.jp,shogakukan.co.jp,zbuffer3dp.com,decopachi.com,mapple.net,service.smt.docomo.ne.jp,news.kakaku.com,app-story.net,vtuber-matomeblog.com,9db.jp,febri.jp,cnbnews.com,m.weekly.khan.co.kr,umamusume.gamerstand.net,tdk.com,myjcom.jp,iphoroid.jp,ri-life.com,chemical-engineering-review.com,toyokeizai.net,teyvatsokuho.com,change-your-tomorrow.com,nhk-character.com,sin-surobi.com,onsen.nifty.com,ero-shame.club,mhns.co.kr,ganref.jp,pref.aomori.lg.jp,yanmaga.jp,news.hoken-mammoth.jp,safarilounge.jp,money-viva.jp,wowneta.jp,wowgame.jp,masamune-tv.com,lagunatenbosch.co.jp,gamewiki.jp,square-enix.com,getnavi.jp,s.kakaku.com,st.benesse.ne.jp,excite.co.jp,tbs.co.jp,sumaoji.com,ec.line.me,zaikai.jp,evangelion.co.jp,mayukitchen.com,pan-pan.co,tv-asahi.co.jp,venom-movie.jp,zatsugaku-company.com,xneo.jp,ghostbusters.jp,cs.furyu.jp,njpwss.com,simtaro.com,yakuzatokazoku.com,pokopangtown.game.line.me,anime.priconne-redive.jp,sd-gundam-world.net,yakugakulab.info,websites-manual.com,pokemon.co.jp,en-culture.net,it-trend.jp,tver.jp,hibiki-radio.jp,mtg60.com,rich-miler.com,number333.org,monogatari-series.com,bookyakuno.com,print-gakufu.com,daifuku-diary.com,bandainamco-am.co.jp,sao-alicization.net,promo.kadokawa.co.jp,mabidiary.blogspot.com,7seeds.jp,hobby-museum.com,g-pc.info,fukafuka295.jp,hyperts.net,linart.net,xn--gdkl0dubtwb7e3008dk17a.com,cinemarche.net,cospa.co.jp,yugioh-resaler.com,wagtechblog.com,warorince.com,ta-japan.com,2week.net,nuies.com,emptiness.space,birori-blog.com,tkgranblue.com,vnhiromi.com,uka-ukablog.com,legalsearch.jp,wakibungu.com,takamaru1219.net,intensive911.com,hidesunblog.com,afila0.com,tarosoku.com,wikinis.net,webst8.com,as-web.jp,mm21railway.co.jp,mba.globis.ac.jp,win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,focus.kr,otona-life.com,f1-gate.com,llike.net##.sns
 mgronline.com##.app-container
 mgronline.com##.csl-share
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
@@ -121962,6 +121967,7 @@ sfstandard.com##body:style(height: auto !important; overflow: auto !important)
 sfstandard.com##button[id^="share-button-"]
 sfstandard.com##div[class^="StickySharer_"]
 sfstandard.com,spotlightpa.org,usafacts.org##.bottom-0
+sftworks.jp##.p-shareBlock
 sfu.ca##.news_content_tools
 sfyimby.com##.textwidget:has-text(ADVERTISEMENT)
 sg-zertifikate.de#@#.cookie-sticky
@@ -146943,6 +146949,7 @@ volumo.com##.shared_container__OZnf_
 volunteer.redcross.org.uk#$##cookie-settings-popup { display: none !important; }
 volunteer.redcross.org.uk#$#.assemble-cookie-settings-modal-opacity { display: none !important; }
 volunteer.redcross.org.uk#$#body { overflow: auto !important; padding-right: 0 !important; }
+volunteer.yahoo.co.jp,mgram.me,okanyu.jp,yomotto.jp,gundam.matome-gamers.com,yugi-nippon.com,au.com,kankyo-mirai.jp,dashimasu.com,otona-seicil.com,xn--tfrx3syx3c.com,kajitown.jp,reachblog.site,tabiiro.jp,gpoint.co.jp,gia-chan.com,xn--8mr619f.gamerstand.net,zenless.gamerstand.net,yuumi-sokuhou.com,tour.ne.jp,seikyuresyasokuho.com,music.oricon.co.jp,abemahouse.com,itselect.itmedia.co.jp,fromcocoro.com,magazine.photojoy.jp,real-sports.jp,fitnesslove.net,bbm-japan.com,ebetsunopporo.com,umaumanews.com,pizzalover.jp,berd.benesse.jp,tokyo.grand.hyatt.co.jp,tohotheater.jp,brainbox.co.kr,verdy.co.jp,mito-hollyhock.net,baito.nights.fun,blog.tinect.jp,finders.me,osaka-ue.ac.jp,diamond.jp,sfc.jp,cocacola.co.jp,kokugakuin.ac.jp,powerwatch.jp,entamenext.com,kajidaikou-hikaku.jp,kids-zoo.com,tabanavi.com,ai-no-idenshi.com,cybersocean.net,maxmovie.com,videor.co.jp,lifehacktivist.com,bamka.info,y-aoyama.jp,goobike.com,hypnosismic-stage.com,pacoma.jp,kojintekibikematomeblog.com,wipe-udc.com,ryohi.guide,colopl.co.jp,utaten.com,pcmanabu.com,mogalabo.com,k2-hobbyworld.com,level69.net,izakayanonbiri.owst.jp,shogakukan.co.jp,zbuffer3dp.com,decopachi.com,mapple.net,service.smt.docomo.ne.jp,news.kakaku.com,app-story.net,vtuber-matomeblog.com,9db.jp,febri.jp,cnbnews.com,m.weekly.khan.co.kr,umamusume.gamerstand.net,tdk.com,myjcom.jp,iphoroid.jp,ri-life.com,chemical-engineering-review.com,toyokeizai.net,teyvatsokuho.com,change-your-tomorrow.com,nhk-character.com,sin-surobi.com,onsen.nifty.com,ero-shame.club,mhns.co.kr,ganref.jp,pref.aomori.lg.jp,yanmaga.jp,news.hoken-mammoth.jp,safarilounge.jp,money-viva.jp,wowneta.jp,wowgame.jp,masamune-tv.com,lagunatenbosch.co.jp,gamewiki.jp,square-enix.com,getnavi.jp,s.kakaku.com,st.benesse.ne.jp,excite.co.jp,tbs.co.jp,sumaoji.com,ec.line.me,zaikai.jp,evangelion.co.jp,mayukitchen.com,pan-pan.co,tv-asahi.co.jp,venom-movie.jp,zatsugaku-company.com,xneo.jp,ghostbusters.jp,cs.furyu.jp,njpwss.com,simtaro.com,yakuzatokazoku.com,pokopangtown.game.line.me,anime.priconne-redive.jp,sd-gundam-world.net,yakugakulab.info,websites-manual.com,pokemon.co.jp,en-culture.net,it-trend.jp,tver.jp,hibiki-radio.jp,mtg60.com,rich-miler.com,number333.org,monogatari-series.com,bookyakuno.com,print-gakufu.com,daifuku-diary.com,bandainamco-am.co.jp,sao-alicization.net,promo.kadokawa.co.jp,mabidiary.blogspot.com,7seeds.jp,hobby-museum.com,g-pc.info,fukafuka295.jp,hyperts.net,linart.net,xn--gdkl0dubtwb7e3008dk17a.com,cinemarche.net,cospa.co.jp,yugioh-resaler.com,wagtechblog.com,warorince.com,ta-japan.com,2week.net,nuies.com,emptiness.space,birori-blog.com,tkgranblue.com,vnhiromi.com,uka-ukablog.com,legalsearch.jp,wakibungu.com,takamaru1219.net,intensive911.com,hidesunblog.com,afila0.com,tarosoku.com,wikinis.net,webst8.com,as-web.jp,mm21railway.co.jp,mba.globis.ac.jp,win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,focus.kr,otona-life.com,f1-gate.com,llike.net##.sns
 volunteermatch.org###req_login_reg_interrupt
 volunteermatch.org###window_overlay
 volvo-club.cz###obalovydiv:style(display: block!important;)
