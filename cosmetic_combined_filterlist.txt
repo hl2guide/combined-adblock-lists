@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2025.12.31.1744+1100 AEST
-! Last modified: 2025.12.31.1744+1100 AEST
+! Version: 2025.12.31.2032+1100 AEST
+! Last modified: 2025.12.31.2032+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -76665,12 +76665,15 @@ kanzenshuu.com##.advert
 kanzler-style.ru##.copyright_block div.columns.text-right
 kanzler-style.ru##.retailrocket-notify-widget
 kaotic.com###overflowIdVideo
+kaotic.com##+js(abort-current-script, jQuery, /config\.pop|snspAdManager/)
 kaotic.com##+js(abort-current-script, navigator, window.open)
 kaotic.com##+js(nowoif)
 kaotic.com##.block-toplist
+kaotic.com##.sidebar > .tab-wrapper:has(> .blowYourMind > #red > div[style^="text-align:"]:not([class], [id]))
 kaotic.com##.track_outbound_post.grid-item
 kaotic.com##.video-image > .track_outbound_post:upward(2)
 kaotic.com##div.hard-5.col-xs-12.col-sm-3:has(.track_outbound_post)
+kaotic.com##div[id^="aad-footer-"]
 kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2
 kaotic.com,tubeload.co#$#abort-on-property-write BetterJsPop
 kapang.com##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -141839,6 +141842,7 @@ twistedsifter.com##.widget_sifter_ad_bigbox_widget
 twistedvoxel.com##.tt-shortcode-1
 twister.porn##+js(aopr, open)
 twitcasting.tv##.tw-community-post-share
+twitcasting.tv##.tw-tweet-open-link
 twitch.mortalshell.com#?##root > div:has(> div > p + div:contains(allow all))
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv###twilight-sticky-footer-root
