@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2025.12.31.0826+1100 AEST
-! Last modified: 2025.12.31.0826+1100 AEST
+! Version: 2025.12.31.1312+1100 AEST
+! Last modified: 2025.12.31.1312+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -21151,6 +21151,12 @@ audialab.com##+js(set-local-storage-item, user_closed_pop_up, true)
 audials.com##.pure-cookies-notice-wrapper
 audiarena.hu###awe_cookie
 audiencepool.com###interstetial-container
+audio-database.com##.category_ad_01
+audio-database.com##.category_ad_02
+audio-database.com##.category_ad_03
+audio-database.com##.detail_ad_01
+audio-database.com##.detail_ad_02
+audio-database.com##.detail_ad_03
 audio-guide.bg,medspa.bg##.popup-policy
 audio-joiner.com,convert.io,extract.me,online-voice-recorder.com,pdf.io,video-converter.com,webcamera.io##.extension-popup
 audio.com#%#//scriptlet('trusted-set-local-storage-item', 'cookies_policy', 'declined')
@@ -33154,6 +33160,9 @@ check-plagiarism.com##+js(set-constant, google_jobrunner, noopFunc)
 check-plagiarism.com##[id^="topads_"]
 check-plagiarism.com##body #detect[class]:style(display: block !important;)
 check-plagiarism.com#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
+check.lenta.com##.chek_wrapper > div[class] > #carousel
+check.lenta.com##.chek_wrapper > div[class] > #carousel_banners
+check.lenta.com##a[href^="https://lentaapp.go.link/"]
 check.lionic.com###js-cookie-box
 check24-partnerprogramm.de##+js(set-cookie, ignore_consent, true)
 check24-partnerprogramm.de##+js(trusted-set-cookie, consent, false_false_true)
@@ -38157,7 +38166,7 @@ creciendo.com###wpn-popup-backdrop
 creciendo.com###wpn-popup-modal
 creciendo.com,perfil.com###wpnDialogcontainer
 crecipe.com###cxcx
-credential.net,soenergy.com##.cookies-banner
+credential.net,meningitisnow.org,soenergy.com##.cookies-banner
 credibom.pt###manageCookies
 credistory.ru##.toast-message
 credit-agricole.ua,ecopayz.com,visitbruges.be##.block-cookie
@@ -76488,6 +76497,7 @@ kakuyomu.jp###readWithApp
 kakuyomu.jp###workShare
 kakuyomu.jp##.widget-dynamicLinksButton
 kakuyomu.jp##div[class^="CompactWorkFooter_openInAppLink"]
+kakuyomu.jp##div[class^="ProfileHome_openInAppLink"]
 kakvapteke.by##.js-cookie-popup
 kalahariresorts.com##.c-dialog-cookie
 kalamazoo.es##.otsdk_alert
@@ -89859,6 +89869,8 @@ menhdv.com###video-player > .right-block
 menhdv.com##.videoPalayerOverlay
 menicka.cz##.cookies_panel_wrp
 menicka.cz##div[class^="banner_"]
+meningitis.com##+js(set-local-storage-item, gskConsentClosedv2, true)
+meningitis.com##.gsk-consent-v2-modal
 menland.pl#%#//scriptlet('set-constant', 'Notification.permission', 'undefined')
 menland.pl,theportalist.com#$#.newsletter-modal { display: none !important; }
 menland.pl,theportalist.com#$#body { overflow: auto !important; }
