@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.01.1744+1100 AEST
-! Last modified: 2026.01.01.1744+1100 AEST
+! Version: 2026.01.01.2032+1100 AEST
+! Last modified: 2026.01.01.2032+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -25118,6 +25118,9 @@ beverfood.com##body > div.sito:style(margin-top: 0 !important;)
 beverfood.com##body:style(background-image: none !important; background: #ddd !important;)
 beverfood.com##div[class^="post-share"]
 beverfood.com,gamerant.ru##.widget-subscribe
+bevshots.com#$#abort-current-inline-script jQuery open
+bevshots.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+bevshots.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 bewellbykelly.com###shopify-section-cookies-banner
 bewere.net#@#.consent-pop-up
 bewins.tv##a[href^="https://bewins.wiki"]
@@ -28966,7 +28969,8 @@ brave.com###notice
 brave.com###persistent-cta:has(> div > a.download[data-event-action="Persistent Download Button"])
 brave.com##.announcement-banner
 braveandkindbooks.com,deal4.ca,gizmogoober.com##[id^="smsbump-form-"]
-bravedown.com##+js(no-fetch-if, adskeeper)
+bravedown.com##+js(no-fetch-if, /adskeeper|cloudflare/)
+bravedown.com##+js(rmnt, script, /adbl/i)
 bravedown.com##+js(set-local-storage-item, a_render, true)
 bravedown.com#%#//scriptlet('set-constant', 'antiADB', 'noopFunc')
 bravenewcoin.com##.fusion_builder_column_inner_1_1:has-text(BNC Newsletters)
@@ -34837,7 +34841,7 @@ clipix.com##+js(trusted-set-local-storage-item, CXAgreeTerms, '{"agreed":true}')
 clipmass.com###fancybox-wrap
 clipper-teas.fi##.v--modal-overlay
 clipper-teas.us##.v--modal-overlay
-clipphot.org#$#abort-current-inline-script document.addEventListener POP
+clipphot.biz#$#abort-current-inline-script document.addEventListener POP
 clippituser.tv##.download-android.download-link-container
 clippituser.tv##.download-text
 clips.twitch.tv##.top-share-container
@@ -36105,7 +36109,6 @@ collinsaerospace.com##+js(trusted-click-element, a.necessary_cookies, , 1200)
 collinsdictionary.com##.btmslot_a-container
 collinsdictionary.com##.mpuslot_b-container
 collinsdictionary.com##.topslot_container
-collinsdictionary.com#$#override-property-read window.navigator.connection.rtt 1001
 collive.com##.bottom_leaderboard
 collive.com##.premium-post-ad
 collive.com##.spu-bg
@@ -43411,6 +43414,7 @@ dizm.mbs.jp##.sns-for-page
 dj-figo.com##+js(aopr, adBlockDetected)
 djamix.net##+js(no-fetch-if, googlesyndication)
 djamix.net#@#.ad-unit:not(.textads)
+djangobrasil.org,ohsas.org#$#prevent-listener click ads
 djbassking.club,nidbdcheck.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,batmanfactor.com#$#.text-center > div[id][style^="display:"] { display: block !important; }
 djbassking.club,nidbdcheck.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,batmanfactor.com#$#form[id][style^="display:"] { display: block !important; }
 djbassking.club,nidbdcheck.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,batmanfactor.com#%#//scriptlet('remove-attr', 'disabled', 'button')
@@ -45229,7 +45233,7 @@ dts24.pl##a.gofollow[data-track]
 dtsshop.de##div[id*="_bar_holder"]
 dtsshop.de##div[id*="_over_holder"]
 duab.eu,duab.fi,duab.se##.css-pum9l9
-dualeotruyenjd.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenvx.com#$#abort-current-inline-script document.addEventListener popunder
 dualipa.com##.subscribe__form
 dubaro.de###gdpr-cookie-message
 dubisthalle.de##div[id^="block-"]:empty
@@ -61909,7 +61913,7 @@ gocomics.com##div[class^="HeaderAd_"]
 gocomics.com##div[class^="SectionBreakUpsell_upsell"]
 gocomics.com##div[class^="UpsellSectionBreak_"]
 gocomics.com##section[class^="ShowNewsletterSignUp_"]
-goctruyentranhvui17.com,sextop1.sale,hhvsub1.com#$#abort-current-inline-script WebAssembly globalThis
+goctruyentranhvui17.com,sextop1.ing,hhvsub1.com#$#abort-current-inline-script WebAssembly globalThis
 gocurrycracker.com##+js(aopr, encodeURIComponent)
 godaddy.com###privacy_widget
 godbolt.org###ces
@@ -65144,7 +65148,7 @@ haydenjames.io###text-2
 haydenjames.io##div[id^="hayden"]
 hayhaytv.site,animet.org,motchillzz.site#$#override-property-read maxAds 0
 haymarketbooks.org##.ftr-follow
-haysexvnn.com#$#abort-current-inline-script document.addEventListener adx
+haysexvn.baby#$#abort-current-inline-script document.addEventListener adx
 haystack.tv###about-us-panel > section:has(> h1:first-child + div:last-child > a[href*="haystackapp.page.link"])
 haystack.tv##.banner-bg.sticky
 haystack.tv#?#button:has(> p:contains(Get the App))
@@ -89997,6 +90001,7 @@ mentoday.ru##.app-popup
 mentoday.ru##div[class="vue-portal-target"]:has(> div.modal section.subscribe-form-modal)
 mentoday.ru,thevoicemag.ru##.article-detail_tag_ad_mobile_video_recommend
 mentor.autrado.de,3ddd.ru,support.codefusion.technology,nuum.ru,3dsky.org,pamyra.de##app-cookie-banner
+menudash.net#$#abort-current-inline-script window.addEventListener Ads
 menuguildsystem.com##.amazon-item-box
 menuguildsystem.com#?#.has-black-color.has-text-color:has(> span:contains(関連商品))
 menulog.com.au##.LegacyBanner_c-cookieWarning_3SmlN
@@ -107092,7 +107097,6 @@ phimmoi.club,motphimww.biz#$#abort-current-inline-script addEvent popu
 phimmoi.in###ads-preload
 phimmoi.in##.mp-adz
 phimmoiaz.cc##+js(aopr, popunder)
-phimmoii.fm#$#prevent-listener click ads
 phimmoizz.org###quangcao
 phimmoizz.org##.ad-container
 phimmoizz.org##div[id^="catfish"]
@@ -107436,10 +107440,6 @@ picrew.me##.play-Imagemaker_Footer
 picrew.me##.sitetop-appDL
 picrew.me##.smallNewsBox:has(> a[href$="/picrewpremium/index.html"])
 picrew.me##.st-Terms_Wrapper
-picrew.me##iframe[src*="report.error-report.com/modal"]
-picrew.me#$#abort-on-property-write window.alert
-picrew.me#$#abort-on-property-write window.confirm
-picrew.me#$#override-property-read Element.prototype.remove noopFunc
 pics-view.com##+js(aeld, click, link.click)
 pics-x.com###footer-schmads
 pics-x.com###footer-video-desktop-banner
@@ -121649,7 +121649,6 @@ sex.com##+js(trusted-set-cookie, privacy-preferences, '{"essential":true,"analyt
 sex.com##div > a[href] > [data-cy-id="share-icon"]:upward(1)
 sex.com#%#//scriptlet('trusted-click-element', 'button[data-testid="customize-cookie-button"], button[data-testid="confirm-settings-cookie-button"]')
 sex.javnong.cc#$#abort-on-property-read Math.round
-sex.xinhmupvn.net#$#abort-on-property-read Cookies
 sex3.com##.add-box
 sex3.com##.adv-leftside
 sex3.com##.block-info
@@ -142840,6 +142839,7 @@ uncanceled.news##.uncan-content_11
 uncensored-hentai.com#%#//scriptlet("adjust-setTimeout", "#counter", "", "0.02")
 unchainedcrypto.com###block-10 > .container > .background-gradient
 unclutterapp.com###useCookiesAcceptBlock
+uncommonthought.com#$#abort-on-property-read adsRedirectPopups
 uncrate.com##.ad-wrapper-970
 uncrate.com##[href="https://un.cr/advertise"]
 uncut99.com,vintagepornfun.com###back-to-top + div[id][class*=" "]
@@ -144339,6 +144339,7 @@ vaillant.be#@##cookiewarning
 vaillant.it,vaillant-group.com,vaillant.at,vaillant.de#%#//scriptlet('set-cookie', 'cookie_consent_shown', 'true')
 vaillant.it,vaillant-group.com,vaillant.at,vaillant.de#@##cookiewarning
 vaillant.it,vaillant-group.com,vaillant.at,vaillant.de#@#.cookiewarning:not(body)
+vailonmup.com#$#abort-on-property-read Cookies
 vailonxx.co#$#abort-current-inline-script jQuery window.open
 vaistai.lt###billboardwrapper
 vakantiepiraten.nl#$#body { overflow: auto !important; }
@@ -145745,7 +145746,7 @@ vierumaki.fi##.overlays > .background
 viet-jo.com###notify-bottom
 viet-jo.com##.bd_bd > div[class^=text-top-tab1-] > div.bd > div.bd_left[name]:contains(PR):upward(2)
 viet-jo.com##div[style="width:99.5%;text-align:center;min-height:200px;height:auto"]
-viet69.cl,dualeotruyenjd.com,yurineko.my,www.xemlaphe.com,cliphot69.shop,doctruyen3qui19.com,ihentai.network,animehay.life,hentaivc.pro,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn79.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,sex.xinhmupvn.net,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.onl,truyenqqno.com,clipsexsub3x.net,sayhentai.live,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net,newtruyenhot.pro,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz#$#abort-current-inline-script WebAssembly instantiate
+viet69.cl,dualeotruyenvx.com,yurineko.my,haysex.mobi,cliphot69.shop,doctruyen3qui19.com,ihentai.network,animehay.life,hentaivc.pro,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn86.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,vailonmup.com,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.onl,truyenqqno.com,clipsexsub3x.net,sayhentai.live,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net,newtruyenhot.pro,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz#$#abort-current-inline-script WebAssembly instantiate
 vietcetera.com##div[class^="!items-end"]
 vietcetera.com##div[class^="styles_banner"]
 vietcetera.com##div[class^="styles_topBanner"]
@@ -145896,7 +145897,7 @@ vinaurl.blogspot.com##+js(acs, document.onkeydown)
 vinaurl.blogspot.com##+js(acs, matchMedia)
 vinaurl.blogspot.com##+js(aopr, shortcut)
 vinaurl.in##.adsbygoogle
-vinaurl.net,anime12.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,keysmatterinc.com,samtruyentranh.com,player.phimapi.com,noitu.site,sachmoi.net,xfast.sbs,anime47.best,phimsexvn1.blog#$#abort-on-property-read open
+vinaurl.net,anime13.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,keysmatterinc.com,samtruyentranh.com,player.phimapi.com,noitu.site,sachmoi.net,xfast.sbs,anime47.best,phimsexvn1.blog#$#abort-on-property-read open
 vinbazar.com###parent-popup
 vinbazar.com#?#.news_photos > p:has(> a.mesengers)
 vindecoder.pl##+js(no-setTimeout-if, data-adsbygoogle-status)
@@ -151110,7 +151111,6 @@ workopolis.com##.JobAlert
 workopolis.com#$##careerAlertContainer { display: none!important; }
 workopolis.com#$#body { overflow: visible!important; }
 workora.space##.post-body > .container > .video-container:has(> .ad-offer)
-workpop.com#$#abort-on-property-read adsRedirectPopups
 workprotools.store##.proof-factor-app
 worksheetcrafter.com###cookiesFormContainer
 worksheetkids.com,alysse.dev,ebooksyard.com,swatalk.com,bibliopanda.com,meicho.marcsimz.com,luciferdonghua.in,hallofseries.com,filecatchers.com,boredbat.com,veo-hentai.com,reit-hentai.com,fap-nation.com,myfilmyzilla.com,computer76.ru,pawastreams.pro,siikomik.com,questloops.com,pawastreams.info,repack-games.com,fumettologica.it,imwmi.com,the-scorpions.com,ftuapps.io,wikibuff.com,ftuapps.dev,gorecenter.com,lumpiastudio.com,bdix.app,isekaitube.com,lacittadisalerno.it,tutsnode.org,diznr.com,fairyhorn.cc,gadgetguideonline.com,mentourpilot.com,acdriftingpro.com,m3uiptv.com,tutsnode.com,hulnews.top,ebookbb.in,territorioleal.com,lilymanga.net,nakiny.com,7daystodiemods.com,avitter.net,truyentranhfull.net,kargotakiptr.com,netchimp.co.uk,javhdvideo.org,nemumemo.com,savingsomegreen.com,toramemoblog.com,gameost.net,oceanofcompressed.xyz,crackedresource.com,peppe8o.com,audiotruyenfull.com,daemon-hentai.com,bi-girl.net,jpopsingles.eu,usanewstoday.club,earnme.club,tipblogg.com,ticonsiglio.com,lazytranslations.com,tutsnode.net,freecoursesonline.me,kpopjjang.com,topnewreview.com,skincarie.com,astro.qc.ca,7review.com,techcyan.com,animehunch.com,ifreemagazines.com,softfully.com,celeb.nude.com,luckystudio4u.com,shineads.in,bajeczki.org,rimworldbase.com,doctorrouter.ru,theinsaneapp.com,azad.co,theupspot.com,freemagazines.top,iproductkeys.com,miauscan.com,thenewzealandtimes.com,trytutorial.com,spytm.com,dev2qa.com,qzlyrics.com,freshersnow.com,apkmodhub.in,uberkasta.pl,marugujarat.in,prajwaldesai.com,mobilanyheter.net,apkmb.com,flinsetyadi.com,populistpress.com,starwarsnews.it,programmiedovetrovarli.it,gamingdeputy.com,fabiofood.com,puspas.com.np,almanilan.com,exbulletin.com,magesypro.com,magesy.blog,thecustomrom.com,keralatelecom.info,courseunity.com,webdeyazilim.com,freeiphone.fr,sysnettechsolutions.com,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gamingsym.in,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,gcertificationcourse.com,game-owl.com,javnow.net,pasend.*,threezly.com,safemodapk.com,truyenbanquyen.com,veganinja.hu,studydhaba.com,c4ddownload.com,blisseyhusband.in,goblinsguide.com,gerardopandolfi.com,solotrend.net,nsw2u.*,alphagames4u.com,fcportables.com,nawalakarsa.id##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
@@ -152101,8 +152101,8 @@ www.microsoft.com#$#.modal-backdrop { display: none!important; }
 www.microsoft.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 www.mindbodygreen.com##aside:style(background: transparent !important;)
 www.mindbodygreen.com##div:has(> section > .network-ad)
-www.motchill36.com,trumtruyen.xyz#$#abort-current-inline-script setTimeout Aff
-www.motchill36.com,xnhau.hot,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
+www.motchill37.com,trumtruyen.xyz#$#abort-current-inline-script setTimeout Aff
+www.motchill37.com,xnhau.hot,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
 www.msn.com##+js(json-prune-fetch-response, *, list.[].link.kicker, propsToMatch, /content/v1/cms/api/amp/Document)
 www.msn.com##+js(json-prune-fetch-response, configs.*.properties.componentConfigs.slideshowConfigs.*.interstitialNativeAds, , propsToMatch, url:/config)
 www.msn.com##+js(json-prune-fetch-response, properties.tiles.[-].isAd, , propsToMatch, /mestripewc/default/config)
@@ -153316,9 +153316,6 @@ xoilac23.net##+js(set-constant, adsRedirectPopups, undefined)
 xoilac23.net##.block-int > a[target="_blank"] > img
 xoilac23.net##.sk_balloon
 xoilac23.net##body .footer-banner:not(#style_important)
-xoilaczztt.cc#$#abort-current-inline-script jQuery open
-xoilaczztt.cc#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
-xoilaczztt.cc#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xojane.com###read_janes_diary-0
 xopenload.video###video_ads
 xorgasmo.com##newads
