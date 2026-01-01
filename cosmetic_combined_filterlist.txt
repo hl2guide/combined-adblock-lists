@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.02.0539+1100 AEST
-! Last modified: 2026.01.02.0539+1100 AEST
+! Version: 2026.01.02.0826+1100 AEST
+! Last modified: 2026.01.02.0826+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -39753,6 +39753,7 @@ daily.afisha.ru##a[class^="AfishaSidebarBanner_"]
 daily.afisha.ru##div[class^="HTMLTopBanner_"]
 daily.afisha.ru##div[class^="RightSidebar"]:has(> div[style] > div[class^="BannerGallery_"])
 daily.afisha.ru##div[class^="ShareFriends_"]
+daily.co.jp###dssp-relation-rcmTest3
 daily.co.jp###relationNews > li.last:has(> div#dssp-relation)
 daily.co.jp##.add-button-dialog
 daily.co.jp##.daily-unext-widget
@@ -142135,8 +142136,7 @@ u-f.ru##body div.ya-news
 u-news.com.ua##.related_news + center
 u-rennai.jp###floating_button
 u-rennai.jp##.consult_ad_image
-u-rennai.jp##.items > a[href^="https"]:not([href*="u-rennai.jp"])
-u-rennai.jp##.items:has(> a[href^="https"]:not([href*="u-rennai.jp"]))
+u-rennai.jp##.items:has(> a[onclick][href^="https"]:not([href*="u-rennai.jp"]))
 u-rennai.jp##li[style="list-style: none;"]
 u-s-news.com##+js(set, ulp_noadb, true)
 u-s-news.com##+js(set-constant, ulp_noadb, true)
