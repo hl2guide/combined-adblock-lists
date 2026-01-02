@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.02.1506+1100 AEST
-! Last modified: 2026.01.02.1506+1100 AEST
+! Version: 2026.01.02.1744+1100 AEST
+! Last modified: 2026.01.02.1744+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -41159,6 +41159,8 @@ defence-industry.eu##.has-small-font-size.has-text-align-center
 defence24.com,defence24.pl,energetyka24.com,infosecurity24.pl##:is(aside, .block) a:is([rel="sponsored"], [href*="utm_campaign"]) > span
 defence24.pl##main > section.block:has(> div > a > span > figure > figcaption:contains(Reklama))
 defenceconnect.com.au##.b-article__footer__top__wrapper:has(> #footer-share-title + .b-article__footer__left > .b-article__footer__left__social-buttons)
+defenceconnect.com.au,accountantsdaily.com.au,realestatebusiness.com.au,smartpropertyinvestment.com.au,theadviser.com.au,cyberdaily.au,lawyersweekly.com.au###free-article
+defenceconnect.com.au,accountantsdaily.com.au,realestatebusiness.com.au,smartpropertyinvestment.com.au,theadviser.com.au,cyberdaily.au,lawyersweekly.com.au##+js(set-local-storage-item, articleGateData, $remove$)
 defencediscountservice.co.uk#$##cookie-popup { display: none!important; }
 defencediscountservice.co.uk#$#.blocker { display: none!important; }
 defencediscountservice.co.uk#$#body { overflow: visible !important; }
