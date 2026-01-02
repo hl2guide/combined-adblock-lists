@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.03.0229+1100 AEST
-! Last modified: 2026.01.03.0229+1100 AEST
+! Version: 2026.01.03.0539+1100 AEST
+! Last modified: 2026.01.03.0539+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -589,6 +589,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,3p,denyallow=fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|wp.com|chatango.com,domain=fullmatchtv.com
 *$script,3p,denyallow=fluidplayer.com|cdn77.org|gstatic.com|hwcdn.net|recaptcha.net,domain=haho.moe
 *$script,3p,denyallow=fluidplayer.com|google.com|gstatic.com|googleapis.com|recaptcha.net|hcaptcha.com|hwcdn.net,domain=momzr.com
+*$script,3p,denyallow=gold-usergeneratedcontent.net,domain=hitomi.la
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|recaptcha.net,domain=4cash.me
 *$script,3p,denyallow=google.com|gstatic.com,domain=advertape.net|streamtape.*|watchadsontape.com
 *$script,3p,denyallow=google.com|gstatic.com,domain=dailyuploads.net
@@ -27000,6 +27001,7 @@ blog.cloudflare.com###cloudflare-tv-embed
 blog.cloudflare.com,www.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
 blog.collegevine.com##.blog-post-body + div.row
 blog.collegevine.com#?#body > section.py-4:has(> div.container form#newsletter-signup)
+blog.corkmac.app,nicolasbustamante.com,read.engineerscodex.com##.pencraft + div:has(> button > div.label)
 blog.csdn.net###asideWriteGuide
 blog.csdn.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 blog.csdn.net##+js(aeld, copy, preventDefault)
@@ -34107,6 +34109,7 @@ cineplateforme.cc###playerOver
 cineplex.com###flex-grid > section:not([id]):not([class]):has(> div[class^="jss"] > div[class^="jss"] > div#left-ad)
 cineplex.com##.MuiGrid-grid-md-4 > div:has(> div#pageContentAd)
 cineplex.com##div[class*="_adContainer"]
+cineplex.com##div[class^="index_adsContainer__"]
 cineplex.com##div[class^="jss"]:has(> div#desktop-default-header-ad)
 cinereporters.com###btm-widget > div[id^="div-clmb-ctn-"]
 cinereporters.com###btm-widget > h1:contains(/^From around the web$/)
@@ -73941,6 +73944,8 @@ itesco.sk,tesco.com###oa-consent-banner
 itest.5ch.net##.ad_300x250:style(position: absolute !important; left: -3000px !important;)
 itest.5ch.net##.roninform_wrap > div ~ div.center
 itest.5ch.net##.threadview_response > p:has(> a[href="https://melon.5ch.net"])
+itest.5ch.net##a[id^="link"] > img[src^="https://itest.5ch.net/assets/banner/"]
+itest.5ch.net#%#//scriptlet('trusted-replace-argument', 'window.open', '0', 'replace:/^https:\/\/itest\.5ch\.net\/jump\/to\?url=(.+)/$1/', '/jump/to?url=')
 itest.5ch.net#?#[id] > p[style^="font-weight:"]:has(> a[href="//uplift.5ch.net"][target="_blank"])
 itest.5ch.net#?#p[style]:has(> a:matches-attr(/hrea?f/=/^https:\/\/uplift\.5ch\.net$/))
 itest.5ch.net#@#.js-cardview_ad-320x180
@@ -99286,7 +99291,6 @@ nicolasbustamante.com#%#//scriptlet('trusted-set-local-storage-item', 'pub-10658
 nicolasbustamante.com,blog.bytebytego.com,architecture-weekly.com,latent.space,dwarkesh.com,chipsandcheese.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsguardrealitycheck.com,newsletter.techworld-with-milan.com,newsletter.pragmaticengineer.com,substack.com,gamefile.news##span > a.pencraft:has(> div.pencraft > svg.lucide-share)
 nicolasbustamante.com,blog.bytebytego.com,architecture-weekly.com,latent.space,pragmaticengineer.com,gamefile.news##.pencraft > button.pencraft:has(> svg > path[d^="M4 12v8a2"])
 nicolasbustamante.com,blog.bytebytego.com,substack.com##.pencraft > div.style-compressed > a.no-label.post-ufi-button[href^="javascript"] > svg
-nicolasbustamante.com,read.engineerscodex.com##.pencraft + div:has(> button > div.label)
 nicolasbustamante.com,read.engineerscodex.com,sources.news,nicolasbustamante.com,thegamebusiness.com,secondthoughts.ai,pragmaticengineer.com##.navbar-buttons button[data-testid="noncontributor-cta-button"]
 nicolasbustamante.com,read.engineerscodex.com,sources.news,thegamebusiness.com,architecture-weekly.com,substack.com##.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to |Start at/))
 nicomanga.com###listImgs > img ~ center
@@ -105071,6 +105075,8 @@ page.kakao.com#$#div[id="epubViewerBody"][class^="css-"] { -webkit-touch-callout
 page4.com##.wrap-cookie-banner
 page_view_count
 pageflows.com###driftChatTrigger
+pagellapolitica.it##.bg-blue:has(a[class^="hover:text-blue"])
+pagellapolitica.it##section.bg-black:has(> .container > .grid)
 pages.daraz.pk,idefix.com,lescon.com.tr,telekom.de,openrice.com,pass.telekom.de,lazada.com.ph,lamoda.ru,lazada.co.id,milliyet.com.tr,esky.com.tr,allo.ua,home24.de,cbsnews.com,lieferheld.de##.smart-banner
 pages.dev##html:not([class]) > body.gradient-bg.min-h-screen.flex.items-center.justify-center > div.glass-card.max-w-md.w-full.text-center > form#loginForm.flex.flex-col
 pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
@@ -108301,6 +108307,9 @@ play.anghami.com#@#.adsBanner
 play.dictionary.com##+js(adjust-setInterval, generalTimeLeft, *, 0.01)
 play.dictionary.com#@#display-ad-component
 play.discoveryplus.com##+js(json-prune, ssaiInfo)
+play.discoveryplus.com,play.hbomax.com,play.max.com##+js(json-prune, adtech-brightline adtech-google-pal adtech-iab-om)
+play.discoveryplus.com,play.hbomax.com,play.max.com##+js(json-prune, ssaiInfo fallback.ssaiInfo)
+play.discoveryplus.com,play.hbomax.com,play.max.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"] or .//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])]), , .mpd)
 play.diziyou.mx,play.diziyou1.com,play.diziyou2.com,play.diziyou3.com,play.diziyou4.com,play.diziyou5.com,play.diziyou6.com,play.diziyou7.com,play.diziyou8.com,play.diziyou9.com,play.diziyou10.com,play.diziyou11.com,play.diziyou12.com,play.diziyou13.com,play.diziyou14.com,play.diziyou15.com,play.diziyou16.com,play.diziyou17.com,play.diziyou18.com,play.diziyou19.com,play.diziyou20.com,play.diziyou21.com,play.diziyou22.com,play.diziyou23.com,play.diziyou24.com,play.diziyou25.com,play.diziyou26.com,play.diziyou27.com,play.diziyou28.com,play.diziyou29.com,play.diziyou30.com,play.diziyou31.com,play.diziyou32.com,play.diziyou33.com,play.diziyou34.com,play.diziyou35.com,play.diziyou36.com,play.diziyou37.com,play.diziyou38.com,play.diziyou39.com,play.diziyou40.com,play.diziyou41.com,play.diziyou42.com,play.diziyou43.com,play.diziyou44.com,play.diziyou45.com,play.diziyou46.com,play.diziyou47.com,play.diziyou48.com,play.diziyou49.com,play.diziyou50.com##video#diziyou_html5_api:style(display: initial !important;)
 play.esea.net###module-ads-home-bottom
 play.esea.net##a[href="https://fce.gg/S53ESEAtakeover"]
@@ -108321,7 +108330,6 @@ play.google.com#@#div[aria-label="Ads"]
 play.hbomax.com,play.max.com##+js(json-prune, adtech-brightline adtech-google-pal adtech-iab-om)
 play.hbomax.com,play.max.com##+js(json-prune, ssaiInfo fallback.ssaiInfo)
 play.hbomax.com,play.max.com##+js(json-prune-fetch-response, ssaiInfo fallback.ssaiInfo, , propsToMatch, /playbackInfo)
-play.hbomax.com,play.max.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"] or .//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])]), , .mpd)
 play.history.com##+js(json-prune, data.reg)
 play.iporngay.com##+js(no-setTimeout-if, hasPopupBlocker)
 play.iporngay.com##+js(no-window-open-if, !download)
@@ -134365,6 +134373,7 @@ thedailymash.co.uk,thetab.com###ad-sidebar-3
 thedailymash.co.uk,thetab.com###ad-sidebar-4
 thedailymeal.com##.context-header-node .header-wrapper-outer .header-wrapper-inner .header-wrapper.container .header-center div.title
 thedailymeal.com##.hidden-xs.last
+thedailyscrumnews.com##.mantranews-pro-addon-adv-slider-widget
 thedailyscrumnews.com,yenicag.az,fcjav.com,plan-home.com,netfapx.com##div[class^="ads-"]
 thedailystar.net###bellIcon
 thedailystar.net###dsYoutubePopUPDIV
