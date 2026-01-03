@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.04.0537+1100 AEST
-! Last modified: 2026.01.04.0537+1100 AEST
+! Version: 2026.01.04.0825+1100 AEST
+! Last modified: 2026.01.04.0825+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -46768,6 +46768,7 @@ edition.cnn.com##div[data-bundle="adzones"]
 edition.cnn.com##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"]
 edition.cnn.com##section[data-zone-label="Watch It"]
 edition.cnn.com##section[id^="ad-spon-"]
+edition.cnn.com,nttgame.com,developer.confluent.io,nhl.com##body #onetrust-consent-sdk
 editions-eni.fr,red-by-sfr.fr,sfr.fr###CkC
 editor.0lik.ru##noindex div.ase-info
 editor.p5js.org,solarisbank.com,risingstack.com##div[class^="CookieConsent__"]
@@ -75813,6 +75814,7 @@ jotform.com##.jfFeedbackButton
 jotform.com##.section-articleshare
 jotform.com##.section-widget-footer
 jotti.org,unogs.com##.alert-info
+jouhou.nagoya##.sharebox2
 joujizz.com##.share-this-static
 joujizz.com##.video-top-wrap > .sb
 journal.burningman.org##.navigation
@@ -79601,7 +79603,6 @@ kumichomusume.com,dctm-pj.com,bungo-movie.com##.footer-Share
 kumin.news###ad-article-bottom
 kumin.news#?#.main-container > h3:contains(PR記事)
 kumparan.com##.adunitContainer:upward([data-qa-id])
-kun.uz,defence-ua.com,war.ukraine.ua##.share-news
 kuna.io##div[class*="cookies-footer"]
 kunal-chowdhury.com##div[class^="adsZone"]
 kund.bliwa.se#@#.cookieDiv
@@ -88615,6 +88616,9 @@ maxi-retail.ru##div[class^="NotificationCookie"]
 maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponsored"])
 maxi.rs##+js(trusted-click-element, button[data-testid="cookie-popup-reject"], , 1000)
 maxicours.com#%#//scriptlet('set-session-storage-item', 'popup-closed', 'true')
+maxidom.ru###adverts-slider
+maxidom.ru###modalPageCookies
+maxidom.ru##.footer-banner
 maxifoot.fr###mfcok1
 maxigumi.hu##.content-bottom-fullwidth
 maxima.pt##.nextnews
@@ -100904,7 +100908,6 @@ nttgame.com###modalCookie
 nttgame.com##+js(trusted-set-cookie, gnb-cookie-agree, agree)
 nttgame.com#$##lean_overlay { display: none !important; }
 nttgame.com#$##modalCookie { display: none !important; }
-nttgame.com,developer.confluent.io,nhl.com###onetrust-consent-sdk
 nttpc.co.jp##.l_cookieAgree
 ntunhs.net###sidebar2
 ntuplay.xyz##+js(acs, document.onkeypress)
@@ -124401,11 +124404,13 @@ sm.ms##.advert_foot
 sm.ms##.download-box
 sm.ms##.notify
 sm.ms##.wwads_abp
+sm.news##.head_part
 sm.news##.small-slide__social
 sm.news##div[id^="bar"]
 sm.news#$#abort-current-inline-script decodeURIComponent blocked
 sm.news#?#div:not([class="col-home"]):has(> div[id^="bar"])
 sm.news,amedia.online,sdamgia.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.RenderMarks")
+sm.news,kun.uz,defence-ua.com,war.ukraine.ua##.share-news
 sma.de###tracker-banner
 smachno.ua##.soc_table
 smahospital.jp,nipponsteel.com##.p-gdpr
@@ -132366,6 +132371,7 @@ techradar.com#@#a[href^="https://amazon."][href*="tag="]
 techradar.com,pcgamer.com,tomsguide.com##div[id^="slice-container-newsletter"]
 techradar.com,toimitilat.kauppalehti.fi#@#.sponsored-article
 techradar.com,tomshardware.com,tomsguide.com##.onesignal-customlink-container
+techrankup.com##.adall
 techraptor.net###nn_lb3
 techraptor.net###nn_lb4
 techraptor.net##.detail-page-lb1-ad
@@ -134502,6 +134508,7 @@ thefa.com###fixedAdRight
 thefa.com###ft-adverts
 thefa.com##.fa-social-share
 thefabricator.com###subscribe-pop-wrapper
+thefactjp.com##.pShareBtn
 thefader.com###new_socials_bottom
 thefader.com##.footer_content
 thefamouspeople.com##.ppreloaded_lightbox
