@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.04.1514+1100 AEST
-! Last modified: 2026.01.04.1514+1100 AEST
+! Version: 2026.01.04.1741+1100 AEST
+! Last modified: 2026.01.04.1741+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -11434,7 +11434,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 5asec.pt,tui.dk,tui.fi,tui.no,tui.se##+js(rc, no-scroll, body, stay)
 5ch.net##.ads_conten_main
 5ch.net##div[id^="hideme"] > a[href="https://premium.5ch.net/"]
-5ch.net#%#//scriptlet('href-sanitizer', 'a[href*="jump5.ch/?"]')
+5ch.net#%#//scriptlet('href-sanitizer', 'a[href^="http://jump"][href*="/?http"]')
 5chan.jp###advertise_main_header
 5chan.jp##.adnextile
 5chan.jp##.adv-rwd-iframe-container
@@ -16080,7 +16080,7 @@ alohatube.com##.advboxemb
 alohatube.com##.shoring.cat-bottom
 alohatube.xyz##+js(set, popit, false)
 alonsoaliaga.github.io,everyeye.it,hausbau-forum.de,birgun.net,curseforge.com,sheepesports.com,automoto.it,calcmaps.com,moto.it,insidermonkey.com,udocz.com,gisarea.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-alotav.com,javbraze.com,javdoe.fun,javdoe.sh,javhat.tv,javhd.*,javhdz.today,javseen.tv,javseenz.tv,javtape.site,xjav.online###previewBox
+alotav.com,javbraze.com,javdoe.fun,javdoe.sh,javfindx.com,javhat.tv,javhd.*,javhdz.today,javseen.tv,javseenz.tv,javtape.site,xjav.online###previewBox
 alotporn.com##.list-videos > div > .item:empty
 alotporn.com##.list-videos > div > .item:has(> ins)
 alotporn.com##.player + center
