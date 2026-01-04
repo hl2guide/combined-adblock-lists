@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.04.2026+1100 AEST
-! Last modified: 2026.01.04.2026+1100 AEST
+! Version: 2026.01.04.2355+1100 AEST
+! Last modified: 2026.01.04.2355+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -49006,6 +49006,9 @@ eplsite.uk##[href="https://www.eplsite.uk/vm.html"]
 eplus.by#$##cookiesAgreementNotice { display: none !important; }
 eplus.by#$#body[class] { overflow: auto !important; }
 eplus.by#@#.cookies-container
+eplus.jp##+js(trusted-set-cookie, gdpr_settings, '{"allow":"I_ACCEPT"}')
+eplus.jp#@##cookie_gdpr
+eplus.jp#@#.cm-notification-container
 epmonthly.com##.polis-target
 epn.bz##+js(set, ab, false)
 epo.org###matomoBanner
@@ -74438,6 +74441,7 @@ jahannews.com##.stickadtop + span.collapse_close
 jahnupartner.de#$#body { filter: none !important; pointer-events: auto !important; }
 jahnupartner.de#@#.cc-window[aria-label="cookieconsent"]
 jaiefra.com##+js(aopr, adBlockDetected)
+jailbreakchangelogs.xyz##+js(set-session-storage-item, adblock_modal_dismissed, true)
 jak-ksiegowac.pl###message_wrap
 jak.se##.consent-backdrop
 jakaoferta.pl##.wp-block-group__inner-container > p:contains(/^Reklama$/)
