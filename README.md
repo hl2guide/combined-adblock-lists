@@ -2,6 +2,8 @@
 
 A combined filter list of the very best cosmetic rules for use in Adblockers like **uBlock Origin** and **AdGuard**'s browser extension or app for Windows 11.
 
+Last Update (AEST): 2026-01-05 19:37:08 +1100
+
 ## Direct raw text link
 
 ```
@@ -30,4 +32,4 @@ Item | Improvement
 ---------|---------
 `create_list_v2.py` execution time | from 25 seconds to 3 seconds
 total build and run time | from 30 seconds to about 13 seconds
-frequency of generation (hours) | 4 changed to 3
+frequency of generation (hours) | 3 changed to 6

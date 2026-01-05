@@ -1,8 +1,8 @@
-name: Python Run - every 3 hours run a Python script and then commit to repo
+name: Python Run - every 6 hours run a Python script and then commit to repo
 
 on:
   schedule:
-  - cron: '0 */3 * * *' # Run every 3 hours, every day
+  - cron: '0 */6 * * *' # Run every 6 hours, every day
 
   workflow_dispatch:
 
