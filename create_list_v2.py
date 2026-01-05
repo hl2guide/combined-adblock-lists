@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 4 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.6
-# Edited: 2025-12-26 14:22:46 +1100
+# Version 2.0.7
+# Edited: 2026-01-05 20:23:05 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
