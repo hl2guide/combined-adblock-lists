@@ -3,8 +3,12 @@ name: Python CI - format using "black", lint using "flake8" then analyse using "
 on:
   push:
     branches: [main]
+    paths:
+      - '**/*.py'          # run on pushes that modify any .py file
   pull_request:
     branches: [main]
+    paths:
+      - '**/*.py'          # run on pulls that modify any .py file
 
 jobs:
   build:
