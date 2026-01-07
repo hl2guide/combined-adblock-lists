@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.07.2356+1100 AEST
-! Last modified: 2026.01.07.2356+1100 AEST
+! Version: 2026.01.08.0540+1100 AEST
+! Last modified: 2026.01.08.0540+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -11304,7 +11304,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4pig.com###sponsorbanner
 4pig.com##.banner_page_right
 4pig.com,levelsex.com##.banner_page_right
-4porn4.com##+js(rmnt, script, localStorage)
 4porno365.biz##+js(no-window-open-if)
 4qrcode.com###addContainer
 4qrcode.com###adsMobile
@@ -24134,8 +24133,6 @@ beasoku.com##.rss-block
 beastsofwar.com###feature-holder
 beastsofwar.com##.badge-bar-top
 beasttips.com##.gayatri-side-left-content + div[id][class*=" "]
-beastx.top###theotherads
-beastx.top##+js(nowoif, !/d/)
 beate-uhse.com##.disclaimer_wrapper
 beate-uhse.com#$#.modal-backdrop { display: none!important; }
 beate-uhse.com#$#.modal.exitIntent { display: none!important; }
@@ -25002,7 +24999,7 @@ bestoftelegram.com##a[href^="/ads/banner_ads?"]
 bestofthelist.com###cboxOverlay
 bestporn.su##.prefixav-player-promo-col
 bestpornflix.com##+js(rmnt, script, popunder)
-bestpornflix.com,4porn4.com##.table
+bestpornflix.com##.table
 bestprice.gr###filters-aside > .ads
 bestprice.gr##.prices__group[data-is-promoted=""]
 bestprice.gr##.product__wrapper--promoted
@@ -33217,6 +33214,7 @@ check-plagiarism.com##+js(set-constant, google_jobrunner, noopFunc)
 check-plagiarism.com##[id^="topads_"]
 check-plagiarism.com##body #detect[class]:style(display: block !important;)
 check-plagiarism.com#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
+check.lenta.com###carousel_banners
 check.lenta.com##.chek_wrapper > div[class] > #carousel
 check.lenta.com##.chek_wrapper > div[class] > #carousel_banners
 check.lenta.com##a[href^="https://lentaapp.go.link/"]
@@ -36422,7 +36420,6 @@ comics.org##div[style="height:90px"]
 comics888.com#?##divMain > div.post:has(> a[href="http://rawdl.net/rapidgator.html"])
 comicsands.com###c7da91bc-8e44-492f-b7fd-c382c0e55bda
 comicsands.com##.newsletter-aside
-comicsands.com#@#.sticky-share
 comicschau.de###detect-modal
 comicschau.de##a[href^="https://www.comicschau.de/werben/"]
 comicsheatingup.net###custom_html-5
@@ -44652,7 +44649,6 @@ download.rockmods.net##.container > div.btn-group ~ center > div.download-btn-gr
 download.windowslite.net##+js(no-window-open-if)
 download3k.com###google_top
 download3k.com##div[id^="dl_google_"]
-download3s.net##+js(set, blurred, false)
 download4.cc###banner-left
 download4.cc###side-banner
 downloadbox.org###download
@@ -45309,18 +45305,12 @@ dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
 dublaj.az##.post-content > section.bn-lg:has(> .row > div[id^="yandex_rtb"])
 dublininquirer.com##.-alert.-fixed.notice
 dubravka.sk###set-win-coo
-dubznetwork.com###id-custom_banner
 dubznetwork.com###overlay2
-dubznetwork.com##+js(acs, $, adb-btn)
 dubznetwork.com##+js(acs, document.onkeypress)
-dubznetwork.com##+js(acs, eval, replace)
 dubznetwork.com##+js(acs, jQuery, keydown)
-dubznetwork.com##+js(nostif, , 1000)
-dubznetwork.com##.aoa_overlay:style(height: 0px !important)
 dubznetwork.com##.iframe-container iframe:style(display: block !important;)
 dubznetwork.com##.single-related-posts.banner_ad
 dubznetwork.com##.widget:has( .widget-item-wrap > div[class^="clpr-emre"] )
-dubznetwork.com##[class^="clpr-emre"]
 dubznetwork.com##div[class^="clpr-emre"]
 dubznetwork.com#$?##vidorev_post_extensions-2 > .widget-item-wrap:has(> div > p:contains(Please consider to turn off your adblock or whitelist)) { visibility: hidden !important; }
 dubznetwork.com#@#.ads-by-google
@@ -47389,6 +47379,7 @@ eku.ru##.JC-popup
 eku.ru#?##sidebar > div.widget:has(> form[action="/subscribe/make/"])
 el-klinikken.dk###c-l-widget
 el-observador.com##.content-social
+elaginpark.org,kininaru-nyousanchi.jp,trismegistos.org,arigus.tv,moskvich.ru,ookusu-la.jp,sikakeyb.com,seniorhome-mado.com,tube8.com,miekinia.pl,redtube.com,youporn.com,aklarsanalmarket.com,autochladek.cz##div[id^="cookie_"]
 elahmad.com###ad_asd
 elahmad.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 elahmad.com##+js(no-fetch-if, /ads|imasdk/)
@@ -47402,10 +47393,10 @@ elama.ru#$#.jquery-modal { display: none!important; }
 elama.ru#$#body { overflow: visible!important; }
 elamaule.cl,elboyaldia.cl,elconcecuente.cl,elmagallanews.cl,elmartutino.cl,elmorrocotudo.cl,elnaveghable.cl,elnortero.cl,elobservatodo.cl,elquehaydecierto.cl,elrancahuaso.cl,elrepuertero.cl,elvacanudo.cl,laopinon.cl##.share-content
 elamigos-games.com##a[href^="https://track.wg-aff.com/"]
-elamigos-games.com,elamigos-games.net,elamigosgames.org##+js(nostif, checkAdblockUser)
-elamigos-games.com,elamigos-games.net,elamigosgames.org##.content_store
-elamigos-games.com,elamigos-games.net,elamigosgames.org##.iframeDiv
-elamigos-games.com,elamigos-games.net,elamigosgames.org##h3.my-4:has-text(/^Advertising/)
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##+js(nostif, checkAdblockUser)
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##.content_store
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##.iframeDiv
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##h3.my-4:has-text(/^Advertising/)
 elamigos-games.net##.container > .my-4:contains(Advertising)
 elamigos-games.net##.portfolio-item:has(> .card > a[href*="instant-gaming.com"])
 elamigos-games.net##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
@@ -49665,6 +49656,7 @@ esquire.com##.area-follow-us
 esquire.com##.policy-bar
 esquire.com##[aria-label="Google Preferred Sources Banner"]
 esquire.com##section > div[class*="css"]:has(> div.ad-container)
+esquire.com##section[data-show-google-banner="true"]
 esquire.com,cosmopolitan.com,womenshealthmag.com###recommended-modal
 esquire.com,ellegirl.jp,womenshealthmag.com##.regist-mail-wrap
 esquire.kz##.socYandex
@@ -70371,7 +70363,7 @@ ilvescovado.it###adblockwarning
 ilvescovado.it##.glatCookieBar
 ilvesfoorumi.com,matkapuhelinfoorumi.fi,varasija.com##.notice--cookie
 ilvibonese.it##.acy-email-footer
-im9.eu##+js(abort-on-stack-trace, document.createElement, onerror)
+im9.eu##+js(noeval-if, adpreserve)
 ima-usa.com##div[id^="ltkpopup-"]
 imacos.top##.sitetips
 imag-r.com##+js(aopr, adBlockerDetected)
@@ -77349,6 +77341,10 @@ keisan.casio.jp###adv_middle
 keisan.casio.jp##.classpad_exe
 keisanki.me,kalporn.com,canalporno.com,serviporno.com,livechat-ero.net,kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,m.mistrzowie.org,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,winfuture.de##.ads
 keithrainz.me##.inside-right-sidebar > aside.widget:has(> figure[class] > a[href])
+keiyaku-watch.jp##.lfkw-c-calendar-badge
+keiyaku-watch.jp##.liquid_connect_modal_center
+keiyaku-watch.jp##.paywall-top-banner-widget
+keiyaku-watch.jp##div[id^="bfb_content_"]
 kejt.pl,radom24.pl##.ciasteczka-info
 kekememes.de#$#.aq4y { display: none!important; }
 kekememes.de#$#body { overflow: visible!important; }
@@ -77956,7 +77952,6 @@ kininaru-geinou-m.blog.jp##.rss-blogroll + br + br
 kininaru-geinou-m.blog.jp##.rss-blogroll + div.sub-title-box
 kininaru-geinou-m.blog.jp##.rss-blogroll1box
 kininaru-geinou-m.blog.jp##.sub-title-box:first-child
-kininaru-nyousanchi.jp,trismegistos.org,arigus.tv,moskvich.ru,ookusu-la.jp,sikakeyb.com,seniorhome-mado.com,tube8.com,miekinia.pl,redtube.com,youporn.com,aklarsanalmarket.com,autochladek.cz##div[id^="cookie_"]
 kinja.com##.jFENrj.sc-80eizx-7
 kink.com##.kink-az-container
 kink.com##body > section[open]#ccc
@@ -81246,7 +81241,6 @@ learngerman.dw.com##+js(set-local-storage-item, hasAcceptedGdpr, true)
 learning.postman.com##.right-column .sticky > div > a[href="https://www.postman.com/newsletter-signup/"]
 learning.postman.com#?#.right-column .sticky > div > p:has(+ a[href="https://www.postman.com/newsletter-signup/"])
 learningbyshipping.com,thebignewsletter.com##div[class*="_popover_"]
-learnmania.org##+js(acs, $, RegExp)
 learnpick.in##.gdpr_holder
 learnpython.org###google-ad-right > iframe
 learntotradethemarket.com##.bottom-navbar
@@ -95648,6 +95642,7 @@ myoffers.smartbuy.hdfcbank.com##+js(set-local-storage-item, cookies_enabled, tru
 myoji-kamon.net###sidebar_right div[style^="width"][style*="margin:"][style*="text-align:"]
 myoji-kamon.net##.omamoriAd
 myoji-kamon.net,myoji-yurai.net###app_ad
+myoji-yurai.net##.insta_btn2
 myoji-yurai.net##div[style^="width:280px;margin:"]
 myoji-yurai.net#?#a[href="https://play.google.com/store/apps/details?id=net.myoji_yurai.myojiOmikuji"]:upward(1)
 myoji.jitenon.jp##.side_shop_bnr
@@ -106442,8 +106437,8 @@ peachurbate.com##.video-right-banner
 peachurnet.com##.video-right-banner
 peachurnet.com,scotsman.com,warcraftlogs.com###bottom-banner
 peacocktv.com##+js(json-prune, avails dashAvailabilityStartTime hlsAnchorMediaSequenceNumber nextToken nonLinearAvails)
+peacocktv.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"])][not(.//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])]), , /-vod-.+\.mpd/)
 peacocktv.com##.playback-ad-blocker-notice
-peacocktv.com,play.hbomax.com,play.max.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"])][not(.//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])]), , .mpd)
 peak.cz##+js(abort-current-script, $, adblock-modal)
 peakd.com#%#//scriptlet('set-cookie', 'COOKIE_CONSENT_ACCEPTED', 'true')
 peakpx.com##li[style^="width: 300px; height: 250px;"]
@@ -107315,6 +107310,7 @@ phonescoop.com###socpage
 phonescoop.com###topstripalert
 phoneswiki.com##+js(set, jQuery.adblock, false)
 phoneswiki.com##+js(set-constant, jQuery.adblock, false)
+phonevalidator.com,sarsilmaz.com,karakartal.com,sporx.com,superfb.com,webaslan.com##.cookie-text
 phonevalidator.com,skipsmasher.com,spydialer.com###PopupMessage
 phoneworld.com.pk##.theiaStickySidebar > #custom_html-6
 phoneworld.com.pk##.theiaStickySidebar > #stream-item-widget-1
@@ -108422,6 +108418,7 @@ play.google.com#@#div[aria-label="Ads"]
 play.hbomax.com,play.max.com##+js(json-prune, adtech-brightline adtech-google-pal adtech-iab-om)
 play.hbomax.com,play.max.com##+js(json-prune, ssaiInfo fallback.ssaiInfo)
 play.hbomax.com,play.max.com##+js(json-prune-fetch-response, ssaiInfo fallback.ssaiInfo, , propsToMatch, /playbackInfo)
+play.hbomax.com,play.max.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"])][not(.//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])]), , .mpd)
 play.history.com##+js(json-prune, data.reg)
 play.iporngay.com##+js(no-setTimeout-if, hasPopupBlocker)
 play.iporngay.com##+js(no-window-open-if, !download)
@@ -113668,7 +113665,6 @@ qq.co.kr,pandalive.co.kr###rightBanner
 qq.com##.qm_toolbarSubTitle
 qq.com##.top_announce
 qqwebplay.xyz##+js(nostif, stackTrace)
-qqxnxx.com,xnxx-downloader.net##+js(aopr, decodeURI)
 qr.cz###eu-fck
 qr.finedinemenu.com#%#//scriptlet('trusted-set-cookie', 'fd_m_c_c_a_t', '%22accept_only_necessary%22', '', '/', 'qr.finedinemenu.com')
 qr.nspk.ru###app > section.fixed.duration-1000
@@ -119750,7 +119746,6 @@ sarkariyojana-com.cdn.ampproject.org,sarkariyojana.com##.amp-adv
 sarkisozlerihd.com##.lyric-bottom > div.pull-right:has(> span.lyric-share)
 sarna.net###p-banner-top-b
 sarralbe.fr###cc-bar
-sarsilmaz.com,karakartal.com,sporx.com,superfb.com,webaslan.com##.cookie-text
 sarthaks.com##+js(aeld, copy)
 saru.co.jp##.side_form_bible
 saru.co.jp,lucy.ne.jp##.bzb-sns-area
@@ -121521,8 +121516,6 @@ seonews.ru##.post-controls > .sub-telegram
 seonews.ru##.sidebar > div.index-banner-wrapper
 seonews.ru##.social-goriz-wrapper
 seonews.ru##.sub-mailing-bg
-seopolarity.com##.sidebar_adds
-seopolarity.com##ins.adsbygoogle
 seopolarity.com,toolss.net,webnots.com##.sidebar_adds
 seoquick.com.ua##.post__cs__social
 seoschmiede.at##+js(rmnt, script, /pirate/i)
@@ -121818,6 +121811,7 @@ sexemix.com##+js(aost, document.createElement, /(?=^(?!.*(https)))/)
 sexemix.com##+js(set, flashvars.adv_pre_src, '')
 sexeo.de##+js(set-cookie, cookie, accepted)
 sexervaringendelen.nl##.agl_wrapper
+sexfeast.ru##.sf-cookie-warning
 sexflashgame.org##+js(acs, ishop_codes)
 sexflashgame.org##center > script + a[target="_blank"] > img
 sexgalaxy.net##+js(nowoif)
@@ -130107,8 +130101,6 @@ supersamsev.ru##.cookie-consent-container-wrap
 superscommesse.it##.accept-popup--ck
 superset.sh##+js(set-local-storage-item, superset-analytics-consent, denied)
 supersextube.pro##+js(no-window-open-if)
-supersextube.pro##+js(nowoif)
-supersextube.pro##.ad
 supersklep.pl,toonpool.com#$##privacyModal { display: none !important; }
 supersklep.pl,toonpool.com#$##privacyModal ~ div.modal-backdrop { display: none !important; }
 supersport.com##.flex-col > .col-span-6 > .flex.items-center.border:has(> .relative > div[id*="_DSTV_SSZ_Responsive_Supersport_"])
@@ -131402,7 +131394,6 @@ tapinto.net##[class^="mobile_newsletter_"]
 tapinto.net##[id^="SubscriptionBox-react-component-"]
 tapinto.net##body,html:style(overflow: auto !important; position: initial !important;)
 tapipol.pl###panel_cookie_bottom
-tapisa.online##.aoa_overlay
 tapochek.net#$#prevent-listener click 'String.fromCharCode'
 tapple.me###section-3
 tapple.me##.flex-col.py-40.border-b:has(> div > div > button.react-share__ShareButton)
@@ -143645,7 +143636,6 @@ uploadmall.com#@#.Adsense
 uploadmall.com#@#.adSense
 uploadmall.com#@#.advblock
 uploadmall.com#@#iframe[width="728"][height="90"]
-uploadmx.com##ins.adsbygoogle
 uploadnow.io##div[class^="file_browser_alt_ad_wrap__"]
 uploadraja.com##+js(acs, getCookie)
 uploadraja.com##a[href^="https://so-gr3at3.com/"]
