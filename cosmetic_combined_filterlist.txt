@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.09.1306+1100 AEST
-! Last modified: 2026.01.09.1306+1100 AEST
+! Version: 2026.01.09.1741+1100 AEST
+! Last modified: 2026.01.09.1741+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -11354,6 +11354,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4shared.com#%#(function(){-1==document.cookie.indexOf("exUserId")&&(document.cookie="exUserId=1; domain=.4shared.com; path=/;")})();
 4shared.com#%#//scriptlet("adjust-setTimeout", "goVideoJS", "*", "0.02")
 4spn.github.io#?##oframepreroll pjsdiv:has(> pjsdiv[style^="position: absolute;"]:contains(ADBLOCK))
+4spromax.site,anikai.to,animekai.*,anigo.to,megaup.cc,megaup.live,megaup.site,megaup22.online,rapidshare.cc,sflix.fi,yflix.to##+js(set, console.clear, throwFunc)
 4stream.*,streamers.watch##+js(nowoif)
 4sysops.com###custom_html-18
 4sysops.com###footer-sidebar-2
@@ -17841,7 +17842,6 @@ anikai.to##+js(nowoif, _blank)
 anikai.to##+js(set-cookie, __p_mov, 1)
 anikai.to,animekai.*,anigo.to,sflix.fi,yflix.to##+js(aeld, keydown, /^function\(.*\|\|.*}$/)
 anikai.to,animekai.*,anigo.to,sflix.fi,yflix.to##+js(nostif, ||!!)
-anikai.to>>,animekai.*>>,anigo.to>>,sflix.fi>>,yflix.to>>##+js(set, console.clear, throwFunc)
 anikore.jp##.boardDetail__list > li:has(> div[id])
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 anikuro.to##div[style="position: absolute; z-index: 99999"]
@@ -21408,6 +21408,9 @@ audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 audiovisualfromspain.com##.cookies-modal-footer-cmp
 audiovisualfromspain.com,icex.es##.cookies-modal-footer-cmp__container
+audioxpress.com##.SignUp
+audioxpress.com##.bannerContainer
+audioxpress.com##.waitress
 audioz.download###PromoHead
 audioz.download###inSidebar > a[href][target="_blank"][rel="noFollow external"][style*="/promotional/"]
 audioz.download###leaderboard > li > a[href] > [src^="/templates/Default/img/promotional/"]
@@ -29319,6 +29322,7 @@ briau.com,cultureetracines.com,petitvallauris.fr,spesalia.com##.acb-gdpr
 brickfanatics.com###home-banner-dt
 brickfanatics.com###secondary
 brickfanatics.com##.pw-ph-leaderboard
+bricklink.com##+js(trusted-click-element, button.blp-cookie-notice__btn--reject, , 1000)
 bricklink.com##+js(trusted-click-element, button.btn--white.l-border.cookie-notice__btn, , 1000)
 bricklink.com#$#.cookie-notice { display: none!important; }
 bricklink.com#$#body { overflow: auto!important; }
@@ -30647,6 +30651,7 @@ bva.bund.de#@##cookiebanner
 bvk-beamtenversorgung.de##+js(set-cookie, bvkcookie, true)
 bvl.bund.de#@##cookiebanner
 bvmed.de##+js(set-cookie, MATOMO_CONSENT_GIVEN, 0)
+bw-bank.de##+js(trusted-click-element, a[data-form=".eprivacy_optin_decline"], , 1000)
 bw-bank.de#%#//scriptlet('trusted-click-element', 'a[title="Ablehnen"]', '', '50')
 bw-bank.de#@#.if6_eprivacy
 bw-online-shop.com##.modal-mask-class
@@ -37081,6 +37086,7 @@ consent.helagotland.se##+js(trusted-click-element, button[title="Jag godkänner"
 consent.helpster.de,baseendpoint.stern.de,baseendpoint.urbia.de,cmptcf2.rheinpfalz.de,cmp-sp.paz-online.de,cmp-sp.ln-online.de,baseendpoint.schoener-wohnen.de,baseendpoint.gala.de,sourcepoint.rtl2.de,cmp-sp.sn-online.de,cmp-sp.goettinger-tageblatt.de,cmp-sp.ostsee-zeitung.de,cmp-sp.dnn.de,cmp-sp.sportbuzzer.de,cmp-sp.rnd.de,cmp-sp.haz.de#%#//scriptlet('trusted-click-element', 'button[title^="Zustimmen"], button[title^="Alle akzeptieren" i]')
 consent.ladbible.com,consent.unilad.com,consent.uniladtech.com,consent.gamingbible.com,consent.sportbible.com,consent.tyla.com,consent.ladbiblegroup.com##+js(trusted-click-element, button.sp_choice_type_12[title$="Settings"], , 800)
 consent.ladbible.com,consent.unilad.com,consent.uniladtech.com,consent.gamingbible.com,consent.sportbible.com,consent.tyla.com,consent.ladbiblegroup.com##+js(trusted-click-element, button[title="REJECT ALL"], , 1200)
+consent.nsd.se##+js(trusted-click-element, button[title="Jag godkänner"], , 1000)
 consent.spielaffe.de##+js(trusted-click-element, button[title="Accept All & Close"], ,1000)
 consent.spielaffe.de,indy100.com#%#//scriptlet('trusted-click-element', '.message-component > button.message-component.sp_choice_type_11')
 consent.sportbible.com#%#//scriptlet('trusted-click-element', '.message-component > button.sp_choice_type_SAVE_AND_EXIT')
@@ -91044,6 +91050,7 @@ midad.com##.social-actions
 midas.com###recaptcha
 midas.com##.hide-king.chat-king-desktop
 midasbuy.com###cookie-agreement-pop
+midasbuy.com##+js(trusted-click-element, div[data-id="refuse"], , 1000)
 midasbuy.com##.PopCookie_active__UWi7E
 midasbuy.com##.eea-pop
 midasbuy.com##.pop_mode_box_3kHnb
@@ -97804,6 +97811,7 @@ networldsports.ca,summitracing.com##.reveal-overlay
 networldsports.ca,summitracing.com##body,html:style(overflow: auto !important; position: initial !important;)
 netwrix.com##.cookie-information-cont
 netxwatch.*##+js(aopr, __Y)
+netze-bw.de##+js(trusted-set-cookie, ndConsentedCookies, '[%22Functional%22]')
 netzpolitik.org###banner-small
 netzpolitik.org###netzpolitik-cta
 netzpolitik.org###spendenBanner
@@ -115908,6 +115916,8 @@ redbull.com#@##onetrust-consent-sdk
 redbull.com,tbd.community##.inline-share
 redbullmobile.pl###didomiBlockNavigation
 redbullmobile.pl###more1
+redbullracing.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , domain, www.redbullracing.com)
+redbullracing.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1, , , domain, www.redbullracing.com)
 redcafe.net##.adwrap
 redcare.it##+js(trusted-set-cookie, usercentrics_consent, '{"ad_storage":0,"analytics_storage":0,"functional":0}')
 redd.it##reddit-cookie-banner
@@ -116884,6 +116894,7 @@ restoreprivacy.com#$#html.om-position-popup body { overflow: auto !important; }
 restoro.com#@#[href^="https://www.restoro.com/"]
 resultados-futbol.com##.blur-cookies
 resursbank.fi##+js(trusted-set-cookie, cookie_consent, necessary%3A1%2Cstatistics%3A0%2Cmarketing%3A0)
+resy.com##+js(trusted-click-element, button[data-testid="granular-banner-button-decline-all"], , 1500)
 retail-insider.com###footban
 retail-insider.com###headban
 retail-insider.com###sidebar-one div.intrinsic
@@ -142844,6 +142855,7 @@ ulker.com.tr##.information-cookie
 ullstein.de##.wBffM
 ulm-news.de###SWU-schwabenstrom
 ulm-news.de##div[id^="banner_"]
+ulm.de##+js(trusted-set-cookie, consent, '{"consentId":"1","categories":{"TechnicalRequired":true,"AnalyticsAndPerformance":false,"Marketing":false}}')
 ulm.edu##.gdpr-consent-form
 uloz.to###bandzoneHint
 ulozto.net##.l-wrapper:style(padding-top: 0!important;)
@@ -145407,6 +145419,7 @@ viagogo.*#%#//scriptlet('trusted-set-local-storage-item', 'cookie_preferences', 
 viagogo.*#?##app > div[class*=" "] > div[class*=" "] > div[class*=" "]:has(> span a[href="/help/cookies"])
 viagogo.*#?#main div[class$=" "] ~ div[class*=" "]:has(form[novalidate] button[shape="pill"]:contains(Join the list))
 viagogo.*#?#main div[class$=" "] ~ section:has(a[href*="//play.google.com/store/apps/details?id="])
+viagogo.com##+js(trusted-click-element, button[data-testid="cookie-compliance-allow-all-button"], , 1500)
 viagogo.com.mx##.dLymRk
 viagogo.com.mx##.dkpyjO
 viagogo.jp###gdprHeader
