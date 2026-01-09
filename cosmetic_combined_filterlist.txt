@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.09.2356+1100 AEST
-! Last modified: 2026.01.09.2356+1100 AEST
+! Version: 2026.01.10.0539+1100 AEST
+! Last modified: 2026.01.10.0539+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1250,8 +1250,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/on.js$third-party
 .com/pl?o=$doc
 .com/play-2?h=*=eyJ&si1=$doc
-.com/players/*/-1/$script,3p
-.com/players/*/-1/70/$xhr
 .com/promo.php?c=$frame,script,3p
 .com/pu/$script,domain=smutr.com
 .com/r2.php?e=$doc
@@ -1344,6 +1342,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
+.fb2.html-load.com/player/
 .fbshare.js
 .fiverr.com%2Fjs_event_tracking%2Fv1%2Ftrack_email_open%2F$image
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
@@ -1378,6 +1377,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .hilton.com/subscription/watermark.gif?
 .hootsuite.com/trk?
 .html$frame,3p,domain=flamecomics.xyz
+.html-load.com/*/d/
+.html-load.com/*/n/
 .html?$domain=wap.dulaidw.com
 .html?cep=*&cost=0.$doc
 .html?clicktag=
@@ -3778,7 +3779,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /cdn-cgi/zaraz/*
 /cdn.*/ads.$badfilter
 /cdn.jsdelivr.net/npm/disable-devtool$script,domain=simptown.su
-/cdn.jsdelivr.net/npm/disable-devtool$script,domain=xn-----0b4asja8cbew2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e7qri.xn--1ck2e1b
 /cdn.sinparty.com^$script,subdocument,third-party,media,domain=kaotic.com
 /cdn/linkvertise.js$script,1p
 /cdn/shopifycloud/consent-tracking-api/*
@@ -9505,7 +9505,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 072project.com###adbanner
 072project.com,scmagazine.com,pvacreator.com#$#.swal2-container { display: none !important; }
 072project.com,scmagazine.com,pvacreator.com#$#body.swal2-shown { overflow: auto !important; padding-right: 0 !important; }
-07c225f3.online,content-loader.com,css-load.com,html-load.com,img-load.com##html:not(:has(> head > style:only-child:contains(width:399px;height:411px))):style(filter: opacity(0) !important; pointer-events: none !important;)
 0800autolease.nl##body > div[style*="z-index"]
 0815.at,0815.eu,akkushop-schweiz.ch,akustik-projekt.at,alpine-hygiene.ch,armedangels.com,balance-fahrradladen.de,bar-tek.com,belisse-beauty.co.uk,belisse-beauty.de,berrybase.de,billerbeck.shop,brandners-homestyle.de,butterfly-circus.de,calmwaters.de,catolet.de,cklenk.de,cordon.de,dagvandewebshop.be,damasko-watches.com,deep-shine.de,delker-optik.de,der-puten-shop.de,der-schweighofer.de,drinkitnow.de,eheizung24.de,esm-computer.de,evocsports.com,extremeaudio.de,fidlock.com,fleurop.de,fluidmaster.it,g-nestle.de,gameseal.com,gerho.it,gladiator-fightwear.com,h-andreas.com,heidegrill.com,hela-shop.eu,hitado.de,holzhof24.de,imping-confiserie.de,j-koenig.de,katapult-shop.de,kellermann-online.com,khebikes.com,kletterkogel.de,korodrogerie.de,leiternprofi24.de,leki.com,lenox-trading.at,liv.si,magicpos.shop,malermeister-shop.de,massivart.de,maybach-luxury.com,mellerud.de,mientus.com,natuerlich-holzschuhe.de,nordfishing77.at,novagenics.com,ojskate.com,pnel.de,pp-parts.com,pruegeltorten.tirol,riapsport.de,sammlershop24.de,sanha.com,seemueller.com,shelly-shop.at,shop.ac-zaun-center.de,shop.almawin.de,sps-handel.net,storm-proof.com,stuhl24-shop.de,taste-market.de,thiele-tee.de,trendpet.de,tz-bedarf.de,vansprint.de,vita-world24.de,vivande.de,w6-wertarbeit.de,weicon.com,wohlleben-sports.de,wpc-shop24.de,zaero-design.de,zeinpharma.com,zeinpharma.de##+js(set-cookie, cookie-preference, 1)
 0815.eu,0815.at,leki.com#%#//scriptlet('set-cookie', 'cookie-preference', '1')
@@ -10520,7 +10519,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 247sports.com##body:not(.skybox-loaded) .topnav:style(margin-top:0px !important)
 247sports.com##section.main-wrapper > .topnav > .nav-bar.nav-bar--fixed:style(top: 0!important;)
 247sports.com##section.main-wrapper > .topnav:style(margin-top: 0!important;)
-247sports.com,4029tv.com,abovethelaw.com,aeon.co,asmartbear.com,bookriot.com,carsguide.com.au,christianitytoday.com,citiblog.co.uk,citusdata.com,citynews.ca,click2houston.com,clickorlando.com,cockroachlabs.com,creation.com,currentaffairs.org,dailybee.com,dailysignal.com,dallasinnovates.com,eltrecetv.com.ar,euobserver.com,feadship.nl,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,freedom.press,frommers.com,hedgehogreview.com,hiphopdx.com,hot97.com,japantimes.co.jp,jta.org,kantinepraat.nl,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,local10.com,morningstar.com.au,motherjones.com,mynbc5.com,newsweek.com,pogo.org,progressive.org,propublica.org,publicdomainreview.org,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,samvirke.dk,san.com,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thebeliever.net,thekitchenmagpie.com,tn.com.ar,tomsguide.com,toofab.com,tvtropes.org,undark.org,voetbalverslaafd.nl,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com,zeit.de##.newsletter-signup
 247sports.com,4029tv.com,abovethelaw.com,aeon.co,asmartbear.com,bookriot.com,carsguide.com.au,christianitytoday.com,citiblog.co.uk,citusdata.com,citynews.ca,click2houston.com,clickorlando.com,cockroachlabs.com,creation.com,currentaffairs.org,dailybee.com,dailysignal.com,dallasinnovates.com,eltrecetv.com.ar,euobserver.com,feadship.nl,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,freedom.press,frommers.com,hedgehogreview.com,hiphopdx.com,hot97.com,japantimes.co.jp,jta.org,kantinepraat.nl,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,local10.com,morningstar.com.au,motherjones.com,mynbc5.com,pogo.org,progressive.org,propublica.org,publicdomainreview.org,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,samvirke.dk,san.com,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thebeliever.net,thekitchenmagpie.com,tn.com.ar,tomsguide.com,toofab.com,tvtropes.org,undark.org,voetbalverslaafd.nl,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com,zeit.de##.newsletter-signup
 247sports.com,androidpolice.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mensjournal.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com,nypost.com,pagesix.com,pennlive.com,syracuse.com##+js(rmnt, script, '"data-adm-url"')
@@ -23140,7 +23138,6 @@ bakadesuyo.com###content-subscribe
 bakadesuyo.com##.newsletter-blog
 bakai.org##+js(aeld, load, nextFunction)
 bakeandbacon.com,eazypeazymealz.com,familystylefood.com,fijivillage.com,glutenfreepalate.com,helloadamsfamily.com,herwholesomekitchen.com,lanternlanedesigns.com,mallorynikolaus.com,mommyshomecooking.com,mylifewellloved.com,neighborfoodblog.com,splashoftaste.com,sweetteaandthyme.com,thedeliciousplate.com,thelittlehollythatcould.com,thesuburbanmom.com,tosimplyinspire.com,withspice.com##.fd-focus-visible-applied
-bakeandbacon.com,eazypeazymealz.com,familystylefood.com,glutenfreepalate.com,helloadamsfamily.com,herwholesomekitchen.com,lanternlanedesigns.com,mallorynikolaus.com,mommyshomecooking.com,mylifewellloved.com,neighborfoodblog.com,splashoftaste.com,sweetteaandthyme.com,thedeliciousplate.com,thelittlehollythatcould.com,thesuburbanmom.com,tosimplyinspire.com,withspice.com##.fd-focus-visible-applied
 bakecaincontrii.com##.alert-secondary
 bakecaincontrii.com##.bottom-fixed
 bakecaincontrii.com,holodilnik.ru##.alert.fixed-bottom
@@ -25331,9 +25328,9 @@ bfarm.de,ganztagsschulen.org##+js(trusted-set-cookie, gsbbanner, closed)
 bfclive.com,cinebaz.site,mlsbd.news##+js(nowoif)
 bfh.ch##.comp-dsgvo-banner
 bflix.*##+js(aeld, keydown, [arguments];)
-bflix.*,bitcine.app,cineby.app,moflix-stream.day,tv.verizon.com,world-novel.fr##+js(set, console.clear, trueFunc)
-bflix.*,bitcine.app,cineby.app,moflix-stream.day,tv.verizon.com,world-novel.fr##+js(set, console.log, trueFunc)
-bflix.*,bitcine.app,cineby.app,moflix-stream.day,tv.verizon.com,world-novel.fr##+js(set, console.table, trueFunc)
+bflix.*,bitcine.app,world-novel.fr##+js(set, console.clear, trueFunc)
+bflix.*,bitcine.app,world-novel.fr##+js(set, console.log, trueFunc)
+bflix.*,bitcine.app,world-novel.fr##+js(set, console.table, trueFunc)
 bflix.*>>,~cloudflare.com,~disqus.com,~google.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 bflix.*>>,~cloudflare.com,~disqus.com,~google.com##+js(nowoif)
 bflix.to##+js(set-cookie, pads, 1)
@@ -26412,7 +26409,7 @@ bitchute.com##body:style(overflow: auto !important)
 bitchute.com#$#override-property-read Object.prototype.ads undefined; json-prune 'show_adverts';
 bitchute.com#?#.row.justify-center:-abp-contains(Advertisement)
 bitci.com##.bw-cnotify
-bitcine.app,cineby.app,tv.verizon.com##+js(aeld, keydown, 123)
+bitcine.app##+js(aeld, keydown, 123)
 bitcity.it###subscription-form
 bitclix.io,ad-doge.com###cookieok_bar
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
@@ -32444,7 +32441,6 @@ cbssports.com#$#.VideoHero--sticky { position: static !important; }
 cbssports.com#$#simulate-mouse-event '.video-northstar-bug-container.unseen #video-northstar-bug-close'
 cbssports.com,dpm.lol,celebmafia.com,deeplol.gg,opynew.com,imginn.com##div[data-ad]
 cbssports.com,popsugar.com,thedodo.com,thrillist.com##.leaderboard-wrap
-cbssports.com,ryobitools.eu,paramountplus.com,rte.ie,allrecipes.com,instyle.com,nationalgeographic.*,payback.de,liveabout.com,tomthumb.com,app.nlziet.nl,trimble.com#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
 cbtnuggets.com##.jiIEgt
 cbtnuggets.com##.main-react-app > main + section > footer + section
 cc-fan.ru,cn-fan.ru,fox-fan.ru,cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv###Shop
@@ -35617,6 +35613,7 @@ cnn.com#%#//scriptlet('trusted-click-element', 'div[role="dialog"] > img[alt="CN
 cnn.com#@##onetrust-consent-sdk
 cnn.com#@##outbrain_widget_0
 cnn.com#@#.OUTBRAIN
+cnn.com,cbssports.com,ryobitools.eu,paramountplus.com,rte.ie,allrecipes.com,instyle.com,nationalgeographic.*,payback.de,liveabout.com,tomthumb.com,app.nlziet.nl,trimble.com#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
 cnn.com,liveuamap.com##.user-msg
 cnn.gr,newsbomb.gr##[class*="publisher-teaser"]
 cnn59.com##.sharepost
@@ -37221,6 +37218,7 @@ contao-marketingsuite.com,obstbau.org##.mod_cms_cookie_bar
 contarcaracteres.com##.top-header
 contasimple.com###consentModeDialogContainer
 contemporist.com##.newsletter-form-on-post-page
+content-loader.com,css-load.com,html-load.com,img-load.com##html:not(:has(> head > style:only-child:contains(width:399px;height:411px))):style(filter: opacity(0) !important; pointer-events: none !important;)
 content.de###content-de-hinweis-cookie-richtlinie
 content.de###content-de-hinweis-cookie-richtlinie-blocking
 content.techgig.com##.first-arti-banner
@@ -39530,8 +39528,6 @@ cxid.info##.posts-list > a[href="https://t.me/cxidinfo"]
 cxid.info,emlakkulisi.com,strana.in.ua,study.ru,uaexpert.blogspot.ru,wotspeak.ru###overlay
 cxtvenvivo.com##div[class*="media-"] > div[class*="text-"]:has(> div > a[href^="https://www.facebook.com/sharer/"])
 cyan.com###cookii-overlay
-cyanlabs.net##+js(rmnt, script, ADBLOCK)
-cyanlabs.net##ins.adsbygoogle:style(visibility: hidden !important;)
 cyanlabs.net#@#ins.adsbygoogle[data-ad-client]
 cyanlabs.net#@#ins.adsbygoogle[data-ad-slot]
 cybar.xyz,cybar.to##+js(aeld, click, open)
@@ -46975,7 +46971,6 @@ edition.cnn.com##div[data-bundle="adzones"]
 edition.cnn.com##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"]
 edition.cnn.com##section[data-zone-label="Watch It"]
 edition.cnn.com##section[id^="ad-spon-"]
-edition.cnn.com,nttgame.com,developer.confluent.io,nhl.com##body #onetrust-consent-sdk
 editions-eni.fr,red-by-sfr.fr,sfr.fr###CkC
 editor.0lik.ru##noindex div.ase-info
 editor.p5js.org,solarisbank.com,risingstack.com##div[class^="CookieConsent__"]
@@ -52071,7 +52066,9 @@ faq.rakuten.net#$#.themeLayoutStarterWrapper::before { padding-top: 0 !important
 faq.rakuten.net#$#c-mobilebanner { display: none !important; }
 faq.rakuten.net#$#div[class^="CCRM_RMobile_Banner"] { display: none !important; }
 faqwiki.*##+js(abort-current-script, EventTarget.prototype.addEventListener, /AdBlock|adsbygoogle\.js/)
+faqwiki.us###rewarded-content-locked.is-locked:remove-class(is-locked)
 faqwiki.us##+js(aopr, antiAdBlockerHandler)
+faqwiki.us##.rewarded-ad-card
 faradsrl.it##.svv-cookie-banner-container
 fares.top#%#(()=>{const e=document.documentElement;new MutationObserver((()=>{const e=document.querySelector('body > div[role="dialog"].neon-border-purple > p.text-center + button.neon-button-purple');e&&e.textContent.includes("I Understand")&&e.click()})).observe(e,{attributes:!0,childList:!0,subtree:!0})})();
 farescd.com##+js(abort-current-script, mMcreateCookie)
@@ -81701,7 +81698,6 @@ lemino.docomo.ne.jp#$#.smartbanner { display: none !important; }
 lemino.docomo.ne.jp#$#html { margin-top: 0 !important; }
 lemino.docomo.ne.jp#%#//scriptlet('trusted-click-element', '.ReactModal__Content button[data-testid="jp.ne.docomo.lemino:id/welcomeAgreementTermsButton"]')
 lemire.me##.comment_text_after + p
-lemon8-app.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: auto !important; -khtml-user-select: auto !important; -moz-user-select: auto !important; -ms-user-select: auto !important; user-select: auto !important;)
 lemon8-app.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
 lemon8-app.com##+js(trusted-click-element, .seo-landing-modal-cancel-btn .design-system-button-container, , 500)
 lemon8-app.com##.article-info > div:has(> svg > path[d*="172A12"])
@@ -86497,7 +86493,6 @@ m4ufree.*##+js(aopr, mm)
 m4ufree.*##+js(nostif, debugger)
 m4ufree.*,streamm4u.*##+js(nowebrtc)
 m4ufree.co##a > img[title*="Free Download"]
-m4ufree.com##+js(aopw, document.oncontextmenu)
 m4ufree.com##a[href^="//look.ichlnk.com/"]
 m4uhd.*##+js(aopr, mm)
 m4uhd.net##+js(aopr, locdau)
@@ -91917,6 +91912,7 @@ mitsuch.com,jp.ext.hp.com,pokemon-scramblesp.jp,news.radiko.jp,tobalog.com,searc
 mitsui-shopping-park.com##.MG_sns
 mitsui-shopping-park.com##.gt_sns
 mitsui.com###js_globalFooterButtonTop
+mittelbayerische.de###piano_newsletter
 mittelbayerische.de##.sharing-box
 mittelbayerische.de,caseking.de##.share-whatsapp
 mittelhessen.de##.adSlot
@@ -94418,6 +94414,7 @@ msn.com##.colombiaintraarticleads
 msn.com##.consumption-page-banner-wrapper
 msn.com##.consumption-page-gridarea_eocb_leadgen
 msn.com##.cookieBanner
+msn.com##.display-ad-container
 msn.com##.display-ads-container
 msn.com##.drrTopAdWrapper
 msn.com##.dummy-header-container
@@ -101131,6 +101128,7 @@ nttgame.com###modalCookie
 nttgame.com##+js(trusted-set-cookie, gnb-cookie-agree, agree)
 nttgame.com#$##lean_overlay { display: none !important; }
 nttgame.com#$##modalCookie { display: none !important; }
+nttgame.com,developer.confluent.io,nhl.com##body #onetrust-consent-sdk
 nttpc.co.jp##.l_cookieAgree
 ntunhs.net###sidebar2
 ntuplay.xyz##+js(acs, document.onkeypress)
@@ -110432,7 +110430,6 @@ pornhub.com###ageVerificationOverlay
 pornhub.com###globalCookieBanner
 pornhub.com###jsShare
 pornhub.com###relatedVideosCenter > .wrapVideoBlock:has(> .videoSpiceVidsBlock span.bg-spice-badge)
-pornhub.com###relatedVideosCenter > li[class^="related"]
 pornhub.com###shareModal
 pornhub.com###singleFeedSection > .emptyBlockSpace
 pornhub.com###welcome
@@ -110441,12 +110438,9 @@ pornhub.com##+js(adjust-setTimeout, continueToVideoUrl, *, 0.001)
 pornhub.com##+js(remove-cookie, views)
 pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2, , reload, 1)
 pornhub.com##.becomePartnerWrapper
-pornhub.com##.js_promoItem
 pornhub.com##.noBottom:has-text(Remove Ads)
-pornhub.com##.realsex
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 pornhub.com##.sideAds
-pornhub.com##.sniperModeEngaged
 pornhub.com##.videoPremiumBlock
 pornhub.com##[srcset*="bloB:"]
 pornhub.com##a[data-event="header_paid_tabs"]
@@ -110463,7 +110457,10 @@ pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,pornhub.org##.ad-tabSplit
 pornhub.com,pornhub.org##.bottomNav > a[href][target="_blank"]
 pornhub.com,pornhub.org##.eudsaLink
+pornhub.com,pornhub.org##.js_promoItem
 pornhub.com,pornhub.org##.mgp_overlayContainer
+pornhub.com,pornhub.org##.realsex
+pornhub.com,pornhub.org##.sniperModeEngaged
 pornhub.com,pornhub.org##.watchpageAd
 pornhub.com,pornhub.org,pornhub.net###abAlert
 pornhub.com,pornhub.org,pornhub.net###adBlockAlert
@@ -110502,7 +110499,6 @@ pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youp
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##[href*="data:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="blob:"]:not(video)
-pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com##img[src*="blob:" i]:not(video)
 pornhub.com,youporn.com###pb_template
 pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
@@ -112321,9 +112317,6 @@ progorodnn.ru##div[class^="social-list-subscribe_socialListSubscribe"]
 progorodsamara.ru###MainContentBox > #CENTER > h3:contains(Вступай в группу)
 progorodsamara.ru###MainContentBox > #CENTER > h3:contains(Вступай в группу) ~ div[style*="float"][style*="width"]
 programasvirtualespc.net#%#!function(){if(-1<window.location.href.indexOf("out/?aHR0c")){var a=location.href.split("out/?");if(a&&a[1])try{window.location=atob(decodeURIComponent(a[1]))}catch(b){}}}();
-programegratuitepc.com##+js(aopr, disableSelection)
-programegratuitepc.com##+js(aopr, document.oncontextmenu)
-programegratuitepc.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 programiz.com###mauticform_wrapper_csubscribersform
 programiz.com##.cover__form
 programiz.com##.get-app-link
@@ -140379,6 +140372,7 @@ troyhunt.com##.sponsor_bar
 troypoint.com###text-2
 troypoint.com##.entry-content > div[style*="background-color:"][style*="border:"]:has(> span > a[target="_blank"])
 troypoint.com##.mysticky-welcomebar-fixed-wrap
+troypoint.com##.seva-form.formkit-form
 troypoint.com##.sgpb-popup-dialog-main-div-wrapper
 troypoint.com##.sidebar-main > aside:has(> h2:contains(Today’s Discounts))
 troypoint.com##.su-box
@@ -143557,11 +143551,11 @@ up.ac.za##.site-blur-container
 up.ymgt.xyz##.play-wrap > #background
 up.ymgt.xyz##.play-wrap > .game:style(height: 100%!important;)
 up4pc.com##center > button.user
-up4stream.com,ups2up.fun##+js(acs, document.onkeydown)
+up4stream.com##+js(acs, document.onkeydown)
+up4stream.com##+js(rmnt, script, debugger)
+up4stream.com##+js(set, devtoolsDetector, {})
 up4stream.com,ups2up.fun##+js(aeld, DOMContentLoaded, history.go)
-up4stream.com,ups2up.fun##+js(rmnt, script, debugger)
 up4stream.com,ups2up.fun##+js(rmnt, script, popunder)
-up4stream.com,ups2up.fun##+js(set, devtoolsDetector, {})
 upacjenta.pl##.cookies-box-info
 upapk.io##+js(nano-stb, tick, 1000, 0.001)
 upbeatcode.com#%#//scriptlet('set-session-storage-item', '', 'true')
@@ -152152,7 +152146,7 @@ www.amazon.co.jp,www.amazon.co.uk,www.amazon.com,www.amazon.de,www.primevideo.co
 www.amazon.co.jp,www.amazon.co.uk,www.amazon.com,www.amazon.de,www.primevideo.com##+js(xml-prune, 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"/interstitial/")]] | /*[name()="MPD"][.//*[name()="BaseURL" and contains(text(),"/interstitial/")]]/@mediaPresentationDuration | /*[name()="MPD"][.//*[name()="BaseURL" and contains(text(),"/interstitial/")]]/*[name()="Period"]/@start)', , .mpd)
 www.amazon.co.jp,www.amazon.co.uk,www.amazon.com,www.amazon.de,www.primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Ad"]] | /*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start), [value="Ad"], .mpd)
 www.amazon.co.jp,www.amazon.co.uk,www.amazon.com,www.amazon.de,www.primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Draper"]] | /*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start), [value="Draper"], .mpd)
-www.amazon.com##+js(rmnt, script, /videoAssetId.+introSplashVideo.+renderStoresWidgetsPendingList/s)
+www.amazon.com##+js(rpnt, script, window.renderStoresWidgetsPluginList=, //window.renderStoresWidgetsPluginList=, condition, Custom Advertising/AWLS/Video Reveal)
 www.aok.de##+js(trusted-set-cookie, aok_cookie_settings, '{"functional":{"key":"functional","name":"Funktionale Cookies","required":true,"approved":true},"comfort":{"key":"comfort","name":"Komfort-Cookies","required":false,"approved":false},"tracking":{"key":"tracking","name":"Marketing-Cookies","required":false,"approved":false}}')
 www.asu.baby#$#abort-on-property-read initialAdURLs
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
@@ -153356,8 +153350,6 @@ xmtrading.com#$?#.cookie-modal { display: none !important; }
 xmtrading.com#@##cookieModal
 xn-----0b4asja7ccgu2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e8qri.xn--1ck2e1b##+js(rmnt, script, ;}}};break;case $.)
 xn-----0b4asja7ccgu2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e8qri.xn--1ck2e1b##[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
-xn-----0b4asja8cbew2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e7qri.xn--1ck2e1b##+js(aopr, document.onkeydown)
-xn-----0b4asja8cbew2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e7qri.xn--1ck2e1b##+js(set, ConsoleBan.init, noopFunc)
 xn----7sba7aachdbqfnhtigrl.xn--j1amh#$#div[id^="pum-"][data-popmake*="nastrojka-mikrotik"] { display: none!important; }
 xn----7sba7aachdbqfnhtigrl.xn--j1amh#$#html { overflow: visible!important; }
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##.amp_widget_below_the_header
@@ -156827,11 +156819,18 @@ zzztube.com,videoporn.tube##.b-random-column
 ~digg.com##a[href^="http://www.digg.com/submit?"]
 ~diletant.media,~hyundai.ru,~raywenderlich.com,~spotify.com###twitter-icon
 ~dizihastasi.com,~sluzbyspecjalne.com,~bilisimogretmeni.com,~mshowto.org,~klassikauto.pl,~telekritika.ua,~smarthomebeginner.com##div[class^="widget-social"]
-~dogdrip.net,~smsonline.cloud##*:not(body) > a[href^="https://07c225f3.online/player"]
 ~dogdrip.net,~smsonline.cloud##*:not(body) > a[href^="https://content-loader.com/player"]
 ~dogdrip.net,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/player"]
+~dogdrip.net,~smsonline.cloud##amp-img[height="   120"]
+~dogdrip.net,~smsonline.cloud##amp-img[width="   300"]
+~dogdrip.net,~smsonline.cloud##amp-img[width="   336"]
+~dogdrip.net,~smsonline.cloud##div[id^="img_"][data-google-query-id]
+~dogdrip.net,~smsonline.cloud##div[id^="img_"][style$="2147483647; justify-content: center;"]
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"][style$="display: block;"]
+~dogdrip.net,~smsonline.cloud##div[id^="img_"][style$="height: 90px;"]
+~dogdrip.net,~smsonline.cloud##div[id^="img_"][style$="max-height:100px;background-color:rgba(128, 128, 128, 0.4);"]
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"][style="min-width: 300px; min-height: 250px;"]
+~dogdrip.net,~smsonline.cloud##div[id^="img_"][style^="margin:0;padding:0;display:block;position:fixed;left:0;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="height:    250px; width:    300px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    160px; height:    600px; margin: 0px auto; min-width: 160px; min-height: 600px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    300px; height:    250px;"]
