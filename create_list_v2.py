@@ -1,13 +1,13 @@
 
 """
-Creates a combined text file of cosmetic filter every 4 hours using GitHub actions.
+Creates a combined text file of cosmetic filter every 6 hours using GitHub actions.
 """
 
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.7
-# Edited: 2026-01-05 20:23:05 +1100
+# Version 2.0.8
+# Edited: 2026-01-14 15:32:15 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -352,6 +352,8 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 elapsed = time.perf_counter() - start
 print()
 print(f"Elapsed: {elapsed:.6f} seconds")
+print()
+print(f"Version String: {LAST_MODIFIED}")
 print()
 print(f'Saved to: {OUTPUT_FILE}')
 print()
