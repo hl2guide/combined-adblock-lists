@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.14.1310+1100 AEST
-! Last modified: 2026.01.14.1310+1100 AEST
+! Version: 2026.01.14.1536+1100 AEST
+! Last modified: 2026.01.14.1536+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -2343,6 +2343,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/([a-z]-){10,15}[a-z]\.(?:com|net|org)\.tr\//$doc,to=com.tr|net.tr|org.tr
 /^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
 /^https:\/\/(www\.)?sp\d{4,5}p\.com\//$doc,to=com|~shopee.vn
+/^https:\/\/3dzip\.[a-z]+\/wp-content\/uploads\/[a-f][a-f][a-f][a-f][a-f][a-f]\/[a-f][a-f][a-f][a-f][a-f][a-f]\.js\?ver=/$script
 /^https:\/\/[-a-z]{16,}\.z\d{2}\.web\.core\.windows\.net\/[a-z]{70,}(\/[a-z]{40,})?\.html/$doc,match-case,to=web.core.windows.net
 /^https:\/\/[-a-z]{4,}\.dogfriendlytahoe\.com\//$doc,to=dogfriendlytahoe.com
 /^https:\/\/[-a-z]{8,}\.com\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\/[0-9A-Za-z][-\/0-9A-Z_a-z]{115,132}$/$script,xhr,match-case,3p
@@ -10983,6 +10984,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 3dvf.com##div[data-id="4c98a5f"]
 3dvf.com##div[data-id="e75ea9f"]
 3dviewer.net##.ov_bottom_floating_panel
+3dzip.*##.better-ads-listitemad:remove()
 3dzip.org###levelmaxblock:style(display: none !important;)
 3dzip.org##+js(no-fetch-if, doubleclick, length:10, {"type":"cors"})
 3dzip.org##+js(no-xhr-if, doubleclick)
@@ -34903,7 +34905,6 @@ click-or-die.ru#?#.post-content > p:has(> a[href="https://t.me/clickordie"]) + p
 click.allkeyshop.com##+js(refresh-defuser)
 click.transactional.agoda.com$image
 click2houston.com##.vf-share-menu
-click2houston.com##aside > .chainGroup > form[aria-label="Sign up for our newsletter"]
 click2houston.com##button[aria-label^="Share"]
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com,wsls.com##.floatingWrapper
@@ -41389,6 +41390,7 @@ defector.com##.lede-common__newsletter-block
 defector.com##.single_inner__pWuJ8
 defector.com##div[class^="ContentGate_wrapper_"]
 defector.com#?#.article-footer > div[class^="default__Wrapper-"]:has(> form  label[for="email"])
+defector.com,sf.gazetteer.co##.single_inner__pWuJ8
 defector.com,thestar.co.uk##div[class^="NewsletterSignup_"]
 defeez.ru###block-25
 defeez.ru###metaslider_widget-2
@@ -48290,7 +48292,6 @@ eltiempolatino.com##.c-mensaje
 eltiempolatino.com,product.minebeamitsumi.com,livelaw.in##.bottom-popup
 eltomdistillery.com##+js(set-cookie, _ageVerified, yes)
 eltrecetv.com.ar##.brick-container:has(> .brick_full > .brickWhatsapp)
-eltrecetv.com.ar,click2houston.com,venturebeat.com,247sports.com,tetsudo.com,gamer.no,urbanize.city,clublexus.com,wsls.com,fox29.com,13newsnow.com,footballtransfers.com,fox35orlando.com,fox61.com,time.com,euobserver.com,citynews.ca,fox32chicago.com,nobelprize.org,vice.com,whattowatch.com,asia.nikkei.com,laptopmag.com,musicradar.com,airmail.news,newsweek.com,zeit.de,currentaffairs.org,financefwd.com,proprivacy.com,bikeperfect.com,bookriot.com,komando.com,tn.com.ar,whathifi.com,futurestud.io,slate.com,businessinsider.de,fastcompany.com,heise.de,history.com,itprotoday.com,jewishjournal.com,king5.com,mic.com,motherjones.com,nydailynews.com,people.com,skyscanner.com.tw##.newsletter-signup
 eltrecetv.com.ar,tn.com.ar##.horizontal-share
 eltrox.pl##.modal-gdpr
 eltrox.pl##.overlay-gdpr
@@ -53178,6 +53179,7 @@ filecrypt.*##div:has(> [href*=".html"])
 filecrypt.*##div[class^="fllItheadb"]
 filecrypt.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/; abort-on-property-read aclib; abort-on-property-read Adcash; override-property-read isAdblock2 false;
 filecrypt.cc##+js(set-constant, FBPOP, noopFunc)
+filecrypt.cc##.butt1ns button[onclick*="loc.href='/Link/"]
 filecrypt.cc##.fiIItheadblockqueue4
 filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc##.support_2
@@ -68304,7 +68306,6 @@ hotelborgia.com##+js(set-cookie, cookie, 1, , reload, 1)
 hotelborgia.com##+js(set-cookie, cookie-analytics, 0)
 hoteldesartssaigon.com##+js(trusted-click-element, a[aria-label="Continue without accepting"], ,1000)
 hoteldesigns.net##.n2-ss-slider
-hoteles.com,hotels.com##.uitk-view-row-theme-brand_promo_primary
 hotelesmares.com,niedersteinhof.it,skinmc.net##.eu-popup
 hotelgolfmarvimeiro.pt##.fixedblock
 hotelheller.de##.css-jyar7y
@@ -77305,7 +77306,7 @@ katmoviehd.*##+js(abort-current-script, document.createElement, /\/main\.js[\s\S
 katmoviehd.*##+js(acs, Math.imul)
 katoflix.pl###consent-message-container
 katoikos.world#%#//scriptlet('prevent-eval-if', 'adsBlocked')
-katoikos.world,fcsnew.net,wemove-charity.org,hdplayersystem.live,okpeliz.com,jazbaat.in,3dzip.org,cgtips.org,audiotools.blog,unofficialtwrp.com,drivers.plus,gplastra.co,mangaflame.org,pcgameszone.com,trigonevo.com,sportshub.to,djqunjab.in,xerifetech.com,thepresetsroom.com,apkdelisi.net,ezaudiobookforsoul.com,qcscertification.com,plc4me.com,shortix.co,highkeyfinance.com,vietnoiket.com,blackwot.ru,asiaon.top,snlookup.com,filmisub.cc,javindo.eu.org,mixrootmods.com,kisahdunia.com,magicgameworld.com,gamedrive.org,apkdrill.com,daotranslate.com,techacode.com,azmath.info,downfile.site,sonixgvn.net,tuxnews.it,pinsystem.co.uk,blessedhornbill.com,filmefarsi.com,luciferdonghua.in,cctvwiki.com,7xm.xyz,jadukit.com,tech5s.co,emptycode.in,porninblack.com,tkbsen.in,teksnologi.com,shineads.in,app.trangchu.news,idlixplus.*,tavernadequadrinhos.com.br,uiiumovie.*,plc247.com,thecustomrom.com,nulleb.com,step-tech.pl,kuponigo.com,gplastra.com,souq-design.com##+js(abort-on-stack-trace, document.getElementsByTagName, adsBlocked)
+katoikos.world,fcsnew.net,wemove-charity.org,hdplayersystem.live,okpeliz.com,jazbaat.in,cgtips.org,audiotools.blog,unofficialtwrp.com,drivers.plus,gplastra.co,mangaflame.org,pcgameszone.com,trigonevo.com,sportshub.to,djqunjab.in,xerifetech.com,thepresetsroom.com,apkdelisi.net,ezaudiobookforsoul.com,qcscertification.com,plc4me.com,shortix.co,highkeyfinance.com,vietnoiket.com,blackwot.ru,asiaon.top,snlookup.com,filmisub.cc,javindo.eu.org,mixrootmods.com,kisahdunia.com,magicgameworld.com,gamedrive.org,apkdrill.com,daotranslate.com,techacode.com,azmath.info,downfile.site,sonixgvn.net,tuxnews.it,pinsystem.co.uk,blessedhornbill.com,filmefarsi.com,luciferdonghua.in,cctvwiki.com,7xm.xyz,jadukit.com,tech5s.co,emptycode.in,porninblack.com,tkbsen.in,teksnologi.com,shineads.in,app.trangchu.news,idlixplus.*,tavernadequadrinhos.com.br,uiiumovie.*,plc247.com,thecustomrom.com,nulleb.com,step-tech.pl,kuponigo.com,gplastra.com,souq-design.com##+js(abort-on-stack-trace, document.getElementsByTagName, adsBlocked)
 katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuksudia2.sbs,tuktukcinma.com##body > *:style(filter: none !important;)
 katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuksudia2.sbs,tuktukcinma.com##body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]):style(display: none !important;)
 katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuksudia2.sbs,tuktukcinma.com##body > div[class*=" active"][style]:style(display: none !important;)
@@ -77383,6 +77384,7 @@ kayak.com##[role="tab"]:has([class*="sponsored"])
 kayak.com##div[aria-label^="Advertisement "]
 kayak.com#?#.gkz0-toast:-abp-contains(Get Price Alerts)
 kayak.com,momondo.*##.CGMG:has(.CGMG-logo-ad-wrapper)
+kayak.com,momondo.com###mobile-app-promo-banner
 kayak.com.tr##+js(remove-class, i4It-cmp2-toaster-visible, .i4It)
 kayak.com.tr##div[aria-label="Uygulama tanıtım afişi"]
 kayak.com.tr##div[class="i4It-mod-pointers"]:style(display: none !important;)
@@ -79736,6 +79738,8 @@ krystalhosting.com,krystal.uk##.crumbs-banner
 krytykapolityczna.pl##.essb-like
 krzbb.de##+js(trusted-set-cookie, consentUUID, b35fa5cf-67b5-4b59-a089-5e34f820f649_34)
 krzbb.de##div[data-b-title*="Sharing Button"]
+ksat.com,click2houston.com##aside > .chainGroup > form[aria-label="Sign up for our newsletter"]
+ksat.com,eltrecetv.com.ar,click2houston.com,venturebeat.com,247sports.com,tetsudo.com,gamer.no,urbanize.city,clublexus.com,wsls.com,fox29.com,13newsnow.com,footballtransfers.com,fox35orlando.com,fox61.com,time.com,euobserver.com,citynews.ca,fox32chicago.com,nobelprize.org,vice.com,whattowatch.com,asia.nikkei.com,laptopmag.com,musicradar.com,airmail.news,newsweek.com,zeit.de,currentaffairs.org,financefwd.com,proprivacy.com,bikeperfect.com,bookriot.com,komando.com,tn.com.ar,whathifi.com,futurestud.io,slate.com,businessinsider.de,fastcompany.com,heise.de,history.com,itprotoday.com,jewishjournal.com,king5.com,mic.com,motherjones.com,nydailynews.com,people.com,skyscanner.com.tw##.newsletter-signup
 ksdk.com##.article-story .video__inner[style*="fixed"]
 kseries.tv##+js(abort-on-property-read, tabUnder)
 kserietv.co##.items-center:has(> a[rel="nofollow"][target="_blank"] > img)
@@ -104326,6 +104330,7 @@ orbispatches.com##body .adsbyvli:style(display: block !important; height: 30px !
 orbispatches.com##div[class="small text-muted text-center"]
 orbispatches.com#@#.adsbyvli
 orbitaltoday.com##.pop-up
+orbitz.com,hoteles.com,hotels.com##.uitk-view-row-theme-brand_promo_primary
 orca-app.dev###subscribe-form
 orcadian.co.uk##.cd-container
 orcanta.fr##.eprivacy-module
@@ -122275,6 +122280,7 @@ sf-express.com##.icon-links > div > a[id]:not([href*="../"]) > img
 sf-express.com##.promotion-ad
 sf-express.com,hepsijet.com##div[class^="cookie-policy"]
 sf-international.com,annsummers.com##.cookie-top
+sf.gazetteer.co,streetsblog.org##.SocialSharing_socialSharingItems__wdJu8
 sfasemicon.com.ph###privacyPolicy
 sfastwish.com##+js(aopr, __Y)
 sfbayca.com##.notizia-end-share-panel
