@@ -38,6 +38,8 @@ jobs:
       - name: Install dependencies
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run version_increment.py
+        run: python version_increment.py
       - name: Run create_list_v2.py
         run: python create_list_v2.py
       - name: Commit and push changes
@@ -57,3 +59,5 @@ jobs:
 
 # OLD:
 # python -m pip install --upgrade pip
+
+# Updated: 2026-01-16 01:16:47 +1100
