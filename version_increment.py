@@ -5,7 +5,7 @@ Python script related commit.
 """
 
 # Version 1.0.0
-# Edited: 2026-01-16 01:14:59 +1100
+# Edited: 2026-01-16 04:57:42 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -20,14 +20,14 @@ def read_version():
     Returns:
         string: A version string in the VERSION.txt file.
     """
-    with open('VERSION.txt', 'r') as file:
+    with open('VERSION.txt', 'r', encoding="utf-8") as file:
         return file.read().strip()
 
 def write_version(version):
     """
     Writes a new updated version string to the VERSION.txt file as a string.
     """
-    with open('VERSION.txt', 'w') as file:
+    with open('VERSION.txt', 'w', encoding="utf-8") as file:
         file.write(version)
 
 def increment_version(version):
@@ -43,6 +43,8 @@ def increment_version(version):
     return f"{major}.{minor}.{patch}"
 
 if __name__ == "__main__":
+    current_version = ''
+    new_version = ''
     if os.path.exists('VERSION.txt'):
         current_version = read_version()
         new_version = increment_version(current_version)
