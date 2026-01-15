@@ -51,4 +51,4 @@ if __name__ == "__main__":
     write_version(new_version)
     print(f"Existing Version: {current_version}")
     print(f"New Version: {new_version}")
-    print(f"Updated Version File: VERSION.txt")
+    print("Updated Version File: VERSION.txt")
