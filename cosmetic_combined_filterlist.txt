@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.17.1301+1100 AEST
-! Last modified: 2026.01.17.1301+1100 AEST
+! Version: 2026.01.17.1737+1100 AEST
+! Last modified: 2026.01.17.1737+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -74278,6 +74278,8 @@ itmedia.co.jp###RANKTXT
 itmedia.co.jp###RECTANGL
 itmedia.co.jp###SpvLink
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
+itmedia.co.jp##+js(remove-cookie, /cX_P|_pc/)
+itmedia.co.jp##+js(set-local-storage-item, /^_cX_/, $remove$)
 itmedia.co.jp##._popIn_recommend:empty
 itmedia.co.jp##.cmsBodyItmidSeriesButtonRegist
 itmedia.co.jp##.colBoxAd
