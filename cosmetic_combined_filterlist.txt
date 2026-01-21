@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.22.0001+1100 AEST
-! Last modified: 2026.01.22.0001+1100 AEST
+! Version: 2026.01.22.0551+1100 AEST
+! Last modified: 2026.01.22.0551+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3309,6 +3309,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /api/v2/items/*?ev=
 /api/v2/jsonlogger
 /api/v3/getPageVisits
+/api/v3/getStatsigResults
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
 /api_adlog.php?
@@ -6053,7 +6054,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /keen-tracking.min.js
 /keen.min.js
 /keksikysely.min.js
-/keypress.js$script
+/keypress.js$script,domain=~github.io
 /keywee.js
 /keyword*/area=$xmlhttprequest,domain=iprima.cz
 /kikar\.co\.il\/a\/\d+\/\d+/$subdocument,domain=kikar.co.il
@@ -17706,8 +17707,10 @@ androidpolice.com#?#ul#sbar-content > li[id^="custom_html-"]:has(> div > section
 androidpolice.com#@#.ad-current
 androidpolice.com#@#.ad-zone
 androidpolice.com#@#.ad-zone-container
+androidpolice.com#@#.ad-zone:not(.textads)
 androidpolice.com#@#.adsninja-ad-zone
 androidpolice.com#@#.ima-ad-container
+androidpolice.com#@#.w-adsninja-video-player
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,polygon.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##+js(no-fetch-if, googlesyndication)
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##+js(set, Object.prototype.ads.nopreroll_, true)
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.adsninja-ad-zone-container-with-set-height
@@ -18339,6 +18342,7 @@ anon-v.com##.video-holder > div[style="padding:5px;margin:5px;text-align:center;
 anon-v.com##div[style="max-width: 640px; text-align: center; margin: 0 auto;"]
 anon-v.com,camwhorescloud.com,dirtyship.com##+js(abort-current-script, onload, onclick)
 anonaddy.com#?#main > section:has(> div > form[action="https://news.anonaddy.com/subscribe"])
+anond.hatelabo.jp###more-comment-load > a.readmore:style(display: block !important;)
 anonfile.co,arahdrive.com,fastupload.io,video.hizliresim.com##.vr-adv-unit
 anonpaste.pw,sacal.it##+js(set-local-storage-item, cookieBanner, true)
 anonym.to##a[href^="https://www.spyoff.com"]
@@ -51503,7 +51507,6 @@ facenews.ua##.joinus
 facenews.ua##.popup-time-banner
 facens.br##.facens__unbouncer
 facens.br##.facens__unbouncer--overlay
-facet.wp.pl,ipolska24.pl,wiadomosci.wp.pl,pysznosci.pl,open.fm,fotoblogia.pl,autokult.pl,money.pl,pudelek.pl##style + div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"] + div:last-child)
 facet.wp.pl,ksiazki.wp.pl,tech.wp.pl,money.pl,moneyv.wp.pl#$#abort-on-property-read pbjs.bidderSettings
 facethefactsusa.org##.social-profiles
 facetpo40.pl##.topadarea
@@ -56932,7 +56935,6 @@ freemagazines.top##+js(no-xhr-if, /doubleclick|googlesyndication/)
 freemagazines.top##+js(nostif, showModal)
 freemagazines.top##+js(rmnt, script, var Data)
 freemagazines.top##+js(set-constant, adsbygoogle.length, undefined)
-freemagazines.top,chpadblock.com##+js(noeval-if, chp_adblock)
 freemagazines.top,magesy.blog,routech.ro##+js(no-xhr-if, pagead2.googlesyndication.com)
 freemagazinespdf.com##+js(acs, eval, replace)
 freemail.hu###content-container div[class^="Grid-item-"] > a[target="_blank"]:not([href^="#"])
@@ -62841,9 +62843,6 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws#?#iframe[role="presentation"][src*="ogs.google."][src*="widget/callout"]:upward(div[style^="overflow: hidden; position: absolute; top: 0px; width: 370px;"])
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws#@#a[href^="https://go.xxxjmp.com"]
 google.be##.widget-consent[role="dialog"]
-google.co.jp,search.yahoo.co.jp,bing.com,duckduckgo.com,google.*#@#a[href*="//b.hatena.ne.jp/add?"]
-google.co.jp,search.yahoo.co.jp,bing.com,duckduckgo.com,google.*#@#a[href*="//b.hatena.ne.jp/append?"]
-google.co.jp,search.yahoo.co.jp,bing.com,duckduckgo.com,google.*#@#a[href*="//b.hatena.ne.jp/entry/"]
 google.co.uk,google.com#@#a[href^="http://www.google.com/aclk?"]
 google.com###cookieBar
 google.com###pushdown
@@ -74321,6 +74320,7 @@ itoolab.com,investing.com###share-btn
 itop-gear.ru###socblock
 itopmusic.com##+js(set-constant, jQuery.adblock, false)
 itopmusic.com,brokensilenze.net,financeyogi.net,satcesc.com,quatvn.club,audiotools.in,insider-gaming.com,bg-gledai.co##body > script + div[class][style="display:none;"] + div[id][class*=" "]
+itopmusic.com,freemagazines.top,chpadblock.com##+js(noeval-if, chp_adblock)
 itopmusics.com##+js(acs, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore/)
 itopmusics.com##+js(acs, document.getElementById, adblock)
 itopmusics.com,novelasligeras.net,4horlover.com##+js(abort-current-script, document.getElementById, pagead2.googlesyndication.com)
@@ -74599,6 +74599,8 @@ j-cast.com##.services-app
 j-cast.com##.view-share-modal
 j-kesselshop.de,leuchtmittelmarkt.com##.eightworks-cookie-consent-plus
 j-lyric.net##+js(ra, oncontextmenu|onselectstart)
+j-lyric.net##+js(set, document.body.oncontextmenu, null)
+j-lyric.net##+js(set, document.body.onselectstart, null)
 j-net21.smrj.go.jp###esodan-banner
 j-sen.jp##.c-shareList__outer
 j-sen.jp##.content-top + div.u-mb-7 > div.card > p
@@ -79899,6 +79901,8 @@ kulis.az##div[class*="rek_"]
 kultfilmler.net##.video-top-alert
 kultura.com.pl#@##cookieModal
 kultura.com.pl#@##idxrcookies
+kultura.wp.pl###root > div[class] > div[class]:only-child:has(> style:first-child + div[class*=" "]:last-child)
+kultura.wp.pl,facet.wp.pl,ipolska24.pl,wiadomosci.wp.pl,pysznosci.pl,open.fm,fotoblogia.pl,autokult.pl,money.pl,pudelek.pl##style + div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"] + div:last-child)
 kulturbolaget.se##.c-messages
 kulturkaufhaus.de##.dialogCookieWarning
 kulturkaufhaus.de#%#//scriptlet('trusted-click-element', 'button[data-katalon="acceptRequired"]')
@@ -81096,6 +81100,7 @@ latimes.com##modality-custom-element[name="metering-bottompanel"]
 latimes.com##span[data-role="socialshare_share"]
 latimes.com##style + div[class="overlay"]
 latimes.com#%#//scriptlet('set-cookie', 'c_tos', '1')
+latimes.com,marriott.com,sandiegouniontribune.com##.action-bar
 latimes.com,sandiegouniontribune.com##.trb_ar_cont
 latina.pe##.main-article-about-socials
 latina.pe##.sn-button
@@ -85134,6 +85139,8 @@ lypertek.com,colloseumfashion.com,noblechairs.com,purelei.com###shopify-privacy-
 lyrath.com###ACClayerBackground
 lyrica.com##.isi-section-wrapper
 lyrical-nonsense.com##+js(aeld, copy)
+lyrical-nonsense.com##+js(rmnt, script, contextmenu)
+lyrical-nonsense.com##+js(rmnt, style, moz-user-select:none)
 lyrical-nonsense.com##.lyricdetailssoc
 lyrical-nonsense.com##.playblockcnt
 lyrical-nonsense.com##.titletop > div.maininfobtmblock:has(div.creditsoctxt)
@@ -87510,7 +87517,6 @@ makro.cz,makro.pl#$#body { overflow: auto !important; }
 makro.pl#@#.cookie-container
 makro.pl#@#.cookie-disclaimer:not(body)
 makro.pl,polskieskarby.pl#%#//scriptlet('trusted-set-local-storage-item', 'cookiesTypes', '{"necessary":true,"functional":true,"efficiency":true,"advertising":false}')
-maksavit.ru##.cookie-usage-wrapper
 maksavit.ru##.header-banner-wrapper
 maksavit.ru,charentelibre.fr,delfi.ee,delfi.lt,delfi.lv,bilimland.kz,fox35orlando.com,autobild.es,minecraft.net,filmaga.filmarks.com,fox32chicago.com,espn.com.ar,nybooks.com,golos.com.ua,1kr.ua,espn.in,foxbusiness.com,bunshun.jp,sarnovosti.ru,espn.com,newrepublic.com,espncricinfo.com,thedrive.com,viva.ua,youranshare.com,4mama.ua,espn.co.uk,gs.by,livedoor.com##.article-social
 maksavit.ru,zetflix.zone##.app-block
@@ -90597,6 +90603,9 @@ messitv.net##+js(aopw, atOptions)
 messitv.net##.sharepost
 messletters.com###addTop
 messletters.com##+js(set-constant, adsbygoogle.loaded, true)
+messylittlemonster.com#$##ck_overlay { display: none !important; }
+messylittlemonster.com#$#.ck_form_container { display: none !important; }
+messylittlemonster.com#$#body { overflow: auto !important; }
 messynessychic.com###sticky-menu
 mesta.net##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
 mesta.net##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0005%3A1%2CC0002%3A0%2CC0004%3A0%2CC0003%3A0, 1year, , reload, 1, domain, mesta.net)
@@ -92326,6 +92335,7 @@ mmorpgitalia.it##.adContainer:style(height: 1px!important;)
 mmsbee.*##+js(aost, Element.prototype.matches, litespeed)
 mmsbee42.com,mmsmasala.com##+js(rmnt, script, /dismissAdBlock|533092QTEErr/)
 mmsbee42.com,mmsmasala.com##^script:has-text(/dismissAdBlock|533092QTEErr/)
+mmsi01.com##div[style^="position:fixed;inset:0px;"]
 mmsmasala.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 mmsmaza.com##+js(nowoif)
 mmt-tv.co.jp##.movie_txt_sns
@@ -119215,6 +119225,8 @@ s3nnet.de##.follow
 s3rl.link##.cm--bottom
 s3rl.link#%#//scriptlet('set-cookie', 'im_youtube', '1')
 s4galaxy.ru##.td_block_social_counter
+s7.ru##div[class^="ds-Modal-root ds-Popup-root ds-Dialog-root "]
+s7.ru,maksavit.ru##.cookie-usage-wrapper
 sa-mp.ro###ipsLayout_sidebar > .cWidgetContainer > .ipsList_reset > li.ipsWidget:has(> h3.ipsWidget_title:contains(/^Sponsor$/))
 saabplanet.com##.baner
 saal-digital.*#@##onetrust-consent-sdk
@@ -138390,6 +138402,7 @@ toeic.com.sg##.aside-wrapper > #easy-opt-in-widget-2
 toffeeweb.com###fixedFooter
 tofight.ru###cf-bg
 tofight.ru,pcgramota.ru##.widget_vkapi
+togetogebox.org##+js(rmnt, style, -ms-user-select: none)
 togetter.com###app_download_box
 togetter.com###appdl_bottom
 togetter.com###fixed_social_footer > .left > .radius_share
@@ -143900,6 +143913,8 @@ uploadraja.com##+js(acs, getCookie)
 uploadraja.com##a[href^="https://so-gr3at3.com/"]
 uploadrar.com###commonId > a > img
 uploadrar.com###news_last
+uploadrar.com##.card.border-warning
+uploadrar.com##.my-4 > form[method="POST"] > center
 uploadrar.com##a[href*="?"][target="_blank"]
 uploadrar.com##a[role="button"][href^="http://"]
 uploadrar.com##div[class^="banner"]:not(:has(> div#commonId))
@@ -150366,7 +150381,7 @@ wickedsick.tv##+js(abort-current-script, spot, api/direct)
 wid.cert-bund.de#$#body { overflow: auto !important; }
 wid.cert-bund.de#$#portal-cookie-dialog { display: none !important; }
 wideo.wp.pl###__next > style + div[class*=" "]:empty
-wideo.wp.pl##div[class*=" "] > img[src="https://std.wpcdn.pl/images/adv/placeholder_wp.svg"]:upward(1)
+wideo.wp.pl##div[class*=" "]:has(> img[src="https://std.wpcdn.pl/images/adv/placeholder_wp.svg"])
 wideopencountry.com###video-header
 wideopencountry.com##.above-footer-section:has-text(newsletter)
 wideopencountry.com##.entry-social
