@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.23.2358+1100 AEST
-! Last modified: 2026.01.23.2358+1100 AEST
+! Version: 2026.01.24.0541+1100 AEST
+! Last modified: 2026.01.24.0541+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -15260,6 +15260,7 @@ akkushop-turkiye.com.tr##+js(set-local-storage-item, CerezUyariGosterildi, true)
 akkushop-turkiye.com.tr##.cerezPopupUyari
 aklamio.com,kras.nl##.alert.cookie
 akn.edu.pl##body .rodo-information-clause
+akniga.org,muzmarket.ru,smakata.by,brainstation.io,dnb.com,disturbia.co.uk,sling.com,tutorialspoint.com###privacy-banner
 aknw.de##+js(trusted-click-element, a[data-button-action="essential"], , 1000)
 akoam.*##+js(nowoif)
 akomnews.com##.quick_menu > li:not(:has(> div > i.font_icon))
@@ -22482,8 +22483,6 @@ avxhome.se##a[href^="https://icerbox.com/premium"]
 avxhome.se##div[class="news"][style="margin: 10px 25px 35px 25px"]
 aw-lab.com##.privacy-data
 awa.fm###__next > section > div:has(> div > a[href^="https://www.facebook.com/dialog/share?"])
-awa.fm##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-awa.fm##+js(aeld, contextmenu, [native code])
 awafim.tv###sidebar-content-wrap > .sidebar-section:has(> .side-sub)
 awafim.tv##.spo-reel
 awafim.tv,movies2watch.tv,sflix2.*,sflix.*,uqload.*#$#prevent-listener break;case $.
@@ -24421,7 +24420,6 @@ bedstyle.jp##.code-mc-container-panel:has(a[href$="/ranking.html"])
 beebom.com###block-44
 beebom.com##.beebom-social-share
 beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,gta5-mods.com,mag.toyota.co.uk,mydramalist.com,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
-beebom.com,pressandjournal.co.uk,gl.ali213.net,watchmojo.com,m.slashdot.org,ssrn.com,g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
 beef1999.blogspot.com###banner_app
 beef1999.blogspot.com###boz_av_bottom
 beef1999.blogspot.com##+js(abort-on-property-read, LieDetector)
@@ -31061,6 +31059,7 @@ calendar.google.com,docs.google.com,mail.google.com,news.google.com,drive.google
 calendar.yahoo.co.jp##.js-AppBanner
 calendar.yandex.ru###CalendarBanner
 calendar.yandex.ru##div[class^="TouchApp__wrap--"] > div[class^="TouchBanner__wrap--"]:has(> div[class*="TouchBanner__popup--"] a[href^="https://redirect.appmetrica.yandex.com/serve/"])
+calendar.yandex.ru##div[role="main"] > div[class^="MainBanner__wrap--"]:has(> div > a[href^="https://360.yandex.ru/calendar/#calendar-block"])
 calendardate.com###ga_tlb
 calendardate.com##+js(set-cookie, warn, true)
 calendardate.com##body > div[style="position: fixed; left: 0px; bottom: 0px; width: 100%;"]
@@ -31211,6 +31210,7 @@ cambiodns.com###torna
 cambridge.org##.mb-4:has(> div > span > button[aria-label^="Share"])
 cambridge.org##.socialFooter
 cambridge.org#%#//scriptlet('set-local-storage-item', 'cookieMessageAccepted', 'true')
+cambridge.org,beebom.com,pressandjournal.co.uk,gl.ali213.net,watchmojo.com,m.slashdot.org,ssrn.com,g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
 cambridge.org,caymanchem.com##.bg-darker-gray
 cambridge.org,ldoceonline.com##.topslot-container
 cambridgebs.co.uk##+js(set-cookie, cookieStatus, true)
@@ -70750,7 +70750,6 @@ imagetwist.com##a[href*="/par/"]
 imagetwistcams.com,strip.chat,stripchat.com,xhamsterlive.com##.auth-modal-signup
 imagetwistcams.com,strip.chat,stripchat.com,xhamsterlive.com##.view-cam-watching-limit
 imagetwistcams.com,strip.chat,stripchat.com,xhamsterlive.com,celebjihad.live,hplives.com##+js(set-cookie, isVisitorsAgreementAccepted, 1, , reload, 1)
-imageupscaler.com##+js(aost, document.querySelectorAll, /(?=^(?!.*(https|Parse|Image)))/)
 imagevenue.com##+js(abort-on-property-read, __ads)
 imageweb.ws##+js(nowoif)
 imageweb.ws##a[href^="http://reallygoodlink.freehookupaffair.com"]
@@ -71587,6 +71586,7 @@ indiatimes.com##.sharebar_s
 indiatimes.com##.sharingBox
 indiatimes.com##.site-header__getapp
 indiatimes.com##.small-social-icon
+indiatimes.com##.socail-icons
 indiatimes.com##.socialShareBar
 indiatimes.com##.top-share
 indiatimes.com##.top-share ~ a:nth-child(-n+4)
@@ -76240,6 +76240,8 @@ joxi.userecho.com,yandexmail.userecho.com##.module-vk
 joy.hu##.shareArticleBox
 joy.hu##.subscribeForMagazineButton
 joybet114.cam,betmoneytv80.live,bahisnowtv297.com##.nk-post-share > div[style^="margin-left:"]
+joybuy.co.uk#$#body { overflow: auto !important; }
+joybuy.co.uk#$#div[class^="cookieManageDrawer_"] { display: none !important; }
 joybuy.com##.cookie-guide-wrapper
 joybuy.com##.noCookie-Model
 joybuy.com#?#.contain > div.himodal-mask:has(> div.cookie_modal)
@@ -80774,9 +80776,7 @@ landkreis-kronach.de#$?#body > div.mfp-wrap:has(> div.mfp-container > div.mfp-co
 landkreis-landsberg.de,waldhaus-bier.de,barmer.de##.cookiehint
 landkreis-mittelsachsen.de##.cm-overlay
 landkreis-mittelsachsen.de##.fnn-cookiemanager
-landkreis-pfaffenhofen.de,landkreis-eichstaett.de#$##CookieConsent { display: none !important; }
 landkreis-pfaffenhofen.de,landkreis-eichstaett.de#@##CookieConsent
-landkreis-pfaffenhofen.de,landkreis-eichstaett.de,ammerlaender-versicherung.de#$#.modal-open { overflow: auto !important; padding-right: 0 !important; }
 landkreis-sigmaringen.de###cCore_cookieNotice
 landline.media##.mc-embed
 landlord.ua##a[href^="http://euralis.ua/"]
@@ -85860,6 +85860,8 @@ m.jd.com##div[id^="imk2Fixed"]
 m.jiemian.com##body > .app-open
 m.joseilbo.com##.mobile_top_icon
 m.joseilbo.com##.sns_icon_set
+m.joybuy.co.uk##div[class^="header_downloadBarWrapper__"]
+m.joybuy.co.uk#%#//scriptlet('set-cookie', 'cookie_consent', 'emptyObj')
 m.jpnn.com##.download_apps
 m.jpnn.com##.share-medsos
 m.jpnn.com##amp-iframe[src*="-adnow.com/"]
@@ -95291,7 +95293,6 @@ muzines.co.uk#@#.ad_main
 muzix.eu#@#.cookie-alert
 muzix.eu,elektrodigit.hu#$#body .cookie-alert { display: none !important; }
 muzix.eu,elektrodigit.hu#$#body { overflow: auto !important; }
-muzmarket.ru,smakata.by,brainstation.io,dnb.com,disturbia.co.uk,sling.com,tutorialspoint.com###privacy-banner
 muzmo.org##.items > div[class="ajax-item item-song"]:not([id])
 muzmo.su##.item-track-share
 muzmob.org##.items > div:has(> iframe[src*=".php?iframe_id=_"])
@@ -99059,6 +99060,7 @@ newskarnataka.com##.elementor-element-9f47a8f
 newskarnataka.com##.newsk-target
 newskarnataka.com,psypost.org##[href^="https://news.google.com/publications/"]
 newslab.ru##.di3-meta__share
+newslab.ru##.js-mediator-article > p:has(> b > a[href="https://t.me/newslablive"])
 newslab.ru##.sharing-list-air
 newslaundry.com###container div[class] > ul[class] > li > a[href^="https://www.facebook.com/sharer.php"]:upward(2)
 newslaundry.com##.full-width:has(> div > img[alt="subscription-appeal-image"])
@@ -99827,6 +99829,9 @@ nightingaledvs.com##.widget-area--below-post
 nightlifeporn.com##.wps-player__happy-inside--pause.wps-player__happy-inside
 nightout.ru##.social-like-share
 nightpoint.io##+js(nofab)
+nihaojewelry.com###cmp-sdk-container
+nihaojewelry.com##.container > div.flex:has(> div.flex img[src$="/wholesale_jewelry_app.png"])
+nihaojewelry.com#%#//scriptlet('set-local-storage-item', 'homePopupID', '8')
 nihon-ikuji.com#@#.showads
 nihongoaz.com##+js(rmnt, script, contentprotector)
 nihongoaz.com##^script:has-text(contentprotector)
@@ -99897,6 +99902,8 @@ nikkei-cnbc.co.jp##.bannerAreaB
 nikkei-cnbc.co.jp##.side_facebook
 nikkei-cnbc.co.jp##.side_twitter
 nikkei-cnbc.co.jp##li > a[href="https://www.nikkei-cnbc.co.jp/kouza"]
+nikkei.com###btn-fb-share
+nikkei.com###btn-tw-share
 nikkei.com###ccpa-block
 nikkei.com###in-article-newsletter-signup
 nikkei.com###pianoRecommendBottom
@@ -109443,8 +109450,6 @@ poder360.com.br##.navigation-menu__social-media
 poder360.com.br##.social.mobile
 poder360.com.br##.thumb-share
 poder360.com.br##nav[class="social visible-xs"]
-poder360.com.br#$#.jquery-modal.blocker { display: none !important; }
-poder360.com.br#$#body { overflow: visible !important; }
 poder360.com.br#%#//scriptlet("abort-on-property-read", "addSourceLink")
 poder360.com.br#?##page > div.container:has(> h2:contains(/^Newsletter/))
 poder360.com.br,lanacion.com.ar##.mod-newsletter
@@ -114542,6 +114547,9 @@ racgp.org.au##.mb-1.small
 rachelli.it##+js(set-cookie, rachelli-ita-cookie-categories, essential)
 rachidscience.com,gazetevatan.com##.share2
 rachidscience.com,novelasesp.blogspot.com###HTML2
+rachlmansfield.com,poder360.com.br#$#.jquery-modal.blocker { display: none !important; }
+rachlmansfield.com,poder360.com.br#$#body { overflow: visible !important; }
+rachlmansfield.com,trendmicro.com##.sharebuttons
 racingamerica.com##.Footer__topsection
 racinggames.gg##.article-float-buttons > button[aria-label="article share"]
 racinggames.gg#?#body > .overlay:has(> .overlay__content > .modal__body > div > img[src^="/images/newsletter"])
@@ -119184,6 +119192,8 @@ s-style.machico.mu##.l-pickup__sns
 s.animeanime.jp##.item--facebook
 s.animeanime.jp##.item--line
 s.animeanime.jp##.item--twitter
+s.awa.fm##+js(aeld, contextmenu, [native code], elements, #__next)
+s.awa.fm##div[unselectable="on"] p[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
 s.cinemacafe.net,fistbump-news.jp##.arti-sharing-wrapper
 s.cosme.net###cmn-ad-hdr
 s.cosme.net###sns-shere
@@ -121427,13 +121437,9 @@ seeklogo.com##.shutterBannerWp
 seeklogo.com##.sideAdsWp
 seeklogo.com##.sstkBannerWp
 seekube.com##._1AsHk
-seelen.io##+js(prevent-fetch, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
 seelen.io##+js(prevent-fetch, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, war:googlesyndication_adsbygoogle.js)
 seelen.io##+js(trusted-prevent-fetch, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, google)
-seelen.io##.ant-modal-root:style(display: none !important;)
-seelen.io##body > #seelen-ad ~ div[style*="position: fixed;"][style*="z-index:"]:has(> div > div > div > span:contains(Ad Block Detected))
-seelen.io##body:style(overflow: auto !important;)
-seelen.io#%#//scriptlet('prevent-addEventListener', '/load|error/', '', 'elements', 'script')
+seelen.io##body > div[style^="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"]
 seelow.de#%#//scriptlet('trusted-set-cookie', 'cookieconsent', 'technical')
 seelow.de#%#//scriptlet('trusted-set-cookie', 'cookieconsentTimestamp', '$now$')
 seemysex.com##.inline-video-adv__inner
@@ -140071,6 +140077,10 @@ trauer.gn-online.de###gncookiebanner
 traum-ferienwohnungen.de#%#//scriptlet('trusted-set-cookie', 'cookie_preferences', '{"necessary":true,"functional":true,"analytics":false,"marketing":false}')
 traum-ferienwohnungen.de#%#//scriptlet('trusted-set-cookie', 'nCookieConsent', 'v3.0')
 traum-ferienwohnungen.de#@##cookie-notification
+traunstein.de#$#.modal-backdrop { display: none !important; }
+traunstein.de#@##CookieConsent
+traunstein.de,landkreis-pfaffenhofen.de,landkreis-eichstaett.de#$##CookieConsent { display: none !important; }
+traunstein.de,landkreis-pfaffenhofen.de,landkreis-eichstaett.de,ammerlaender-versicherung.de#$#.modal-open { overflow: auto !important; padding-right: 0 !important; }
 traunsteiner-tagblatt.de##.nfy-detail-social-media
 travaforte.com.br###lgpd-backgroud-alert
 travala.com##[class*="BannerApp_container"]
@@ -140274,7 +140284,6 @@ trendingtopics.eu#@#.cookie-notice:not(body):not(html)
 trendle.jp##share-popup
 trendmicro.com###content-policy
 trendmicro.com##.cookie_verif
-trendmicro.com##.sharebuttons
 trendmicro.com##c-dcx-cookie
 trends.google.*##.details-top > i.material-icons-extended[ng-click="ctrl.share($event)"]
 trends.google.*##button.widget-actions-item[ng-click="share()"]
