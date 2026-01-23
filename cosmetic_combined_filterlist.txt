@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.23.1306+1100 AEST
-! Last modified: 2026.01.23.1306+1100 AEST
+! Version: 2026.01.23.1742+1100 AEST
+! Last modified: 2026.01.23.1742+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3864,7 +3864,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /click.php?key=*&zoneid=$doc
 /click.php?lp=data_upd&
 /click/impression?
-/click2131287361236.php?$doc
 /click?a=*&aff_click_id=$doc
 /click?adv=
 /click?adv=$popup
@@ -25168,6 +25167,7 @@ bestofthelist.com###cboxOverlay
 bestporn.su##.prefixav-player-promo-col
 bestpornflix.com##+js(rmnt, script, popunder)
 bestpornflix.com##.table
+bestprice.com##.ModalCookiesFooter_modalContainer__dkq2S
 bestprice.gr###filters-aside > .ads
 bestprice.gr##.prices__group[data-is-promoted=""]
 bestprice.gr##.product__wrapper--promoted
@@ -25344,6 +25344,7 @@ bezpiecznedane.gov.pl##.modal-backdrop
 bezpiecznedane.gov.pl##body .cookie-popup-modal
 bezpolitickekorektnosti.cz##+js(aopr, sc_adv_out)
 bezpolitickekorektnosti.cz##.SC_TBlock
+bezprawnik.pl###adSlotXL2
 bezprawnik.pl###adSlotsSidebar
 bezprawnik.pl###nextPost .w-screen > .relative:style(background-color: transparent !important;)
 bezprawnik.pl###sponsor-special-section
@@ -25355,6 +25356,7 @@ bezprawnik.pl##article .pointer-events-none + .container > .relative:empty
 bezprawnik.pl##article div[class^="relative mx-auto flex items-center"]:has(> .relative > div[id^="Bepzrawnik_"])
 bezprawnik.pl##article div[class^="relative mx-auto flex items-center"]:has(> .relative:only-child:empty)
 bezprawnik.pl##div[data-no-partner-ads] .font-moderat:has(> .flex > .items-center > .items-center > .items-center > a[href*="://ad.doubleclick.net/"])
+bezprawnik.pl##div[data-no-partner-ads] > div.relative
 bezprawnik.pl,spidersweb.pl,piste.de,fontpark.net,from-ua.com##.facebook-box
 bezprovodoff.com##div[id^="mc4wp_form_widget-"]
 bezprovodoff.com,psychologies.ru,starhit.ru,v-androide.com,wildo.ru##.social-tabs
@@ -59310,11 +59312,11 @@ gamingbible.com,ladbible.com##ul[class^="css-"]:has(> li > button[aria-label="sh
 gamingbible.com,ladbible.com,ladbiblegroup.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##[title="SP Consent Message"]
 gamingbible.com,ladbible.com,ladbiblegroup.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##html.sp-message-open > body:style(position: unset !important; overflow: unset !important)
 gamingbible.com,ladbible.com,ladbiblegroup.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##html.sp-message-open:style(width: initial !important)
+gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com##div[class^="advert-placeholder_"]
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.share-link_container__q9th7
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
+gamingbible.com,ladbible.com,sportbible.com,unilad.com##div[class*="margin-Advert"]
 gamingbible.com,ladbible.com,sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
-gamingbible.com,ladbible.com,tyla.com,unilad.com##div[class^="advert-placeholder_"]
-gamingbible.com,ladbible.com,unilad.com##div[class*="margin-Advert"]
 gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 gamingbolt.com##.small-ad
 gamingbolt.com##.tag-social-media
@@ -72664,6 +72666,7 @@ instapv.com##section > div.flex > div.flex:has(> div.flex > div[data-freestar-ad
 instapv.com##section > div.flex:has(> div.flex > div[data-freestar-ad])
 instaread.co##.widget-ad-container
 instaread.co##.widget-ads-container
+instasexyblog.com##.banner-spot
 instastory.net##div[class^="adp"]
 instinctcoder.com##div[id^="ppsPopup"]
 institucional.tauste.com.br##.upflight-cookies
@@ -77621,6 +77624,7 @@ keiyaku-watch.jp##.lfkw-c-calendar-badge
 keiyaku-watch.jp##.liquid_connect_modal_center
 keiyaku-watch.jp##.paywall-top-banner-widget
 keiyaku-watch.jp##div[id^="bfb_content_"]
+keiyaku-watch.jp,vr-pro.jp,rfc-partners.co.jp,jp-news.mercari.com,magazine.steadyjapan.com##.bfb_imgBanner
 kejt.pl,radom24.pl##.ciasteczka-info
 kekememes.de#$#.aq4y { display: none!important; }
 kekememes.de#$#body { overflow: visible!important; }
@@ -100520,7 +100524,6 @@ northcountrypublicradio.org###business
 northcountrypublicradio.org###promo_insert_container
 northdata.*##.ad-container:not(#style_important)
 northdata.*##.segments > div.ui[style="padding-bottom: 1.5em !important; padding-top: 1.5em !important"]
-northdevongazette.co.uk,softlaunchlondon.com,takebackourtech.org##.c-subscribe
 northdevongazette.co.uk,softlaunchlondon.com,takebackourtech.org,valueaddedresource.net##.c-subscribe
 northern-scot.co.uk###TaboolaMain
 northern-scot.co.uk##.PatronHeader
@@ -106084,7 +106087,7 @@ pastedownload.com##.hemmm
 pastedownload.com##.jegulo
 pastedownload.com##.uk-list > li:has(> .uk-label + span > a[rel][target="_blank"])
 pastedownload.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adskeeper.com')
-pasteflash.sx##+js(no-setInterval-if, blocked)
+pasteflash.sx##+js(no-requestAnimationFrame-if, blocked)
 pastehouse.com##+js(abort-current-script, document.write, Banner)
 pastehouse.com##.col-md-9 > .text-center > a[target="_blank"][rel="nofollow"] > img
 pasteit.*##+js(noeval-if, AdBlock)
@@ -116380,6 +116383,8 @@ redscan.com##.aws-cookie-consent
 redscan.com##.pu-overlay
 redstate.com##.thm-piano-nl-hpfixed
 redstate.com##.tp-container-inner
+redtedart.com##div[data-ff-name="popupImage"]
+redtedart.com##div[id^="fd-form-"]
 redtub.club##h3:contains(/^Advertising$/)
 redtube.*###paid_tabs_list
 redtube.*##+js(acs, Object.defineProperty, trafficjunky)
@@ -118331,7 +118336,9 @@ rottentomatoes.com##.trending-bar__social-link
 rottentomatoes.com##ad-unit
 rottentomatoes.com##aside[id^="medrec_"]
 rottentomatoes.com##back-to-top
+rottentomatoes.com##body,html:style(height: auto !important; overflow: auto !important)
 rottentomatoes.com##nav.header_main_scroll:style(margin-top: 0 !important;)
+rottentomatoes.com##overlay-base
 rottentomatoes.com#$##main > overlay-base { display: none !important; }
 rottentomatoes.com#$#.scroll-lock { overflow: auto !important; }
 rottentomatoes.com#@#.page_ad
@@ -119422,6 +119429,7 @@ safemaru.blogspot.com###unblocker
 safenames.net,hobbybaecker.de#$#.modal-open { overflow: visible !important; }
 safenote.co##div[style^="margin-bottom:"].alert
 safeposter.com##.wpfresh5-cookie-pop
+safeswim.org.nz##.px-10:has-text(Download it now)
 safetxt.*##ins.adsbygoogle
 safetxt.net##+js(acs, $, contextmenu)
 safetxt.net##+js(rmnt, script, window.open)
@@ -147701,7 +147709,6 @@ vr-bayernmitte.de#$#.lightbox--cookie-consent { display: none !important; }
 vr-bayernmitte.de#$#.no-scroll { overflow: auto !important; position: static !important; }
 vr-compare.com##div[style="min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;"]
 vr-expert.*,vr-experts.fr,web-promo.ua,iate.europa.eu,doradcasmaku.pl,esendex.com.au###cookies_popup
-vr-pro.jp,rfc-partners.co.jp,jp-news.mercari.com,magazine.steadyjapan.com##.bfb_imgBanner
 vr.com.br##.lumis-service-privacyterm
 vr.fi#%#//scriptlet('trusted-set-local-storage-item', 'cookieConsent', '{"consented":true,"levels":{"level1":true,"level2":false,"level3":false,"level4":false}}')
 vr.pornhat.*#@#+js(aopr, document.dispatchEvent)
