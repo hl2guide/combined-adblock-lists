@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.25.0536+1100 AEST
-! Last modified: 2026.01.25.0536+1100 AEST
+! Version: 2026.01.25.1324+1100 AEST
+! Last modified: 2026.01.25.1324+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -10293,6 +10293,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 1movierulzhd.*,xcandid.top#@#.adunit
 1movierulzhd.hair##+js(no-xhr-if, adsbygoogle)
 1movierulzhd.pro##+js(no-xhr-if, adsbygoogle)
+1movies.bz,avira.com,byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,iphoneitalia.com,malaymail.com,maxabout.com,motorsport-xl.de,ncbi.nlm.nih.gov,novosti.rs,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com,uncnews.unc.edu##.social-sharing
 1movies.life###zxc_pops
 1movies.life##.superButton > a[href^="/user/premiummembership"][target="_blank"]
 1movies.life##a[href^="/user/premiummembership"] > img
@@ -22484,6 +22485,7 @@ avvenire.it#$##suggetionsModal { display: none !important; }
 avvenire.it#$#.modal-backdrop { display: none !important; }
 avvenire.it#$#body.modal-open { overflow: auto !important; }
 avvocatoandreani.it#@#.AdSense
+avweb.com###AVWemailcapform
 avweb.com##.avweb-home-leader
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
 avxhm.se##[data-localize]:has(a[href^="https://icerbox.com/"])
@@ -45568,12 +45570,12 @@ dubznetwork.com#@#.ads-by-google
 dubznetwork.com#@#.adsbyvli
 dubznetwork.com,cryptocurrencytopnews.com##.dp-social-media-share-wrap
 ducati.com##.d-cookie-bar
+duck.ai,duckduckgo.com##+js(set-local-storage-item, duckaiHasAgreedToTerms, true)
 duckduckgo.com###browser-promo
 duckduckgo.com###browser-promo + div[class]
 duckduckgo.com###faq
 duckduckgo.com###popover-browser-promo
 duckduckgo.com###powered_by.results--powered
-duckduckgo.com##+js(set-local-storage-item, duckaiHasAgreedToTerms, true)
 duckduckgo.com##+js(trusted-set-local-storage-item, adblockNotice, '{"dismissed":true,"impressionCount":1}')
 duckduckgo.com##.atb-banner
 duckduckgo.com##.atb-button--faq
@@ -45726,7 +45728,9 @@ dunyavegercekler.com##.right-social-wrapper
 dunyavegercekler.com##.social-wrapper > :not([class="font-size"])
 duo.com##.go-to-top-btn
 duo.com##article .social-icons
+duo.op.gg###duo-ad-box-head
 duo.op.gg###duo-container div.flex > div.mt-2:has(> ins.adsbygoogle)
+duo.op.gg##.admanager--box
 duo.op.gg##div[id^="duo-ad-"]
 duo.op.gg#?#div[id^="duo-ad-vertical"]> div.admanager--vertical:has(> div.admanager--box a[href^="https://discord.gg/"])
 duolingo.com###root div[data-test="player-end-carousel"] > div[class]:has(> ins.adsbygoogle)
@@ -49881,6 +49885,7 @@ esports.op.gg##.content > .hidden:has(> .text-center:only-child > .adsbygoogle:o
 esports.op.gg##.content > .mt-6 > div[class^="lg"]:has(> .text-center:only-child > .adsbygoogle:only-child)
 esports.op.gg##.flex-row > .hidden > .flex.items-center:has(> div[id^="div-gpt-"]:only-child)
 esports.op.gg##.lg\:bg-gray-800.lg\:rounded.lg\:p-2
+esports.op.gg##.min-h-\[600px\]
 esports.op.gg##.sticky > div[class^="lg"]:has(> div[class^="min-h-"]:only-child > .adsbygoogle:only-child)
 esportsawards.com##.current
 esportsawards.com##div[id^="sizzle-gdpr"]
@@ -54948,6 +54953,8 @@ flyingjizz.com###adv_inplayer
 flyingjizz.com##.sidebar-banner
 flyingmag.com##.arcAdsContainer
 flyingmag.com##.article_ad_text
+flyingmag.com##.flyin-before-content
+flyingmag.com##.flyin-target
 flyingmag.com##.get-magazine
 flyingmag.com##.single-social-share
 flyingmag.com,popsci.com,saveur.com##.email-widget-container
@@ -65943,6 +65950,7 @@ healthgrades.com##body > div:has(> div[role="marquee"] > div[data-qa-target="lea
 healthgrades.com##div:not([data-card-id]):has(> div[data-visible="rendered"] > div[data-qa-target$="-ad"])
 healthgrades.com##div[class]:has(> div[data-qa-target="leaderboard-ad"])
 healthgrades.com##div[class]:has(> div[data-visible] > div[data-qa-target="leaderboard-ad"])
+healthhub.sg##ai-chatbot
 healthians.com##.bottomsticky
 healthinfo.ua##.mc-share-post
 healthing.ca###notification
@@ -73968,6 +73976,7 @@ ishachoku.com##.fix-ad
 ishadeed.com###carbonadsWrapper
 ishikawa-tv.com##.itc_post_hd_info_sns
 ishn.com##.article-show-bottom
+ishopchangi.com###chat-wrapper
 ishoppurium.com##+js(set-local-storage-item, isAcceptCookie, true)
 isi7.net###wpsafe-generate:style(display: block !important;)
 isi7.net###wpsafe-wait1
@@ -106493,9 +106502,11 @@ pccwglobal.com,consoleconnect.com###cc-overlay
 pcdock24.com###bottom_nav
 pcelite.pl#%#//scriptlet('trusted-click-element', 'div[consent-blocker-connected] a[role="button"]', '', '1000')
 pcexpansion.es##.mostrar
+pcgamebenchmark.com##.evolve-cta.card
 pcgamebenchmark.com##.nova_wrapper
 pcgamebenchmark.com,pcgamesn.com,pockettactics.com,thedigitalfix.com,wargamer.com###nn_astro_wrapper
 pcgamebenchmark.com,soccerway.com,streetcheck.co.uk##.placement
+pcgamebenchmark.com,xataka.com.ar,xataka.com.co,3djuegosguias.com,directoalpaladar.com.mx,thefilibusterblog.com,optionsprofitcalculator.com,kimbino.*,eahentai.com,issitedownrightnow.com,terabox.*,fedscoop.com,statescoop.com,edscoop.com,defensescoop.com,cyberscoop.com,halotracker.com,battlefieldtracker.com,destinytracker.com,gocmod.com,ibelieve.com,bleacherreport.com,thewindowsclub.blog,lovetoknow.com,colorxs.com,imaging-resource.com,fieldmag.com,investorplace.com,prosettings.net,gifcandy.net,gingersoftware.com,bitsofco.de,crn.com,techlusive.in,thehentaiworld.com,winporn.net,airport-charles-de-gaulle.com,getdaytrends.com,theurbanlist.com,dynamicwallpaper.club,delfi.lt,updatestar.com,worldstarhiphop.com,pdf.io,online-audio-converter.com,appsious.com,pythontutorial.net,flightglobal.com,outsider.com,servers.fivem.net,psdetch.com,phoneky.com,newsd.in,indiatvnews.com,yokibu.com,macleans.ca,clevelandclinic.org,readingrockets.org,martech.org,earlygame.com,tripadvisor.*,myhoustonmajic.com,gmanetwork.com,businessinsider.com,bgr.in,online-video-cutter.com,alison.com,mysqltutorial.org,sqlservertutorial.net,picmix.com,aim400kg.com,justfall.lol,epson-event-manager-utility.en.lo4d.com,barchart.com,politico.eu,thelayoff.com,ehow.com,tvweb.com,hiperdex.com,infobyip.com,soundclouddownloader.org,r3sub.com,citra-emu.org,ipaddress.com,mobafire.com,movieweb.com,ndtv.com,trafficland.com,forvo.com,apornotube.net,instadp.com,elophant.com,thurrott.com,mtlblog.com,accuweather.com,narcity.com,mywebtimes.com,ancient.eu,gradesaver.com,nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion,tempostorm.com,defensesystems.com,whatsmydns.net,newatlas.com,gtplanet.net,investopedia.com,mangafox.la,sexhoundlinks.com,ibc.org,dcode.fr,pinkvilla.com,ranker.com,pornhd.com,history.com,saavn.com,www-technologyreview-com.cdn.ampproject.org,bombhopper.io,worms.lol,satelite.io,javascripttutorial.net,jungle.lol,1v1.lol,tricksplit.io,filehippo.com,supersextube.pro,zipi.com,nejm.org,ertyu.org,howchoo.com,dvdsreleasedates.com##body .ad
 pcgamer.com###article-body > .future__jwplayer--carousel
 pcgamer.com###coupons
 pcgamer.com##+js(aopr, _sp_._networkListenerData)
@@ -145019,7 +145030,6 @@ valuewalk.com##body,html:style(overflow: auto !important; position: initial !imp
 valuewalk.com#$#.mfp-bg { display: none !important; }
 valuewalk.com#$#html[style*="overflow:"] { overflow: auto !important; margin-right: 0 !important; }
 valuewalk.com#?#.mfp-wrap:has(> div.mfp-container > div.mfp-content > form[data-options*="after_subscribe"])
-valuexh.life,xhaccess.com,xham.live,xhamster.best,xhamster.com,xhamster.desi,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster44.desi,xhamsterlive.com,xhbig.com,xhbranch5.com,xhchannel.com,xhcopy.life,xhdate.world,xhexperience.xyz,xhofficial.com,xhopen.com,xhprograms.site,xhsocial.com,xhspot.com,xhtotal.com,xhwebsite5.com,xhwide2.com##+js(set-cookie, parental-control, no, , reload, 1)
 valuexh.life,xhaccess.com,xham.live,xhamster.best,xhamster.com,xhamster.desi,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster44.desi,xhamsterlive.com,xhbig.com,xhbranch5.com,xhchannel.com,xhcopy.life,xhdate.world,xhexperience.xyz,xhofficial.com,xhopen.com,xhprograms.site,xhsocial.com,xhspot.com,xhtotal.com,xhwebsite5.com,xhwide2.com##div[class^="cookiesAnnounce-"]
 valuexh.life,xhaccess.com,xhamster.com,xhamster.desi,xhamster2.com,xhamster3.com,xhamster42.desi,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhlease.world,xhofficial.com,xhspot.com,xhtotal.com,xhwide2.com##a[href^="https://flirtify.com/"]
 valutaomregner.dk,fotografwdrodze.pl,observalgerie.com###exitpopup-modal
@@ -153294,7 +153304,6 @@ xasiat.com,sxspy.com,porngem.com,thebussybandit.com##a[href="#tab_share"]
 xataka.com###cookies-overlay
 xataka.com#?#.aside-box:has(> form.newsletter-form)
 xataka.com,vesti-ua.net,genbeta.com,xatakandroid.com,trendenciashombre.com,bebesymas.com,protocol.ua###fb-share-button
-xataka.com.ar,xataka.com.co,3djuegosguias.com,directoalpaladar.com.mx,thefilibusterblog.com,optionsprofitcalculator.com,kimbino.*,eahentai.com,issitedownrightnow.com,terabox.*,fedscoop.com,statescoop.com,edscoop.com,defensescoop.com,cyberscoop.com,halotracker.com,battlefieldtracker.com,destinytracker.com,gocmod.com,ibelieve.com,bleacherreport.com,thewindowsclub.blog,lovetoknow.com,colorxs.com,imaging-resource.com,fieldmag.com,investorplace.com,prosettings.net,gifcandy.net,gingersoftware.com,bitsofco.de,crn.com,techlusive.in,thehentaiworld.com,winporn.net,airport-charles-de-gaulle.com,getdaytrends.com,theurbanlist.com,dynamicwallpaper.club,delfi.lt,updatestar.com,worldstarhiphop.com,pdf.io,online-audio-converter.com,appsious.com,pythontutorial.net,flightglobal.com,outsider.com,servers.fivem.net,psdetch.com,phoneky.com,newsd.in,indiatvnews.com,yokibu.com,macleans.ca,clevelandclinic.org,readingrockets.org,martech.org,earlygame.com,tripadvisor.*,myhoustonmajic.com,gmanetwork.com,businessinsider.com,bgr.in,online-video-cutter.com,alison.com,mysqltutorial.org,sqlservertutorial.net,picmix.com,aim400kg.com,justfall.lol,epson-event-manager-utility.en.lo4d.com,barchart.com,politico.eu,thelayoff.com,ehow.com,tvweb.com,hiperdex.com,infobyip.com,soundclouddownloader.org,r3sub.com,citra-emu.org,ipaddress.com,mobafire.com,movieweb.com,ndtv.com,trafficland.com,forvo.com,apornotube.net,instadp.com,elophant.com,thurrott.com,mtlblog.com,accuweather.com,narcity.com,mywebtimes.com,ancient.eu,gradesaver.com,nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion,tempostorm.com,defensesystems.com,whatsmydns.net,newatlas.com,gtplanet.net,investopedia.com,mangafox.la,sexhoundlinks.com,ibc.org,dcode.fr,pinkvilla.com,ranker.com,pornhd.com,history.com,saavn.com,www-technologyreview-com.cdn.ampproject.org,bombhopper.io,worms.lol,satelite.io,javascripttutorial.net,jungle.lol,1v1.lol,tricksplit.io,filehippo.com,supersextube.pro,zipi.com,nejm.org,ertyu.org,howchoo.com,dvdsreleasedates.com##body .ad
 xatakaciencia.com,xatakamovil.com,xatakawindows.com,genbeta.com##.js-img-adb
 xatakahome.com##body article.article div.ad
 xatakamovil.com###dailymotion-pip-large-viewport
