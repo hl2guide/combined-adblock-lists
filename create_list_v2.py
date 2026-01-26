@@ -229,8 +229,8 @@ TESTING_URLS = [
     "https://filters.adtidy.org/extension/ublock/filters/11.txt",
     # AdGuard Social Media filter
     "https://filters.adtidy.org/extension/ublock/filters/4.txt",
-    # Anti-Facebook List
-    "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
+    # Anti-Facebook List (OFFLINE)
+    # "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyPrivacy
     "https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
     # EasyList - Cookie Notices
