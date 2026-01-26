@@ -155,8 +155,9 @@ URL_PREFIX_1 = \
 TESTING_URLS = [
     # EasyList - Testing (more reliable links)
     "https://easylist.to/easylist/easylist.txt",
-    "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-    "https://secure.fanboy.co.nz/fanboy-annoyance.txt",
+    # FANBOY IS OFFLINE!
+    #"https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
+    #"https://secure.fanboy.co.nz/fanboy-annoyance.txt",
     # Brave Filterlists: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
