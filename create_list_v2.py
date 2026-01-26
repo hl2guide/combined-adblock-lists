@@ -248,9 +248,9 @@ TESTING_URLS = [
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     #f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
-    # Fanboy's Anti-Facebook and Age Gate Filterlists
-    "https://fanboy.co.nz/fanboy-antifacebook.txt",
-    "https://fanboy.co.nz/fanboy-agegate.txt",
+    # Fanboy's Anti-Facebook and Age Gate Filterlists (OFFLINE)
+    # "https://fanboy.co.nz/fanboy-antifacebook.txt",
+    # "https://fanboy.co.nz/fanboy-agegate.txt",
     "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
     # AdBlockPlus Filterlists
     "https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt",
