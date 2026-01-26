@@ -155,9 +155,11 @@ URL_PREFIX_1 = \
 TESTING_URLS = [
     # EasyList - Testing (more reliable links)
     "https://easylist.to/easylist/easylist.txt",
-    # FANBOY IS OFFLINE!
-    #"https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-    #"https://secure.fanboy.co.nz/fanboy-annoyance.txt",
+    # Fanboy Lists
+    "https://fanboy.co.nz/fanboy-cookiemonster.txt",
+    "https://fanboy.co.nz/fanboy-annoyance.txt",
+    "https://fanboy.co.nz/fanboy-antifacebook.txt",
+    "https://fanboy.co.nz/fanboy-agegate.txt",
     # Brave Filterlists: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
@@ -249,9 +251,6 @@ TESTING_URLS = [
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     #f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
-    # Fanboy's Anti-Facebook and Age Gate Filterlists (OFFLINE)
-    # "https://fanboy.co.nz/fanboy-antifacebook.txt",
-    # "https://fanboy.co.nz/fanboy-agegate.txt",
     "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
     # AdBlockPlus Filterlists
     "https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt",
