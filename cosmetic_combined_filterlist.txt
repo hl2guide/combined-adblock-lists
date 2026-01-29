@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.29.2240+1100 AEST
-! Last modified: 2026.01.29.2240+1100 AEST
+! Version: 2026.01.30.0009+1100 AEST
+! Last modified: 2026.01.30.0009+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -30147,7 +30147,6 @@ batimes.com.ar##.row > div.col-lg-4:has(> div.ads-space)
 batimes.com.ar##.social-topsharing
 batimes.com.ar##div[class^="ads-space"]
 batman-news.com##.astra-widget-social-profiles
-bato.to##.alert-dark:has(> a[href="/direct-link"])
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 batpic.com###imRunetkiPop
 batpic.com###l0ZKuGa775
@@ -61609,6 +61608,7 @@ faloo.com##style:has-text(-moz-none):remove()
 falter.at###anzeigenkenzz
 falter.at##.subscription-note-wide
 famedly.com###concord-banner-container
+famemingles.com,newsfront.xyz,crimejasoos.in,vacancyforjob.in###gcont
 famemma.tv,playlive.net##.paper-client-privacy-agreement
 famfonts.com##ins.adsbygoogle
 famil.ru###cookieagree-modal
@@ -69726,7 +69726,6 @@ gamearter.com##+js(nano-sib,/SplashScreen|BannerAd/)
 gamearter.com##+js(nano-stb,/SplashScreen|BannerAd/)
 gamearter.com##div[id^="ga_sp_"]
 gameask.com##div[class^="ad"] > p
-gameavenue.co,ftuapps.io,tutsnode.org,nakiny.com,linuxthebest.net,guncelkaynak.com,javhdvideo.org,nemumemo.com,savingsomegreen.com,toramemoblog.com,dark5k.com,myonepiecemanga.com,chuksguide.com,tencentgamingbuddy.co,gplcanyon.com,civildigital.com,paksociety.com,iptv4sat.com,apkmb.com,loveroms.online,loveroms.online,freecoursesonline.me##+js(set-constant, ai_adb_detected, noopFunc)
 gamebanana.com##+js(aopr, adBlockDetected)
 gamebanana.com##+js(nostif, vSiteRefresher)
 gamebanana.com##.BannerModule
@@ -70280,7 +70279,6 @@ gameslog.ru##.content_subscribe
 gameslol.net##.pubGside
 gameslol.net,yabiladi.com##.pub_header
 gamesmain.xyz##+js(addEventListener-defuser, click, location.href, elements, #link-ready)
-gamesmain.xyz##+js(no-setTimeout-if, window.location.href)
 gamesmain.xyz,foodtechnos.in###adblock-modal
 gamesmain.xyz,foodtechnos.in##+js(no-xhr-if, pagead2.googlesyndication.com)
 gamesmain.xyz,foodtechnos.in##+js(set-constant, adsbygoogle, {})
@@ -71046,6 +71044,7 @@ gazetapolska.pl,gpcodziennie.pl###swsoverlay
 gazetapraca.pl###overlayJS
 gazetapraca.pl##body #agreeNoticeWrapper.open
 gazetapraca.pl##body #cookieInfoMsgWrapper.open
+gazetaprawna.pl##+js(no-setTimeout-if, .display||"hidden"===)
 gazetaprawna.pl##.contentStreamFactory
 gazetaprawna.pl##.detailAllBoxes
 gazetaprawna.pl##.detailBottomRight
@@ -71053,7 +71052,13 @@ gazetaprawna.pl##.ecommerceDesktopLoader
 gazetaprawna.pl##.infor-ad
 gazetaprawna.pl##.socialsBottom
 gazetaprawna.pl##.subscribeButton
-gazetaprawna.pl##.tpl_std_module > div[id^="belka"][style^="margin-top:"] > div[style="text-align: center; color: grey; font-size: 10px;"]
+gazetaprawna.pl##body > .ad.ads:style(display: block !important;)
+gazetaprawna.pl##div[data-region="top"] > .fixed.bottom-0:has(> a > img[alt="Autopromocja"])
+gazetaprawna.pl##div[data-widget^="AdSlot"]
+gazetaprawna.pl#@#.ad
+gazetaprawna.pl#@#.ad-slot
+gazetaprawna.pl#@#.ads
+gazetaprawna.pl#@#.ads-container
 gazetaprawna.pl,dziennik.pl##.videoScroll > div
 gazetasp.com.br##.bloco-social
 gazetasp.com.br##.coluna > div.mobile:has(> div.propaganda)
@@ -89517,6 +89522,7 @@ jobagent.ch##+js(trusted-set-cookie, _uc, ad_storage=denied:analytics_storage=de
 jobandtalent.com###js-mount-cookiemanager
 jobboerse.arbeitsagentur.de###datenschutzcontainer
 jobbsafari.se##.hBzXzJ
+jobdetails.nestle.com#@#.socialbutton
 jobdetails.nestle.com,jobs.hatch.com,jobsearch.alstom.com#@#.socialbutton
 jobfinder.lu#%#//scriptlet('set-cookie', 'enableAnalytics', 'false')
 jobfinder.lu#%#//scriptlet('set-cookie', 'enablePersonalizedAds', 'false')
@@ -103456,7 +103462,6 @@ mangamiso.net##.container > div.v-sheet--outlined
 manganelo.tv##+js(aopr, JSON.parse)
 manganelo.tv#$#abort-on-property-read document.createElement
 mangaowl.com,037hdd.com##div[id^="ads_"]
-mangapark.io##main > div:has(> div.px-3 > a[href][target="_blank"][q\:key="CY_1"])
 mangapark.net##.ad-page-3x
 mangapark.net##.max-w-screen-2xl > a[target="_blank"][rel]
 mangapark.net##div[claass="ad-970x250"]
@@ -105190,8 +105195,12 @@ media.vkplay.ru###top-informer
 media.wear.jp##.wear-app-download
 media.wear.jp##main > .flex > section:has(> ul > li > a[href^="https://app.adjust.com"])
 media.zalo.me##.zsponsor-wrapper
+media1.hu##.elementor-widget-heading:has(> div.elementor-widget-container a[href="https://www.facebook.com/media1hu"])
+media1.hu##.elementor-widget-wrap > div.elementor-widget-heading:has(> div > h4:contains(Kövessen minket!))
 media1.hu#?#.elementor-form-fields-wrapper:has(> div.elementor-field-type-email)
 media1.hu#?#div.elementor-widget-heading:has(> div > h4:contains(iratkozzon fel))
+media1.hu,gameavenue.co,ftuapps.io,tutsnode.org,nakiny.com,linuxthebest.net,guncelkaynak.com,javhdvideo.org,nemumemo.com,savingsomegreen.com,toramemoblog.com,dark5k.com,myonepiecemanga.com,chuksguide.com,tencentgamingbuddy.co,gplcanyon.com,civildigital.com,paksociety.com,iptv4sat.com,apkmb.com,loveroms.online,loveroms.online,freecoursesonline.me##+js(set-constant, ai_adb_detected, noopFunc)
+media1.hu,rotaborsa.com,dnevno.hr,fintolk.pro,e-earphone.blog,koneta.nifty.com##.wp-embed-share
 media24.fr##.wpb_wrapper > div.vc_row_inner:has(> div.vc_column_inner > div[class] > div.wpb_wrapper > div.tdb_single_post_share)
 media4growth.com##.add-text
 media4growth.com##.subscribe-ltr
@@ -106989,6 +106998,7 @@ meubella.nl##.cnotice
 meutimao.com.br###aviso_lgpd
 meutimao.com.br##.compartilhamentos
 mevatec.cz,vastap.cz###c_law
+meverge.com,shopizo.fun,thebiharstudy.in,gkvpyqs.com,crimejasoos.in,famemingles.com#%#//scriptlet('adjust-setInterval', '/count|wpsafe/i', '*', '0.001')
 mevspace.com##.cookie-overlayer
 mewingzone.com,opchapters.com,tresdaos.com##.mainholder + div[id][class*=" "]
 mexa.*##+js(acs, document.getElementById, adblockinfo)
@@ -112448,7 +112458,6 @@ mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好物))
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 mydriveverse.blogspot.com,mydverse02.blogspot.com,kdramaplays.blogspot.com,technetbooks.com##.js-cookieconsent
-mydverse.com,link99.bid,fbol.top,cuttlinks.com,cuttty.com,exe-links.com,mrproblogger.com,kecapku.com,cuttyy.com,cutynow.com,travelironguide.com,kreditexperte.online,telcit.site,shortnest.com,exnion.com,wordcount.im,shrinkme.ink,megafire.net,firepaste.com,zovo.ink,upfiles.app,exe-urls.com,link.codevn.net,oii.la,upfiles-urls.com,tpi.li,evernia.site,falpus.com,cloutgist.com,tvi.la,iir.la,oei.la,clk.kim,ijvam.com,exuce.com,kiddyshort.com,cl1ca.com,4br.me,fir3.net,seulink.*,encurtalink.*,link.paid4link.com,doshrink.com,link.almaftuchin.com,easycut.io,linkpoi.me,news.speedynews.xyz,casperhd.com,link4earn.com,safelink.asia,cravesandflames.com,xpshort.com,animerigel.com,megaurl.in,megafly.in,linx.cc,rgl.vn,wu8.in,mgnetu.com,shorturl.unityassets4free.com,paid4file.com,atglinks.com,tii.la,exeo.app,smallinfo.in,cutty.app,adrinolinks.in,disheye.com,veganab.co,faucetcrypto.net,download.windowslite.net,oko.sh,ckk.ai,forex-trnd.com,paylinnk.com,loptelink.com,adslink.pw,shortx.net,haonguyen.top,bestcash2020.com,wealthystyle.online,easysky.in,techgeek.digital,csd.xmod.in,defaultfreeshort.in,adsafelink.com,akashort.com,insurance-space.xyz,rajsayt.xyz,insurglobal.xyz,usanewstoday.club,clk.asia,wplink.*,filmyzilla-in.xyz,samaa-pro.com,earnme.club,myshrinker.com,adshort.*,seulink.online,encurta.eu,adurly.cc,linkjust.com,crazyblog.in,swzz.xyz,try2link.com,baominh.tech,bblink.com,za.uy,upshrink.com,link.turkdown.com,beingtek.com,insuranceblog.xyz,linkfly.*,link1s.com,enagato.com,dl.tech-story.net,123link.biz,go.gets4link.com,musicc.xyz,xfiles.io,upfiles.com,dz-linkk.com,cslink.in,shrink.icu,hoastie.com,tei.ai,exey.*,claimfreebits.com,zshort.io,jameeltips.us,payskip.org,shrinke.me,oncehelp.com,enrt.eu,tui.click,short.food-royal.com,galaxy-link.space,linkebr.com,smoner.com,charexempire.com,gplinks.co,adomainscan.com,linkshorts.*,cuts-url.com,gainbtc.click,modapk.link,gplinks.co,miklpro.com,sanoybonito.club,afly.pro,exe.app,adcorto.xyz,cuturl.in,apkshrt.com,droplink.co,linksfire.co,linksly.co,ilinks.in,bitfly.io,imagenesderopaparaperros.com,c-ut.com,shrinkme.in,fir3.net,link1s.net,clk.ink,apksvip.com,pkr.pw,stfly.me,bolssc.com,cutdl.xyz,shrinkurl.org,srt.leechpremium.link,tmearn.com,samapro.me,mondainai.moe,popimed.com,aii.sh,miuiku.com,slink.bid,7r6.com,iir.ai,biroads.com,win10.vn,mitly.us,tii.ai,linkrex.net,shorterall.com,fc.lc,shrinkme.io#%#//scriptlet("set-constant", "blurred", "false")
 myearfun.com##.footer-alert
 myearfun.com##.message-consent-fixed-container
 myedit.online###gdpr_notes
@@ -116149,7 +116158,6 @@ newsforbolly.org##+js(ra, onkeydown)
 newsfront.xyz#$#button#file { background-color: green !important; }
 newsfront.xyz#%#//scriptlet('adjust-setInterval', 'counter', '*', '0.001')
 newsfront.xyz#%#//scriptlet('remove-attr', 'disabled', 'button#file')
-newsfront.xyz,crimejasoos.in,vacancyforjob.in###gcont
 newsfs.com,bloter.net,comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 newsfs.com,chungnamilbo.co.kr,newsnjoy.or.kr,techm.kr,ccdailynews.com,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr##.quick-tool > button:not(.fontsise-btn)
 newsgeorgia.ge##.custom_html-23
@@ -138355,7 +138363,6 @@ rostics.ru##._3l3oK3nIbnZ
 rosting.by###bg_popup
 rotaborsa.com##.kanews-tab-bar
 rotaborsa.com##div[data-toggle^="kanews-popup-share"]
-rotaborsa.com,dnevno.hr,fintolk.pro,e-earphone.blog,koneta.nifty.com##.wp-embed-share
 rotaborsa.com,jolie.de,euractiv.com,business2community.com,blog.mettl.com##.sharect
 rotaborsa.com,tovima.gr,censor.net,gazeteipekyol.com,notisclepr5c-la.com,lepoint.fr,lpnt.fr,kriptokoin.com,laodong.vn,ajanstekirdag.com,enyenimedya.com,noktabursa.com.tr##.googlenews
 rotadasbandeiras.com.br###Lbanner
@@ -171100,6 +171107,8 @@ vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
 vpk.name###bt-stop-ra
 vpk.name###side > div[style*="300px"][style*="600px"]
 vplaboratory.ru##.top-message
+vplink.in,gamesmain.xyz##+js(no-setTimeout-if, window.location.href)
+vplink.in,mydverse.com,link99.bid,fbol.top,cuttlinks.com,cuttty.com,exe-links.com,mrproblogger.com,kecapku.com,cuttyy.com,cutynow.com,travelironguide.com,kreditexperte.online,telcit.site,shortnest.com,exnion.com,wordcount.im,shrinkme.ink,megafire.net,firepaste.com,zovo.ink,upfiles.app,exe-urls.com,link.codevn.net,oii.la,upfiles-urls.com,tpi.li,evernia.site,falpus.com,cloutgist.com,tvi.la,iir.la,oei.la,clk.kim,ijvam.com,exuce.com,kiddyshort.com,cl1ca.com,4br.me,fir3.net,seulink.*,encurtalink.*,link.paid4link.com,doshrink.com,link.almaftuchin.com,easycut.io,linkpoi.me,news.speedynews.xyz,casperhd.com,link4earn.com,safelink.asia,cravesandflames.com,xpshort.com,animerigel.com,megaurl.in,megafly.in,linx.cc,rgl.vn,wu8.in,mgnetu.com,shorturl.unityassets4free.com,paid4file.com,atglinks.com,tii.la,exeo.app,smallinfo.in,cutty.app,adrinolinks.in,disheye.com,veganab.co,faucetcrypto.net,download.windowslite.net,oko.sh,ckk.ai,forex-trnd.com,paylinnk.com,loptelink.com,adslink.pw,shortx.net,haonguyen.top,bestcash2020.com,wealthystyle.online,easysky.in,techgeek.digital,csd.xmod.in,defaultfreeshort.in,adsafelink.com,akashort.com,insurance-space.xyz,rajsayt.xyz,insurglobal.xyz,usanewstoday.club,clk.asia,wplink.*,filmyzilla-in.xyz,samaa-pro.com,earnme.club,myshrinker.com,adshort.*,seulink.online,encurta.eu,adurly.cc,linkjust.com,crazyblog.in,swzz.xyz,try2link.com,baominh.tech,bblink.com,za.uy,upshrink.com,link.turkdown.com,beingtek.com,insuranceblog.xyz,linkfly.*,link1s.com,enagato.com,dl.tech-story.net,123link.biz,go.gets4link.com,musicc.xyz,xfiles.io,upfiles.com,dz-linkk.com,cslink.in,shrink.icu,hoastie.com,tei.ai,exey.*,claimfreebits.com,zshort.io,jameeltips.us,payskip.org,shrinke.me,oncehelp.com,enrt.eu,tui.click,short.food-royal.com,galaxy-link.space,linkebr.com,smoner.com,charexempire.com,gplinks.co,adomainscan.com,linkshorts.*,cuts-url.com,gainbtc.click,modapk.link,gplinks.co,miklpro.com,sanoybonito.club,afly.pro,exe.app,adcorto.xyz,cuturl.in,apkshrt.com,droplink.co,linksfire.co,linksly.co,ilinks.in,bitfly.io,imagenesderopaparaperros.com,c-ut.com,shrinkme.in,fir3.net,link1s.net,clk.ink,apksvip.com,pkr.pw,stfly.me,bolssc.com,cutdl.xyz,shrinkurl.org,srt.leechpremium.link,tmearn.com,samapro.me,mondainai.moe,popimed.com,aii.sh,miuiku.com,slink.bid,7r6.com,iir.ai,biroads.com,win10.vn,mitly.us,tii.ai,linkrex.net,shorterall.com,fc.lc,shrinkme.io#%#//scriptlet("set-constant", "blurred", "false")
 vpn-anbieter-vergleich-test.de##.pupop-wrapper
 vpn-anbieter-vergleich-test.de##label[for="k8side__share"]
 vpnblade.net##.affcoups
