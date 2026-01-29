@@ -22,13 +22,7 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 - Python code runs on GitHub directly using GitHub Actions
     - Updates every 6 hours, every day
 
-## Testing v2
+## Recent News : 2026-01-29
 
-I'm currently testing **v2** that uses threading and many workers to speed up the Python script.
-
-Item | Improvement
----------|---------
-`create_list_v2.py` execution time | from 25 seconds to about 2.5 seconds
-total build and run time | from 30 seconds to about 19 seconds
-frequency of generation (hours) | 3 changed to 6
-GitHub Action | uses job caching to speed up runs
+- Fixed unreliable URLs and found alternative
+- Added major languages support : German, French, Korean etc
