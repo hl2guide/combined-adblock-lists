@@ -254,7 +254,7 @@ TESTING_URLS = [
     # Anti-Facebook List (OFFLINE)
     # "https://secure.fanboy.co.nz/fanboy-antifacebook.txt",
     # EasyPrivacy
-    "https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
+    #"https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
     # EasyList - Cookie Notices
     # f"{URL_PREFIX_EASYLIST}/easylist-cookies.txt",
     # EasyList - Social Widgets
@@ -267,10 +267,10 @@ TESTING_URLS = [
     #"https://ublockorigin.pages.dev/thirdparties/" +
     #"easylist-newsletters.txt",
     # EasyList - Notifications
-    f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
+    #f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
     #f"{URL_PREFIX_EASYLIST}/easylist-annoyances.txt",
-    "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
+    #"https://easylist-downloads.adblockplus.org/fanboy-social.txt",
     # AdBlockPlus Filterlists
     "https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt",
     "https://easylist-downloads.adblockplus.org/v3/full/fanboy-notifications.txt",
