@@ -264,8 +264,8 @@ TESTING_URLS = [
     "https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/" +
     "thirdparties/easylist-chat.txt",
     # EasyList - Newsletter Notices
-    "https://ublockorigin.pages.dev/thirdparties/" +
-    "easylist-newsletters.txt",
+    #"https://ublockorigin.pages.dev/thirdparties/" +
+    #"easylist-newsletters.txt",
     # EasyList - Notifications
     f"{URL_PREFIX_EASYLIST2}/easylist-notifications.txt",
     # EasyList - Annoyances
