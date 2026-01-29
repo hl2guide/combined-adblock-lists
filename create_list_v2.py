@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.9
-# Edited: 2026-01-27 06:24:28 +1100
+# Version 2.0.10
+# Edited: 2026-01-29 22:32:48 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -153,13 +153,32 @@ URL_PREFIX_1 = \
 
 # Testing list URLs
 TESTING_URLS = [
-    # EasyList - Testing (more reliable links)
-    "https://easylist.to/easylist/easylist.txt",
+    # EasyList - Testing (more reliable links : 29.01.2026)
+    # Mirror:
+    # https://github.com/thedoggybrad/easylist-mirror?tab=readme-ov-file#easylist-mirror-unofficial
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easyprivacy.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylist.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easycookie.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboyannoyance.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboysocial.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/antiadblock.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboy-sounds.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboy-newsletter.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboysocial.txt",
+    # EasyList - Countries (more reliable links : 29.01.2026)
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistgermany.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistitaly.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/liste_fr.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistchina.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/advblock.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistspanish.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/koreanlist.txt",
+    #"https://easylist.to/easylist/easylist.txt",
     # Fanboy Lists
-    "https://fanboy.co.nz/fanboy-cookiemonster.txt",
-    "https://fanboy.co.nz/fanboy-annoyance.txt",
-    "https://fanboy.co.nz/fanboy-antifacebook.txt",
-    "https://fanboy.co.nz/fanboy-agegate.txt",
+    #"https://fanboy.co.nz/fanboy-cookiemonster.txt",
+    #"https://fanboy.co.nz/fanboy-annoyance.txt",
+    #"https://fanboy.co.nz/fanboy-antifacebook.txt",
+    #"https://fanboy.co.nz/fanboy-agegate.txt",
     # Brave Filterlists: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
     f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
