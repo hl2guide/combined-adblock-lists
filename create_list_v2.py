@@ -309,6 +309,7 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 LINE.strip() and
                 # Skips lines that are allow rules or comments
                 not LINE.startswith("!") and
+                not LINE.startswith("! Search Results") and
                 not LINE.startswith("#") and
                 not LINE.startswith("%") and
                 not LINE.startswith("&") and
