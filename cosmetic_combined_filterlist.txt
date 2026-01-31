@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.01.31.1327+1100 AEST
-! Last modified: 2026.01.31.1327+1100 AEST
+! Version: 2026.01.31.1748+1100 AEST
+! Last modified: 2026.01.31.1748+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -136101,6 +136101,7 @@ redflix.club,redflix.co##+js(set-session-storage-item, adsDisabled, true)
 redfm.ru#?#div.news.grid_16 h3:-abp-has(span:-abp-contains(Реклама))
 redfm.ru#?#div.news.grid_16 h3:-abp-has(span:-abp-contains(Реклама)) ~ a[href][target="_blank"]
 redfm.ru#?#div.news.grid_16 h3:-abp-has(span:-abp-contains(Реклама)) ~ div[style="overflow: hidden;"]
+redgamingtech.com##.elementor-element-14393b0b
 redgifs.com##+js(json-prune, boosted_gifs)
 redgifs.com##+js(json-prune, gifs.[-].cta.link)
 redgifs.com##.InfoBar
