@@ -1,8 +1,8 @@
-name: Python Run - every 6 hours run a Python script and then commit to repo
+name: Python Run - every 5 hours run a Python script and then commit to repo
 
 on:
   schedule:
-  - cron: '0 */6 * * *' # Run every 6 hours, every day
+  - cron: '0 */5 * * *' # Run every 5 hours, every day
 
   workflow_dispatch:
 
@@ -60,4 +60,5 @@ jobs:
 # OLD:
 # python -m pip install --upgrade pip
 
-# Updated: 2026-01-16 01:16:47 +1100
+# Updated: 2026-02-01 11:55:18 +1100
+# - adjusted schedule to every 5 hours to account for GitHub delay.
