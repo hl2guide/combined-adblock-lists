@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.04.0240+1100 AEST
-! Last modified: 2026.02.04.0240+1100 AEST
+! Version: 2026.02.04.0727+1100 AEST
+! Last modified: 2026.02.04.0727+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1222,6 +1222,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .awstrack.me/$image
 .az/adv/$~xmlhttprequest
 .az/banner/
+.az/banners/$domain=marja.az|azvision.az|fins.az|olke.az|qafqazinfo.az|avtosfer.az|legend.az|abc.az
 .az/livechat/
 .az/reklamexport_
 .b-glife.ru^$script
@@ -4444,6 +4445,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /assets/_bnx/*_*xx.$image,domain=fmovies24.*|fmoviesz.*|bflix.to|watchseries.mx|hurawatch.*
 /assets/adblock_$domain=mageclash.io|monstermaster.io|grix.io
 /assets/ads/*$~image,domain=~outlook.live.com
+/assets/adv/*$domain=sia.az|axar.az
 /assets/banners/*$domain=vizcloud.*|mcloud.to|vizcloud2.*|vidstreamz.online|vedbex.com
 /assets/banners/600x100/*
 /assets/beacons.js
@@ -50112,6 +50114,8 @@ democracynow.org##.donate_banner
 democracynow.org##.home_daily_digest
 democracynow.org#%#//scriptlet('set-cookie', 'campaign_seen_today', 'true')
 demokraatti.fi##div[class^="Styles__InnerContainer-"] > .animated
+demokrat.az##div[style="margin: 15px 0 0 0;"] > a[target="_blank"] > img
+demokrat.az##div[style="position: relative;"] > a[target="_blank"] > img
 demokrata.hu##body .gdprBoxContainer:not(#style_important)
 demokratkocaeli.com,dts24.pl,playtech.ro##a[href^="https://news.google.com/search?"]
 demolandia.net##+js(aopr, document.oncontextmenu)
@@ -91094,6 +91098,8 @@ kaspersky.ru##a[href^="/downloads/premium-free-trial?"] > img
 kaspersky.ru##div[class^="ArticleBody_articleSidebar"] > div[class^="ArticleBody_articleSidebarBlock"]:has(> div[class^="ArticleBody_htmlBody"] div[class^="BitrixForm_formWrapper"])
 kaspersky.ru##div[class^="ArticleBody_conten"] > p > a[href^="/downloads/secure-connection-free-trial?"]
 kaspersky.ru##section[data-at-selector="cookie-banner"]
+kaspiy.az,kaspi.az##.bnr
+kaspiy.az,kaspi.az##.header-banner-block
 kassa.yandex.ru#@#.cookie-policy:not(body):not(html)
 kassel.de,offenbach.de,salzgitter.de,bonn.de,paderborn.de##.SP-ConsentBanner__spacer
 kassir.ru##.fixed.bottom-6
@@ -98733,6 +98739,7 @@ livarava.com##div:has(> div:empty:first-child + div[id^="ad-"]:last-child)
 livarava.com##div:has(> div[id^="ad-"]:only-child)
 livarava.com##div[id^="ad-"]
 live-adexchanger.pantheonsite.io##.subsciption
+live-cycling-tiz.stream,cyclingtiz.live,tiz-cycling.tv##+js(no-setTimeout-if, ins.adsbygoogle)
 live-events.a-jp.org##.sb-mobile
 live-nba.stream,veopartidos.net###overlay:remove()
 live-sport-tv.it##.rectangles
@@ -144237,7 +144244,10 @@ si.com,mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm
 si.com,mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8points9seconds.com,acceptthisrose.com,airalamo.com,allcougdup.com,allfortennessee.com,allstokedup.com,allucanheat.com,alongmainstreet.com,amazonadviser.com,animeaway.com,apptrigger.com,aroundthefoghorn.com,aroyalpain.com,arrowheadaddict.com,artofgears.com,askeverest.com,audiophix.com,autzenzoo.com,awaybackgone.com,awinninghabit.com,badgerofhonor.com,balldurham.com,bamahammer.com,bamsmackpow.com,bayernstrikes.com,bealestreetbears.com,beargoggleson.com,beaverbyte.com,behindthebuckpass.com,beyondtheflag.com,bigredlouie.com,birdswatcher.com,blackandteal.com,blackhawkup.com,blackoutdallas.com,bladesofteal.com,bleedinblue.com,bloggingdirty.com,blogoflegends.com,blogredmachine.com,bluelinestation.com,bluemanhoop.com,boltbeat.com,boltsbythebay.com,bosoxinjection.com,broadstreetbuzz.com,buffalowdown.com,bustingbrackets.com,bvbbuzz.com,calltothepen.com,caneswarning.com,cardiaccane.com,catcrave.com,causewaycrowd.com,champagneandshade.com,chopchat.com,chowderandchampions.com,cincyontheprowl.com,claireandjamie.com,claretvillans.com,climbingtalshill.com,clipperholics.com,cubbiescrib.com,culturess.com,dailyddt.com,dailyknicks.com,dairylandexpress.com,dawgpounddaily.com,dawindycity.com,dawnofthedawg.com,dearoldgold.com,deathvalleyvoice.com,detroitjockcity.com,devilsindetail.com,diredota.com,districtondeck.com,dodgersway.com,dogoday.com,dorksideoftheforce.com,dunkingwithwolves.com,ebonybird.com,editorinleaf.com,everythingbarca.com,everythingontap.com,eyesonisles.com,factoryofsadness.co,fantasycpr.com,fightinggobbler.com,flameforthought.com,flywareagle.com,foodsided.com,foreverfortnite.com,fourfourcrew.com,foxesofleicester.com,friarsonbase.com,garnetandcocky.com,gbmwolverine.com,geeksided.com,gigemgazette.com,glorycolorado.com,gmenhq.com,gojoebruin.com,goldengatesports.com,gonepuckwild.com,greenstreethammers.com,guiltyeats.com,hailfloridahail.com,hailwv.com,halohangout.com,hardwoodhoudini.com,hiddenremote.com,hookemheadlines.com,hoopshabit.com,hoosierstateofmind.com,horseshoeheroes.com,hotspurhq.com,houseofhouston.com,housethathankbuilt.com,howlinhockey.com,huskercorner.com,insideibrox.com,insidetheiggles.com,insidetheloudhouse.com,interheron.com,jaysjournal.com,jetswhiteout.com,justblogbaby.com,kardashiandish.com,kckingdom.com,keepingitheel.com,kingjamesgospel.com,kingsofkauffman.com,krakenchronicle.com,lakeshowlife.com,lasportshub.com,lastnighton.com,lawlessrepublic.com,lobandsmash.com,localpov.com,lombardiave.com,mancitysquare.com,marlinmaniac.com,maroonandwhitenation.com,milehighsticking.com,mlsmultiplex.com,motorcitybengals.com,musketfire.com,netflixlife.com,newcastletoons.com,nflmocks.com,nflspinzone.com,ninernoise.com,nolanwritin.com,northbankrsl.com,nothinbutnets.com,nugglove.com,octopusthrower.com,oilonwhyte.com,oldjuve.com,onechicagocenter.com,orangeintheoven.com,orlandomagicdaily.com,otowns11.com,paininthearsenal.com,pelicandebrief.com,penslabyrinth.com,phinphanatic.com,pippenainteasy.com,pistonpowered.com,playingfor90.com,pokespost.com,precincttv.com,predlines.com,predominantlyorange.com,princerupertstower.com,progolfnow.com,psgpost.com,puckettspond.com,puckprose.com,pucksandpitchforks.com,pucksofafeather.com,raisingzona.com,ramblinfan.com,ranchesandreins.com,raptorsrapture.com,rayscoloredglasses.com,razorbackers.com,redbirdrants.com,reddevilarmada.com,redshirtsalwaysdie.com,reignoftroy.com,releasetheknappen.com,reportingkc.com,reviewingthebrew.com,rhymejunkie.com,riggosrag.com,rinkroyalty.com,ripcityproject.com,risingapple.com,rubbingtherock.com,rumbunter.com,rushthekop.com,sabrenoise.com,saintsmarching.com,saturdayblitz.com,scarletandgame.com,section215.com,senshot.com,showsnob.com,sidelionreport.com,sircharlesincharge.com,skyscraperblues.com,slapthesign.com,soaringdownsouth.com,sodomojo.com,southboundanddown.com,southsideshowdown.com,spacecityscoop.com,spartanavenue.com,sportdfw.com,stairwayto11.com,starsandsticks.com,stillcurtain.com,stormininnorman.com,stormthepaint.com,stripehype.com,survivingtribal.com,swarmandsting.com,teaandbanter.com,tenntruth.com,terrapinstationmd.com,thatballsouttahere.com,thecanuckway.com,thecelticbhoys.com,thehuskyhaul.com,thejetpress.com,thejnotes.com,thelandryhat.com,theparentwatch.com,thepewterplank.com,theprideoflondon.com,therattrick.com,therealchamps.com,thesixersense.com,thesmokingcuban.com,thetimberlean.com,thetopflight.com,theviewfromavalon.com,thevikingage.com,throughthephog.com,thunderousintentions.com,tipofthetower.com,titansized.com,torontoreds.com,torotimes.com,tripsided.com,trumanstales.com,undeadwalking.com,underthelaces.com,unionandblue.com,valleyofthesuns.com,vegashockeyknight.com,venomstrikes.com,victorybellrings.com,vivaligamx.com,whodatdish.com,wildcatbluenation.com,winteriscoming.net,withthefirstpick.com,wizofawes.com,wreckemred.com,writingillini.com,dbltap.com,fansidedmma.com,poppicante.com,yanksgoyard.com,yellowjackedup.com,zonazealots.com##div[style^="margin-top:"] > figure:has(> div#mm-player-placeholder-smallAndMedium-screens)
 si.com,mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8points9seconds.com,acceptthisrose.com,airalamo.com,allcougdup.com,allfortennessee.com,allstokedup.com,allucanheat.com,alongmainstreet.com,amazonadviser.com,animeaway.com,apptrigger.com,aroundthefoghorn.com,aroyalpain.com,arrowheadaddict.com,artofgears.com,askeverest.com,audiophix.com,autzenzoo.com,awaybackgone.com,awinninghabit.com,badgerofhonor.com,balldurham.com,bamahammer.com,bamsmackpow.com,bayernstrikes.com,bealestreetbears.com,beargoggleson.com,beaverbyte.com,behindthebuckpass.com,beyondtheflag.com,bigredlouie.com,birdswatcher.com,blackandteal.com,blackhawkup.com,blackoutdallas.com,bladesofteal.com,bleedinblue.com,bloggingdirty.com,blogoflegends.com,blogredmachine.com,bluelinestation.com,bluemanhoop.com,boltbeat.com,boltsbythebay.com,bosoxinjection.com,broadstreetbuzz.com,buffalowdown.com,bustingbrackets.com,bvbbuzz.com,calltothepen.com,caneswarning.com,cardiaccane.com,catcrave.com,causewaycrowd.com,champagneandshade.com,chopchat.com,chowderandchampions.com,cincyontheprowl.com,claireandjamie.com,claretvillans.com,climbingtalshill.com,clipperholics.com,cubbiescrib.com,culturess.com,dailyddt.com,dailyknicks.com,dairylandexpress.com,dawgpounddaily.com,dawindycity.com,dawnofthedawg.com,dearoldgold.com,deathvalleyvoice.com,detroitjockcity.com,devilsindetail.com,diredota.com,districtondeck.com,dodgersway.com,dogoday.com,dorksideoftheforce.com,dunkingwithwolves.com,ebonybird.com,editorinleaf.com,everythingbarca.com,everythingontap.com,eyesonisles.com,factoryofsadness.co,fantasycpr.com,fightinggobbler.com,flameforthought.com,flywareagle.com,foodsided.com,foreverfortnite.com,fourfourcrew.com,foxesofleicester.com,friarsonbase.com,garnetandcocky.com,gbmwolverine.com,geeksided.com,gigemgazette.com,glorycolorado.com,gmenhq.com,gojoebruin.com,goldengatesports.com,gonepuckwild.com,greenstreethammers.com,guiltyeats.com,hailfloridahail.com,hailwv.com,halohangout.com,hardwoodhoudini.com,hiddenremote.com,hookemheadlines.com,hoopshabit.com,hoosierstateofmind.com,horseshoeheroes.com,hotspurhq.com,houseofhouston.com,housethathankbuilt.com,howlinhockey.com,huskercorner.com,insideibrox.com,insidetheiggles.com,insidetheloudhouse.com,interheron.com,jaysjournal.com,jetswhiteout.com,justblogbaby.com,kardashiandish.com,kckingdom.com,keepingitheel.com,kingjamesgospel.com,kingsofkauffman.com,krakenchronicle.com,lakeshowlife.com,lasportshub.com,lastnighton.com,lawlessrepublic.com,lobandsmash.com,localpov.com,lombardiave.com,mancitysquare.com,marlinmaniac.com,maroonandwhitenation.com,milehighsticking.com,mlsmultiplex.com,motorcitybengals.com,musketfire.com,netflixlife.com,newcastletoons.com,nflmocks.com,nflspinzone.com,ninernoise.com,nolanwritin.com,northbankrsl.com,nothinbutnets.com,nugglove.com,octopusthrower.com,oilonwhyte.com,oldjuve.com,onechicagocenter.com,orangeintheoven.com,orlandomagicdaily.com,otowns11.com,paininthearsenal.com,pelicandebrief.com,penslabyrinth.com,phinphanatic.com,pippenainteasy.com,pistonpowered.com,playingfor90.com,pokespost.com,precincttv.com,predlines.com,predominantlyorange.com,princerupertstower.com,progolfnow.com,psgpost.com,puckettspond.com,puckprose.com,pucksandpitchforks.com,pucksofafeather.com,raisingzona.com,ramblinfan.com,ranchesandreins.com,raptorsrapture.com,rayscoloredglasses.com,razorbackers.com,redbirdrants.com,reddevilarmada.com,redshirtsalwaysdie.com,reignoftroy.com,releasetheknappen.com,reportingkc.com,reviewingthebrew.com,rhymejunkie.com,riggosrag.com,rinkroyalty.com,ripcityproject.com,risingapple.com,rubbingtherock.com,rumbunter.com,rushthekop.com,sabrenoise.com,saintsmarching.com,saturdayblitz.com,scarletandgame.com,section215.com,senshot.com,showsnob.com,sidelionreport.com,sircharlesincharge.com,skyscraperblues.com,slapthesign.com,soaringdownsouth.com,sodomojo.com,southboundanddown.com,southsideshowdown.com,spacecityscoop.com,spartanavenue.com,sportdfw.com,stairwayto11.com,starsandsticks.com,stillcurtain.com,stormininnorman.com,stormthepaint.com,stripehype.com,survivingtribal.com,swarmandsting.com,teaandbanter.com,tenntruth.com,terrapinstationmd.com,thatballsouttahere.com,thecanuckway.com,thecelticbhoys.com,thehuskyhaul.com,thejetpress.com,thejnotes.com,thelandryhat.com,theparentwatch.com,thepewterplank.com,theprideoflondon.com,therattrick.com,therealchamps.com,thesixersense.com,thesmokingcuban.com,thetimberlean.com,thetopflight.com,theviewfromavalon.com,thevikingage.com,throughthephog.com,thunderousintentions.com,tipofthetower.com,titansized.com,torontoreds.com,torotimes.com,tripsided.com,trumanstales.com,undeadwalking.com,underthelaces.com,unionandblue.com,valleyofthesuns.com,vegashockeyknight.com,venomstrikes.com,victorybellrings.com,vivaligamx.com,whodatdish.com,wildcatbluenation.com,winteriscoming.net,withthefirstpick.com,wizofawes.com,wreckemred.com,writingillini.com,dbltap.com,fansidedmma.com,poppicante.com,yanksgoyard.com,yellowjackedup.com,zonazealots.com##main > figure:has(> div > div#mm-player-placeholder-smallAndMedium-screens)
 si.com,thestreet.com,athlonsports.com###customComponent-1
+sia.az##.fixed_iframe
 sia.az##.post-sharing > ul > li:not(:last-child)
+sia.az##.temporary-ads
+sia.az##div[style="height: 90px;"]
 sia.ru###right-rand-1
 sia.ru###right_fixed_block
 sia.ru##[id*="banana"]
@@ -150317,8 +150327,6 @@ steamcn.com##div[class*="liz_"]
 steamcollector.com##+js(acs, document.querySelectorAll, adblock)
 steamcollector.com##.abg-card
 steamcollector.com#%#//scriptlet('abort-current-inline-script', 'getComputedStyle', 'adsbygoogle')
-steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?u=http"], ?u)
-steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
 steamcommunity.com##.tool-tip-source:has(> a[href^="https://steamcommunity.com/"][href*="/announcements/share/"])
 steamcommunity.com##div[class^="partnereventshared_Button"]:has(> span[class]:contains(Поделиться))
 steamcommunity.com,store.steampowered.com###cookiePrefPopup
@@ -160472,7 +160480,6 @@ tivustream.com##[href^="https://privadovpn.com/#a_aid="] > img
 tivustream.com##[href^="https://zoogvpn.com/?a_aid="] > img
 tiz-cycling-live.io###msg
 tiz-cycling-live.io##+js(acs, $, blocker)
-tiz-cycling-live.io##+js(no-setTimeout-if, ins.adsbygoogle)
 tiz-cycling.*##+js(acs, jQuery, blocker)
 tiz-cycling.live###msg-sticky-wrapper
 tjapan.jp##.fixed_banner
@@ -177332,10 +177339,7 @@ x.com##div[data-testid="super-upsell-UpsellCardRenderProperties"]
 x.com##header[role="banner"] > ._3oxnid3o._3f2NsD-H
 x.com##main > div[class] > div[class] > div[style^="background-color:"]:has(> a[href^="https://apps.apple.com/app/"])
 x.com#$#div[role="group"] > div[data-testid="mask"] + div:has(a[download]) { display: none !important; }
-x.com#$#div[role="group"] > div[data-testid="mask"] { display: none !important; }
-x.com#$#div[role="group"] > div[style]:not([class]):has(> div[class] > div[class] > a[href^="https://apps.apple.com/app/apple-store/"]) { display: none !important; }
 x.com#$#div[role="group"]:has(> div[data-testid="mask"] + div:last-child a[download]) { display: none !important; }
-x.com#$#html[style] { overflow: auto !important; position: static !important; }
 x.com#%#//scriptlet('trusted-click-element', 'div[aria-labelledby="modal-header"] .css-175oi2r ~ .css-175oi2r > button[role="button"][class^="css-175oi2r"][style*="border-color: rgb"]', '', '1500')
 x.com#%#//scriptlet('trusted-set-cookie', 'd_prefs', 'MToxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw')
 x.com,communitynotes.twitter.com#?##main > div[class^="sc-"] > div[class^="src__InlineCalloutElement"]
