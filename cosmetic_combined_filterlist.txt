@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.03.0231+1100 AEST
-! Last modified: 2026.02.03.0231+1100 AEST
+! Version: 2026.02.03.1218+1100 AEST
+! Last modified: 2026.02.03.1218+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -15437,6 +15437,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 5pillarsuk.com,raya.com##.wpcf7
 5play.*##+js(nano-sib, countdown, *)
 5play.app#%#//scriptlet('adjust-setInterval', 'counter', '*', '0.001')
+5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.pro,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,filespayout.com,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
+5play.app,streamup.ws,vinovo.to,englismovies.pro##+js(abort-current-script, document.addEventListener, window.open)
 5play.ru##a[href="https://t.me/android_5play"]
 5play.ru#$#.counter { display: none !important; }
 5play.ru#$#.page-cdn-notimer { display: none !important; }
@@ -18554,7 +18556,7 @@ adibudi.com##div.buttons
 adic.or.kr###banner
 adic.or.kr###box_3
 adictox.com##+js(aopr, popns)
-adidas.*##+js(trusted-click-element, button[data-auto-id="glass-gdpr-default-consent-reject-button"], , 1000)
+adidas.*##+js(trusted-click-element, button[data-auto-id="glass-gdpr-default-consent-reject-button-central"], '', 1000)
 adidas.*#%#//scriptlet('trusted-click-element', '#glass-gdpr-default-consent-accept-button')
 adidas.*#%#//scriptlet('trusted-click-element', 'button.affirm')
 adidas.ae,adidas.co.za,adidas.com,adidas.com.eg,campchef.com,federalpremium.com,homebyames.com,hoptimist.com,kusmitea.com,lee.com,leifheit.dk,silmaasema.fi,speer.com##.veil
@@ -32805,7 +32807,6 @@ binged.*##+js(nowoif)
 bingen-ruedesheimer.de#@##cookieConsent
 bingespree.net##+js(abort-current-script, document.write, atob)
 bingespree.net#$#abort-current-inline-script document.write atob
-bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.pro,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,filespayout.com,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
 bingoal.be###tocmask
@@ -68838,7 +68839,6 @@ funclub.pl#%#//scriptlet('trusted-set-local-storage-item', 'EUConsents', '{"ad_s
 functions-online.com##.box_wide
 funda.nl##button[title="Delen"]
 funda.nl##section > div.text-center:has(> form[name="newsletter-subscription"])
-funda.nl,jpost.com,teletype.in##button[title="Share"]
 fundacaotidesetubal.org.br,stanley-pmi.com.br##.lgpd-modal
 fundacionlacaixa.org###contenedor_newsletter-sticky
 fundacja.santander.pl##.awb-show
@@ -71863,6 +71863,7 @@ geomap.com.ua##.video-row
 geomap.com.ua##a[href*="monobank.ua/"]
 geometrygames.io##.ads-970x250
 geometrygames.io,jagranjosh.com##.Ads
+geomind.atlassian.net##[jsm-cookie-consent-banner-wrapper]
 geonavigator.ge,navigator.az##[class^="brand"]
 geonavigator.ge,navigator.az##[id^="bg_banner_link"]
 geonavigator.ge,navigator.az##a[href^="/banner.php"]
@@ -80455,6 +80456,7 @@ horki.info##.group-share
 horki.info##.region-inner > div.block:has(> div.block-inner td > a[href="https://t.me/horki_info"])
 horloge.nl,orologio.it,relogios.pt,watch.co.uk##.bg-green-200
 hornbach.cz,hornbach.se,hornbach.sk,schaeffler.de,bmw-motorrad.co.uk,bonus4me.7pass.de,deutschepost.de,hornbach.de,hornbach.nl,telekom.com##.cookielayer
+hornbach.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-accept-button')
 hornbach.ro,emma-matratze.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-deny-button')
 hornetapp.com,hornet.com##.app-download-cta
 hornetapp.com,hornet.com##.conversation-item--sponsored
@@ -85641,8 +85643,6 @@ instagram.com##+js(trusted-click-element, button._a9_1, , 1000)
 instagram.com##.HoverCard
 instagram.com##._aagw:empty
 instagram.com##._acc8
-instagram.com##._he402
-instagram.com##.lOPC8
 instagram.com##.x1t2pt76 > div.html-div:has(> div[tabindex="-1"] > div.x1iyjqo2 div.xjbqb8w > a[href*="play.google.com"])
 instagram.com##.x1t2pt76 > div.html-div:has(> div[tabindex="-1"] > div.x1iyjqo2 div.xjbqb8w > a[href^="https://applink.instagram.com/"])
 instagram.com##.xZ2Xk:has-text(/App/)
@@ -96014,7 +96014,7 @@ lawnewz.com###LawNewz_Mobile_MedRec_2
 lawnewz.com###featured-posts-wrap
 lawnewz.com###lnn-promo
 lawnewz.com###post-nav
-lawnmowertirestore.com,geekom.de,steelseries.com,secretlab.eu,cross.com,flip.gr,hoffmann-germany.de,centrumzdrowegowlosa.pl,groworganic.com,urnex.com,hermanmiller.co.jp,audeze.com,shopyalehome.com,hanfgefluester.de,bleachpraylove.com,720dgree.de,vpd.fi##.needsclick
+lawnmowertirestore.com,geekom.de,secretlab.eu,cross.com,flip.gr,hoffmann-germany.de,centrumzdrowegowlosa.pl,groworganic.com,urnex.com,hermanmiller.co.jp,audeze.com,shopyalehome.com,hanfgefluester.de,bleachpraylove.com,720dgree.de,vpd.fi##.needsclick
 lawrato.com###chat-box
 lawrato.com##.popup-graybox
 lawrievetgroup.co.uk###js-consent-wrapper
@@ -101929,6 +101929,7 @@ m.yelp.com##div[data-testid="smart-banner-pitch-app-gif"]
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"])
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"]) + li[class]
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[data-testid^="themed-ad-"])
+m.yelp.com##ol > li:has(> div[data-testid="themed-ad-top-divider"])
 m.yelp.com##section[data-testid="BottomAdStandard"]
 m.yelp.com##section[data-testid="TopAdStandard"]
 m.yelp.com#$#div[class*="search-container__"] > div[class^="overlay-color-cohort__"]:has(> div > img[alt="Install the Yelp app"]) { display: none; }
@@ -136369,6 +136370,7 @@ regard.ru##div[class^="CookieBannerPopover"]
 regard.ru##div[class^="ProductShareBlock_wrap"]
 regberry.ru###feedburner_form
 regenauer.press,emakin.com,blankensee.de,itw-swiss.ch,limakhotels.com,taliun.com,globaltvapp.net,ntgreekguy.com,ikbalthermal.com,sitemodify.com,wmespeakers.com###d-notification-bar
+regensburg-digital.de##.uk-panel-box:has(.uk-badge-warning)
 regensburg-digital.de##.wk-slideshow
 regensburgjobs.de##.CookieInfo
 regenwald-schuetzen.org#$##q4u_cc { display: none !important; }
@@ -150348,6 +150350,7 @@ steelorbis.com###cookiePolicyDivId
 steelorbis.com,myinstants.com##a[onclick^="share"]
 steelseries.com##.flex-1 > div[aria-label="Footer newsletter email form"]
 steelseries.com##.newsletter-signup__column
+steelseries.com##body > sleeknote-vt8rv6-top.needsclick
 steelseries.com,tvtonight.com.au,esate.ru##.share-sidebar
 steelsports.ru##a[href^="http://steelsports.ru/bannerbro"]
 steemit.com##.ad-carousel
@@ -151149,7 +151152,6 @@ streamup.ws##+js(set, detectSandbox, noopFunc)
 streamup.ws,strmup.*##+js(abort-current-script, EventTarget.prototype.addEventListener, /blocker|detected/)
 streamup.ws,strmup.*##+js(prevent-fetch, googima.js)
 streamup.ws,strmup.*##+js(remove-node-text, script, AdBlock)
-streamup.ws,vinovo.to,englismovies.pro##+js(abort-current-script, document.addEventListener, window.open)
 streamvid.cc,freexcafe.com,freac.org,journaldemontreal.com,securityweek.com,educaplay.com,cloudplayer.online,goldenbbw.com,streamvid.co,eatcells.com,vidload.co###banner
 streamvid.net##+js(aeld, contextmenu)
 streamvid.net##+js(nano-stb, , , 0.02)
@@ -152198,6 +152200,7 @@ supertabak.ru##body > div[id^="jBox"]
 supertaste.tvbs.com.tw##div[class^="community_box"]
 supertelevisionhd.com##+js(aopr, AaDetector)
 supertennis.tv##.widget-banner-container
+supertext.com#%#//scriptlet('trusted-set-local-storage-item', 'tracking_consent', '{"necessary":true,"analytics":false,"advertising":false,"personalization":false}')
 supertoinette.com#$##top { margin-top: 0 !important; }
 supertoinette.com#$#.lmp_banner { display: none !important; }
 supertoinette.com#$#abort-on-property-read setInterval
@@ -170978,6 +170981,8 @@ voltupload.com##+js(nano-stb, download, 1000, 0.001)
 voltupload.com##.downloadLink
 voltus.de###c4sCookieOneClickModal
 volumo.com##.shared_container__OZnf_
+volumo.com##div[class^="_app_"] > div[class^="PopupBaseInternal_root__"]:has(> div[role="dialog"] div[class*="CookieVolumoPopup_"])
+volumo.com,funda.nl,jpost.com,teletype.in##button[title="Share"]
 volunteer.redcross.org.uk#$##cookie-settings-popup { display: none !important; }
 volunteer.redcross.org.uk#$#.assemble-cookie-settings-modal-opacity { display: none !important; }
 volunteer.redcross.org.uk#$#body { overflow: auto !important; padding-right: 0 !important; }
