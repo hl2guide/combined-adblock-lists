@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.03.2131+1100 AEST
-! Last modified: 2026.02.03.2131+1100 AEST
+! Version: 2026.02.04.0240+1100 AEST
+! Last modified: 2026.02.04.0240+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1033,6 +1033,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Felink.thedailybeast.com%2F$image
 *%2Fendeavor.omeclk.com%2Fportal%2Fwts%2F%2A.gif$image
 *%2Flink.koyeb.com%2Fe%2F$image
+*%2Fmessaging-callback-api.msg.traveloka.com%2Fo%3F$image
 *%2Fplatform-collector.viki.com%2Femail%2F$image
 *%2Ftracking.logistics.post.ch%2Fq%2F$image
 *%2Ftracking.mail.shopee.$image
@@ -2228,6 +2229,10 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .warehousefashion.com/warehouse/e/$image
 .warfiles.ru^$script,domain=warfiles.ru
 .wasabisys.com/adsjf/
+.washingtonpost.com%2Fq%2F$image
+.washingtonpost.com%2Fs%2F$image
+.washingtonpost.com/q/$image
+.washingtonpost.com/s/$image
 .wasm|$third-party,xmlhttprequest,domain=amt-games.com|~dj19uo012yu4h.cloudfront.net|~lite.boxshot.com|~rbwtech.net
 .wattpad.com%2Fet%3F$image
 .wattpad.com/et?$image
@@ -8218,6 +8223,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /mendelstats.js
 /merrx01/^$doc
 /merrx01/^$document
+/messaging-callback-api.msg.traveloka.com/o?$image
 /messaging.js$~third-party,domain=macwelt.de|pcwelt.de
 /messagingNoTcfApi.js
 /metatraffic/track.asp?
@@ -14791,7 +14797,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 3xyaoi.com##+js(acs, document.oncontextmenu)
 3xyaoi.com##+js(aeld, contextmenu, preventDefault)
 3xyaoi.com##.body-wrap > .site-content + div[id][class*=" "]
-3xyaoi.com,movies2watch.tv,livesporthub.shop,dstelemundo.site,bulksportsstores.top,yeahstreams.com,goalstreamer.shop,alphastreams.online,buffztreamz.shop,surfg.org,rippleplay.shop,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz,seeflix.to,vidfast.pro,deportes.ksdjugfsddeports.com,m1xdrop.net,mixdrop23.net,vipbox.lc,omuzaani.me,mdy48tn97.com,embedtv.net,dlhd.*,capo6play.com,zorroplay.xyz,luluvdoo.com,vecloud.eu,cordneutral.net,thedaddy.*,fnjplay.xyz,yoxplay.xyz,streamlord.com,giize.com,viprow.nu,dopebox.to,zonatmo.com,sportshub.stream##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 3yan.cn##img[style*="300px"]
 3ys.ru,libsib.ru,mydocx.ru,studopedia.su##a[href*="a24help.ru"]
 4-4-2.com#@#amp-consent
@@ -46804,6 +46809,7 @@ crossword-solver.io###crossword-solver-io_leaderboard_atf
 crossword-solver.io###crossword-solver-io_right_rail
 crossword-solver.io##div[id^="crossword-solver-io_incontent_"]
 crosswordclub.com##.crw-leaderboard-desktop-adblock
+crosswordsolver.com##.renamed-container
 crosswordsolver.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 crosswordsolver.com#$#override-property-read window.navigator.connection.rtt 1001
 crosswordsolver.org##+js(adjust-setInterval, game will, , 0.02)
@@ -52102,6 +52108,7 @@ discussingfilm.net##html:style(overflow: auto !important;)
 discussingfilm.net,douglasnow.com,energy-reporters.com##.post-share-bot
 discussingfilm.net,douglasnow.com,energy-reporters.com,rockstarintel.com,trustedreviews.com,watchinamerica.com##.post-share-float
 discussingfilm.net,goonhammer.com,joemygod.com,missionlocal.org,ryxy.online,shtfplan.com,thestrongtraveller.com,topcartoons.tv,usmagazine.com,wiki-topia.com##.widget_block
+discussingsecurity.com,forums.thefashionspot.com,germancarforum.com##.bottomFixer > div.Notices
 discussion.evernote.com,prestashop.com##.cTopicPostArea:has(.cGuestTeaser)
 discussions.apple.com##.welcome-notification
 discussions.apple.com##[data-action="welcome-toast"]
@@ -60345,9 +60352,6 @@ evaki.fun,sportshub.to,sportnews.to###adblock-overlay
 evaki.fun,sportshub.to,sportnews.to##+js(abort-current-script, document.getElementsByTagName, $$$)
 evaki.fun,sportshub.to,sportnews.to##+js(prevent-fetch, adsbygoogle.js)
 evaki.fun,sportshub.to,sportnews.to##+js(trusted-suppress-native-method, DOMTokenList.prototype.add, '"-"')
-evaki.fun,sportshub.to,sportnews.to##body > *:style(filter: none !important;)
-evaki.fun,sportshub.to,sportnews.to##body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]):style(display: none !important;)
-evaki.fun,sportshub.to,sportnews.to##body > div[class*=" active"][style]:style(display: none !important;)
 evaki.fun,sportshub.to,sportnews.to##body > div[id]:has(> .keep-lightbox)
 evaki.fun,sportshub.to,sportnews.to##body > div[style*="position: fixed; top:"][style*="z-index:"]
 evamagazin.hu##.articleFacebookShare
@@ -66994,7 +66998,6 @@ forums.sumy.ua##.Notices.PanelScroller
 forums.techguy.org##.Notice
 forums.techguy.org##.messageList > li.message[id^="post-"]+li.message:not([id^="post-"])
 forums.techguy.org##div[style="text-align:center;"] > div[style="font-size:80%;"]
-forums.thefashionspot.com,germancarforum.com##.bottomFixer >div.Notices
 forums.tomsguide.com###video_ad
 forums.tomsguide.com##+js(trusted-set-cookie, euconsent-v2, CP20-YAP20-YAAKAyBENAfEgAAAAAAAAAAwIAAAI8gBAGfAR4AAA.YAAAAAAAAAAA, 1year)
 forums.tomsguide.com##+js(trusted-set-local-storage-item, _cmpRepromptHash, CP20-YAP20-YAAKAyBENAfEgAAAAAAAAAAwIAAAI8gBAGfAR4AAA.YAAAAAAAAAAA.1.l4yppBwRRyXiPrnFNrkJzQ==.P21TmRP21TmRAKAaAB4AAAAA)
@@ -79432,7 +79435,6 @@ hindinut.com##iframe[data-src^="//ws-in.amazon-adsystem.com/"]
 hindipix.*##+js(set, console.clear, trueFunc)
 hindipix.*##+js(set, console.debug, trueFunc)
 hindishouter.com##.inside-right-sidebar
-hindivigyan.in,rxbabu.com,linkza.one,bgmi64bitapk.com,unirajuniversity.com,tapmobiles.com,sharclub.in,hosting.ffindia.in,uploadhub.dad,v.thetch.in,india.kitg.co.in,quizrent.com,reportmarathi.in,newsguides.in,gujaratcareerhub.in,rajssoid.online,importantclass.com,thevouz.in,smartfityoga.com,mangareleasedate.com###AdbModel
 hindustantimes.com###affiliate-shop-now
 hindustantimes.com###divTopNews:empty
 hindustantimes.com###divshopnowRight
@@ -98324,6 +98326,9 @@ linkjust.com##.banner-inner
 linkjust.com#@#.banner-728x90
 linkjust1.com#%#//scriptlet("adjust-setInterval", "#mdtimer", "", "0.02")
 linklelo.in###ckWrap
+linklelo.in###notif-widget
+linklelo.in##.ug-ad-wrapper
+linklelo.in,hindivigyan.in,rxbabu.com,linkza.one,bgmi64bitapk.com,unirajuniversity.com,tapmobiles.com,sharclub.in,hosting.ffindia.in,uploadhub.dad,v.thetch.in,india.kitg.co.in,quizrent.com,reportmarathi.in,newsguides.in,gujaratcareerhub.in,rajssoid.online,importantclass.com,thevouz.in,smartfityoga.com,mangareleasedate.com###AdbModel
 linklog.tiagorangel.com##+js(set, data, true)
 linkmate.xyz##+js(aeld, , key)
 linkneverdie.com###adquangcao:style(position: absolute!important; left: -3000px!important;)
@@ -110163,7 +110168,6 @@ motherless.com###_mlabd
 motherless.com###advertisement-above-footer
 motherless.com###advertisement-below-menu
 motherless.com###topsites
-motherless.com##+js(abort-current-script, jQuery, /secondPop|snspAdManager/)
 motherless.com##+js(acs, jQuery, cookie)
 motherless.com##+js(set, _ml_ads_ns, null)
 motherless.com##+js(set-constant, _ml_ads_ns, null)
@@ -112551,6 +112555,7 @@ myflixer.to###site-notice
 myflixer.to,myflixertv.to###site-notice
 myflixertv.to###site-notice
 myflixerz.to##a[href="https://pcnema.to"]
+myflixerz.to,3xyaoi.com,movies2watch.tv,livesporthub.shop,dstelemundo.site,bulksportsstores.top,yeahstreams.com,goalstreamer.shop,alphastreams.online,buffztreamz.shop,surfg.org,rippleplay.shop,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz,seeflix.to,vidfast.pro,deportes.ksdjugfsddeports.com,m1xdrop.net,mixdrop23.net,vipbox.lc,omuzaani.me,mdy48tn97.com,embedtv.net,dlhd.*,capo6play.com,zorroplay.xyz,luluvdoo.com,vecloud.eu,cordneutral.net,thedaddy.*,fnjplay.xyz,yoxplay.xyz,streamlord.com,giize.com,viprow.nu,dopebox.to,zonatmo.com,sportshub.stream##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 myflixerz.to,hdtodayz.to,moviesjoy.is##div:is([id$="top"], [id$="middle"]) > a[target="_blank"] > img
 myflixerz.to,putlocker.pe,theflixertv.to##+js(nosiif, _0x)
 myfont.de###toplists
@@ -113706,6 +113711,9 @@ nasdaq.com##div[class$="-social-links"]
 nasdaq.com##div[class*="marketo-form"]
 nasdaqfutures.org##+js(no-xhr-if, static.doubleclick.net/instream/ad_status.js)
 nasdaqfutures.org##+js(prevent-fetch, static.doubleclick.net/instream/ad_status.js)
+nasdaqfutures.org,evaki.fun,sportshub.to,sportnews.to##body > *:style(filter: none !important;)
+nasdaqfutures.org,evaki.fun,sportshub.to,sportnews.to##body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]):style(display: none !important;)
+nasdaqfutures.org,evaki.fun,sportshub.to,sportnews.to##body > div[class*=" active"][style]:style(display: none !important;)
 nasepenize.cz###side-offer-wrap
 nasepenize.cz##a[target="_blank"][class="tracked-event"]>img:only-child
 nasepenize.cz#?#:-abp-has(>[class$="selfpromo"])
@@ -114522,6 +114530,7 @@ neftegaz.ru##.rule-cookie
 neftegaz.ru##a[class^="promo_site"]
 neftm.ru,dmarge.com,doctorslon.ru##.popup-subscribe
 neftm.ru,sm-stomatology.ru##.cookies-agree
+neftvodka.com##div.--framer-cookie-banner-container
 neg.by##.article-menu__share
 neg.by##.banner-search-system
 neg.by##.banners > div.side-neg-rek-wrap
@@ -121865,6 +121874,7 @@ op.gg##.min-h-\[50px\]
 op.gg##.min-h-\[66px\]
 op.gg##.mode-header-container ~ div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##.premium-banner
+op.gg##.w-full > div.items-center:has(> a[href^="https://itunes.apple.com/"])
 op.gg##.w-full > section.bg-gray-0.md\:overflow-hidden.md\:rounded.flex-col.p-2.w-full
 op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##.w-full:has(> div.flex > div[data-ad])
@@ -127249,6 +127259,7 @@ planetsuzy.org##+js(acs, jQuery, ready)
 planetsuzy.org##+js(no-window-open-if)
 planetsuzy.org##+js(set, __ads, true)
 planetsuzy.org##div[style]:has(> script[src*="ads.exoclick.com/"])
+planetsuzy.org,motherless.com##+js(abort-current-script, jQuery, /secondPop|snspAdManager/)
 planetware.com##.mediavine-sidebar-atf-target
 planetx.co.uk#$#body { overflow: auto !important; padding-right: 0 !important; }
 planetx.co.uk#$?#body > div:has(> div.needsclick > div[role="dialog"]  span:contains(deals delivered to your inbox.)) { display: none !important; }
@@ -156582,7 +156593,6 @@ theatlantic.com##div[class^="HomepageMiddle_newsletters"]
 theatlantic.com##div[class^="LostInventoryMessage_clsAvoider__"]
 theatlantic.com##div[class^="LostInventoryMessage_root__"]
 theatlantic.com##div[class^="SubOnlyPromo"]
-theatlantic.com##div[data-zephr-sdk-feature-slug]
 theatlantic.com##nav#action-bar
 theatlantic.com##p.ArticleParagraph_root__4mszW > small:has-text(Sign up)
 theatlantic.com##section[class^="ArticleBody_"] > p[class^="ArticleParagraph_"]:has(> small > a[href^="https://www.theatlantic.com/newsletters/"])
