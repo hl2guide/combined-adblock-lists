@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.07.1635+1100 AEST
-! Last modified: 2026.02.07.1635+1100 AEST
+! Version: 2026.02.07.2117+1100 AEST
+! Last modified: 2026.02.07.2117+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1023,6 +1023,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$xhr,redirect=noop.txt,from=tunein.com,to=event.platform.tunein.com
 *$xhr,removeparam=ad_config_id,domain=telequebec.tv
 *$xhr,script,redirect-rule=empty,domain=4khd.com
+*%2Fapi.controld.com%2Fpixel%2F$image
 *%2Fbabia.to%2Fb%2Fimage.gif$image
 *%2Fcampaign%2F*%2Fpx.png$image
 *%2Fcampaigns.blip.net%2Ft%2F$image
@@ -1038,6 +1039,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fhello.heroku.com%2Fr%2F*%2Fopen%2F$image
 *%2Flink.koyeb.com%2Fe%2F$image
 *%2Flinks.mail.vistaprint.com%2Fs%2F$image
+*%2Flinks1*%2Fq%2F$image
 *%2Fmessaging-callback-api.msg.traveloka.com%2Fo%3F$image
 *%2Fplatform-collector.viki.com%2Femail%2F$image
 *%2Fpost.spmailtechnolo.com%2Fq%2F$image
@@ -1898,6 +1900,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .ofigeno.ru^$script
 .okp*ai.com/$script,xmlhttprequest,third-party
 .omsi2mods.ru^$script,domain=omsi2mods.ru
+.ondemandmsg.sbs.com.au%2Fr%2F$image
+.ondemandmsg.sbs.com.au/r/$image
 .one/?h=*&user=$script,3p
 .onepixshare.ru^$script
 .online.costco.com/t?$image
@@ -2083,6 +2087,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .sendibm1.com/mk/
 .sendibt2.com/tr/op/$image
 .sendibt3.com/tr/op/$image
+.sendpul.se%3A*%2Fimage%2Fui%2F$image
+.sendpul.se:*/image/ui/$image
 .serial.wiki^$script,domain=serial.wiki
 .serialrussian.ru^$script,domain=serialrussian.ru
 .serialszoom.net^$script,domain=serialszoom.net
@@ -4259,6 +4265,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /analyticstracking.js
 /analyticstrain.min.js
 /anametrix/cas.js
+/anbaplashka.jpg$domain=sportcast.online
 /ancensored.com\/js\/[-_a-zA-Z0-9]{12,}.js/$domain=ancensored.com
 /anclytic-ajax.html
 /anclytic.htm
@@ -4289,6 +4296,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /api-insights/log?
 /api.*/ads?
 /api.ads.$script,domain=~ads.instacart.com|~www.ads.com
+/api.controld.com/pixel/*$image
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /api/*/ads-banners$domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
 /api/*/ainfo/*$domain=igromania.ru|kanobu.ru
@@ -7966,6 +7974,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /linkpulse.js
 /links.gitlab.com/s/eo/*$image
 /links/popad$popup
+/links1.*/q/*$image
 /links1.strava.com/*$image
 /linktrack.js
 /linktracker.js
@@ -12986,7 +12995,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##div[class^="style_xsOnly_"]
 13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##div[data-testid="story-body"] > div[style*="text-align: center;"][style*="margin: 26px 0;"]
 14-tage-wettervorhersage.de##.clearit_s
-14000.cz,aitum.tv,aktivia.it,andromede-cms.com,anker-in.com,anker.com,any.run,art.org,bienpreter.com,billing.coned.com,bistrono.cz,boldem.cz,bytesauna.com,caesium.app,capriz.it,century21.pt,ckdtrialfinder.natera.com,codesandbox.io,cointracker.io,corporate.freedompay.com,cortinabikes.com,crealitycloud.com,ctbids.com,dashboard.phishfort.com,datawrapper.de,derslig.com,dervit.cz,edb.cz,edb.eu,eufy.com,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,futnext.com,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,happyscribe.com,hellochefs.es,home.s.id,investor.natera.com,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,localizely.com,loetje.nl,lottiefiles.com,lustery.com,mealsyoulove.com,modeliukai.lt,mostostal.waw.pl,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,renderai.app,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,uxpilot.ai,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,wooting.io,wordwall.net,workwithus.pinpointhq.com,yeezy.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
+14000.cz,aitum.tv,aktivia.it,andromede-cms.com,anker-in.com,anker.com,any.run,art.org,bienpreter.com,billing.coned.com,bistrono.cz,boldem.cz,bytesauna.com,caesium.app,capriz.it,century21.pt,ckdtrialfinder.natera.com,codesandbox.io,cointracker.io,corporate.freedompay.com,cortinabikes.com,crealitycloud.com,ctbids.com,dashboard.phishfort.com,datawrapper.de,derslig.com,dervit.cz,edb.cz,edb.eu,eufy.com,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,futnext.com,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,happyscribe.com,hellochefs.es,home.s.id,investor.natera.com,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,localizely.com,loetje.nl,lottiefiles.com,lustery.com,mealsyoulove.com,modeliukai.lt,mostostal.waw.pl,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,polytoria.com,poptavka.net,primocanale.it,renderai.app,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,uxpilot.ai,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,wooting.io,wordwall.net,workwithus.pinpointhq.com,yeezy.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 141jj.com##.category-wrapper > ul > div[style="line-height:24px;"] > a
@@ -22166,6 +22175,7 @@ amd.by,tele2.de,primoza.de,deine-tierwelt.de,cashconverters.be,bauermedia.co.uk,
 amd.com###block-addthis
 amd.com###slidebox
 amd.com##.PPLightBox
+amd.online##.mfp-hide
 amdm.ru,amuzic.ru,astromeridian.ru,centr-molodosti.ru,demotivation.me,documentalnye.ru,e-libra.ru,elek.club,filebase.ws,gameru.net,gossebanmen.ru,hi-fi.ru,igrigo.net,kazakh-zerno.net,miytvideo.ru,nowfilms.ru,oterraria.ru,peterburg2.ru,repost.uz,rogoff.club,rutab.net,sexytal.com,story-house.ru,telegraf.in.ua,vorle.ru,womo.ua##body > noindex
 ameba.jp##.FooterAmeba_AmebaApp
 ameba.jp##.TopAppBanner
@@ -22222,7 +22232,6 @@ ameblo.jp#$?#.skinBody2.skinTextColor > div[class^="_"][role="navigation"] { top
 ameblo.jp#?##app aside[class^="_"]:has(> a[href^="https://auth.user.ameba.jp/signup"])
 ameblo.jp#?#aside[class^="_"] > a[class^="_"][href$="app-download-upper"]:upward(1)
 ameblo.jp,kakakumag.com###_popIn_recommend
-amedia.online##.mfp-hide
 amedia.online##.telegr
 amedia.site#%#//scriptlet('set-cookie', 'visit', 'true')
 amediateka.ru##div[class^="CookieAgreement_"]
@@ -29476,6 +29485,7 @@ baku.ws##.row > div.d-lg-block:has(> div.cat-left-bnr)
 baku.ws##.side-bnr
 baku.ws##.social-media-banner
 baku365.com##.ipsSpacer_both:empty
+bakues.az##a[href="https://bakues.az"] > img[src^="https://20nws.upturnlab.com/"]
 bakufu.jp###blogRoll
 bakufu.jp##.adList
 bakufu.jp##.entry-content > table[width="100%"]
@@ -42933,7 +42943,7 @@ cloudhostingz.com,sharedwebs.com,fitnessplanss.com#%#//scriptlet('adjust-setInte
 cloudhostingz.com,sharedwebs.com,fitnessplanss.com#%#//scriptlet('adjust-setTimeout', 'nextpage', '*', '0.001')
 cloudme.one#@#.ad-button
 cloudnestra.com,seeflix.*,stellarthread.com#$#abort-on-property-read aclib
-cloudnetworks.ru,flapler.com,korsars.pro,mods-game.net,mywebpc.ru,rufonts.ru,soft-portal.club,vc.ru##a[href*="clck.ru"]
+cloudnetworks.ru,flapler.com,korsars.pro,mods-game.net,mywebpc.ru,rufonts.ru,soft-portal.club,sportcast.online,vc.ru##a[href*="clck.ru"]
 cloudpaten.pro###load-modal:style(display: none !important;)
 cloudpaten.pro##.modal-backdrop:style(display: none !important;)
 cloudpaten.pro##body:style(overflow: auto !important; padding-right: 0 !important;)
@@ -98475,8 +98485,6 @@ linkrex.net##+js(aopw, __htapop)
 linkrex.net,linx.cc##+js(set, blurred, false)
 linkrosa.com.br,splove.com.br###scroll-btn
 links.extralinks.casa##+js(acs, document.onselectstart, disableselect)
-links1.pawns.app%2Fq%2F$image
-links1.pawns.app/q/$image
 links4u.shop##[src^="https://iili.io/"]
 linksaya.com##+js(acs, addEventListener, google_ad_client)
 linksaya.com#%#//scriptlet("adjust-setInterval", "downloadButton", "2400", "0.02")
@@ -128927,6 +128935,7 @@ polyhaven.com##div[class^="Grid_adGridTop"]
 polymerclaylatvia.com###privacy-pop-up
 polymtl.ca,oxfam.org,efka.gov.gr,c-budejovice.cz,veolia.de,iyihisset.com,amerika21.de,museicapitolini.org,developer.nvidia.com,zillya.com,inrim.it,jneurosci.org,medrxiv.org,novartis.com.tr,royal.uk,transcom.com,netcologne.de,belltower.news,bigfm.de,click.ro,demokrata.hu,emma.de,gysev.hu,humanite.fr,ikgastarten.nl,la7.it,london.gov.uk,mavcsoport.hu,mcdonalds.at,mcdonalds.it,mises.org,mnm.hu,musescore.com,nbcsports.com,pnas.org###sliding-popup
 polypane.app##div[class^="Policy-styles-"]
+polytoria.com##[href^="/report/ad/"]
 polyv.net##div.year-live
 polza.ru##.mCSB_container
 polzadom.ru#%#//scriptlet("abort-current-inline-script", "document.getElementById", "/window\.onclick/")
@@ -150328,11 +150337,15 @@ startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion,startrek.com##.La
 startrek.com##.Article_newsletterPromo__YXJkV
 startrek.com##.Article_shareToggle__D2fGG
 startribune.com###highImpactAd
+startribune.com###piano-banner > .tp-container-inner
 startribune.com##[class*="htlad-"]
+startribune.com##div[data-testid$="-ad"]
 startribune.com##div[data-testid*="breaker-ad"]
 startribune.com##div[data-testid="rail-ad"]
 startribune.com##div[data-testid="sponsored-list-ad"]
+startribune.com##ins[id^="piano-z"] > .tp-container-inner
 startribune.com#$#.modal-backdrop { display: none !important; }
+startribune.com#$#.tp-backdrop { display: none !important; }
 startribune.com#$#body[class] { overflow: auto !important; position: static !important; }
 startseite.to##+js(nowebrtc)
 startsiden.no##div[data-ga-category="black_week_fp"]
@@ -154185,7 +154198,6 @@ tcaeco.ac.jp##.area_share_linkbox
 tcaeintegral.es##.widget-area-wrapper
 tcaeintegral.es#$#.c--anim { display: none !important; }
 tcaeintegral.es#$#html { overflow: auto !important; }
-tcbonepiecechapters.com###sidebar-ad-widget
 tcc.ua##.tm-cookies
 tcgplayer.com##.compliance-banner
 tcgplayer.com##.subscribe-drawer--container
@@ -171516,6 +171528,7 @@ vrhell.com##.zzz
 vringe.com##.all_news_partners
 vrisko.gr###advertiseContainer
 vrisko.gr##.sectionAppGray
+vrk.de#%#//scriptlet('trusted-click-element', '[style] > [style] > s-button[data-testid="button--einstellungen-speichern"] > button.s-button__button')
 vrn.de###vrn-cookie
 vroid.com##div[class^="GDPR__Container"]
 vroid.com##div[class^="GDPR__Container-"]
@@ -176903,6 +176916,7 @@ www.ixbt.com##.mainmenu__container a.menu:style(margin-top: 0 !important;)
 www.ixbt.com##.mt-2:empty
 www.ixbt.com##.recommendcontainer
 www.ixbt.com##.sidebarcontainer
+www.ixbt.com##div[class^="branding_"][class*="-spacer"]
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 www.ixbt.com#%#//scriptlet('remove-attr', 'onclick', '.rebrand_article_content_block > div[align="center"] > a.big_img,a.resize-image')
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
