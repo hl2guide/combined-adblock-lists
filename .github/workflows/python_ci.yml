@@ -45,7 +45,7 @@ jobs:
           #python -m black --check .
       - name: Sort imports for Python files using isort
         run: |
-          isort **/*.py
+          isort **/*.py --settings-path ./.isort.cfg
       - name: Lint and Format using Ruff
         run: |
           python -m ruff check "**/*.py"
