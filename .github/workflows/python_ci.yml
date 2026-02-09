@@ -48,8 +48,8 @@ jobs:
           #isort **/*.py --settings-path ./.isort.cfg
       - name: Lint and Format using Ruff
         run: |
-          python -m ruff check "**/*.py"
-          python -m ruff format "**/*.py"
+          python -m ruff check . --filter=py
+          python -m ruff format  . --filter=py
       #- name: Lint with Flake8
         #run: |
           #python -m flake8 . --count --show-source --statistics --max-line-length=200
