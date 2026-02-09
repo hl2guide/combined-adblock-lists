@@ -34,10 +34,11 @@ jobs:
         # Directories to cache (default pip cache location)
           path: |
             ~/.cache/pip
-      - name: Install dependencies for Python CI
+      - name: Upgrade and install dependencies for Python CI
         # if: steps.pip-cache.outputs.cache-hit != 'true'
         run: |
-          pip install pylint pytest pytest-cov isort ruff
+          python -m pip install --upgrade pip
+          pip install pylint pytest pytest-cov ruff
           if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
       #- name: Format with Black
         #run: |
@@ -63,7 +64,7 @@ jobs:
 # pip install pylint pytest pytest-cov
 
 # Version: 1.0.1
-# Updated AEST: 2026-02-09 15:12:19 +1100
+# Updated AEST: 2026-02-09 15:18:24 +1100
 
 # SOURCES:
 # https://github.com/actions/cache
