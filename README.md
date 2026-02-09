@@ -20,9 +20,9 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 - Comments and duplicate lines are ignored and the list is sorted
 - The list is approximately 10MB in size
 - Python code runs on GitHub directly using GitHub Actions
-    - Updates every 6 hours, every day
+    - Updates about every 6 hours, each day
 
-## Recent News : 2026-01-29
+## Recent News : 2026-02-09
 
 - Fixed unreliable URLs and found alternative
 - Added major languages support : German, French, Korean etc

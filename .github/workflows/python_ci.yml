@@ -1,4 +1,4 @@
-name: Python CI - format using "black", lint using "flake8" then analyse using "Pylint"
+name: Python CI - isort imports, format and lint using "ruff", then analyse using "Pylint"
 
 on:
   push:
@@ -37,23 +37,25 @@ jobs:
       - name: Install dependencies for Python CI
         # if: steps.pip-cache.outputs.cache-hit != 'true'
         run: |
-          pip install black flake8 pylint pytest pytest-cov
+          pip install pylint pytest pytest-cov isort ruff
           if [ -f requirements_ci.txt ]; then pip install -r requirements_ci.txt; fi
-      - name: Format with Black
+      #- name: Format with Black
+        #run: |
+          #python -m black .
+          #python -m black --check .
+      - name: Sort imports for Python files using isort
         run: |
-          python -m black .
-          python -m black --check .
-      - name: Lint with Flake8
+          isort **/*.py
+      - name: Lint and Format using Ruff
         run: |
-          python -m flake8 . --count --show-source --statistics --max-line-length=200
+          python -m ruff check "**/*.py"
+          python -m ruff format "**/*.py"
+      #- name: Lint with Flake8
+        #run: |
+          #python -m flake8 . --count --show-source --statistics --max-line-length=200
       - name: Analyse code with pylint
         run: |
           python -m pylint $(git ls-files '*.py')
-
-# SOURCES:
-# https://github.com/actions/checkout
-# https://github.com/actions/setup-python
-# https://github.com/actions/cache
 
 # OLD:
 # python -m pip install --upgrade pip
@@ -61,4 +63,13 @@ jobs:
 # pip install flake8
 # pip install pylint pytest pytest-cov
 
-# Updated: 2026-01-16 01:16:47 +1100
+# Version: 1.0.1
+# Updated AEST: 2026-02-09 14:42:04 +1100
+
+# SOURCES:
+# https://github.com/actions/cache
+# https://github.com/actions/checkout
+# https://github.com/actions/setup-python
+# https://github.com/astral-sh/ruff
+# https://pypi.org/project/isort/
+# https://pypi.org/project/ruff/
