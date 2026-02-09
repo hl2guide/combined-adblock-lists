@@ -4,8 +4,8 @@ Creates a VERSION.txt file and then increments it over each
 Python script related commit.
 """
 
-# Version 1.0.0
-# Edited: 2026-01-16 04:57:42 +1100
+# Version 1.0.1
+# Edited: 2026-02-09 14:44:33 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
