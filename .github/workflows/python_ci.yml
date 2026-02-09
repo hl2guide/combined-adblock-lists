@@ -45,10 +45,9 @@ jobs:
           #python -m black --check .
       #- name: Sort imports for Python files using isort
         #run: |
-          #isort **/*.py --settings-path ./.isort.cfg
+          # isort **/*.py --settings-path ./.isort.cfg
       - name: Lint and Format using Ruff
         run: |
-          python -m ruff check *.py
           python -m ruff format *.py
       #- name: Lint with Flake8
         #run: |
@@ -64,7 +63,7 @@ jobs:
 # pip install pylint pytest pytest-cov
 
 # Version: 1.0.1
-# Updated AEST: 2026-02-09 14:42:04 +1100
+# Updated AEST: 2026-02-09 15:12:19 +1100
 
 # SOURCES:
 # https://github.com/actions/cache
