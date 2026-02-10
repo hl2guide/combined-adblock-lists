@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.10.0731+1100 AEST
-! Last modified: 2026.02.10.0731+1100 AEST
+! Version: 2026.02.10.1229+1100 AEST
+! Last modified: 2026.02.10.1229+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -14943,6 +14943,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4cash.me##+js(set, blurred, false)
 4cash.me##.banner
 4cc.com.au,ansa.it,cryptopotato.com,dailyartmagazine.com,eff.org,ewn.co.za,fightful.com,hannity.com,jurist.org,lagaceta.com.ec,melmagazine.com,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,newhumanist.org.uk,sampdoria.it,thecookscook.com,upcomingvinyl.com,vivercomsaude.site##.share-links
+4cc.com.au,ansa.it,cryptopotato.com,dailyartmagazine.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,melmagazine.com,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,newhumanist.org.uk,sampdoria.it,thecookscook.com,upcomingvinyl.com,vivercomsaude.site##.share-links
 4cc.com.au,baltic-course.com,futbol24.com,gatewaynews.co.za,gsmarena.com,gulfnews.com,idealista.com,jetphotos.com,karger.com,maritimejobs.com,newagebd.net,prohaircut.com,railcolornews.com,titter.com,zbani.com##.adv
 4cells.ru,wibes.ru,nakup.itesco.cz,samokat.ru,fingerprint.com,drbuho.com,onceupon.photo,socratesdergi.com,ati.su,librarius.pro,tesco.com##div[class^="CookieBanner"]
 4chan.org###bd > div[style="text-align:center;margin: 10px 0"]
@@ -47915,6 +47916,7 @@ cyberinfo.ru###bl_05
 cyberinsider.com##.florien-campaign
 cyberinsider.com##.ns-buttons-wrapper
 cyberinsider.com,origami.guide,thepeoplesvoice.tv##.ns-buttons-wrapper
+cyberinsider.com,thepeoplesvoice.tv##.ns-buttons-wrapper
 cyberint.com#$#.fancybox-container { display: none !important; }
 cyberint.com#$#body { overflow: auto !important; }
 cyberleaks.*##+js(nowoif)
@@ -70939,6 +70941,8 @@ gastronovi.com##+js(trusted-set-cookie, cookie_consent, '{"consent":true,"option
 gatcha.org##+js(nostif, css_class.show)
 gatdaily.com###custom_html-22
 gate.baidu.com,m.baidu.com###container
+gate.com###downloadAppSpecial
+gate.com###download_gateio_app_wrapper
 gaten.info##.overlay
 gaten.info##div[class^="gatenBanner"]
 gaten.info#?#.m-auto > div#app:upward(1)
@@ -81309,6 +81313,8 @@ hrej.cz##a[id^="fullbrand-link_"]
 hrej.cz##div[id^="div-gpt-ad"] + div[style="width:970px; height:125px; position:relative; margin:0 auto;"]
 hrk.aero###sidebar > .banners-list > :not([id^="email-"])
 hrkgame.com##.share-platform
+hrkgame.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie_preferences', '{"analytics_storage":"denied","ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied"}')
+hrkgame.com#%#//scriptlet('trusted-set-local-storage-item', 'gdpralert', 'custom')
 hrlab.de##+js(trusted-set-cookie, GDPR, '["gdpr","youtube"]')
 hrmos.co###jsi-social-buttons
 hrnytube.com###adbd
@@ -91927,7 +91933,6 @@ kgd.ru##div[style^="width:"][style*=";height:"][style*="px;background:#f3f6f9"]
 kgd.ru#?#div:-abp-has(> .modhead:-abp-contains(Реклама))
 kget.com#$#simulate-mouse-event '.close-expanded-player$delay=0'
 kgm.gov.tr,dometrain.com,linuxliteos.com,portaleargo.it###spopupCont
-kgm.ru,jetour-ru.com,foton-mbrus.ru,voyah.su,soueast.ru,toyota.ru,gac.ru,fastconvert.co,technologypresswirenetherlands.com,evolute.ru,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,serfloor.com.tr,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,niebieskizaulek.pl,nefisyemektarifleri.com,spark-die-klassische-band.de,bisiparis.com,toya.net.pl,mateobar.pl,whoisxmlapi.com,jagapizza.pl,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,xzone.pl,givesendgo.com,workstreams.ai,trae.ai,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,kurczakiodeliasza.com,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,greptime.com,newsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
 kgw.com,king5.com,localmemphis.com##.video__docker.video__docker_state_docked
 kh-pokemon-mc.com##.custom-html-widget
 kh-pokemon-mc.com##aside.rss[id^="feedzy_wp_widget-"]
@@ -111653,7 +111658,10 @@ mt.gov.sa##app-mt-cookie
 mt.today##.bigbeautifulbutton
 mt.today##a[href^="https://s.click.aliexpress."]:not([target])
 mt.today##a[href^="https://t.me/skidkimt/"]:not([target])
+mt.today##a[href^="https://www.dns-shop.ru/product/"]
+mt.today##a[href^="https://www.ozon.ru/product/"]
 mt.today,antonovsad.ru##.sidebar-social
+mt.today,znak.com##div[class$="-ads"]
 mt07-forum.de,auto-treff.com##+js(acs, $, offsetHeight)
 mta-resource.com##ins.adsbygoogle[data-ad-slot]:style(display: block !important; height: 1px !important;)
 mtabrasil.com.br##.banner
@@ -115066,6 +115074,7 @@ nerdist.com###sub-footer-banner-wrapper-300
 nerdist.com##.nerdist-social-share
 nerdist.com#@#.social-share-box
 nerdnomads.com,paperkawaii.com,stationx.net##.ns-share-count
+nerdnomads.com,stationx.net##.ns-share-count
 nerdrecomenda.com.br##.box--share-single-page
 nerdrecomenda.com.br##.box-networks
 nerdrecomenda.com.br##.header-netwoorks
@@ -150808,6 +150817,8 @@ stern.de,gala.de,brigitte.de##.m-webpush-layer
 stern.de,geo.de,brigitte.de,schoener-wohnen.de##+js(set, foundation.adPlayer.bitmovin, {})
 steroid.com##.header_right
 steroid.com##[href*="anabolics.com"]
+steuer-beamte.de##.ccToggle
+steuer-beamte.de,kgm.ru,jetour-ru.com,foton-mbrus.ru,voyah.su,soueast.ru,toyota.ru,gac.ru,fastconvert.co,technologypresswirenetherlands.com,evolute.ru,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,serfloor.com.tr,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,niebieskizaulek.pl,nefisyemektarifleri.com,spark-die-klassische-band.de,bisiparis.com,toya.net.pl,mateobar.pl,whoisxmlapi.com,jagapizza.pl,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,xzone.pl,givesendgo.com,workstreams.ai,trae.ai,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,kurczakiodeliasza.com,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,greptime.com,newsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
 steuerbot.com##+js(trusted-set-local-storage-item, cookies, '{"essential":true,"performance":false,"marketing":false}')
 steuerbot.com#%#//scriptlet('trusted-set-local-storage-item', 'cookies', '{"essential":true,"performance":false,"marketing":false}')
 steuerbot.com#?#div[class^="_"]:has(> a[href^="https://play.google.com/"] + a[href^="https://app.steuerbot.com"])
@@ -163456,6 +163467,7 @@ tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
 tripadvisor.*##div[class="ui_container dSjaD _S"]
 tripadvisor.*##div[class^="memx-facebook-onetap-Facebook"]
+tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 tripadvisor.*##main > div[class]:has(> section:only-child > div[class] > div[class] > div[class]:only-child > a[href*="onelink.me"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 tripadvisor.*#$##c_onboarding-interstitial { display: none!important; }
@@ -163466,6 +163478,8 @@ tripadvisor.*#?##lithium-root > div[style^="bottom:"][class]:has(> div[class] > 
 tripadvisor.*#?#.AaFRW:-abp-contains(Sponsored)
 tripadvisor.*#?#[data-automation="crossSellShelf"] div:has(> span:-abp-contains(Sponsored))
 tripadvisor.*#?#[data-automation="relatedStories"] div > div:has(a:-abp-contains(SPONSORED))
+tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(In partnership with))
+tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(Sponsored by))
 tripadvisor.be,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.se##.ppr_priv_brand_consistent_header
 tripadvisor.co.uk##div[data-test-target="faq-json-ld"] + div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[id^="slot:"])
 tripadvisor.com##.ZkqhQ
@@ -181948,7 +181962,6 @@ znak.com##.SVKNative-Widget li[data-unit-type="promo"]
 znak.com##.footer > div[class="credits"]:not([id="credits-id"])
 znak.com##.pub-box
 znak.com##.y-links
-znak.com##div[class$="-ads"]
 znak.com##figure
 znak.com##form[data-type="maillist_main"]
 znak.com#$#body:not(.mobile) header { margin-top: 20px!important; }
