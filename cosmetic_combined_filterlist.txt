@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.11.0258+1100 AEST
-! Last modified: 2026.02.11.0258+1100 AEST
+! Version: 2026.02.11.0736+1100 AEST
+! Last modified: 2026.02.11.0736+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -17589,6 +17589,7 @@ abc.net.au##.container-wrapper > .banner
 abc.net.au##[data-component="CookieBanner"]
 abc.net.au##[data-component="Newsletter"]
 abc.net.au##aside[data-component="CampaignNewsletter"]
+abc.net.au##aside[title="Google preferred source teaser"]
 abc.net.au##button:has(> svg[data-component="ShareWeb"])
 abc.net.au##button[class*="FixedHeader_shareBtn__"]
 abc.net.au##div[data-component="CookieBanner"]
@@ -56135,6 +56136,8 @@ ecofamily.hu#@#body:not(.scroll-lock) .cookie-alert
 ecogamer.ru##.synved-social-button-share
 ecogolik.ru##div[data-code="drevnerusskiy_test_s_prizami"]
 ecogolik.ru#$#.main-page-wrap__wrapper { padding-top: 0 !important; }
+ecoledelutherie.com###upi-overlay
+ecoledelutherie.com###usb-sticky-bar
 ecolipetsk.ru###bg_popup
 ecologiaverde.com##.open-compartir
 ecologiaverde.com,el9nou.cat,elsaltodiario.com,infocatolica.com,lanacion.com.ar,laverdad.com,psicologia-online.com,qmusica.tv,revistafamilia.ec##.compartir
@@ -72441,6 +72444,7 @@ gg.deals##.gg-banner-full-link
 gg.deals##.gg-full-content-widget
 gg.deals##.site-banner-top-widget
 gg.deals##body div[id^="content-banner-image"]:not(#style_important)
+gg.deals,metro.istanbul,republicworld.com,gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 gg.pl###sr-advert-container
 gg.xooxo.cc###closed-vid
 gg.xooxo.cc##.telegram__wraper
@@ -80886,6 +80890,9 @@ hotleak.vip,thotsbay.tv##header > a[href][target="_blank"]
 hotleak.vip,thotsbay.tv##header > section.container > div.row.d-md-none
 hotleaks.tv,hotleak.vip,leakedzone.com,thotsbay.tv##div[class^="koukoku"]
 hotleaks.tv,javrank.com##[class^="koukoku"]
+hotline.finance#$#.ReactModal__Overlay { display: none !important; }
+hotline.finance#$#.accept-cookies-module__VtKOfq__modal { display: none !important; }
+hotline.finance#$#body { overflow: auto !important; }
 hotline.ua###instagram-embed-0
 hotline.ua##.catalog-three-products
 hotline.ua##.instagram-media
@@ -99930,6 +99937,7 @@ lonelyplanet.com##.alert.is-visible
 lonelyplanet.com##.sub-nav-placeholder
 lonelyplanet.com##button[data-taggyid]
 lonestarlive.com##.below-toprail
+long-mcquade.com##.dropdownSocialButton
 long-mcquade.com#%#//scriptlet('set-cookie', 'LmInsiderModalClosed', '1')
 longchamp.com,xn--giant-dsseldorf-5vb.de###cookiePopupModal
 longecity.org##+js(set, abp, false)
@@ -107220,7 +107228,6 @@ metro.hu,metro.de#$#.cookie-container { display: none !important; }
 metro.hu,metro.de#$#.cookie-disclaimer:not(body) { display: none !important; }
 metro.hu,metro.de#$#body { overflow: auto !important; }
 metro.hu,metro.de#$#cms-cookie-disclaimer { display: none !important; }
-metro.istanbul,republicworld.com,gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 metro.it,makro.es,metro.sk,metro-cc.hr,makro.nl,metro.bg,metro.at,metro-tr.com,metro.de,metro.fr,makro.cz,metro.ro,makro.pt,makro.pl##+js(trusted-click-element, button.reject-btn, , 1000)
 metro.style###adBlock-bottom-fix
 metro.style##[class*="css-"].MuiBox-root:style(height: auto !important)
@@ -136840,8 +136847,13 @@ rejestry.ezdrowie.gov.pl##cez-cookies
 rejuvenation.com##div[id^="email-signup-flyin"]
 reka.ch###consent
 rekhta.org##.rt_AppBtn
+rekkerd.org##+js(set-constant, advads_passive_placements, undefined)
+rekkerd.org##+js(set-constant, advanced_ads_ready, undefined)
 rekkerd.org##+js(set-constant, td_ad_background_click_link, undefined)
+rekkerd.org##.a-wrap
+rekkerd.org##.rkkrd-target
 rekkerd.org##.td-background-link:style(cursor: auto !important;)
+rekkerd.org##.theiaStickySidebar > div.ts-block-widget:contains(/Recommended sounds|From our partners/)
 reklama-sev.com.ua#@#.ads-holder
 rekonise.com#%#//scriptlet('remove-attr', 'disabled', '.unlock-button')
 rekportal.ru##.right_banner_container
@@ -159672,10 +159684,9 @@ thizissam.in#%#//scriptlet("adjust-setInterval", "counter--", "", "0.02")
 thizissam.in#%#//scriptlet("remove-attr", "disabled", "button#downloadf[disabled]")
 thl.fi,lebegesund.de,macupdate.com##.cookie-manager
 thomann.*##+js(trusted-click-element, button.js-decline-all-cookies, , 1500)
+thomann.co.uk,thomann.at,thomann.se,thomann.nl,thomann.it,thomann.pt,thomann.es,thomann.dk,thomann.fr,thomann.pl,thomannmusic.com,thomann.de##.spicy-consent-wrapper
 thomann.de##.rs-cookie-consent
 thomann.de##.rs-prod-socialshare
-thomann.fr##.spicy-consent-wrapper
-thomann.pl,thomannmusic.com,thomann.de##.spicy-consent-wrapper
 thomas-krenn.com##.xtxNavigationOffCanvasOverlay
 thomas-krenn.com##.xtxNavigationOffCanvasOverlayCookie
 thomas-krenn.com##div[data-cookie-policy]
@@ -169378,6 +169389,7 @@ vgtv.no###player.pulse-isPauseAdVisible > .jw-overlays
 vgtv.no##+js(json-prune, enabled, testhide)
 vh-polska.pl###cookies__new
 vi-control.net##.samBannerUnit > .SamLink > a[href] > img
+vi-control.net##.tooltip-content-inner > div:not(:has(> div[class="shareInput"]))
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
 vi.nl##.c-article__header__social-sharing--vertical
 vi.nl#@#.cookie-consent
