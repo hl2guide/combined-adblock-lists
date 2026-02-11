@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.12.0252+1100 AEST
-! Last modified: 2026.02.12.0252+1100 AEST
+! Version: 2026.02.12.0730+1100 AEST
+! Last modified: 2026.02.12.0730+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -8341,6 +8341,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /modal-gdpr.umd.js
 /modi-cloudflare-update-new.html^$doc
 /modi-cloudflare-update.html^$doc
+/modsfire.com\/js\/alt\w+.js/$domain=modsfire.com
 /modul*php?img$domain=game-torrent.net|rugames.net|topigr.com|utorrentgames.net|yangteacher.ru
 /module-ads-html-$script
 /module-rgpd.esm.js
@@ -22565,6 +22566,7 @@ analdin.com##+js(set, flashvars.adv_start_html, '')
 analdin.com##.brazzers-link
 analdin.com##.cookies-line
 analdin.com##body[style="background: #000000; margin: 0; padding: 0"]:not([class*="video-page"])
+analdin.com,cockdude.com,coomer.st,gelbooru.com,kemono.cr##a[href*="/tsyndicate.com/"]
 analdin.com,reverbpress.com,uinterview.com##.arrow-up
 analdin.com,streamporn.pw##+js(abort-on-property-read, popunder)
 analdin.com,tubewolf.com##.banner-top
@@ -32268,8 +32270,6 @@ bigbumfun.com##.col-video > div.container:has(> div#awe-customiframe-container)
 bigbumfun.com##.thumbs > div.thumb:has(> script[src*="ad-provider"])
 bigbuttshub2.top,bigbuttshubvideos.com##+js(no-fetch-if, mode:no-cors)
 bigbuttshub2.top,bigbuttshubvideos.com##+js(no-fetch-if, widgets.outbrain.com)
-bigbuttshub2.top,bigbuttshubvideos.com##+js(prevent-fetch, mode:no-cors)
-bigbuttshub2.top,bigbuttshubvideos.com##+js(prevent-fetch, widgets.outbrain.com)
 bigbuttshub2.top,bigbuttshubvideos.com##body > div ~ div[class]:empty
 bigcaucasus.com,pravda.ru##.staticFragment
 bigcommerce.com#@##privacypolicy
@@ -40768,6 +40768,7 @@ chatelaine.com##.css-1uko8nb-ShareButtons
 chatelaine.com##.css-zk005z-NewsletterSignup
 chatelaine.com,macleans.ca##.hero-sidebar
 chatelaine.com,macleans.ca##.under-article-widget-nl
+chatgpt.com###page-header > div.pointer-events-none:has(button.button-glimmer-cta)
 chatgpt.com##.button-glimmer-cta
 chatgpt.com##.fixed.bottom-0:has-text(Try Atlas)
 chatgpt.com##.md\:px-\[60px\]:has-text(By messaging ChatGPT)
@@ -43695,7 +43696,6 @@ cockdude.com##.native-boxes-2-ver2
 cockdude.com##.native-boxes-ver2
 cockdude.com##.related-boxes-footer-ver2
 cockdude.com##.textovka
-cockdude.com,coomer.st,kemono.cr##a[href*="/tsyndicate.com/"]
 cockroachlabs.com##.article-sidebar
 cockroachlabs.com##.blog-back-header
 cockroachlabs.com##.p-4.bg-\[\#F5F5F5\]:has-text(Subscribe to our newsletter)
@@ -64324,8 +64324,8 @@ finanzfluss.de##div[data-cy="billboard-card"]
 finanzfluss.de##div[data-cy="sustainability-section-ad"]
 finanzfluss.de##div[id^="amundi-table-"]
 finanzfluss.de##div[id^="breakdown-gerd-kommer-"]
-finanzfluss.de##div[id^="broker-top-scalable-capital-"]
-finanzfluss.de##div[id^="broker-yield-section-scalable-capital-"]
+finanzfluss.de##div[id^="broker-top-"]
+finanzfluss.de##div[id^="broker-yield-section-"]
 finanzfluss.de##div[id^="franklin-templeton-table"]
 finanzfluss.de##div[id^="invesco-table-"]
 finanzfluss.de##div[id^="sustainability-gerd-kommer-"]
@@ -66718,9 +66718,11 @@ fortune.com##div[class^="sc-"]:has(> div[class] > div[id^="InStream"])
 fortune.com##div[class^="socialList__wrapper--"]
 fortune.com##div[class^="tp-"]
 fortune.com##div[data-cy="newsletters"]
+fortune.com##div[data-cy="piano-plea-container"]
 fortune.com##div[data-cy="plea-rr"]
 fortune.com##div[data-cy="rightRailAd"]
 fortune.com##div[data-cy="subscriptionPlea"]
+fortune.com##div[data-cy^="hp-in-stream-"]
 fortune.com##div[data-partial="sponsored-list-item"]
 fortune.com#@##onetrust-consent-sdk
 fortune.com#@##truste-consent-track
@@ -71766,7 +71768,6 @@ gelbooru.com##.headerAd
 gelbooru.com##.mainBodyPadding > div[style*="height:"]
 gelbooru.com##[style$="height: 250px; "]
 gelbooru.com##a[href="https://gelbooru.com/tdForward.php"]
-gelbooru.com##a[href^="//tsyndicate.com/"]
 gelbooru.com##a[href^="https://www.soulgen.net/"]
 gelbooru.com##body main > div.mainBodyPadding > div[style="height: 250px !important; overflow: hidden; width: 100%; text-align:center;"]
 gelbooru.com##div[style$="width: 300px;"]
@@ -73818,6 +73819,12 @@ go.chatwork.com##.floating-banner
 go.cnn.com##.cnn-toasts > li[ng-repeat="toast in toasts track by $index"]
 go.com#@#.has-ad
 go.cravesandflames.com##+js(no-window-open-if)
+go.datapendidikan.com##+js(addEventListener-defuser, DOMContentLoaded, detectAdblock)
+go.datapendidikan.com##+js(no-window-open-if, insurance.cekresi.me)
+go.datapendidikan.com##.text-center:has(> ins.adsbygoogle)
+go.datapendidikan.com##center:has(> p > button[x-on\:click="openPopup"])
+go.datapendidikan.com,bigbuttshub2.top,bigbuttshubvideos.com##+js(prevent-fetch, mode:no-cors)
+go.datapendidikan.com,bigbuttshub2.top,bigbuttshubvideos.com##+js(prevent-fetch, widgets.outbrain.com)
 go.engage.here.com###t_cm_ec_wrapper
 go.gets4link.com##+js(no-window-open-if)
 go.gets4link.com##+js(remove-class, get-link, a.btn-success.get-link[target="_blank"])
@@ -87707,7 +87714,12 @@ it-actual.ru#?##content > .nav-single:-abp-has(> ins)
 it-actual.ru#@#.adslot_1
 it-actual.ru#@#.adslot_2
 it-administrator.de##.cookie_advice
+it-boltwise.de##.comments-addendum > li
 it-boltwise.de##.footer-subscribe
+it-boltwise.de##.freestock
+it-boltwise.de##.itbw-asect + style + center
+it-boltwise.de##.spons-bar
+it-boltwise.de##a[href="https://www.it-boltwise.de/sponsoreddeals"]
 it-daily.net##.itd-ad-sidebar
 it-daily.net##.itd-nl-box
 it-daily.net##.ns-buttons
@@ -102711,6 +102723,7 @@ madnessporn.com##.contents > div[id="player"] ~ div[align="center"]
 madnessporn.com##.header > h1 ~ div[align="center"]
 madnessporn.com#?#.video div.header:has(> h2:contains(Madness Webcam))
 madoo.net##.madoo-ad-wrapper
+madoo.net##div[class="col mb-4 mb-md-0"]:has(span[class="nav-link p-0 me-2"])
 madoohd.com##+js(set, adSettings, [])
 madoohd.com##+js(set-constant, showLimit, 0)
 madoohd.com##.above-player-banana
@@ -104630,6 +104643,7 @@ mashable.com##.topadv:style(display: none !important;)
 mashable.com##.warmgray:has(> .zad):style(padding: 0 !important;)
 mashable.com##[data-ga-category="newsletters"]
 mashable.com##[data-pogo="top"]
+mashable.com##aside[data-seamless-ad]
 mashable.com##section.mt-4 > div
 mashable.com##section[aria-label="Newsletter Sign-Up"]
 mashable.com#?##article > div.w-full:has(> div > strong:contains(You May Also Like))
@@ -114566,6 +114580,7 @@ nbcmiami.com##.widget_nbc_newsletter
 nbcnews.com###overaly_dy_message
 nbcnews.com##.article-social-share-top
 nbcnews.com##.recommended-intersection-ref
+nbcnews.com##.shareMenuTrigger
 nbcnews.com##.share__container--article
 nbcnews.com##.social-share-menu__container
 nbcnews.com##.stack-list-share > li:first-child
@@ -114578,6 +114593,7 @@ nbcnews.com##div[data-testid="marqueeBreaking"]
 nbcnews.com#$#.videoPlayer { position: static !important; }
 nbcnews.com#@#.article_share
 nbcnews.com,lance.com.br##div[class*="styles_share"]
+nbcnews.com,thestar.com,steemit.com##.shareMenu
 nbcnews.com,today.com##.nl-signup-inline
 nbcnewyork.com##.site-header__mobile-share-toggle
 nbcnewyork.com##section[id^="nbc_newsletter"]
@@ -115938,6 +115954,11 @@ news.j-wave.co.jp###snsLink
 news.joins.com###criteo_network
 news.joins.com##.ab_adtxt_wrap
 news.jorudan.co.jp##div[id^="ad-bottom-"]
+news.jp##+js(set-constant, nor, {})
+news.jp##+js(set-constant, nor.eventURL, noopFunc)
+news.jp##+js(set-constant, nor.pageview, noopFunc)
+news.jp##+js(set-constant, nor.pageviewURL, noopFunc)
+news.jp##+js(set-constant, nor.setPageData, noopFunc)
 news.jp##.page__ad
 news.jp##.page__mainWrapper:style(padding-bottom: 0 !important;)
 news.jp,nordot.app##.page__ad:not(.page__ad--discoverMore)
@@ -159180,7 +159201,6 @@ thestar.com##+js(nano-stb, bFired, *)
 thestar.com##.loadingLI:upward(.tncms-block)
 thestar.com##.main-sidebar:has(> #sticky-side-secondary-spacer)
 thestar.com##.viafoura-engagement-starter
-thestar.com,steemit.com##.shareMenu
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com##.adLabelWrapper
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com##.adLabelWrapperManual
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com##.news-promo
