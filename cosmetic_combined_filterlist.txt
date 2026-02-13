@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.14.0233+1100 AEST
-! Last modified: 2026.02.14.0233+1100 AEST
+! Version: 2026.02.14.0727+1100 AEST
+! Last modified: 2026.02.14.0727+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -7193,7 +7193,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /i.png?id=
 /i/ctc_$image,domain=povarenok.ru|stranamam.ru
 /i/npage/*$script,third-party
-/i10c@p1/client/latest/abd/instart.js$domain=ranker.com
 /i2a.js
 /i2yesCounter.js
 /i?aid=*&se_ac=open&$image
@@ -29458,7 +29457,6 @@ baidu.com,bdimg.com,tieba.com#?#.l_post:-abp-has(div[class*=" fc-"])
 baidu.com,bdimg.com,tieba.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
-baidu.com,findagrave.com#@#.share-list
 baidu.com,findagrave.com,locataire.dossierfacile.logement.gouv.fr#@#.share-list
 baidu.com,youdao.com,yun.cn#@#.share-content
 baiduyun.wiki##.tecent-adsense
@@ -43410,7 +43408,6 @@ cnet.com#$?#.stickyColumn + div[data-video-player] .videoPlayer { remove: true; 
 cnet.com#%#//scriptlet('remove-class', 'c-avLazyStickyVideo-sticky', '.c-avLazyStickyVideo-container')
 cnet.com#%#//scriptlet('set-constant', '__NUXT__.state.services.features.shoppingExtensionPopupArticle', 'undefined')
 cnet.com#@#.share-button
-cnet.com#@#a[href*="/adclick."]
 cnet.com$$div[class="newsletterWrap"]
 cnet.com,dogfoodadvisor.com,hunker.com,insidehook.com,nbcnews.com,notebookcheck.net,pcgamingwiki.com,pcpartpicker.com,popularmechanics.com,purewow.com,sheknows.com,space.com,streetinsider.com,tomshardware.com,zdnet.com##+js(href-sanitizer, 'body a[href*="?"][href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"],[href*="?subId1="],[href^="https://affportal.bhphoto.com/dl/redventures/?"])', ?u)
 cnet.com,filehippo.*##[data-meta="placeholder-slot"]
@@ -64896,6 +64893,8 @@ fitfortravel.nhs.uk##.panel--cookie
 fitgirl-repacks.site,ianbetteridge.com,vvng.com##.jetpack-subscribe-modal
 fitline.com##.CookiesGDPR_initial__2ePNF
 fitline.com##section[class^="CookiesGDPR_initial"]
+fitline.com#%#//scriptlet('set-local-storage-item', 'pm:telemetry', 'no')
+fitline.com#%#//scriptlet('trusted-click-element', 'div.md\:max-w-105 > button.border-gray-600, input[type="checkbox"], button.max-md\:w-full.bg-brand-red')
 fitness-home.pl,sklepzycia.pl#%#//scriptlet('trusted-set-local-storage-item', 'user_consents', '["marketingConsent"]')
 fitness-pro.ru###modal_form__one
 fitness-pro.ru###overlay__one
@@ -67516,9 +67515,6 @@ foxsports.com.au##a[href^="https://kayosports.com.au/?marketing="]
 foxsports.com.au##amp-iframe[src^="https://snippet.tldw.me/"]
 foxsports.com.au##amp-iframe[title="Newsletter"]
 foxsports.com.au##div[class^="styles__BettingFooter-"]
-foxsports.com.au,baggersmag.com,boatingmag.com,cbssports.com,cnet.com,cruisingworld.com,cycleworld.com,dirtrider.com,edmunds.com,floridatravellife.com,frontpage.pch.com,gamespot.com,goal.com,ign.com,islands.com,marlinmag.com,metacritic.com,motorcyclecruiser.com,motorcyclistonline.com,msn.com,outdoorlife.com,popphoto.com,popsci.com,saltwatersportsman.com,scubadiving.com,sportdiver.com,sportfishingmag.com,sportingnews.com,spox.com,thoughtcatalog.com,tv.com,tvguide.com,utvdriver.com,webmd.com,wetteronline.de,yachtingmagazine.com##+js(set-constant, Object.prototype.iadb, undefined)
-foxsports.com.au,cbssports.com,thoughtcatalog.com,webmd.com,gamespot.com,windowscentral.com,tvguide.com,afterellen.com,boston.com,calgarysun.com,cattime.com,celebuzz.com,cnet.com,comingsoon.net,computershopper.com,ctnow.com,cycleworld.com,edmunds.com,everydayhealth.com,metacritic.com,msn.com,popphoto.com,popsci.com,ranker.com,saveur.com,sportingnews.com,tv.com,washingtonpost.com#@#iframe[width="300"][height="250"]
-foxsports.com.au,cbssports.com,thoughtcatalog.com,webmd.com,gamespot.com,windowscentral.com,tvguide.com,afterellen.com,boston.com,calgarysun.com,cattime.com,celebuzz.com,cnet.com,comingsoon.net,computershopper.com,ctnow.com,cycleworld.com,edmunds.com,everydayhealth.com,metacritic.com,msn.com,popphoto.com,popsci.com,ranker.com,saveur.com,sportingnews.com,tv.com,washingtonpost.com#@#iframe[width="728"][height="90"]
 foxsports.com.mx##.MitadLogoCaliente
 foxsports.com.mx##.social-column
 foxsportsgo.com##.program-landing-section--share
@@ -123142,7 +123138,6 @@ osevio.com##body > .alert-warning.fixed-bottom
 osf.io##._CookieBanner_1k6aw9
 osf.io##.__cookie-banner__2a81b
 osf.io##.p-message-content
-osf.io#@#.share-row
 osgamers.com###sidebar > .inner:has(> div > div[class^="r89-"][class*="-rectangle-"])
 osgamers.com##.r89-outstream-video
 osharetecho.com##.snsArea02
