@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.14.2117+1100 AEST
-! Last modified: 2026.02.14.2117+1100 AEST
+! Version: 2026.02.15.0217+1100 AEST
+! Last modified: 2026.02.15.0217+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -14744,6 +14744,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 3jy.com,maolihui.com##.lad
 3lion-anime.com##.l-share_this__container
 3m.com##.MMM--contentDetailBlock-content_media
+3m2.ua##.page-content section a[href^=http][target="_blank"]:not([href^="https://3m2.ua/"]) > img
+3m2.ua##.theiaStickySidebar a[target="_blank"] > img
 3mdeutschland.de##.privacy_prompt
 3mdeutschland.de##div[class^="fancybox"]
 3minx.com##div.popup-box-ads:remove()
@@ -22023,6 +22025,7 @@ amazon.*##div[data-csa-c-painter="ad-topper-desktop-card"]
 amazon.*##div[data-csa-c-painter="sp-cart-mobile-carousel-cards"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-brand-footer-slot_hsa-id-"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-top-slot_hsa-id-"]
+amazon.*##div[data-csa-c-type="widget"]:has([data-ad-feedback-label-id])
 amazon.*##div[data-csm-widget-type="sponsored-products-mobile-grid-card"]
 amazon.*##div[data-display-at]:has(> div[data-csa-c-painter="ad-topper-desktop-card"]:first-child + div[style="display: none !important;"]:last-child)
 amazon.*##div[data-idt="AXIOM"]
@@ -86144,6 +86147,8 @@ interestingengineering.com#$#hide-if-contains-visible-text /ADVERTISEMENT|Advert
 interestingsomething.com##body > div.cl-cb
 interez.sk###rklm-pod-clankom
 interez.sk##.sidebar > #custom_html-2
+interface31.ru##.alert-bq
+interface31.ru##.widget-pages a[href*="utm_"]
 interface31.ru#$?#body { user-select: auto !important; }
 interface31.ru#?#.widget-pages:-abp-has(> .widget-header:-abp-contains(Реклама))
 interfans.org##+js(abort-on-stack-trace, document.querySelector, initDetection)
