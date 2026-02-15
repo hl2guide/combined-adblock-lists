@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.15.1650+1100 AEST
-! Last modified: 2026.02.15.1650+1100 AEST
+! Version: 2026.02.15.2117+1100 AEST
+! Last modified: 2026.02.15.2117+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -13312,7 +13312,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 1901.selcdn.ru##.topFaceGuest
 1905.com##.ad-news
 1905.com##.mobile_ad_promote
-1909.me,8se.me,xchina.site,xchina.biz,xchina.co##div[id^="z-extra-"]
+1909.me,8se.me,crxs.me,xchina.site,xchina.biz,xchina.co##div[id^="z-extra-"]
 192-168-1-1-ip.co,receivesms.co###adresp
 192.com##div[class^="ont-cookies"]
 19216811.ru##.recl
@@ -63500,6 +63500,7 @@ filecrypt.*##div:has(> [href*=".html"])
 filecrypt.*##div[class^="fllItheadb"]
 filecrypt.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/; abort-on-property-read aclib; abort-on-property-read Adcash; override-property-read isAdblock2 false;
 filecrypt.cc##+js(set-constant, FBPOP, noopFunc)
+filecrypt.cc##.butt1ns button[onclick*="href='/Link/"]
 filecrypt.cc##.butt1ns button[onclick*="loc.href='/Link/"]
 filecrypt.cc##.fiIItheadblockqueue4
 filecrypt.cc##.filItheadbIockgueue3
@@ -69480,7 +69481,9 @@ g2a.com##.newsletter_no_color
 g2a.com##[data-test-id="cookie-modal"]
 g2a.com##div[data-test-id="cookie-modal"]
 g2a.com##div[data-testid="placement"]
+g2a.com##li.list-none.snap-center:has(div.inline-grid > .text-xs:contains(SPONSORED))
 g2a.com##li[class^="SearchPage_StyledProductCard"]:has(> div.contents > div[class^="group/unibox"] > div.flex > div > div > div.flex > div.inline-grid:contains(SPONSORED))
+g2a.com##li[class^="SearchPage_StyledProductCard"]:has(div.inline-grid > .text-xs:contains(SPONSORED))
 g2a.com##li[data-locator="ppa-offers-list__item"]:has(> div > div > div[class^="ZTH_StyledContainer"] > div[class^="ZTH_StyledProfileInfoDetails-sc"] > div[class^="OffersList_StyledProfileNameAndSponsored-sc-"])
 g2a.com##main > div.trust_banner
 g2a.com##main > div[class^="PageBlock_page-block"]:has(> section a[href^="https://www.g2a.com/mobile-app"] > img.bqci-image)
