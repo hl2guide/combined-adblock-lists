@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.15.2117+1100 AEST
-! Last modified: 2026.02.15.2117+1100 AEST
+! Version: 2026.02.16.0217+1100 AEST
+! Last modified: 2026.02.16.0217+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1506,6 +1506,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sha512.min.js
 .com/sitejs/hansan.js
+.com/smartpop/$third-party
 .com/sponsors/$domain=~sponsored.qz.com
 .com/src/ppu/$third-party
 .com/static/full_combined2.js|$script,1p
@@ -86151,7 +86152,7 @@ interestingsomething.com##body > div.cl-cb
 interez.sk###rklm-pod-clankom
 interez.sk##.sidebar > #custom_html-2
 interface31.ru##.alert-bq
-interface31.ru##.widget-pages a[href*="utm_"]
+interface31.ru##.widget-pages a[href][target="_blank"] > img
 interface31.ru#$?#body { user-select: auto !important; }
 interface31.ru#?#.widget-pages:-abp-has(> .widget-header:-abp-contains(Реклама))
 interfans.org##+js(abort-on-stack-trace, document.querySelector, initDetection)
@@ -109048,6 +109049,7 @@ mnews.tw##.ad-container-pc
 mnews.tw##.ad-container-pc-only
 mngdoom.com##.center-block.advf
 mngdoom.com,mangainn.net##.chapter-top-ads
+mnk-news.net###main_slider
 mnmag.ru##div[class^="banner_right"]
 mnogo-krolikov.ru##span[style*="background: #ffe348"]
 mnogo.ru##.cook_LFPnK
@@ -172292,6 +172294,8 @@ w7phone.ru##table[width="672"][height="300"]
 w98008mo.beget.tech###a_center
 wa.de##.id-Page-layoutWrap, .id-SiteWrap, .id-SiteHeader-wrap:style(width: 100% !important; max-width: 100% !important;)
 wa.de,meine-anzeigenzeitung.de,ludwigshafen24.de,kurierverlag.de,heidelberg24.de,hanauer.de,hallo-muenchen.de,echo24.de,dasgelbeblatt.de,come-on.de,bw24.de,az-online.de,24vita.de,24rhein.de,24hamburg.de,24auto.de,fuldaerzeitung.de,mannheim24.de,hersfelder-zeitung.de,op-online.de,wlz-online.de,werra-rundschau.de,wetterauer-zeitung.de,24garten.de,soester-anzeiger.de,giessener-allgemeine.de,fnp.de,fr.de,hna.de,kreiszeitung.de,tz.de,merkur.de,extratipp.com,buzzfeed.de##.id-StoryElement-embed--newsletter
+wa3.i-3-i.info##[id^="ads_bb"]
+wa3.i-3-i.info##div[id^="ads_bb"]
 waaaw.*,waaw.*,waaw1.*##+js(aopr, BetterJsPop)
 waaaw.*,waaw1.*##+js(aopr, doSecondPop)
 waarmaarraar.nl##div[style="margin: 20px; padding-left:20px; padding-right:20px;border: 1px dotted #999999"]
@@ -176007,7 +176011,7 @@ wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))
 wolt.com#?#div:has(> div > div > div > div > div > p:has-text(Sponsored))
 wolverine.com##.feedback-button
 woman-calendar.jp##.sns-area
-woman-calendar.jp,mtg-jp.com,sirogohan.com,sportsseoul.com,konosuba.com,dshopping-3ple.docomo.ne.jp,mayonez.jp,lg.com,dragon-ball-official.com,idolmaster-official.jp,mrs.living.jp,shopping-3ple.dmkt-sp.jp,3ple.jp,biglobe.ne.jp,fanclove.jp,mitsui-shopping-park.com##.sns-area
+woman-calendar.jp,mtg-jp.com,sirogohan.com,sportsseoul.com,konosuba.com,dshopping-3ple.docomo.ne.jp,mayonez.jp,lg.com,dragon-ball-official.com,idolmaster-official.jp,mrs.living.jp,3ple.jp,biglobe.ne.jp,fanclove.jp,mitsui-shopping-park.com##.sns-area
 woman.at##.ad_con
 woman.at##.md_social_wrapper
 woman.chintai##.app-smart-bnr
