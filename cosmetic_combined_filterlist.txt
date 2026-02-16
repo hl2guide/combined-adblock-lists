@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.16.0716+1100 AEST
-! Last modified: 2026.02.16.0716+1100 AEST
+! Version: 2026.02.16.1219+1100 AEST
+! Last modified: 2026.02.16.1219+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -94156,6 +94156,7 @@ kpel965.com##.branded-app-shortcode-inarticle
 kpel965.com##.fade-enter-done
 kpenews.com###divMiddleBannerKPENEWS
 kpenews.com###divRightBannerKPENEWS
+kpkforge.com##.footer_middle
 kpkuang.org###sterra-ad-onmid
 kpkuang.org##+js(nostif, _0x)
 kpliker.net##center > p:contains(Advertisement)
@@ -94486,6 +94487,7 @@ ksta.de##.dm_ta300x300.sold_content
 ksta.de##.newsletter-widget-background
 ksta.de##.sticky-footer[data-acod="ksta-plus-sticky-footer_btw"]
 ksta.de##turbo-player-ui[controls-breakpoint="tiny"]
+kstp.com##[aria-label="Cookie Consent Banner"]
 kstreaming.*##+js(aopw, Fingerprint2)
 kstreaming.*##+js(nowebrtc)
 kstyle.com##.MdSP20Bnr
@@ -104465,7 +104467,11 @@ market.yandex.ru,market.yandex.*##[aria-label="Баннер"]
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@marketfront/MadvHeaderPromo"]
 market.yandex.ru,market.yandex.*##[data-auto*="banner"] > a:not([href^="/"]):not([href^="https://market.yandex.ru/"])
 market.yandex.ru,market.yandex.*##[data-auto*="banner"] [role="button"]
+market.yandex.ru,market.yandex.*##[data-auto="direct-tgo-banner"]
+market.yandex.ru,market.yandex.*##[data-banner-manager-id] [role="button"]
+market.yandex.ru,market.yandex.*##[data-baobab-name="recomMadv"] [role="button"]
 market.yandex.ru,market.yandex.*##[data-madv]
+market.yandex.ru,market.yandex.*##a[href^="https://ad.adriver.ru/"]
 market.yandex.ru,market.yandex.*##div[id^="remix_"] > div[style^="grid-row:"][style*="grid-column:"]:empty
 marketbeat.com###cphPrimaryContent_pnlCTARowOptin
 marketbeat.com###cphPrimaryContent_pnlSidebarBoxOptin
@@ -140783,7 +140789,6 @@ sanet.lc##+js(aopr, Adcash)
 sanet.me##.big_banner_adv
 sanet.st##+js(aost, document.createElement, onerror)
 sanet.st##.lsB
-sanet.st,yifysubtitles.ch,yts.bz,vinovo.to,livesporthub.shop,dstelemundo.site,7fractals.icu,epicplayplay.cfd,goalstreamer.shop,streameast7.com,buffztreamz.shop,rippleplay.shop,shd247.click,antenasport.top,gamestrend.net,cloudnestra.com,exposestrat.com,embedsports.top,seir-sanduk.com,embedtv-5.icu,daddylive3.com,sterham.net,animeunity.*,vixcloud.*,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,tv247us.live,kaa.to,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,anime4i.com,cuttyy.com,puffytr.com,anizm.*,anizle.*##+js(abort-on-property-read, aclib)
 sanevv.com.ua##.ldev-save-ukraine-widget
 sanevv.com.ua,game-pristavka.ru###animate_btn_4
 sanfoundry.com##.bottomStickyContainer
@@ -141803,7 +141808,6 @@ screencrush.com,tasteofcountry.com###site-menu-wrapper > .logo:style(display: bl
 screendaily.com###subs-ribbon
 screendaily.com##.pageOptions > ul:not(.pageOptions_right)
 screendaily.com,lawgazette.co.uk,ibc.org,pcgamesn.com##a[data-share-url]
-screenfetch.xyz,movies2watch.tv,totalsportek777.com,hdtoday.gg,movies4us.co,vidfast.pro,vidora.stream,seriesonline.sx,lodynet.*,watchseries.pe,movieshdwatch.to,zonatmo.com,himovies.sx,zoechip.*,flixhq.to,flixhd.*,cineb.*,musichq.cc,gomovies.*,hurawatch.cc,theflixertv.to##+js(abort-current-script, addEventListener, HTMLAllCollection)
 screenflash.io##+js(aost, localStorage, tryShowVideoAdAsync)
 screenflash.io##.ins-large.adsbygoogle
 screenflash.io#%#//scriptlet('trusted-set-local-storage-item', 'consents', '{"device":false,"personalizedContent":false,"googleAdsense":false,"googleRecaptcha":false,"youtube":false}')
@@ -148310,6 +148314,7 @@ sp.netkeiba.com##.HeadBnrWrap
 sp.netkeiba.com##.netkeiba_app_link01
 sp.netkeiba.com##.nk_AdvBox_sp_01
 sp.ngs.ru##.sp-toppromo
+sp.nicovideo.jp###jsAppModalWithLogin
 sp.nicovideo.jp###jsBlockedPremiumBottomFixedBannerContainer
 sp.nicovideo.jp###jsBlockedPremiumMiddleBannerContainer
 sp.nicovideo.jp###jsTagRelatedBannerContainer
@@ -170142,6 +170147,7 @@ vidsrc.*##^script:has-text(/\{delete window\[/)
 vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referrerPolicy.*no-referrer-when-downgrade/;
 vidsrc.*,vidsrc-embed.ru##+js(aopr, Adcash)
 vidsrc.*,vidsrc-embed.ru##+js(nowoif)
+vidsrc.cc,sanet.st,yifysubtitles.ch,yts.bz,vinovo.to,livesporthub.shop,dstelemundo.site,7fractals.icu,epicplayplay.cfd,goalstreamer.shop,streameast7.com,buffztreamz.shop,rippleplay.shop,shd247.click,antenasport.top,gamestrend.net,cloudnestra.com,exposestrat.com,embedsports.top,seir-sanduk.com,embedtv-5.icu,daddylive3.com,sterham.net,animeunity.*,vixcloud.*,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,tv247us.live,kaa.to,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,anime4i.com,cuttyy.com,puffytr.com,anizm.*,anizle.*##+js(abort-on-property-read, aclib)
 vidsrc2.*##body > div[style*="position: absolute;"][style*="inset:"][style*="z-index:"]
 vidstezhyty.com.ua##.aliexpress
 vidstezhyty.com.ua##.answear.sale
@@ -170154,6 +170160,7 @@ vidsvidsvids.com##+js(set-cookie, pu_count, 1)
 vidup.*##.sponsored-container
 vidup.io##.PushNotification
 vidup.io##.sponsored-container
+vidup.to,screenfetch.xyz,movies2watch.tv,totalsportek777.com,hdtoday.gg,movies4us.co,vidfast.pro,vidora.stream,seriesonline.sx,lodynet.*,watchseries.pe,movieshdwatch.to,zonatmo.com,himovies.sx,zoechip.*,flixhq.to,flixhd.*,cineb.*,musichq.cc,gomovies.*,hurawatch.cc,theflixertv.to##+js(abort-current-script, addEventListener, HTMLAllCollection)
 vidwatch.me###impo_overlay
 vidwatch.me###over_main
 vidyarays.com##body > center:has(> p:contains(Advertisement))
@@ -177567,6 +177574,7 @@ www.youtube.com###ytd-video-renderer.ytd-item-section-renderer.style-scope:has-t
 www.youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 www.youtube.com##+js(aeld, dblclick)
 www.youtube.com##+js(aeld, yt-text-inline-expander-collapse-clicked)
+www.youtube.com##+js(no-setTimeout-if, ()\,a\,b), 5000)
 www.youtube.com##+js(no-xhr-if, /\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300\,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST)
 www.youtube.com##+js(trusted-click-element, ytd-button-renderer.ytd-consent-bump-v2-lightbox + ytd-button-renderer.ytd-consent-bump-v2-lightbox button[aria-label], , 1000)
 www.youtube.com##+js(trusted-replace-fetch-response, '"adPlacements"', '"no_ads"', player?)
