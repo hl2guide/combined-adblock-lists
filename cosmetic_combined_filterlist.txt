@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.18.1655+1100 AEST
-! Last modified: 2026.02.18.1655+1100 AEST
+! Version: 2026.02.18.2135+1100 AEST
+! Last modified: 2026.02.18.2135+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -18087,6 +18087,7 @@ accor.com,adobe.com,adshnk.com,aljazeera.com,allianz.pt,amtrak.com,apnews.com,ar
 accordancebible.com#?#.flex-grow > div.bg-primary:has(> div.container div.newsletter-signup)
 accordo.it###bglink
 accordo.it,orizzontescuola.it###bglink
+account.2gis.com#%#//scriptlet('set-cookie', 'cookie_alert_hidden', '1')
 account.bhvr.com,advancedsciencenews.com,americastestkitchen.com,bitwarden.com,midnight.gd,scribd.com,sonesta.com##.osano-cm-window
 account.bhvr.com,advancedsciencenews.com,bitwarden.com##.osano-cm-window
 account.bhvr.com,everand.com,lucidchart.com,intercars.ro,scribd.com,guidepoint.com##+js(trusted-click-element, button.osano-cm-denyAll, , 1000)
@@ -56210,6 +56211,7 @@ ecologie.gouv.fr#@#.fr-consent-banner
 ecology-of.ru#@#.home-ads
 ecology.md###article > .right-block
 ecology.md##div[class*="bannerplace"]
+ecom.docusign.com##.dxp-pricing-plans__board > article > section:has(> button[data-testid="closeOverlay"])
 ecom.wixapps.net##+js(set, Sentry, {})
 ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
 ecomento.de##.aff-cta-sidebar-wrap
@@ -81300,7 +81302,6 @@ howwe.biz##._300_ad
 howwe.biz##.cf.share--song
 howwe.biz##.mid-resp-ads
 howwe.biz##.wrap_app_block
-howweelearn.com,blockerx.net,pocketwanderings.com,listoffreeware.com##.elementor-popup-modal
 hoy.com.do#?#span:-abp-contains(Publicidad)
 hoy.es##button[data-target="open-share-social-detail"]
 hoy.es##div[data-animated-modal-bottom]
@@ -129366,6 +129367,7 @@ ponselharian.com##+js(aopr, document.onselectstart)
 ponselharian.com##+js(no-window-open-if)
 ponselharian.com##+js(nowoif)
 ponselharian.com##ins.adsbygoogle
+pontera.com#@#.cookies-banner
 ponycanyon.co.jp##.ad300sp50
 pood.esvika.ee#%#//scriptlet('set-cookie-reload', '.AspNet.Consent', 'yes')
 pood.esvika.ee#@##cookieConsent
@@ -137458,10 +137460,10 @@ republicworld.com##.mainWrapper > .headerContainer ~ div[style^="overflow: hidde
 republicworld.com##.min-h-\[290px\]
 republicworld.com##.rightVerticleAd
 republicworld.com##.sponsors-container
+republicworld.com##.storyContent > #descwithads > div[class^="min-h-"]:has(> .adWrap)
 republicworld.com##a[href^="https://republicworld.page.link/"]
 republicworld.com##div.items-center:has(> .adWidget)
 republicworld.com##div.py-6:has(> .adWidget)
-republicworld.com##div[class*="mrgnbtm"] > div[id^="div-gpt-ad"]:upward(1)
 republicworld.com##div[onclick^="shareStory"]
 republicworld.com##div[style] > div[style*="min-height"]:has(> amp-ad)
 republicworld.com##section.w-full:has(.adWidget) + div[style^="margin-bottom:"]
@@ -140246,6 +140248,7 @@ saashub.com#?#.sidebar-box > h3:contains(Featured):upward(1)
 saavn.com###aside + #main:style(margin-right:80px;)
 saavn.com###idle-unit-curtain:style(display:none!important;)
 sab.bz##+js(aopr, jsPopunder)
+sabah.com.tr##.application-widget
 sabah.com.tr##.face
 sabah.com.tr##.hola_share_player_cover_wrapper
 sabah.com.tr##.main-survey
@@ -153096,6 +153099,10 @@ svepomoci.cz##+js(trusted-set-cookie, sve_cc_options, '{"values":[{"key":"necess
 sverhestestvennoe.club###osiad
 sverigesradio.se#%#//scriptlet('trusted-set-local-storage-item', 'cookie-settings', '{"consentSaved":true,"settingsAllowed":true,"statisticsAllowed":false,"thirdPartyAllowed":true,"version":"1"}')
 sverigesradio.se,accel-5.com,packagecloud.io,thegreatcourses.co.uk##.cookie-popover
+svet24.si###ocm-inread
+svet24.si##div[data-ocm-ad]
+svet24.si##div[id^="svet_billboard"]
+svet24.si##div[id^="svet_sidebar"]
 svetacdn.in###oframeplayer > pjsdiv:has(> pjsdiv > pjsdiv[style*="transform"] > svg > g > path[d^="M5.5662845,8.26248366"])
 svetacdn.in###pjsfrrsplayer ~ pjsdiv[style]:has(> pjsdiv:not([style]) > pjsdiv[style*="background: rgb(42, 161, 194);"][style*="transform: scale(3.5);"]) + pjsdiv
 svetandroida.cz##+js(abort-on-property-read, detectAdBlocker)
@@ -159929,6 +159936,7 @@ thisiswhyimbroke.com##.ng-scope.wishlist
 thisoldhouse.com##.c-newsletter-signup-box
 thisoldhouse.com##.m-privacy-options
 thisoldhouse.com##.mdcr-home-popup-container
+thisonlineweb.com,howweelearn.com,blockerx.net,pocketwanderings.com,listoffreeware.com##.elementor-popup-modal
 thisvid.com##+js(aeld, /^(?:load|click)$/, popMagic)
 thisvid.com##.columns > .column-right:has(> .spots:only-child)
 thisvid.com##.main-nav > li > a[href^="//servtrending.com/"]
@@ -178213,6 +178221,7 @@ xclacksoverhead.org###LegalCookieNotice
 xclient.info###abptip
 xclient.info###pop_business
 xclient.info##+js(set, killads, true)
+xcloud.host###xcloud-cookie-banner
 xclusivejams.*##+js(aopr, decodeURI)
 xcom-shop.ru##.card-head-share
 xcom-shop.ru#%#//scriptlet('prevent-addEventListener', 'load', 'adTest')
