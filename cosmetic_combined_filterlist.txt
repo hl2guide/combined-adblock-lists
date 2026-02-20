@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.20.0723+1100 AEST
-! Last modified: 2026.02.20.0723+1100 AEST
+! Version: 2026.02.20.1215+1100 AEST
+! Last modified: 2026.02.20.1215+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -945,7 +945,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,xhr,redirect-rule=noopjs,domain=earnbtc.pw
 *$strict3p,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$subdocument,redirect-rule=noop.html,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
-*$xhr,3p,denyallow=github.com|stripe.com|fpjs.pro,domain=fingerprint.com|~dev.fingerprint.com
+*$xhr,3p,denyallow=github.com|stripe.com|fpjs.pro,domain=fingerprint.com|~dev.fingerprint.com|~docs.fingerprint.com
 *$xhr,3p,domain=app.axenthost.com,redirect-rule=nooptext
 *$xhr,3p,domain=faselhd-watch.shop|kickassanime.mx,badfilter
 *$xhr,3p,domain=nsfwyoutube.com
@@ -64605,7 +64605,7 @@ finfront.ru##.first_block > .right_block
 finfront.ru##div[class^="swal2"]
 fingerprint.com##div[class^="ActionBar-module--root--"] > span[class^="ActionBar-module--publishDate--"] + div
 fingerprint.com##div[class^="Footer-module--newsLetter--"]
-fingerprint.com,~dev.fingerprint.com##+js(no-xhr-if, method:POST)
+fingerprint.com,~dev.fingerprint.com,~docs.fingerprint.com##+js(no-xhr-if, method:POST)
 finget.ru###chart_a
 finget.ru###news_a
 finget.ru##[class$="_top_a"]
@@ -177650,8 +177650,10 @@ www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 www.reddit.com##body:has(#blocking-modal):style(pointer-events: auto !important;)
 www.reddit.com##body[style*="overflow"]:style(overflow: auto !important;)
 www.reddit.com##div.prompt:has(slot[name="view-in-app-button"])
-www.reddit.com,new.reddit.com##.subredditvars-r-ublockorigin [role="dialog"]>div:style(width: auto !important)
+www.reddit.com,sh.reddit.com###main-content:has(>shreddit-title[title$="r/uBlockOrigin"])+#right-sidebar-container [data-slug="pdp_right_rail_related"]
 www.reddit.com,sh.reddit.com##community-highlight-card[subreddit-prefixed-name="r/uBlockOrigin"][src]:remove-attr(src)
+www.reddit.com,sh.reddit.com##in-feed-community-recommendations[subreddit-name="uBlockOrigin"]
+www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~[id^="comment-tree-content-anchor-"]+div:has(>[id^="answers-suggested-queries"])
 www.rkanr.com##div[id^="rkrCp"]
 www.ruhim.ru##p[align="center"] > noindex > a[href][target="_blank"] > img
 www.ruhim.ru##td[background*="banner"]
