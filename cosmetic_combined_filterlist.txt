@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.21.0230+1100 AEST
-! Last modified: 2026.02.21.0230+1100 AEST
+! Version: 2026.02.21.0721+1100 AEST
+! Last modified: 2026.02.21.0721+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -131395,6 +131395,10 @@ pradjadj.com##.widget_abd_shortcode_widget
 pradjadj.com##[href="/advertise"]
 praetorians.ws###page > noindex a[href][target="_blank"]:not([href^="http://praetorians.ws/forum/"])
 pragerzeitung.cz##.item-advert
+prajavani.net###mobile-story-card-1 + div[class]:has(.ad-text)
+prajavani.net###sticky-banner-id
+prajavani.net##.secondSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
+prajavani.net##.thirdSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
 prajwaldesai.com##+js(nostif, ai_)
 prajwaldesai.com##+js(nostif, site-access)
 prajwaldesai.com##div[data-elementor-id="327160"]
@@ -135886,6 +135890,7 @@ rbc.ru##.g-banner__news-footer:has(div[id^="unit_"])
 rbc.ru##.header__project__info
 rbc.ru##.js-company-news-slider-wrapper
 rbc.ru##.js-forecast
+rbc.ru##.js-index-central-column .item-commercial-anons-wrapper
 rbc.ru##.js-index-central-column > div[data-publisher-index]:has(> [data-rm-data-element*="Telegram"])
 rbc.ru##.js-index-doscroll-pro
 rbc.ru##.js-pro-slider__container
@@ -135918,6 +135923,9 @@ rbc.ru##[data-yandex-show^="commercial_cards_"]
 rbc.ru##a.video-player__details[target="_blank"]
 rbc.ru##a[data-yandex-show="block_newsfeed_show"]
 rbc.ru##body div[class^="MainNewsComponent_wrapper_"] [href^="https://pro.rbc.ru/"]
+rbc.ru##body.free [data-vr-zone="Топ новости"] .main__feed::before
+rbc.ru##body.free [data-vr-zone="Топ новости"] a[href*="utm_campaign"]:not([href^="https://pro.rbc.ru/"])
+rbc.ru##body.free [data-vr-zone="Топ новости"] a[href^="https://pro.rbc.ru/"]
 rbc.ru##body.free a.meta-info-row-project[href^="https://pro.rbc.ru"]
 rbc.ru##body.free a[class^="styles_message-bar_"][href^="https://pro.rbc.ru/"]
 rbc.ru##body.free div[class^="style_promo_"]
@@ -135941,6 +135949,9 @@ rbc.ru#?#.item-in-article:-abp-has([href*="erid="])
 rbc.ru#?#.js-index-central-column > div[data-publisher-index]:has(> div.js-index-doscroll div.content-cards-block__footer > div.content-cards-block__footer__right:contains(Реклама))
 rbc.ru#?#.l-col-100h:-abp-has(> div [href*="banner"])
 rbc.ru#?#.sticky-wrapper:-abp-has(> .sticky-element:empty)
+rbc.ru#?#body.free .intresting__list > .intresting__item:-abp-has(a[href^="https://pro.rbc.ru/"])
+rbc.ru#?#body.free .js-index-central-column > [data-publisher-index]:-abp-has([href^="https://pro.rbc.ru"])
+rbc.ru#?#body.free [data-vr-zone="Топ новости"] div:-abp-has(> a[href*="utm_campaign"]:not([href^="https://pro.rbc.ru/"]))
 rbc.ru#?#body.free aside.bside .sidebar:-abp-has(a[href^="https://pro.rbc.ru/"])
 rbc.ru#?#body.free div[class="central-publisher-item"]:-abp-has([href^="https://pro.rbc.ru/"])
 rbc.ru#?#div[class*="styles_newsfeed"] .sidebar:-abp-has(a[href*="utm_campaign"])
@@ -140320,7 +140331,7 @@ s13.ru##.brb
 s13.ru##iframe[data-src*="/icontent/"]
 s1live.com##.p-3
 s1live.com##div[data-v-00dd12df]
-s1p1cd.com,strmup.to,strmup.cc,strmup.ws,vidnest.io##+js(nowoif)
+s1p1cd.com,strmup.to,strmup.cc,strmup.ws,vidnest.io,vidnest.live##+js(nowoif)
 s2cinc.com##.sep-cookie-boxs
 s2e.com.pk,kireicosplay.com##.main-wrap ~ div[id][class*=" "]:not(.Ad-Container)
 s3nnet.de##.follow
@@ -147587,7 +147598,6 @@ softonic.com##div[id^="Newsletter-Subscription"]
 softonic.com##ins[id^="gpt_unit"]
 softonic.com##li[id^="res-top-downloads-spc-"]
 softonic.com##ul[data-meta="article-buttons-sharing"]
-softonic.com#%#//scriptlet('trusted-click-element', '#didomi-notice-learn-more-button, #btn-toggle-disagree')
 softonic.com#%#//scriptlet('trusted-set-cookie-reload', 'euconsent-v2', 'CP2APYAP2APYAAHABBENAcEgAAAAAAAAAAiQAAAAAAEEoAMAARBqDQAYAAiDUKgAwABEGopABgACINQ6ADAAEQaiEAGAAIg1BIAMAARBqGQAYAAiDUAA.YAAAAAAAAAAA')
 softonic.com,expansion.com###didomi-notice.shape-banner
 softonic.com,softonic.jp,softonic.nl,softonic.pl,softonic.com.br#?#div[class^="highlight-list__item"]:-abp-contains(/Sponsorisé|Sponsorizzato|Gesponsert|スポンサー|Promotie|Sponsorowany|Patrocinado/)
@@ -153551,6 +153561,7 @@ sydsvenskan.se##.ad-welcome
 sydsvenskan.se##.burt-native-unit.teaser
 sydsvenskan.se##.listbox--native
 sydsvenskan.se##.placeholder-native-unit
+sydsvenskan.se,softonic.com#%#//scriptlet('trusted-click-element', '#didomi-notice-learn-more-button, #btn-toggle-disagree')
 syfy.com##.tos-popup
 sygeforsikring.dk##.bg-sd-blue-secondary
 syl.ru##.flatBlock
@@ -170345,10 +170356,12 @@ vidmoly.to###vope
 vidmoly.to##+js(no-setTimeout-if, =document['createElement'])
 vidmoly.to##body > div[style*="opacity:"][style*="position: fixed; width:"][style*="z-index:"]:not([class], [id])
 vidnest.io##+js(abort-on-stack-trace, document.querySelectorAll, blockVideoCompletely)
-vidnest.io##+js(acs, EventTarget.prototype.addEventListener, open)
 vidnest.io##+js(no-setTimeout-if, bait.remove)
-vidnest.io##+js(nostif, bait.remove)
 vidnest.io#@#.AdsBox
+vidnest.io,vidnest.live##+js(acs, EventTarget.prototype.addEventListener, open)
+vidnest.io,vidnest.live##+js(nostif, bait.remove)
+vidnest.live##a[href^="https://candai.online/"]
+vidnest.live##a[href^="https://clearwatch.tv/"]
 vidnest.live,vidnest.io##+js(remove-node-text, script, maxPopsPerCycle)
 vidnest.live,vidnest.io##.main_container center p a[target="_blank"][rel="noopener"]
 vidnest.live,vidnest.io##a[href="https://candai.online/"]
@@ -177517,6 +177530,7 @@ www.google.*##div[data-is-ad="1"]
 www.google.*##div[data-is-promoted-hotel-ad="true"]
 www.google.*##div[data-section-type="ads"]
 www.google.*##div[data-tweed-card]:has(a[href^="https://www.google.com/aclk?"])
+www.google.*##div[jscontroller="DbCX3b"]:has(a[href^="/aclk?"])
 www.google.*##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 www.google.*##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"] #cnt div[class$="sh-sr__bau"]
