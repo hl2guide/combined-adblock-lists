@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.21.1636+1100 AEST
-! Last modified: 2026.02.21.1636+1100 AEST
+! Version: 2026.02.21.2117+1100 AEST
+! Last modified: 2026.02.21.2117+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -530,8 +530,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,1p,strict3p,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
 *$script,3p,denyallow=0gomovies.com.tr|cloudflare.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|mega.nz|recaptcha.net|somoskudasai.com,domain=animeflv.*
 *$script,3p,denyallow=101placeonline.com|bootstrapcdn.com|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|jwpcdn.com|recaptcha.net|sportscentral.io,domain=mlbstreams.to|nbastreams.to|nflbite.com|nflstreams.to|nhlstreams.to|soccerstreams.net
-*$script,3p,denyallow=4cdn.org|4chan.org|cloudflare.com|google.com|gstatic.com|hcaptcha.com|mathjax.org,domain=boards.4channel.org
-*$script,3p,denyallow=4cdn.org|4channel.org|cloudflare.com|google.com|gstatic.com|hcaptcha.com|mathjax.org,domain=4chan.org
+*$script,3p,denyallow=4cdn.org|4chan.org|cloudflare.com|google.com|gstatic.com|hcaptcha.com|mathjax.org|spur.us,domain=boards.4channel.org
+*$script,3p,denyallow=4cdn.org|4channel.org|cloudflare.com|google.com|gstatic.com|hcaptcha.com|mathjax.org|spur.us,domain=4chan.org
 *$script,3p,denyallow=9xbud.com|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|jwpsrv.com|plyr.io|twimg.com|twitter.com|recaptcha.net|x.com,domain=9xbuddy.*
 *$script,3p,denyallow=aechannel.com|ahacdn.me|rncdn7.com|disqus.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=gayporno.fm
 *$script,3p,denyallow=ahacdn.me|cdn77.org|cloudflare.net|googleapis.com|jsdelivr.net|jsdelivr.map.fastly.net,from=luscious.net
@@ -31644,6 +31644,7 @@ bestbuy.ca##[class^="sponsoredProdBoxGridArea"]
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 bestbuy.ca##div[data-automation^="criteo-sponsored-products-carousel-"]
 bestbuy.ca##section[data-automation="dynamic-content-ad-slot"]
+bestbuy.ca##section[data-automation="dynamic-content-featured-sku-list-home_fsl_sponsored"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 bestbuy.com###footer-email-block
 bestbuy.com###smartbannerContainer
@@ -66237,6 +66238,8 @@ football24.ua###user-vote-trigger
 football24.ua##.adv-insert
 football24.ua##.privete-polisy
 football24.ua##.share-soc-icons
+football24.ua##app-external-content
+football24.ua##app-ideal-media-between-news
 football24.ua##app-over-21
 football24.ua##app-simple-membrana-adv-block
 football24.ua##div[class*="BrandingPlace"]
@@ -102835,6 +102838,7 @@ macys.com###sponsored-items-container
 macys.com###tinybox
 macys.com###tinymask
 macys.com##.media-component-siteMonetization
+macys.com##.plp-page-row:has(.monetization-brand-label)
 macys.com##.siteMonetization
 macys.com##.sortable-grid-sponsored-items
 macys.com##.sortablegrid-product.featured-item
@@ -142821,6 +142825,10 @@ semafor.com###inline-principals-form
 semafor.com###inline-technology-form
 semafor.com###newsletter-sign-up
 semafor.com###vertical-signup-form
+semafor.com##._adHeaderMargin_psyvh_111
+semafor.com##._adMargin_psyvh_211
+semafor.com##._homeMiddleAd_x95p9_29
+semafor.com##._newsletterSignup_1uf9b_29
 semafor.com##.liveramp-inline-signup-form
 semafor.com##.styles_newsletterSection__6CWXE
 semafor.com##div[class=""] > div[class^="css-"]:has(> a[aria-label^="Share with"])
