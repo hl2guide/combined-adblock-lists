@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.21.1213+1100 AEST
-! Last modified: 2026.02.21.1213+1100 AEST
+! Version: 2026.02.21.1636+1100 AEST
+! Last modified: 2026.02.21.1636+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -55553,6 +55553,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-c
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 e.mail.ru,octavius.mail.ru#@#.letter-list-item-adv
 e.pn###cookie-toast
+e.pn#%#//scriptlet('hide-in-shadow-dom', '#cookie-toast')
 e.vnexpress.net##.block_follow_social
 e.vnexpress.net##.fixed_neo
 e0575.cn###main > div:first-child
@@ -83859,6 +83860,7 @@ im286.net###diyflash
 im286.net##.im286-t
 im286.net##.qybj
 im9.eu##+js(noeval-if, adpreserve)
+im9.eu##+js(rmnt, script, /adpreserve|\/0x/i)
 ima-usa.com##div[id^="ltkpopup-"]
 imacos.top##.sitetips
 imag-r.com##+js(aopr, adBlockerDetected)
@@ -178099,6 +178101,7 @@ wykop.pl##.closableContainerpopup_register
 wykop.pl##.cookie.rodo-alert
 wykop.pl##.dropdown .actions > .icon-facebook
 wykop.pl##.dropdown .actions > .icon-twitter
+wykop.pl##.lisek-app
 wykop.pl##.stream > .content > .register
 wykop.pl##a[href^="https://www.wykop.pl/adverts"]
 wykop.pl##aside.tag-top > .hits-slider:matches-css(before, content: /^reklama$/)
