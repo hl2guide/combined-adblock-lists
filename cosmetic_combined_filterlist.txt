@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.21.0721+1100 AEST
-! Last modified: 2026.02.21.0721+1100 AEST
+! Version: 2026.02.21.1213+1100 AEST
+! Last modified: 2026.02.21.1213+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -55252,7 +55252,6 @@ dzen.ru##[data-testid="dzen-pro-fullscreen"]
 dzen.ru##[data-testid="right-ad-block"]
 dzen.ru##[data-type="rtb_card"]
 dzen.ru##[id*="-teaser"] > div[id]
-dzen.ru##[id*="10-"]
 dzen.ru##[id*="20-"]
 dzen.ru##[id*="30-"]
 dzen.ru##[id*="_R-A-"]
@@ -104591,6 +104590,7 @@ market.yandex.ru,market.yandex.*##[data-banner-manager-id] [role="button"]
 market.yandex.ru,market.yandex.*##[data-baobab-name="recomMadv"] [role="button"]
 market.yandex.ru,market.yandex.*##[data-madv]
 market.yandex.ru,market.yandex.*##a[href^="https://ad.adriver.ru/"]
+market.yandex.ru,market.yandex.*##div[data-apiary-widget-name="@monetize/CreativeBanner"]
 market.yandex.ru,market.yandex.*##div[id^="remix_"] > div[style^="grid-row:"][style*="grid-column:"]:empty
 marketbeat.com###cphPrimaryContent_pnlCTARowOptin
 marketbeat.com###cphPrimaryContent_pnlSidebarBoxOptin
@@ -138626,7 +138626,7 @@ roblox.com###Skyscraper-Abp-Right
 roblox.com###app-bumper-main
 roblox.com###desktop-app-banner
 roblox.com##+js(href-sanitizer, a[href^="https://cts.businesswire.com/ct/CT?"][href*="url=http"], ?url)
-roblox.com##+js(json-prune, sorts.[-].recommendationList.[].contentMetadata.EncryptedAdTrackingData)
+roblox.com##+js(json-prune, sorts.[].recommendationList.[-].contentMetadata.EncryptedAdTrackingData)
 roblox.com##+js(trusted-set-cookie, RBXcb, RBXViralAcquisition=false&RBXSource=false&GoogleAnalytics=false)
 roblox.com##.abp
 roblox.com##.abp-spacer
@@ -177678,7 +177678,7 @@ www.reddit.com##body[style*="overflow"]:style(overflow: auto !important;)
 www.reddit.com##div.prompt:has(slot[name="view-in-app-button"])
 www.reddit.com,sh.reddit.com###main-content:has(>shreddit-title[title$="r/uBlockOrigin"])+#right-sidebar-container [data-slug="pdp_right_rail_related"]
 www.reddit.com,sh.reddit.com##community-highlight-card[subreddit-prefixed-name="r/uBlockOrigin"][src]:remove-attr(src)
-www.reddit.com,sh.reddit.com##in-feed-community-recommendations[subreddit-name="uBlockOrigin"]
+www.reddit.com,sh.reddit.com##in-feed-community-recommendations:is([subreddit-name="uBlockOrigin"],[subreddit-id="t5_37z6i"])
 www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~[id^="comment-tree-content-anchor-"]+div:has(>[id^="answers-suggested-queries"])
 www.rkanr.com##div[id^="rkrCp"]
 www.ruhim.ru##p[align="center"] > noindex > a[href][target="_blank"] > img
