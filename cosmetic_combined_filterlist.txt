@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.22.2116+1100 AEST
-! Last modified: 2026.02.22.2116+1100 AEST
+! Version: 2026.02.23.0217+1100 AEST
+! Last modified: 2026.02.23.0217+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -87979,6 +87979,9 @@ itavcn.com##.hot_dealerxin
 itavcn.com##.mb_right > .mt8:nth-child(3)
 itavcn.com##.topadvzone
 itavcn.com##img[width="722"]
+itavisen.no##+js(trusted-click-element, [id="qc-cmp2-ui"] [mode="secondary"], , 2000)
+itavisen.no##+js(trusted-click-element, [id="qc-cmp2-ui"] button[class*="css-"]:nth-of-type(1), , 3000)
+itavisen.no##.qc-cmp2-container
 itavisen.no##cloudflare-app[app-id="no-adblock"]
 itaxi.pl###itaxi-cookie
 itbaoku.cn##.col-lg-12[style="padding-left: 0px;padding-top: 15px;padding-bottom: 15px;"]
@@ -131546,6 +131549,7 @@ preispirat.ch##div[class="vc_row wpb_row vc_inner vc_row-fluid"]:has(#responsive
 preispirat.ch##div[class="vc_row wpb_row vc_inner vc_row-fluid"]:has(#responsivePromo)
 preispirat.ch##div[class="vc_row wpb_row vc_inner vc_row-fluid"]:has(img[src*="/partner-promo/"])
 preissuchmaschine.de##.AFS_ADD
+preisvergleich.de##.tariffTipp:has(.indication)
 prelex.it##.rstboxes
 prem.link###img_new
 prem.link#%#//scriptlet("set-constant", "waiting_time", "0")
@@ -153297,7 +153301,7 @@ svr.gov.ru##.pager-share-social
 svscomics.com##.regi
 svscomics.org##.regi
 svt.se###svtCookieInfoContainer
-svt.se##+js(trusted-set-cookie, cookie-consent-news-3, '{"optedIn":true,"statistics":false,"functionality":false}')
+svt.se##+js(trusted-set-cookie, cookie-consent-news-4, '{"categories":{"required":true,"improved_experience":false,"partners":false},"version":4}')
 svt.se##.nyh_share--article
 svt.se##.sp-article__share > li > button.sp-icon-social-facebook
 svt.se##.sp-article__share > li > button.sp-icon-social-twitter
@@ -179495,8 +179499,6 @@ ya.ru##.message-promo
 ya.ru##.promo-gallery
 ya.ru##.search3__inner > div.link-bro
 ya.ru##.search3__inner-wrapper > div > section[class*="reasoning-"][class*="_on-top"]
-ya.ru##[aria-label="Informers"] ~ [class]
-ya.ru##[aria-label^="Информ"] ~ [class][class]:not(button)
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
