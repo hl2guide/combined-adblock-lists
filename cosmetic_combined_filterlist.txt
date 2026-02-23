@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 2026.02.23.0716+1100 AEST
-! Last modified: 2026.02.23.0716+1100 AEST
+! Version: 2026.02.23.1218+1100 AEST
+! Last modified: 2026.02.23.1218+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -18108,6 +18108,7 @@ account.samsung.com##eu-cookie-action-bar
 account.scaleway.com###backdrop-modal
 account.xe.com#$#.consentCardOverlay { position: absolute !important; left: -3000px !important; }
 account.xiaomi.com###cookie-usage-notify
+account.xiaomi.com##._-src-components-CookieBanner-wrapper
 account.xiaomi.com##.mi-cookie-banner
 account.xiaomi.com##div[class^="Mui-src-portals-mobile-components-CookieBanner-"]
 accountantsdaily.com.au###after-article-subs
@@ -20723,7 +20724,6 @@ alfalfalfa.com##aside.section-box:has(> div.plugin-blogroll)
 alfalfalfa.com##aside.section-box:has(> div.plugin-extra > script)
 alfalfalfa.com##div[style="float: left; width:336px;height:280px;margin-bottom: 70px;"]
 alfastrah.ru##.SmartCaptcha-Shield
-alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
 alfavita.gr##.main__top
 alfavita.gr##.ros
 alfazdrav.ru###modalcookie
@@ -27406,7 +27406,6 @@ aumo.jp##.entry-sns-btns
 aumo.jp#$##js-smartBannerLink { display: none!important; }
 aumo.jp#$##wrapper-js[style^="padding-top:"] { padding-top: 48px!important; }
 aumo.jp#?#.entries-item-link[href^="javascript:"]:upward(1)
-auo.com##.gdpr-mask
 auone.jp##.article__container > .sns--large
 auone.jp##.optimize-origin
 auone.jp##.sns__items
@@ -31687,6 +31686,7 @@ bestcash2020.com#@#.banner-728x90
 bestcclm.com##.wp.cl > a
 bestcouponhunter.com,courseforfree.net,analogictips.com###text-9
 bestcrazygames.com##.ads160600
+bestdoc.com,sber-zvuk.com#%#//scriptlet('set-local-storage-item', 'accept_cookie', 'true')
 bestdoor.hu##.rstbox
 bestdrive.fi,bestdrive.no##+js(trusted-set-local-storage-item, acceptedCookies, '{"":false,"AMCV_###@AdobeOrg /":true,"AMCVS_###@AdobeOrg":true,"APISID, HSID, SAPISID, SID ja SSID cookies":true,"(auch GTM)":true,"NID cookie":true,"SIDCC cookie":true,"Youtube cookies":true,"mbox":true,"consent_adform":false,"consent_adobeanalytics":false,"consent_adobetarget":false,"consent_googleanalytics":false,"consent_googleads":false,"consent_facebook":false,"consent_giosg":false,"consent_nid":true}')
 bestdroidplayer.com##.ulp-overlay
@@ -115727,6 +115727,7 @@ new.artforintrovert.ru##app-bottom-sheet
 new.artforintrovert.ru,loyalfans.com,ripe.net##app-cookie-consent
 new.globe.com.ph##.privacyNotice
 new.hnair.com###declareGDPR
+new.hongkongairlines.com,nokaut.pl###GDPRModal
 new.land.naver.com##iframe[id="land_panel_da_tgtLREC"]
 new.lewd.ninja##+js(nano-sib, next, 1000, 0.001)
 new.lewd.ninja##.box.has-aids
@@ -118293,7 +118294,6 @@ noizz.hu,noizz.de##.floatingShareButtonContainer
 noizz.pl##.onet-ad
 noizz.rs###bannerStickyBottom
 noizz.rs##.placeholder
-nokaut.pl###GDPRModal
 nokiahacking.pl##+js(aopr, adsbygoogle.loaded)
 nokiapoweruser.com##.td-pb-span4 > .wpb_wrapper > .td-g-rec-id-sidebar
 nokiapoweruser.com##.td-ss-main-sidebar > .ai_widget
@@ -124822,6 +124822,8 @@ parking.spb.ru###user-agreement-notify
 parking.spb.ru##main + div.bottom-4
 parkinson-klinik.de###mycookietip
 parklot.pl#%#//scriptlet('remove-node-text', 'script', 'wp_cookie_info')
+parkwhiz.com#$#.deep-link-banner { display: none !important; }
+parkwhiz.com#%#//scriptlet('remove-class', 'with-deep-link-banner', '#root > #site-wrap')
 parkwodny.pl###cookies-baner-wrapper
 parlament.gv.at##.cookieContent
 parlament.gv.at##.popupOverlay
@@ -140114,6 +140116,7 @@ rwz.de,gks-rechtsanwaelte.de###GDPRConsent
 rx.edu.pl,aptekaszpitalna.pl,mgr.farm,polskieradio24.pl,dziennikwschodni.pl,polskieradio.pl##.rodo-modal
 rxbabu.com##.flotiads
 rxbabu.com#%#//scriptlet('adjust-setInterval', 'clearInterval(countdownTimer)')
+rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
 rxlist.com#%#//scriptlet('set-cookie', 'gdpreu', '1')
 rxresource.org###lowerdrugsAd
 ryanair.com###cookie-popup-with-overlay
@@ -141403,7 +141406,6 @@ sbenny.com##div[style*="margin-top:"][style*="margin-bottom:"][style*="20px"]
 sber-bank.by##.BPSSite_Mobile_Apps
 sber-bank.by##.CookiesMessageBlock
 sber-bank.by##.SocialShareLinks
-sber-zvuk.com#%#//scriptlet('set-local-storage-item', 'accept_cookie', 'true')
 sber-zvuk.com#?#.reactRoot > div[class]:has(> div[class] > a[href*="?pid=smart_banner"])
 sber.ru##div[class^="Cookies_cookie-warning_"]
 sber.ru##div[data-testid="cookie_banner"]
@@ -156555,6 +156557,7 @@ tenceretv.com##.solItemIc > #ortayer_haberOzet + div[style="height: 35px; width:
 tendaatacado.com.br##.DisclaimerCookieComponent
 tendacn.com##.td-cookie-wrap
 tendanceaumasculin.fr##.placeholder
+tenereteam.com,hotdeals.com##.privacy-policy-pop
 tenerife-guided-walks.com###dmPopup
 tenerife-guided-walks.com###dmPopupMask
 teneriffa-aktuell.com##.adv-wrapper
@@ -167073,6 +167076,8 @@ umaumanews.com,blog.fc2.com,blog.jp###blogroll
 umbriamagazine.com###thelink
 umbriasocial.it##div[id^="umbri-"]
 umbriatv.com##div[id^="div-home-banner-"]
+umc.com##.gdpr
+umc.com,auo.com##.gdpr-mask
 umcutrecht.nl#%#//scriptlet('set-local-storage-item', 'consent', '1')
 umcutrecht.nl#@##cookieConsent
 umdoisesportes.com.br##.c-share > li:has(> .c-btn-share-post[data-target="modal-share"])
