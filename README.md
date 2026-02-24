@@ -22,7 +22,13 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 - Python code runs on GitHub directly using GitHub Actions
     - Updates about every 6 hours, each day
 
-## Recent News : 2026-02-09
+## Recent News
+
+### 2026-02-25
+
+- Added more languages : Dutch, Russian, Polish, Arabic etc.
+
+### 2026-02-09
 
 - Fixed unreliable URLs and found alternative
 - Added major languages support : German, French, Korean etc

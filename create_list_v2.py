@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.11
-# Edited: 2026-02-09 14:44:53 +1100
+# Version 2.0.12
+# Edited: 2026-02-25 06:43:40 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -156,23 +156,39 @@ TESTING_URLS = [
     # EasyList - Testing (more reliable links : 29.01.2026)
     # Mirror:
     # https://github.com/thedoggybrad/easylist-mirror?tab=readme-ov-file#easylist-mirror-unofficial
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easyprivacy.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylist.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/antiadblock.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easycookie.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylist.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easyprivacy.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboy-newsletter.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboy-sounds.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboyannoyance.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboysocial.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/antiadblock.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboy-sounds.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboy-newsletter.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/fanboysocial.txt",
     # EasyList - Countries (more reliable links : 29.01.2026)
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/advblock.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistchina.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistgermany.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistitaly.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/liste_fr.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistchina.txt",
-    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/advblock.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistspanish.txt",
     f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/koreanlist.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/liste_fr.txt",
+    # more (25.02.2026)
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/Liste_AR.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/NordicFiltersABP-Inclusion.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/abp-filters-anti-cv.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/abpindo.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/adblock_bg.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/advblock.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/bitblock.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistczechandslovak.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistdutch.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistlithuania.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistpolish.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/easylistportuguese.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/indianlist.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/latvian-list.txt",
+    f"{URL_PREFIX_GH}/thedoggybrad/easylist-mirror/main/rolist.txt",
     #"https://easylist.to/easylist/easylist.txt",
     # Fanboy Lists
     #"https://fanboy.co.nz/fanboy-cookiemonster.txt",
