@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 - All domain blocking rules are excluded from the list
     - _Does not work in AdGuard Home or similar domain-based software_
 - Comments and duplicate lines are ignored and the list is sorted
-- The list is approximately 10MB in size
+- The list is approximately 12MB in size
 - Python code runs on GitHub directly using GitHub Actions
     - Updates about every 6 hours, each day
 
