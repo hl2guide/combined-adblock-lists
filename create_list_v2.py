@@ -394,7 +394,7 @@ elapsed = time.perf_counter() - start
 print()
 print(f"Elapsed: {elapsed:.6f} seconds")
 print()
-print(f"Version String: {LAST_MODIFIED}")
+print(f"Version String: {VERSION}")
 print()
 print(f'Saved to: {OUTPUT_FILE}')
 print()
