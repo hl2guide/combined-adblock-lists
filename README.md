@@ -24,16 +24,4 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 
 ## Recent News
 
-### 2026-02-27
-
-- Added version string
-- Testing increased number of workers in Python file
-
-### 2026-02-25
-
-- Added more languages : Dutch, Russian, Polish, Arabic etc.
-
-### 2026-02-09
-
-- Fixed unreliable URLs and found alternative
-- Added major languages support : German, French, Korean etc
+[HISTORY](HISTORY.md)

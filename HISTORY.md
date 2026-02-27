@@ -1,3 +1,17 @@
+# 2026-02-27
+
+- Added version string
+- Testing increased number of workers in Python file
+
+# 2026-02-25
+
+- Added more languages : Dutch, Russian, Polish, Arabic etc.
+
+# 2026-02-09
+
+- Fixed unreliable URLs and found alternative
+- Added major languages support : German, French, Korean etc
+
 # Tested
 
 Item | Improvement
@@ -6,4 +20,3 @@ Item | Improvement
 total build and run time | from 30 seconds to about 19 seconds
 frequency of generation (hours) | 3 changed to 6
 GitHub Action | uses job caching to speed up runs
-
