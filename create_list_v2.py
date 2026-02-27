@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.12
-# Edited: 2026-02-25 06:43:40 +1100
+# Version 2.0.13
+# Edited: 2026-02-27 11:59:13 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -297,7 +297,9 @@ print()
 print('Starting Filter List downloads..')
 
 # How many threads should run in parallel?
-NUM_WORKERS = 24
+# NUM_WORKERS = 24
+# TESTING MORE WORKERS
+NUM_WORKERS = 32
 
 # Combines the URL lists to one list of URLs
 URLS = TESTING_URLS
@@ -366,10 +368,13 @@ for LINE in LINES:
 
 LAST_MODIFIED = datetime_sydney()
 
+with open('VERSION.txt', 'r', encoding="utf-8") as f:
+    VERSION = f.read().strip()
+
 COMMENT_BLOCK = f"""[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: {LAST_MODIFIED}
-! Last modified: {LAST_MODIFIED}
+! Version: {VERSION}
+! Last Modified: {LAST_MODIFIED}
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
