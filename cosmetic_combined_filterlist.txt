@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.195
-! Last Modified: 2026.02.28.1208+1100 AEST
+! Version: 1.0.196
+! Last Modified: 2026.02.28.1627+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3876,6 +3876,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https?:\/\/[a-z-]{6,}\.(?:com?|pro|info|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case
 /^https?:\/\/[a-z0-9]+\.cloudfront\.net\/\?[a-z]{5}\=\d{6}$/$script,third-party
 /^https?:\/\/[a-z0-9]+\.rumormillnews\.com\/images\/(make_my_day.JPG|banner3kevinremade.jpeg|banner3kevinremade.jpeg|africanfamily3.jpg|acm-homeworkshop.jpg)/$domain=rumormillnews.com
+/^https?:\/\/[a-z0-9]{10,}\.[a-z]{9,}\.co\.in\//$all,to=co.in
 /^https?:\/\/[a-z0-9]{5,15}\.(?:com|net)\/tag\.min\.js$/$third-party,script
 /^https?:\/\/[a-z0-9]{5,15}\.(?:com|net)\/tag\.min\.js/$script,3p,redirect=noopjs,to=com|net
 /^https?:\/\/[a-z0-9]{5,15}\.(?:com|net)\/tag\.min\.js/$xhr,3p,redirect=nooptext,to=com|net
@@ -19098,6 +19099,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 9gag.com##.download-app-container
 9gag.com##.featured-video
 9gag.com##.get-the-app-banner
+9gag.com##.inline-ad-container
 9gag.com##.list-stream > article:has(> header > .post-header > .ui-post-creator > .promoted)
 9gag.com##.list-stream > article:has(p > a[target="_blank"]:contains(Promoted))
 9gag.com##.list-stream > article:not([id]):has(a[href="https://9gag.com/advertise"])
@@ -19108,6 +19110,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 9gag.com##.post-tab-bar__wrapper.fixed[style*="top:"]:style(top: 48px !important;)
 9gag.com##.postpage-share .twitter
 9gag.com##.salt-section
+9gag.com##.salt-wrapper
 9gag.com##.signup-list-banner
 9gag.com##.signup-side-banner
 9gag.com##.use-app
@@ -140824,6 +140827,7 @@ open.spotify.com###leaderboard-ad-element
 open.spotify.com##.Root__nav-bar a[href="/download"]
 open.spotify.com##.Root__now-playing-bar > footer[data-testid="now-playing-bar"] > div[data-testid="signup-bar"]
 open.spotify.com##.contentSpacing .paywall[data-testid="lyrics-container"] p[data-encore-id="text"]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
+open.spotify.com##.encore-layout-themes[data-testid="embed-widget-container"] div[class^="TrackWidget_singleGridContainer"] div[class^="TrackWidget_metadataWrapper"]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
 open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 open.spotify.com##a[data-context-item-type="ad"]
 open.spotify.com##aside[aria-label="Now playing view"] > div > div[data-overlayscrollbars-viewport="scrollbarHidden"] div[style="--trans-x: 0px;"] > h1:contains(Advertisement)
