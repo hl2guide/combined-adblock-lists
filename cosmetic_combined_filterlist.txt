@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.214
-! Last Modified: 2026.03.04.0724+1100 AEST
+! Version: 1.0.215
+! Last Modified: 2026.03.04.1214+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3965,6 +3965,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /_adsmodern/*$image
 /_annonser^$image
 /_assets/oply/public/*
+/_astro/useProtonTelemetry.$script
 /_blazor/*$ping
 /_bm/abd$script,domain=eurosport.no|eurosport.dk
 /_cookie-monster.js
@@ -24205,7 +24206,6 @@ akb48matomemory.com##section[id^="PERMALINK_SYSTEM"]
 akb48matomemory.com#?#span[style="font-size: 125%;"]:has(> a[target="_blank"])
 akb48matomemory.com,mona-news.com,vipsister23.com,blog.esuteru.com##.plugin-twitter_follow_button
 akbank.com#%#//scriptlet('trusted-set-cookie-reload', 'hscv', 'shown')
-akbank.com,migros.com.tr,isbank.com.tr,isbank.com.tr,turkcell.com.tr,lumberjack.com.tr,karaca.com,karaca-home.com,shiftdelete.net##body > efilli-layout-dynamic
 akbmatomeatoz.ldblog.jp##div[style$="height:350px;width:630px;"]
 akbw.de##+js(trusted-set-cookie, fc_cookieconsent_status, general)
 akc.org##div[data-js-props*="newsletter"]
@@ -39198,7 +39198,7 @@ bitcoiner.tv##[href="https://bitcoiner.tv/buy-btc.php"]
 bitcoinfaucet.network###wcfloatDiv2
 bitcoinist.com##.custom-popup-banner
 bitcoinist.com##.widget_featured_companies
-bitcoinist.com,captainaltcoin.com,coinpaprika.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
+bitcoinist.com,captainaltcoin.com,coinpaprika.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,gameshub.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
 bitcoinist.com,darkreading.com,everydayhealth.com,gamedeveloper.com,historyextra.com,radiotimes.com##.newsletter-sign-up
 bitcoinist.com,historyextra.com,everydayhealth.com,sciencefocus.com,discoverwildlife.com,radiotimes.com##body .newsletter-sign-up
 bitcoinist.com,newsbtc.com##.widget_premium_partners
@@ -76943,8 +76943,9 @@ forchecking.ru##body > div > a[target="_blank"] > img
 ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner-wrapper
 ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de,officiallondontheatre.com,thejazzcafe.com#@#.gdpr-overlay
 ford-moessbauer-waldershof.de#%#//scriptlet('trusted-click-element', '#cookie-consent-modal #consent-reject', '!cookie:Consent', '1500')
+ford-trucks.com##.forum_sponsor_info
 ford-trucks.com##.navbar_notice
-ford-trucks.com##.text-center:has([style])
+ford-trucks.com##[style*="min-height: 275px"]
 ford.*##div[class^="cookie-disclaimer-"]
 ford.ca##.cookie-notice-overlay
 ford.co.nz##.cmp-cookiebanner
@@ -104325,6 +104326,7 @@ justdial.com###gptAdsDiv
 justdial.com##.b-modal.__b-popup1__
 justdial.com##.topband.setbackfix
 justetf.com###brokerAd
+justetf.com##.borker-ad
 justetf.com##.m-sep-l:has(#partnerNewsBox)
 justetf.com##.wAd
 justetf.com##div[id^="shadow-teaser-"]:has(div[class="disclaimer mb-1"])
@@ -111854,8 +111856,6 @@ ledlumen.pl,blsspain-russia.com###popup
 ledojomanga.com##.btns-partage
 ledpremium.ru##.page-body > aside > div[id^="comp_"]
 ledpremium.ru,stream-park.ru,pharmeconom.ru,mlg.ru,online-knigi.com,2x2tv.ru##.bottom__cookie-block
-lee.com.tr###ins-frameless-overlay
-lee.com.tr##.ins-pos-middle-center
 lee.hpplus.jp###text-11
 lee.hpplus.jp##.sns-buttons-wrap
 leeapk.com##+js(acs, document.querySelectorAll, localStorage)
@@ -190390,6 +190390,8 @@ ubitennis.com###masthead-wrapper
 ubitennis.com###mvp-side-wrap > section[id^="mc4wp_form_widget"]
 ubitennis.com###mvp-video-embed-wrap.left
 ubitennis.com##.pubtech-adv-container
+ublockdns.com##nav+section>div:first-child::before:style(content: 'Not related to uBlock Origin.' !important; font-size: 32px !important; color: red !important; font-weight: bold !important;)
+ublockorigin.com##.title::before:style(content: 'This is not the official uBlock Origin site.' !important; font-size: 32px !important; color: red !important; font-weight: bold !important;)
 ubmcmm.baidustatic.com
 ubn.news##.block-follow
 ubn.news##.sticky-wrap-bottom
@@ -202057,6 +202059,9 @@ wral.com##.antenna
 wral.com##.breakpoint-desktop-only
 wral.com##.vw3Klj
 wralsportsfan.com##.sponsor-label
+wrangler.com.tr,akbank.com,migros.com.tr,isbank.com.tr,isbank.com.tr,turkcell.com.tr,lumberjack.com.tr,karaca.com,karaca-home.com,shiftdelete.net##body > efilli-layout-dynamic
+wrangler.com.tr,lee.com.tr###ins-frameless-overlay
+wrangler.com.tr,lee.com.tr##.ins-pos-middle-center
 wrangler.jeep.com.br##.disclaimers-lgpd
 wrc.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , domain, .wrc.com)
 wrc.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0, , , domain, .wrc.com)
