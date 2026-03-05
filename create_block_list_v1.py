@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.1
-# Edited: 2026-03-05 15:53:14 +1100
+# Version 1.0.2
+# Edited: 2026-03-05 17:03:32 +1100
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -168,7 +168,14 @@ TESTING_URLS = [
     "https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt",
     "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
     "https://blocklistproject.github.io/Lists/adguard/twitter-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt"
+    "https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt",
+    # https://github.com/hagezi/dns-blocklists
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt",
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt"
 ]
 
 print()
