@@ -42,7 +42,9 @@ jobs:
         run: python version_increment.py
       - name: Run create_cosmetic_list_v2.py
         run: python create_cosmetic_list_v2.py
-      - name: Commit and push changes
+      - name: Run create_block_list_v1.py
+        run: python create_block_list_v1.py
+        - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
