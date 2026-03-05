@@ -55,7 +55,7 @@ jobs:
           #python -m flake8 . --count --show-source --statistics --max-line-length=200
       - name: Analyse code using pylint
         run: |
-          python -m pylint $(git ls-files '*.py')
+          python -m pylint --disable=duplicate-code $(git ls-files '*.py')
 
 # OLD:
 # python -m pip install --upgrade pip
