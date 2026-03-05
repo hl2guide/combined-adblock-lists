@@ -25,8 +25,9 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
     - _Does not work in AdGuard Home or similar domain-based software_
 - The list is approximately 12MB in size
 
-
 ### Blocklist
+
+Blocks bad domains.
 
 - Includes specific filters lists from _The Block List Project_
     - (can be viewed in the `create_blocklist_list_v1.py` file.)
