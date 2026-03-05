@@ -257,7 +257,7 @@ COMMENT_BLOCK = f"""[Adblock Plus 2.0]
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
 !
 
-!--------------------------Cosmetic filtering rules-----------------------------!
+!--------------------------Blocklist filtering rules-----------------------------!
 """
 
 # Adds the comment block to start of the text file
