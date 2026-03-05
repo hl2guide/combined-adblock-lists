@@ -40,8 +40,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run version_increment.py
         run: python version_increment.py
-      - name: Run create_list_v2.py
-        run: python create_list_v2.py
+      - name: Run create_cosmetic_list_v2.py
+        run: python create_cosmetic_list_v2.py
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
