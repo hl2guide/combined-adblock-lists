@@ -13,6 +13,8 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 
 ## Details
 
+### Cosmetic List
+
 - Includes specific filters lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
     - (can be viewed in the `create_list_v2.py` file.)
 - All domain blocking rules are excluded from the list
@@ -20,7 +22,19 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 - Comments and duplicate lines are ignored and the list is sorted
 - The list is approximately 12MB in size
 - Python code runs on GitHub directly using GitHub Actions
-    - Updates about every 6 hours, each day
+    - Updates about every 5 hours, each day
+
+### Blocklist
+
+- Includes specific filters lists from _The Block List Project_
+    - (can be viewed in the `create_blocklist_list_v1.py` file.)
+- Only domain blocking rules are included in the list
+    - _Works in AdGuard Home or similar domain-based software_
+    - Consider performance reasons to not use it in browser-based extensions
+- Comments and duplicate lines are ignored and the list is sorted
+- The list is approximately 25MB in size
+- Python code runs on GitHub directly using GitHub Actions
+    - Updates about every 5 hours, each day
 
 ## Recent News
 
