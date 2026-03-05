@@ -38,4 +38,4 @@ Blocks bad domains.
 
 ## Recent News
 
-[HISTORY](HISTORY.md)
+[HISTORY.md](HISTORY.md)
