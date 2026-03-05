@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 
 ### Cosmetic List
 
-- Includes specific filters lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
+- Includes specific filter lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
     - (can be viewed in the `create_list_v2.py` file.)
 - All domain blocking rules are excluded from the list
     - _Does not work in AdGuard Home or similar domain-based software_
@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 
 Blocks bad domains.
 
-- Includes specific filters lists from _The Block List Project_
+- Includes specific filter lists from _The Block List Project_
     - (can be viewed in the `create_blocklist_list_v1.py` file.)
 - Only domain blocking rules are included in the list
     - _Works in AdGuard Home or similar domain-based software_
