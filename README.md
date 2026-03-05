@@ -11,7 +11,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
     - Updates about every 5 hours, each day
 - Comments and duplicate lines are ignored and the lists are sorted
 
-### Cosmetic List
+### Cosmetic Combined Filterlist
 
 - Includes specific filter lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
     - (can be viewed in the `create_cosmetic_list_v2.py` file.)
@@ -25,7 +25,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/main/cosmetic_combined_filterlist.txt
 ```
 
-### Blocklist
+### Blocklist Combined Filterlist
 
 Blocks bad domains.
 
