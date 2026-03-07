@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.234
-! Last Modified: 2026.03.08.0225+1100 AEST
+! Version: 1.0.235
+! Last Modified: 2026.03.08.0727+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3673,6 +3673,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,to=life|live|top|xyz
 /^https:\/\/[0-9a-z]{30,}\.s3\.[-a-z]+\d+\.backblazeb2\.com\/W[0-9A-Za-z]*in0[0-9A-Za-z]*Er0[0-9A-Za-z]*\/index\.html/$doc,match-case,domain=backblazeb2.com
 /^https:\/\/[0-9a-z]{5,}\.[a-z]{2,3}\/z-[5-9]\d{6}$/$script,~3p
+/^https:\/\/[0-9a-z]{6,12}\.in(?:\/[a-z]{2,10}){1,3}$/$script,3p,match-case
 /^https:\/\/[0-9a-z]{6,8}\.[a-z]{2,10}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|bond|business|cam|cards|casa|click|cloud|coupons|courses|cv|digital|diy|fashion|food|forum|gay|guru|hair|info|life|live|living|link|ltd|my|ooo|property|pw|qpon|republican|rocks|run|sale|sbs|services|shop|skin|store|studio|support|surf|tattoo|tech|today|top|uno|watch|work,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[0-9_a-z]{6,16}\/?[0-9_a-z]{5,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,match-case,redirect=noopjs,to=com|~adatoolbar.com|~aswpsdkus.com|~chimpstatic.com|~clickiocmp.com|~mojirater.com|~polldaddy.com|~squareoffs.com|~succeedscene.com|~tallysight.com|~veraviews.com,_____,from=15min.lt|247sports.com|abc17news.com|addictinggames.com|agrodigital.com|al.com|aliontherunblog.com|allaboutthetea.com|allmusic.com|allthingsthrifty.com|amessagewithabottle.com|arstechnica.com|artforum.com|artnews.com|audiomack.com|awkward.com|azcentral.com|barcablaugranes.com|barnsleychronicle.com|bethcakes.com|betweenenglandandiowa.com|bgr.com|billboard.com|blazersedge.com|blogher.com|bloxinformer.com|blu-ray.com|bluegraygal.com|boredpanda.com|briefeguru.de|brobible.com|cagesideseats.com|cbsnews.com|cbssports.com|celiacandthebeast.com|chaptercheats.com|cheatsheet.com|cleveland.com|clickondetroit.com|coloradoan.com|commercialobserver.com|competentedigitale.ro|cracked.com|dailycaller.com|dailydot.com|dailykos.com|dailyvoice.com|danslescoulisses.com|databazeknih.cz|deadline.com|decider.com|dexerto.com|didyouknowfacts.com|digitalmusicnews.com|dogtime.com|dpreview.com|eater.com|ebaumsworld.com|egoallstars.com|eldiariony.com|fark.com|femestella.com|flickr.com|fmradiofree.com|forums.hfboards.com|free-power-point-templates.com|freeconvert.com|freep.com|frogsandsnailsandpuppydogtail.com|funtasticlife.com|fwmadebycarli.com|golfdigest.com|greenbaypressgazette.com|grunge.com|gulflive.com|hollywoodreporter.com|homeglowdesign.com|honeygirlsworld.com|ibtimes.co.in|imgur.com|indiewire.com|intouchweekly.com|iphoneincanada.ca|jasminemaria.com|jsonline.com|kens5.com|kinobox.cz|kion546.com|knowyourmeme.com|komonews.com|krem.com|last.fm|lehighvalleylive.com|lettyskitchen.com|lifeandstylemag.com|lifeinleggings.com|lizzieinlace.com|localnews8.com|lonestarlive.com|macwelt.de|macworld.com|madeeveryday.com|maidenhead-advertiser.co.uk|mandatory.com|mardomreport.net|masslive.com|melangery.com|miamiherald.com|mlive.com|mmamania.com|momtastic.com|mostlymorgan.com|motherwellmag.com|motor1.com|motorsport.com|musicfeeds.com.au|naszemiasto.pl|nationalpost.com|nationalreview.com|nbcsports.com|news.com.au|ninersnation.com|nj.com|nordot.app|nothingbutnewcastle.com|nsjonline.com|nypost.com|observer.com|ocala.com|ontvtonight.com|oregonlive.com|pagesix.com|palmbeachpost.com|patheos.com|pcbolsa.com|pennlive.com|pep.ph|phillyvoice.com|playstationlifestyle.net|pnj.com|pravda.sk|press-citizen.com|prydwen.gg|puckermom.com|pwinsider.com|reelmama.com|reuters.com|rlfans.com|robbreport.com|rollingstone.com|royalmailchat.co.uk|sandrarose.com|sbnation.com|sheknows.com|sidereel.com|silive.com|smartworld.it|sneakernews.com|sourcingjournal.com|sport-fm.gr|sportico.com|sportsgamblingpodcast.com|spotofteadesigns.com|ssnewstelegram.com|stacysrandomthoughts.com|stylecaster.com|superherohype.com|syracuse.com|tablelifeblog.com|tasteofhome.com|tastingtable.com|techcrunch.com|thecelticblog.com|thedailymeal.com|theflowspace.com|themarysue.com|thenerdstash.com|thenerdyme.com|theprudentgarden.com|theverge.com|tiermaker.com|timesofisrael.com|tiscali.cz|tokfm.pl|torontosun.com|tvline.com|usatoday.com|usmagazine.com|variety.com|viralviralvideos.com|wallup.net|wannacomewith.com|wcnc.com|weather.com|wimp.com|windsorexpress.co.uk|woojr.com|worldoftravelswithkids.com|worldstar.com|worldstarhiphop.com|worldsurfleague.com|wunderground.com|wwd.com|wyborkierowcow.pl|wzzm13.com|ydr.com|yourcountdown.to|zdnet.com
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[0-9_a-z]{6,16}\/?[0-9_a-z]{5,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,match-case,to=com|~adatoolbar.com|~aswpsdkus.com|~chimpstatic.com|~clickiocmp.com|~mojirater.com|~polldaddy.com|~squareoffs.com|~succeedscene.com|~tallysight.com|~veraviews.com,redirect=noopjs,ipaddress=/^(3[45]\.\d+\.\d{2,3}\.\d{2,3}|2600:1901:0:[a-f0-9]{3,4}::1)$/
@@ -24761,7 +24762,6 @@ alfazdrav.ru###modalcookie
 alfemminile.com##.unfyas
 alfen.com##.l-cookie-control
 alfombrashamid.es,autovilardell.com,blancmarine.com,carmenvazquez.es,fadenkreuz-shop.de,farmaciadejaime.es,hobbysaliplant.com,kalkumezquerra.com,lauraashley.es,maletia.com,mcracingsa.com,molpack.com,moverte.com,moviloff.es,mueblestudio.com,muellerglas.at,rhsgroup.ro,sakata3d.com,tomasbodero.com,vinoyalgomas.com##.cookiesplus-modal
-alfons-wurm-olpe.de,dreierlei-restaurant.de##.code-block:has(.hb-ad-inpage)
 alfred.camera###noty_layout__bottomLeft
 alfred.camera##+js(aeld, DOMContentLoaded, ads)
 alfred.camera##+js(nosiif, ads)
@@ -63151,6 +63151,7 @@ drednot.io##.shipyard-ad
 drehscheibe-online.de###dsBanner
 dreid.com###boxHolder
 dreieich.de,koenigstein.de##.cookie-consent-dialogue
+dreierlei-restaurant.de##.code-block:has(.hb-ad-inpage)
 dreingau-zeitung.de###banner_right
 dreingau-zeitung.de,linguee.de###banner_top
 dreissigacker-wein.de##.global-background
@@ -97022,7 +97023,7 @@ imgfiles.ru##[id^="bn"] > *
 imgflip.com###findUs
 imgflip.com##.shr-btns
 imgfrost.net,imgair.net###pbe
-imggen.ai,iplogger.org,wallhere.com,webnots.com,wikitechy.com##div[id^="bsa-zone_"]
+imggen.ai,iplogger.org,jsonlint.com,wallhere.com,webnots.com,wikitechy.com##div[id^="bsa-zone_"]
 imginn.com##+js(acs, document.createElement, unblocker)
 imginn.com##.block-h12
 imginn.com##.block-sulvo
@@ -122787,6 +122788,8 @@ megabank.com.tw##.gdpr-text-align
 megabox.co.kr##.main-notice-layer
 megaboxfilmesonline.com##a[href^="//ladskiz.com"]
 megabus.com###GB_overlay
+megacatstudios.com#$#.popup__modal { display: none !important; }
+megacatstudios.com#$#body.has-modal { overflow: auto !important; }
 megacatstudios.com#$#div[class^="mfp-"] { display: none !important; }
 megacatstudios.com#$#html[style*="overflow:"] { overflow: auto !important; margin-right: 0 !important; }
 megacidade.com##div[class^="pos-ads-"]
@@ -151679,6 +151682,7 @@ primetech.bg##div[style^="color: rgb(51, 51, 51); text-align: center;"]
 primetime.be##.t-cookie-bar-holder
 primetimer.com###primis-ad-container
 primetvindia.com##a[href*="cucet.cuchd.in"]
+primevid.click##div[style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100vh; z-index: 3; background-color: transparent;"]
 primevideo.com##+js(json-prune, cuepointPlaylist vodPlaybackUrls.result.playbackUrls.cuepoints)
 primevideo.com##+js(set, ue_adb_chk, 1)
 primevideo.com##.DVWebNode-conditional-site-wide-wrapper > .fbl-banner:has(form[action*="/privacyprefs/sp/consent/"])
@@ -153337,6 +153341,7 @@ pulse.mail.ru##div[data-sid="fulltext_wiget_promo"]
 pulse24news.com##.site-content .wp-block-ultimate-post-image
 pulsembed.eu#@#iframe[width="600"][height="90"]
 pulsesync.dev##div[class^="cookieConsent-module-"]
+pulsesync.dev##div[class^="spaceBackground-module-"]
 pulsesync.dev##div[class^="warnNotification-module-"]
 pulsgdanska.pl##.c-content__adv
 pulsgdanska.pl##.c-content__report + div[style="min-height: 500px;"]
@@ -160723,7 +160728,6 @@ rusplt.ru#$?#.post__widgetPopup__bigBlock:has(> div) { display: none!important; 
 rusplt.ru#$?#body:has(> div) > div.shadowLayout__black { display: none!important; }
 rusplt.ru#$?#body:has(> div) { overflow: visible!important; }
 rusprofile.ru###sticky-header
-rusprofile.ru##.footer-social
 rusprofile.ru#?#div:-abp-has(> div > [id^="yandex_rtb"])
 rusprofile.ru,tvin.su#?#div:-abp-has(> div > [id^="adfox_"])
 rusradio.ru##a[href^="/target/"]
@@ -163795,6 +163799,7 @@ securitylab.ru##.hacker-banner
 securitylab.ru##.promo-banner
 securitylab.ru##.section-subscribe-social
 securitylab.ru##.webinar-banner
+securitylab.ru##a[href*="utm_"][target="_blank"] > div
 securitylab.ru##div[id^="js-banner-"]
 securitymagazine.com##.sponsored-content-widget
 securitymedia.org##.banner_with_erid
@@ -194560,19 +194565,15 @@ vgtimes.com##body:style(overflow: auto !important; position: initial !important;
 vgtimes.com,vgtimes.ru##.tg_ad
 vgtimes.com,vgtimes.ru#$#.soc_fullscr.twitter { display: none !important; }
 vgtimes.com,vgtimes.ru#$#body { overflow: auto !important; }
-vgtimes.ru###bspromo
 vgtimes.ru###lg-share
-vgtimes.ru##.adfshift
 vgtimes.ru##.banner_in_news
-vgtimes.ru##.dragon_lord
-vgtimes.ru##.fatad
 vgtimes.ru##.forge_empires
 vgtimes.ru##.login > span.create_acc
 vgtimes.ru##.notification.game_review_ask
+vgtimes.ru##.push_ask
 vgtimes.ru##.soci
 vgtimes.ru##.thisad
 vgtimes.ru##.write_gr
-vgtimes.ru##.write_gr.show
 vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 vgtimes.ru#?#.article_block:-abp-has(> p > i:-abp-contains(/adblock/i))
 vgtimes.ru#@##gotop
@@ -195207,6 +195208,11 @@ vidup.*##.sponsored-container
 vidup.io##.PushNotification
 vidup.io##.sponsored-container
 vidup.to#$#abort-current-inline-script addEventListener HTMLAllCollection;
+viduyy.com##+js(prevent-fetch, mode:no-cors)
+viduyy.com##a[href^="https://s.shopee.co.id/"]
+viduyy.com#@#.google-ad
+viduyy.com#@#.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
+viduyy.com,primesrc.me,primevid.click##+js(no-window-open-if)
 vidwatch.me###impo_overlay
 vidwatch.me###over_main
 vidyarays.com##body > center:has(> p:contains(Advertisement))
