@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.233
-! Last Modified: 2026.03.07.2125+1100 AEST
+! Version: 1.0.234
+! Last Modified: 2026.03.08.0225+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -565,7 +565,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,3p,denyallow=arc.io|bootstrapcdn.com|chatango.com|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net,domain=ytanime.tv
 *$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,domain=porntrex.com
 *$script,3p,denyallow=blogger.com|bootstrapcdn.com|cloudflare.com|cloudflare.net|gitcdn.link|githack.com|google.com|googleapis.com|gstatic.com|recaptcha.net,domain=wwwfotografgotlin.blogspot.com
-*$script,3p,denyallow=blogger.com|facebook.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|disqus.com|wp.com,domain=9xmovie.*
+*$script,3p,denyallow=blogger.com|facebook.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|disqus.com|telegram.im|wp.com,domain=9xmovie.*
 *$script,3p,denyallow=bootstrapcdn.com,from=youdbox.*
 *$script,3p,denyallow=bootstrapcdn.com|cdn77.org|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|google.com|googleapis.com|gstatic.com|hwcdn.net|hcaptcha.com|instagram.com|jquery.com|jsdelivr.net|jwpcdn.com|jwpsrv.com|plyr.io|twimg.com|twitter.com|recaptcha.net|wp.com|x.com,domain=xsober.com
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.com,domain=uploadhub.*
@@ -3961,9 +3961,10 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{6,9}-\d{8}\b.*?[?&]URL=http/$doc,to=com|net,match-case,urlskip=?URL
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{6,9}-\d{8}\b.*?[?&]url=http/$doc,to=com|net,match-case,urlskip=?url
+/^https?:\/\/www\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.com\/o-[a-z][a-z][a-z][a-z]-[a-z][0-9][0-9]-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]$/$doc,match-case,to=com
 /^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/?$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,3p,domain=2ddl.vg|anidl.org|srt.am|widestream.io|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
-/^https?:\/\/www\.[a-z]{9,20}\.com\/o-[a-z]{4}-[a-z]\d6-[a-f0-9]{32}\b/$doc,match-case,to=com
+/^https?:\/\/www\.[a-z]{9,20}\.com\/o-[a-z]{4}-[a-z]\d{2}-[a-f0-9]{32}\b/$doc,match-case,to=com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
@@ -17401,7 +17402,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 360tv.ru##div[class^="socialSnackbar_paper"]
 360tv.ru##footer[class^="LinkZen_wrap"]
 360tv.ru$$amp-img[alt="google_news_image"]
-360tv.ru,5-tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bfm.ru,bst.bratsk.ru,coop-land.ru,energyfm.ru,expert.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,habr.com,inosmi.ru,ixbt.com,ixbt.shop,kommersant.ru,kulturologia.ru,ladys.media,life.ru,mash.ru,media.az,metronews.ru,mgazeta.com,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,moika78.ru,mydecor.ru,mywebpc.ru,myweekend.ru,naked-science.ru,neftegaz.ru,nevasport.ru,new-magazine.ru,news.ru,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,radio1.ru,regnum.news,regnum.ru,ridlife.ru,rifey.ru,rodgor-vlg.ru,rodina-history.ru,rusnext.ru,russian.rt.com,rutube.ru,securitymedia.org,sm.news,smotrim.ru,soccer.ru,sovsport.ru,sport-express.net,sport-express.ru,sportsdaily.ru,stiletto.blog,stolicaonego.ru,stratege.ru,super.ru,syzran-small.ru,teleprogramma.org,thegirl.ru,timeweb.com,tochka.by,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,utyug.info,vz.ru,womanhit.ru,www1.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
+360tv.ru,5-tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bfm.ru,bryansknovosti.ru,bst.bratsk.ru,coop-land.ru,energyfm.ru,expert.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,habr.com,inosmi.ru,ixbt.com,ixbt.shop,kommersant.ru,kulturologia.ru,ladys.media,life.ru,mash.ru,media.az,metronews.ru,mgazeta.com,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,moika78.ru,mydecor.ru,mywebpc.ru,myweekend.ru,naked-science.ru,neftegaz.ru,nevasport.ru,new-magazine.ru,news.ru,novozybkov.su,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,radio1.ru,regnum.news,regnum.ru,ridlife.ru,rifey.ru,rodgor-vlg.ru,rodina-history.ru,rusnext.ru,russian.rt.com,rutube.ru,securitymedia.org,sm.news,smotrim.ru,soccer.ru,sovsport.ru,sport-express.net,sport-express.ru,sportsdaily.ru,stiletto.blog,stolicaonego.ru,stratege.ru,super.ru,syzran-small.ru,teleprogramma.org,thegirl.ru,timeweb.com,tochka.by,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,utyug.info,vz.ru,womanhit.ru,www1.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
 360zbz.com#@#.rightad
 365daysofbakingandmore.com,medyascope.tv,matthewball.co,parismatch.com,monterail.com,revolutionrace.de,nonfungerbils.com##.newsletter-block
 365design.dk##.dominans-wrapper
@@ -22792,6 +22793,10 @@ advocatechannel.com#@#.share-buttons
 advocatekhoj.com##div[align="center"] > div[style="height: 95px;"]
 advocatie.nl##img[width="336"][height="280"]
 advocatie.nl,goedkoopstekeukensduitsland.nl,lflmagazine.nl,mannennieuws.nl,streamwijzer.be,teqnation.com,thatsgaming.nl,yourlittleblackbook.me##img[width="300"][height="250"]
+advrider.com##.ad-align
+advrider.com##.vsLBBottom
+advrider.com##.vsLBTop
+advrider.com##div[id^="ads_"]
 adweek.com###meter-count
 adweek.com###right-links
 adweek.com###swnexttrigger
@@ -28769,7 +28774,7 @@ anyporn.com##.ffb_wrap
 anyporn.com##.primary > .nopop > a[target="_blank"]
 anyporn.com,bravoporn.com,bravoteens.com,bravotube.net##.inplb
 anyporn.com,bravotube.net##.inplb3x2
-anyporn.com,pervertslut.com,theyarehuge.com,tiktits.com,webanddesigners.com##.adv
+anyporn.com,hentaitube.icu,pervertslut.com,theyarehuge.com,tiktits.com,webanddesigners.com##.adv
 anyporn.com,sex3.com##.inplb3x2
 anysex.com###content > .main > .content_right
 anysex.com###content > .naf_dd
@@ -43241,12 +43246,11 @@ brw.pl###poityka-ciastek
 bry.com###bry-consent
 bryanadams.com##.promo
 bryansknovosti.ru##div[class^="it-share-"]
-bryansknovosti.ru,novozybkov.su##aside[data-alias="Заголовок"] .widget-area > .widget_text
-bryansknovosti.ru,novozybkov.su##aside[data-alias="Над новостями"]
+bryansknovosti.ru,novozybkov.su##[data-alias="Справа"] .textwidget > [align="center"] > [href*="?p="] ~ a
+bryansknovosti.ru,novozybkov.su##[data-title^="erid:"]
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Под меню"]
-bryansknovosti.ru,novozybkov.su##aside[data-alias="Слева"] .widget-area > .widget_text ~ .widget_text
-bryansknovosti.ru,novozybkov.su##aside[data-alias="Справа"] .widget-area > .widget_text ~ .widget_text
 bryansknovosti.ru,novozybkov.su##aside[data-alias^="Слева"] a > img[src*="/Подписка-"]
+bryansknovosti.ru,novozybkov.su#?#.widget_text:-abp-has(> .textwidget > p:-abp-contains(/баннер/i))
 bryansknovosti.ru,novozybkov.su#?#[data-alias="Copyright"] .widget-area > .widget_text:not(:last-child):-abp-has(script)
 bryansktoday.ru##.a-d-v
 bryansktoday.ru##div[class*="advbig"]
@@ -63170,6 +63174,7 @@ drg.lt##.module-content A > img
 drhoelter.de##div[class^="eightworks-cookie"]
 drhtv.com.pl###bannertop
 drhtv.com.pl###prawo
+dribbble.com##.announcements
 dribbble.com##.js-ad-boosted
 dribbble.com##.service-result:has([data-promoted-badge])
 dribbble.com##[data-ad-data*="ad_link"]
@@ -85878,6 +85883,7 @@ golem.de##+js(nostif, show)
 golem.de##.gbox_affiliate
 golem.de##.go-ad-slot
 golem.de##.go-alink-list
+golem.de##.go-info-box-container:has(.go-info-box__ad-label)
 golem.de##.go-newsletter-box-container
 golem.de##.go-pc-teaser--highlight
 golem.de##.go-teaser--variant-affiliate
@@ -125595,8 +125601,6 @@ miuipolska.pl###custom_html-22
 miuithemers.com#@##ads-left
 miuithemers.com#@#.ads-left
 miuithemez.com#%#//scriptlet('adjust-setInterval', 'addClass("loaded")', '*', '0.001')
-miuiturkiye.net,slatedroid.com###banner_div_empty
-miuiturkiye.net,slatedroid.com###tt_mobile_banner
 miumiu.com##+js(trusted-click-element, a.cookie__close_text, , 1000)
 miurayoshitaka.hatenablog.com##.ad-online-afc:style(position: absolute !important; left: -3000px !important;)
 miushuo.com###leftDiv1
@@ -137441,7 +137445,6 @@ novostroykin.ru##.ntgb_
 novostroykin.ru##.rightbar
 novostroykin.ru##a[href*="adrai.novostroykin.ru/wow/go/"]
 novostroykin.ru##iframe[src*="adrai.novostroykin.ru/wow/go/"]
-novozybkov.su##aside[data-alias^="Слева "]
 novsport.com##+js(refresh-defuser)
 novsport.com##.rounded-left:has(> div[class] > h1[class]:contains(Facebook))
 novsport.com##.rounded-left:has(> div[class] > h1[class]:contains(Реклама))
@@ -153272,8 +153275,6 @@ pudelek.pl##body > #__next > div[data-testid="container"] > div[class] > div[cla
 pudelek.pl##div[class^="_"][style^="position: relative;"] > a[href][target="_blank"]:only-child > div[style^="position:"][style*="background-image: url"]
 pudelek.pl##div[data-st-area="st-gallery-reactions"] > div[class] > div[class^="sc-"]:has(> div[class^="sc-"] button.react-share__ShareButton)
 pudelek.pl,dobreprogramy.pl##button[aria-label="UDOSTĘPNIJ"]
-pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class*=" "] + div[class*=" "] + script:last-child)
-pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class*=" "] + script:last-child)
 pudelek.pl,money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 pudelek.pl,o2.pl,moneyv.wp.pl,money.pl##div[class*="sc-"]:has(> img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"])
 puerner.de##dialog[style="border-color:lightgray;border-width:2px;border-radius:6px;"]
@@ -153335,6 +153336,8 @@ pulse.mail.ru##div[class="f_am f_ap"]
 pulse.mail.ru##div[data-sid="fulltext_wiget_promo"]
 pulse24news.com##.site-content .wp-block-ultimate-post-image
 pulsembed.eu#@#iframe[width="600"][height="90"]
+pulsesync.dev##div[class^="cookieConsent-module-"]
+pulsesync.dev##div[class^="warnNotification-module-"]
 pulsgdanska.pl##.c-content__adv
 pulsgdanska.pl##.c-content__report + div[style="min-height: 500px;"]
 pulsgdanska.pl##.l-ad-top
@@ -153728,7 +153731,7 @@ pv-tech.org##.elementor-element-578e5f5
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
 pvlida.by##.itemLinks
 pvp.qq.com##.down_detail
-pvpoke-re.com##+js(abort-on-stack-trace, document.createTextNode.bind, .js?v=)
+pvpoke-re.com##+js(abort-on-stack-trace, Date.prototype.toLocaleString, /[A-Za-z]{3}\d[0-9A-Za-z]{4\,}\.js\?v=1\./)
 pvpoke-re.com##body:has(#nitro-body-desktop > ins.adsbygoogle.nitro-body:not(:has(> div#aswift_1_host))) div:is(#nitro-body-desktop, #nitro-top, #nitro-header-mobile) > p
 pvpoke.com###nitro-header-mobile
 pvpoke.com##div[id^="nitro-sidebar-"]
@@ -168982,6 +168985,8 @@ so-magazyn.pl,o2.pl,pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp
 so-magazyn.pl,o2.pl,pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,magazyn.wp.pl,moto.wp.pl,opinie.wp.pl,sportowefakty.wp.pl,tech.wp.pl,teleshow.wp.pl,wiadomosci.wp.pl#@#.pub_300x250
 so-magazyn.pl,o2.pl,pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,magazyn.wp.pl,moto.wp.pl,opinie.wp.pl,sportowefakty.wp.pl,tech.wp.pl,teleshow.wp.pl,wiadomosci.wp.pl#@#.text_ads
 so-magazyn.pl,o2.pl,pudelek.pl,wp.pl##body > .css-adv.text_ads.ads.adsbygoogle.Adv.advertisement.top-banners#ad-column:style(display: block!important;)
+so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class*=" "] + div[class*=" "] + script:last-child)
+so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class*=" "] + script:last-child)
 so-net.ne.jp##.accessAd
 so-net.ne.jp##.comp-gate
 so-net.ne.jp#@##ad-p3
@@ -197122,6 +197127,8 @@ vpd.fi##+js(trusted-set-cookie, amcookie_disallowed, recently_viewed_product%2Cr
 vpforums.org###master1
 vpforums.org##td[align="center"][style="padding: 0px;"]
 vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
+vpforums.org,miuiturkiye.net,slatedroid.com###banner_div_empty
+vpforums.org,miuiturkiye.net,slatedroid.com###tt_mobile_banner
 vpk.name###bt-stop-ra
 vpk.name###side > div[style*="300px"][style*="600px"]
 vplaboratory.ru##.top-message
@@ -203467,7 +203474,7 @@ www.youtube.com##a.ytd-guide-entry-renderer[href="/premium"]
 www.youtube.com##contents.ytd-shelf-renderer.style-scope:has-text(/People also watched/i)
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
 www.youtube.com##tp-yt-iron-overlay-backdrop.opened
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options.ytd-checkbox-survey-renderer)
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options[class$="survey-renderer"])
 www.youtube.com##tp-yt-paper-dialog:has(yt-mealbar-promo-renderer)
 www.youtube.com##tp-yt-paper-item:has(yt-icon):has(yt-formatted-string:has-text(Save))
 www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
@@ -203618,7 +203625,7 @@ www.youtube.com#$#override-property-read ytplayer.config.args.raw_player_respons
 www.youtube.com#$#replace-outbound-value JSON.stringify '"clientName":"WEB"' '"clientName":"WEB","clientScreen":"CHANNEL"'
 www.youtube.com#?##content > .ytd-rich-section-renderer:-abp-contains(YouTube Playables)
 www.youtube.com#?#.YtdTalkToRecsFlowRendererHost:-abp-contains(What hobbies are you interested in developing?)
-www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(/How do you feel|Which of the following|following Premium|Get background play|Choose all that apply|Become a member of this channel|Free trial|How are your|How interested|Live TV|Wish videos|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores/)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(/How do you feel|Which of the following|following Premium|Get background play|Choose all that apply|Become a member of this channel|Free trial|How are your|How interested|Live TV|Wish videos|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores|YouTube experience/)
 www.youtube.com,m.youtube.com##+js(trusted-click-element, button[aria-label*="Accept the use of cookie"], , 1500)
 www.youtube.com,m.youtube.com##+js(trusted-click-element, button[aria-label*="Accept the use of cookie"], , 2500)
 www.youtube.com,m.youtube.com#$#json-prune 'entries.[-].command.reelWatchEndpoint.adClientParams.isAd'
