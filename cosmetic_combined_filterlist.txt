@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.230
-! Last Modified: 2026.03.07.0734+1100 AEST
+! Version: 1.0.231
+! Last Modified: 2026.03.07.1302+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3994,7 +3994,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /_adsmodern/*$image
 /_annonser^$image
 /_assets/oply/public/*
-/_astro/useProtonTelemetry.$script
 /_blazor/*$ping
 /_bm/abd$script,domain=eurosport.no|eurosport.dk
 /_cookie-monster.js
@@ -18476,9 +18475,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 595.ucoz.net##a[href*="://surfearner.me/"]
 595.ucoz.net##a[href*="://teaser.bz/"]
 595.ucoz.net##a[href*="bolshoyvopros.ru/"]
-5ch.net##.ads_conten_main
-5ch.net##div[id^="hideme"] > a[href="https://premium.5ch.net/"]
-5ch.net#%#//scriptlet('href-sanitizer', 'a[href^="http://jump"][href*="/?http"]')
+5ch.io,5ch.net#%#//scriptlet('href-sanitizer', 'a[href^="http://jump"][href*="/?http"]')
 5chan.jp###advertise_main_header
 5chan.jp##.adnextile
 5chan.jp##.adv-rwd-iframe-container
@@ -19836,7 +19833,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 =xadv-invid&
 =yandex*context_$third-party,popup
 ?*.popcash.
-?*=*=*=$subdocument,domain=00cha.com|06ps.com|10000xing.cn|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|32r.com|32xp.com|360doc.cn|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|66law.cn|7y7.com|86huoche.com|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dgzj.com|diangon.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|ruiwen.com|sc115.com|shadafang.com|shenchuang.com|ssqzj.com|szdushi.com.cn|szhk.com|uzuzuz.com|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
+?*=*=*=$subdocument,domain=00cha.com|06ps.com|10000xing.cn|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|32r.com|32xp.com|360doc.cn|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|66law.cn|7y7.com|86huoche.com|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dgzj.com|diangon.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingshu8.com|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|ruiwen.com|sc115.com|shadafang.com|shenchuang.com|ssqzj.com|szdushi.com.cn|szhk.com|uzuzuz.com|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
 ?160&600&
 ?300&250&
 ?468&60&
@@ -45859,6 +45856,8 @@ captown.capcom.com##.game-main[data-game-play-need-ads-modal-value="true"]:remov
 captown.capcom.com##.news-detail-footer-share
 capture.dropbox.com##.dig-Snackbar[role="alert"]
 capuccino.eu##div[id^="n2-ss-"]
+capwages.com##.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
+capwages.com,downforeveryoneorjustme.com,health.clevelandclinic.org,technomusicworld.com##.bottom-0.fixed
 car-interface.com,monolithdesign.it,thematchahouse.com##+js(trusted-click-element, button#accept-all-gdpr, , 2800)
 car-me.jp##.p-social_btn_list
 car-me.jp##.s-article_footer_content:has(> ul.p-social_btn_list)
@@ -62751,7 +62750,6 @@ downforeveryoneorjustme.com##.rounded-t-md:has(> a[rel="sponsored"])
 downforeveryoneorjustme.com##div[class*="min-h-"][class*="160px"]:has(> .justify-center:only-child > #carbonDiv:only-child)
 downforeveryoneorjustme.com##div[class*="min-h-"][class*="194px"][class*="210px"] > .text-lg > div[class*="cursor-pointer"]:has(> .shadow:only-child > a[rel="sponsored"]:only-child)
 downforeveryoneorjustme.com#?#.relative.bg-white:has-text(PolyBuzz)
-downforeveryoneorjustme.com,health.clevelandclinic.org,technomusicworld.com##.bottom-0.fixed
 downforeveryoneorjustme.com,useragents.me##a[rel="sponsored"]
 downforme.org,dbk.de,radio-internetowe.com##body > #cc
 downg.com##.Gs_d[href$=".exe"]
@@ -79216,6 +79214,7 @@ freeupscmaterials.org##nav + .gb-container .gb-inside-container:has(.code-block 
 freeupscmaterials.org#@#.quads-location
 freeuseporn.com###floating-iframe-container
 freeuseporn.com###juicyads-pause-ad
+freeuseporn.com##.featured-links-bar
 freeuseporn.com##.hhzt
 freeuseporn.com##.homed > ul.grid > li:has(script)
 freeuseporn.com##.homed li:has(iframe)
@@ -92467,6 +92466,7 @@ hitcena.pl##+js(aeld, contextmenu)
 hitcena.pl##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 hitchcoq.de##+js(trusted-set-cookie, gox_cookie_consent, websiteTranslator)
 hitchcoq.order.app.hd.digital##+js(trusted-set-cookie, complianceCookie, '{"necessary":true,"statistics":false,"marketing":false}')
+hitdiscount.by#@#.content-cookie
 hitdiscount.by,groshyk.by##.banners
 hitdiscount.by,groshyk.by#@#.cookies-container
 hitech-gamer.com###mailModal
@@ -101476,14 +101476,11 @@ itesco.cz,emerging-europe.com,home.webinarjam.com,eddiehub.org##.gdpr_cookie_ban
 itesco.sk##[aria-labelledby="ddsweb-cookies-notification-headline"]
 itesco.sk,tesco.*##[aria-label="consent-banner"]
 itesco.sk,tesco.com###oa-consent-banner
-itest.5ch.net##.ad_300x250:style(position: absolute !important; left: -3000px !important;)
-itest.5ch.net##.roninform_wrap > div ~ div.center
-itest.5ch.net##.threadview_response > p:has(> a[href="https://melon.5ch.net"])
-itest.5ch.net##a[id^="link"] > img[src^="https://itest.5ch.net/assets/banner/"]
-itest.5ch.net#%#//scriptlet('trusted-replace-argument', 'window.open', '0', 'replace:/^https:\/\/itest\.5ch\.net\/jump\/to\?url=(.+)/$1/', '/jump/to?url=')
-itest.5ch.net#?#[id] > p[style^="font-weight:"]:has(> a[href="//uplift.5ch.net"][target="_blank"])
-itest.5ch.net#?#p[style]:has(> a:matches-attr(/hrea?f/=/^https:\/\/uplift\.5ch\.net$/))
-itest.5ch.net#@#.js-cardview_ad-320x180
+itest.5ch.io,itest.5ch.net##.ad_300x250:style(position: absolute !important; left: -3000px !important;)
+itest.5ch.io,itest.5ch.net##.roninform_wrap > div ~ div.center
+itest.5ch.io,itest.5ch.net##a[id^="link"] > img[src*="/assets/banner/"]
+itest.5ch.io,itest.5ch.net##p > a[href^="https://uplift.5ch."]
+itest.5ch.io,itest.5ch.net#%#//scriptlet('trusted-replace-argument', 'window.open', '0', 'replace:/^https:\/\/itest\.5ch\.(io|net)\/jump\/to\?url=(.+)/$1/', '/jump/to?url=')
 itest.bbspink.com##.ronin-banner
 itest.bbspink.com##[class^="ad_"]
 itgalaxy.ro###newsletter-alert
@@ -104404,7 +104401,7 @@ jumbo.com#?#[data-pathway-product-position]:-abp-contains(Gesponsord)
 jumbomail.me##.cookies-usage-panel
 jumbosports.com##.footer-payment-social__social
 jumia.ci,jumia.co.ke,jumia.com.dz,jumia.com.eg,jumia.com.gh,jumia.com.ng,jumia.com.tn,jumia.ma,jumia.sn,jumia.ug##.banner-pop
-jump.5ch.net###navbarResponsive
+jump.5ch.io,jump.5ch.net###navbarResponsive
 jumpb.dk#?#strong:has-text(/^.*Cas\ino.*$/i)
 jumpbookstore.com###flipdesk
 jumpbookstore.com###header_app_banner
@@ -106263,6 +106260,9 @@ keysportal.com#?##secondary > .sidebar-widget:-abp-has([id^="yandex_rtb"])
 keyt.com###custom_html-27
 keyt.com###promo_box_widget-4
 keyt.com##.vf-trending-articles__ad
+keytube.net###lyrics:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
+keytube.net###lyrics[oncontextmenu]:remove-attr(oncontextmenu)
+keytube.net##+js(ra, oncontextmenu, #lyrics[oncontextmenu], complete)
 keywin.org##.appdownload
 keywin.org##.pindaolist
 kfapfakes.com##+js(aopr, decodeURI)
@@ -114150,6 +114150,7 @@ linkedin.com##.windows-app-upsell
 linkedin.com##:matches-path(/jobs) #ember33
 linkedin.com##:matches-path(/jobs) .discovery-templates-entity-item:has(> div[data-job-id="search"] > div > .job-card-list__footer-wrapper > .job-card-container__footer-item.align-items-center:first-child)
 linkedin.com##[componentkey*="urn:li:sponsoredContentV2"]
+linkedin.com##[data-sponsored-tracking-url]
 linkedin.com##article[data-is-sponsored]
 linkedin.com##div[data-id^="urn:li:lyndaCourse:"]
 linkedin.com##div[data-tracking-id="get_app_omni_bottom"]
@@ -125457,6 +125458,8 @@ missav.*,missav123.com,missav888.com##div[x-show="showBanner"]
 missav.*,missav123.com,missav888.com##div[x-show^="recommendItems"] ~ div[class]:has(> div > div.mx-auto > div.flex > a[rel^="sponsored"])
 missav.*,missav123.com,missav888.com,njavtv.com##[style^="width: 300px; height: 250px;"]
 missav.fans##.space-y-5:has(> div > div.mx-auto > script[src^="//cdn-tsyndicate.missav.fans/"])
+missav.to###poster
+missav.to,tojav.net###preroll
 missav78.top##+js(remove-attr, onerror, img[onerror="this.src=\'/sample/placeholder.jpg\'"], stay)
 missav78.top##.streamer-container2
 missav78.top##img[onerror="this.src='/sample/placeholder.jpg'"]:remove-attr(onerror)
@@ -185083,7 +185086,6 @@ toimitilat.kauppalehti.fi##.justify-content-center:has(> #almad-leaderboard-1)
 toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
 toimitilat.kauppalehti.fi##.sponsored-article.list-article
 toimitilat.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
-tojav.net###preroll
 tojav.net##+js(abort-current-script, onload, puHref)
 tojav.net##+js(acs, onload, puHref)
 tojimangas.com##.scrollToTop + div[id][class*=" "]
