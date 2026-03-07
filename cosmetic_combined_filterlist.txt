@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.232
-! Last Modified: 2026.03.07.1638+1100 AEST
+! Version: 1.0.233
+! Last Modified: 2026.03.07.2125+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3628,8 +3628,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^http:\/\/[a-z]{5}\.[a-z]{5}\.com\/[a-z]{10}\.apk$/$doc,match-case,to=com
 /^https://[a-z]{40,}\.pages\.dev\//$doc,to=pages.dev
 /^https://autopass\.\d{6}\.com(/.*)?$/
-/^https://d[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z]?-[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?\.[ps][br][os]\/xm\/xm[0-9]\/\?/$doc
-/^https://d[0-9a-z]{19}\.[a-z]{3,4}-[a-z]{7,8}\.[a-z]{3}\/xm\/xm\d\/\?/$doc,to=pro|sbs
+/^https://d[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z]?-[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?\.[cps][bor][os]?\.?i?n?\/xm\/xm[0-9]\/\?/$doc
+/^https://d[0-9a-z]{19}\.[a-z]{3,4}-[a-z]{7,8}(?:\.[a-z]{2})?\.[a-z]{2,3}\/xm\/xm\d\/\?/$doc,to=co.in|pro|sbs
 /^https:\/\/(?:[-a-z0-9]+\.){2}workers\.dev\/v3\/(?:forgotpassword|security|signup)\b/$doc,to=workers.dev
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/index\?a=/$doc,xhr,match-case,method=get,to=~edu|~gov
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/verify\b/$doc,match-case,method=get,to=~edu|~gov
@@ -37677,6 +37677,7 @@ bewildcard.com##.cookie-policy_cookiePolicy__iVL65
 bewins.tv##a[href^="https://bewins.wiki"]
 bewustnieuwbouw.nl###c-bar
 beyazgazete.com,bogazgazetesi.com.tr###myModal
+beymenclub.com,trendyol.com,pikabu.ru,beymen.com,services.clp.com.hk,uol.com.br,m.netpincer.hu,m.yelp.com,opodo.de###smart-banner
 beyondgames.biz,ecoustics.com###zox-lead-bot
 beyondvape.jp##.common_header_banner
 beyondvape.jp##.example3
@@ -44180,7 +44181,6 @@ businessmirror.com.ph##.busin-after-content
 businessmirror.com.ph##.busin-before-content
 businessmirror.com.ph##div[id^="busin-"]
 businessmirror.com.ph,turningleftforless.com##.posts-pagination
-businessmobility.travel,cani.com,openwebstart.com,alanboswell.com,lovegiver.it,quark.com,acquaesaponeonline.it,prezzolo.it,zerotier.com,treccaniaccademia.it,cialdnb.com,sfmlab.com,smutba.se,romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it##body #iubenda-cs-banner
 businessnamegenerator.com##+js(nostif, gclid)
 businessnamegenerator.com##.ad-result
 businessnamegenerator.com##.domain-advertise
@@ -80877,6 +80877,7 @@ galliker.com##.st10-cookie-info
 galliker.com##.st20-cookie-info-middle
 gallons.io###a-bottom
 gallons.io###a-left
+gallowayroma.com,businessmobility.travel,cani.com,openwebstart.com,alanboswell.com,lovegiver.it,quark.com,acquaesaponeonline.it,prezzolo.it,zerotier.com,treccaniaccademia.it,cialdnb.com,sfmlab.com,smutba.se,romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it##body #iubenda-cs-banner
 gallup.com##+js(trusted-set-cookie, gcbca, , 1day)
 gallup.com##+js(trusted-set-cookie, gcbpl, p1|st1|pt1, 1year)
 gallup.com##.c-quick-subscribe
@@ -102518,6 +102519,8 @@ jastrzabpost.pl##.adc
 jastrzabpost.pl##.jastrzabpost-widget
 jastrzabpost.pl##div:only-child:has(> div:first-child > div:first-child > a:only-child > img):has(> div:first-child > div:first-child + div:last-child:empty)
 jastrzabpost.pl##div[id^="jastrzabpost-"]
+jastrzabpost.pl,pysznosci.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,wp.pl#$#.exit-popup { display: none !important; }
+jastrzabpost.pl,pysznosci.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,wp.pl#$#body.wp-scroll-lock { overflow: auto !important; }
 jastrzebieonline.pl##div[class^="ad_"]
 jateng.inews.id###fragmentx
 jatirkhantha.com.bd##.custom-html-widget img
@@ -111998,6 +112001,7 @@ leboncoin.fr##[data-test-id^="advertising"]
 leboncoin.fr##div[class="vl"]
 leboncoin.fr##div[class^="styles_ad"]#generic
 leboncoin.fr##div[class^="styles_ad"]#outlined
+leboncoin.fr#%#//scriptlet('trusted-click-element', '#didomi-agree-to-all')
 leboncoin.fr#?#.undefined:-abp-contains(Sponsorisé)
 leboncoin.fr#?#a[data-test-id]:-abp-has([class]:-abp-contains(/À la une|Sponsorisé|Urgent/))
 lebonfap.com###page-sexcam--roomlist
@@ -131729,6 +131733,7 @@ nasz-glos.com##.vmagazine_lite_medium_ad
 naszabramow.pl###sidebar a[target="_blank"] > img
 naszahuta.pl##.c-banners
 naszapolska.eu###tm-sidebar
+naszarola.pl##a[href="http://www.adiuwanty.pl/"]
 naszatve.pl###gk-banner-top
 naszekielce.com###promoted
 naszekielce.com##.region-banner
@@ -157815,6 +157820,7 @@ rendeljkinait.hu##.bottom-ad-area
 render-state.to#%#//scriptlet("adjust-setTimeout", "params.redirect", "5000", "0.02")
 renderforest.com##.footer-subscription
 renderforest.com##.rf-blog-social-share-wrap
+renderforest.com##div[class^="styles_cookie-message-wrapper__"]
 renderhub.com##.annLnk
 renderhub.com##.itemInfo:has(> div > a[href^="https://www.facebook.com/sharer/"])
 rendez-vous.be##.leaderBoard
@@ -166295,6 +166301,7 @@ shufoo.net##.__sp_floatingBanner
 shufoo.net##.__sp_footerBanner
 shufoo.net#$#.appdl_modal_overlay { display: none !important; }
 shufoo.net#$#body.is-hidden { overflow: auto !important; }
+shufoo.net#%#//scriptlet('remove-class', 'is-hidden', 'body')
 shufu.co.jp##.sns-list-wrap
 shufuse.com##div[class^="footer-app-promo"]
 shugiin.go2senkyo.com,sangiin.go2senkyo.com##.m_sharePage
@@ -180185,7 +180192,7 @@ tf1.fr##.block_socialshare
 tf1.fr##.ccbar
 tf1.fr##body > div[role="alert"]
 tf1.fr##div[aria-describedby^="max-banner-"]
-tf1.fr,cadenaser.com,filmstarts.de,tv.free.fr,orange.fr,laliga.com,latribune.fr,laopiniondezamora.es,elpais.com,laprovincia.es,informacion.es,levante-emv.com,ondacero.es,rtbf.be,mediasetinfinity.es,franceinfo.fr,ivoox.com,nationalgeographic.com.es,slam.nl,rmcbfmplay.com,abc.es,lejsl.com,bienpublic.com,funradio.fr,flooxernow.com,techcrunch.com,gamepro.de,lemon.fr,mundodeportivo.com,elmundo.es,profil.at,ladepeche.fr,francetvinfo.fr,lexpress.fr,elespanol.com,sncf-connect.com,lasexta.com,shadow.tech,letemps.ch,nicematin.com,mein-mmo.de,heureka.sk,video-streaming.orange.fr,leparisien.fr,film.at,euronews.com,france24.com,elcorreo.com,ideal.es,lesoir.be,lavanguardia.com,dhnet.be,20minutes.fr,moviepilot.de,dnevnik.hr,lesechos.fr,lasprovincias.es,programme-television.org,cnews.fr,boursorama.com,marianne.net,ouest-france.fr,jeanmarcmorandini.com,publicsenat.fr,dna.fr,bfmtv.com,sudinfo.be,europe1.fr,public.fr,rtl.be,rfi.fr,kurier.at,telegraaf.nl,marmiton.org,reviewingthebrew.com,jaysjournal.com,leboncoin.fr,engadget.com,reignoftroy.com,actu.fr,elconfidencial.com,rtl.lu#%#//scriptlet('trusted-click-element', '#didomi-notice-agree-button')
+tf1.fr,cadenaser.com,filmstarts.de,tv.free.fr,orange.fr,laliga.com,latribune.fr,laopiniondezamora.es,elpais.com,laprovincia.es,informacion.es,levante-emv.com,ondacero.es,rtbf.be,mediasetinfinity.es,franceinfo.fr,ivoox.com,nationalgeographic.com.es,slam.nl,rmcbfmplay.com,abc.es,lejsl.com,bienpublic.com,funradio.fr,flooxernow.com,techcrunch.com,gamepro.de,lemon.fr,mundodeportivo.com,elmundo.es,profil.at,ladepeche.fr,francetvinfo.fr,lexpress.fr,elespanol.com,sncf-connect.com,lasexta.com,shadow.tech,letemps.ch,nicematin.com,mein-mmo.de,heureka.sk,video-streaming.orange.fr,leparisien.fr,film.at,euronews.com,france24.com,elcorreo.com,ideal.es,lesoir.be,lavanguardia.com,dhnet.be,20minutes.fr,moviepilot.de,dnevnik.hr,lesechos.fr,lasprovincias.es,programme-television.org,cnews.fr,boursorama.com,marianne.net,ouest-france.fr,jeanmarcmorandini.com,publicsenat.fr,dna.fr,bfmtv.com,sudinfo.be,europe1.fr,public.fr,rtl.be,rfi.fr,kurier.at,telegraaf.nl,marmiton.org,reviewingthebrew.com,jaysjournal.com,engadget.com,reignoftroy.com,actu.fr,elconfidencial.com,rtl.lu#%#//scriptlet('trusted-click-element', '#didomi-notice-agree-button')
 tf1info.fr##+js(trusted-click-element, button[title^="Continuer sans accepter"], , 1500)
 tf1info.fr##+js(trusted-click-element, button[title^="Continuer sans accepter"], , 2500)
 tf1info.fr##.container__Pip
@@ -187348,7 +187355,6 @@ trendyol.com##.search-banner
 trendyol.com#$#body.gender-popup-lock { overflow: auto !important; }
 trendyol.com#$#div[data-fragment-name="GenderPopup"] { display: none !important; }
 trendyol.com#%#//scriptlet('set-constant', 'WebPushManager', 'noopFunc')
-trendyol.com,pikabu.ru,beymen.com,services.clp.com.hk,uol.com.br,m.netpincer.hu,m.yelp.com,opodo.de###smart-banner
 trendyol.com,trendyol-milla.com##+js(set, process, {})
 trendyol.com,trendyol-milla.com##+js(set, process.env, {})
 trendyol.de,trendyol.com###cookie-policy-app
