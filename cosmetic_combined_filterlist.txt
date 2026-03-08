@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.239
-! Last Modified: 2026.03.09.0225+1100 AEST
+! Version: 1.0.240
+! Last Modified: 2026.03.09.0728+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1510,6 +1510,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/c/*?s1=$doc,to=com
 .com/click/?ct=*&cu=$all
 .com/clk?
+.com/co/$domain=1anime.me
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .com/config/v7.js
 .com/core/js/the_pf.js
@@ -25001,6 +25002,7 @@ aljazairalyoum.com##a[href^=" http://ngaous.com"]
 aljazairalyoum.com,edlibre.com##.sidebar a[target="_blank"] > img
 aljazairalyoum.dz##.stream-item.stream-item-below-header
 aljazeera.com##.combined-share
+aljazeera.com##.google-preferred-source
 aljazeera.com##.notification-pre-permission
 aljazeera.com##.rich-share__wrapper
 aljazeera.com##.sib-newsletter-form
@@ -144707,7 +144709,7 @@ pconline.com.cn##.website_recommend_banner
 pconline.com.cn##a[href^="http://ivy.pconline."]
 pcoptimizedsettings.com###tie-wrapper > div[style="margin: 15px auto; text-align: center; display: block; clear: both; height: 250px;"]
 pcoptimizedsettings.com##+js(addEventListener-defuser, load, innerHTML)
-pcoptimizedsettings.com##+js(rmnt, script, .onerror)
+pcoptimizedsettings.com##+js(rmnt, script, return'\\w+')
 pcoptimizedsettings.com##body > .adunit:style(display: block !important;)
 pcoptimizedsettings.com,satisfactory-calculator.com##+js(abort-on-property-write, probeScript)
 pcoutlet.pl###topInfoContainer0
