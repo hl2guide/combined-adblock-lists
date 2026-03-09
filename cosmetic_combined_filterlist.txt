@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.243
-! Last Modified: 2026.03.09.2147+1100 AEST
+! Version: 1.0.244
+! Last Modified: 2026.03.10.0259+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1057,6 +1057,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fdelivery.hideout.tv%2F*$image
 *%2Fdelivery.lootup.me%2F*%3Fid%3D*$image
 *%2Fe%2Fo%2F*$image
+*%2Fe.emails.*%2Fo%2Fp%2F$image
 *%2Fe.mailer.*%2Fo%2Fp%2F$image
 *%2Fe1t%2Fo%2F$image
 *%2Fe2t%2Fo%2F$image
@@ -1087,6 +1088,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fmailredir.raindrop.io%2Fq%2F$image
 *%2Fmarketing.hsc.com.vn%2Ft%2F$image
 *%2Fmessaging-callback-api.msg.traveloka.com%2Fo%3F*$image
+*%2Fmg.updates.ugg.com%2Fo%2F$image
 *%2Fmkt.kultivi.com%2Femail%2F$image
 *%2Fnetmail01gm.gmarket.co.kr%2F*$image
 *%2Fnewsletter.*%2Fmo%2F$image
@@ -1102,6 +1104,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fsendy.clyp.it%2Ft%2F$image
 *%2Fsptrack.mailer.*%2Fq%2F$image
 *%2Fstatic-hello.bitdefender.com%2Fmo%2F*.gif*$image
+*%2Fstats%2Fpixel.php%3F*$image
 *%2Ft.ac.pandora.com%2F*$image
 *%2Ftr%2Fimpression%3F$image
 *%2Ftrack%2Fopen.php%3F*$image
@@ -3843,9 +3846,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?url=http/$doc,to=com|io|net,match-case,urlskip=?url
 /^https?:\/\/(?:[a-z]+\.)?[0-9a-z-]+\.[a-z]{2,7}\/get\/\d{6,7}(?:\?zoneid=.*)?$/$match-case,script,third-party,domain=nungxthai.me|pornnungxxx.me|xnxx.health
 /^https?:\/\/(?:[a-z]+\.)?[0-9a-z]+(?:[-.][0-9a-z]+)?\.[a-z]{2,7}\/[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$match-case,script,third-party,domain=komikindo.*|spedostream.com
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:[&?][0-9_a-z]=[0-9A-Za-z-]+)*$/$popup,3p,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:[&?][0-9_a-z]=[0-9A-Za-z-]+)*$/$subdocument,script,xhr,3p,match-case
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$script,third-party,match-case
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[0-9a-z-]+)?$/$popup,3p,match-case
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[0-9a-z-]+)?$/$subdocument,script,xhr,3p,match-case
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[0-9a-z-]+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/(?:ak\.)?[a-z0-9]{5,15}\.(?:com|net)\/1\/\d{7}/$doc,frame,popup
 /^https?:\/\/(?:ak\.)?[a-z0-9]{5,15}\.(?:com|net)\/4\/\d{7}/$doc,frame,popup
@@ -5476,7 +5479,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /bandeaucookie.
 /bandeaucookie.js
 /baner.
-/baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~helpsetup.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~stocking.com.ua|~xadoindustrial.com|~zokko.com.ua
+/baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~stocking.com.ua|~xadoindustrial.com|~zokko.com.ua
 /baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~zippo.net.ua
 /baneriai^$domain=~pigubeakcijos.lt
 /baneris.
@@ -7351,6 +7354,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /dywc.js
 /dzwww/ad_dzw_inner.js
 /e.customeriomail.com/e/o/*$image
+/e.emails.*/o/p/*$image
+/e.emails.ugg.com/o/p/*$image
 /e.gif?
 /e.mailer.*/o/p/*$image
 /e/cm?$subdocument
@@ -10018,6 +10023,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /mewahbet.$image,third-party
 /mfad/*
 /mfe-cookies/main.js
+/mg.updates.ugg.com/o/*$image
 /mgid_automatically_creating_
 /mgmcash88.$image,third-party
 /mhw0/duniao/*
@@ -12812,6 +12818,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /stats/page_view_
 /stats/pageview
 /stats/ping?
+/stats/pixel.php?$image
 /stats/pv.php?
 /stats/record.php?
 /stats/record/*
@@ -13591,7 +13598,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /upload/banners/*$domain=~mebelion.ru
 /upload/bx/*
 /upload/puff$domain=bergsmannen.se|tidningenbyggmaterial.se|tidningendacksnack.se|taxiidag.se
-/upload/rk/*$domain=37.ru|62info.ru|actualcomment.ru|afanasy.biz|agrostory.com|allcio.ru|arsenaltula.ru|asn24.ru|automobili.ru|avtosreda.ru|baikal-daily.ru|bits.media|con-med.ru|cryptolymp.ru|dnl.com.ua|dnl.dn.ua|floraprice.ru|footballreview.ru|go64.ru|gorod3466.ru|gorod48.ru|gorodarmavir.ru|gubkinskiy.com|hi-fi.ru|hsl.com.ua|i2hard.ru|infoniac.ru|innov.ru|it-weekly.ru|it-world.ru|k1news.ru|kluch.media|kubnews.ru|lgz.ru|likeni.ru|lipetskmedia.ru|marpravda.ru|matchfishing.ru|mediaryazan.ru|mk.tula.ru|mnmag.ru|mos.news|newkaliningrad.ru|newsroom24.ru|nmosktoday.com|officelife.media|ohranatruda.ru|onlinetambov.ru|paparazzi.ru|planetaseminarov.ru|portamur.ru|rabochy-put.ru|riavrn.ru|ruwest.ru|securitylab.ru|seonews.ru|sochi.com|trk7.ru|tvk6.ru|ural56.ru|vdvsn.ru|velikiynovgorod.ru|vladtv.ru|vn.ru|vt-inform.ru|x-race.info|yantann.rbsmi.ru|yanzori.rbsmi.ru|zebra-tv.ru|zi.ua
+/upload/rk/*$domain=37.ru|62info.ru|actualcomment.ru|afanasy.biz|agrostory.com|arsenaltula.ru|asn24.ru|automobili.ru|avtosreda.ru|baikal-daily.ru|bits.media|con-med.ru|cryptolymp.ru|dnl.com.ua|dnl.dn.ua|floraprice.ru|footballreview.ru|go64.ru|gorod3466.ru|gorod48.ru|gorodarmavir.ru|gubkinskiy.com|hi-fi.ru|hsl.com.ua|i2hard.ru|infoniac.ru|innov.ru|it-world.ru|k1news.ru|kluch.media|kubnews.ru|lgz.ru|likeni.ru|lipetskmedia.ru|marpravda.ru|matchfishing.ru|mediaryazan.ru|mk.tula.ru|mnmag.ru|mos.news|newkaliningrad.ru|newsroom24.ru|nmosktoday.com|officelife.media|ohranatruda.ru|onlinetambov.ru|paparazzi.ru|planetaseminarov.ru|portamur.ru|rabochy-put.ru|riavrn.ru|ruwest.ru|securitylab.ru|seonews.ru|sochi.com|trk7.ru|tvk6.ru|ural56.ru|vdvsn.ru|velikiynovgorod.ru|vladtv.ru|vn.ru|vt-inform.ru|x-race.info|yantann.rbsmi.ru|yanzori.rbsmi.ru|zebra-tv.ru|zi.ua
 /upload/site/tbgg/*.gif
 /upload/vod/2018-08-05/201808051533458526.png
 /upload/werbung/*
@@ -15853,7 +15860,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 167.99.71.200##tbody > tr > td[style] > a[href][target="_blank"] > img
 168.ru##.banner-in-frame
 168.ru#?#.footer__block:-abp-has(> .footer__social)
-168.ru,1plus1.international,1prime.ru,1sn.ru,2mm.ru,2plus2.ua,2pricolisty.ru,78.142.19.8,agrobusiness.com.ua,allcio.ru,altgazeta.ru,anadyr.org,apihost.ru,avoka.do,baikal-daily.ru,baltnews.ee,be-in.ru,belretail.by,belsat.eu,bestrussia.tv,bgoperator.ru,blitz.if.ua,blizko.ru,business-gazeta.ru,bzserial.online,carsweek.ru,champion.com.ua,chehov-vid.ru,chipfind.ru,chistosex.org,cinetv.ru,copyright.ru,dailycomm.ru,danilin.biz,defence-ua.com,delfi.lt,delovoibiysk.ru,dengi.ua,dentalmagazine.ru,dialog.ua,dnl.com.ua,dnl.dn.ua,domashniy.ru,dostyp.com.ua,echo-oren.ru,echomsk.spb.ru,ecology.md,examen.ru,exler.ru,f1cd.ru,f1news.ru,factroom.ru,fantv.ru,fc-zenit.ru,fedpress.ru,finobzor.ru,fn-volga.ru,fnvolga.ru,foodinnovation.ru,football.ua,forum.tiguans.ru,fotoinform.net,frankmedia.ru,fraza.com,gamestar.ru,glavcom.ua,go32.ru,gooool365.org,goooool.org,gordonua.com,gorod55.ru,gre4ka.info,hen-tai.ru,hen-tay.com,hightech.fm,hostingkartinok.com,i2hard.ru,iasakh.com,igry-man.net,inc-news.ru,info-ua.com,inosmi.ru,interfax.by,interior.ru,intermedia.ru,intex-press.by,it-weekly.ru,it-world.ru,joxi.ru,karelia.news,kherson.net.ua,kinoafisha.ua,kinoplex.ru,klassnye-chasy.ru,kod.ru,kolesa.kz,konkurent.ua,korabel.ru,kulichki.net,kurgan.ru,kurs.com.ua,kursiv.media,lentasporta.com,ligasy.kz,live4fun.ru,livejournal.com,lookatme.ru,loveradio.ru,marker.ru,maximum.ru,minus.lviv.ua,mipped.com,mods-fs.net,moldfootball.com,mos-holidays.ru,mosfilmgold.ru,moviestape.net,mv.org.ua,namba.kg,namba.kz,namba.tj,news.nashbryansk.ru,news.pn,newslab.ru,nnews.com.ua,odpublic.net,officepackage.info,ogosex.com.ua,oneprog.ru,online-mult.net,ontvtime.ru,oper.ru,osvita.ua,penzadoctor.ru,peugeot-citroen.net,playboyrussia.com,pn.com.ua,politobzor.net,poltavske.tv,portal.lviv.ua,post-tracker.ru,ppc.world,pravo.ru,prm.ru,radiosputnik.ru,render911.ru,reporter.ua,repost.uz,reverso.net,ria.ru,ringside24.com,rodgor-vlg.ru,roem.ru,rudetective.tv,ruinformer.com,rusroman.ru,russia.ru,rybalka.com,rzn.info,sakh.com,sakhalin.info,samara24.ru,sarnovosti.ru,savepic.ru,seodiz.ru,showgid.tv,sib.fm,skypefree.info,slon.ru,softkey.ru,sonikelf.ru,sopsport.org,spbdnevnik.ru,sport-tv.by,sports.uz,stereo.ru,stopcor.org,stranaru.ru,strashnoe.tv,subota.online,superomsk.ru,supersadovnik.ru,tele.click,teleg.run,tet.tv,text.ru,theblueprint.ru,tochka.net,topwar.ru,tr.anidub.com,trademaster.ua,tulapressa.ru,tumix.ru,turizm.ru,tvernews.ru,tvrain.tv,uaportal.com,ugorod.kr.ua,ukraina.ru,ukrlife.tv,ukrreal.info,ukurier.gov.ua,unian.tv,usionline.com,val.ua,vce-besplatno.ru,vesty.co.il,vikna.if.ua,vlast.kz,vm.ru,vomske.ru,vsluh.net,warfiles.ru,weacom.ru,weukraine.tv,wildo.ru,www.ivi.ru,yk.kz,yourlink.in,yuginform.ru,yugopolis.ru,yznal.ru,zanoza.kg,zvezdi.ru##.banner
+168.ru,1plus1.international,1prime.ru,1sn.ru,2mm.ru,2plus2.ua,2pricolisty.ru,78.142.19.8,agrobusiness.com.ua,altgazeta.ru,anadyr.org,apihost.ru,avoka.do,baikal-daily.ru,baltnews.ee,be-in.ru,belretail.by,belsat.eu,bestrussia.tv,bgoperator.ru,blitz.if.ua,blizko.ru,business-gazeta.ru,bzserial.online,carsweek.ru,champion.com.ua,chehov-vid.ru,chipfind.ru,chistosex.org,cinetv.ru,copyright.ru,dailycomm.ru,danilin.biz,defence-ua.com,delfi.lt,delovoibiysk.ru,dengi.ua,dentalmagazine.ru,dialog.ua,dnl.com.ua,dnl.dn.ua,domashniy.ru,dostyp.com.ua,echo-oren.ru,echomsk.spb.ru,ecology.md,examen.ru,exler.ru,f1cd.ru,f1news.ru,factroom.ru,fantv.ru,fc-zenit.ru,fedpress.ru,finobzor.ru,fn-volga.ru,fnvolga.ru,foodinnovation.ru,football.ua,forum.tiguans.ru,fotoinform.net,frankmedia.ru,fraza.com,gamestar.ru,glavcom.ua,go32.ru,gooool365.org,goooool.org,gordonua.com,gorod55.ru,gre4ka.info,hen-tai.ru,hen-tay.com,hightech.fm,hostingkartinok.com,i2hard.ru,iasakh.com,igry-man.net,inc-news.ru,info-ua.com,inosmi.ru,interfax.by,interior.ru,intermedia.ru,intex-press.by,it-world.ru,joxi.ru,karelia.news,kherson.net.ua,kinoafisha.ua,kinoplex.ru,klassnye-chasy.ru,kod.ru,kolesa.kz,konkurent.ua,korabel.ru,kulichki.net,kurgan.ru,kurs.com.ua,kursiv.media,lentasporta.com,ligasy.kz,live4fun.ru,livejournal.com,lookatme.ru,loveradio.ru,marker.ru,maximum.ru,minus.lviv.ua,mipped.com,mods-fs.net,moldfootball.com,mos-holidays.ru,mosfilmgold.ru,moviestape.net,mv.org.ua,namba.kg,namba.kz,namba.tj,news.nashbryansk.ru,news.pn,newslab.ru,nnews.com.ua,odpublic.net,officepackage.info,ogosex.com.ua,oneprog.ru,online-mult.net,ontvtime.ru,oper.ru,osvita.ua,penzadoctor.ru,peugeot-citroen.net,playboyrussia.com,pn.com.ua,politobzor.net,poltavske.tv,portal.lviv.ua,post-tracker.ru,ppc.world,pravo.ru,prm.ru,radiosputnik.ru,render911.ru,reporter.ua,repost.uz,reverso.net,ria.ru,ringside24.com,rodgor-vlg.ru,roem.ru,rudetective.tv,ruinformer.com,rusroman.ru,russia.ru,rybalka.com,rzn.info,sakh.com,sakhalin.info,samara24.ru,sarnovosti.ru,savepic.ru,seodiz.ru,showgid.tv,sib.fm,skypefree.info,slon.ru,softkey.ru,sonikelf.ru,sopsport.org,spbdnevnik.ru,sport-tv.by,sports.uz,stereo.ru,stopcor.org,stranaru.ru,strashnoe.tv,subota.online,superomsk.ru,supersadovnik.ru,tele.click,teleg.run,tet.tv,text.ru,theblueprint.ru,tochka.net,topwar.ru,tr.anidub.com,trademaster.ua,tulapressa.ru,tumix.ru,turizm.ru,tvernews.ru,tvrain.tv,uaportal.com,ugorod.kr.ua,ukraina.ru,ukrlife.tv,ukrreal.info,ukurier.gov.ua,unian.tv,usionline.com,val.ua,vce-besplatno.ru,vesty.co.il,vikna.if.ua,vlast.kz,vm.ru,vomske.ru,vsluh.net,warfiles.ru,weacom.ru,weukraine.tv,wildo.ru,www.ivi.ru,yk.kz,yourlink.in,yuginform.ru,yugopolis.ru,yznal.ru,zanoza.kg,zvezdi.ru##.banner
 168.ru,afisha.s13.ru,agrostory.com,depo.ua,drinks.ua,perepostil.ru,rabochy-put.ru,sportmaps.ru,vikna.if.ua,zi.ua##.header-banner
 1688.com###cpm-ad
 1688.com###cpm-ad-2
@@ -16383,7 +16390,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 1ttv.net###prerollad
 1tulatv.ru###slideout.dyes
 1tulatv.ru,animevost.one,animevost.org,animevost.top,bessarabiainform.com,bombardir.ru,dwg.ru,ebooktime.net,fex.net,pc-consultant.ru,programmersforum.ru,rusplt.ru,sport24.ru,traktorist.ua,vost.pw##a[href*="utm_"]
-1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
+1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,itweek.ru,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
 1tv.od.ua##.b-layout__right::before
 1tv.od.ua##.b-socials-board
 1tv.od.ua##.telegram-link-block
@@ -16713,7 +16720,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 247sports.com##section.main-wrapper > .topnav > .nav-bar.nav-bar--fixed:style(top: 0!important;)
 247sports.com##section.main-wrapper > .topnav:style(margin-top: 0!important;)
 247sports.com,4029tv.com,abovethelaw.com,asmartbear.com,bookriot.com,breakingdefense.com,carsguide.com.au,christianitytoday.com,citiblog.co.uk,citusdata.com,citynews.ca,click2houston.com,clickorlando.com,cockroachlabs.com,creation.com,currentaffairs.org,dailybee.com,dailysignal.com,dallasinnovates.com,eltrecetv.com.ar,euobserver.com,feadship.nl,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,freedom.press,frommers.com,hedgehogreview.com,hiphopdx.com,hot97.com,japantimes.co.jp,jta.org,kantinepraat.nl,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,local10.com,medcitynews.com,morningstar.com.au,motherjones.com,mynbc5.com,pogo.org,progressive.org,propublica.org,publicdomainreview.org,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,samvirke.dk,san.com,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thebeliever.net,thekitchenmagpie.com,tn.com.ar,tomsguide.com,toofab.com,tvtropes.org,undark.org,voetbalverslaafd.nl,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com,zeit.de##.newsletter-signup
-247sports.com,androidpolice.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mensjournal.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
+247sports.com,androidpolice.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mensjournal.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com,nypost.com,pagesix.com,pennlive.com,syracuse.com##+js(rmnt, script, '"data-adm-url"')
 247superfast.com,24ghonta.news,24indiatv.in,71newstoday.com,aadarshhimachal.com,abitfar.com,actionpunjab.com,aeznewschannel.com,agrabharat.in,aks.news,allnewsgo.com,alorkantho24.com,amaderbharat.com,amanpath.in,amansavera.com,amchimumbaionline.com,anauthokhabar.com,angindianews.com,anidda.lk,atulyabharat.in,avadhtimes.net,azadexpress.com,bangla.earthtimes24.com,bdcurrentnews24.com,bdindianews.in,bdnews.global,bdsportsnews.com,bdtimesnews.com,bdtravellers.com,beanibazarview24.com,bengalreport.com,bharatupdate.com,bhilaitimes.com,bhojpurilive.com,bihardainik.com,bilaspurlive.com,binodonbichitra.com.bd,biswabanglasangbad.com,blive.news,boltauttarakhand.com,brajeshkibaat.com,breakingmalvani.in,breakingnewz24.com,breakingtube.com,britbangla24.com,britishbanglanews.com,buxarkhabar.com,capitalmailnews.com,cctvonline.tv,chanakyanewz.com,chandaulitimes.com,chatganrbani.com,chennaicitynews.net,chetaktimes.com,chitralekha.com,chitwanpost.com.np,chothale.com,cinevinodam.com,citymailnews.com,coastal-mirror.com,corporatebarta.com,corporatesangbad.com,countrynewstoday.com,cplusbd.net,crimecitynews.com,crimecontrolnews.com,crimeonusondhan.com,crimestory.in,ctgjournal.com,ctgnews.com,daily-khabar.com,dailyamarsomoy.com,dailyceylon.lk,dailynewsservices.com,dailypurbomoy.com,dailysharebazar.com,dailysomoyersomikoron.com,dailytimesbangladesh.com,dainikazadi.net,dainikup.com,dakpeon24.com,dbnews24.in,deshbartabd.com,deshjanatarbani.net,deshpratidin.com,deshvani.in,devbhoomisamvad.com,digitalbharatnews.in,digitalmalayali.com,digitalmalayalionline.com,dishabhoomi.com,divaina.lk,divyasandesh.in,dotnews.in,dtw24news.in,echitwanpost.com,educationoverall.com,ehapurnews.com,ejalakam.com,ekattorbangla.com,ekattorer-kotha.com,ekushershokal.com,emedialine.com,emissionkhabar.com,entertainmenthub123.in,epradeshtoday.com,epunemetro.com,fatafatnews.com,firsteyenews.co.in,firstsuddi.com,frontline24.com,globalprabhat.com,golmalnews.com,goodmorningnews.in,goraynews24.com,gujaratnewsline.ca,gurgaonmail.com,guruvayooronline.com,gyandarpan.com,haftavasool.com,hastakshep.news,hilllive.in,himachalbreaking.com,himachalplus.com,hind24tv.in,hindimedia.in,hindnewsservice.com,hindukhabar.com,hindustanaaj.com,hnewsraftaar.com,hosadigantha.com,i7news.in,inanewsagency.com,inayam.com,indiancinemagallery.com,indianobservers.com,indiapublickhabar.in,indnewsdaily.com,inkpoint.in,innuonline.com,insaf24.net,irinjalakuda.com,ivtv.in,jagrukjanta.net,jangathatimes.com,jk24x7news.tv,justkannada.in,kalaipoonga.net,kalamerajasthan.com,kanlishnews.com,karavaldaily.com,karudannews.com,khabarbhatapara.in,khabardigital.com,khabarexclusive24.com,khabarliveindia.com,khabor24.in,khaboronline.com,khabreapki.com,khabredinraat.com,kharinews.com,khaskhobor.com,khobor71.com,kholabarta24.com,khulnatimes.com,kirandoot.com,kochivattom.com,kohramlive.com,kolkatatimes24.com,krantimission.com,kuksamachar.co.nz,kushinagarlive.com,lalitatimes.com,lalsobujerkotha.com,lankanewsweb.net,lawyerteluguweekly.com,leaksin.com,lightlinesnews.com,localindore.com,lokjantoday.com,lokpaksh.com,lokshahilive.com,madhyamat.com,mahanaad.com,maithilijindabaad.com,makkalosai.com.my,malayalimanasu.com,mangalorean.com,manobshongbad.com,marudharbulletin.in,matopath.com,mawbima.lk,mayanewz.com,media4support.com,mediawala.in,mera-uttarakhand.com,metrofuturenews.com,mihinews.com,morekhabar.com,moviemirchi24.com,muhimmathonline.com,muldharnews.com,muzaffarnagarbulletin.co.in,mynewswings.com,mytvbd.tv,nachiketalive.com,nalanda-news.com,nayanepalnews.com,nayesubah.com,nepalpostdaily.com,news15india.com,news24nepal.tv,news39.net,news7mannar.lk,newsatnet.com,newsdarpan.in.net,newsfact.in,newshunt.info,newsics.com,newsncr.in,newsnow.lk,newspitara.com,newspost.live,newstelugu.net,newstodayupdate.in,newstrust.co.in,nirikhyaka.com,nishanknews.com,no2politics.com,ntvtime.com,odishanews24.in,onakhabar.com,onegujarat.com,orbittimes.com,page3news.in,pathanamthittamedia.com,patuakhalipratidin.com,pniindia.com,politalks.news,popular24news.com,positivekhabar.com,ppnews.in,prabhattimes.com,pradeshsanchar.com,prahaarkonkan.com,prajapaksham.in,prajapragathi.com,prasthutha.com,prathidina.in,pratidindaily.com,pravakta.com,pravasiexpress.com,pravasishabdam.com,progoti24.com,protidinerkatha.com.bd,provatnews.com,pudhuvaioli.com,pulse365.in,punjabibulletin.in,punjabisath.in,punjabmailusa.com,purbobarta.com,purwanchaldaily.com,raigarhnews24.in,rajasthanlive24x7.com,rajdhanisandesh.in,rajputektamission.org,raozantimes24.com,rashtravadinews.in,rashtriyapatrika.com,rastranews.in,rastriyakhabars.com,rautahattimes.com,regnews.in,rightnewsindia.com,roundupkerala.com,salaamindia.co.in,samachar24.live,samacharseva.in,samacharup.com,samaysakshya.co.in,samayviews.com,sambahak.com,samriddhasamaj.com,samvadjanhvi.com,sangodnews.in,saranshtimes.com,sarhadkasakshi.com,saurashtrakranti.com,shadhinalo.com,sharpbharat.com,sheeshanews.com,sherpurnews24.com,shreesamachar.com,sindhudurglive.com,smarthulchal.com,smartlady.lk,sportstoday.lk,srnewsgroup.com,starlivenews.com,subhartimedia.com,suddinews.com,swatvasamachar.com,swaviman.com,sylhet-tribune.com,taazaanews.com,taftishofcrime.in,tahalka24x7.com,tajavarthalu.in,takshaktv.com,tatwamayi.tv,techsangbad.com.bd,techvision24.com,tejastoday.com,telugumirchi.com,telugupopular.com,teraisandesh.com,thamilkural.net,the4thpillar.live,theangle.in,theappealnews.com,thebandhu.com,thedeoriatimes.in,theexclusivestory.com,thefirepost.com,thelondontimes.uk,thenewsmirchi.com,thepunchlineexpose.com,therealtruth.in,therepublicantimes.co,thesadaknama.com,thestellarnews.com,timeofrajasthan.com,timeshindi.in,tmnewshub.com,torrongonews.com,touringtalkies.co,trendingnewshindi.live,trendingnewsindia.in,tsnews.tv,tvindiaplus24.com,twnews.in,uddokta.net,uddoktabarta.com,ujjwalduniya.com,ujjwalhimachal.com,ujyalokhabar.com,uknews.co.in,unitednews24.com,up.news,usamibanglanews.com,usmalayali.com,uttarakhandnews24.com,uttarakhandreport.com,uttaranchaltoday.com,vaartavali.com,vannibbc.com,vartavani.com,vavuniyanet.com,vidarbha24news.com,vidarbhaapla.com,vijayasakshi.com,vinnobarta.com,vishalindia.in,vision2020news.com,voiceofjhabua.com,voiceoflucknow.com,vtvvitla.com,webkhabar.com,worldmediatimes.com,youthindiatoday.com,youthmukam.com,zillakhabar.com##.td-a-rec
 247superfast.com,andhravilas.net,beforepublish.com,jagocomilla.com,namastenri.net,smpnews24.com##figure.wp-block-image.size-full
@@ -17481,7 +17488,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 37.16.75.37##+js(nowoif)
 37.ru###top-pannel
 37.ru##.top-header-wrapper
-37.ru,62info.ru,agrostory.com,allcio.ru,bits.media,compulenta.ru,gubkinskiy.com,hi-fi.ru,infostart.ru,it-weekly.ru,it-world.ru,kluch.media,likeni.ru,mnmag.ru,nmosktoday.com,officelife.media,rugrad.eu,seonews.ru,vladtv.ru,vn.ru,vt-inform.ru,yantann.rbsmi.ru,yanzori.rbsmi.ru,zi.ua##a[href^="/bitrix/rk.php"]
+37.ru,62info.ru,agrostory.com,bits.media,compulenta.ru,gubkinskiy.com,hi-fi.ru,infostart.ru,it-world.ru,kluch.media,likeni.ru,mnmag.ru,nmosktoday.com,officelife.media,rugrad.eu,seonews.ru,vladtv.ru,vn.ru,vt-inform.ru,yantann.rbsmi.ru,yanzori.rbsmi.ru,zi.ua##a[href^="/bitrix/rk.php"]
 370kk.com###ldgindexbuttom
 373news.com,aikatu.jp,aniroleplay.com,ap7am.com,areaconnect.com,as-web.jp,aucfree.com,autoby.jp,autoc-one.jp,autofrage.net,automobile-catalog.com,bab.la,babla.*,badmouth1.com,bamgosu.site,bg-mania.jp,bien.hu,bleepingcomputer.com,blogmura.com,buzzfeed.com,buzzfeednews.com,cesoirtv.com,chanto.jp.net,cinema.com.my,cinetrafic.fr,cocokara-next.com,collinsdictionary.com,computerfrage.net,convertcase.net,cool-style.com.tw,crosswordsolver.com,cruciverba.it,cults3d.com,daily.co.jp,dailynewshungary.com,dayspedia.com,dictionary.cambridge.org,dnevno.hr,dogdrip.net,dolldivine.com,donbalon.com,dramabeans.com,dropgame.jp,dziennik.pl,economictimes.com,economist.co.kr,edaily.co.kr,etoday.co.kr,etoland.co.kr,eurointegration.com.ua,ev-times.com,filmibeat.com,flatpanelshd.com,fntimes.com,footballtransfer.com.ua,footballtransfer.ru,forsal.pl,freemcserver.net,fxstreet-id.com,fxstreet-vn.com,fxstreet.*,gazetaprawna.pl,genialetricks.de,giornalone.it,globalrph.com,gloria.hr,golf-live.at,goodreturns.in,hb-nippon.com,heureka.cz,hometownstation.com,honkailab.com,horairesdouverture24.fr,hotcopper.com.au,idokep.hu,infinityfree.com,iplocation.net,islamicfinder.org,isplus.com,issuya.com,iusm.co.kr,j-cast.com,j-town.net,j7p.jp,jablickar.cz,jamaicaobserver.com,javatpoint.com,jawapos.com,jmty.jp,joemonster.org,judgehype.com,jutarnji.hr,kinmaweb.jp,km77.com,knowt.com,kobe-journal.com,kompasiana.com,kreuzwortraetsel.de,kurashinista.jp,kurashiru.com,kyoteibiyori.com,lacuarta.com,lakeshowlife.com,laleggepertutti.it,lamire.jp,ldoceonline.com,leckerschmecker.me,lifehacker.jp,listentotaxman.com,livenewschat.eu,loawa.com,logicieleducatif.fr,mahjongchest.com,maketecheasier.com,malaymail.com,mamastar.jp,manta.com,mathplayzone.com,mediaindonesia.com,mentalfloss.com,meteo60.fr,midhudsonnews.com,minesweeperquest.com,minkou.jp,missyusa.com,mlbpark.donga.com,moin.de,motor-talk.de,motscroises.fr,muragon.com,mykhel.com,mynet.com,nana-press.com,nationaltoday.com,nbadraft.net,netzwelt.de,newsinlevels.com,newsweekjapan.jp,niice-woker.com,niketalk.com,nouvelobs.com,oeffnungszeitenbuch.de,ondemandkorea.com,onlineradiobox.com,optionsprofitcalculator.com,oraridiapertura24.it,oxfordlearnersdictionaries.com,palabr.as,pashplus.jp,persoenlich.com,petitfute.com,picksandparlays.net,picrew.me,powerpyx.com,pptvhd36.com,pravda.com.ua,pressian.com,profitline.hu,puzzlegarage.com,quefaire.be,radio-australia.org,radio-osterreich.at,raenonx.cc,raetsel-hilfe.de,references.be,relevantmagazine.com,reportera.co.kr,roleplayer.me,rostercon.com,samsungmagazine.eu,scribens.com,scribens.fr,slashdot.org,slobodnadalmacija.hr,smsonline.cloud,soccerdigestweb.com,solitairehut.com,sourceforge.net,southhemitv.com,sportalkorea.com,sportanalytic.com,sportsrec.com,sportsseoul.com,szamoldki.hu,talkwithstranger.com,tasty.co,tbsradio.jp,text-compare.com,thatgossip.com,the-crossword-solver.com,thedigestweb.com,thefreebieguy.com,tportal.hr,traicy.com,transparentcalifornia.com,transparentnevada.com,tunebat.com,tvtv.ca,tvtv.us,tweaktown.com,twn.hu,tyda.se,tz.de,ufret.jp,upmedia.mg,verkaufsoffener-sonntag.com,w.grapps.me,watchdocumentaries.com,webdesignledger.com,welt.de,wfmz.com,winfuture.de,word-grabber.com,worldhistory.org,worldjournal.com,wort-suchen.de,woxikon.*,yakkun.com,ygosu.com,yutura.net,zagreb.info,zakzak.co.jp##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 373news.com,aikatu.jp,aniroleplay.com,ap7am.com,areaconnect.com,as-web.jp,aucfree.com,autoby.jp,autoc-one.jp,autofrage.net,automobile-catalog.com,bab.la,babla.*,badmouth1.com,bamgosu.site,bg-mania.jp,bien.hu,bleepingcomputer.com,blogmura.com,buzzfeed.com,buzzfeednews.com,cesoirtv.com,chanto.jp.net,cinema.com.my,cinetrafic.fr,cocokara-next.com,collinsdictionary.com,computerfrage.net,convertcase.net,cool-style.com.tw,crosswordsolver.com,cruciverba.it,cults3d.com,daily.co.jp,dailynewshungary.com,dayspedia.com,dictionary.cambridge.org,dnevno.hr,dogdrip.net,dolldivine.com,donbalon.com,dramabeans.com,dropgame.jp,dziennik.pl,economictimes.com,economist.co.kr,edaily.co.kr,etoday.co.kr,etoland.co.kr,eurointegration.com.ua,ev-times.com,filmibeat.com,flatpanelshd.com,fntimes.com,footballtransfer.com.ua,footballtransfer.ru,forsal.pl,freemcserver.net,fxstreet-id.com,fxstreet-vn.com,fxstreet.*,gazetaprawna.pl,genialetricks.de,giornalone.it,globalrph.com,gloria.hr,golf-live.at,goodreturns.in,hb-nippon.com,heureka.cz,hometownstation.com,honkailab.com,horairesdouverture24.fr,hotcopper.com.au,idokep.hu,infinityfree.com,iplocation.net,islamicfinder.org,isplus.com,issuya.com,iusm.co.kr,j-cast.com,j-town.net,j7p.jp,jablickar.cz,jamaicaobserver.com,javatpoint.com,jawapos.com,jmty.jp,joemonster.org,judgehype.com,jutarnji.hr,kinmaweb.jp,km77.com,knowt.com,kobe-journal.com,kompasiana.com,kreuzwortraetsel.de,kurashinista.jp,kurashiru.com,kyoteibiyori.com,lacuarta.com,lakeshowlife.com,laleggepertutti.it,lamire.jp,ldoceonline.com,leckerschmecker.me,lifehacker.jp,listentotaxman.com,livenewschat.eu,loawa.com,logicieleducatif.fr,mahjongchest.com,maketecheasier.com,malaymail.com,mamastar.jp,manta.com,mathplayzone.com,mediaindonesia.com,mentalfloss.com,meteo60.fr,midhudsonnews.com,minesweeperquest.com,minkou.jp,missyusa.com,mlbpark.donga.com,moin.de,motor-talk.de,motscroises.fr,muragon.com,mykhel.com,mynet.com,nana-press.com,nationaltoday.com,nbadraft.net,netzwelt.de,newsinlevels.com,newsweekjapan.jp,niice-woker.com,niketalk.com,nouvelobs.com,oeffnungszeitenbuch.de,ondemandkorea.com,onlineradiobox.com,optionsprofitcalculator.com,oraridiapertura24.it,oxfordlearnersdictionaries.com,palabr.as,pashplus.jp,persoenlich.com,petitfute.com,picksandparlays.net,picrew.me,powerpyx.com,pptvhd36.com,pravda.com.ua,pressian.com,profitline.hu,puzzlegarage.com,quefaire.be,radio-australia.org,radio-osterreich.at,raenonx.cc,raetsel-hilfe.de,references.be,relevantmagazine.com,reportera.co.kr,roleplayer.me,rostercon.com,samsungmagazine.eu,scribens.com,scribens.fr,slashdot.org,slobodnadalmacija.hr,smsonline.cloud,soccerdigestweb.com,solitairehut.com,sourceforge.net,southhemitv.com,sportalkorea.com,sportanalytic.com,sportsrec.com,sportsseoul.com,szamoldki.hu,talkwithstranger.com,tasty.co,tbsradio.jp,text-compare.com,thatgossip.com,the-crossword-solver.com,thedigestweb.com,thefreebieguy.com,tportal.hr,traicy.com,transparentcalifornia.com,transparentnevada.com,tunebat.com,tvtv.ca,tvtv.us,tweaktown.com,twn.hu,tyda.se,tz.de,ufret.jp,upmedia.mg,verkaufsoffener-sonntag.com,w.grapps.me,watchdocumentaries.com,webdesignledger.com,welt.de,wfmz.com,winfuture.de,word-grabber.com,worldhistory.org,worldjournal.com,wort-suchen.de,woxikon.*,yakkun.com,ygosu.com,yutura.net,zagreb.info,zakzak.co.jp##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
@@ -24755,7 +24762,7 @@ alexsports.site##body > .video-container ~ div[id][style*="z-index"]
 alexstuff.ru##.buttons_share
 alexua.tv##.line-topbutton
 alexua.tv##.msocial
-alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,medkrug.ru,must-see.top,womanhit.ru##.sponsor
+alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,itweek.ru,medkrug.ru,must-see.top,womanhit.ru##.sponsor
 alfa-form.ru###leftcol > *
 alfa-form.ru###rightcol > *
 alfa-tv.ua##.cook
@@ -25187,11 +25194,6 @@ allcelebs.club##table[border="1"][width="310"]
 allcelebs.club##table[width="300"][border="1"]
 allcelebs.club##table[width="330"][border="1"]
 allcelebspics.com,alttyab.net,an1me.*,androjungle.com,arkadmin.fr,azoranov.com,barranquillaestereo.com,brasilsimulatormods.com,cambrevenements.com,cartoonstvonline.com,comparili.net,diaobe.net,filegajah.com,filmestorrent.tv,franceprefecture.fr,freecricket.net,germanvibes.org,getmaths.co.uk,gewinnspiele-markt.com,hamzag.com,hannibalfm.net,hornyconfessions.com,ilcamminodiluce.it,joguinhosgratis.com,joziporn.com,justpaste.top,mctechsolutions.in,medibok.se,megafire.net,mirrorpoi.my.id,mockuphunts.com,mortaltech.com,multivideodownloader.com,nauci-engleski.com,nauci-njemacki.com,nekopoi.my.id,pa1n.xyz,papafoot.*,playertv.net,programsolve.com,radio-deejay.com,ranaaclanhungary.com,rasoi.me,riprendiamocicatania.com,rsrlink.in,seriesperu.com,shmapp.ca,skillmineopportunities.com,teczpert.com,totalsportek.app,tromcap.com,tv0800.com,tv3monde.com,ustrendynews.com,watchnow.fun,yelitzonpc.com,ymknow.xyz##+js(trusted-suppress-native-method, eval, '"adsBlocked"')
-allcio.ru,it-weekly.ru,it-world.ru##.header__main-banner
-allcio.ru,it-weekly.ru,it-world.ru##.header__top-banner
-allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note
-allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note ~ hr
-allcio.ru,it-weekly.ru,it-world.ru##div[id^="asd_share_buttons"]
 allclash.com##.adnimationcontainer
 allclassical.org##.underwriting-container
 allcleartravel.co.uk##.cookieConsentContainer
@@ -33497,6 +33499,7 @@ avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,lifehacke
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('trusted-click-element', '.message-component > button[title="Reject All"]')
 avclub.com,infosecurity-magazine.com,jezebel.com,nationaljeweler.com,pastemagazine.com##.dfp
 avdbapi.com##+js(prevent-fetch, /vast.js)
+avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip##+js(abort-current-script, WebAssembly, atob)
 avdelphi.com##+js(aeld, , _0x)
 avdelphi.com##+js(nosiif, debugger)
 avdelphi.com##+js(set, f12lock, false)
@@ -57512,12 +57515,8 @@ daytube.az##.advertise_row
 daytube.az##.social_section
 dayviews.com###panorama_ad
 dayviews.com##.frontPageBox--links
-daz3d.ru##body > span[id^="s"][style]
 daz3d.ru#%#//scriptlet("prevent-setTimeout", "/function\(\)\{var.[a-z]\=[a-z]\.getElementById/", "3000")
 daz3d.ru#%#//scriptlet("set-constant", "snow", "undefined")
-daz3d.ru,portfel.info##body > div[id][style="display: block;"]
-daz3d.ru,trialkeys.ru#@#.AdSense
-daz3d.ru,trialkeys.ru#@#.advblock
 dazeddigital.com###cookie-view
 dazeddigital.com##.article-main-content > .grid:has(a[href^="https://play.google.com/store/apps/details"])
 dazeddigital.com##.club-promo-strip
@@ -101280,6 +101279,7 @@ it-tehnik.ru##aside > div[id^="custom_html"]
 it-times.de###follow-service
 it-times.de##.newsletter-box.teaser-box--blue
 it-trend.jp###bottomScrollNavi_form-and-all-add
+it-world.ru##.line-logo__social
 it-world.ru##.subscribe-detail
 it-zoom.de###cookieTip
 it.advfn.com###google-ads-skin-wrapper
@@ -101764,6 +101764,9 @@ itweb.co.za##.itw-ad
 itweb.co.za##.sponsored-highlights
 itweb.co.za##.subscribe-input-box
 itweb.co.za##.v-alert
+itweek.ru##.tbl-interesno
+itweek.ru##[href^="/ad/rd/"]
+itweek.ru##[src*="/ad/banners/"]
 itwire.com,nativenewsonline.net##.eb-init
 itwm.nl###tdi_37
 itworld.co.kr###techlibrary_left_slide_banner
@@ -102595,8 +102598,10 @@ jav.land,picyield.com###clck_ntv
 jav.one###BSad
 jav.re##+js(abort-on-stack-trace, onload, /app.js)
 jav.re##+js(aost, onload, /app.js)
+jav.sb###promo-box
 jav.sb##+js(abort-current-script, document.write, insertAd)
 jav.sb##+js(acs, document.write, insertAd)
+jav.sb##+js(set-constant, HTMLAnchorElement.prototype.click, noopFunc)
 jav.watch##.banner_top_right
 jav1080.com###custom_html-3
 jav1080.com###custom_html-4
@@ -103741,6 +103746,7 @@ jobs.nike.com#@#.cookie-content
 jobs.nike.com#@#.cookies-popup:not(#style_important)
 jobs.sap.com###rss-wrapper
 jobs.siemens-healthineers.com##+js(trusted-set-cookie, userCookieConsent-145, '{"1":true,"2":false,"3":false}')
+jobs.siemens-healthineers.com#%#//scriptlet('trusted-set-cookie', 'userCookieConsent-145', '%7B%221%22%3Atrue%2C%222%22%3Atrue%2C%223%22%3Afalse%7D')
 jobs.virginia.gov#$#.consent-modal { display: none !important; }
 jobs.virginia.gov#$#.modal-backdrop { display: none !important; }
 jobs.virginia.gov#$#body { overflow: auto !important; }
@@ -107445,6 +107451,7 @@ kisshentai.net,onworks.net##div[id^="ad"]
 kissjav.*##+js(acs, WebAssembly, Promise)
 kissjav.*##.asside-link
 kissjav.*##.column > div.card > div.adv:upward(2)
+kissjav.com##+js(addEventListener-defuser, click, triggerPop)
 kissjav.com##.video-tab[href="#share"]
 kissjav.li##.asside-link
 kissjav.li##.button-video-share
@@ -130948,6 +130955,7 @@ mytempsms.com###privacy_alert
 mytempsms.com##.content > .container[style]:has(> .adsbygoogle)
 mytempsms.com##.layui-col-md12
 mytempsms.com#@##container-ad
+mythav.org##+js(abort-on-property-read, open)
 mytheme.cn##.ad01
 mytheresa.com##+js(trusted-set-cookie, TC_PRIVACY, 1%40032%7C1%7C4525%40%402%401713310882911%2C1713310882911%2C1747006882911%40)
 mythos.foundation##mf-cookies-consent
@@ -145865,7 +145873,7 @@ phimlongtieng.net#$#abort-current-inline-script document.createElement script
 phimmoi.in###ads-preload
 phimmoi.in##.mp-adz
 phimmoiaz.cc##+js(aopr, popunder)
-phimmoii.nl,sendpage.org,onflix.me#$#prevent-listener click ads
+phimmoii.nl,motchillzr.sh,onflix.me#$#prevent-listener click ads
 phimmoii.nl,sendpage.org,onflix.me,sendpage.org#$#prevent-listener click ads
 phimmoizz.org###quangcao
 phimmoizz.org##.ad-container
@@ -147543,6 +147551,7 @@ player.vimeo.com##button[data-share-button]
 player.xxxbestsites.com##+js(aopr, BetterJsPop)
 player4me.online##+js(abort-on-stack-trace, document.createElement, displayLayer)
 player4me.online##+js(addEventListener-defuser, click, openPopunder)
+player4me.vip##+js(abort-on-property-write, cache_loader)
 player4me.vip,seekplayer.vip##+js(nowoif)
 player4u.xyz,2embed.*,vidapi.xyz###gate
 player4u.xyz,vidapi.xyz##[href*="?key="]:upward(1)
@@ -150555,6 +150564,7 @@ portel.pl##+js(set-constant, blokowanko, false)
 portel.pl##div[id^="zone"]
 portel.pl##iframe[src*="/R1"][src$=".html"][style*="display:block !important;"]:style(position: absolute!important; left: -3000px!important;)
 portevergladeswebcam.com###partnerad1div
+portfel.info##body > div[id][style="display: block;"]
 portfolio.hu##^script:has-text(fbmodal-title)
 portfolio.hu#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adblock")
 portfoliojournal.de##.j-sharebuttons
@@ -155651,6 +155661,7 @@ rakuten.com##div[class*="rads_placement"]
 rakuten.com##div[data-productid]:has(a[href*="&fbbaid="])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex"]' 'div[class*="sponsoredAds"]'
+rakuten.com#$#hide-if-matches-xpath './/div[@id]/ul/li[@advertsource][@widget="PRODUCT_ADS"]/following::div[@class="gtm_ads_caption"]/parent::div[@id]/ancestor::div[starts-with(@class,"prd_side")][@style]'
 rakuten.com#$#hide-if-matches-xpath './/span[contains(@class,"sponsoredTag")]/parent::div/ancestor::div[@*[contains(name(), "fragment-id")] and @*[contains(name(), "fragment-selector")]]'; hide-if-matches-xpath './/span[contains(@class,"sponsoredTag")]/parent::div/ancestor::div[contains(@class,"flex-row")][1]'
 rakuten.com#?#[data-productid]:-abp-has(a[href^="/offer?action="])
 rakuten.com#@#.google-ads
@@ -156314,7 +156325,8 @@ rbc.ru#?#main > article > [class^="stroke-"]:-abp-has(> div a[href^="https://t.m
 rbc.ru,rbclifemedia.ru##.card-wrapper:has(> .paragraph > a[href^="https://t.me/"])
 rbc.ru,rbclifemedia.ru##.topline-desktop-link-branding
 rbc.ru,rbclifemedia.ru##article > div.gutter-b:has(> div.social-sharing)
-rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p a[href^="https://max.ru/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p a[href^="https://t.me/"])
 rbc.ru,rbcrealty.ru,sportrbc.ru##.article__special_container
 rbc.ru,rbcrealty.ru,sportrbc.ru##.js-forecast
 rbc.ru,sportrbc.ru##.article__inline-item
@@ -159302,9 +159314,6 @@ robe.cz##.lgGaFu.sc-AxiKw
 robertgatwardjewellers.co.uk##.cookie_pop_show
 robertsspaceindustries.com##.CybotCookiebotDialogActive
 robihachi.jp##.c-share-head
-robindeslois.org#$#abort-current-inline-script jQuery open
-robindeslois.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
-robindeslois.org#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
 robinwidget.org##.banner-1
 robinwidget.org##.banner-2
 robinwieruch.de###gatsby-focus-wrapper div[class^="withBorder-module"]:has(> div[class^="index-module"] small > a[href^="https://amzn.to/"])
@@ -160582,7 +160591,6 @@ rule34hentai.net##section[id$="left"] > .blockbody > script[type]:upward(2)
 rule34hentai.net##section[id$="left"]:has(> .blockbody > script[type])
 rule34hentai.net##section[id$="main"] > .blockbody > .adsbyexoclick:upward(2)
 rule34hentai.net##section[id$="main"]:has(> .blockbody > .adsbyexoclick)
-rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.online,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net##+js(abort-current-script, WebAssembly, atob)
 rule34video.com##.columns > div.panel_header:has(> a[href="https://theporndude.com/"])
 rule34video.com##.item.thumb:has(> [title="Advertisement"])
 rule34video.com##.mobile-box > .mobile-list:has(> li > a[href="https://www.spankurbate.com/"])
@@ -170904,7 +170912,6 @@ speedof.me#$#.cc-window-banner { display: none !important; }
 speedostream.*##+js(aost, JSON.parse, computed)
 speedpan.com###float-window
 speedporn.net##.sbox + #uwee
-speedporn.net,pornwatch.ws,rpmplay.online,pandamovies.org##+js(no-window-open-if)
 speedrun.com###extrabar
 speedrun.com##+js(json-prune, session.showAds)
 speedrun.com##.container.main > div.curse-01.centered
@@ -179611,6 +179618,7 @@ templatemonster.com##.product-add-to-cart > div.free-offer
 templates.office.com##.odcom-template-details-sharing-pane
 templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
 tempmail.email##.open-mail__text > strong > a[target="_blank"]
+tempmail.ninja##+js(trusted-create-html, ins.adsbygoogle, <div><iframe></iframe></div>)
 tempmail.ninja##+js(trusted-set-attr, ins.adsbygoogle, data-ad-status, filled)
 tempmail.ninja##.ads-container
 tempmail.ninja##aside[class] > div.mx-auto:has(> ins.adsbygoogle)
@@ -182879,7 +182887,6 @@ thesprucecrafts.com#@##onetrust-consent-sdk
 thespruceeats.com##.header .search-form--recipe-nav
 thespruceeats.com##.mntl-leaderboard-spacer
 thespruceeats.com#@#[data-ad-width]
-thespruceeats.com,liquor.com,verywellhealth.com,seriouseats.com,investopedia.com##.mm-ads-leaderboard-spacer
 thesprucepets.com##.mm-ads-leaderboard-spacer:remove()
 thesprucepets.com##.mntl-leaderboard-spacer:remove()
 thespun.com##.m-video-player
@@ -188467,6 +188474,8 @@ tube8.com,tube8.es###announcement_ticker
 tube8.com,tube8.es###catFishBanner
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
+tube8.com,tube8.es,tube8.fr##.e8-column
+tube8.com,tube8.es,tube8.fr##.paidTab
 tube8.com,youporn.com###header.paid-tabs-panel:style(height: 60px !important;)
 tube8.com,youporn.com##.paid-tabs-information
 tube8.com,youporn.com,redtube.com###cookie_consent_wrapper
@@ -192273,6 +192282,7 @@ upns.*##+js(aeld, click, document.createElement)
 upns.*##+js(nowoif)
 upns.*##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"])
 upns.ink,upns.one,upns.xyz##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01; cursor: pointer;"]
+upns.online,player4me.*,seekplayer.vip,speedporn.net,pornwatch.ws,rpmplay.online,pandamovies.org##+js(no-window-open-if)
 upolujebooka.pl##.easy-cookie
 uporn.icu##+js(acs, decodeURI, decodeURIComponent)
 upornia.*##.jwplayer > div.afs_ads ~ span[class][style*="flex"]
@@ -195272,8 +195282,8 @@ vierumaki.fi##.overlays > .background
 viet-jo.com###notify-bottom
 viet-jo.com##.bd_bd > div[class^=text-top-tab1-] > div.bd > div.bd_left[name]:contains(PR):upward(2)
 viet-jo.com##div[style="width:99.5%;text-align:center;min-height:200px;height:auto"]
+viet69.ke,dualeotruyenky.com,yurineko.my,kopekilani.net,cliphot69.shop,doctruyen3qhubs.com,ihentai.network,chuyentiepanimehay.one,hentaivc.blog,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,xx.phimnung3x.pro,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.city,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh7.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,goctruyentranhvui19.com,viet69vn.at,misskon.com#$#abort-current-inline-script WebAssembly instantiate
 viet69.ke,dualeotruyenky.com,yurineko.my,lauxanh9x.net,cliphot69.shop,doctruyen3qhubs.com,ihentai.network,chuyentiepanimehay.one,hentaivc.blog,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,xem.phimnung3x.pro,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.city,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh7.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,viet69.ke,goctruyentranhvui19.com,viet69vn.at#$#abort-current-inline-script WebAssembly instantiate
-viet69.ke,dualeotruyenky.com,yurineko.my,lauxanh9x.net,cliphot69.shop,doctruyen3qhubs.com,ihentai.network,chuyentiepanimehay.one,hentaivc.blog,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,xx.phimnung3x.pro,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.city,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh7.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,goctruyentranhvui19.com,viet69vn.at,misskon.com#$#abort-current-inline-script WebAssembly instantiate
 vietcetera.com##div[class^="!items-end"]
 vietcetera.com##div[class^="styles_banner"]
 vietcetera.com##div[class^="styles_topBanner"]
@@ -202970,7 +202980,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains /Anzeige|Sponso
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"] span'; hide-if-contains-visible-text /./ 'div#watch_feed div[class^="_"]' 'span>a[aria-label][attributionsrc][href^="?__cft__"][role="link"]>span>span[aria-labelledby]'; hide-if-contains-visible-text /./ 'div#watch_feed div[class^="_"]' 'span>a[attributionsrc][href*="/ads/about/"][role="link"][tabindex="0"]>span'; hide-if-contains-visible-text /./ 'div#watch_feed div[class^="_"]' 'span>a[attributionsrc][href="#"][role="link"][tabindex="0"]>span>span[aria-labelledby]>span[style]'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][@attributionsrc="blank"][@target="_blank"]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][@attributionsrc="unknown"][@target="_blank"]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; race stop;
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(for_brs_lab_flag_codnten|brs_labeyl_new_flag_cont|the_brs_lbel_label_conten|labeg_brs_label_conten|conen_new_lbe_brs|label_brs_of_la_content|of_brs_conent_labl_flag|brs_label_lbl_cote|lbel_conen_brs_of|lb_coniten_the_brs|labce_conen_brs_the|label_brhs_the_laybe_contnt|new_the_contnt_brs_lab|cote_lanb_flag_brfs_label|brs_cnten_lael_for|brs_lbe_new_contenqt_for|coten_brys_for_label|flag_lbel_contnt_brd|conte_la_br|lab_br_con_label|lbl_label_cont_of_brs|brs_labn_conte_lbl|brs_cntent_lab|bry_label_conten|lbl_bru_cntent_lakb|of_label_new_contet_brrs|contenet_lael_brs|lbe_brs_cofnten|flag_lbe_for_brs_conent|brs_of_flag_contdent_lae|best_lael_conte_brs_newsts|brrs_cnten_lab_the_new|for_conternt_lab_brjs|lael_conte_brs|for_of_lae_conten_brs|contnt_brs_for_la|brs_new_cont_labl_label|brs_la_conten|for_labe_br_con|conte_brs_of_for_lael|labe_the_conte_brs_flag|brs_new_of_lb_contetnt|labe_br_co|label_cont_br_la|la_conte_br|labe_conten_br|lab_conte_br_flag|br_conte_la|cote_lbl_brs_for_lbe|conte_lab_flag_for_brs|brs_conte_labell|flag_laba_brs_content|br_s_content_label|conten_brs_labe|lab_the_flag_conten_brs|lbl_brs_cnte_label|conten_labl_brs|labkel_brs_cont_of|countent_la_brs_label|br_labe_fo_cont_labe|brs_label_la_content_the|brs_lbe_counte_the_flag|cnte_lbel_brm_flag|for_contn_brs_labell_label|new_brs_conten_lab|brs_conte_alabe|labe_brs_flag_cont|new_cnten_br_labvel|brs_of_lb_for_conqten|conten_brs_lab|brs_conent_lab|for_contenzt_brs_lb|br_label_con_lab|for_of_br_labe|lab_brs_of_cone|of_brs_label|distace_of_brs_new_autio_label|labe_cont_brs|sponsore_brs_the|conent_lbl_brqs_lbe|br_lael_content_new|cont_brws_laobe|contenrt_brs_lbe_flag|the_cone_brs_lbl_lbe|cntent_labbe_brs|contxe_brms_labl_lbl|conte_brf_la|lael_flag_cntent_label_bras|the_conten_brs_lbe|labe_label_brs_conent|contn_of_brs_for_la|flag_cnte_label_brs|the_brs_content_labe|lael_the_conteun_brs_label|new_conen_for_brs_la|lbel_brs_contnt|brs_contena_of_labe|the_contenh_lab_for_brs|brs_flag_lael_of_connte|contet_lbl_brs_the_lbel|brg_larb_coten|conte_of_lab_for_br|lbe_label_of_conte_brs|label_of_lbel_conten_brr|lb_conte_brl_la|lbl_conteb_brls_lab|conteynt_brrs_label|label_brs_cont_the_labl|brs_cont_lbe|flag_labe_content_brs|lbe_conen_brd_lbl|new_conent_brs_la|cote_new_labj_brs|brs_lbel_conten|of_lbl_brs_contet_labl|brs_for_labecl_conen|label_brfs_contte_lab_lbl|conteln_for_brs_labe|la_conten_brs|the_conte_lab_br|labiel_brs_cont|cote_the_lael_brs_of|new_coenten_lbe_br|br_lae_content|flag_for_conent_brs_labe|lagbel_coten_bre|lagbel_coten_br|content_label_flag_new_br|labl_for_coniten_of_brs|brs_content_of_labe|for_br_cont_lab|la_con_br|brs_conte_labe_flag|of_conite_flag_brs_labe|lbl_brs_lae_cntent|conte_brs_lb_for|lab_co_br_for|new_brs_content_label|new_brs_content_labe|brs_lab_lbl_conteint_of|brs_lb_conten|flag_br_lfbel_contte|conttent_labe_new_rz|the_brand_cont_sft_flag|brand_cont_sft_flag|flag_cntentk_lbel_b|con_safety_brs|cont_sfty_brs|content_sfty_brs|conte_br_labe_flag|brs_lbl_content|brs_cnt_lbl_the|the_brs_lab_content_new|the_br_s_cnt_label|the_br_s_cont_label|br_lb_label|br_lb_label_co|lbl_content_brs|labe_br_con_the|br_safety_content_label|br_con_label_for_safety|content_lbl_brs|content_label_brs|cont_label_brs|con_label_brs|new_con_label_brs|lbl_la_br_cont|new_lbl_la_br_cont|br_safety_con_label|new_br_safety_con_label|brs_con_label|brs_content_label|bran_lbl_cont|brand_lbl_cont)[^\n]+?("sponsored_data"|"data_spon"|"spon_dat"|"ads_data"|"the_spons_data"|"daspo_sto"|"sponsore_da"|"spons_the_dat"|"th_dat_spo")[^\n]+?("SponsoredData"|"lbl_adv_iden"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sp_auct_dis|flag_distan_spon_auc|of_distanc_auctio_spons|auction_distance_sp|auct_distance_sponsored|auc_distance_sponsored|auction_sponsored_dist|new_auction_sponsored_dist|auct_dis_of_sponsored|the_auct_dis_of_sponsored|auc_dis_sponsored|the_auc_dis_sponsored|spon_auct_dis|spons_dista_auc|dist_spons_auctio|sponsor_for_dis_au|distanc_auct_the_sponsor|spon_lbl_aucti_dista|label_auctio_spons_distanc|auct_dis_sponso|auc_dist_sponso|auc_dis_sponso|new_auc_dis_sponso|spon_lbl_dist_auct|spon_lbl_dis_auct|spons_lbel_dis_auct|lbl_flag_spon_auc_dist|sps_auction_distance|sps_auction_flag_distance|sps_auct_distance|sponso_auc_dist|new_of_sponsxored_diwsta_uctiopn|spon_auct_of_dist|dist_to_spons_auction|aucti_sponsor_the_new_distnc|distance_auti_sonsore|sponsore_auctio_dis|for_aucti_dista_spon|dist_auct_spons_lbl|auctio_spnsor_distace|for_auci_new_sponsor_distanyc|dist_sponsor_auc|au_spon_flag_dist|di_auc_fl_spo|fl_au_flag_di_sp|auc_lb_dis_spon_the|auc_sponsor_dist|lbl_sponsor_dist_au|auc_for_dis_sponso|au_dista_spon|distanc_sponsore_aucti|au_sponsor_dist|auct_spon_dist|auction_distanc_sponsored|auctio_dist_sponsore|sponsocr_distanc_of_auctido|sponsred_auct_dista_of|sponsorexd_aucto_for_lbl_distance|dist_sponso_auctio|aution_disan_new_sonsored|auc_sponsore_distan|sponsor_au_dis|aucton_sponso_ditance|label_sposor_disntance_auctin|lbl_auti_flag_dstanc_sponsord|label_au_lb_spon_fla_dstan|spons_aut_dsta_lb_fla|label_aut_dstan_fl_spons_lb|sponsor_aut_dst_lb_fl|sponsorce_aucio_distanc|auti_the_sponsore_distnc|ditanc_flag_sponsore_aujction|distanc_new_sonsored_auctilo|distan_lbl_au_sponsore|dstan_of_conen_aucti_label|label_acti_sponsory_dstance|sponsore_contet_lbl_disjtan_actio|disance_auctiko_sponso|dstance_auctfio_spdonsore|distance_sponsore_auction_new|aucti_sponsxor_distran|sonsore_for_distance_of_auxcti|the_sponsoyr_distance_auctin_lbl|auctzion_ditan_sponsored|distnc_auct_sponsore|for_sonsor_disjtance_auct|of_sponsor_distanc_auc|auctio_sponso_distan|distanc_auct_spon|sponsor_auct_dis|dstanc_sponsorefd_of_aution_the|spon_auc_dis|aucto_disance_sponso|distnce_actio_lbl_sponso|auct_the_distanc_sponsor|au_distan_label_spons|au_dist_of_spon|spons_distanc_auctio_label|flag_auction_sonsore_distance|lbl_diwstan_new_sponsore_auctiob|the_disan_sonsore_auctigo|sponsorw_distn_aucton_of|disan_sonsore_auctigo|new_sponsore_distan_auctio_the|distanck_auction_the_of_sponsord|distan_sponso_aucti|spons_auct_flag_dis|distanc_spvonsored_auceti|aucti_ditan_sposored_label|label_dstance_sponsored_acti_lbl|disanc_for_spnsore_aucti|auct_distanbc_of_new_sponsoreg|distanc_sponsored_flag_aucti|of_spon_dista_auc|spons_distanc_au|distan_autio_sponcsored_flag|distan_auctin_sposored|sponsor_aucton_distanc_new_of|new_distan_sponsor_aucton|auct_the_distansce_sonsored|sponnsore_distwan_for_auti|sponso_the_action_ditance_for|aucion_dstance_sponpsor|sponored_for_of_distanc_auti|distance_auctio_label_sponsre|flag_disanc_sponsofred_auci|disitance_auct_new_sponsoe_lbl|lbl_aucion_flag_sponsre_dista|the_aucti_distnanc_sponasore|distac_auctioj_flag_sponmsor|distan_flag_sponso_auction|new_dista_aucpti_label_sponsored|sponso_aucftion_disan)/'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(for_brs_lab_flag_codnten|brs_labeyl_new_flag_cont|the_brs_lbel_label_conten|labeg_brs_label_conten|conen_new_lbe_brs|label_brs_of_la_content|of_brs_conent_labl_flag|brs_label_lbl_cote|lbel_conen_brs_of|lb_coniten_the_brs|labce_conen_brs_the|label_brhs_the_laybe_contnt|new_the_contnt_brs_lab|cote_lanb_flag_brfs_label|brs_cnten_lael_for|brs_lbe_new_contenqt_for|coten_brys_for_label|flag_lbel_contnt_brd|conte_la_br|lab_br_con_label|lbl_label_cont_of_brs|brs_labn_conte_lbl|brs_cntent_lab|bry_label_conten|lbl_bru_cntent_lakb|of_label_new_contet_brrs|contenet_lael_brs|lbe_brs_cofnten|flag_lbe_for_brs_conent|brs_of_flag_contdent_lae|best_lael_conte_brs_newsts|brrs_cnten_lab_the_new|for_conternt_lab_brjs|lael_conte_brs|for_of_lae_conten_brs|contnt_brs_for_la|brs_new_cont_labl_label|brs_la_conten|for_labe_br_con|conte_brs_of_for_lael|labe_the_conte_brs_flag|brs_new_of_lb_contetnt|labe_br_co|label_cont_br_la|la_conte_br|labe_conten_br|lab_conte_br_flag|br_conte_la|cote_lbl_brs_for_lbe|conte_lab_flag_for_brs|brs_conte_labell|flag_laba_brs_content|br_s_content_label|conten_brs_labe|lab_the_flag_conten_brs|lbl_brs_cnte_label|conten_labl_brs|labkel_brs_cont_of|countent_la_brs_label|br_labe_fo_cont_labe|brs_label_la_content_the|brs_lbe_counte_the_flag|cnte_lbel_brm_flag|for_contn_brs_labell_label|new_brs_conten_lab|brs_conte_alabe|labe_brs_flag_cont|new_cnten_br_labvel|brs_of_lb_for_conqten|conten_brs_lab|brs_conent_lab|for_contenzt_brs_lb|br_label_con_lab|for_of_br_labe|lab_brs_of_cone|of_brs_label|distace_of_brs_new_autio_label|labe_cont_brs|sponsore_brs_the|conent_lbl_brqs_lbe|br_lael_content_new|cont_brws_laobe|contenrt_brs_lbe_flag|the_cone_brs_lbl_lbe|cntent_labbe_brs|contxe_brms_labl_lbl|conte_brf_la|lael_flag_cntent_label_bras|the_conten_brs_lbe|labe_label_brs_conent|contn_of_brs_for_la|flag_cnte_label_brs|the_brs_content_labe|lael_the_conteun_brs_label|new_conen_for_brs_la|lbel_brs_contnt|brs_contena_of_labe|the_contenh_lab_for_brs|brs_flag_lael_of_connte|contet_lbl_brs_the_lbel|brg_larb_coten|conte_of_lab_for_br|lbe_label_of_conte_brs|label_of_lbel_conten_brr|lb_conte_brl_la|lbl_conteb_brls_lab|conteynt_brrs_label|label_brs_cont_the_labl|brs_cont_lbe|flag_labe_content_brs|lbe_conen_brd_lbl|new_conent_brs_la|cote_new_labj_brs|brs_lbel_conten|of_lbl_brs_contet_labl|brs_for_labecl_conen|label_brfs_contte_lab_lbl|conteln_for_brs_labe|la_conten_brs|the_conte_lab_br|labiel_brs_cont|cote_the_lael_brs_of|new_coenten_lbe_br|br_lae_content|flag_for_conent_brs_labe|lagbel_coten_bre|lagbel_coten_br|content_label_flag_new_br|labl_for_coniten_of_brs|brs_content_of_labe|for_br_cont_lab|la_con_br|brs_conte_labe_flag|of_conite_flag_brs_labe|lbl_brs_lae_cntent|conte_brs_lb_for|lab_co_br_for|new_brs_content_label|new_brs_content_labe|brs_lab_lbl_conteint_of|brs_lb_conten|flag_br_lfbel_contte|conttent_labe_new_rz|the_brand_cont_sft_flag|brand_cont_sft_flag|flag_cntentk_lbel_b|con_safety_brs|cont_sfty_brs|content_sfty_brs|conte_br_labe_flag|brs_lbl_content|brs_cnt_lbl_the|the_brs_lab_content_new|the_br_s_cnt_label|the_br_s_cont_label|br_lb_label|br_lb_label_co|lbl_content_brs|labe_br_con_the|br_safety_content_label|br_con_label_for_safety|content_lbl_brs|content_label_brs|cont_label_brs|con_label_brs|new_con_label_brs|lbl_la_br_cont|new_lbl_la_br_cont|br_safety_con_label|new_br_safety_con_label|brs_con_label|brs_content_label|bran_lbl_cont|brand_lbl_cont)[^\n]+?("sponsored_data"|"data_spon"|"spon_dat"|"ads_data"|"the_spons_data"|"daspo_sto"|"sponsore_da"|"spons_the_dat"|"th_dat_spo")[^\n]+?("SponsoredData"|"lbl_adv_iden"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sp_auct_dis|flag_distan_spon_auc|of_distanc_auctio_spons|auction_distance_sp|auct_distance_sponsored|auc_distance_sponsored|auction_sponsored_dist|new_auction_sponsored_dist|auct_dis_of_sponsored|the_auct_dis_of_sponsored|auc_dis_sponsored|the_auc_dis_sponsored|spon_auct_dis|spons_dista_auc|dist_spons_auctio|sponsor_for_dis_au|distanc_auct_the_sponsor|spon_lbl_aucti_dista|label_auctio_spons_distanc|auct_dis_sponso|auc_dist_sponso|auc_dis_sponso|new_auc_dis_sponso|spon_lbl_dist_auct|spon_lbl_dis_auct|spons_lbel_dis_auct|lbl_flag_spon_auc_dist|sps_auction_distance|sps_auction_flag_distance|sps_auct_distance|sponso_auc_dist|new_of_sponsxored_diwsta_uctiopn|spon_auct_of_dist|dist_to_spons_auction|aucti_sponsor_the_new_distnc|distance_auti_sonsore|sponsore_auctio_dis|for_aucti_dista_spon|dist_auct_spons_lbl|auctio_spnsor_distace|for_auci_new_sponsor_distanyc|dist_sponsor_auc|au_spon_flag_dist|di_auc_fl_spo|fl_au_flag_di_sp|auc_lb_dis_spon_the|auc_sponsor_dist|lbl_sponsor_dist_au|auc_for_dis_sponso|au_dista_spon|distanc_sponsore_aucti|au_sponsor_dist|auct_spon_dist|auction_distanc_sponsored|auctio_dist_sponsore|sponsocr_distanc_of_auctido|sponsred_auct_dista_of|sponsorexd_aucto_for_lbl_distance|dist_sponso_auctio|aution_disan_new_sonsored|auc_sponsore_distan|sponsor_au_dis|aucton_sponso_ditance|label_sposor_disntance_auctin|lbl_auti_flag_dstanc_sponsord|label_au_lb_spon_fla_dstan|spons_aut_dsta_lb_fla|label_aut_dstan_fl_spons_lb|sponsor_aut_dst_lb_fl|sponsorce_aucio_distanc|auti_the_sponsore_distnc|ditanc_flag_sponsore_aujction|distanc_new_sonsored_auctilo|distan_lbl_au_sponsore|dstan_of_conen_aucti_label|label_acti_sponsory_dstance|sponsore_contet_lbl_disjtan_actio|disance_auctiko_sponso|dstance_auctfio_spdonsore|distance_sponsore_auction_new|aucti_sponsxor_distran|sonsore_for_distance_of_auxcti|the_sponsoyr_distance_auctin_lbl|auctzion_ditan_sponsored|distnc_auct_sponsore|for_sonsor_disjtance_auct|of_sponsor_distanc_auc|auctio_sponso_distan|distanc_auct_spon|sponsor_auct_dis|dstanc_sponsorefd_of_aution_the|spon_auc_dis|aucto_disance_sponso|distnce_actio_lbl_sponso|auct_the_distanc_sponsor|au_distan_label_spons|au_dist_of_spon|spons_distanc_auctio_label|flag_auction_sonsore_distance|lbl_diwstan_new_sponsore_auctiob|the_disan_sonsore_auctigo|sponsorw_distn_aucton_of|disan_sonsore_auctigo|new_sponsore_distan_auctio_the|distanck_auction_the_of_sponsord|distan_sponso_aucti|spons_auct_flag_dis|distanc_spvonsored_auceti|aucti_ditan_sposored_label|label_dstance_sponsored_acti_lbl|disanc_for_spnsore_aucti|auct_distanbc_of_new_sponsoreg|distanc_sponsored_flag_aucti|of_spon_dista_auc|spons_distanc_au|distan_autio_sponcsored_flag|distan_auctin_sposored|sponsor_aucton_distanc_new_of|new_distan_sponsor_aucton|auct_the_distansce_sonsored|sponnsore_distwan_for_auti|sponso_the_action_ditance_for|aucion_dstance_sponpsor|sponored_for_of_distanc_auti|distance_auctio_label_sponsre|flag_disanc_sponsofred_auci|disitance_auct_new_sponsoe_lbl|lbl_aucion_flag_sponsre_dista|the_aucti_distnanc_sponasore|distac_auctioj_flag_sponmsor|distan_flag_sponso_auction|new_dista_aucpti_label_sponsored|sponso_aucftion_disan|dstan_sponsre_auction)/'
 www.film.ru##.hochuvkino
 www.film.ru##.hvk
 www.film.ru##.social_likes > strong
@@ -204718,6 +204728,9 @@ xoilac23.net##body .footer-banner:not(#style_important)
 xoilaczzlz.tv#$#abort-current-inline-script jQuery open
 xoilaczzlz.tv#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 xoilaczzlz.tv#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
+xoilaczznz.tv#$#abort-current-inline-script jQuery open
+xoilaczznz.tv#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+xoilaczznz.tv#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
 xojane.com###read_janes_diary-0
 xoo.it###pubRdc
 xopenload.video###video_ads
