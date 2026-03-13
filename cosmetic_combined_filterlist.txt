@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.260
-! Last Modified: 2026.03.13.0737+1100 AEST
+! Version: 1.0.261
+! Last Modified: 2026.03.13.1309+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -76,7 +76,6 @@ $removeparam=_branch_match_id
 $removeparam=_branch_referrer
 $removeparam=_gl
 $removeparam=_hsenc
-$removeparam=_kx
 $removeparam=_openstat
 $removeparam=adjust_adgroup
 $removeparam=adjust_campaign
@@ -49698,7 +49697,6 @@ ciudad.com.ar##.reactions_social
 ciudad.com.ar##:not(.wrapper) > div.social-icons
 ciudad.com.ar,elcomercio.com,hazteveg.com,lmcipolletti.com,lmneuquen.com##.banner-wrapper
 ciudad.com.ar,eltrecetv.com.ar,lithub.com,tn.com.ar##.social_links
-ciudadano.news,eleconomista.com.ar##.redes-share
 ciudadanos-cs.org##.basic--draw-cookie-message-bar-notice
 ciudadanos-cs.org##.basic--draw-cookie-message-bar-notice--page-content-layer
 ciudadblogger.com##+js(aeld, load, onload)
@@ -71051,6 +71049,8 @@ existenz.se##.wm-nopop, #main > p[style^=color], #slidebox
 exitlag.com##.exl-cookie-banner
 exitosanoticias.pe##.module_mm
 exitosanoticias.pe##.statics_module
+exitosanoticias.pe##.story-youtube
+exitosanoticias.pe,ciudadano.news,eleconomista.com.ar##.redes-share
 exitosanoticias.pe,rpp.pe##.story-googlenews
 exkavator.ru##.news-bottom-blocks
 exkavator.ru##.social__wrap
@@ -199459,6 +199459,7 @@ webcafe.bg#$#body[style] { overflow: auto !important; }
 webcafe.bg#$?#.fc-consent-root { display: none !important; }
 webcam-aalsmeer.nl,webcam-airport.nl,webcam-binnenvaart.nl,webcam-blokzijl.nl,webcam-brandaris.nl,webcam-delfzijl.nl,webcam-denhelder.nl,webcam-denoever.nl,webcam-dokkum.nl,webcam-dordrecht.nl,webcam-enkhuizen.nl,webcam-friesemeren.nl,webcam-grou.nl,webcam-havenijmuiden.nl,webcam-hindeloopen.nl,webcam-hoekvanholland.nl,webcam-kampen.nl,webcam-lauwersoog.nl,webcam-leeuwarden.nl,webcam-lelystad.nl,webcam-maassluis.nl,webcam-marken.nl,webcam-monnickendam.nl,webcam-rotterdam.nl,webcam-sneek.nl,webcam-terneuzen.nl,webcam-vlaardingen.nl,webcam-volendam.nl,webcam-workum.nl,webcam-zaanzicht.nl,webcam-zoutkamp.nl,webcam-zwartsluis.nl,webcams-ameland.nl,webcams-scheveningen.nl,webcams-texel.nl,webcams-vlissingen.nl,webcamschiermonnikoog.nl,webcamvlieland.nl##.flexslider
 webcam-erotic.tv###center > div[style^="height: 250px"]
+webcamcollections.com##.box-ad-wrapper
 webcamera.pl###exit-intercept
 webcamera.pl###screening
 webcamera.pl##+js(abort-on-stack-trace, document.querySelectorAll, hasAdblockCallback)
@@ -203219,6 +203220,7 @@ www.google.*##div.sh-sr__shop-result-group[data-hveid]:has(g-scrolling-carousel)
 www.google.*##div[class="Nv2PK THOPZb CpccDe "]:has(.OcdnDb)
 www.google.*##div[class="YNk70c CuvrIe"]
 www.google.*##div[data-ads-title="1"]
+www.google.*##div[data-async-context] [style]:has(a[href^="/aclk?sa="])
 www.google.*##div[data-attrid="kc:/local:promotions"]
 www.google.*##div[data-crl="true"][data-id^="CarouselPLA-"]
 www.google.*##div[data-is-ad="1"]
