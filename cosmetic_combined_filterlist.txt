@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.268
-! Last Modified: 2026.03.14.2129+1100 AEST
+! Version: 1.0.269
+! Last Modified: 2026.03.15.0229+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -505,7 +505,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$popunder,3p,domain=imgtorrnt.in
 *$popunder,3p,domain=m.pornoxo.com
 *$popunder,3p,domain=mp4porn.space
-*$popunder,3p,domain=multiup.io|multiup.org|multiup.eu
 *$popunder,3p,domain=pornclassic.tube|tubepornclassic.com
 *$popunder,domain=acortalo.*|acortar.*
 *$popunder,domain=cambro.tv
@@ -129489,8 +129488,6 @@ multiup.eu###overview + #content-page > .alert.alert-success
 multiup.eu,multiup.io,multiup.org##+js(multiup)
 multiup.io##+js(acs, navigator, FingerprintJS)
 multiup.io##+js(no-setInterval-if, $("form").submit())
-multiup.io##+js(nowoif, _blank)
-multiup.io##+js(rpnt, script, setInterval)
 multiup.io##.bg-info
 multiup.io##.content-body > form[method="POST"][action^="https://multinews.me/"]:remove()
 multiup.io##.mfp-bg, .mfp-wrap
@@ -129498,13 +129495,6 @@ multiup.io##.row > div.col-sm-4:has(> section strong > a[href^="https://www.face
 multiup.io##a[href^="/download-fast/"]
 multiup.io##a[href^="https://multiup.io/download-fast/"]
 multiup.io#?#.panel-featured-success:has([alt="Usennet.nl"])
-multiup.io,multiup.org,multiup.eu##+js(acs, decodeURI, decodeURIComponent)
-multiup.io,multiup.org,multiup.eu##+js(nosiif, .submit)
-multiup.io,multiup.org,multiup.eu##.mfp-ready
-multiup.io,multiup.org,multiup.eu##.text-center.bg-info
-multiup.io,multiup.org,multiup.eu##a[href^="/download-fast/"]
-multiup.io,multiup.org,multiup.eu##div.col-md-4:has(> .panel > .panel-footer > a[href^="/download-fast/"])
-multiup.io,multiup.org,multiup.eu##div.text-center:has(a[class="btn btn-success"][href^="abp:subscribe"])
 multiup.io,mzansixporn.co.za,pahe.ink,pahe.*,vik1ngfile.site,romsdroid.com,game-repack.site,sterham.net,strikeout.im,buffsports.io,crystal-launcher.pl,gamespack.net,worldsports.st,cutynow.com,exnion.com,vikingf1le.us.to,exe-urls.com,evernia.site,worldsports.me,vidsrc2.*,viprow.nu,ijvam.com,olympicstreams.*,uploadhaven.com,arcjav.com,mc-hacks.net,mycivillinks.com,wonderapk.com,megaup.net,exeo.app,vidsrc.*,cricstreams.re,vipleague.*,socceronline.me,igg-games.co,crackstreams.*,torrentmac.net,vipboxtv.*,vipbox.*,userscloud.com,game3rb.com,soap2day.*,soccerworldcup.me,igg-games.com,miraculous.to,coloredmanga.com,hentaispark.com,send.cm##+js(abort-current-script, navigator, FingerprintJS)
 multiup.org###__admvnlb__modal_container
 multiup.org###admvpu
