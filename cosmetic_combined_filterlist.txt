@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.272
-! Last Modified: 2026.03.15.1705+1100 AEST
+! Version: 1.0.273
+! Last Modified: 2026.03.15.2132+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -16930,6 +16930,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 24starogard.pl,300polityka.pl,3trzy3.pl,android.com.pl,bazarek.net.pl,bazarowo.pl,bezpiecznyrynekpracy.pl,cybersport.pl,dotabuff.com,e-hotelarz.pl,e-kidsplanet.com,eksmagazyn.pl,encyklopedia.pwn.pl,esportnow.pl,eurobuildcee.com,fantastyka.pl,forumkwiatowe.pl,glos.live,glosludu.cz,gryfice24.online,historia.org.pl,imagazine.pl,isbzdrowie.pl,itvregion.pl,kliknijwzdrowie.pl,kujawy24.pl,legia.net,mazopolska.pl,meczyki.pl,megatiming.pl,meska-kuchnia.pl,naszekwatery.pl,nieruchomoscipodlaskie.pl,obligacje.pl,operatorzy.pl,optyczne.pl,podhale24.pl,podlasianin.com.pl,polskiautohandel.pl,probasket.pl,przewodnik-katolicki.pl,radiosud.pl,rehalab.eu,serwislokalny.com,sieplywa.pl,sjp.pwn.pl,tvciechanow.pl,typersi.pl##.banner
 24timezones.com##.ad-container-diff
 24timezones.com##.ad-container-top-index
+24timezones.com##.ad-container-wtd
 24tp.pl##.reklama-box
 24tp.pl##.reklama-box-newsy
 24tp.pl,dkl24.pl##.polecamy
@@ -33688,6 +33689,7 @@ avito.ru##.jc1Oe
 avito.ru##.js-item-view-main > div[class][style^="--module-spacer-column-gap"]:has(> div[style^="--module-spacer-slot"] button[data-marker="saleBanner/button"])
 avito.ru##.sendout
 avito.ru##[class^="AvitoFullLogo-module-confetti-"]
+avito.ru##[data-marker="footer"] a[href^="http"]:not([href*="avito.ru"])
 avito.ru##a[class*="styles-module-root_shape_"]
 avito.ru##body > div[style*="--zIndexPassiveFeedbackIcon:"]
 avito.ru##div[class*="free-delivery-container-"]
@@ -33710,6 +33712,7 @@ avito.ru##div[data-marker="top-notification/warning/landing-entrypoint-ios"]
 avito.ru##div[data-marker^="top-notification/"]
 avito.ru#%#//scriptlet('set-cookie', 'cookie_consent_shown', '1')
 avito.ru#%#//scriptlet('trusted-click-element', 'div[data-marker="portals-container"] button > span > span[class^="styles-module-text-zspc_ styles-"]', 'containsText:Хорошо')
+avito.ru#?#.js-item-view-main > div[class]:-abp-has(> div div[style^="background:"] img[src*="_resale_"])
 avito.ru#?#div[class*="styles-module-root_bottom-"]:-abp-has(> [role] [href="/legal/rules/cookies"])
 avito.ru#@#[class$="-ads"]
 avito.ru,volnafm.com#@##social
@@ -46154,6 +46157,7 @@ careers.msxi.com,jobs.amadeus.com,jobdetails.nestle.com,jobsearch.createyourownc
 careers.philips.com##div[data-widget="ph-cookie-popup-v2"]
 careers.shopee.com.br##div.cookie-preference-wrapper[cookiepreference]
 careers.team.blue##.z-cookie-alert
+careers.toyota.com##.phs-cookie-popup-area
 careers.ucalgary.ca##.cs_share_container
 careers.usbank.com#%#//scriptlet('trusted-set-cookie', 'PHPPPE_GCC', 'd')
 careers.viaplaygroup.com##div[data-controller="common--share"]
@@ -54188,7 +54192,9 @@ crash.net##.dmpu
 crash.net##.dmpu-container
 crash.net##.dt
 crash.net##.echobox-subscribe-1
+crash.net##.field
 crash.net##.inarticle-wrapper
+crash.net##.mpu-block
 crash.net##button[onclick*="_sp_.gdpr.loadPrivacyManagerModal"]
 crash.net,defence-ua.com##.banner-block
 crash.net,ttnews.com##.block-better-social-sharing-buttons
@@ -64587,7 +64593,7 @@ dziennikplocki.pl##.dzien-reklama-pod-kalendarzem
 dziennikplocki.pl##.dzien-widget
 dziennikpowiatowy.pl###top_1
 dziennikpowiatowy.pl###toplayer
-dziennikpowiatowy.pl,echomedia.info,eluban.pl,expresselblag.pl,expresspaslek.pl,faktykaliskie.info,gazetamyszkowska.pl,gazetazoliborza.pl,halorzeszow.pl,kronikatygodnia.pl,naszagazeta.info,podkarpackahistoria.pl,radiotczew.pl,tvsudecka.pl##.d-inline-block-not-important
+dziennikpowiatowy.pl,echomedia.info,eluban.pl,expresselblag.pl,expresspaslek.pl,faktykaliskie.info,gazetamyszkowska.pl,gazetazoliborza.pl,halorzeszow.pl,kronikatygodnia.pl,naszagazeta.info,nasztomaszow.pl,podkarpackahistoria.pl,radiotczew.pl,tvsudecka.pl##.d-inline-block-not-important
 dziennikpowiatowy.pl,faktykaliskie.info,gorzowskie.pl,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,krosno112.pl,lokalna.news,lokalna24.pl,lokalnatelewizja.pl,olesnica24.com,podkarpackahistoria.pl,portalpomorza.pl,przegladregionalny.pl,radioplonsk.pl,radiotczew.pl,radiozamosc.pl,slowopodlasia.pl,tarnowska.tv,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv,zawszepomorze.pl##[class="text-center my-3 container"]
 dziennikpowiatowy.pl,gazetamyszkowska.pl,koscierzyna24.info,narew.info,olesnica24.com,radiosochaczew.pl,tv.starachowice.pl,wirtualnesuwalki.pl,zycieolsztyna.pl##.legal-notice
 dziennikpowiatowy.pl,kronikatygodnia.pl,pzl24.pl##.tipad_tag + picture
@@ -98221,6 +98227,7 @@ indonesiana.id##.fix-bottom
 indonesiana.id,tempo.co##.bannerhead
 indonesiasatu.kompas.com##.bannerTop1
 indootimes.com.au##.penci-banner-box:not(#penci-banner_box--86294)
+indopanas.cyou##+js(set-constant, prerollActive, false)
 indoporn.pro##.full-brkas-container
 indosiar.com###headerbanner
 indosport.com###billboard-ad
@@ -111703,7 +111710,7 @@ latoken.com##.jss1097
 latribuna.cl###slot_box01
 latribuna.cl###slot_top
 latribunadelpaisvasco.com##+js(noeval)
-latribune.ca,leaan.co.il,lesoleil.com,livejournal.com,px.dev,takealot.com##[class^="cookies-banner"]
+latribune.ca,leaan.co.il,lesoleil.com,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,px.dev,shakko.ru,shiro-kino.ru,takealot.com,vadimrazumov.ru##[class^="cookies-banner"]
 latribune.fr###cookie-display
 latribune.fr##.block-partner
 latribune.fr##.sharelinks-affix > ul > li.tools:not(.mail):not(.print)
@@ -113395,6 +113402,7 @@ lezhinus.com,lezhin.com###viewer-coach
 lezhinus.com,lezhin.com#$#body.is-comic * { pointer-events: auto!important; }
 lezizyemeklerim.com##.share > a[data-fbui]
 lezizyemeklerim.com##figure > a[data-pin]
+lezzet.com.tr##.db-ads
 lezzet.com.tr##.footer-mobil-uygulama-box
 lezzet.com.tr#?#body > .align-items-center:has(#formSubscription)
 lfc.pl##div[id^="ad-"]
@@ -116805,7 +116813,7 @@ lulus.com#$#.c-site-overlay { display: none !important; }
 lulus.com#$#body.u-overflow-hidden { overflow: auto !important; }
 lulustream.com##+js(abort-current-script, String.prototype.concat, popup)
 lulustream.com,lulustream.live,luluvdo.com##+js(aeld, click, popunder)
-luluvdoo.com#@#.AdsBox
+luluvdo.com,luluvdoo.com##+js(no-setTimeout-if, bait)
 luluvid.com##+js(rmnt, script, popundersPerIP)
 luluvid.com#$#abort-on-property-write showADBOverlay
 lulz.net##a[href="https://www.furfling.com/"]
@@ -165511,7 +165519,6 @@ sgxnifty.org###aub_cover
 sgxnifty.org,comexlive.org###terms-bar
 sh-mueller.de###notify
 sh.reddit.com,www.reddit.com##+js(trusted-set-local-storage-item, xpromo-consolidation, $currentDate$)
-shaahed4u.net,sd4u.net##+js(abort-on-stack-trace, document.createElement, runAdBlock)
 shaalaa.com##*:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 shaalaa.com##+js(prevent-fetch, www3.doubleclick.net)
 shaalaa.com##.share_btn_alt
@@ -165901,6 +165908,10 @@ sheva7.co.il##.advertising-box-wrapp
 sheva7.co.il##.maavaron
 shfq.com##.index_banner_ad
 shh-town-board.com##.vcex-social-share
+shhahhed4u.net,shaahed4u.net,sd4u.net##+js(abort-on-stack-trace, document.createElement, runAdBlock)
+shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,batch-kun.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc###ignielAdBlock:style(display: none !important;)
+shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,batch-kun.com,shahee4u.cam,indokontraktor.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc##body:style(overflow: auto !important;)
+shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,shahee4u.cam,indokontraktor.com##.ignielAdBlock:style(display: none !important;)
 shiachat.com###ipsLayout_header > div.cAnnouncementsFloat
 shiachat.com##body > div#ipsLayout_header + center
 shiawasewine-c.com##.follow-banner
@@ -165925,9 +165936,6 @@ shiftdelete.net##.bkz
 shiftdelete.net##.thb-article-share
 shiftdelete.net##.thb-google-news
 shiftdelete.net##body > efilli-layout-dynamic
-shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,batch-kun.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc###ignielAdBlock:style(display: none !important;)
-shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,batch-kun.com,shahee4u.cam,indokontraktor.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc##body:style(overflow: auto !important;)
-shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,shahee4u.cam,indokontraktor.com##.ignielAdBlock:style(display: none !important;)
 shiid4u.day,shah4u.*,sshahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shahid-4u.*,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,shahid4u.*,batch-kun.com,iosviet.com,shahee4u.cam,indokontraktor.com,freebnbcoin.com,exotictgirl.blogspot.com,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc,fc-lc.com,akwam.*,arabseed.*,miuiku.com,tatangga.com,flash-firmware.blogspot.com,rumahit.id##+js(abort-current-script, document.createElement, ignielAdBlock)
 shika-kokushi.com###popup__breakaway__prevention
 shika-kokushi.com###popup__scroll
@@ -203227,6 +203235,7 @@ www.aport.ru##.sidebar-item.banner
 www.asu.baby#$#abort-on-property-read initialAdURLs
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##.--advert
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##body > .footer ~ [src^="https://pay.google.com/"] + div[class]
+www.avito.ru##[data-chunks="item-buyer-view"] + div > div:first-child > div:first-child + div > div:first-child + div + div:last-child > div:only-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
 www.avito.ru##div[class*="avito-ads-container"]
 www.avito.ru##div[class*="index-advRootWidget"]
 www.avito.ru##div[class*="styles-module-root_animation-"]:empty
