@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.280
-! Last Modified: 2026.03.17.0739+1100 AEST
+! Version: 1.0.281
+! Last Modified: 2026.03.17.1312+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -9204,6 +9204,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /js/ads/*5.js
 /js/ads/dui.js
 /js/ads/hf*.js
+/js/ads/main-popunder.js$script,domain=mangakakalot.gg|manganato.gg|natomanga.com|nelomanga.net
 /js/ads/neiye
 /js/ads/piao.js
 /js/ads/to
@@ -50546,6 +50547,8 @@ cloud.mail.ru,doc.mail.ru##div[class^="Sidebarinfo__root"]
 cloud.mail.ru,doc.mail.ru##div[class^="Snackbars__root"]
 cloud.majalahhewan.com#?#span:-abp-contains(Advertisement)
 cloud.mts.ru##.Cookie_cookie__laacy
+cloud.ru##.styles-module-scss-module__7mbI1G__cookie_policy
+cloud.ru##.styles_cookiePolicy__VPjHs
 cloud.ru##div[class^="CookiePop_root__"]
 cloud.ru##div[class^="styles_cookie_policy"]
 cloud.ru##div[data-test-id="advertising-banner-wrapper-el"]
@@ -57753,6 +57756,7 @@ dayoga.ru##.footer-social-groups
 dayoo.com###ad-xl
 dayspedia.com##.banner--aside
 dayspedia.com##.banner--main
+dayspedia.com##.puzzlegarage.block
 dayspedia.com,puzzlegarage.com,onlineradiobox.com##div[class^="modal--cookies"]
 dayspring.com##.loading-mask
 daysy.me##.cookieconsent-container
@@ -88956,6 +88960,7 @@ gx.cn###html-box-AD
 gx.games#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '{%22version%22:2%2C%22marketing%22:false%2C%22necessary%22:true}')
 gx.games#?#body > div.ReactModalPortal:has(> div[class^="sc-"] a[href="https://www.opera.com/privacy"])
 gx.games,gx.me##.ReactModal__Overlay--after-open
+gx.me##+js(trusted-set-cookie, cookie-consent, '{"marketing":false,"necessary":true,"version":2}', , , domain, .gx.me)
 gx.me##.ReactModal__Overlay--after-open
 gx.net.ua#?#.widget:-abp-has(> .tabs-list > .active > a:-abp-contains(/Facebook|Погода/i))
 gx.net.ua,tut.by##.banner-place
@@ -120603,6 +120608,7 @@ mangalwedhatimes.in##.content-inner > p img
 mangamanga.*##+js(aeld, keydown)
 mangamelon.com##.layout > .flex > .v-card > div[style="height:280px;"]:not([class]):not([id])
 mangamiso.net##.container > div.v-sheet--outlined
+manganato.gg##+js(nowoif)
 manganelo.tv##+js(aopr, JSON.parse)
 manganelo.tv#$#abort-on-property-read document.createElement
 manganime.id##.ftadss
