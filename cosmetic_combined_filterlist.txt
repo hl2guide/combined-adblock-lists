@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.285
-! Last Modified: 2026.03.18.0740+1100 AEST
+! Version: 1.0.286
+! Last Modified: 2026.03.18.1324+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -18358,6 +18358,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4wank.com##.plads
 4wank.com##.related-videos > center:contains(Advertisement)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
+4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 4wank.com,daporn.com,epicgfs.com,fpo.xxx,hentai-moon.com,scatxxxporn.com,xmateur.com##.top
 4woodi.pl##.widget_snap_ad
 4x4earth.com##+js(nostif, samOverlay)
@@ -21957,6 +21958,7 @@ acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.c
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-contains Sponsored 'div[class^="slick-slide"] meals-card[style]' 'span>span'
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:-abp-contains(Sponsored)
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,jewelosco.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/product-item-al-v2[@data-qa][.//span[contains(text(),"Weekly ad")]]';
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,jewelosco.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/span[contains(text(),"Weekly ad")]/parent::div[contains(@class,"carousel")]/ancestor::div[@class="h-100"][1]/parent::div[@data-slick-index]';
 acmemarkets.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
@@ -23556,6 +23558,7 @@ agoda.com##div[id^="ads-"]
 agoda.com##div[id^="ads-ssr-"]
 agoda.com#%#div[data-element-test="prominent-app-download-popover"]
 agoda.com#?#.PropertyCardItem:-abp-has(div:-abp-contains(Promoted))
+agoda.com#?#.PropertyCardItem:has(div:has-text(Promoted))
 agoda.com#?#div[class^="Modalstyled__Dialog"]:has(button[data-component="openAppButton"])
 agoodmovietowatch.com##.stickyads
 agora.pl##.cm-overlay
@@ -24145,7 +24148,7 @@ airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com##.newsletter-form
 airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com##.widget_newsletter_subscription
 airlinehaber.com##.csbwfs-sbutton-post
 airlinehonpo.blog.fc2.com,baiku-sokuho.info,celery-marine.net,otoko-honne.com,ske48matoeme.com,kijolifehack.com##div[id^="rss"]
-airlineratings.com,blog.smithsecurity.biz,boo.world,convex.dev,depot.dev,desenio.se,docs.earthly.dev,foodhubforbusiness.com,getmerlin.in,gitverse.ru,herzindagi.com,justo.ca,media.halvacard.ru,moises.ai,my.openbb.co,promobit.com.br,pump.fun,remnote.com,shuttle.rs,snead.app,thinglink.com,urlcast.io##.bottom-4
+airlineratings.com,blog.smithsecurity.biz,boo.world,convex.dev,depot.dev,desenio.se,docs.earthly.dev,foodhubforbusiness.com,getmerlin.in,gitverse.ru,herzindagi.com,justo.ca,media.halvacard.ru,moises.ai,my.openbb.co,progorod62.ru,promobit.com.br,pump.fun,remnote.com,shuttle.rs,snead.app,thinglink.com,urlcast.io##.bottom-4
 airlinercafe.com##+js(acs, jQuery, ads)
 airlinkflightschool.com,apmoller.com,app.houseofcb.com,ilmanifesto.it,lofigirl.com,momentosdealegriace.com.br,predecessorgame.com,wimotic.fr##.bottom-6
 airliquide.com##.js-scroll-down
@@ -24944,7 +24947,6 @@ algonquincollege.com###accn-cookie-notice
 algonquincollege.com###fancybox-container-1
 algorandfaucet.com##.columns > .col-sm-12 > .card:has(> .card-body > span > div[data-zone])
 algorandfaucet.com##.columns > .hide-xl:has(> .card > .card-body > span > div[data-zone])
-algumon.com##div[style^="display: flex; justify-content: center; align-items: center;"][style*="padding: 16px;"]
 alhambrafabrics.com##.preview-cookies-alert
 alhayat.com##.TopHeaderBanner
 alhayat.com##.banner2
@@ -24984,6 +24986,7 @@ alibaba.com#$#hide-if-matches-xpath './/*[text()="Ad"]/parent::div[@class]/ances
 alibaba.com#$#hide-if-matches-xpath './/div[@style]/span[text()="Ad"]/ancestor::div[@class="tpl-wrapper"]'
 alibaba.com#$#hide-if-matches-xpath './/div[not(contains(@style,"display: none"))]/div[@style]/img[contains(@src,"/H4c09574")][contains(@style,"object-fit: contain")]/ancestor::div[@view-name]/parent::div[@class="tpl-wrapper"]'
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
+alibaba.com#?#.J-offer-wrapper:has-text(Top sponsor listing)
 alibaba.com#?#div[data-content="abox-ProductNormalList"] > div.J-offer-wrapper:has(> div > i.search-ad-icon)
 alibabacloud.com###alicloud-home-top-banner
 alibabacloud.com##.BottomBanner
@@ -25013,6 +25016,7 @@ aliexpress.*#$#hide-if-matches-xpath './/div[(text()="AD" or text()="Annonce" or
 aliexpress.com###voyager-gdpr-2025
 aliexpress.com##.aliexpress-notice
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:-abp-has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:-abp-contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):-abp-has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
+aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 aliexpress.com,aliexpress.us###header-float-banner
 aliexpress.com,aliexpress.us###mobile-download
 aliexpress.com,aliexpress.us##+js(json-prune, data.result.0.mods.listItems.[-].p4p.adTag)
@@ -26988,6 +26992,7 @@ amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,in
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##.banner_image2
 amusingplanet.com##.SocialButtons
 amusingplanet.com#?#.blockTitle:-abp-contains(Advertisement)
+amusingplanet.com#?#.blockTitle:has-text(Advertisement)
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*#%#//scriptlet('set-cookie-reload', 'isAnalyticsCookiesAccepted', 'false')
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*#%#//scriptlet('set-cookie-reload', 'isCookieConsentAccepted', 'true')
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*#%#//scriptlet('set-cookie-reload', 'isMarketingCookiesAccepted', 'false')
@@ -27748,6 +27753,7 @@ anextour.de##cookie-policy.show
 anfasdes.com,ckfu.org,djelfa.info,g-3e6r.com,hwaml.com,qassimy.com,t8t3.com##img[width="150"][height="60"]
 anfieldindex.com##.vc_widget_sidebar .textwidget:has(#newsnowlogo)
 anfieldindex.com#?#aside[data-animation-event]:-abp-contains(PARTNERS)
+anfieldindex.com#?#aside[data-animation-event]:has-text(PARTNERS)
 anfieldwatch.co.uk##.prem-gifts
 ang24.pl##.bnm
 angarsk-38.ru###top-header > .container > a > img
@@ -29528,6 +29534,7 @@ app.com,rgj.com,usatoday.com##.gnt_ss
 app.crowdsec.net,captainwallet.com,welcometothejungle.com##.axeptio_mount
 app.daily.dev##.from-theme-overlay-active-cabbage.to-theme-overlay-active-onion
 app.daily.dev#?#article:-abp-contains(Promoted)
+app.daily.dev#?#article:has-text(Promoted)
 app.degoo.com#@#.share-icon-container
 app.diandian.com###__layout > div > div[class="box dd-base-color"]
 app.element.io##.mx_AnalyticsToast
@@ -29703,6 +29710,7 @@ apple.com##.nr-article-share
 apple.com##.sharesheet
 applealmond.com###custom_html-9
 applealmond.com##div[class^="Zi_ad_a_"]
+applecensorship.com,googlecensorship.org#%#//scriptlet('set-cookie', '__acs', 'false')
 appledaily.com###RHSfacebook
 appledaily.com###div-GDPR-message
 appledaily.com###subscription_head_banner
@@ -30474,6 +30482,7 @@ argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"]
 argos.co.uk##[data-testid="citrus_products-carousel"]
 argos.co.uk##[data-testid="monetisation-product-carousel"]
 argos.co.uk#?#[data-test^="component-slider-slide-"]:-abp-contains(SPONSORED)
+argos.co.uk#?#[data-test^="component-slider-slide-"]:has-text(SPONSORED)
 argovia.ch,bayer04.de,bvb.de,dhb.de,eviva.ch,fc-union-berlin.de,flashbackfm.ch,hallescherfc.de,ofc.de,radio24.ch,radio32.ch,radiocentral.ch,radiofm1.ch,radiomelody.ch,radiopilatus.ch,rundumkoeln.de,sunshine.ch,telem1.ch,telezueri.ch,uniliga.gg,virginradio.ch##.sponsors
 argovia.ch,bolzano-bozen.it,esports.ch,europages.de,frischauf-gp.de,hc-elbflorenz.de,mainpost.de,radio24.ch,scfreiburg.com,svww.de##.sponsor
 argoviatoday.ch,baerntoday.ch,nzz.ch,pilatustoday.ch,swissmom.ch##div[id^="adnz_"]
@@ -31919,9 +31928,12 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#$#hide-if-matches-xpath './/section/div[contains(@class,"product-grid-component")]//span[text()="Sponsored" or .="Sponsorisé"]/ancestor-or-self::span[contains(@class,"chakra-badge")]/ancestor::div[contains(@class,"chakra-linkbox")]/ancestor-or-self::div[@class="css-0"][1]'
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#$#hide-if-matches-xpath '//img[contains(@alt,"Sponsor")]/preceding::p[contains(@class,"chakra-text")][text()="Sponsored" or .="Sponsorisé"]/ancestor::div[contains(@class,"chakra-container")]'
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.indiana-scroll-container > ul > li:has(.chakra-badge:-abp-contains(/Sponsorisé|Sponsored/))
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.indiana-scroll-container > ul > li:has(.chakra-badge:has-text(/Sponsorisé|Sponsored/))
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:-abp-contains(Sponsored)
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:has-text(Sponsored)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid="card"]:-abp-contains(sponsored)
+atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid="card"]:has-text(sponsored)
 atlaq.com##+js(abort-on-property-write, flaged)
 atlas-diamant.de#%#//scriptlet('set-cookie', 'ckies_cookielaw', 'allow')
 atlas-diamant.de#%#//scriptlet('set-cookie', 'ckies_google_maps', 'allow')
@@ -33546,8 +33558,11 @@ autotrader.com#$#.internationalOverlay { display: none !important; }
 autotrader.com#$#.modal-backdrop { display: none !important; }
 autotrader.com#$#body { overflow: visible!important; }
 autotrader.com#?#.inventory-listing:-abp-contains(Sponsored)
+autotrader.com#?#.inventory-listing:has-text(Sponsored)
 autotrader.com#?#[data-cmp="PremiumSpotlightContainer"]:-abp-contains(Sponsored)
+autotrader.com#?#[data-cmp="PremiumSpotlightContainer"]:has-text(Sponsored)
 autotrader.com#?#[data-cmp="delayedImpressionWaypoint"]:-abp-contains(SPONSORED)
+autotrader.com#?#[data-cmp="delayedImpressionWaypoint"]:has-text(SPONSORED)
 autotrader.com.au##.resultsGrid--halfpage-0
 autotrader.nl,12neuwagen.de,12gebrauchtwagen.de,autoplenum.de,leasingmarkt.de,autoscout24.*###as24-cmp-popup
 autotraveler.ru##.ad_yad
@@ -34664,6 +34679,7 @@ backmomente.de#?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > div
 backnumber.info###app-bnr
 backpack.tf##.col-md-4 > div.panel-main
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
+backpack.tf,backpacktf.com#?#.panel:has-text(createAd)
 backpacker.com##.o-content-cta
 backpacker.com##.o-promo-module
 backpacker.com,betamtb.com,cleaneatingmag.com,climbing.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##.c-newsletter-subscribe
@@ -36117,6 +36133,7 @@ baybaynakitakademi.bkm.com.tr###Akademi_CookiePolicy_bar
 bayburtmanset.com,kartalgazetesi.com##button[onclick*="shareModal"]
 bayburtmedya.com##.flex.items-center.gap-2.grayscale:has(path[d*=".3.1.4.3A.8.8"])
 bayequest.com#?#.elementor-section:-abp-contains(Advertisement)
+bayequest.com#?#.elementor-section:has-text(Advertisement)
 bayer.com,bayer.de##.bayer-cookie-disclaimer
 bayer.com,jpx.co.jp##.page-top
 bayer04.de###sponsors
@@ -37121,6 +37138,7 @@ bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mahoningmatters.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 belloflostsouls.net##div[id^="ad-container-"]
 belloflostsouls.net#?#span.text-secondary:-abp-contains(Advertisement)
+belloflostsouls.net#?#span.text-secondary:has-text(Advertisement)
 belloflostsouls.net,ginx.tv,paladins.guru,smite.guru,theloadout.com##.vm-placement
 bellroy.com###FlyoutSignupModalWrapper
 bellroy.com##.NewsletterSignupFooter
@@ -37615,7 +37633,9 @@ bestbuy.com#$#body[class*="upper-"][class*="-smart-banner-sticky"] { margin-top:
 bestbuy.com#%#//scriptlet('trusted-click-element', '.lower-smart-banner-sticky > div[class][style] > button.close-button')
 bestbuy.com#%#//scriptlet('trusted-click-element', 'body[class*="-smart-banner-sticky"] > div[data-version] > div[class][style] > button.close-button')
 bestbuy.com#?#.plp-ninja-carousel:-abp-contains(Sponsored)
+bestbuy.com#?#.plp-ninja-carousel:has-text(Sponsored)
 bestbuy.com#?#div[data-testid="Row_testID"]:-abp-has(span:-abp-contains(Sponsored))
+bestbuy.com#?#div[data-testid="Row_testID"]:has(span:has-text(Sponsored))
 bestbuy.com,kartalyuvasi.com.tr,megapteka.ru,pages.daraz.pk,idefix.com,lescon.com.tr,telekom.de,openrice.com,pass.telekom.de,lazada.com.ph,lamoda.ru,lazada.co.id,milliyet.com.tr,esky.com.tr,allo.ua,home24.de,cbsnews.com,lieferheld.de##.smart-banner
 bestbuycyprus.com###scrollTopButton
 bestbuycyprus.com##+js(trusted-click-element, button#reject-all-gdpr, , 1000)
@@ -39135,6 +39155,7 @@ bing.com#?#.b_algo:-abp-has(.b_ads1line)
 bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 bing.com#?#.ta_c:has-text(Sponsored)
 bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^([Aa]mazon(\.[acdefinps][aeglnorst]m?\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
+bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:has-text(/^([Aa]mazon(\.[acdefinps][aeglnorst]m?\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
 bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
@@ -39497,6 +39518,7 @@ bitchute.com##.rcad-container
 bitchute.com##body:style(overflow: auto !important)
 bitchute.com#$#override-property-read Object.prototype.ads undefined; json-prune 'show_adverts';
 bitchute.com#?#.row.justify-center:-abp-contains(Advertisement)
+bitchute.com#?#.row.justify-center:has-text(Advertisement)
 bitci.com##.bw-cnotify
 bitcine.app##+js(aeld, keydown, 123)
 bitcity.it###subscription-form
@@ -39856,6 +39878,7 @@ bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 bjs.com##[data-cnstrc-recommendations="true"]:has(.sponsored-products)
 bjs.com##div[data-index]:has(.sponsored-badge)
 bjs.com#?#[data-cnstrc-recommendations]:-abp-contains(Sponsored Products)
+bjs.com#?#[data-cnstrc-recommendations]:has-text(Sponsored Products)
 bjuvsweek.se##.carouselbanner-wrp
 bjxfqc.net##script ~ ul[style]
 bk.com##section.container-fluid.bkDelivers
@@ -40094,6 +40117,7 @@ bleepingcomputer.com#$#.bc_right_sidebar { min-height: unset !important; }
 bleepingcomputer.com#$#.cz-main-left-section { min-height: unset !important; }
 bleepingcomputer.com#%#//scriptlet('set-cookie', 'sc_cookie_consent', '0')
 bleepingcomputer.com#?#.post_wrap:-abp-contains(AdBot)
+bleepingcomputer.com#?#.post_wrap:has-text(AdBot)
 bleepingcomputer.com#?#ul#bc-home-news-main-wrap > li:has-text(Sponsored)
 bleepingcomputer.com,techdirt.com##.stackcommerce-widget
 blender.org###hop
@@ -41784,6 +41808,7 @@ bollywoodshaadis.com,mumsnet.com###feed-ad-3
 bolnews.com##.adsheading
 bolnews.com##.adspadding
 bolnews.com#?#[style*="center"]:-abp-contains(Ad)
+bolnews.com#?#[style*="center"]:has-text(Ad)
 bologna24ore.it,calciofemminileitaliano.it,elettronicanews.it,ferrara24ore.it,forli24ore.it,ravenna24ore.it,rimininews24.it,romagna24economia.it,rovigo24ore.it,secondamanoitalia.it##.td-container-header
 bolognafc.it##.partner-footer
 bolognafc.it##.single-adv
@@ -42085,6 +42110,7 @@ booking.com##div[data-item-id="gta_smart_banner"]
 booking.com##div[data-testid="property-card"]:has(div[data-testid="new-ad-design-badge"])
 booking.com#$#hide-if-matches-xpath './/span[@color][contains(@class,"PromoText")]/parent::div[@data-autobot-element-id]/ancestor::div[contains(@class,"ListingCardWrapper")]'
 booking.com#?#div[data-testid="property-card"]:-abp-has(span:-abp-contains(Promoted))
+booking.com#?#div[data-testid="property-card"]:has(span:has-text(Promoted))
 booking.com,vivense.com##div[class^="cookie-warning-"]
 booking.design##div[role="dialog"] ~ div[class]:has(> div[style^="bottom:"] > div[class] > div[class] > div[class] > img[src^="https://miro.medium.com/"] ~ div[class] > div[class] > div[class] > span > a[href^="https://medium.com/m/signin?"])
 bookings.hermesairports.com##.cookie-panel-wrapper
@@ -42305,6 +42331,7 @@ booth.pm##.agreement-banner
 boots.com###criteoSpContainer
 boots.com##.oct-listers-hits__item:has(.oct-teaser__listerCriteoAds)
 boots.com#?#.oct-listers-hits__item:-abp-contains(Sponsored)
+boots.com#?#.oct-listers-hits__item:has-text(Sponsored)
 boots.com#@#.adcard
 bootyexpo.net##+js(aopr, adsBlocked)
 bootyheroes.com##.cross-promo-bnr
@@ -44288,6 +44315,7 @@ businessday.co.za##.arena-share-bar
 businessday.co.za##.right-rail__ad
 businessday.co.za,chalkbeat.org,irishnews.com,sowetan.co.za,timeslive.co.za##.b-ads-block
 businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:-abp-contains(News & insights from our commercial partners)
+businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(News & insights from our commercial partners)
 businessday.ng###premium_leaderboard
 businessday.ng##.ad-container-silent
 businessday.ng##.join-whatsapp
@@ -48667,6 +48695,7 @@ china-tube.site###extraWrapOverAd
 china-tube.site##.videoAd
 china.ahk.de##.b-header__banner
 china.ahk.de#?#.b-main__section:-abp-has(h2.homepage-headline:-abp-contains(Advertisement))
+china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
 china.cn##.extension_ul > .special
@@ -50190,6 +50219,7 @@ cleantechnica.com##.zox-post-soc-stat-list > a[href^="mailto:?"]
 cleantechnica.com##a[onclick*="share.flipboard.com"]
 cleantechnica.com##center:has(> bold:contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
+cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 cleantechnica.com,proandroid.com,iheartintelligence.com,fortressofsolitude.co.za,aysetolga.com,revistaforum.com.br,diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapper
 cleanvoice.ai,minefort.com,diariodaregiao.com.br,sticpay.com#%#//scriptlet('set-local-storage-item', 'cookie-consent', 'true')
 clearblue.com###kali-cc
@@ -51722,6 +51752,7 @@ coindesk.com##div[data-module-name="reg-banner"]
 coindesk.com##div[data-submodule-name="social-share"]
 coindesk.com##div[type="event-banner"]
 coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
+coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:has-text(Sponsored by))
 coindesk.com,outkick.com##.jw-flag-floating > div.jw-wrapper
 coindesk.com,planetfootball.com,se7ensins.com,theboobsblog.com##div[style="height: 250px;"]
 coindeskjapan.com##div.mb-60px:has(> div.grid > a[title^="Share on"])
@@ -51898,6 +51929,7 @@ cointelegraph.com##div[class*="componentAdbutler_"]
 cointelegraph.com##form[class*="markets-pro-modal"]
 cointelegraph.com##form[data-ct-widget="newsletter-subscription-form"]
 cointelegraph.com#?#li.group-\[\.inline\]\:mb-8:-abp-contains(Ad)
+cointelegraph.com#?#li.group-\[\.inline\]\:mb-8:has-text(Ad)
 cointelegraph.com,doodle.com##[class*="ad-slot"]
 cointelegraph.com.br##.bottom-zone
 cointelegraph.com.br##.componentAdbutler_ciZFt
@@ -51954,6 +51986,7 @@ colemanfurniture.com##.user-consent-dialog
 coles.com.au##[data-testid="banner-container-desktop"]
 coles.com.au#?#.coles-targeting-UnitContainer:has(ul.product__top_messaging)
 coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:-abp-contains(Sponsored))
+coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:has-text(Sponsored))
 coletividade-evolutiva.com.br###HTML1
 coletividade-evolutiva.com.br###HTML11
 coletividade-evolutiva.com.br###Image1
@@ -53438,6 +53471,7 @@ coolors.co##body.has-sticky-ad > a[id][class]:has(> div[id] + div[id]:contains(H
 coolors.co#$##generator-tutorial-intro { display: none !important; }
 coolors.co#$#body.route-generate { overflow: auto !important; position: initial !important; }
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
+coolors.co#?#a:has(div:last-child:has-text(Hide))
 coolpan.net###custom_html-133
 coolpan.net###rss_link3
 coolpan.net##.footer-widgets
@@ -53766,6 +53800,7 @@ corsedimoto.com,zon.it##div[style="height:600px"]
 corsi.aiv01.it###age-verify
 corsi.aiv01.it###box-verify
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(> h4.block-title > span:-abp-contains(Visit Our Sponsors))
+corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:has(> h4.block-title > span:has-text(Visit Our Sponsors))
 corvetteforum.com###notices > div.tbox
 corvetteforum.com###posts > div[id^="edit"] > div.post_thanks_box + aside.text-center
 corvetteforum.com##.forum_sponsor_info
@@ -53889,6 +53924,7 @@ costco.com##div[data-source="sponsored"]
 costco.com##div[data-testid="AdSet-all-sponsored_products_-_search_bottom"]
 costco.com##div[data-testid="AdSet-all-sponsored_products_-_search_top"]
 costco.com#?#[data-testid="shoppable-list-container"]:-abp-contains(Spons)
+costco.com#?#[data-testid="shoppable-list-container"]:has-text(Spons)
 costco.com,gamescom.global,howstuffworks.com,southpark.de#@#.ot-sdk-show-settings
 costcobusinessdelivery.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 costcobusinessdelivery.com##+js(trusted-set-cookie, OptanonConsent, groups=BG117%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CSPD_BG%3A1%2CC0004%3A1)
@@ -54787,6 +54823,8 @@ crocotube.com##.ct-mobile-middle-300x250
 crocotube.com##.ct-video-ntvs
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
+crocotube.com#?#.ct-related-videos-title:has-text(Advertisement)
+crocotube.com#?#.ct-related-videos-title:has-text(You may also like)
 crocotube.com,zedporn.com##span[id^="TAm-Native-Bottom-"]
 crocs.*##+js(trusted-click-element, button.js-btn-reject-all, , 1300)
 crocs.co.jp###global-header div#m-header-email-signup
@@ -54941,10 +54979,12 @@ crucero-magazin.de##div[id^="avas-"]
 crucial.com##.app-light > div[style*="fixed"]
 cruciverbaonline.it,giochigratisonline.it###boxRichiesta
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:-abp-contains(Sponsored)
+cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:has-text(Sponsored)
 cruisecritic.com##.css-1xzyepp
 cruisecritic.com##.fb_lightbox-overlay
 cruisecritic.com##.min-h-\[80px\].md\:min-h-\[90px\]
 cruisecritic.com#?#.block:has(a[data-tracking]:-abp-contains(Sponsored))
+cruisecritic.com#?#.block:has(a[data-tracking]:has-text(Sponsored))
 cruisecritic.com,kob.com##.preloaded_lightbox
 cruisecritic.com.au##.chakra-skeleton ul[role="list"]:has(> li[class] > button.chakra-button > i + span)
 cruisecritic.com.au##div[class^="css"]:empty
@@ -55857,6 +55897,7 @@ cvs.com#$#hide-if-contains-and-matches-style /Sponsored/ 'cvs-shop-product-shelf
 cvs.com#$#hide-if-contains-visible-text /(Sponsored)/ 'div[style^="width:"]' 'div[dir^="auto"]'
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
 cvs.com#?#div[class*="flex-col"]:-abp-has(>h2:-abp-contains(Sponsored))
+cvs.com#?#div[class*="flex-col"]:has(>h2:has-text(Sponsored))
 cvut.cz#%#//scriptlet('set-local-storage-item', 'ctu-cm-a', '0')
 cvut.cz#%#//scriptlet('set-local-storage-item', 'ctu-cm-m', '0')
 cvut.cz#%#//scriptlet('set-local-storage-item', 'ctu-cm-n', '1')
@@ -58134,11 +58175,15 @@ deccanherald.com##.story-cards > div:has(a[href="https://play.google.com/store/a
 deccanherald.com##.story-element p > #container-text:contains(/^ADVERTISEMENT$/)
 deccanherald.com##.storyShare
 deccanherald.com##.wCRP0
+deccanherald.com##div:has(> div > .ad-background)
 deccanherald.com##div[class]:has(> div > div.ad-background)
+deccanherald.com##div[style^="min-height"]:has(> div > div[id*="-ad-separator"])
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
+deccanherald.com#?#div#container-text:has-text(ADVERTISEMENT)
 deccanherald.com#?#div:-abp-has(> div > .ad-background)
 deccanherald.com#?#div[style^="min-height"]:-abp-has(> div > div[id*="-ad-separator"])
 deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
+deccanherald.com#?#span.container-text:has-text(ADVERTISEMENT)
 deccoria.pl##.dc-action-regiser-newsletter
 deccoria.pl##.dc-layout__nav-bar
 deccoria.pl##body .dc-billboard:not(#style_important)
@@ -58220,6 +58265,7 @@ decrypt.co#?##__next > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"]
 decrypt.co#?#.post-content > div.text-left:has(> form > label[for="article-footer-email"])
 decrypt.co#?#div.post-content > div.post-content-w-full:has(> a[class^="block"][href] > article)
 decrypt.co#?#span:-abp-contains(AD)
+decrypt.co#?#span:has-text(AD)
 decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
 decrypt.day##+js(no-fetch-if, adsbygoogle)
 decrypt.day##[style*="border"]:not(.checker):is([id="aswift_0_host"], [id="aswift_1_host"], [id="aswift_2_host"], [id="aswift_3_host"], [id="aswift_4_host"], [id="aswift_5_host"]):style(opacity: 0 !important; pointer-events: none !important;)
@@ -59652,6 +59698,7 @@ dev.to##+js(cookie-remover, ahoy_visit)
 dev.to##+js(cookie-remover, ahoy_visitor)
 dev.to##.article-share-action-block web-share-wrapper
 dev.to##.c-link--icon-alone
+dev.to##.crayons-card:has(.sponsorship-dropdown)
 dev.to##.crayons-layout__sidebar-right > .js-billboard-container:has(> div > .crayons-sponsorship > .crayons-sponsorship__header > div > span.crayons-sponsorship__indicator)
 dev.to##.js-billboard
 dev.to##.js-billboard-container
@@ -59661,6 +59708,7 @@ dev.to##article + div:has(div[data-async-url] .crayons-sponsorship)
 dev.to#%#//scriptlet('trusted-click-element', 'button[id^="sponsorship-close-trigger"]')
 dev.to#?#.crayons-card:-abp-has(.sponsorship-dropdown)
 dev.to#?#div[data-display-unit]:-abp-has(span:-abp-contains(Promoted))
+dev.to#?#div[data-display-unit]:has(span:has-text(Promoted))
 dev.ua##.afterheader-widget
 dev.ua##.article__footer:has(> div.article__container > div.article__toolbar > div.article__share)
 dev.ua##.subscription-block
@@ -60433,6 +60481,7 @@ dictionary.com,thesaurus.com##.box-additional
 dictionary.com,thesaurus.com##.box-additional-carambola
 dictionary.com,thesaurus.com##div[data-type="newsletter-module"]
 dictionary.com,thesaurus.com#?#[class] > p:-abp-contains(Advertisement)
+dictionary.com,thesaurus.com#?#[class] > p:has-text(Advertisement)
 dictionary.com,thesaurus.com#?#a[data-linkmodule] ~ p:contains(/^Start each day with the (Word|Synonym)/)
 dictionary.com,thesaurus.com#?#a[data-linkmodule] ~ p:contains(/^Start each day with the (Word|Synonym)/) + form
 dictionnaire-medical.net##+js(nostif, nextFunction, 2000)
@@ -60577,6 +60626,7 @@ digg.com##[data-cy="namespace-home-newsletter"]
 digg.com##article[data-primary-tag-display="Sponsored"]
 digg.com##aside > div.mb-8:has(> div[id^="bsa-zone_"])
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
+digg.com#?#article.relative:has(div:has-text(SPONSORED))
 digg.se##.key-182uxz
 digger.ru##.acid
 digger.ru##.header_social-wrap
@@ -60930,6 +60980,7 @@ dikgazete.com##iframe[src^="http://is1.sitekodlari.com/"]
 dikidi.net#@#.item-shares
 dikko.nu##.pea_cook_wrapper
 dila.ua,digitalstudiome.com##.article-share-block
+dilar.tube#@#.ad-unit:not(.textads)
 dilbert.com##.js-social-btn
 dilbert.com##.shelf-space-container
 dildarnagar.com,mithlahindinews.com###main-ads-post
@@ -63139,6 +63190,7 @@ download.net.pl##.sidebar-container a[href^="https://amzn.to/"]
 download.oxy.st###izobrazhenie-1
 download.pixelexperience.org##.cc-dismiss.cc-btn
 download.rockmods.net##.container > div.btn-group ~ center > div.download-btn-group> a
+download.trimble.com##.cookies-settings-dialog-content
 download.windowslite.net##+js(no-window-open-if)
 download3k.com###google_top
 download3k.com##div[id^="dl_google_"]
@@ -70614,7 +70666,9 @@ euronews.com##[data-ad-name]:remove()
 euronews.com##aside.o-article__aside > .OUTBRAIN
 euronews.com##div.pub.ad.advertising.adzone.sponsored[data-ad-name]:style(display: block !important;)
 euronews.com#?#.m-object:has(.m-object__quote:-abp-contains(/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
+euronews.com#?#.m-object:has(.m-object__quote:has-text(/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
 euronews.com#?#.the-media-object--has-sponsored:-abp-contains(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
+euronews.com#?#.the-media-object--has-sponsored:has-text(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
 euronews.com#@##connatix-container
 euronews.com#@#.cnx-player-wrapper
 euronews.com#@#.connatix-container
@@ -71738,6 +71792,7 @@ eztv.re##body > div#header_holder > table[class="forum_header_border_normal"][bo
 eztv.re,pstream.net#$#abort-on-property-write adcashMacros
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 eztv.tf,eztv.yt#?#tbody:-abp-contains(WARNING! Use a)
+eztv.tf,eztv.yt#?#tbody:has-text(WARNING! Use a)
 eztv.tf,eztv.yt,unblockit.boo#$#abort-current-inline-script s2ss45
 eztv.unblocked.sh##body > div[id][style*="position: fixed"][style*="z-index"][style*="height:"][style*="height:"]:not(#container)
 eztv.wf##a > img[alt="Anonymous Download"]
@@ -74217,6 +74272,7 @@ filehippo.com##a#avast-seal
 filehippo.com##a.avast-promo[data-ua="avast-link-promo"]
 filehippo.com##div[data-meta="placeholder-slot"]
 filehippo.com#?#article.card-article:-abp-has(span.card-article__author:-abp-contains(Sponsored Content))
+filehippo.com#?#article.card-article:has(span.card-article__author:has-text(Sponsored Content))
 filehippo.de##+js(trusted-set-cookie, euconsent-v2, CQULowAQULowAAHABBENBxFgAAAAAAAAAAiQAAAAAACkoAMAAQWrKQAYAAgtWOgAwABBashABgACC1YSADAAEFqw.YAAAAAAAAAAA, 1year, , domain, filehippo.de)
 filehippo.jp##+js(trusted-set-cookie, euconsent-v2, CQULowAQULowAAHABBENBxFgAAAAAAAAAAiQAAAAAACkoAMAAQWrKQAYAAgtWOgAwABBashABgACC1YSADAAEFqw.YAAAAAAAAAAA, 1year, , domain, filehippo.jp)
 filehippo.pl##+js(trusted-set-cookie, euconsent-v2, CQULowAQULowAAHABBENBxFgAAAAAAAAAAiQAAAAAACkoAMAAQWrKQAYAAgtWOgAwABBashABgACC1YSADAAEFqw.YAAAAAAAAAAA, 1year, , domain, filehippo.pl)
@@ -75815,6 +75871,7 @@ fiverr.com##.sharing-link-tooltip
 fiverr.com##div.gig-card-layout:has(img[src*="OZFqhkpkj4rzV28c.png"], img[src*="QKYiNoKD17FwRIF5.png"], img[src*="aiT2m7sbl2hXXOa6.png"], img[src*="cQnTumUw98ivhYML.png"])
 fiverr.com#%#//scriptlet('trusted-click-element', '.signing-modal')
 fiverr.com#?#.gig-card-layout:-abp-contains(Ad by)
+fiverr.com#?#.gig-card-layout:has-text(Ad by)
 fivethirtyeight.com###ad-InContent
 fivethirtyeight.com##aside[class$="-sidebar-ad"]
 fivethirtyeight.com#@#.likely
@@ -76310,6 +76367,7 @@ flipkart.com#$#hide-if-matches-xpath './/div[text()="You may also like"]//follow
 flipkart.com#$#hide-if-matches-xpath './/img[contains(@srcset,"cf-chitrakaar-prod")]/parent::div[@style]/ancestor::a[contains(@style,"cursor")]/ancestor::div[contains(@style,"transparent")]/parent::div[@style]'
 flipkart.com#%#//scriptlet('set-session-storage-item', 'HPLWClosedPerSessionCount', '1')
 flipkart.com#?#.grid-formation:-abp-has(div:-abp-contains(AD))
+flipkart.com#?#.grid-formation:has(div:has-text(AD))
 flipkart.com#?#div[class*=" "] > div[class]:has(> div > img[src*="flipkart_app_icon-"])
 flipkart.com#?#div[class^="css-"] > div:has(> div[dir]:contains(/^AD$/))
 flipkart.com#?#div[style] > div[class*="col-"] > div[class] > div[data-id][style]:has(> div[data-tkid^="en_"])
@@ -77051,6 +77109,7 @@ foodjobs.de##.ckOuter
 foodjobs.pl##.b-modal
 foodlion.com##[aria-label="Sponsored Ad"]
 foodlion.com#?#.product-grid-cell:-abp-contains(Sponsored)
+foodlion.com#?#.product-grid-cell:has-text(Sponsored)
 foodmate.net##.ad5
 foodmate.net##.m[style="height:40px;"]
 foodmate.net##.zx_ad
@@ -79784,6 +79843,7 @@ freshcotton.com##.offcanvas.is-modal
 freshdesk.com###eu-cookie-policy-popup
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
+freshdirect.com#?#.swiper-slide:has-text(Sponsored)
 fresher.ru###fbpopup
 fresher.ru,pozdravok.ru###shares
 freshercooker.in##.telegramim_button
@@ -80950,6 +81010,7 @@ ga.de##.js-article-content > div[data-cy="article-content"]:has(#glomexdiv)
 ga.de##.parkTooltip
 ga.de##.portal-top
 ga.de##aside[data-portal-id="mobilebanner"]
+ga4.com##button:has(> [alt="Chat"])
 gaadiwaadi.com##div[id^="gaadi-"]
 gaamess.dk##body .PrerollSplash:style(opacity: 1 !important;)
 gaamess.dk##div[class$="Ad"]
@@ -81957,6 +82018,7 @@ gamersky.com##.ymwBootDownload
 gamersky.com##div[id^="adscontainer_b"]
 gamersmaze.com##.content-inner > center:has(> button.button-red)
 gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
+gamersnexus.net#?#.moduleContent:has-text(Advertisement)
 gamerstand.net##.execphpwidget:has(> div.adspace)
 gamerstand.net##.execphpwidget:has(> dl > dd > span[style] > a[href^="https://get.mobu.jp/"])
 gamerstand.net,xn--gdkl0dubtwb7e.net,xn--o9j0bk1rwe8bvh.com,xn--o9j0bk5t7exbwe.com##.Bnr
@@ -84479,7 +84541,9 @@ giantessa.ru##.main-footer-btn
 giantessa.ru##.wpb_text_column
 giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.pdl-generic-content_full:-abp-contains(Sponsored)
+giantfood.com,giantfoodstores.com,martinsfoods.com#?#.pdl-generic-content_full:has-text(Sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#[data-product-id]:-abp-contains(Sponsored)
+giantfood.com,giantfoodstores.com,martinsfoods.com#?#[data-product-id]:has-text(Sponsored)
 giantfreakinrobot.com###playwire-homepage-takeover-leaderboard
 giantfreakinrobot.com##.pw-in-article-ad-container
 giantfreakinrobot.com##.pw-in-article-relevant-container
@@ -86871,7 +86935,6 @@ googleads.g.doubleclick.net###mys-wrapper
 googleads.g.doubleclick.net##.jar
 googleads.g.doubleclick.net##html[i-amphtml-no-boilerplate][amp4ads][class="i-amphtml-inabox"]
 googleads.g.doubleclick.net,safeframe.googlesyndication.com#@#div[id^="ad_position_"]
-googlecensorship.org#%#//scriptlet('set-cookie', '__acs', 'false')
 googlecloudpresscorner.com##.wd_toolbar
 googledrivelinks.com##+js(aopr, adBlockDetected)
 googledrivelinks.com##+js(aost, String.prototype.charCodeAt, ai_)
@@ -89826,6 +89889,7 @@ hannaford.com##.citrus_ad_banner
 hannaford.com##.plp_thumb_wrap:has([data-citrusadimpressionid])
 hannaford.com##.sponsored_product
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
+hannaford.com#?#.header-2:has-text(Sponsored Suggestions)
 hannan-u.ac.jp,hdk.ed.jp##.js_cookieBanner
 hannity.com###t-scrollnav > .ccpa
 hannity.com##.push-mailnami-overlay-modal
@@ -90723,6 +90787,7 @@ hdpornmax.com##.container > h2:contains(Recommended)
 hdporno.xxx,poz.xxx,jerkwell.com,pornbaron.net,porn2.xxx,watch.xxx,tubeporn.site,myporn.tube,pornfree.gg,porn69.xxx,beeg.gg,porntek.com,haha.xxx,longvideos.xxx,hdporner.org,porno.wiki,3porn.gg,33porn.net,hqporner.gg,300.porn,sexyporn.org,pornstars.gg,sexvideos.gg,ixxx.gg,sexyporn.xxx,pornhd.tube,porn36.com,porn9.xxx,porn13.org,bee.xxx,filmz.xxx,xfilms.org,xporn.gg,porndo.net,tor.xxx,bestporn.gg,eporn.xxx,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.sponsor
 hdpornpics.net##.back
 hdpornpics.net#?#.money:-abp-has(.century:-abp-contains(ADS))
+hdpornpics.net#?#.money:has(.century:has-text(ADS))
 hdpornt.com##+js(aopr, ExoLoader)
 hdpornt.com##+js(aopw, __NA)
 hdpornvideo.xxx##.lika
@@ -91119,8 +91184,11 @@ heavyweightboxing.com##div[role="list"] > div[role="listitem"]:has(> a.w-inline-
 heb.com###greeter
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 heb.com#?#div:has(> div > div[class^="Carousel_wrapper"]:-abp-contains(Promoted))
+heb.com#?#div:has(> div > div[class^="Carousel_wrapper"]:has-text(Promoted))
 heb.com#?#div:has(> div > div[class^="ModuleSet_moduleSetContainer"]:-abp-contains(Promoted))
+heb.com#?#div:has(> div > div[class^="ModuleSet_moduleSetContainer"]:has-text(Promoted))
 heb.com#?#div[class^="sc-"]:-abp-has(> div[data-qe-id="productCard"]:-abp-contains(Promoted))
+heb.com#?#div[class^="sc-"]:has(> div[data-qe-id="productCard"]:has-text(Promoted))
 hebdenbridge.co.uk#@#.smallads
 hebelschein-spekulant.de##.widget_text
 hebrew4christians.com##+js(acs, document.oncontextmenu)
@@ -94078,6 +94146,7 @@ hotmovs.com##.video-page > div.block_label:has(> div:contains(Suggested for you)
 hotmovs.com##.video-page > div[class]:has(> div > span:contains(/^AD/))
 hotmovs.com##div[class^="vda-closeplay"]
 hotmovs.com#?#.block_label--last:-abp-contains(Advertisement)
+hotmovs.com#?#.block_label--last:has-text(Advertisement)
 hotmovs.com,hclips.com,manysex.com,hdzog.com,hdzog.tube##a[href^="https://rtr2perf1.com/"]
 hotmovs.com,thegay.com##.fiioed
 hotmovs.tube##.app-banners__wrapper
@@ -98774,7 +98843,10 @@ infofordon.pl##.motoslider_wrapper:has(div[ms-slide-repeater] > a[href^="https:/
 infofuge.com##+js(nostif, disableDeveloperTools)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
+infographicjournal.com#?#.et_pb_module:has-text(Partners)
+infographicjournal.com#?#.et_pb_module:has-text(Partners) + .et_pb_module
 infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
+infographicjournal.com#?#.et_pb_widget:has-text(Partners)
 infogreffe.fr##.dijitDialogUnderlayWrapper
 infoheute.de###adsight-slider
 infoheute.de###r89-desktop-billboard-atf-0-wrapper
@@ -99749,7 +99821,10 @@ instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:has(span:has-text(Paid partnership with ))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:has(span:has-text(Paid partnership))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:has(span:has-text(Paid partnership with ))
 instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href="/accounts/emailsignup/"])
 instagram.com#@#article[class] > div[class]:has(span:contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com#@#article[role="presentation"] > div[style]:has(span:contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
@@ -101988,6 +102063,7 @@ itemci.com#$#html { overflow: visible!important; }
 itemsatis.com#%#//scriptlet('set-constant', 'PushSubscription', 'undefined')
 iteramos.com##a[href^="https://brightdata.grsm.io/ae-"] > img
 iteramos.com#%#//scriptlet("set-constant", "googlefc.getAdBlockerStatus", "noopFunc")
+iteraplay.com##+js(trusted-set-local-storage-item, itera_cookie_consent, '{"strictlyNecessary":true,"analytics":false,"marketing":false,"functional":false}')
 itesco.cz,emerging-europe.com,home.webinarjam.com,eddiehub.org##.gdpr_cookie_banner
 itesco.sk##[aria-labelledby="ddsweb-cookies-notification-headline"]
 itesco.sk,tesco.*##[aria-label="consent-banner"]
@@ -106317,6 +106393,7 @@ kaufland.*##.spads-recommender
 kaufland.*##.sponsored-brand-products-container
 kaufland.*##.teaser-orchestration__wrapper--online
 kaufland.*#?#.recommender-wrapper:-abp-contains(Gesponsert)
+kaufland.*#?#.recommender-wrapper:has-text(Gesponsert)
 kaufland.de###contentfb
 kaufland.de##.results-panel [aria-label*="Gesponserte"]
 kaufland.de,kaufland.pl##.m-cookie-notification
@@ -107311,6 +107388,7 @@ kijiji.ca##div[data-testid="adsense-container"]
 kijiji.ca##div[id^="gpt-leader-"]
 kijiji.ca##section[aria-labelledby="app-marketing-title"]
 kijiji.ca#?#[data-testid^="listing-card-list-item-"]:-abp-contains(TOP AD)
+kijiji.ca#?#[data-testid^="listing-card-list-item-"]:has-text(TOP AD)
 kijiji.it#@##post-ad
 kijiji.it#@#.ad__item
 kijk.nl##+js(no-xhr-if, url:ad/banner.gif)
@@ -108715,8 +108793,11 @@ kogan.com###footer-native-banner
 kogan.com###footer-subscription-modal
 kogan.com###kogan-ad-sidebar
 kogan.com#?#._2EeeR:-abp-contains(Sponsored)
+kogan.com#?#._2EeeR:has-text(Sponsored)
 kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
+kogan.com#?#.rs-infinite-scroll > div:has-text(Sponsored)
 kogan.com#?#.slider-slide:-abp-contains(Sponsored)
+kogan.com#?#.slider-slide:has-text(Sponsored)
 kogda.by##.form-group > .socials
 kohl24.de###coe_cookies_container
 kohlhammer.de##.sc-gdpr
@@ -108732,7 +108813,9 @@ kohls.com##astro-island[component-export="KmnMarqueeBannerWrapper"]:has(img[alt=
 kohls.com##div[data-testid^="wallet-wrapper-"]:has(div[class="mt-3 text-xs"])
 kohls.com##li.products_grid:has(p.piq-sponsored)
 kohls.com#?#[component-export="KmnMarqueeBannerWrapper"]:-abp-contains(Sponsored)
+kohls.com#?#[component-export="KmnMarqueeBannerWrapper"]:has-text(Sponsored)
 kohls.com#?#[id^="kmn-leaderboard-"]:-abp-contains(Sponsored)
+kohls.com#?#[id^="kmn-leaderboard-"]:has-text(Sponsored)
 kohls.com#@##privacypolicy
 kohls.com,samsclub.com###oo_tab
 kohokohta.com#?#.text-center:has-text(loadAd)
@@ -110044,6 +110127,7 @@ ksl.com##.newsSignup
 ksl.com##.queue:has(.sponsored)
 ksl.com#?#.queueHeader > h3:contains(NEWSLETTER)
 kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
+kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:has-text(Sponsored Articles)
 kslnewsradio.com,structurae.net##.fa-instagram
 kslsports.com##iframe[title="Signup Widget Embed"]
 ksp.co.il##.ltr-1075xo6
@@ -112445,6 +112529,7 @@ leaddev.com#%#//scriptlet('abort-on-property-write', 'HTMLDialogElement.prototyp
 leader-id.ru##.app-social-share
 leaderos.com.tr##div[x-data="cookieModal()"]
 leadership.ng#?#.jeg_postblock:-abp-contains(SPONSORED)
+leadership.ng#?#.jeg_postblock:has-text(SPONSORED)
 leadership.ng,openculture.com##.mailster-form
 leadingauthorities.com##.header-wrp:after
 leadingcampings.com,drei-zinnen.info##div[class^="cookie-banner-tm"]
@@ -114765,12 +114850,18 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(span:-abp-contains(Gesponsert))
 linkedin.com#?#.msg-overlay-list-bubble__conversations-list:-abp-contains(Sponsored)
+linkedin.com#?#.msg-overlay-list-bubble__conversations-list:has-text(Sponsored)
 linkedin.com#?#[componentkey*="MAIN_FEED_RECENT"] > [data-view-name]:-abp-contains(Promoted)
+linkedin.com#?#[componentkey*="MAIN_FEED_RECENT"] > [data-view-name]:has-text(Promoted)
 linkedin.com#?#[componentkey*="MAIN_FEED_RELEVANCE"] > [data-view-name]:-abp-contains(Promoted)
+linkedin.com#?#[componentkey*="MAIN_FEED_RELEVANCE"] > [data-view-name]:has-text(Promoted)
 linkedin.com#?#div#public_post_contextual-sign-in:-abp-contains(Sign in to view more content)
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description--tla:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:has(span.update-components-actor__description:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:has(span.update-components-actor__sub-description--tla:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:has(span.update-components-actor__sub-description:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com,microsoft.com###social-bar
 linkfinal.com##+js(set, blurred, false)
 linkfinal.com##.banner
@@ -116069,7 +116160,9 @@ loawa.com,malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script s
 loblaw.ca##div[aria-label="Privacy policy message"]
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
 loblaws.ca#?#[data-testid="product-grid"]>div:-abp-contains(Sponsored)
+loblaws.ca#?#[data-testid="product-grid"]>div:has-text(Sponsored)
 loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:-abp-contains(Featured Items)
+loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:has-text(Featured Items)
 loc8nearme.com##div[id^="google-ads"]
 locachange.com##.gofest-banner
 local.ch###js-banner
@@ -116750,6 +116843,7 @@ lovelylife.se##.elementor-image a[href]:not([href*="lovelylife.se"]) img
 lovemeow.com#@#.share-buttons
 lovendal.ro##.left
 lovenovels.net#?#center:-abp-contains(Advertisement)
+lovenovels.net#?#center:has-text(Advertisement)
 lovense.com##.notice_wrap
 lovense.com##.u-cookie
 loventine.com.ar,loventine.es##.header_publicity
@@ -120866,7 +120960,9 @@ manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 manomano.*##div[class]:has(> .c4iHiiE)
 manomano.*##div[data-testid="sprbrd-banner"]
 manomano.*#?#.Ssfiu-:-abp-contains(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
+manomano.*#?#.Ssfiu-:has-text(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
 manomano.*#?#[data-testid="productCardListing"]:-abp-contains(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
+manomano.*#?#[data-testid="productCardListing"]:has-text(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.hrHZYT:has([data-testid="popoverTriggersponsoredLabel"])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##[data-testid="spr-brd-banner"]
@@ -121047,6 +121143,7 @@ mapadotacji.gov.pl###cookie-text
 mapakids.net##a[href^="http://scorch5.com/"]
 mapcarta.com#%#//scriptlet('set-constant', 'runads', 'false')
 mapchart.net#?#.row:-abp-contains(Advertisement)
+mapchart.net#?#.row:has-text(Advertisement)
 mapcrunch.com###bottom-box
 mapcrunch.com###bottom-box:remove()
 mapcrunch.com###container:style(height: 100% !important;)
@@ -127115,7 +127212,9 @@ modivo.*#%#//scriptlet('remove-class', '_no-scroll', 'html', 'stay')
 modivo.*#%#//scriptlet('set-cookie-reload', '__MODIVO__cookies_modal', '1')
 modivo.*#%#//scriptlet('set-local-storage-item', '__MODIVO__categories_storage', 'emptyObj')
 modivo.*#?#.banner:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
+modivo.*#?#.banner:has-text(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
 modivo.*#?#.product:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
+modivo.*#?#.product:has-text(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.display-container
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.promoted-slider-wrapper
 modivo.de#$#.marketing-approvals-modal { display: none !important; }
@@ -133512,6 +133611,7 @@ neowin.net##li[id^="article-interact-"]
 neowin.net#$#body > div[class^="sp_"] { display: none!important; }
 neowin.net#$#body > div[id^="sp_"] { display: none!important; }
 neowin.net#?#.ipsColumns_collapsePhone.classes:-abp-contains(Our Sponsors)
+neowin.net#?#.ipsColumns_collapsePhone.classes:has-text(Our Sponsors)
 neowin.net#?#.sidebar-col > .category-bar[style] > div > #revue-form:upward(2)
 neowin.net#@##ipsLayout_contentWrapper > .ipsResponsive_hidePhone
 neowin.net,globe.adsbexchange.com,box.live,aerowitter.com,aerolla.net,wenxuecity.com,newrepublic.com,boingboing.net,camelcamelcamel.com,adsoftheworld.com,flightconnections.com,smithsonianmag.com,thenation.com,lse.co.uk,knowt.com,gamerescape.com,myabandonware.com,androidheadlines.com,phoronix.com,virtualpiano.net,creaders.net,baeldung.com,titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org#%#//scriptlet('abort-current-inline-script', 'Uint8Array', 'getAndSetOverlay')
@@ -134166,6 +134266,7 @@ newegg.com##div[class*="-sponsored"]
 newegg.com##div[class^="sponsored-brands-"]
 newegg.com##span[data-nosnippet="true"] > .sponsored-brands-items
 newegg.com#?#.product-banner:-abp-contains(Sponsored)
+newegg.com#?#.product-banner:has-text(Sponsored)
 newegg.com#@#.ad-click
 newegg.com#@#.product-ads
 newengland.com##.inline-text-ad
@@ -135349,6 +135450,7 @@ newskrasnodar.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg
 newskrasnodar.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
 newskrasnodar.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
 newskrasnodar.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
+newskrasnodar.ru,pg11.ru,pg13.ru,vladivostoktimes.ru##.notifycation_notifycation__X6Fsx
 newslab.ru##.di3-meta__share
 newslab.ru##.js-mediator-article > p:has(> b > a[href="https://t.me/newslablive"])
 newslab.ru##.sharing-list-air
@@ -136087,6 +136189,7 @@ ngnovoros.ru##div[data-tip="Репост в соцсети"]
 ngnovoros.ru##footer div[class][style="color:#fff"] + div[class][style="color:#fff"] > div[class]:not([style])
 ngnovoros.ru,ngzt.ru,progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##.adf-ins
 ngnovoros.ru,ngzt.ru,progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##[data-ads]
+ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod62.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,youtvnews.com##.notifycation_notifycation__BeRRP
 ngoisao.net###QC_TOP:style(min-height: 0!important; padding: 0!important;)
 ngoisao.net###b_share
 ngoisao.net###web_push
@@ -136114,6 +136217,7 @@ ngs55.ru,74.ru#?#section[class^="_"]:has(> p:contains(/^Подпишитесь �
 ngsrabota.com.ua##.ra-top-banner
 nguyenvanbao.com#%#//scriptlet('adjust-setInterval', 'count', '1600', '0.02')
 ngzt.ru##.article-footer__wrap-social
+ngzt.ru##.notifycation
 ngzt.ru##.partner-news
 ngzt.ru#?#.interesting:-abp-has(> .interesting__wrap:not([style]))
 nh-collection.com,nh-hotels.com##.politicaRewards
@@ -137021,6 +137125,7 @@ noelleeming.co.nz##.alert--stripe.alert
 noelleeming.co.nz##.dy_bottom_notification
 noelleeming.co.nz##.dynotifyjs-corner
 noelleeming.co.nz#?#div.product-tile:-abp-has(span:-abp-contains(Sponsored))
+noelleeming.co.nz#?#div.product-tile:has(span:has-text(Sponsored))
 nofap.com#?#.elementor-column-gap-default > div.elementor-row:has(form.infusion-form)
 nofilmschool.com##.af-form-wrapper
 nofilmschool.com##.horizontal_ad
@@ -137194,7 +137299,9 @@ noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner-")]/parent::s
 noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Ad")]/parent::div[contains(@class,"adWrapper")]/ancestor::div[contains(@class,"ProductDetailsDesktop_maxWrapper")][1]'
 noon.com#$#race start; hide-if-matches-xpath './/*[local-name()="svg"][@width][@fill="none"]/*[local-name()="rect"]/ancestor::a[@class][@href]/parent::div[1]'; hide-if-matches-xpath './/div[@class][contains(text(),"Ad") or contains(text(),"مدفوع")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'; hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'; hide-if-matches-xpath './/img[contains(@src,"ad-")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'; race stop;
 noon.com#?#.swiper-slide:-abp-contains(Sponsored)
+noon.com#?#.swiper-slide:has-text(Sponsored)
 noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
+noon.com#?#span[class*="productContaine"]:has(div:has-text(Sponsored))
 noonsite.com##.portlet-static-global-sponsors
 noopmail.org,befirst.info##.p-cookies
 noor-book.com##+js(no-fetch-if, ads)
@@ -137320,7 +137427,9 @@ nordstrom.com##.revjet_container
 nordstrom.com##[href="#back-to-top"]
 nordstrom.com##iframe[data-revjet-options]
 nordstrom.com#?#article:has(.Yw5es:-abp-contains(Sponsored))
+nordstrom.com#?#article:has(.Yw5es:has-text(Sponsored))
 nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:-abp-contains(Sponsored)
+nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:has-text(Sponsored)
 nordvpn.com###consent-widget-container
 nordvpn.com##.BlogPost__banner-wrapper
 nordvpn.com##.BlogPost__social-block
@@ -140515,6 +140624,7 @@ okwave.jp##aside[class*="adfunnel_special_box_amp"]
 okwave.jp##aside[class^="adfunnel ad_qa_"]
 okwave.jp##section.qa_detail > div[style^="min-height:250px;"]
 okxxx1.com#?#.bn-title:-abp-contains(Advertising)
+okxxx1.com#?#.bn-title:has-text(Advertising)
 olacast.live##+js(abort-on-property-read, __cfg_)
 olajonline.hu#@#.cookie-alert
 olajonline.hu,lesmoutonsrebelles.com,onlinestreet.de#$?#body { overflow: auto !important; position: static !important; }
@@ -142148,6 +142258,7 @@ openrice.com##.facebook-floating-container
 openrice.com##span[data-href="#share"]
 opensanctions.org##div[class^="Analytics_consentBox"]
 opensanctions.org##div[class^="Analytics_consentBox_"]
+opensea.io##+js(trusted-click-element, button[data-role="necessary"])
 opensecrets.org##.StayConnected
 opensecrets.org##.dontprintme
 opensignal.com,chronext.de##.newsletter-bar
@@ -146034,6 +146145,7 @@ perplexity.ai#%#//scriptlet('trusted-click-element', 'button[data-testid="floati
 perplexity.ai#?#.mx-auto > div.fixed:has(> div > div.text-center:contains(Sign in or create an account))
 perplexity.ai#?#.pr-md > div.gap-x-sm > div[class] > button > div.flex > svg[width="16"] > use:matches-attr(/xlink\:href/="/pplx-icon-download/"):upward(3)
 perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
+perplexity.ai#?#.py-sm.group:has-text(Sponsored)
 perplexity.ai,dzen.ru##button[data-testid="share-button"]
 persemprecalcio.it##.n2-ss-slider
 pershij.com.ua##.post-wrapper__post-share
@@ -146324,6 +146436,7 @@ pexels.com##div[data-testid="column"] > div[data-testid="item"] > div.inline-ads
 pexels.com##div[data-testid="item"]:has(> a[class^="CanvaAd"])
 pexels.com##header > a[href^="https://www.canva.com/"]
 pexels.com#?#[data-testid="column"] [data-testid="item"]:-abp-contains(Sponsored)
+pexels.com#?#[data-testid="column"] [data-testid="item"]:has-text(Sponsored)
 pezzi.co.il###pezzi-cookie-popup
 pfalz.de#$#.reveal-overlay { display: none !important; }
 pfalz.de#$#body[class*="-reveal-"] { overflow: auto !important; }
@@ -146360,7 +146473,6 @@ pg11.ru##div[class^="article-content_articleBannerSlot_"]
 pg11.ru##form.newsletter
 pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="notifycation_notifycation_"]
 pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="social-list-subscribe"] > a[href*="yandex."]
-pg11.ru,pg12.ru,prochepetsk.ru,progorod43.ru,progorod58.ru,progorod62.ru,progoroduhta.ru,usolie.info##.notifycation_notifycation__BeRRP
 pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
 pg12.ru,pg21.ru,prodzer.ru,progorod33.ru,progorodnn.ru##li > a[class^="sub-menu_"][href*="https://max.ru/"]
@@ -149868,6 +149980,7 @@ porn-tube-club.com##+js(set-constant, initBCred_cucumber_chatPopunder, undefined
 porn-tube-club.com##+js(set-constant, pop1init, undefined)
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
+porn-w.org#?#.row:has-text(Promotion Bot)
 porn.com###cookie_message
 porn.com##+js(nowoif)
 porn.com##+js(set, String.prototype.charAt, trueFunc)
@@ -152729,6 +152842,7 @@ producthunt.com#%#//scriptlet('prevent-addEventListener', 'scroll', 'Math.round(
 producthunt.com#?##__next > div:is([class^="styles_banner__"], [class^="styles_header__"]):has(> div.align-center > a[class*="styles_useAppButton"])
 producthunt.com#?#.sidebarWithSeparator > div.flex:has(> a[href="/newsletter"])
 producthunt.com#?#.text-12:-abp-contains(Promoted)
+producthunt.com#?#.text-12:has-text(Promoted)
 producthunt.com#?#aside[class^="styles_sidebar__"] > div[class^="styles_container__"]:has(> div > span:contains(Newsletter))
 producthunt.com#?#div[class="flex cursor-pointer items-start gap-4 rounded-lg bg-gray-50 p-4"]:has-text(Promoted)
 producthunt.com#?#div[class^="styles_postsList__"] > div[class^="styles_card__"]:has(input[value^="email_capture_"])
@@ -153202,6 +153316,7 @@ properstar.co.uk#%#//scriptlet('trusted-click-element', '.consent .btn-outline-s
 property24.com###cookieConsentWrapper
 property24.com##.p24_tileContainer:has([src^="/Content/images/Optimized/Icons/icon_tag_tile.svg?"])
 property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
+property24.com#?#.p24_tileContainer:has-text(Sponsored)
 propertyfinder.ae##ul[role="list"] > li[class^="styles_"][class*="ad__"]
 propertyguru.com.my##.cookie-banner-section-root
 propertyguru.com.my,ddproperty.com##.cookie-banner-section-root
@@ -153477,6 +153592,7 @@ providentcu.org###ccpa
 provideocoalition.com##.hero-promotions
 providr.com##div[id^="ezoic-pub-ad-placeholder-"]
 provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
+provigo.ca#?#.css-1nhzth8:has-text(/sponsorisé|sponsored/)
 province.ru##.flexbannergroup > div:not(.gsInformer)
 province.ru#?#.itemFullText > div[style*="important"]:-abp-has(> a[href^="https://t.me/"] )
 province.ru#@#.ya-share2
@@ -154316,6 +154432,7 @@ pushsquare.com##div[class][style*="display: block !important;"] > iframe[src^="h
 pushsquare.com##div[class][style*="margin-left: auto; margin-right: auto; text-align: center; display:"]:has(> span:first-child + iframe[src^="https://images.pushsquare.com/"]:last-child)
 pushsquare.com##div[id^="rcjsload"]
 pushsquare.com#?#span:-abp-contains(or Subscribe)
+pushsquare.com#?#span:has-text(or Subscribe)
 pushsquare.com#@#.for-desktop
 pushsquare.com#@#.insert
 pushsquare.com#@#.masthead
@@ -155320,6 +155437,7 @@ qvalia.com##.policy-notice
 qvc.com##[data-module-feature-name^="CRITEO"]
 qvc.com##[onclick^="cmCreateManualLinkClickTag"]
 qvc.com#?#.qModule:-abp-contains(Sponsored)
+qvc.com#?#.qModule:has-text(Sponsored)
 qvcuk.com,qvc.de##.footer-privacy-banner
 qwant.com###root > div > div > div > .home__snippet__extension
 qwant.com###root > div.home__snippet__extension
@@ -155405,6 +155523,8 @@ qz.com##div[aria-labelledby="subscribe-bar-primary-text"]
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
 qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 qz.com##div[class="hidden md:block"]
+qz.com##div[class^="sc-"]:has(> div[class="ad-unit"])
+qz.com##div[class^="sc-"]:has(> div[is="bulbs-dfp"])
 qz.com#%#//scriptlet('trusted-set-cookie', 'entryPopupSeen', 'true')
 qz.com#?#div[class] > form > p[class]:contains(Kick off each morning):upward(2)
 qz.com#?#div[class^="sc-"]:-abp-has(> div[class="ad-unit"])
@@ -157876,7 +157996,9 @@ reddxxx.com##.mx-auto > div.mb-2:has(> div.flex > div.flex > div > h2:contains(V
 reddxxx.com##.w-screen.backdrop-blur-md
 reddxxx.com##div[role="gridcell"]:has(img[src="https://cdn3.reddxxx.com/f_cm5eeic910000mrywxfe0wa1c_p5ov94asrzmby3n7ppmomnay.jpeg"])
 reddxxx.com#?#.items-center:-abp-contains(/^ad$/)
+reddxxx.com#?#.items-center:has-text(/^ad$/)
 reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
+reddxxx.com#?#[role="gridcell"]:has-text(/^AD$/)
 rede-expressos.pt##.jss4
 redebrasilatual.com.br##.social-wrapper
 redecanais.*###guerejo
@@ -158208,6 +158330,7 @@ regex101.com#%#//scriptlet('prevent-element-src-loading', 'script', 'srv.buysell
 regex101.com#%#//scriptlet('prevent-fetch', 'srv.buysellads.com')
 regex101.com#%#//scriptlet('prevent-setTimeout', 'new Error("JSONP request to')
 regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
+regex101.com#?#div > header + div > div + div:has-text(Sponsors)
 regexlearn.com##.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
 regexr.com##div.hello
 regfile.ru##.modal-backdrop
@@ -160330,6 +160453,7 @@ romatoday.it,today.it#%#//scriptlet('remove-class', 'iub--active', '.o-wrapper.i
 rome2rio.com###alert-banner
 rome2rio.com##section.section--columns:style(margin-top: 50px !important;)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
+rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:has-text(Ad)
 romedic.ro###cookbox
 romeo.com#%#//scriptlet('set-local-storage-item', 'cookiesConsent', '1')
 romevacationtips.com###elementor-popup-modal-6442
@@ -162234,8 +162358,11 @@ sainsburys.co.uk##.pd-merchandising-product__wrapper
 sainsburys.co.uk##.pt__swiper--grid-item:has(.product-header--citrus[data-testid="product-header"])
 sainsburys.co.uk##div[class^="styles__CookieBannerWrapper-"]
 sainsburys.co.uk#?#.pt-grid-item:has([data-testid="citrus-label"]:-abp-contains(Sponsored))
+sainsburys.co.uk#?#.pt-grid-item:has([data-testid="citrus-label"]:has-text(Sponsored))
 sainsburys.co.uk#?#section header[data-test="c006-container-wrapper"]:-abp-contains(Sponsored)
+sainsburys.co.uk#?#section header[data-test="c006-container-wrapper"]:has-text(Sponsored)
 sainsburys.co.uk#?#section[class="ln-o-section ln-u-hard-bottom ln-u-margin-top*2"]:-abp-contains(Sponsored) + section[class="ln-o-section ln-u-hard-bottom ln-u-margin-top*2"]
+sainsburys.co.uk#?#section[class="ln-o-section ln-u-hard-bottom ln-u-margin-top*2"]:has-text(Sponsored) + section[class="ln-o-section ln-u-hard-bottom ln-u-margin-top*2"]
 sainsburysmagazine.co.uk###adSlot-featuredInBlue
 sainsburysmagazine.co.uk##.section--blue.section
 sainsmart.com###footertop
@@ -162678,6 +162805,7 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"buy-box")]/parent::div[1]'
 samsclub.com#$#race start; hide-if-contains-visible-text /(Sponsored)/ 'div > div[io-id]' 'div[data-testid^="variant-"] > div > div'; hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'; race stop;
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
+samsclub.com#?#li[data-slide]:has-text(Sponsored)
 samsebevoin.ru,westnews.info###cboxOverlay
 samsebeyurist.by##.left_col
 samsoe.com#$#.cookie-modal-container { display: none!important; }
@@ -163433,6 +163561,7 @@ scamdoc.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 scamtel.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
 scamwarners.com#?#center:-abp-contains(Advertisement)
+scamwarners.com#?#center:has-text(Advertisement)
 scamwatcher.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 scan-manga.com###TOPAMZ720
 scan-manga.com###pob_haut
@@ -164237,6 +164366,7 @@ search.yahoo.com##.searchRightBottomAds
 search.yahoo.com##.searchRightMiddleAds
 search.yahoo.com##.searchRightTopAds
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
+search.yahoo.com#?#div.mb-28:has(span:has-text(Ads))
 searchcommander.com##.footer-widget
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 searchencrypt.com##.home__banner
@@ -164366,6 +164496,7 @@ seattletimes.com#$##container[style="filter: blur(2px);"] { filter: none!importa
 seattletimes.com#$#.NewsletterSignupModal { display: none!important; }
 seattletimes.com#@#.ad-fixed
 seattleweekly.com#?#.marketplace-row:-abp-contains(Sponsored)
+seattleweekly.com#?#.marketplace-row:has-text(Sponsored)
 seazon.fr##+js(no-fetch-if, url:ipapi.co)
 seb.ee#$##cookiesMessage { display: none !important; }
 seb.ee#$##cookiesMessage ~ .modal-backdrop { display: none !important; }
@@ -164828,6 +164959,7 @@ semafor.com#%#//scriptlet('set-session-storage-item', 'floating-sign-up-dismisse
 semafor.com#?##__next > div[class^="css-"]:has(> form#floating-africa-form)
 semafor.com#?##__next > div[class^="css-"]:has(> form#floating-technology-form)
 semafor.com#?#.suppress-rss:-abp-has(:-abp-contains(Supported by))
+semafor.com#?#.suppress-rss:has(:has-text(Supported by))
 semageek.com##.h300
 semana.com###Boton_Esp
 semana.com##.footer-google-news
@@ -165127,6 +165259,7 @@ sephora.com##.rmn-banner
 sephora.com##[data-comp*="RMNCarousel"]
 sephora.com##[data-comp*="RmnBanner"]
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
+sephora.com#?#div[class^="css-"]:has(>a:has(span:has-text(Sponsored)))
 sephora.pl#$##cookies_block ~ .bandeBody[style^="top:"] { top: 0!important; }
 septima.dk##.septimacc
 seputarforex.com##.need-share-button
@@ -166443,7 +166576,9 @@ shipsltd.co.jp##.Bottom__share
 shipt.com##.searchPageStaticBanner:has([href*="/shop/featured-promotions"])
 shipt.com##[id^="cms-ad_banner"]
 shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
+shipt.com#?#div.swiper-slide:has-text(Sponsored)
 shipt.com#?#li[class]:-abp-contains(Sponsored)
+shipt.com#?#li[class]:has-text(Sponsored)
 shipxplorer.com,softwaretested.com,confianca.com.br,lojareversa.com.br,radarbox.com###privacy-popup
 shirainime.com,daemon-hentai.com,seirsanduk.us,139.99.120.222,freestreams-live.my##iframe[src*="chatango.com"]
 shirobako-movie.com##.site-footer_sns
@@ -166701,8 +166836,11 @@ shopee.es,shopee.fr,shopee.pl##.bpGouG
 shopee.ph##.product-briefing div.items-center > button[aria-label="Share on Messenger"]:upward(1)
 shopee.pl##.zsav9a
 shopee.sg#?#.shopee-header-section:has(> .shopee-header-section__content:-abp-contains(Ad))
+shopee.sg#?#.shopee-header-section:has(> .shopee-header-section__content:has-text(Ad))
 shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:-abp-contains(Ad))
+shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:has-text(Ad))
 shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:-abp-contains(Ad))
+shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:has-text(Ad))
 shopee.vn##.downloadBanner-container
 shopenauer.com##.polcoder_coockie_block
 shopforex.online###con_me
@@ -173211,6 +173349,7 @@ sprintmedical.in##.py-8.bg-gradient
 spritnyt.com##.td-g-rec
 sproutgigs.com##+js(fingerprint2)
 sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
+sprouts.com#?#li.product-wrapper:has(span:has-text(Sponsored))
 sprzedajemy.pl##.desktopLayTopPremiumWrp
 sprzedam.pl###api817-banner
 sprzedawacz.pl##.ga-cnt
@@ -173720,7 +173859,9 @@ staples.com##.footer-subscribe-form__formWrapper
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 staples.com#?#.side-by-side-carousel__carousel_container:-abp-contains(Sponsored Products)
+staples.com#?#.side-by-side-carousel__carousel_container:has-text(Sponsored Products)
 staples.com#?#.sku-configurator__skuOffsetCarouselNew:-abp-has(span:-abp-contains(Sponsored products:))
+staples.com#?#.sku-configurator__skuOffsetCarouselNew:has(span:has-text(Sponsored products:))
 staples.de,staples.nl##.CookieMsg
 staples.pt###cookie-new-cconsent-bar
 staprop.cz###_nLoadCookies
@@ -178115,13 +178256,21 @@ target.com##div[data-test="redcard-banner-container"]
 target.com#$#hide-if-contains /Sponsored/ 'li[class]' 'div[style] div[data-test="sponsoredText"]'
 target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
+target.com#?#.ProductRecsLink-sc-4mw94v-0:has(p:has-text(sponsored))
 target.com#?#.styles_ndsCarouselItem__dnUkr:-abp-has(p.h-text-sm:-abp-contains(Sponsored))
+target.com#?#.styles_ndsCarouselItem__dnUkr:has(p.h-text-sm:has-text(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
+target.com#?#[data-test="ProductCardVariantRecommendation"]:has-text(Sponsored)
 target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
+target.com#?#[data-test="productCardVariantRecommendation"]:has-text(Sponsored)
 target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:-abp-has(div.h-text-sm:-abp-contains(Sponsored))
+target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:has(div.h-text-sm:has-text(Sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
+target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:has-text(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
+target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
 target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:-abp-has(p.h-text-xs:-abp-contains(Sponsored))
+target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:has(p.h-text-xs:has-text(Sponsored))
 target.com.au###CookieUseAgreement
 target.my.com##+js(set-constant, trg.ads, true)
 targetstudy.com##+js(aopw, stopSelect)
@@ -179206,6 +179355,7 @@ techonthenet.com##body.header_f:style(margin-top : 0 !important;)
 techonthenet.com##div[class*=" "] > div[id$="_slot"]
 techonthenet.com##div[class*=" "] > div[id$="_slot"]:upward(1)
 techonthenet.com#?#div[class] > p:-abp-contains(Advertisements)
+techonthenet.com#?#div[class] > p:has-text(Advertisements)
 techopedia.com###subscriptionModal, .modal-backdrop
 techopedia.com##.footer_inner_ads
 techopedia.com##.header_inner_ads
@@ -180271,6 +180421,7 @@ teluguonlinemovies.*##+js(nowoif)
 telugupeople.com##.fineprint
 telugupeople.com##td[width="300"]
 telugupeople.com#?#table:-abp-has(> tbody > tr > td > a:-abp-contains(Advertisements))
+telugupeople.com#?#table:has(> tbody > tr > td > a:has-text(Advertisements))
 telugupost.com###details_left_level_1
 telugupost.com##.main .to-be-async-loaded-ad:not(.details_left_level_6)
 telugusmtv.com##.data-area2 .heading
@@ -180445,8 +180596,11 @@ temu.com#%#//scriptlet('trusted-click-element', 'div[js-selector^="mobile-downlo
 temu.com#%#//scriptlet('trusted-click-element', 'div[js-selector^="mobile-download-ui"] > div > div[aria-label="close"]', '', '1500')
 temu.com#%#//scriptlet('trusted-set-cookie', 'privacy_setting', '100')
 temu.com#?#.EKDT7a3v:-abp-contains(AD)
+temu.com#?#.EKDT7a3v:has-text(AD)
 temu.com#?#.goods-container:-abp-contains(AD)
+temu.com#?#.goods-container:has-text(AD)
 temu.com#?#.splide__slide:-abp-contains(AD)
+temu.com#?#.splide__slide:has-text(AD)
 ten-sura-m.bn-ent.net,ytv.co.jp,thehikaku.net##.footer_sns
 tenable.com###blog-subscribe
 tenable.com##.sticky-social-widget
@@ -181547,6 +181701,7 @@ theblock.co##div[qa-test-id="article-cta"]
 theblock.co#$#.newsletterModal { display: none !important; }
 theblock.co#$#html > body:not(#style_important) { overflow: auto !important; }
 theblock.co#?#.py-4.my-6:-abp-contains(Advertisement)
+theblock.co#?#.py-4.my-6:has-text(Advertisement)
 theblock.co,independent.co.uk##.newsletter-component
 theblock.co,onamae.com,marieclaire.com.tw,fieldmag.com,san-tatsu.jp,mecicolle.gnavi.co.jp,magazine.cygames.co.jp,narendramodi.in,evamagazin.hu##.articleShare
 theblockcrypto.com##.newsletterModal
@@ -186986,6 +187141,7 @@ toshibatec.eu##.cookie-consent-background
 toshinjyuken.co.jp,bino.jp,global.kyoto.travel,flagma.by,animatetimes.com,klook.com,ddos-guard.net,pickawood.com,sima-land.ru,cian.ru,flagma.ru,mintos.com,auchan.ua,eva.ru,flagma.ua###cookie-agreement
 tospo-keiba.jp#%#//scriptlet('trusted-set-cookie', 'bannerClosed', 'true')
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
+tossinggames.com#?#tbody:has-text(Please visit our below advertisers)
 tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 toster.ru###register-banner
 toster.ru##.habr-megaposts
@@ -188489,10 +188645,15 @@ tripadvisor.*#?##lithium-root > div[style^="bottom:"]:has(> div[class] > h3:cont
 tripadvisor.*#?##lithium-root > div[style^="bottom:"]:has(> div[class] span > svg[viewBox="0 0 24 24"])
 tripadvisor.*#?##lithium-root > div[style^="bottom:"][class]:has(> div[class] > h3[class]:contains(Unlock the best))
 tripadvisor.*#?#.AaFRW:-abp-contains(Sponsored)
+tripadvisor.*#?#.AaFRW:has-text(Sponsored)
 tripadvisor.*#?#[data-automation="crossSellShelf"] div:has(> span:-abp-contains(Sponsored))
+tripadvisor.*#?#[data-automation="crossSellShelf"] div:has(> span:has-text(Sponsored))
 tripadvisor.*#?#[data-automation="relatedStories"] div > div:has(a:-abp-contains(SPONSORED))
+tripadvisor.*#?#[data-automation="relatedStories"] div > div:has(a:has-text(SPONSORED))
 tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(In partnership with))
 tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(Sponsored by))
+tripadvisor.*#?#div[class="JYrkj w"]:has(span:has-text(In partnership with))
+tripadvisor.*#?#div[class="JYrkj w"]:has(span:has-text(Sponsored by))
 tripadvisor.be,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.se##.ppr_priv_brand_consistent_header
 tripadvisor.co.uk##div[data-test-target="faq-json-ld"] + div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[id^="slot:"])
 tripadvisor.com##.ZkqhQ
@@ -188513,9 +188674,13 @@ tripadvisor.com#$#hide-if-matches-xpath './/span[text()="Sponsored"]/ancestor::d
 tripadvisor.com#$#hide-if-matches-xpath '//div[.//div[contains(text(), "Sponsored by: ")]]/ancestor-or-self::span[1]/parent::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath '//span[text()="Sponsored"]/parent::div/parent::div/parent::div[.//a[contains(@href, "Restaurant_Review")]]/parent::div/parent::div[.//button[contains(@data-automation, "trips-save-button")]]'
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
+tripadvisor.com#?#.cAWGu:has(a:has-text(Similar Sponsored Properties))
 tripadvisor.com#?#.tkvEM:-abp-contains(Sponsored)
+tripadvisor.com#?#.tkvEM:has-text(Sponsored)
 tripadvisor.com#?#[aria-label="Map marker"]:-abp-contains(Sponsored)
+tripadvisor.com#?#[aria-label="Map marker"]:has-text(Sponsored)
 tripadvisor.com#?#[data-test="SL_list_item"]:-abp-contains(Sponsored)
+tripadvisor.com#?#[data-test="SL_list_item"]:has-text(Sponsored)
 tripadvisor.com,tripadvisor.com.br,tripadvisor.ca,tripadvisor.com.mx,tripadvisor.com.ar,tripadvisor.cl,tripadvisor.co,tripadvisor.com.ve,tripadvisor.co.uk,tripadvisor.it,tripadvisor.es,tripadvisor.de,tripadvisor.fr,tripadvisor.se,tripadvisor.nl,tripadvisor.com.tr,tripadvisor.dk,tripadvisor.at,tripadvisor.com.gr,no.tripadvisor.com,tripadvisor.pt,tripadvisor.ru,tripadvisor.ch,tripadvisor.be,tripadvisor.jp,cn.tripadvisor.com,tripadvisor.in,tripadvisor.com.my,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.co.id,tripadvisor.co.kr,th.tripadvisor.com,tripadvisor.com.tw,tripadvisor.com.hk,tripadvisor.co.za,ar.tripadvisor.com,tripadvisor.com.eg,tripadvisor.co.il#$#hide-if-matches-xpath '././/span[contains(.,"Patrocinado") or contains(.,"Annonce") or contains(.,"Sponsored") or contains (.,"Sponsorizzato") or contains(., "Gesponsert") or contains(.,"Sponsrad") or contains(.,"Gesponsord") or contains(.,"Sponsorlu") or contains(.,"Sponsoreret") or contains(.,"Χορηγία") or contains(.,"Sponset") or contains(.,"Реклама") or contains(.,"スポンサー提供") or contains(.,"赞助商") or contains(.,"Bersponsor") or contains(.,"스폰서") or contains(.,"สปอนเซอร์") or contains(.,"贊助商") or contains(.,"贊助") or contains(.,"مدعوم") or contains(.,"מודעה")]/ancestor::header/ancestor-or-self::div[2]'
 tripadvisor.de,tripadvisor.be,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.se##div[class^="memx-facebook-onetap-Facebook"]
 tripadvisor.ru##button[data-automation="shareCta"]
@@ -191020,6 +191185,7 @@ twitter.com,x.com##div[data-testid="profileAnalyticsUpsell"]
 twitter.com,x.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="verified_profile_upsell"]
 twitter.com,x.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
+twitter.com,x.com#?#h2[role="heading"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
@@ -192007,6 +192173,7 @@ ulta.com##.CriteoProductRail
 ulta.com##.swiper-slide:has(.pal-c-ProductCardFooter__sponsored)
 ulta.com##li.ProductListingResults__productCard:has(.pal-c-ProductCardFooter__sponsored)
 ulta.com#?#li.ProductListingResults__productCard:has(.ProductCard__badge:-abp-contains(Sponsored))
+ulta.com#?#li.ProductListingResults__productCard:has(.ProductCard__badge:has-text(Sponsored))
 ultimahora.com##.whatsapp_channel_btn
 ultimaker.com##.preferences-bar
 ultimaker.com##.um-consent-bar
@@ -198790,7 +198957,9 @@ walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walmart.*##section[data-dca-type="module"]:has(img[src^="https://i5.walmartimages.ca/dfw/8822aef6-854b/k2-_cb5cd2e8-b2ce-4ab7-b954-e86bea1e7648.v1.jpg"])
 walmart.*#$#hide-if-matches-xpath './/div[text()="Sponsored"]//ancestor::section[@data-dca-type]/ancestor::span/parent::div[@data-testid="buy-box-ad"]'
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
+walmart.*#?#div > div[io-id]:has-text(Sponsored)
 walmart.*#?#div[role="group"]:-abp-has(div:-abp-contains(/Sponsored|Commandité/))
+walmart.*#?#div[role="group"]:has(div:has-text(/Sponsored|Commandité/))
 walmart.ca##+js(trusted-click-element, button[aria-label="close button"], , 1000)
 walmart.ca##.bottom-0.nav-clickable-padded:has-text(Your data)
 walmart.ca##.w_6wTF
@@ -206834,6 +207003,7 @@ yelmocines.es###publiboardTop
 yelp.*##div[data-testid="open-app-button"]
 yelp.*##div[data-testid="smart-banner-pitch"]
 yelp.*#?#main[class^="searchResultsContainer"] li h2:-abp-contains(Sponsored)
+yelp.*#?#main[class^="searchResultsContainer"] li h2:has-text(Sponsored)
 yelp.be,yelp.ca,yelp.ch,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.au,yelp.com.sg,yelp.ie##.data-ad-placement
 yelp.com##+js(json-edit, ..mainContentComponentsListProps.*[?.isAd==true])
 yelp.com##+js(json-edit, ..searchResults.*[?.isAd==true])
@@ -207571,6 +207741,7 @@ yourstory.com##main > div[class^="fixed bottom-"]
 yourstory.com#$#body.tp-modal-open { overflow: auto !important; touch-action: auto !important; }
 yourstory.com#?#.mt-\[2rem\]:-abp-contains(newsletter)
 yourstory.com#?#[width]:-abp-contains(ADVERTISEMENT)
+yourstory.com#?#[width]:has-text(ADVERTISEMENT)
 yourstory.com,ajc.com,inews.co.uk#$#.tp-scroll-prevented { overflow: auto !important; touch-action: auto !important; }
 yourstory.com,ajc.com,inews.co.uk#$#div[class^="tp-modal"][style^="z-index: 300050; display: block;"] { display: none !important; }
 yourstory.com,ajc.com,inews.co.uk#$#div[class^="tp-modal"][style^="z-index: 300050; display: block;"] ~ div.tp-backdrop { display: none !important; }
