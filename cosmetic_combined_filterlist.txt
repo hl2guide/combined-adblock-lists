@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.304
-! Last Modified: 2026.03.22.0227+1100 AEST
+! Version: 1.0.305
+! Last Modified: 2026.03.22.0728+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1044,6 +1044,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2FAPPLE_EMAIL_LINK%2F$image
 *%2FMessageTrackLog.aspx%3F$image
 *%2Fae.edm.edm_open%3F$image
+*%2Fapi%2Fanalytics%2Fopen%2F$image
 *%2Fapi.controld.com%2Fpixel%2F*$image
 *%2Faymt%2Faa%2F%3F$image
 *%2Fbabia.to%2Fb%2Fimage.gif$image
@@ -1112,8 +1113,11 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fpixel.gif%3F*$image
 *%2Fpixel.jpg%3Fcampaign_id%3D*$image
 *%2Fplatform-collector.viki.com%2Femail%2F*$image
+*%2Fpost.spmailt.com%2Fq%2F$image
 *%2Fpost.spmailtechnolo.com%2Fq%2F*$image
 *%2Fpreferences.blackbull.com%2Fr%2F*%2Fopen%2F$image
+*%2Fpremiumservices.comms.yahoo.net%2FO%2F$image
+*%2Fr.*%2Fmk%2Fop%2F$image
 *%2Fr.*%2Ftr%2Fop%2F*$image
 *%2Fr.news.zbigz.com%2Ftr%2F$image
 *%2Fs%2Feo%2F*$image
@@ -1131,6 +1135,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Ftrack%2Fopens%2F*$image
 *%2Ftrack%3Fdata%3D$image
 *%2Ftrack-opening%2F*$image
+*%2Ftrackimp%2F$image
 *%2Ftracking.*%2Fbeacon$image
 *%2Ftracking.g5e.com%2Ft%2F$image
 *%2Ftracking.logistics.post.ch%2Fq%2F*$image
@@ -1747,6 +1752,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .doc?t=popunder$all
 .docfilms.info^$script,domain=docfilms.info
 .doctolib.de/tr/op/$image
+.doubleclick.net%2F*$image
 .doubleclick.net/$image
 .doublepimp.com^$3p
 .dropbox.com%2Fl%2F$image
@@ -1998,6 +2004,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .mail.*/o/$image
 .mail.adobe.com%2Fr%2F$image
 .mail.adobe.com/r/$image
+.mail.beehiiv.com/ss/o/$image
 .mail.odysee.com%2Fo%2F$image
 .mail.odysee.com/o/$image
 .mail.ru/pixel/$image
@@ -2166,7 +2173,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .php?annonsid=$image
 .php?cid=*&pnum=$doc,to=~gov|~edu
 .php?clicktag=
-.php?id=$third-party,xmlhttprequest,domain=aniqit.com|anivod.com|kodik.biz|kodik.cc|kodik.info|kodikdb.com
+.php?id=$third-party,xmlhttprequest,domain=aniqit.com|anivod.com|kodik.biz|kodik.cc|kodik.info|kodikdb.com|kodikplayer.com
 .php?id=*&ref=$script,third-party
 .php?idadv=
 .php?iid=*&cid=$doc,to=~gov|~edu
@@ -2430,6 +2437,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .systems/signup?ad_domain=$all
 .systems/signup?ad_domain=$doc,popup
 .t-tv.org^$script,domain=t-tv.org
+.t.en25.com%2Fe%2F$image
+.t.en25.com/e/$image
 .tagged-events.outbound-links.js
 .tagged-events.revenue.js
 .teaser.$domain=~beetv.kz
@@ -3851,7 +3860,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 /^https?://[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
 /^https?://[^\s]+(\/eu_widget|\/news_widget\/|\/widget\/)/$third-party,subdocument,domain=agroter.com.ua|cvnews.cv.ua|ifnews.org.ua|lvnews.org.ua|rvnews.rv.ua|tenews.org.ua|ternopillive.com|uanews.org.ua
-/^https?://[a-z0-9]+\.in\.net/+[-a-z0-9_?&=]{25,}/$third-party,xmlhttprequest,domain=aniqit.com|anivod.com|kinoxam.ru|kodik.biz|kodik.cc|kodik.info|kodikdb.com|u-cdn.org|u-cdn.top|u-play.pro|u-stream.in|video.doramatv.su
+/^https?://[a-z0-9]+\.in\.net/+[-a-z0-9_?&=]{25,}/$third-party,xmlhttprequest,domain=aniqit.com|anivod.com|kinoxam.ru|kodik.biz|kodik.cc|kodik.info|kodikdb.com|kodikplayer.com|u-cdn.org|u-cdn.top|u-play.pro|u-stream.in|video.doramatv.su
 /^https?://www\.stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 /^https?:\/\/(35|104)\.(\d){1,3}\.(\d){1,3}\.(\d){1,3}\//$popup,3p,badfilter
@@ -5098,6 +5107,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /api/ad/*$domain=lampa.mx
 /api/adplogger/*
 /api/adtracking$xmlhttprequest
+/api/analytics/open/*$image
 /api/apiFetchAdsData
 /api/async.php?t=user&m=pagehits&
 /api/autosda.php
@@ -5346,7 +5356,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /assets/smarttag-$script
 /assets/snippets/bsystem/*$domain=buzulukday.ru|nsday.ru|orenday.ru|perevolockday.ru|saltday.ru|sorochinskday.ru
 /assets/t_j/tongji.js
-/assets/vendor/*.xml$xmlhttprequest,domain=allohalive.com|aniqit.com|anivod.com|doefiratv.net|kinoxam.ru|kodik.biz|kodik.cc|kodik.info|kodikdb.com|u-cdn.org|u-cdn.top|u-play.pro|u-stream.in|video.doramatv.su
+/assets/vendor/*.xml$xmlhttprequest,domain=allohalive.com|aniqit.com|anivod.com|doefiratv.net|kinoxam.ru|kodik.biz|kodik.cc|kodik.info|kodikdb.com|kodikplayer.com|u-cdn.org|u-cdn.top|u-play.pro|u-stream.in|video.doramatv.su
 /assets/www/notification.
 /assets/yb_$domain=vackertvader.se
 /astonbet-$image
@@ -9644,6 +9654,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /links/*casino*.$domain=emocore.se
 /links/popad$popup
 /links1.*/q/*$image
+/links1.pawns.app/q/*$image
 /links1.strava.com/*$image
 /linktrack.js
 /linktracker.js
@@ -9868,6 +9879,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
 /mail.thermomix.com/i/*$image
+/mail.turing.com/api/analytics/open/*$image
 /mail/open/*$image
 /mail_tracking.php?$image
 /mailfoogae.appspot.com/t^$image
@@ -11294,6 +11306,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /post-views-counter-pro/js/crawler-detect.js
 /post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
+/post.spmailt.com/q/*$image
 /post.spmailtechnolo.com/q/*$image
 /post/FileRotator_ID*/download.php?subid=$xhr
 /post_image/ad-$domain=newslaya.com
@@ -11693,10 +11706,12 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /quick-cookie-consent-public.js
 /quwet.js$domain=teenextrem.com|teenhost.net|teencumpot.com
 /quwet.js$script,1p
+/r.*/mk/op/*$image
 /r.*/tr/op/*$image
 /r.cfm*^urllink=$document,urlskip=?urllink +https,to=shareasale-analytics.com|shareasale.com
 /r.gif?
 /r.js|$domain=kat.*|kickass.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|katbay.*|kickasshydra.*|kickasskat.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*|kickasstracker.*|katfreak.*|kickasshydra.*|katbay.*|kickasst.*|kkickass.*|kattracker.*|topkickass.*|thekat.*|kat.*|kat2.*|kick4ss.*|kickass.*|kickass2.*|kickasstorrents.*|kat.fun|kat2.app|kat2.space|kat2.website|kat2.xyz|kick4ss.net|kickass.cd|kickass.earth|kickass.id|kickass.kim|kickass.love|kickass.name|kickass.one|kickass.vc|kickass.ws|kickass2.app|kickass2.fun|kickass2.mobi|kickass2.online|kickass2.space|kickass2.top|kickass2.website|kickass2.xyz|kickassgo.com|kickasstorrent.cr|kickasstorrents.fun|kickasstorrents.icu|kickasstorrents.mobi|kickasstorrents.to|kickassz.com|kkat.net|thekat.cc|topkickass.org|kattracker.com
+/r.news.zbigz.com/mk/op/*$image
 /r.news.zbigz.com/tr/*$image
 /r.php?u=https$document
 /r.rnc?
@@ -13419,6 +13434,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /trackers/SessionCam-tag
 /trackga.js
 /trackga.min.js
+/trackimp/*$image
 /tracking-analytics-events.js
 /tracking-cookie.js
 /tracking-events.js
@@ -20085,7 +20101,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 ?style=468x60-
 ?style=720x90-
 ?subPublisher=popunder:$all
-?subid=$third-party,xmlhttprequest,domain=aniqit.com|kodik.cc|kodik.info|kodikdb.com
+?subid=$third-party,xmlhttprequest,domain=aniqit.com|kodik.cc|kodik.info|kodikdb.com|kodikplayer.com
 ?t=$xmlhttprequest,empty,domain=kyrkanstidning.se|grundskoletidningen.se
 ?tag_id=*&sw_url=
 ?target=_blank&mouseover=
@@ -28403,8 +28419,8 @@ aniporn.com##.wrapper > section:has(> div > div > div[id^="footer_"] > div._ccw-
 aniporn.com##[data-nosnippet]
 aniporn.com,bdsmx.tube##article > section
 aniqit.com,kodik.biz,kodik.cc,kodik.info,kodikdb.com##.adv-player
-aniqit.com,kodik.cc,kodik.info,kodikdb.com##.preview-confirmation
-aniqit.com,kodik.cc,kodik.info,kodikdb.com##.preview-min-age-confirmation
+aniqit.com,kodik.cc,kodik.info,kodikdb.com,kodikplayer.com##.preview-confirmation
+aniqit.com,kodik.cc,kodik.info,kodikdb.com,kodikplayer.com##.preview-min-age-confirmation
 anirem.org##.app-hidden
 anires.ru###hello_iframe
 anires.ru###shadow_logo
@@ -108676,7 +108692,6 @@ kodi-tutorials.uk###main > .code-block
 kodi-tutorials.uk##.entry-content > .code-block
 kodi.org.pl##a[href^="https://sweterkowo.pl/sklep/kategoria/czapki/?utm_source="]
 kodialkhaber.com##.sj_popup_wrap
-kodik.info##.second-message
 kodik.info,roboin.io,u.pcloud.link,drtuber.com,pubs.acs.org,m.glavcom.ua,calmclinic.com,infobae.com##.share_button
 kodinerds.net###adConsent
 kodinerds.net##.boxesSidebarRight
