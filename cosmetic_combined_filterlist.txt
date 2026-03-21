@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.301
-! Last Modified: 2026.03.21.1305+1100 AEST
+! Version: 1.0.302
+! Last Modified: 2026.03.21.1641+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -27880,9 +27880,11 @@ anihatsu.com##.rss-blogroll-kobetu
 anikai.to##+js(no-window-open-if)
 anikai.to##+js(nowoif, _blank)
 anikai.to##+js(set-cookie, __p_mov, 1)
-anikai.to,animekai.*,anigo.to,sflix.fi,yflix.to##+js(nostif, ||!!)
-anikai.to,animekai.*,anigo.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,sflix.fi>>,yflix.to>>##+js(aeld, keydown, /^function\(.*\|\|.*}$/)
-anikai.to,animekai.*,anigo.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,sflix.fi>>,yflix.to>>##+js(set, console.clear, throwFunc)
+anikai.to,animekai.*,anigo.to,moontv.to,sflix.fi,yflix.to##+js(nostif, ||!!)
+anikai.to,animekai.*,anigo.to,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(aeld, keydown, /^function\(.*\|\|.*}$/)
+anikai.to,animekai.*,anigo.to,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.clear, trueFunc)
+anikai.to,animekai.*,anigo.to,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.log, trueFunc)
+anikai.to,animekai.*,anigo.to,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.table, trueFunc)
 anikore.jp##.boardDetail__list > li:has(> div[id])
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 anikuro.to##div[style="position: absolute; z-index: 99999"]
@@ -34758,6 +34760,7 @@ bagi.co.in##.form-group ins[class][style="display:inline-block;width:300px;heigh
 bagi.co.in##iframe[src^="https://cryptocoinsad.com/ads/"]
 bagi.co.in,keran.co##+js(rmnt, script, /charAt|XMLHttpRequest/)
 bagigia.com##.bica-content
+bagina.co.il,finam.ru,halalit.co.il,pccenter.co.il,rsm.co.il###cookie-consent-popup
 baginya.org##.rek1
 baginya.org##div[id^="admitad"]
 bagira.bg,hit-electronics.com##.js-consent
@@ -37960,9 +37963,9 @@ bfclive.com##+js(nowoif)
 bfclive.com##+js(rmnt, script, /adb/i)
 bfh.ch##.comp-dsgvo-banner
 bflix.*##+js(aeld, keydown, [arguments];)
-bflix.*,bitcine.app,moontv.to,rapidairmax.site,world-novel.fr##+js(set, console.clear, trueFunc)
-bflix.*,bitcine.app,moontv.to,rapidairmax.site,world-novel.fr##+js(set, console.log, trueFunc)
-bflix.*,bitcine.app,moontv.to,rapidairmax.site,world-novel.fr##+js(set, console.table, trueFunc)
+bflix.*,bitcine.app,rapidairmax.site,world-novel.fr##+js(set, console.clear, trueFunc)
+bflix.*,bitcine.app,rapidairmax.site,world-novel.fr##+js(set, console.log, trueFunc)
+bflix.*,bitcine.app,rapidairmax.site,world-novel.fr##+js(set, console.table, trueFunc)
 bflix.*>>,~cloudflare.com,~disqus.com,~google.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 bflix.*>>,~cloudflare.com,~disqus.com,~google.com##+js(nowoif)
 bflix.to##+js(set-cookie, pads, 1)
@@ -58180,7 +58183,7 @@ decolar.com##.subscription-sticky-footer-container
 decomaniacos.es##+js(acs, addEventListener, google_ad_client)
 decompiler.com##+js(abort-current-script, document.createElement, alert)
 decompiler.com##+js(acs, document.getElementById, /adblock/i)
-decompiler.com##+js(rpnt, script, /window\.\w+\s*===\s*undefined/, false)
+decompiler.com##+js(rpnt, script, /window(?:\.\w+|\[['"`]\w+['"`]\])[\s\n]*===[\s\n]*undefined/)
 decopedia.nl#@##cookieContainer
 decopedia.nl#@##cookieOverlay
 decorardicas.com.br##div[style^="width:300px;"]
@@ -123766,6 +123769,7 @@ meistershof.nl##.rstboxes
 meistertask.com,meisterlabs.com###cb-wrapper
 meistras1.lt,bitute.lt,vivasaninfo.lt,piniginuke.lt,tuka.lt##.banners
 meitav.co.il###ZA_CAMP_SLIDEIN_CONTAINER
+meitav.co.il,xnes.co.il###ZA_CAMP_SLIDEIN_CONTAINER
 meituan.com##.A
 meituan.com##.component-downtip
 meiwasuisan.com##body > .toTheEdge:has(> div[id^="im-"]:only-child)
@@ -128025,6 +128029,7 @@ moonpig.com#?##__next > div[class^="sc-"]:not([data-testid]):has(> div[class^="s
 moonquill.com##+js(aopw, document.getElementsByClassName)
 moonramkonam.com###text-124
 moonsault.de###anzeige
+moontv.to##+js(nowoif)
 moony.com##.uc-mny-share-wrap
 moorinsightsstrategy.com##div[class^="AW-Form-"]
 moorinsightsstrategy.com##div[data-elementor-type="footer"] > section[data-element_type="section"]:has(div[class^="AW-Form-"])
