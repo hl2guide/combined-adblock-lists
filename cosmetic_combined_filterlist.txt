@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.309
-! Last Modified: 2026.03.23.0227+1100 AEST
+! Version: 1.0.310
+! Last Modified: 2026.03.23.0730+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1055,6 +1055,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fclickemail%2F$image
 *%2Fcmail.bitcasino.io%2F*$image
 *%2Fcomm.coinbase.com%2F*$image
+*%2Fcounter%2Fgif.php%3F*$image
 *%2Fd.gpmdata.ru%2F*$image
 *%2Fdedxk.r.ag.d.sendibm3.com%2F*$image
 *%2Fdelivery.hideout.tv%2F*$image
@@ -1101,11 +1102,13 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fmg.updates.ugg.com%2Fo%2F$image
 *%2Fmkt.kultivi.com%2Femail%2F$image
 *%2Fmpss%2Fo%2F$image
+*%2Fmt.artstation.com%2Flinks%2F$image
 *%2Fnetmail01gm.gmarket.co.kr%2F*$image
 *%2Fnewsletter.*%2Fmo%2F$image
 *%2Fo%2Fp%2F$image
 *%2Fone-alnk.com%2F*$image
 *%2Fopen.convertkit-mail2.com%2F*$image
+*%2Fopen.html%3F$image
 *%2Fopen.php%3F*$image
 *%2Fpixel.gif%3F*$image
 *%2Fpixel.jpg%3Fcampaign_id%3D*$image
@@ -1402,6 +1405,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .blgy.ru^$script,domain=blgy.ru
 .blog/ads/
 .blogspot.com/*/*ADtulo-2.jpg
+.bloomreach.co%2F*$image
+.bloomreach.co/$image
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
 .bongacams.com/?bcs=$popup
@@ -1763,7 +1768,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .eloqua.js
 .email.*/tr/op/$image
 .emlfiles4.com/cmpimg/t/$image
+.emltrk.com%2F*$image
 .emltrk.com/
+.emltrk.com/$image
 .epicgames.com/O/
 .etalongame.com^$script,domain=etalongame.com
 .etargetnet.
@@ -1793,6 +1800,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .fr/ads/
 .fr/affiliate/
 .france-films.net^$script,domain=france-films.net
+.franzis.de/counter/gif.php?$image
 .fscookieconsent.
 .fun/ad/
 .fuse-cloud.com/$popup
@@ -6950,6 +6958,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /counter/?domain=$image,1p
 /counter/acnt.php?
 /counter/collect?
+/counter/gif.php?$image
 /counter/stat.php
 /counter/views/*
 /counter1.gif?
@@ -10105,6 +10114,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /mixpanel.$domain=~mixpanel.com,badfilter
 /mkm-dsgvo-plugin/1-blocker.js
 /mkt.kultivi.com/email/*$image
+/mkto-*.com/trk?$image
 /mkvgames.$image,third-party
 /mkvpoker.$image,third-party
 /mlb-ml-analytics.min.js
@@ -10221,6 +10231,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /msmCookieConsent.js
 /msow.aspx?AID=
 /msq.tracker.min.js
+/mt.artstation.com/links/*$image
 /mtc.js
 /mtiFontTrackingCode.js
 /mtifonttracker.js
@@ -11302,6 +11313,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /portalwlanad/pages/*$popup
 /post-views-counter-pro/js/crawler-detect.js
 /post-views-counter-pro/js/frontend.js
+/post.franzis.de/open.html?$image
 /post.pinterest.com/q/*$image
 /post.spmailt.com/q/*$image
 /post.spmailtechnolo.com/q/*$image
@@ -27892,10 +27904,6 @@ anihatsu.com##.rss-blogroll-kobetu
 anikai.to##+js(no-window-open-if)
 anikai.to##+js(nowoif, _blank)
 anikai.to##+js(set-cookie, __p_mov, 1)
-anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(aeld, keydown, /^function\(.*\|\|.*}$/)
-anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.clear, trueFunc)
-anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.log, trueFunc)
-anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.table, trueFunc)
 anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,yflix.to##+js(nostif, ||!!)
 anikore.jp##.boardDetail__list > li:has(> div[id])
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
@@ -74047,6 +74055,7 @@ figsoku.net###wrapper > .head:contains(特価品 情報)
 figsoku.net##.rssarea
 figsoku.net##div[id^="ota-wid"][id$="_6"]
 figsoku.net##div[id^="randomad"]
+figuredart.it##.otCookiesNotification
 figurex.net###text-html-widget-5 td[width="125"][height="125"]
 figyelo.hu##div[class$="__interstitial_active"] + .page__body:style(display: block!important;)
 figyelo.hu##div[class$="__interstitial_active"]:style(display: none!important;)
@@ -207415,6 +207424,7 @@ youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fro
 youdo.com###MobileDownloadApp
 youdo.com##div[class^="MobileApp_wrapper"]
 youdo.com##div[class^="toolbar_downloadAppWrapper"]
+youdo.com##div[data-sentry-component="AccessCookies"]
 youfiles.herokuapp.com##+js(set, gadb, false)
 youfiles.net##+js(set-constant, gadb, false)
 yougame.biz##.block-body > article#js-post-
@@ -210233,6 +210243,10 @@ zzzyk.com###Tinfo
 ~catcut.net,~forum.zaycev.net,~mobile-4at-obshenie.chatovod.ru,~oknotivi.ru,~opa-kino.ru##a[href*="catcut.net"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cekkazan.com.tr,~fotografwdrodze.pl,~raiffeisen-media.ru##.social_facebook
+~challenges.cloudflare.com,anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(aeld, keydown, /^function\(.*\|\|.*}$/)
+~challenges.cloudflare.com,anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.clear, trueFunc)
+~challenges.cloudflare.com,anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.log, trueFunc)
+~challenges.cloudflare.com,anikai.to,animekai.*,anigo.to,hianime.ws,moontv.to,sflix.fi,yflix.to,anikai.to>>,animekai.*>>,anigo.to>>,hianime.ws>>,moontv.to>>,sflix.fi>>,yflix.to>>##+js(set, console.table, trueFunc)
 ~changecopyright.ru##a[href^="http://changecopyright.ru"]
 ~cityheaven.net###gg1
 ~civey.com##iframe[src^="https://widget.civey.com"]
