@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.306
-! Last Modified: 2026.03.22.1325+1100 AEST
+! Version: 1.0.307
+! Last Modified: 2026.03.22.1654+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -25678,6 +25678,8 @@ allrecipes.com##.review-ad-space
 allrecipes.com##a[ng-click^="openShareModal"]
 allrecipes.com##h2.share
 allrecipes.com#@##onetrust-consent-sdk
+allrecipes.com,cruisecritic.com,foodandwine.com,kob.com,seriouseats.com,shape.com,simplyrecipes.com,southernliving.com,thespruceeats.com,travelandleisure.com,tripsavvy.com,verywellhealth.com,verywellmind.com##.preloaded_lightbox
+allrecipes.com,cruisecritic.com,foodandwine.com,seriouseats.com,shape.com,simplyrecipes.com,southernliving.com,thespruceeats.com,travelandleisure.com,tripsavvy.com,verywellhealth.com,verywellmind.com##.fb_lightbox-overlay
 allrefrs.ru##[src*="/imgr/"]
 allrepack.ru##a[href] > img[style*="display:"]
 allreviews.jp##.follow__item--rss
@@ -54952,10 +54954,8 @@ crucial.com##.app-light > div[style*="fixed"]
 cruciverbaonline.it,giochigratisonline.it###boxRichiesta
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:has-text(Sponsored)
 cruisecritic.com##.css-1xzyepp
-cruisecritic.com##.fb_lightbox-overlay
 cruisecritic.com##.min-h-\[80px\].md\:min-h-\[90px\]
 cruisecritic.com#?#.block:has(a[data-tracking]:has-text(Sponsored))
-cruisecritic.com,kob.com##.preloaded_lightbox
 cruisecritic.com.au##.chakra-skeleton ul[role="list"]:has(> li[class] > button.chakra-button > i + span)
 cruisecritic.com.au##div[class^="css"]:empty
 cruiselifestyle.it##.linkBackground
@@ -174028,7 +174028,6 @@ startpage.com##:matches-path(/search) #main > div[class^="css-"]:has(> div[class
 startpage.com##:matches-path(/search) .main-results-container > div.shopping-header > div[class^="css-"] > div[class^="css-"] > div.information-container + div[class^="css-"]:has(> span:contains(/Sponsoreret|Gesponsert|Sponsored|Patrocinad|Sponsorisé|Gesponsord|Sponset|Sponsorowane|Sponsrad/))
 startpage.com##section#main > a[href][target="_blank"]:has(path[d^="m6.07067 3.14453c-.04309-.40317-.22467-.71709-.54475"])
 startpage.com#%#//scriptlet('prevent-element-src-loading', 'script', '/TotalAdBlockAdultWidget\.js|\/ads-async\.js|\/adblock-detector\.min\.js|\/adblockdetect\.js|\/adserv\.js|\/arcads\.js|\/content-ads\.js|\/cpmbanners\.js|\/doubleclick\.min\.js|\/cms_ads\.js|\/footer_ad\.js|\/insertads\.js|\/slider_ad\.js|\/stickyads\.js|\/videojs\.sda\.js|\/js\/ad_common\.js|\/js\/adpopup\.js/')
-startpage.com#@#.a-bg-result
 startpage.com#@#.ad.widget
 startpage.com#@#.widget.ad
 startpage.com,doctoranytime.gr##.mobile-app-promo-banner
