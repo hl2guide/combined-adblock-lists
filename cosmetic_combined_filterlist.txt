@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.340
-! Last Modified: 2026.03.29.0732+1100 AEST
+! Version: 1.0.341
+! Last Modified: 2026.03.29.1333+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1076,6 +1076,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Femail-interact-v2%2Fview%2F*$image
 *%2Femail.*%2Ft%2F$image
 *%2Femail.marketing.*%2Fo%2F$image
+*%2Femail_open_log_pic.php%3F*$image
 *%2Fendeavor.omeclk.com%2Fportal%2Fwts%2F%2A.gif$image
 *%2Fepl.paypal-communication.com%2FO%2F$image
 *%2Fet%2Femail%3F$image
@@ -1083,6 +1084,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fgithub.com%2Fnotifications%2Fbeacon%2F*$image
 *%2Fgm.mmstat.com%2F*$image
 *%2Fhello.heroku.com%2Fr%2F*%2Fopen%2F*$image
+*%2Fhsctaimages.net%2Fctas%2F%2A%2Fpublic%2Fcs%2Fil%2F%3F$image
 *%2Flink%2Fo%2F*$image
 *%2Flink-mf.*%2FCI0%2F$image
 *%2Flinks.*%2Fe%2Feo%3F$image
@@ -7519,6 +7521,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /email/tracking.gif?$image
 /email/tracking?
 /email_open_log_
+/email_open_log_pic.php?$image
 /email_opened_tracking_pixel?
 /emailopen?q=$image
 /emailtrack.offers-exchange.com/*$image
@@ -8583,6 +8586,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /hs.go-to.min.js
 /hs_track.js
 /hsc/trk/*
+/hsctaimages.net/ctas/*/public/cs/il/?$image
 /hserver/channel=
 /hserver/site=
 /ht.js?site_$script
@@ -32438,7 +32442,6 @@ audiotools.blog##+js(rmnt, script, deblocker)
 audiotools.blog,eztechx.blogspot.com###adblock-overlay
 audiotools.in##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 audiotools.in##+js(acs, document.oncontextmenu)
-audiotools.pro,magesy.blog##+js(aeld, contextmenu, preventDefault)
 audiotrendt.com.pl,dolasu.pl,kenayeurope.de,sklepnumatic.pl,lamaxshop.pl,eltrox.pl,modregohogar.com,drukarniafortuny.pl###cookiesplus-modal
 audiotrendt.com.pl,dolasu.pl,kenayeurope.de,sklepnumatic.pl,lamaxshop.pl,eltrox.pl,modregohogar.com,drukarniafortuny.pl###cookiesplus-overlay
 audiotruyenfull.com##+js(nowoif)
@@ -65591,6 +65594,7 @@ ebay.it##.srp-banner
 ebay.it##.vi-lb-placeholder
 ebay.it##div[id^="ad_html_"]
 ebc.com.br##+js(ra, oncopy)
+ebc.com.br##+js(set, executaGoogleAnalytics3, noopFunc)
 ebc.com.br##.cmpAdBanner
 ebc.com.br##.ebc-cookie-compliance-banner
 ebc.com.br##.redes-sociais-header
@@ -119669,6 +119673,7 @@ magentacloud.de#%#//scriptlet('trusted-click-element', '#promptLayerContent #rej
 magentatv.pl##div[class^="styles__HeaderInfoBar"]
 magentatv.pl##div[class^="styles__StyledMagentaBar-"]
 magentatv.pl#?#nav[class^="styles__StyledNavBar-"] > div[class^="styles__HeaderInfoBarStyled-"]:has(> div[class^="styles__HeaderMessageStyled-"] > div[class^="styles__HeaderText-"] > p[class^="styles__ParagraphStyled-"] > a[href*="/polityka-prywatnosci"])
+magesy.blog##+js(aeld, contextmenu, preventDefault)
 magesy.blog##+js(no-setTimeout-if, keepChecking)
 magesy.blog##+js(noeval-if, disable_copy)
 magesy.blog,magesy.pro##+js(set-constant, adBlockFunction, noopFunc)
