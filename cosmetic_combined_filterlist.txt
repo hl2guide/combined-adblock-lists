@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.354
-! Last Modified: 2026.04.01.0306+1100 AEST
+! Version: 1.0.355
+! Last Modified: 2026.04.01.0743+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -17061,9 +17061,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 24tv.ua,football24.ua##app-main-page-adv-block
 24tv.ua,football24.ua##app-video-adv-block
 24tv.ua,football24.ua,lux.fm##app-adv-placeholder
-24tv.ua,football24.ua,sport24.ua##.legal
 24tv.ua,football24.ua,sport24.ua##[class*="partner-insert"] + .media_embed
 24tv.ua,football24.ua,sport24.ua##[class*="partner-insert"] + p
+24tv.ua,football24.ua,sport24.ua,zaxid.net##.legal
 24tv.ua,football24.ua,sport24.ua,zaxid.net##[class*="partner-insert"]
 24tv.ua,football24.ua,zaxid.net###user-vote-trigger
 24tv.ua,football24.ua,zaxid.net##[class*="adv-"][class*="new"]
@@ -18402,7 +18402,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4tests.com##+js(set, adblock, false)
 4thsight.xyz###widget-in-article
 4thsight.xyz###widget-index-top
-4thsight.xyz,techgeekbuzz.com,stockingfetishvideo.com###custom_html-17
 4tour.pl##.span2
 4travel.jp##.is_adsHeight
 4travel.jp##.u_adplanBox
@@ -37142,11 +37141,8 @@ bemyhole.com###videoslist > div[style="width: 100%; display: block; margin-top: 
 bemyhole.com##+js(remove-node-text, script, egoTab)
 bemyhole.com##+js(rmnt, script, egoTab)
 bemyhole.com##.cams-button
-bemyhole.com##.dropdown > .upd-source
 bemyhole.com##.headline-sidebar
-bemyhole.com##.headline:has(> a[href="/to/show-more-cams/"])
 bemyhole.com##.main-cams
-bemyhole.com##.tah-desktop-spot
 ben.nl#$##defaultModal { display: none !important; }
 ben.nl#$#.cookie-wall { display: none !important; }
 ben.nl#$#body { overflow: auto !important; }
@@ -46364,6 +46360,8 @@ carlsjr.com,hardees.com##.notice-window
 carlson.fi#$#.modals-wrapper { display: none !important; }
 carlson.fi#$#body._has-modal { overflow: auto !important; height: unset !important; width: unset !important; }
 carmag.co.za###sidebar-primary
+carmag.co.za##div[id^="ap-popup"]
+carmag.co.za,4thsight.xyz,techgeekbuzz.com,stockingfetishvideo.com###custom_html-17
 carmag.co.za,ilgiornale.it,comingsoon.it,beachcam.meo.pt#%#//scriptlet('trusted-click-element', '.qc-cmp2-summary-buttons > button[mode="secondary"] + button[mode="secondary"]')
 carmarket.bg###offers
 carmax.com###kmx-privacy-popup
@@ -95880,6 +95878,8 @@ ichip.ru##.banner-info
 ichip.ru##.float-subscribe
 ichip.ru##.js-mediator-article > table[style="border-collapse: collapse; width: 100%;"]
 ichip.ru##.subscribe-content
+ichip.ru##.subscriber
+ichip.ru##.tg-widget
 ichip.ru##.vc_column_container:has(.wpb_wrapper > .instagram-widget)
 ichip.ru##a[href="/rek/"]
 ichip.ru##body .article-action
@@ -100754,10 +100754,8 @@ inwx.com#$#html.no-consent body { position: static !important; }
 inwx.com#@#.consent-container
 inxxx.com##+js(abort-current-script, Symbol, egoTab)
 inxxx.com##+js(rmnt, script, egoTab)
-inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
 inxxx.com##div.headline:has(a[href="/to/show-more-cams/"])
 inxxx.com##div.inxxx-desktop-spot
-inxxx.com,bemyhole.com##.cams-button
 inxxx.com,theyarehuge.com##.desktopspot
 inyatrust.co.in##+js(set, detectAdBlock, noopFunc)
 inyheter.no##.td-main-page-wrap .td-element-style + .tdc-row:has(.adsbygoogle)
@@ -114943,6 +114941,7 @@ linkedin.com##div[data-id^="urn:li:lyndaCourse:"]
 linkedin.com##div[data-tracking-id="get_app_omni_bottom"]
 linkedin.com##iframe[componentkey$="_ad"]
 linkedin.com##iframe[componentkey="MynetworkDesktopNav_mynetwork_desktop_nav_ad"]
+linkedin.com##iframe[height="250"][width="300"]
 linkedin.com##iframe[title="Advertisement"]
 linkedin.com##iframe[title="advertisement"]
 linkedin.com##li[data-is-sponsored="true"]
@@ -129930,9 +129929,8 @@ mtoys.co.il##.e2w-cookie-popup
 mtp.pl#%#//scriptlet('set-cookie', 'cookieVers', '1')
 mtp.pl#%#//scriptlet('trusted-set-cookie-reload', 'cookieOptions', '{"analitics":false,"marketing":false}')
 mtpro.xyz##.entry-content > div > .wp-block-button
-mtpro.xyz##a[href="#"][onclick*="this.href="][target="_blank"]
+mtpro.xyz##a[href][onclick*="this.href="][target="_blank"]
 mtpro.xyz##a[href^="https://px6.me/"]
-mtpro.xyz##a[href^="tg://resolve?domain=durevpnbot"]
 mtrend.cn###morecontent > .morecontent_next[style]
 mtrend.cn###topictabs1
 mtrend.cn###toptabs1 > .kz_line
@@ -154374,6 +154372,10 @@ pulkovoairport.ru##.banner-top-prilet-vilet
 pulkovoairport.ru,urbandictionary.com##.subscribe-panel
 pullandbear.com###modalAceptCookies
 pullandbear.com##.bottom-alert-container
+pullandbear.com##.download-app-banner-grids
+pullandbear.com##.download-app-banner-home
+pullandbear.com##.is-home-page
+pullandbear.com##newsletter-banner
 pulpo69.com###affiliate-livecam-widget-435
 puls.telekom.de##message-box[class="ng-isolate-scope"]
 puls24.at##.fullbanner-wrapper
@@ -170831,7 +170833,12 @@ sol-online.ru##a[href^="http://www.ars-plus.ru/"]
 sol-online.ru##a[href^="http://www.prestij-stroy.ru/"]
 sol-online.ru##a[href^="http://www.promplast.net/"]
 sol-online.ru##a[href^="http://www.smclinic.ru/"]
+sol.de##.advert__archive
+sol.de##.advert__content
+sol.de##.advert__footer
+sol.de##.advert__native
 sol.de##.dsgvo-container
+sol.de##.module--advert
 sol.dk###linkbox
 sol.no,sol-no.translate.goog##.xrow:has(> div[class*=" "] > span[class])
 sol.sapo.pt###especiais
@@ -176449,6 +176456,14 @@ sunporno.com##.flirt-footer
 sunporno.com##.safelink
 sunporno.com##.sharesBlogger
 sunporno.com##.thumbs-container > .th-ba
+sunporno.com##a[href="/to/live-sex/"]
+sunporno.com##a[href="/to/tiktok-porn/"]
+sunporno.com##iframe[src="/api/cams/get-spot-js-full-content/"]
+sunporno.com,bemyhole.com##.dropdown > .upd-source
+sunporno.com,bemyhole.com##.headline:has(> a[href="/to/show-more-cams/"])
+sunporno.com,bemyhole.com##.tah-desktop-spot
+sunporno.com,inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
+sunporno.com,inxxx.com,bemyhole.com##.cams-button
 sunrise.ch###cookieBanner-gdpr
 sunrise.ch###sticky-bar-gdpr
 sunrise.ch##div[class^="cookieBanner_"]
@@ -198100,6 +198115,7 @@ volksblatt.li##.divAdd_Banner
 volksfreund.de,rp-online.de##+js(trusted-click-element, custom-button[id="consentAccept"], , 1000)
 volkshochschule.de##.SP-ConsentBanner__spacer
 volkskrant.nl##.article-footer__sharing
+volkskrant.nl##div[class]:has(> button[title="Delen via Facebook"])
 volksstimme.de###ad-top-banner-s-mobile
 volksstimme.de##.fp-container__small:has(> aside[data-service="social-media-share-buttons"])
 volksstimme.de##.fp-register-banner
