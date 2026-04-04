@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.370
-! Last Modified: 2026.04.04.0738+1100 AEST
+! Version: 1.0.371
+! Last Modified: 2026.04.04.1321+1100 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1072,6 +1072,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fem.rumble.com%2Ft%2F*$image
 *%2Fem.soda-pdf.com%2Fdb%2F$image
 *%2Femail%2Ftracking.gif%3F*$image
+*%2Femail*%2Fo%2F$image
 *%2Femail-*%2Fopen%3F$image
 *%2Femail-analytics.*%2Fq%2F$image
 *%2Femail-interact-v2%2Fview%2F*$image
@@ -1079,6 +1080,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Femail.marketing.*%2Fo%2F$image
 *%2Femail_open_log_pic.php%3F*$image
 *%2Femailanalytics.$image
+*%2Femails.*%2FCI0%2F$image
 *%2Fendeavor.omeclk.com%2Fportal%2Fwts%2F%2A.gif$image
 *%2Fepl.paypal-communication.com%2FO%2F$image
 *%2Fet%2Femail%3F$image
@@ -1101,6 +1103,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fmail.*%2Fostat.php%3F*$image
 *%2Fmail.aquasoft.de%2Fwm%2Fostat.php%3F*$image
 *%2Fmail_tracking.php%3F*$image
+*%2Fmailer.*%2Fo%2F$image
 *%2Fmailredir.raindrop.io%2Fq%2F$image
 *%2Fmarketing.hsc.com.vn%2Ft%2F$image
 *%2Fmarketing.marketdata.app%2Fmarketdata%2Femail%2F*.gif*$image
@@ -1111,6 +1114,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fmpss%2Fo%2F$image
 *%2Fmt.artstation.com%2Flinks%2F$image
 *%2Fnetmail01gm.gmarket.co.kr%2F*$image
+*%2Fnewsletter%2Fp%2F%3F$image
 *%2Fnewsletter.*%2Fmo%2F$image
 *%2Fnotification%2Fconvo%2Fread%2F$image
 *%2Fo%2Fp%2F$image
@@ -1140,6 +1144,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *%2Fstats%2Fpixel.php%3F*$image
 *%2Ft.ac.pandora.com%2F*$image
 *%2Ft.e.nine.com.au%2Fr%2F$image
+*%2Ft.em.*%2Fr%2F%3F$image
 *%2Ft.nl.francetv.fr%2Fr%2F$image
 *%2Ft.shor7.link%2F%3Fxol%3D$image
 *%2Ftilda.link%2Ftb%2F$image
@@ -1924,6 +1929,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .infox.sg^$csp=script-src
 .infox.sg^$popup
 .innologica.com/t/
+.inoreader.com/newsletter/p/?$image
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
 .inxmail-commerce.com/tracking/$image
@@ -3876,6 +3882,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,to=com|top|~usps.com
 /^https:\/\/vietg[a-z]v[0-9]*\.cc\//$doc,to=cc
 /^https:\/\/www\.[0-9a-z-]{6,}\.xyz\/script\/[-.0-9A-Za-z]+\.[A-Za-z-]{2,30}\.js$/$script,3p,match-case
+/^https:\/\/www\.[a-z0-9]{8}\.com\/i\/[A-Z0-9]{5}\/[A-Z0-9]{6}\/$/$image,3p,match-case,to=com
 /^https:\/\/www\.[a-z]{12,}\.com\/[-a-z]*%E[%0-9A-F]{20,}-[-0-9a-z]{3,}%E[-%0-9A-Fa-z]{70,}-p-\d{3,5}\.html$/$doc,match-case
 /^https:\/\/www\.[a-z]{8,16}\.com\/(?:[A-Za-z]+\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\.js$/$script,3p,match-case,header=link:/adsco\.re\/>;rel=preconnect/
 /^https:\/\/www\.[a-z]{8,16}\.com\/(?:[A-Za-z]+\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\.js$/$script,3p,match-case,header=popads-node
@@ -7527,13 +7534,16 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /email-link.adtidy.org/open/*$image
 /email-pixel?
 /email.*/e3t/Cto/*$image
+/email.*/o/*$image
 /email.*/opn/*$image
 /email.*/t/*$image
 /email.amaze.co/e3t/Cto/*$image
 /email.communications.yahoo.com/t/*$image
 /email.marketing.*/o/*$image
 /email.marketing.go-jek.com/o/*$image
+/email.start.me/o/*$image
 /email.t.*/o/*$image
+/email.unsplash.com/o/*$image
 /email/open/?pd=$image
 /email/open?
 /email/track/*$image
@@ -7545,6 +7555,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /emailanalytics.$image
 /emailanalytics.wetransfer.com/ea/*$image
 /emailopen?q=$image
+/emails.*/CI0/*$image
+/emails.instapaper.com/CI0/*$image
 /emailtrack.offers-exchange.com/*$image
 /emasbet-$image
 /emasbet.$image,third-party
@@ -9703,6 +9715,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /links.chegg.com/q/*$image
 /links.dailycaller.co/s/eo/*$image
 /links.datacamp.com/e/o/*$image
+/links.dropbox.com/e/eo?$image
 /links.flickr.com/e/eo?$image
 /links.gitlab.com/s/eo/*$image
 /links.send.sodapdf.com/o/*$image
@@ -9943,6 +9956,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /mail.turing.com/api/analytics/open/*$image
 /mail/open/*$image
 /mail_tracking.php?$image
+/mailer.*/o/*$image
+/mailer.hostinger.io/o/*$image
 /mailfoogae.appspot.com/t^$image
 /mailings/opened/*$image
 /maillist.*/t/*$image
@@ -10444,6 +10459,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /newsletter.*/mo/*$image
 /newsletter.franzis.de/mo/*$image
 /newsletter/log/*$image
+/newsletter/p/?$image
 /newsletter/popup-
 /newsletter/popup/*
 /newsletter/read?s=$image
@@ -13116,6 +13132,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /t.bbn?$third-party
 /t.contactlab.it/v/*
 /t.e.nine.com.au/r/*$image
+/t.em.*/r/?$image
+/t.em.chegg.com/r/?$image
 /t.gif?
 /t.hellofresh.se
 /t.ifly.southwest.com/*$image
@@ -34650,6 +34668,7 @@ backtobollywood.com,gossiplankanews.com###HTML20
 backup.menu,dedicated.menu,hosting.cafe,https.menu,license.menu,shared.menu,vds.menu##.adv-hidden-xs
 backup4all.com##.toast-bottom-right
 backyardboss.net,givemesport.com,pocket-lint.com,thethings.com##.w-newsletter-in_article
+backyardchickens.com,christiantoday.com,fodors.com,nocamels.com,talotekniikka-lehti.fi,theface.com###newsletter-popup
 backyardchickens.com,legami.com,comedien.ch###newsletter-popup
 bad-scherer.de,play-cricket.com#@##cookieaccept
 badaniaprenatalne.pl###caption-attachment-19570
@@ -49136,7 +49155,6 @@ christiantoday.com##.ebookbox
 christiantoday.com##.modal-container
 christiantoday.com##.p402_premium > div[style$="float:left;margin:0 15px; 10px 0px;clear:left;"]
 christiantoday.com#?#.p-3.border-0:has-text(Stay up to date)
-christiantoday.com,fodors.com,nocamels.com,talotekniikka-lehti.fi,theface.com###newsletter-popup
 christiantoday.com,lanacion.com.ar,metroecuador.com.ec##.newsletterbox
 christiesrealestate.com,glutenfreecuppatea.co.uk,guides.wp-bullet.com,publicbooks.org,radioinsight.com,slightnorth.com###text-2
 christinacooks.com##.kadence-conversion-wrap
@@ -76265,6 +76283,7 @@ fleetnews.co.uk###mostReadContainer ~ section:has(a[href^="https://www.fleetnews
 fleetnews.co.uk##.newsletter-signup-con
 fleetnews.co.uk##a[aria-label="Share"]
 fleetnews.co.uk##div[data-responsive-movable="newsletter-signup"]
+fleetnews.co.uk#?#div.content-width:has-text(Sign up to the newsletter)
 fleetnews.co.uk,dubizzle.com###top-leaderboard
 fleischmannsyeast.com##.recipe__social
 fler.cz###cookies-bar-bottom
@@ -201232,6 +201251,7 @@ wellplated.com#$#cookie-remover /adblocker/ true
 wells.pt##+js(trusted-click-element, button.CybotCookiebotDialogBodyButton, , 1000)
 wellsfargo.com##.sideUtility
 weloma.art###poly
+weloma.art##+js(acs, document.createElement, dataset.zone)
 weloma.art##+js(no-window-open-if)
 weloma.art##.mCustomScrollbar center > iframe[src^="https://cresivetanach.com/"]
 weloma.art,nicomanga.com##.ad-row-mobile
