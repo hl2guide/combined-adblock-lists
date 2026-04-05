@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.377
-! Last Modified: 2026.04.05.1614+1000 AEST
+! Version: 1.0.378
+! Last Modified: 2026.04.05.2036+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -5165,7 +5165,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /api/apiFetchAdsData
 /api/async.php?t=user&m=pagehits&
 /api/autosda.php
-/api/banner$xmlhttprequest,domain=myliski.ru|newskrasnodar.ru|newtambov.ru|ngnovoros.ru|pg02.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|pg37.ru|pg46.ru|pgn21.ru|pgr76.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progoroduhta.ru|prosaratov.ru|usolie.info|vladivostoktimes.ru|youtvnews.com
+/api/banner$xmlhttprequest,domain=lipetsknews.ru|myliski.ru|newskrasnodar.ru|newtambov.ru|ngnovoros.ru|pg02.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|pg37.ru|pg46.ru|pgn21.ru|pgr76.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progoroduhta.ru|prosaratov.ru|usolie.info|vladivostoktimes.ru|youtvnews.com
 /api/bfb_write_log
 /api/branding/*$domain=lalafo.az|lalafo.kg
 /api/click/*?c=
@@ -27940,8 +27940,8 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 anikuro.to##div[style="position: absolute; z-index: 99999"]
 anilib.me,animelib.org##._container--indent > div[style="margin-bottom: 15px;"]
 anilib.me,animelib.org,asienda.ru,cybersport.ru,diets.ru,hentailib.me,hentailib.org,iphones.ru,mangalib.me,mangalib.org,mt.today,mycharm.ru,myjane.ru,povarenok.ru,ptichka.ru,ranobelib.me,relook.ru,sostav.ru,stranamam.ru,vuzopedia.ru##a[href*="?erid="]
-anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
-anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life##[data-scroll-content] > a[target="_blank"]:not([href="https://app.lib.social/app2.html"])
+anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
+anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[target="_blank"]:not([href="https://app.lib.social/app2.html"])
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv###oframeanilibriaPlayer > pjsdiv[style*="top: 31px;"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv###oframeanilibriaPlayer path[d="M10.5227503,12.3484128 L10.5227503,9.30339401 C5.53658648,9.11950898 2.53480989,11.3896981 0,13.9125305 C0,7.91592519 5.22696877,3.19271536 10.5227503,3.1398601 L10.5227503,0.117647059 L18.0035818,6.23302993 L10.5227503,12.3484128 Z"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##.advert-header
@@ -58320,7 +58320,7 @@ decolar.com##.subscription-sticky-footer-container
 decomaniacos.es##+js(acs, addEventListener, google_ad_client)
 decompiler.com##+js(abort-current-script, document.createElement, /disabled-link[\s\S]*?advertisement/)
 decompiler.com##+js(acs, document.getElementById, /adblock/i)
-decompiler.com##+js(rpnt, script, /if.*?\(.*?\)/, if(false), condition, href)
+decompiler.com##+js(rpnt, script, /if.*?\(.*?\)/, if(false), condition, /\[String|parentNode\.replaceChild|fromCharCode/)
 decopedia.nl#@##cookieContainer
 decopedia.nl#@##cookieOverlay
 decorardicas.com.br##div[style^="width:300px;"]
@@ -72189,6 +72189,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#di
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[role="main"] ~ div[data-nosnippet]:has(a[aria-label="Accessible login button"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#a[href^="/ads/"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onionfacebook.com##div[data-mcomponent="MContainer"][class="m fixed-container bottom"][data-actual-height="53"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onionfacebook.com##div[data-mcomponent="MContainer"][class="m fixed-container bottom"][data-actual-height="67"]
 facebook.com,messenger.com#@#div[data-testid="cookie-policy-banner"]
@@ -83815,6 +83816,7 @@ geiger-edelmetalle.de,softwarehexe.de,shop.kontorhaussylt.de,distributionz.com,b
 geino2news.seesaa.net###rssTop
 geino2news.seesaa.net#$##banner { height: auto !important; }
 geinou-nude.com##div[id^="widget_main_top"]
+geinoukame.com##.entry_more > a[href="http://geinoukame.com/blog-entry-77130.html"]
 geinoukame.com##.ninja-recommend-block + br
 geinoukame.com##.ninja-recommend-block + br + center
 geinoukame.com##.ninja-recommend-block + hr
@@ -91964,8 +91966,8 @@ hentaila.com##+js(json-prune, *, *.adcashLib)
 hentaila.com##.flex > div.mx-auto:has(> iframe[width="300"][height="250"])
 hentaila.com##button[aria-label="Compartir"]
 hentaila.com##header > div.text-white:has(> div.container a[href^="https://a.adtng.com/"])
-hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,slashlib.me,yaoilib.net##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
-hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,slashlib.me,yaoilib.net##div[style="margin-top: 8px; margin-bottom: 12px;"]
+hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
+hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##div[style="margin-top: 8px; margin-bottom: 12px;"]
 hentailib.net##center > div[style^="width:300px;height:"]
 hentaimama.io###text-5
 hentaimama.io##.content > div.sbox:has(> div.dt_social_single)
@@ -92643,7 +92645,7 @@ hightech.plus##div[class^="article__telegram-share"]
 hightech.plus##div[class^="banner__"]
 hightech.plus##div[class^="moneyTeaser"]
 hightech.plus##div[class^="social-buttons"]
-hightech.plus,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
+hightech.plus,lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
 hightech.plus,sqool.net,caclubindia.com##div[class^="social"]
 hightimes.com##a[href^="http://medicalcard.leafwell.co/"] > img
 highwaybus.com###sp-appbanner
@@ -115319,8 +115321,15 @@ liontuning-carparts.de#@##cookie-banner
 lipault.at##.ui-widget-overlay
 lipetskmedia.ru##.mobile-platforms
 lipetskmedia.ru##.nav-bar .social-links
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class^="banner"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##.contentRightMainBanner
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
+lipetsknews.ru,myliski.ru,pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 lipetsknews.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod62.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,youtvnews.com##.notifycation_notifycation__BeRRP
 lipetsknews.ru,ngnovoros.ru,pgn21.ru,usolie.info,newtambov.ru,gorodkirov.ru,navigator-kirov.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progorodnsk.ru,progorodsamara.ru,progoroduhta.ru##div[class^="notifycation_notifycation__"]
+lipetsknews.ru,pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
 lipo.ch##+js(trusted-click-element, [data-testid="submit-login-button"].decline-consent, , 1000)
 lippe-news.de##.anzeige_content
 lippe-news.de##.inline_wrapper
@@ -131549,12 +131558,6 @@ mylink.vc##+js(no-window-open-if)
 mylink.vc##iframe[src^="/nordcode.php?id="]
 mylinkconverter.com##a[href^="https://go.nordvpn.net/aff"] > img
 mylinks.ws,nuvexus.com,tw-calc.net##.top-banner
-myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class^="banner"]
-myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##.contentRightMainBanner
-myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
-myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
-myliski.ru,newskrasnodar.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
-myliski.ru,pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 mylivesignature.com##.topadscontainer
 mylivewallpapers.com##+js(set-constant, adsBlocked, noopFunc)
 mylivewallpapers.com##.group.posts > div.post
@@ -142410,8 +142413,8 @@ open.online##+js(trusted-click-element, button#reject-all-btn, , 1000)
 open.online##.adv-banner-container
 open.online##.branded
 open.online##.container-meta-social
-open.online##.qc-cmp2-container
 open.online##a[rel="sponsored"]
+open.online#@#.qc-cmp2-container
 open.online,gvcworld.eu,bikez.com,techblog.gr,infoisinfo.pl,tunefind.com,slobodenpecat.mk,testoria.pl,secretsanfrancisco.com,urbaanisanakirja.com,digitaltrends.com,modrinth.com,avforums.com,weszlo.com,freedisc.pl,warszawawpigulce.pl,astromagia.pl,magazynnaszczycie.pl,lenovo24.pl,mp.pl,ragusanews.com,upflix.pl,gry-online.pl,fanipogody.pl,heycar.com,whatismyipaddress.com,mymovies.it,anime-sama.fr,platinmods.com,tv-24.gr,protoselidaefimeridon.gr,e-kg.pl,redcafe.net,badtaste.it,y8.com,neoseeker.com,thetechgame.com,micuro.it,gamesystemrequirements.com,bluestacks.com,chelsea.news,niezalezna.pl,metropolitan.si,biznesinfo.pl,yogablogfit.com,themezon.net,glamour.hu,novel-gate.com,howifx.com,financerites.com,nydus.org,skincarie.com,guruhitech.com,tuttomercatoweb.com,filehorse.com,aberdeenlive.news,bedfordshirelive.co.uk,belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,buckinghamshirelive.com,business-live.co.uk,buzz.ie,cambridge-news.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,corkbeo.ie,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,edinburghlive.co.uk,essexlive.news,examinerlive.co.uk,football.london,galwaybeo.ie,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hampshirelive.news,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mylondon.news,norfolklive.co.uk,northantslive.news,nottinghampost.com,ok.co.uk,oxfordshirelive.co.uk,plymouthherald.co.uk,rsvplive.ie,scottishdailyexpress.co.uk,staffordshire-live.co.uk,stokesentinel.co.uk,suffolklive.com,sussexlive.co.uk,walesonline.co.uk,wiltshirelive.co.uk,inyourarea.co.uk,footballscotland.co.uk,funeral-notices.co.uk,insider.co.uk,liverpool.com,somersetlive.co.uk,dorset.live,developpez.net,ot.gr,phoronix.com,creativespirits.info,game24h.vn,prospektangebote.de,taiwebs.com,nfl.com,forums.tomshardware.com,blikk.hu,0calc.es,pietsmiet.de,olevod.com,einthusan.tv,tomsguide.com,techradar.com,cinemaxxl.de,raider.io,xboxdynasty.de,imgur.com,joe.ie,joe.co.uk,euromaidanpress.com##.qc-cmp2-container
 open.ru##div[data-react-class="CookiesAgreement"]
 open.spotify.com###leaderboard-ad-element
@@ -142824,6 +142827,7 @@ oppai.stream##.rm-c
 oppainorakuen.com###more > a[target="_blank"]
 oppaisan.com###fix-bottom-AD
 oppaisan.com##.ad_spase
+oppaisan.com##.click_fit__tab_tie_up
 oppaisan.com##.header_koukoku
 oppaisan.com##.kiji_inner_ad
 oppaisan.com##div[class^="click_fit__in_gazou"]
@@ -146833,7 +146837,6 @@ pg11.ru##.comments__likes
 pg11.ru##div[class^="article-content_articleBannerSlot_"]
 pg11.ru##form.newsletter
 pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="social-list-subscribe"] > a[href*="yandex."]
-pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
 pg12.ru,pg21.ru,prodzer.ru,progorod33.ru,progorodnn.ru##li > a[class^="sub-menu_"][href*="https://max.ru/"]
 pg21.ru,pgn21.ru##.superPromotionNewsWrap
 pg46.ru,usolie.info##a[href*="//dzen.ru/"]
