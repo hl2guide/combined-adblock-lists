@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.405
-! Last Modified: 2026.04.11.1224+1000 AEST
+! Version: 1.0.406
+! Last Modified: 2026.04.11.1601+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -88596,6 +88596,7 @@ groupon.be,groupon.co.uk,groupon.com,groupon.fr,groupon.pl###spotlight
 groupon.be,groupon.co.uk,groupon.com,groupon.fr,groupon.pl###subscribe_modal_container
 groupon.co.uk,groupon.ie,livingsocial.com###spotlight
 groupon.com###spotlight
+groupon.com##.px-0:has([data-bhw="DealCarousel-SponsoredDeals"])
 groupon.com##[data-bhc$="sponsored_carousel"]
 groupon.com##div[data-hydrate="AlertBarWrapper"]
 groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
@@ -145882,6 +145883,7 @@ pcgamesn.com##.curated-spotlight
 pcgamesn.com##.flow_ad_wrap
 pcgamesn.com##.legion_primiswrapper
 pcgamesn.com##.new_affiliate_embed
+pcgamesn.com##.new_menu_item
 pcgamesn.com##.nn_mobile_mpu2_wrapper
 pcgamesn.com##.nn_mobile_mpu_wrapper
 pcgamesn.com##.saw-wrap
@@ -164292,6 +164294,7 @@ scandi-city.pl###layer-banner
 scandi.travel##.kapee-back-to-top
 scandichotels.com##+js(set, datalayer, [])
 scandikitchen.co.uk##.header-newsletter-popup
+scandinavianoutdoor.fi##+js(trusted-set-local-storage-item, cookieconsent, {"consents":["ESSENTIAL"]})
 scandinavianphoto.fi##div[style^="opacity: 1; height: "][style$="px;"]
 scandinaviansoul.com##.rstbox_emailform
 scandinaviansoul.com##.rstbox_overlay
@@ -202039,6 +202042,7 @@ whats-on-netflix.com##+js(acs, eval, replace)
 whats-on-netflix.com##.above-featred
 whats-on-netflix.com##.moOptinForm
 whats-on-netflix.com##.sidebar-placement-large
+whats-on-netflix.com##.widget_won_google_preferred_widget
 whatsaero.com##font[color="black"] > center:contains(/^Advertisements$/)
 whatsafterthemovie.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 whatsapp.com###cookie-policy-banner
