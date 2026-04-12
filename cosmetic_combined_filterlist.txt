@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.412
-! Last Modified: 2026.04.12.2039+1000 AEST
+! Version: 1.0.413
+! Last Modified: 2026.04.13.0137+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1566,6 +1566,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/bot-captcha-1?h=$doc
 .com/btag.min.js|$3p
 .com/c/*?s1=$doc,to=com
+.com/casino?registration=1&cid=$doc
 .com/click/?ct=*&cu=$all
 .com/clk?
 .com/co/$domain=1anime.me
@@ -40251,9 +40252,12 @@ blick.ch#?#header + div[class] > div[class]:has(> iframe[src^="https://php.blick
 blick.ch#@##onetrust-consent-sdk
 blick.ch,blickamabend.ch##div[onclick^="shareWith"]
 blick.de###BSB
+blick.de###NATM
 blick.de###share-Buttons
 blick.de##.OAS_AD
 blick.de##.newsletter-widget-article
+blick.de##.recommendation-list__item:has(#NATM)
+blick.de##div[id^="CAD"]
 blick.de,gut-erklaert.de,hifi-forum.de,kino.de,meinestadt.de,news.de,nordbayern.de,t-online.de,teltarif.de##div[class] > img[referrerpolicy="unsafe-url"]
 blickamabend.ch###mobdl
 blickamabend.ch##.rightElement > .widget_maxiteaser + h3
@@ -172954,13 +172958,13 @@ sport-equipements.fr##.product-photo
 sport-express.net###se-cookie-popup
 sport-express.net,sport-express.ru###_ad_container_
 sport-express.net,sport-express.ru###se-cookie-popup
-sport-express.net,sport-express.ru##.b-post__shared
 sport-express.net,sport-express.ru##.ls-right-column__social
 sport-express.net,sport-express.ru##.ls-right-column__subscribe
 sport-express.net,sport-express.ru##.se-authform__or
 sport-express.net,sport-express.ru##.se-authform__socials
 sport-express.net,sport-express.ru##.se-banner
 sport-express.net,sport-express.ru##.se-bets
+sport-express.net,sport-express.ru##.se-brand-buttons
 sport-express.net,sport-express.ru##.se-brandedbuttons
 sport-express.net,sport-express.ru##.se-footer-icons__socials
 sport-express.net,sport-express.ru##.se-footer-icons__stores
@@ -172969,7 +172973,9 @@ sport-express.net,sport-express.ru##.se-footer-mailing
 sport-express.net,sport-express.ru##.se-material-page__blog-buttons
 sport-express.net,sport-express.ru##.se-material-page__footer-recommendations
 sport-express.net,sport-express.ru##.se-partner-stuffing-info
+sport-express.net,sport-express.ru##.se-shareblock
 sport-express.net,sport-express.ru##.se-socblock
+sport-express.net,sport-express.ru##.se-sport-entity-icon-links__link--kinopoisk
 sport-express.net,sport-express.ru##.se-translation-scoreboard-event-badge
 sport-express.net,sport-express.ru##.se-translation-scoreboard-event-bets
 sport-express.net,sport-express.ru##.se-translation-scoreboard-event__header-badges
