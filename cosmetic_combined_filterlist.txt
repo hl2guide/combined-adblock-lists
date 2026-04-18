@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.440
-! Last Modified: 2026.04.18.1231+1000 AEST
+! Version: 1.0.441
+! Last Modified: 2026.04.18.1613+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -12162,8 +12162,12 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /s.png?event=
 /s/11022.js|$third-party,script
 /s/11198.js|$third-party,script
+/s/array/phc_*/config$script,xhr,1p
+/s/e/*^ip=$xhr,1p
 /s/eo/*$image
+/s/flags/*^ip=$xhr,1p
 /s/i.php?id=$script,third-party
+/s/i/*/e/*^ip=$xhr,1p
 /s/js/fshow.js$third-party
 /s/js/ssu.v2.js?v=
 /s/js/ssu.v2.js?v=*^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com
@@ -200507,6 +200511,8 @@ watch.plex.tv##.shaka-ad-markers
 watch.plex.tv##button[data-testid="shareButton"]
 watch.pokemon.com##.c-privacy-consent-modal
 watch.shout-tv.com##+js(json-prune-fetch-response, adsConfiguration, , propsToMatch, /vod)
+watch.shout-tv.com##+js(trusted-json-edit-fetch-response, .streams.*.adUnits=[], propsToMatch, /manifest/video)
+watch.shout-tv.com##+js(trusted-replace-xhr-response, /#EXTINF[^\n]+\n[^\n]+?segment[^\n]+/gms, , .m3u8)
 watch.shout-tv.com##.cookie--banner
 watch.sling.com##+js(json-prune, playback_info.ad_info ssai_manifest)
 watch.sling.com##+js(json-prune, ssai_manifest ad_manifest playback_info.ad_info qvt.playback_info.ad_info)
