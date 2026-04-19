@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.445
-! Last Modified: 2026.04.19.1247+1000 AEST
+! Version: 1.0.446
+! Last Modified: 2026.04.19.1628+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -664,7 +664,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,3p,denyallow=gold-usergeneratedcontent.net,domain=hitomi.la
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|recaptcha.net,domain=4cash.me
 *$script,3p,denyallow=google.com|gstatic.com,domain=dailyuploads.net
-*$script,3p,denyallow=google.com|gstatic.com,domain=datanodes.to
 *$script,3p,denyallow=google.com|gstatic.com,domain=kaplog.com
 *$script,3p,denyallow=google.com|gstatic.com,domain=lewdninja.com|new.lewd.ninja
 *$script,3p,denyallow=google.com|gstatic.com,domain=severeporn.com
@@ -14237,7 +14236,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /werbeanzeige/*
 /werbeanzeigen/*
 /werbebanner-
-/werbebanner-$badfilter
 /werbebanner.
 /werbebanner/*
 /werbebanner2.
@@ -57928,22 +57926,14 @@ datamation.com,support.mozilla.org###sg-popup
 datamedicaroma.it##.rstboxes
 datameteo.com##td[style^="border-top-style: solid; border-top-color:#d3d3d3; border-top-width: 1px"]
 datanaukri.com,moviemaniak.com##+js(abort-on-stack-trace, Array.prototype.includes, adblockTrigger)
-datanodes.to###countdown
-datanodes.to##+js(acs, String.fromCharCode, atob)
-datanodes.to##+js(aeld, click, appendChild)
-datanodes.to##+js(aeld, click, pop)
-datanodes.to##+js(ra, disabled, .downloadbtn)
 datanodes.to##.bg-white\/50.border.p-8 {visibility:hidden !important;}
 datanodes.to##.items-center.shadow-sm:has(> p > a[href="/premium"])
 datanodes.to##.lg\:flex-shrink-0
 datanodes.to##.md\:flex-nowrap.w-full > div.items-center.border
-datanodes.to##[href^="https://cinemaunlocked.com"]
-datanodes.to##[href^="https://fmovies-hd.to"]
 datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
 datanodes.to##body > form[method="POST"][target="_blank"]:remove()
 datanodes.to##button[onclick]
 datanodes.to##div.w-full.md\:w-4\/12.items-center
-datanodes.to##div[class] > center > a[href][rel="nofollow"][target="_blank"]
 datanodes.to#$#hide-if-matches-xpath './/a[@rel][@target="_blank"]/img[@alt="Watch Movie"][@style]/ancestor-or-self::div[1]'
 datanodes.to#%#//scriptlet('adjust-setTimeout', '/downloadForm|seconds--/', '*', '0.001')
 datanyze.com#$#.overlay-gdpr { display:none!important; }
@@ -73291,11 +73281,15 @@ farmrio.com.br,pciconcursos.com.br###lgpd
 farodevigo.es###mid_news iframe
 farooqkperogi.com###leaderboard-content
 faroutmagazine.co.uk###incontent-container
+faroutmagazine.co.uk##.GRVPrimisVideo
 faroutmagazine.co.uk##.amp-next-page-separator
 faroutmagazine.co.uk##.flying-carpet
+faroutmagazine.co.uk##.google-follow
 faroutmagazine.co.uk##.header:style(margin-top: 0px !important;)
+faroutmagazine.co.uk##.sharing-sidebar
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 faroutmagazine.co.uk##amp-video-iframe[src^="https://live.primis-amp.tech"]
+faroutmagazine.co.uk#?#.header-submenu:has-text(Sign up to)
 faroutmagazine.co.uk,guru99.com,imgur.com#$#simulate-mouse-event '#primis_container_div [id*="primis_player"][style*="fixed"]:not([style*="none"]) #closeIconHit'
 faroutmagazine.co.uk,hitc.com##.carpet-border
 faroutmagazine.co.uk,hitc.com##[dock="#primis-dock-slot"]
@@ -74507,32 +74501,23 @@ file-mods.ru#%#//scriptlet('adjust-setInterval', 'timer', '1000', '0.001')
 file-online.ru##noindex > table[style]
 file-tracker.net###main_content + td[width="240px"]
 file-up.org###boxes
-file-up.org##+js(acs, getCookie, setCookie)
 file-up.org##+js(no-window-open-if)
 file-up.org##.adsbygoogle
 file-up.org##.page-wrap > .dareaname ~ .text-center
 file-up.org##.row > div[class] > #countdown + div[style="margin: 10px 0;"]
 file-up.org,uploadproper.com,uploadproper.net,zippyshare.com#$#abort-on-property-write Fingerprint2
-file-upload.*##+js(acs, document.getElementById, undefined)
-file-upload.*##+js(aopr, start)
-file-upload.*##+js(aopw, Fingerprint2)
-file-upload.*##+js(nowoif)
-file-upload.*##ins.adsbygoogle
 file-upload.com##+js(abort-current-script, document.getElementById, getElementById("adblockinfo"))
 file-upload.com##+js(no-window-open-if)
 file-upload.com##+js(noeval-if, ppuQnty)
 file-upload.com##.container > div.page-wrap > center:contains(ads)
 file-upload.com##.container > div.page-wrap > div.text-center[style^="margin-bottom: 20px;"]:contains(ads)
-file-upload.com##^meta[http-equiv="refresh"]
 file-upload.com##span#countdown + div[id^="ads_container_"]
 file-upload.com#%#//scriptlet('adjust-setTimeout', 'tick', '', '0.02')
 file-upload.in#%#//scriptlet('adjust-setInterval', 'timer', '*', '0.001')
-file-upload.net##+js(set, advertisement3, true)
 file-upload.net##+js(set-constant, advertisement3, true)
 file-upload.net##.mod_picture > div[style="font-size:11px;color:#a3a3a3;float:right;"]
 file-upload.net##.mod_picture > iframe[width="336"][height="280"]
 file-upload.org##+js(abort-on-property-read, openExtraPage)
-file-upload.org##+js(acs, JSON.parse, document.head.appendChild)
 file-upload.org##body + iframe:not([src])
 file.apkmoddone.com##+js(addEventListener-defuser, click, adElements)
 file.bospedia.com#%#//scriptlet("adjust-setInterval", "Link", "550", "0.02")
@@ -115098,6 +115083,7 @@ lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnove
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com##.comment-list > div[class]:has(> .adsbygoogle)
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com##.container > div[class]:has(> *:is([data-stpd], [id^="gpt_slot_"]))
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com##.container > div[class]:has(> .adsbygoogle)
+lightnovelpub.org##[href*="heave.gg"]
 lightnovelpub.vip,lightnovelspot.com,webnovelpub.com,lightnovelpub.com##+js(no-setTimeout-if, /(?:function)?\(\)(?:=>)?\{(?:(?!.*(add|remove)Class).*)\(.*"(?:(?!show|visible).*)"\)\}/)
 lightnovelpub.vip,lightnovelspot.com,webnovelpub.com,lightnovelpub.com##+js(no-setTimeout-if, /abchecker|AdBlock/)
 lightnovelpub.vip,lightnovelspot.com,webnovelpub.com,lightnovelpub.com##+js(set-constant, lnabd, false)
@@ -157542,15 +157528,8 @@ ranobes.net##.free-support-top
 ranobes.net##div[id^="pf-"]
 ranobes.top##.free-support-top
 ranoz.gg##+js(addEventListener-defuser, click, clicksCount)
-ranoz.gg##+js(aeld, click, clicksCount)
-ranoz.gg##+js(aeld, click, preventDefault)
-ranoz.gg##+js(json-edit, ..directLink)
-ranoz.gg##+js(json-edit, ..props[?.children*="clicksCount"].children)
-ranoz.gg##+js(no-fetch-if, adskeeper)
-ranoz.gg##+js(nowoif, _blank)
 ranoz.gg##+js(prevent-fetch, adskeeper)
 ranoz.gg##+js(remove-attr, href, div[class^="page_box_wrapper"] a[aria-label="Download button"]:not([href*="ranoz.gg"]))
-ranoz.gg##div[class^="page_box_wrapper"] a[aria-label="Download button"]:not([href*="ranoz.gg"]):remove-attr(href)
 ranoz.gg#%#//scriptlet('trusted-click-element', 'div[class^="page_box_wrapper"] a[aria-label="Download button"]:not([href])', '', '500')
 rantapallo.fi##.ad-info-bar
 rantapallo.fi##.front-page-box-ad
@@ -197408,7 +197387,6 @@ vijaysolution.com##+js(no-setTimeout-if, siteAccessPopup())
 vijaysolution.com#@#.adbanner
 vijesti.me##.ads
 vik1ngfile.site##+js(abort-current-script, JSON.parse, atob)
-vik1ngfile.site##+js(acs, String.fromCharCode, atob)
 vik1ngfile.site##.content-wrap > div.row:has(> div#progress-current > a[href="/premium"])
 vik1ngfile.site##a[href="/fast-download"]
 vik1ngfile.site,kungfutv.net,nexusgames.to##+js(addEventListener-defuser, DOMContentLoaded, window.open)
@@ -197455,8 +197433,6 @@ viki.com##.alert[data-block-track="euCookieNotice"]
 viki.com##div[data-testid="app-download-banner"]
 viking.de,arbeitssicherheit.de,boomsocial.com###newsletter-box
 vikingcruises.co.uk###trd-cookie-disclaimer
-vikingf1le.us.to##+js(aopr, atob)
-vikingf1le.us.to##+js(nowoif, zigi_tag_id)
 vikingfile.com##[href^="/fast-download/"]
 vikingfile.com##a[href^="/fast-download/"]
 vikiporn.com##+js(aeld, getexoloader)
