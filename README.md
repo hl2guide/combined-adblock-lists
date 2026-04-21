@@ -17,7 +17,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
     - (can be viewed in the `create_cosmetic_list_v2.py` file.)
 - All domain blocking rules are excluded from the list
     - _Does not work in AdGuard Home or similar domain-based software_
-- The list is approximately 12MB in size
+- The list is approximately 12.5MB in size
 
 #### Direct raw text link
 
@@ -34,7 +34,7 @@ Blocks bad domains.
 - Only domain blocking rules are included in the list
     - _Works in AdGuard Home or similar domain-based software_
     - Consider performance reasons to not use it in browser-based extensions
-- The list is approximately 25MB in size
+- The list is approximately 31.7MB in size
 
 #### Direct raw text link
 
