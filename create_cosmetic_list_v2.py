@@ -290,7 +290,15 @@ TESTING_URLS = [
     # AdBlockPlus Filterlists
     "https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt",
     "https://easylist-downloads.adblockplus.org/v3/full/fanboy-notifications.txt",
-    "https://easylist-downloads.adblockplus.org/v3/full/abp-filters-anti-cv.txt"
+    "https://easylist-downloads.adblockplus.org/v3/full/abp-filters-anti-cv.txt",
+    # Added 21.04.2026
+    f"{URL_PREFIX_GH}/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    # DandelionSprout : https://github.com/DandelionSprout/adfilt
+    f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt",
+    f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/Anti-%C2%ABA%C4%B0inNonA%C4%B0%C2%BB%20List.txt",
+    f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/JapaneseTextSoftener.txt",
+    f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/StopAutoplayOnYouTube.txt",
+    f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/TwitchPureViewingExperience.txt"
 ]
 
 print()
@@ -326,7 +334,7 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
             if (
                 LINE.strip() and
                 # Skips lines that are allow rules or comments
-                not LINE.startswith("!") and
+                not LINE.startswith("! ") and
                 not LINE.startswith("! Search Results") and
                 not LINE.startswith("#") and
                 not LINE.startswith("%") and
