@@ -334,9 +334,12 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
             if (
                 LINE.strip() and
                 # Skips lines that are allow rules or comments
+                not LINE.startswith("﻿") and
                 not LINE.startswith("!") and
                 not LINE.startswith("! Search Results") and
                 not LINE.startswith("! Title") and
+                not LINE.startswith("﻿[Adblock Plus 3") and
+                not LINE.startswith("[Adblock Plus 3") and
                 not LINE.startswith("#") and
                 not LINE.startswith("%") and
                 not LINE.startswith("&") and
@@ -345,7 +348,6 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not LINE.startswith("[Adblock") and
                 not LINE.startswith("[uBlock") and
                 not LINE.startswith("||") and
-                not LINE.startswith("﻿") and
                 not LINE.startswith("||") and
                 not LINE.startswith("мв")
             )
@@ -354,12 +356,12 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
 OUTPUT_FILE = "cosmetic_combined_filterlist.txt"
 
 # Initial write out to the file
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+with open(OUTPUT_FILE, "w", encoding="utf-8-sig") as f:
     f.write("\n".join(sorted(LINES)))
 
 # Force sorts and removes duplicate lines in the text file
 # Read, sort, and write back to the same file
-with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+with open(OUTPUT_FILE, "r", encoding="utf-8-sig") as f:
     LINES = f.readlines()
 # Sorts in ascending (A to Z) order
 LINES.sort()
@@ -379,7 +381,7 @@ for LINE in LINES:
 
 LAST_MODIFIED = datetime_sydney()
 
-with open('VERSION.txt', 'r', encoding="utf-8") as f:
+with open('VERSION.txt', 'r', encoding="utf-8-sig") as f:
     VERSION = f.read().strip()
 
 COMMENT_BLOCK = f"""[Adblock Plus 2.0]
@@ -398,7 +400,7 @@ COMMENT_BLOCK = f"""[Adblock Plus 2.0]
 UNIQUE_LINES.insert(0, COMMENT_BLOCK)
 
 # Writes out the text file
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+with open(OUTPUT_FILE, "w", encoding="utf-8-sig") as f:
     f.writelines(UNIQUE_LINES)
 
 elapsed = time.perf_counter() - start
