@@ -336,6 +336,7 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 # Skips lines that are allow rules or comments
                 not LINE.startswith("!") and
                 not LINE.startswith("! Search Results") and
+                not LINE.startswith("! Title") and
                 not LINE.startswith("#") and
                 not LINE.startswith("%") and
                 not LINE.startswith("&") and
@@ -343,6 +344,8 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not LINE.startswith("@@") and
                 not LINE.startswith("[Adblock") and
                 not LINE.startswith("[uBlock") and
+                not LINE.startswith("||") and
+                not LINE.startswith("﻿") and
                 not LINE.startswith("||") and
                 not LINE.startswith("мв")
             )
