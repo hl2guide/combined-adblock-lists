@@ -334,14 +334,14 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
             if (
                 LINE.strip() and
                 # Skips lines that are allow rules or comments
-                not LINE.startswith("! ") and
+                not LINE.startswith("!") and
                 not LINE.startswith("! Search Results") and
                 not LINE.startswith("#") and
                 not LINE.startswith("%") and
                 not LINE.startswith("&") and
                 not LINE.startswith("-") and
                 not LINE.startswith("@@") and
-                not LINE.startswith("[Adblock Plus") and
+                not LINE.startswith("[Adblock") and
                 not LINE.startswith("[uBlock") and
                 not LINE.startswith("||") and
                 not LINE.startswith("мв")
