@@ -1,6 +1,7 @@
 # 2026-04-21
 
 - Added some new lists
+- Fixed a Byte Order Mark (BOM) problem caused by a few messier URLs
 
 # 2026-02-27
 
