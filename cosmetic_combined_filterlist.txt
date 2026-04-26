@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.485
-! Last Modified: 2026.04.26.1658+1000 AEST
+! Version: 1.0.486
+! Last Modified: 2026.04.26.2047+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -58702,7 +58702,7 @@ decolar.com##.go-to-app
 decolar.com##.subscription-sticky-footer-container
 decomaniacos.es##+js(acs, addEventListener, google_ad_client)
 decompiler.com##+js(abort-current-script, document.createElement, /disabled-link[\s\S]*?advertisement/)
-decompiler.com##+js(rmnt, script, "'alert'")
+decompiler.com##+js(rmnt, script, /"'alert'"|\\x61/)
 decompiler.com##+js(trusted-replace-node-text, script, /if.*?\(.*?\)/, if(false), condition, /\.style\.pointerEvents|\.style\.opacity|\.setAttribute\('hr'|\.createElement\("button"\)|\.addEventListener\("click"|window\['al'\+'ert'\]|oldButton\['replaceWith'\]|' \+ '|replaceSubmit|replaceSubmitWithWarnButton|'pointerEvents'|disableLink/)
 decopedia.nl#@##cookieContainer
 decopedia.nl#@##cookieOverlay
@@ -188504,6 +188504,7 @@ topocentras.lt###cookie-consent-block
 topocentras.lt##.MokiWidgets-leasingContainer-2Xd
 topocentras.lt##.homepage-banners
 topocentras.lt##div[id^=leasing-proposal-]
+topographic-map.com##.moduleAmazon
 topographic-map.com#$##template { filter: none !important; }
 topographic-map.com#$#body { overflow: auto !important; }
 topographic-map.com#$?##moduleCookies { remove: true; }
