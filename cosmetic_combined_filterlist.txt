@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.487
-! Last Modified: 2026.04.27.0142+1000 AEST
+! Version: 1.0.488
+! Last Modified: 2026.04.27.0639+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -13202,6 +13202,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /sw.js$script,domain=androidapks.biz|androidsite.net|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|downloadgames.info|downloadsite.org|ebooksite.org|emulatorsite.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|tvonlinesports.com|warezsite.net|watchmovies2.com|watchsite.net|youapk.net
 /sw.js$script,domain=lolabits.se|filechan.org|megaupload.nz|rapidshare.nu|openload.cc|hotfile.io
 /sw.js?origin=
+/sw.js^$script,domain=animekai.to|anikai.to|animekai.*|anikai.*
 /sw.js|$script,domain=pbembed.me|pornobomba.vip
 /sw/analytics.js
 /swa_t.gif?
@@ -28131,8 +28132,6 @@ anihatsu.com##.rss-blogroll-header
 anihatsu.com##.rss-blogroll-kobetu
 anikai.to##+js(no-setInterval-if, /\+3e4>.*<0\)\){var/, 3000)
 anikai.to##+js(no-window-open-if)
-anikai.to##+js(nosiif, ;if(!()
-anikai.to##+js(nowoif, _blank)
 anikai.to##+js(set-cookie, __p_mov, 1)
 anikai.to##body > a[target="_blank"][style^="position:"][style*="z-index:"]
 anikai.to,animekai.*,anigo.to,flixzone.co,hianime.ws,moontv.to,yflix.to##+js(nostif, ||!!)
@@ -28433,8 +28432,8 @@ animejapan.tv,xn--80aeiluelyj.xn--p1ai#?#td[valign="top"] > div:-abp-has(> a[hre
 animejoy.ru###modalbox
 animejp.net##.halim-film-notice
 animeka.com,europages.fr###sponsor
-animekai.*##+js(nosiif, =null)
-animekai.*##+js(nowoif, _blank)
+animekai.*,anikai.to##+js(nosiif, ;if(!()
+animekai.*,anikai.to##+js(nowoif, _blank)
 animekai.bz##a[href^="https://yflix.to/?"]
 animekai.cc,animekai.ac,animekai.to,animekai.bz##+js(no-window-open-if)
 animekb.*##+js(nowebrtc)
