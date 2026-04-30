@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.507
-! Last Modified: 2026.05.01.0220+1000 AEST
+! Version: 1.0.508
+! Last Modified: 2026.05.01.0702+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -32584,7 +32584,9 @@ auction.co.kr###btnSkipTop
 auction.co.kr##.sare-sns
 auction.co.kr##[class*="app-install"]
 auctionet.com##+js(trusted-set-cookie, cookie_consent, %7B%22functionality_storage%22%3Atrue%2C%22statistics_storage%22%3Afalse%2C%22ad_storage%22%3Afalse%7D, 1year, , reload, 1)
+auctions.yahoo.co.jp###buyee
 auctions.yahoo.co.jp###js-GoAppBtnCommonSAB
+auctions.yahoo.co.jp###lineAccountBanner
 auctions.yahoo.co.jp###sab
 auctions.yahoo.co.jp##[data-ylk^="rsec:pr_"]
 auctions.yahoo.co.jp#?#li[class^="ListItem-sc-"] img[src$="_stop/376_376.png"]:upward(li)
@@ -155589,7 +155591,6 @@ psychologies.ru##[data-autogoal-click*="PROMO"]
 psychologies.ru##span[data-track="https://zen.yandex.ru/psychologies"]
 psychologies.ru,maximonline.ru,ellegirl.ru,wday.ru,woman.ru##.creative-sticky
 psychologies.ru,starhit.ru##.hb-placeholder
-psychologyfor.com,nutmegnanny.com,honestcooking.com##.fd-focus-visible-applied[data-ff-type="popup"]
 psychologyjunkie.com,thelovenerds.com#$#abort-current-inline-script btoa BOOTLOADER_LOADED
 psychologytoday.com##.block-pt-ads
 psychologytoday.com##.pt-ad
@@ -180809,7 +180810,6 @@ tech.onliner.by#?#.news-text > p[style^="text-align:"]:has(> strong > a[href^="h
 tech.qq.com##.kjad2
 tech.sina.com.cn##.side-btns-answer2022
 tech.sina.com.cn##a[class^="tab_related_app"]
-tech.unblockedgames.world##+js(nano-sib, /count|verify|isCompleted/, , 0.001)
 tech.wp.pl,gadzetomania.pl,dobreprogramy.pl###main-content > div > div > div[style] ~ div:has(> span + a)
 tech2.hu##.td-post-content > .code-block[style]
 tech2.hu##div[class^="td-a-rec"]
@@ -194416,6 +194416,8 @@ unblocked.name##.durs-bordered
 unblocked.name##[id^="cookie"]
 unblocked.name##[style*="decoration"]:not([style^="width"])
 unblocked.tube##body > div[id][onclick*="vpn"]
+unblockedgames.world##+js(nano-sib, /count|verify|isCompleted/, , 0.001)
+unblockedgames.world##.font-semibold~*, p, h2, h3, li, ul, .sub-title
 unblockit.*###ni-overlay
 unblockit.*##+js(acs, setTimeout, admc)
 unblockit.*##center
@@ -203406,6 +203408,7 @@ which.co.uk##.ToolSignpost__container--1h2Ap
 which.co.uk##.b_g
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##div[data-which-id="eprivacy-banner"]
+whiskitrealgud.com,psychologyfor.com,nutmegnanny.com,honestcooking.com##.fd-focus-visible-applied[data-ff-type="popup"]
 whisky.fr###popin-optin
 whisky.fr##.footer-sticky
 whiskynet.hu##._2d_l9LWc
