@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.504
-! Last Modified: 2026.04.30.1320+1000 AEST
+! Version: 1.0.505
+! Last Modified: 2026.04.30.1728+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -21618,6 +21618,7 @@ abctygodnik.pl,wgospodarce.pl,wpolityce.pl,wpolsce.pl#$#body.rhododendron-body-w
 abcvideo.cc,dlapk4all.com,europixhd.com,europixhd.net,extramovies.*,file-up.org,freeomovie.co.in,gledajonline.net,gounlimited.to,hdeuropix.io,hdvid.*,hxfile.co,loadsubs.net,pandamovies.pw,pstream.net,rexdlfile.com,topeuropix.net,vidlo.us,zippyshare.com#$#abort-on-property-read decodeURIComponent
 abcya.com##+js(nano-stb, t++, 500)
 abcya.com##+js(set-constant, Bolt._adBlockDetected, true)
+abcya.com##+js(trusted-set-local-storage-item, abcya_cb_production, '{"value":"1","expiry":9999999999999}')
 abcya.com##.a-adhesion
 abcya.com##.a-leader
 abcya.com##.a-skyscraper
@@ -45725,6 +45726,7 @@ calgaryherald.com,edmontonjournal.com,nationalpost.com,vancouversun.com##.newsle
 calgaryhomes.ca,thecrag.com##.banner-message
 calgarysun.com###content > .l-content > .l-top-content
 calgarysun.com,canoe.com,edmontonsun.com,financialpost.com,nationalpost.com,ottawasun.com,theprovince.com,torontosun.com,winnipegsun.com#@#.adsizewrapper
+calgarysun.com,windsorstar.com,tj.news,financialpost.com##.newsletter-widget__new-story-page
 caliber.az###adv
 caliber.az##.instagram
 caliber.az##.left_banner
@@ -49955,6 +49957,7 @@ cinemablend.com##+js(aopr, __cmpGdprAppliesGlobally)
 cinemablend.com##.ads_slot
 cinemablend.com##.ads_slots_adx
 cinemablend.com##.affiliate_streaming_banner
+cinemablend.com##.hawk-deal-widget-container
 cinemablend.com##.share-toggle > div.contents
 cinemablend.com#@#.sticky-div
 cinemablend.com,androidcentral.com,creativebloq.com,tomshardware.com,windowscentral.com###slice-container-newsletterForm-articleInbodyContent
@@ -54470,6 +54473,8 @@ countryandtownhouse.com#?#strong > .link--button:has-text(newsletter)
 countryinsidenews.com##.sidebar .mom-e3lanat
 countryinsidenews.com,crimenazarnews.com,everesttimes.net,jokhimnews.com,newsviewspost.com,theevakam.com##.momizat-ads
 countrylife.co.uk##.ipc-advert-class
+countrylife.co.uk,cyclingweekly.com##.right-hand-adunit
+countrylife.co.uk,cyclingweekly.com,livescience.com,livingetc.com,t3.com,womanandhome.com##.sponsored-card-centred
 countrylife.co.uk,whowhatwear.com###highline-leaderboard
 countrylifevitamins.com##.subscribe-overlay
 countrymusicnews.de,eurogamer.de,ka-news.de,morningstar.de,suedkurier.de,weser-kurier.de##.advert
@@ -63853,7 +63858,7 @@ doyanjudi.gif|$image
 doyo.cn###article_top_down
 doyo.cn,lgmi.com,people.com.cn##div[id^="gg"]
 doz.pl##.section-socials
-dozaanimata.net##+js(trusted-create-html, html, <details open style='display:none' ontoggle='eval(atob("KGZ1bmN0aW9uKCl7CiAgICAvLyAxLiBEZWJsb2NhcmUgY29udGV4dG1lbnUKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdjb250ZXh0bWVudScsIChlKSA9PiB7IGUuc3RvcEltbWVkaWF0ZVByb3BhZ2F0aW9uKCk7IHJldHVybiB0cnVlOyB9LCB0cnVlKTsKICAgIAogICAgLy8gMi4gRGVibG9jYXJlIHNlbGVjdGllIHNpIGNvcHkvcGFzdGUKICAgIGNvbnN0IGFsbG93ID0gKGUpID0+IHsgZS5zdG9wSW1tZWRpYXRlUHJvcGFnYXRpb24oKTsgcmV0dXJuIHRydWU7IH07CiAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdzZWxlY3RzdGFydCcsIGFsbG93LCB0cnVlKTsKICAgIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ2NvcHknLCBhbGxvdywgdHJ1ZSk7CiAgICAKICAgIC8vIDMuIERFQkxPQ0FSRSBDVFJMK0MKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdrZXlkb3duJywgKGUpID0+IHsKICAgICAgICAvLyBWZXJpZmljxINtIGRhY8SDIHV0aWxpemF0b3J1bCBhcGFzxIMgQ3RybCtDIChzYXUgQ29tbWFuZCtDKQogICAgICAgIGlmICgoZS5jdHJsS2V5IHx8IGUubWV0YUtleSkgJiYgKGUua2V5ID09PSAnYycgfHwgZS5rZXkgPT09ICdhJykpIHsKICAgICAgICAgICAgZS5zdG9wSW1tZWRpYXRlUHJvcGFnYXRpb24oKTsKICAgICAgICAgICAgLy8gTnUgYmxvY8SDbSBuaW1pYywgbMSDc8SDbSBicm93c2VydWwgc8SDIMOuyJlpIGZhY8SDIHRyZWFiYSBuYXRpdsSDCiAgICAgICAgfQogICAgfSwgdHJ1ZSk7CgogICAgLy8gQ3VyxIPIm2FyZSBlbGVtZW50ZSBleGlzdGVudGUKICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJyonKS5mb3JFYWNoKGVsID0+IHsKICAgICAgICBlbC5vbmNvbnRleHRtZW51ID0gbnVsbDsKICAgICAgICBlbC5vbnNlbGVjdHN0YXJ0ID0gbnVsbDsKICAgICAgICBlbC5vbmNvcHkgPSBudWxsOwogICAgICAgIGVsLm9ua2V5ZG93biA9IG51bGw7IC8vIEN1csSDyJvEg20gyJlpIG9ua2V5ZG93biBpbmxpbmUgZGFjxIMgZXhpc3TEgwogICAgICAgIGVsLnN0eWxlLnVzZXJTZWxlY3QgPSAnYXV0byc7CiAgICB9KTsKfSkoKTs="));'></details>)
+dozaanimata.net##+js(trusted-create-html, html, <details open style='display:none' ontoggle='(function(){     window.addEventListener("contextmenu"\, (e) => { e.stopImmediatePropagation(); return true; }\, true);     const allow = (e) => { e.stopImmediatePropagation(); return true; };     document.addEventListener("selectstart"\, allow\, true);     document.addEventListener("copy"\, allow\, true);     window.addEventListener("keydown"\, (e) => {         if ((e.ctrlKey || e.metaKey) && (e.key === "c" || e.key === "a")) {             e.stopImmediatePropagation();         }     }\, true);     document.querySelectorAll("*").forEach(el => {         el.oncontextmenu = null;         el.onselectstart = null;         el.oncopy = null;         el.onkeydown = null;         el.style.userSelect = "auto";     }); })();'></details>)
 dozarte.com###banana
 dozarte.com##+js(acs, document.getElementById, undefined)
 dozarte.com##+js(ra, onclick)
@@ -72259,7 +72264,6 @@ express.co.uk##body .ad-slot-article:not(#style_important)
 express.co.uk##body div[id^="taboola-"]:not(#style_important)
 express.co.uk##div[data-type="article-body"] .text-description > div:remove()
 express.co.uk##form[action-xhr^="/app/newsletter"]
-express.co.uk#%#//scriptlet('trusted-click-element', 'button[mode="primary"]')
 express.co.uk,androidpolice.com#@#.div-gpt-ad
 express.co.uk,the-express.com###mantis-recommender-placeholder
 express.co.uk,the-express.com###ovp-primis
@@ -75777,7 +75781,6 @@ financialounge.com###google-ads-billboard
 financialounge.com###google-ads-skin
 financialounge.com,financialounge.repubblica.it###adv-Middle-hr-wrapper
 financialounge.com,financialounge.repubblica.it###google-ads-sticky-side-container
-financialpost.com##.newsletter-widget__new-story-page
 financialpost.com,lfpress.com##.js-widget-flyercity
 financialpost.com,lfpress.com##body .vf-promo:not(#style_important)
 financialpost.com,nationalpost.com##.visually-hidden
@@ -77287,10 +77290,13 @@ flygtorget.se##header > div.mx-auto:has(img[alt$="ad logo"])
 flygtorget.se#?#header > div:first-child:has(img[alt*=banner])
 flyingjizz.com###adv_inplayer
 flyingjizz.com##.sidebar-banner
+flyingmag.com###block-32
+flyingmag.com###block-36
 flyingmag.com##.arcAdsContainer
 flyingmag.com##.article_ad_text
 flyingmag.com##.flyin-before-content
 flyingmag.com##.flyin-target
+flyingmag.com##.flyingShopAd
 flyingmag.com##.get-magazine
 flyingmag.com##.single-social-share
 flyingmag.com,popsci.com,saveur.com##.email-widget-container
@@ -83037,7 +83043,7 @@ gamesradar.com##div[class^="slot-single-height-"]
 gamesradar.com##div[style^="position: relative; box-sizing: border-box; height: auto;"][style*="text-align: center; display: block; transform: none; contain: layout; width: 300px;"]
 gamesradar.com##div[style^="width: 970px; height: 250px; contain: style layout size;"]
 gamesradar.com#@#.googleAd
-gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+gamesradar.com,kiplinger.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 gamesradar.com,pcgamer.com,techradar.com,windowscentral.com###signupForm
 gamesradar.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com##.mobile-leaderboard-320-50:upward([style])
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
@@ -116946,6 +116952,7 @@ liveru.sx#$#abort-on-property-read window.b5bb198737
 liveschauen.com###werbung
 liveschauen.com##.banner
 livescience.com###rightcol_top
+livescience.com###widgetArea100
 livescience.com##+js(aopr, _sp_.mms.startMsg)
 livescience.com##.ad-unit
 livescience.com##.article-body > #inContentEmail
@@ -119709,6 +119716,9 @@ m.sondakika.com##.home_300x250
 m.sondakika.com##.text_reklam
 m.sondakika.com##div > .widget_partner[style]
 m.soundcloud.com##a[data-testid="open-in-app-link"]
+m.soundcloud.com##div[class^="BannerAd"]
+m.soundcloud.com##div[class^="FooterStoreSection"]
+m.soundcloud.com##div[class^="Header_RightContainer"] > button:not([data-testid="sign-in-button"])
 m.soundcloud.com##div[class^="UserProfile_ShareButtonWrapper"]
 m.soundcloud.com#$##app > #content { padding-top: 45px !important; }
 m.soundcloud.com#$#.upsellBanner { display: none !important; }
@@ -173267,6 +173277,7 @@ space.com###sidebar > .newsletter-signup
 space.com##.hawk-disclaimer-container:style(border-top:none!important;)
 space.com##.hawk-nest
 space.com##.jwplayer__wrapper
+space.com##.newsletter-branded-widget
 space.com##.newsletter-form-container
 space.com##.right-rail > .subscribe.mod
 space.com##.widget-area > div#tag-page-content:has(> div.wcp-item-content > div#tag-page-content:not(:has(*)))
@@ -203334,6 +203345,7 @@ whattoexpect.com,money.cnn.com##.medianet
 whattomine.com##.baikal-link
 whattomine.com##.centered-image-short
 whattomine.com##.container .centered-image
+whattowatch.com##.bg-secondary-950
 whatvwant.com,lumenlearning.com##.wpipa-container
 whdh.com,wsvn.com###leader_1
 wheel-news.com#?#.wpb_wrapper > div.wpb_wrapper:has(> div.td-fix-index > p > i > b > a[href^="https://news.google.com/publications/"])
@@ -203857,6 +203869,8 @@ willow.arlen.icu##+js(nosiif, e, 1000)
 willyoupressthebutton.com###commList > div[style]:not([class]):not([id])
 willyoupressthebutton.com##.midInCnt
 willyoupressthebutton.com##.sharesAndBestComm > a[href][target="_blank"]
+willyweather.com.au##figure[data-ad-type]
+willyweather.com.au,express.co.uk#%#//scriptlet('trusted-click-element', 'button[mode="primary"]')
 wilsonamplifiers.com##.needsclick
 wilsonamplifiers.com##.promotion-banner-sticky
 wilsonamplifiers.com##.weboost-office-august-2023
@@ -204081,7 +204095,6 @@ windowszj.net##.g_slide_title > .feedback
 windroid777.com##+js(rmnt, script, detectAdBlock)
 winds-up.com##.colpub
 winds-up.com##.pubhaut
-windsorstar.com,tj.news##.newsletter-widget__new-story-page
 windsurfjournal.com###pave300x250
 windsurfjournal.com###pave695x90
 windsurfjournal.com###paves214x157
