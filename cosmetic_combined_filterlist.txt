@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.517
-! Last Modified: 2026.05.03.0148+1000 AEST
+! Version: 1.0.518
+! Last Modified: 2026.05.03.0642+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -14962,6 +14962,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /yna_stat.js
 /yobee-cmp.js
 /yofi-telemetry-prod.min.js
+/yorker-push-init.js^
 /youplay.$ping
 /youtube.php|$third-party,script
 /youtubeVideoAnalytic.js
@@ -97119,8 +97120,10 @@ idlixku.com##+js(no-setTimeout-if, getComputedStyle)
 idlixku.com##+js(no-window-open-if)
 idlixku.com##+js(nostif, getComputedStyle)
 idlixku.com##+js(nostif, start)
+idlixku.com##+js(rpnt, script, window.addEventListener("error", `(function(){'use strict';window.n=0.001;const speedUp=10;const nativeNow=performance.now;performance.now=function(){return(nativeNow.apply(this)*speedUp);};const originalST=window.setTimeout;window.setTimeout=function(callback,delay,...args){let newDelay=delay;if(delay===1000||delay===7000){newDelay=1;}if(typeof callback==='function'&&callback.toString().includes('i && t')){newDelay=1;}return originalST(callback,newDelay,...args);};const originalSI=window.setInterval;window.setInterval=function(callback,delay,...args){if(delay===1000||(typeof callback==='function'&&callback.toString().includes('i && t'))){delay=1;}return originalSI(callback,delay,...args);};})();window.addEventListener("error"`, sedCount, 1)
 idlixku.com##+js(trusted-json-edit-fetch-response, '.ads={"movie":false,"series":false,"episode":false,"comments":false,"preroll":false}', propsToMatch, /settings)
 idlixku.com##.module_home_ads
+idlixku.com##[src*=".gif"]
 idlixku.com##div[data-adblock-wall]:style(display: none !important;)
 idlixku.com##html, body:style(overflow: visible !important;)
 idlixvip.asia##.asgdc
@@ -125808,6 +125811,8 @@ meteo.ua###easter_top_ban
 meteo.ua##.add-favourites
 meteo.ua##div[class^="banner-"]
 meteo365.es##ins.adsbygoogle
+meteo60.fr##.encart336SmartVertical
+meteo60.fr##.encart750x300
 meteoaachen.de##.lshowcase-logos
 meteoalblasserdam.nl###pic_446
 meteoblue.com##+js(set, mb.advertisingShouldBeEnabled, false)
@@ -129550,6 +129555,7 @@ morexlusive.com##article > center > a[target="_blank"] > img
 morexlusive.com##div[style^="float: none; margin:10px 0 10px 0;"]
 morfikirler.com##.gpdr
 morgenpost.de##amp-fx-flying-carpet[height="450px"]
+morgenpost.de##section[aria-label="Newsletter Anmeldung"]
 morgenpost.de,amp.fitforfun.de,cnn.co.jp##amp-iframe[src^="https://widgets.outbrain.com"]
 morgenpost.de,braunschweiger-zeitung.de,bildderfrau.de,derwesten.de,mobile.reuters.com,amp.ibtimes.co.uk##.amp-ad-container
 morgenpost.de,nrz.de##.cookie-note
