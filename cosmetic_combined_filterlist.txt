@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.522
-! Last Modified: 2026.05.04.0149+1000 AEST
+! Version: 1.0.523
+! Last Modified: 2026.05.04.0643+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1688,6 +1688,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/sdk/siteScript?p_id=*&hold=*&subid_*sitescript&subid*
 .com/services/?fx=$third-party,script
 .com/services/?id=$third-party,script
+.com/services/?ns=$third-party,script
 .com/services/?rt=$third-party,script
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sha512.min.js
@@ -34532,7 +34533,9 @@ azbyka.ru##.social-share__wrap
 azcapitoltimes.com##.newsletter-acton-form-rightsidebar
 azcentral.com##.gnt_em_fo__bet-best
 azcentral.com##.gnt_n_w_w:style(height: 100px !important;)
+azcentral.com##.gnt_tba
 azcentral.com##.gnt_x_w:style(display: none !important;)
+azcentral.com##aside[aria-label="advertisement"]
 azcentral.com##body .gnt_n_w_w:style(height: 81px !important;)
 azcentral.com,tennessean.com##.newsletter-signup-condensed-module
 azchavattomonline.com##.et_pb_ads_0
@@ -89117,6 +89120,7 @@ grillbaronen.se##a[href*="/click."], #block-2, #block-4, #custom_html-3, #custom
 grilledcheeseacademy.com##.br.logo-flex
 grillfuerst.ch,grillfuerst.de,pss.sk##.cb-overlay
 grillfuerst.de###cb-overlay
+grillfuerst.de##.gf-newsletter-lightbox
 grills.de,koempf24.de##.z-100.justify-center
 grimuar.ru##.new-block
 grin.com,11880.com,golocal.de,login.muenchen.de,rehau.com,autopay.pl,olympia-einkaufszentrum.de,hrt.hr,bosnainfo.ba,eventim.de,swm.de###cmpboxrecall
@@ -113799,6 +113803,7 @@ learnpython.org###google-ad-right > iframe
 learntotradethemarket.com##.bottom-navbar
 learntypescript.dev#?##gatsby-focus-wrapper > div > div:has(> a[href="/privacy"])
 learnweb.top##+js(no-xhr-if, /(showAds|ads?\.min)\.js/)
+leasingmarkt.de##[data-sentry-component="Dialog"]
 leawo.org###banner-top-prom
 leawo.org###single_top
 leawo.org###widget-tracking
@@ -138750,6 +138755,9 @@ nookgaming.com#?#.entry-content .awac-wrapper:has(div.ko-fi-button)
 nookthem.com##body > [style*="z-index: 999999"][style*="margin-"][style*="bottom:"]:not([class]):not([id])
 noon.com###modules-renderer:has([class*="sponsored"])
 noon.com###noon-modules:has([class*="AdBrandVideo"])
+noon.com###noon-modules:has(div[data-qa="widget_AdMultiProductSide"])
+noon.com##.PdpRecommendations-module-scss-module__e4nPqG__recosWrapper
+noon.com##.ProductDetailsDesktop-module-scss-module__AYN9Ya__topSlotWrapper
 noon.com##.visibilitySensorWrapper:has(.adBannerModule)
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##div[class^="AppInstallBanner_container"]
@@ -149837,6 +149845,7 @@ playactivate.com##.bg-space > aside.fixed.lg\:bottom-0:has(> .text-sky)
 playai.nu##.ab-alert
 playai.nu##div[style="width:100%;height:300px"]
 playallvideos.com,pron.co##.rmedia
+playarcady.com###content-placeholder > div[style^="position: absolute; z-index: 9999; top: 0px; left: 0px;"]
 playareaz.com,carensureplan.com###custom-background-css > div:not(#wpcp-error-message, .bs-latest-ticker-news)
 playareaz.com,carensureplan.com##+js(no-setTimeout-if, /AdBlock/i)
 playbill.com##+js(nostif, offsetHeight)
@@ -163901,7 +163910,6 @@ s1pcprogs.ru##.btn-dw-ya
 s2cinc.com##.sep-cookie-boxs
 s2e.com.pk,kireicosplay.com##.main-wrap ~ div[id][class*=" "]:not(.Ad-Container)
 s3nnet.de##.follow
-s3rl.link##.cm--bottom
 s3rl.link#%#//scriptlet('set-cookie', 'im_youtube', '1')
 s4galaxy.ru##.td_block_social_counter
 s7.ru##.content-container > div:not(.html-text-container):has(> a.ds-Link-root)
@@ -167353,6 +167361,7 @@ serververify.com##div[hx-get="https://serververify.com/advertisement/load"]
 service-public.fr##.col-home-follow
 service.justiz.de,figma.com,doordash.com,brilliant.org,teeai.co.uk,betterhelp.com,mote.com,ibood.com##div[data-testid="cookie-banner"]
 service.mcafee.com#@#.social-networks
+service.sim.de###appStoererMobil
 service.smt.docomo.ne.jp###app_ad_bnr
 service.smt.docomo.ne.jp##.ad_height
 service.smt.docomo.ne.jp##.bnr_area
@@ -186205,6 +186214,7 @@ theverge.com#$#.mb-60 { margin-bottom: 0px !important; }
 theverge.com#$#.md\:mb-40 { margin-bottom: 20px !important; }
 theverge.com#$#.mt-80 { margin-top: 50px !important; }
 theverge.com#$#.zephr-overlay { display: none !important; }
+theverge.com#$#.zephr-zone-footer { display: none !important; }
 theverge.com#$#body { position: static !important; overflow: auto !important; }
 theverge.com#@##privacy-consent
 theverge.com,amp.cnn.com,ampproject.org##amp-iframe[src^="https://widgets.outbrain.com/hub/amp.html"]
@@ -201289,6 +201299,8 @@ wareable.com##.article-media-icons
 wareable.com##.dfp-article-banner
 wareable.com#?#.widget_custom_html:has-text(substack)
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
+waredata.com###adblock-backdrop
+waredata.com###adblock-overlay
 warehousecinemas.com##.q-notifications
 warez-ddl.net##img[height="90"]
 warezcrack.net##.onp-sl-content > [data-lock-id^="onpLock"]:style(display: block!important;)
@@ -203511,6 +203523,7 @@ white.market##+js(trusted-set-cookie, cookie-consent, '{"required":true,"optiona
 whitebit.com###__layout > div > main + div.ui-kit.is-dark
 whitebit.com##.is-dark._2gu-
 whitebit.com##.k4w6
+whitebit.com,s3rl.link##.cm--bottom
 whitecastle.com##.ccpaBanner
 whitecoatinvestor.com##.abc
 whitecoatinvestor.com##.widget_abc
