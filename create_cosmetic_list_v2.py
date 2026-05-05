@@ -197,11 +197,11 @@ TESTING_URLS = [
     #"https://fanboy.co.nz/fanboy-agegate.txt",
     # Brave Filterlists: (https://github.com/brave/adblock-lists/tree/master/brave-lists)
     # Brave - YouTube Shorts
-    f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
+    #f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-shorts.txt",
     # Brave - YouTube Recommendations
-    f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-recommended.txt",
+    #f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-recommended.txt",
     # Brave - YouTube Distractions
-    f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-distracting.txt",
+    #f"{URL_PREFIX_GH}/{URL_PART_BR}/yt-distracting.txt",
     # Brave - Social Elements Blocker
     f"{URL_PREFIX_GH}/{URL_PART_BR}/brave-social.txt",
     # Brave-specific additions to Easylist Cookie
@@ -231,9 +231,9 @@ TESTING_URLS = [
     # Re-enabled YouTube Neuter Filter Lists to test fullscreen video fix
     # (2025-12-23 13:47:43 +1100)
     # YouTube Neuter - sponsorblock
-    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
+    #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/filters/sponsorblock.txt",
     # YouTube Neuter
-    f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
+    #f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
     # YouTube Clear View
     #f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
     # Hide YouTube Shorts
