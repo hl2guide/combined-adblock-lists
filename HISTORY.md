@@ -1,3 +1,7 @@
+# 2026-05-05
+
+- Fixed YouTube issues (monitoring)
+
 # 2026-04-21
 
 - Added some new lists

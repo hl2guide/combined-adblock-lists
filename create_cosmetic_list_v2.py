@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.13
-# Edited: 2026-02-27 11:59:13 +1100
+# Version 2.0.14
+# Edited: 2026-05-05 10:15:15 +1000
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -235,13 +235,13 @@ TESTING_URLS = [
     # YouTube Neuter
     f"{URL_PREFIX_GH}/mchangrh/yt-neuter/main/yt-neuter.txt",
     # YouTube Clear View
-    f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
+    #f"{URL_PREFIX_GH}/yokoffing/filterlists/main/youtube_clear_view.txt",
     # Hide YouTube Shorts
-    f"{URL_PREFIX_GH}/{URL_PART_YTS}/list.txt",
+    #f"{URL_PREFIX_GH}/{URL_PART_YTS}/list.txt",
     # Hide YouTube Shorts by Harren06 (https://github.com/Harren06/ublock-yt-shorts)
-    f"{URL_PREFIX_GH}/Harren06/ublock-yt-shorts/main/list.txt",
+    #f"{URL_PREFIX_GH}/Harren06/ublock-yt-shorts/main/list.txt",
     # YouTube Clean - Onsotumenh
-    f"{URL_PREFIX_GH}/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin/main/YouTubeFilterList.txt",
+    #f"{URL_PREFIX_GH}/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin/main/YouTubeFilterList.txt",
     # HaGeZi's The World's Most Abused TLDs
     f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
     # Web Annoyances Ultralist by yourduskquibbles
@@ -297,7 +297,7 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt",
     f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/Anti-%C2%ABA%C4%B0inNonA%C4%B0%C2%BB%20List.txt",
     f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/JapaneseTextSoftener.txt",
-    f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/StopAutoplayOnYouTube.txt",
+    #f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/StopAutoplayOnYouTube.txt",
     f"{URL_PREFIX_GH}/DandelionSprout/adfilt/refs/heads/master/TwitchPureViewingExperience.txt"
 ]
 
