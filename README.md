@@ -13,7 +13,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 
 ### Cosmetic Combined Filterlist
 
-- Includes specific filter lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_, _uBlock_ and _YouTube Cleanup_
+- Includes specific filter lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_ and _uBlock
     - (can be viewed in the `create_cosmetic_list_v2.py` file.)
 - All domain blocking rules are excluded from the list
     - _Does not work in AdGuard Home or similar domain-based software_
