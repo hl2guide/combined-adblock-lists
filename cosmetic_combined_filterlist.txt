@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.540
-! Last Modified: 2026.05.07.0711+1000 AEST
+! Version: 1.0.541
+! Last Modified: 2026.05.07.1256+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -32523,7 +32523,7 @@ att.com##.lazyload-wrapper:has(> div[class] > div.container > div.undefined > di
 attac.de,kan-therm.com#$#.reveal-overlay { display: none !important; }
 attac.de,kan-therm.com#$#html { overflow: auto !important; position: unset !important; }
 attachowk.com##a[href*="prabhatnamkeen.com"]
-attackofthefanboy.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 attacomsian.com,catwalkyourself.com,egyptianstreets.com,sklum.com,comicbook.com###newsletterModal
 attheraces.com##.gutter-left
 attheraces.com##.gutter-right
@@ -39448,7 +39448,7 @@ bing.com###b_pole
 bing.com###b_results > .b_algo:has(> .b_caption > .b_attribution:matches-css(before, content: /url\(data:image/))
 bing.com###b_results > li.b_algo:has(> .b_caption > p:matches-css(before, content: /^(Ad|Ann\.|Annonce|Anúncio|Anzeige|Reklama|Реклама|Reclamă|Publicidade)$/))
 bing.com###b_results > li.b_top:has(> div#encycloCanvas > div.en_wrapNext > div.ency_imageContainer > a[href^="https://www.microsoft.com/rewards/spotify-premium-offer?"])
-bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
+bing.com###b_results > li:has(.b_adProvider)
 bing.com###bepfo.popup[style^="visibility: visible"]
 bing.com###bnp_hfly
 bing.com###bnp_rich_div
@@ -39478,6 +39478,8 @@ bing.com##.b_adLastChild
 bing.com##.b_adLastChild:style(position: absolute !important; top: -9999px !important;)
 bing.com##.b_adPATitleBlock
 bing.com##.b_adPATitleBlock + div
+bing.com##.b_algo:has(.ad_esltitle)
+bing.com##.b_algo:has(.b_ads1line)
 bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com##.b_algo:has(> .b_title > h2 > .b_ads1line)
@@ -39508,6 +39510,7 @@ bing.com##.pa_sb:style(position: absolute !important; top: -9999px !important;)
 bing.com##.productAd
 bing.com##.promotion-panel-inner
 bing.com##.ra_car_block
+bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com##.shop_page .br-poleoffcarousel
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
 bing.com##.slide:has(> .tobitem > a > .rtb_ad_caritem_mvtr)
@@ -39533,6 +39536,7 @@ bing.com##div[data-viewname="GiveModeFlyoutUpsell"]
 bing.com##div[data-viewname="MobileDefaultBrowserRich"]
 bing.com##div[id^="bnp.nid."][data-viewname="VerticalHeaderFlyout"] > div[id^="b_vfly_"] > div[id^="b_vfly_"]:has(> a[href^="https://bingapp.microsoft.com/bing"])
 bing.com##header > #b_opalpers
+bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##li[class="b_ans"][data-partnertag]:has(> div[class^="b_bza_"])
 bing.com##li[data-idx]:has(#mm-ebad)
 bing.com##main[aria-label="Search Results"] > #b_pole:has(#cu_polebanner #cu_poleMSPromoText)
@@ -39540,13 +39544,9 @@ bing.com#$##bLogoExp { display:block!important; }
 bing.com#$#.b_hphb { display:block!important; }
 bing.com#%#(()=>{if(!location.pathname.includes("/search"))return;const t={attributes:!0,childList:!0,subtree:!0},e=(t,e)=>{for(const n of t){const t=n.target.querySelector(".privacy-statement + .get-started-btn-wrapper > button.inline-explicit");t&&(t.click(),e.disconnect())}},n={apply:(n,o,c)=>{const r=Reflect.apply(n,o,c);if(o&&o.matches("cib-muid-consent")){new MutationObserver(e).observe(r,t)}return r}};window.Element.prototype.attachShadow=new Proxy(window.Element.prototype.attachShadow,n)})();
 bing.com#%#//scriptlet('trusted-click-element', '#bnp_cookie_banner #bnp_btn_reject', '', '1500')
-bing.com#?#.b_algo:-abp-has(.ad_esltitle)
-bing.com#?#.b_algo:-abp-has(.b_ads1line)
 bing.com#?#.b_hPanel:has-text(Terms of Use)
-bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 bing.com#?#.ta_c:has-text(Sponsored)
 bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:has-text(/^([Aa]mazon(\.[acdefinps][aeglnorst]m?\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
-bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
@@ -39562,7 +39562,8 @@ bing.com#@#a[href*="/aclick?ld="]
 bing.com#@#a[href^="https://www.bing.com/aclk?"]
 bing.com#@#li.b_adBottom
 bing.com,microsoft.com,msn.com,web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId, when, scroll keydown)
-bing.com,~www.bing.com#?#.b_algo:-abp-has(p:-abp-properties(display: inline-block;))
+bing.com,~www.bing.com##.b_algo:has(p[style="display: none !important;"])
+bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
 bingato.com##.player-wrap1
 bingdou.com.cn,hoteastday.com##.float_ad
 binge.buzz#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
@@ -51417,7 +51418,6 @@ cn-healthcare.com##.fh_advent_wrap
 cn.bing.com###id_qrcode_popup_positioner
 cn.bing.com##.b_bza_pole
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
-cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 cn.kayak.com#$#body { overflow: auto !important; }
 cn.kayak.com#$#div[id$="data-transfer-disclaimer-dialog"] { display: none !important; }
 cn.momondo.com#$#body { position: static !important; overflow: auto !important; }
@@ -144470,7 +144470,6 @@ osaka-seitetu.co.jp###modal-overlay
 osaka-seitetu.co.jp##.mod_message
 osaka-u.ac.jp##.SNSShare
 osaki.co.jp##.reuse-component
-osama-ranking-treasurechest.com,ksltv.com,choiz.me,tubxporn.com,zpppstop.ru##.share_link
 osano.com#?#div[class$="-form-wrapper"]:contains(/newsletter|Subscribe to Osano news & insights/)
 osbot.org###ipsLayout_mainArea > div > div
 osbot.org###ips_footer > div > div
@@ -152776,6 +152775,7 @@ porntrex.*,mygoodporn.tv,modporn.com,havefunporn.com,eroinside.com,tabootube.*,j
 porntrex.com###exclusive-link
 porntrex.com###index-link
 porntrex.com##+js(abort-on-property-write, __showPush)
+porntrex.com##+js(acs, readCookieDelit)
 porntrex.com##+js(disable-newtab-links)
 porntrex.com##.content > .link-holder-top
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
@@ -160661,9 +160661,8 @@ repack-games.com##div.game-cta-section
 repack-games.com#%#//scriptlet("prevent-addEventListener", "contextmenu", "undefined")
 repack-games.com,maclife.vn###single-share
 repack-xatab.ru##.shinered
-repack.me##.my.row > div:first-child .panel-primary.short-title
-repack.me##.my.row > div:first-child .panel-primary.short-title ~ br
 repack.me##[href="/yapack"]
+repack.me#?#div:first-child > .panel:-abp-has(> .panel-body > p > a)
 repagalia.com,ejercito.defensa.gob.es##.msgcookie
 repasdelice.com##.newslettreastuce
 repelis.net##+js(aopr, popTimes)
@@ -196230,6 +196229,7 @@ uteka.ru##div[data-test="banners-slider"]
 uteka.ru#%#//scriptlet('set-cookie-reload', 'uteka_app_accept_cookie_policy_hidden', 'true', '/', 'uteka.ru')
 uteka.ru,investing.com##.mobile-apps
 utexas.edu##.connect-links
+utf.u-tokyo.ac.jp,osama-ranking-treasurechest.com,ksltv.com,choiz.me,tubxporn.com,zpppstop.ru##.share_link
 uthayamnews.com##.fn-block .size-large:not(.wp-image-64792)
 uthayamnews.com##.wp-image-35679
 uthayamnews.com##.wp-image-35692
