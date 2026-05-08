@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.546
-! Last Modified: 2026.05.08.1258+1000 AEST
+! Version: 1.0.547
+! Last Modified: 2026.05.08.1652+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -33459,6 +33459,8 @@ autogrodno.by##.expautos_detail_right > .moduletable_menu:first-child > span
 autogrodno.by##.mogo-link
 autogrodno.by##div[class^="bannergroup"]
 autoguide.com,motorcycle.com##.sidebar-ad-unit
+autoguide.com,motorcycle.com#$##cms-popup { display: none !important; }
+autoguide.com,motorcycle.com#$#.lbHtmlFix body { overflow: auto !important; }
 autoguide.com,motorcycle.com,thetruthaboutcars.com,upgradedhome.com##.billboardSize
 autohaus-reitermayer.de#$##gdpr-bar { display: none !important; }
 autohaus-reitermayer.de#$#body { overflow: auto !important; }
@@ -46800,7 +46802,8 @@ caretobeauty.com##.product-view > .box-additional > h4:contains(Share) ~ a[href^
 caretobeauty.com##.pwa-download-footer__content
 caretobeauty.com#%#//scriptlet('set-local-storage-item', 'downloadPopupDisplayed', 'true')
 carewellpharma.in##+js(set-constant, unadblock, noopFunc)
-carexpert.com.au##._26wjo85
+carexpert.co.nz,carexpert.com.au##._26wjo85
+carexpert.co.nz,carexpert.com.au#?#._1ivmml5u3:has-text(Add Preferred Source)
 carfax.com#@#.fb-button
 cargames.com##+js(addEventListener-defuser, error, UnityLoader.Error)
 cargames.com,puzzlegame.com,ubestgames.com,mixfreegames.com##div[id$="AdDiv"]
@@ -55081,8 +55084,6 @@ creativeuncut.com##.abox-s_i
 creativeuncut.com##.abox-s_i2
 creativo.one###accept_q
 creativo.one###dvd-cupon
-creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection', '', '500')
-creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonMarketing')
 creator.fronius.com#@#.cookie-overlay:not(html):not(body)
 creator.nightcafe.studio##.css-vloulf
 creator.oculus.com##._aeli
@@ -73961,8 +73962,8 @@ fastpic.org##body > .position-fixed
 fastpic.org##div[class*="vright"]
 fastpic.org##div[class^="spinner"] ~ .d-flex
 fastpic.org##div[id^="fp-"]
-fastpic.org##i[tabindex][role]
 fastpic.org##iframe[srcdoc]
+fastpic.org##u[tabindex="0"]
 fastpic.org,www.kinopoisk.ru##div[style="width: 100%; height: 250px;"]
 fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic/; prevent-listener DOMContentLoaded /0x|popMagic/
 fastpokemap.se##.slicknav_menu
@@ -121094,6 +121095,7 @@ maidenfrance.fr,plurielmedia.com###headband
 maidenhead-advertiser.co.uk###popuptest
 maidenhead-advertiser.co.uk,neoseeker.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
 maidi.me###diy15
+maidreamin.com,yomiuri.co.jp,hololivemeet.hololivepro.com,zetadi.vision,comeon-house.jp,mohunadeanime.com,radwimps.jp,nierautomata-anime.com,unitis.jp##.p-share
 maiescort.com###bnrf
 maiescort.com###bnrt
 maiescort.com##.accetta_cookies_me
@@ -130016,8 +130018,6 @@ motorcycle.com##.ad-bottom-strip
 motorcycle.com##.ad-native-top-strip
 motorcycle.com##.ads-fluid-wrap
 motorcycle.com##.infeed-ads
-motorcycle.com#$##cms-popup { display: none !important; }
-motorcycle.com#$#.lbHtmlFix body { overflow: auto !important; }
 motorcycle.com,autoguide.com##.sidebar-ad-unit
 motorcycle.com,autoguide.com##body .ad-top-strip
 motorcyclenews.com##.google-ads
@@ -137896,6 +137896,8 @@ nibelungen-kurier.de###homeDisplay
 nibelungen-kurier.de##+js(set, nlf.custom.userCapabilities, false)
 nibelungen-kurier.de##.widget_dkge_wrapper
 nibelungen-kurier.de#%#//scriptlet('set-cookie', 'user_consent', '1')
+nibelungen-wohnbau.de,creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection', '', '500')
+nibelungen-wohnbau.de,creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonMarketing')
 niburu.co##.sponsers
 nic.ru###inform-notification
 niceareas.co.uk##.rayAlertBox
@@ -160685,8 +160687,9 @@ repack-games.com##div.game-cta-section
 repack-games.com#%#//scriptlet("prevent-addEventListener", "contextmenu", "undefined")
 repack-games.com,maclife.vn###single-share
 repack-xatab.ru##.shinered
+repack.me##.my > .ads
+repack.me##.my > .ads + br
 repack.me##[href="/yapack"]
-repack.me#?#div:first-child > .panel:-abp-has(> .panel-body > p > a)
 repagalia.com,ejercito.defensa.gob.es##.msgcookie
 repasdelice.com##.newslettreastuce
 repelis.net##+js(aopr, popTimes)
@@ -209668,7 +209671,6 @@ yomiuri.co.jp##.p-footer-subscribe
 yomiuri.co.jp##.p-header-notice:has(a[href^="https://www.google.com/preferences/source?q="])
 yomiuri.co.jp##.p-sns
 yomiuri.co.jp##div[style="height:150px;text-align:center; margin-bottom: 16px;"]
-yomiuri.co.jp,hololivemeet.hololivepro.com,zetadi.vision,comeon-house.jp,mohunadeanime.com,radwimps.jp,nierautomata-anime.com,unitis.jp##.p-share
 yomuno.jp###similar_articles
 yomuno.jp##.article_content_above
 yomuno.jp##.end_article_modal_overray
