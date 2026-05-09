@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.553
-! Last Modified: 2026.05.09.2057+1000 AEST
+! Version: 1.0.554
+! Last Modified: 2026.05.10.0153+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -5175,7 +5175,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /api.ads.$script,domain=~ads.instacart.com|~www.ads.com
 /api.controld.com/pixel/*$image
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
-/api/*/ads-banners$domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
+/api/*/ads$xmlhttprequest,domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
 /api/*/ainfo/*$domain=igromania.ru|kanobu.ru
 /api/*/feedback/nps/check$xmlhttprequest,domain=mail.ru
 /api/0/stats
@@ -33452,6 +33452,9 @@ autogidas.lt##.no-print:not([class*=" "])
 autogidas.lt##.promo-subscription
 autogidas.lt##.reklama-300x250
 autogidas.lt##div[class^=lenders-]
+autoglas-spezialist.com,imazing.com#$#body.modal-open { overflow: auto !important; }
+autoglas-spezialist.com,imazing.com#$#div#cookie-consent-modal { display: none !important; }
+autoglas-spezialist.com,imazing.com#$#div.modal-backdrop { display: none !important; }
 autoglass.co.uk###noticedivwrap
 autograph.io##.modal-bg
 autogreeknews.gr,opensauce.com##.cs-info-bar
@@ -38724,6 +38727,7 @@ biblprog.org.ua##.fdr
 bibme.org,citationmachine.net##+js(aeld, load, (!o))
 bibme.org,citationmachine.net##+js(aopr, SBMGlobal.run.pcCallback)
 bibme.org,easybib.com,citationmachine.net##.adds-wrapper
+bicarablitar.com##.rt-ads-floating
 biccamera.com##.bcs_listItem > ul > .prod_box:has(> p > a[href^="https://e.s4p.jp/"] > span.bcs_pr)
 biccamera.rakuten.co.jp##.c-sideProduct__footer
 biccy.it,mangaforever.net,vologratis.org##.adv-inside-content
@@ -98653,9 +98657,6 @@ imasdk.googleapis.com##+js(no-xhr-if, vod.provider.plex.tv/ad?, war:noop-vast3.x
 imasdk.googleapis.com##+js(no-xhr-if, worldsurfleague.com, war:noop-vmap1.0.xml)
 imashop.com.br,toqueacampainha.com.br###vtex-lgpd-cookie
 imasters.com.br##.maintainer
-imazing.com#$#body.modal-open { overflow: auto !important; }
-imazing.com#$#div#cookie-consent-modal { display: none !important; }
-imazing.com#$#div.modal-backdrop { display: none !important; }
 imbf.org##.col-lg-7 > div[class="bottom"]
 imbf.org##.sblock
 imbruttito.com##.gototopdesk
@@ -135219,6 +135220,7 @@ nepalesediaspora.com##.adsgo
 nepalesediaspora.com##.midads
 nepalgatha.com##.add-full
 nepalgunjnews.com##.widget_media_image img:not([src*="_n."])
+nepalicalendar.rat32.com###adsnew
 nepalieducate.com##+js(nostif, googlesyndication)
 nepalijanta.com##.nepalijanta-ad
 nepalimato.com###content .news_portal_ads_banner
@@ -167426,6 +167428,7 @@ seriesturcas.gratis##.serie-optimanetwork
 seriesturcas.gratis##.ver-ahora
 seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read open; abort-on-property-read _0x4c81
 serieturche.eu##.footer-widgets-wrapper
+seriezloaded.com.ng##+js(no-setTimeout-if, offsetHeight === 0)
 serif.com##div[aria-labelledby="cookie-heading"]
 serii.net##div[class^="fmessage"]
 seriouseats.com##.entry-body > .product-widget
@@ -167523,6 +167526,7 @@ servus.com,terramatermagazin.com##.sda
 servustv.com##+js(aeld, error, /function\([a-z]\){[a-z]\([a-z]\)}/)
 servustv.com##+js(aeld, load, /^function\(\).*requestIdleCallback.*/)
 servustv.com##+js(no-fetch-if, doubleclick)
+servustv.com##+js(norafif, location.reload)
 servustv.com##+js(nosiif, /adex|loadAds|adCollapsedCount|ad-?block/i)
 servustv.com##+js(nostif, , 10000-15000)
 servustv.com##+js(nostif, /adex|loadAds|adCollapsedCount|ad-?block/i)
