@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.552
-! Last Modified: 2026.05.09.1707+1000 AEST
+! Version: 1.0.553
+! Last Modified: 2026.05.09.2057+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -565,7 +565,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,3p,denyallow=anmedm.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|facebook.net|fastlylb.net|fbcdn.net|google.com,domain=masteranime.tv
 *$script,3p,denyallow=apis.google.com,domain=zilla-xr.xyz
 *$script,3p,denyallow=arc.io|bootstrapcdn.com|chatango.com|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net,domain=ytanime.tv
-*$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,domain=porntrex.com
+*$script,3p,denyallow=b-cdn.net|blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,domain=porntrex.com
 *$script,3p,denyallow=blogger.com|bootstrapcdn.com|cloudflare.com|cloudflare.net|gitcdn.link|githack.com|google.com|googleapis.com|gstatic.com|recaptcha.net,domain=wwwfotografgotlin.blogspot.com
 *$script,3p,denyallow=blogger.com|facebook.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|disqus.com|telegram.im|wp.com,domain=9xmovie.*
 *$script,3p,denyallow=bootstrapcdn.com,from=youdbox.*
@@ -71195,7 +71195,6 @@ eu.aoc.com##.country-popup
 eu.patagonia.com#@##onetrust-consent-sdk
 eu.press-citizen.com##.page-background-placeholder
 eu.press-citizen.com##.secondary:has(> div.content-well > div.module-slot > partner-poster)
-eu.reservewheels.com##pandectes-cmp
 eu.reservewheels.com,kingkoil.com##pandectes-cmp
 eu4cn.com###bluedeck_ding > div[onclick]
 euautodele.dk,euautodeler.co.no##.traffic_banner_wrapper
@@ -71881,6 +71880,7 @@ evrensel.net##.author-socials
 evrensel.net##.os-notify-container
 evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
 evreporter.com,mustsharenews.com##.hustle-inline
+evribiont.ru#@#.AdSense
 evrimagaci.org###pwa-popup-container
 evrimagaci.org###user-call-info-card
 evrimagaci.org##.content-kreosus-container.sticky
@@ -106464,6 +106464,7 @@ justetf.com###brokerAd
 justetf.com##.borker-ad
 justetf.com##.etf-ad-row
 justetf.com##.m-sep-l:has(#partnerNewsBox)
+justetf.com##.publift-ad-container
 justetf.com##.wAd
 justetf.com##div[id^="shadow-teaser-"]:has(div[class="disclaimer mb-1"])
 justetf.com##tr[onclick^="gaW"]
@@ -139907,6 +139908,7 @@ nowysacz.zhp.pl,agatameble.pl##.z-cookies
 nowytydzien.pl##a[href="/reklama-w-chelmie/"]
 nowytydzien.pl##a[href="http://www.eassyklik.pl/"]
 nowytydzien.pl##a[href="https://luxmedlublin.pl/poradnie/nfz/badania-choroba-gauchera/?utm_source=luxmedlublin&utm_medium=Nowy+Tydzie%C5%84&utm_campaign=choroba-gauchera"]
+nowytydzien.pl##a[href="https://neo-seo.pl"]
 nowytydzien.pl##a[href="https://simplydrive.pl/praca-jako-kierowca-bolt-w-chelmie/"]
 nowytydzien.pl##a[href="https://www.betaprim.pl/"]
 nowytydzien.pl##img[src="https://www.nowytydzien.pl/wp-content/uploads/2025/12/07-nowy-tydzien-700x300-png.jpg"]
@@ -143482,53 +143484,11 @@ onual.com##+js(href-sanitizer, a.btn[href^="https://zxro.com/u/?url=http"], ?url
 onvasortir.com###infocookies
 onvasortir.com###pub_rectangle
 onvasortir.com#@##my-smartadserver
-onvista.de###finderResults .bg-primary-detail[tabindex="0"]
-onvista.de##.flex-layout:has(.ov-ad-slot-advice)
-onvista.de##.flex-layout:has(div[class^="ArticleTeaser_ov-article-teaser__onvistaCustomer_"])
-onvista.de##.flex-layout:has(div[style^="width: 900px;"])
-onvista.de##.isSponsored
-onvista.de##.justify-between:has(span[class="block -mb-1 mt-1 text-sm text-ellipsis text-grey-700"])
 onvista.de##.newsletter-button img[src*="newsletter"]
-onvista.de##.ov-article-teaser:has(.ov-article-teaser__onvistaCustomer)
 onvista.de##.ov-article__sharebar
-onvista.de##.ov-carousel--table-fixed-cells .bg-premium
-onvista.de##.ov-carousel__inner tr[class*="bg-premium"]
-onvista.de##.ov-carousel__item:has(a.link--secondary + div)
-onvista.de##.ov-carousel__item:has(div[style="opacity: 1;"])
-onvista.de##.ov-carousel__item:has(span[class="block text-sm text-ellipsis text-grey-700 mb-1 mt-4"])
-onvista.de##.ov-interaction
-onvista.de##.ov-interaction-slot
-onvista.de##.ov-table-row--height.bg-primary-detail
-onvista.de##.ov-table-sponsored-row
-onvista.de##.ov-table-sponsored-row-disclaimer
-onvista.de##.ov-table-sponsored-row-disclaimer + .bg-color--cd-blueberry-bright-10
-onvista.de##.ov-table-sponsored-row-disclaimer + .bg-color--cd-blueberry-bright-10 + .bg-color--cd-blueberry-bright-10
-onvista.de##a.link:has(div[style="opacity: 1;"])
-onvista.de##a[class*="ArticleTeaserBox"][href^="https://bnpp.lk/"]
-onvista.de##a[class*="ArticleTeaserBox_ovArticleTeaserBoxDefaultHeight_"]
-onvista.de##a[href*="&adname="]
-onvista.de##a[href^="https://www.lbbw-markets.de/portal/privatkunden/themen/produkteimfokus/bonus-zertifikate?pk_campaign="]
 onvista.de##div.lg\:min-w-\[480px\]
 onvista.de##div:has(> a[href^="https://www.facebook.com/sharer.php"])
-onvista.de##div[class*="InteractionTypeReference_ov-interaction-slot--fallback"]
-onvista.de##div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-4"]:has(a.link--secondary + div)
-onvista.de##div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-4"]:has(div[style="opacity: 1;"])
-onvista.de##div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]
-onvista.de##div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]:has(small[class="mt-1 block text-sm"])
-onvista.de##div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]:has(span[class="mt-1 block"])
-onvista.de##div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]:has(span[class="mt-xxsmall block"])
-onvista.de##div[class="col col--sm-4 col--md-3 col--lg-4 col--xl-4"]
-onvista.de##div[class="col py-0"]:has(div[class="-mb-1 mt-1 text-sm text-ellipsis text-foreground-300"])
-onvista.de##div[class="col py-0"]:has(span[class="block -mb-1 mt-1 text-sm text-ellipsis text-foreground-300"])
-onvista.de##div[style*="width: 950px;"]
-onvista.de##div[style="display: flex; width: 100%;"]:has(div[style="border-top: 1px solid rgb(238, 238, 238); padding: 0.25rem 0.25rem 0.75rem; font-size: 0.75rem; line-height: 1.125rem;"])
-onvista.de##div[style^="width: 900px;"]
-onvista.de##tr[class="bg-primary-detail !border-b-0"]
-onvista.de##tr[class="ov-table-row--height border-b border-b-neutral-3 !bg-primary-detail"]
 onvista.de#?#.cursor-pointer:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/))
-onvista.de#?#.mt-7:has(div:-abp-properties(content: "W​e​r​b​u​n​g"))
-onvista.de#?#.mt-8:-abp-properties(content: "Werbung")
-onvista.de#?#.outer-spacing--xxlarge-top:has-text(Werbung von)
 onvista.de#?#.ov-carousel__item:-abp-has(span:-abp-properties(content: "W*"))
 onvista.de#?#.ov-carousel__item:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#a[class*="ArticleTeaserBox"]:has(div.ov-subline:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/))
@@ -143539,7 +143499,6 @@ onvista.de#?#div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-n
 onvista.de#?#div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-4"]:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#div[class="bg-neutral-2 shadow-md rounded-2xl border-1 border-neutral-4 mb-4 p-0"]:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
-onvista.de#?#div[class="col col-12"]:has(:-abp-properties(Werbung))
 onvista.de#?#div[class="col py-0"]:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#div[class="flex justify-between mb-4 border-b-1 border-b-grey-100 pb-2 dark:border-b-grey-700"]:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#div[class="md:col-span-3 lg:col-span-4"]:-abp-has(span:-abp-properties(content: "W*"))
@@ -152834,8 +152793,8 @@ porntrex.*,mygoodporn.tv,modporn.com,havefunporn.com,eroinside.com,tabootube.*,j
 porntrex.com###exclusive-link
 porntrex.com###index-link
 porntrex.com##+js(abort-on-property-write, __showPush)
-porntrex.com##+js(acs, readCookieDelit)
 porntrex.com##+js(disable-newtab-links)
+porntrex.com##+js(rpnt, script, this.config.pop.enabled, false, sedCount, 10)
 porntrex.com##.content > .link-holder-top
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
 porntrex.com##.pop-fade
@@ -159370,9 +159329,14 @@ realestate.co.nz##.topbar-ad-parent
 realestate.co.nz##html.async-hide:style(opacity: 1!important;)
 realestate.com.au###headerLeaderBoardSlot
 realestate.com.au##.gdpr-consent-element-wrapper
+realestate.com.au##.google-preferred-link
+realestate.com.au##.header-ad-container
 realestate.com.au##.header-leaderboard-portal
 realestate.com.au##.lead-gen__action-link
 realestate.com.au##.media-viewer__sidebar
+realestate.com.au##.styles__Medrec1Container-sc-tc1w4x-0
+realestate.com.au##.styles__Medrec2Container-sc-tc1w4x-1
+realestate.com.au##.survey-cta-card
 realestate.com.au##div[class^="FooterAd"]
 realestate.com.au##div[class^="PostLayout__AsideWrapper-"] > div[class^="styles__Medrec"]
 realestate.yahoo.co.jp###_modalContractView.ModalSpecialBanner--show
