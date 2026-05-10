@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.557
-! Last Modified: 2026.05.10.1725+1000 AEST
+! Version: 1.0.558
+! Last Modified: 2026.05.10.2100+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -19930,7 +19930,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://landing.*/?ats=$popup,third-party
-://lenta.ru/favicon.ico
 ://lightning.*/launch/
 ://link.*&siteid=$third-party
 ://links.flickr.com/s/eo/$image
@@ -25902,7 +25901,7 @@ allporncomic.com##+js(aopr, exoJsPop101)
 allporncomic.com##+js(aopw, ExoSupport)
 allporncomic.com##.ad
 allporncomic.com##.site-content > center:has(> iframe[src^="//mrfantastic.gotdns.ch"])
-allporncomic.com##[href^="https://s.zlink0.com/"]
+allporncomic.com##[href^="https://s.zlink0.com/"], [href^="https://s.zline0.com/"]
 allporncomic.com##iframe
 allpornstream.com##.grid > div.h-full:has(> div.ad-thumbnail-container)
 allpornstream.com##.min-h-\[237px\]
@@ -48312,8 +48311,8 @@ championat.com,championat.ru,gazeta.press,gazeta.ru,lenta.ru##.banner
 championat.com,championat.ru,lenta.ru##a[href*="okko.sport"]
 championat.com,championat.ru,tengrinews.kz,ukrinform.ua,vesti.ru##.social-media
 championat.com,comments.rambler.ru##button[data-comments$="share_popup"]
-championat.com,lenta.ru##.js-scroll-to-site
-championat.com,lenta.ru##.js-scroll-to-site {remove:true;}
+championat.com,lenta.ru##[class*="scroll-to-site"]
+championat.com,lenta.ru##[class*="scroll-to-site"] {remove:true;}
 championat.ru##.article-footer__row:has(> div > div.article-social)
 championat.ru##.livejournal
 championmastery.gg##.responsiveAd
@@ -87547,7 +87546,7 @@ golospravdy.eu#?#div[id^="sidebar-widget-"] > div.widget_text:has(> h3.sidebar-h
 golove.ai##section[aria-label^="Notifications"] + .inset-0:has(> .w-full > .w-full #react-qrcode-logo)
 golove.ai#%#//scriptlet('trusted-set-local-storage-item', 'mobile_for_better_experience_last_shown', '$now$')
 goltelevision.com##+js(set, adblock, false)
-golub-cgd.pl,goral24.pl,ibielsk.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,kuriergmin.pl,lipno-cli.pl,nowagazeta.pl,nowinynyskie.com.pl,promoceny.pl##div[class*="adv"]
+golub-cgd.pl,goral24.pl,ibielsk.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,kuriergmin.pl,lipno-cli.pl,nowagazeta.pl,nowinynyskie.com.pl,nswiecie.pl,promoceny.pl##div[class*="adv"]
 gom.ge##a[href="http://topkinoebi.com/"]
 gomaainfo.com##+js(acs, addEventListener, google_ad_client)
 gomagic.org###fullscreen_ad
@@ -114563,9 +114562,9 @@ lenta.ru##.traffic-exchange
 lenta.ru##.vk-video-popup
 lenta.ru##.vk-video-popup {remove:true;}
 lenta.ru##.yandex-games
+lenta.ru##a.card-mini[href^="https://lenta.ru/extlink/"]
 lenta.ru##a[class*="b-redline"][target="_blank"]
 lenta.ru##a[class*="telegram-"]
-lenta.ru##a[class="card-mini _topnews"][href^="/extlink/"]
 lenta.ru##a[href*="?erid="]
 lenta.ru##div.b-topic__favorite-tooltip
 lenta.ru##div[class*="cation js-"]
@@ -156211,6 +156210,7 @@ purecalculators.com##.hero-thing-d
 purecalculators.com##div[class^="thing-square-"]
 purecalculators.com##div[id^="thing-pure_"]
 purecalculators.com##div[style="height:250px;min-height:250px"]
+purediablo.com###leader-desktop
 puredrinkwater.online,anoopcnair.com,answersq.com,wuxiaworld.com##aside[id^="ai_widget-"]
 purehelp.no##.dfptop
 purehelp.no##.float-left:has(span[id^=ezoic-pub-ad-placeholder-])
@@ -206962,9 +206962,9 @@ wykop.pl##div[class$="cookie"]
 wykop.pl##div[id^="bmone2n-"]
 wykop.pl##section.actions > ul > li.no-separator > .share-socials
 wykop.pl##section.actions > ul > li.no-separator:has(> .share-socials)
-wykop.pl##section[class]:has(> .wrapper:only-child > a:is([href*="clk.tradedoubler.com"], [href*="&landingPageId="][href*="&partner_id="]))
-wykop.pl##section[class]:has(> .wrapper:only-child > img:first-child + a[target="_blank"]:last-child)
-wykop.pl##section[class]> .wrapper:only-child:matches-css(before, content: /^reklama$/):has(> img + a[target="_blank"])
+wykop.pl##section[class]:has(> .wrapper > a:is([href*="clk.tradedoubler.com"], [href*="&landingPageId="][href*="&partner_id="]))
+wykop.pl##section[class]:has(> .wrapper > img:first-child + a[target="_blank"]:last-child)
+wykop.pl##section[class]> .wrapper:matches-css(before, content: /^reklama$/):has(> img + a[target="_blank"])
 wykop.pl##section[data-label^="ad: "]
 wykop.pl##section[data-label^="ad: market-"]
 wykop.pl##section[data-label^="ad: sidebar-"]
