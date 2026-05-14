@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.577
-! Last Modified: 2026.05.15.0301+1000 AEST
+! Version: 1.0.578
+! Last Modified: 2026.05.15.0710+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -40588,6 +40588,8 @@ blesk.cz#$#abort-current-inline-script  adbDetect; prevent-listener beforeunload
 blesk.cz,e15.cz,maminka.cz,reflex.cz##a[class*="-combined"]
 blesk.cz,expres.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
 bless-news.com##div[style] > div[class*="Overlay"][id*="Overlay"]
+blesserhouse.com,chocolatewithgrace.com##div[data-ff-name="popupCardImage"]
+blesserhouse.com,groweatandrepeat.com,terrabrasilnoticias.com###block-18
 blgo18.fans,book18.fans##div[style^="width: 300px; height: 250px;"]
 blibli.com##.product__card:has(.product__tag__ads)
 blic.rs###loginPopUp
@@ -49509,7 +49511,6 @@ chocolatecoveredkatie.com##.block-area-save-recipe
 chocolatecoveredkatie.com##.top-hat--has-socials
 chocolateminecraft.com###popup1
 chocolateplatform.com##.tve-leads-triggered
-chocolatewithgrace.com##div[data-ff-name="popupCardImage"]
 chocolatey.org###cookieNoticeAlert
 chocolatey.org#%#//scriptlet('set-cookie', 'chocolatey_hide_packages_disclaimer', 'true')
 chodb.ru##.foobar-wrapper
@@ -89461,7 +89462,6 @@ growdiaries.com##.header_add
 growdiaries.com##.popup_secure:has(a[href="/policy"])
 growdiaries.com#$#.modal:has(img[src^="/images/signup_"]) { display: none !important; }
 growdiaries.com#$#body { overflow: auto !important; }
-groweatandrepeat.com,terrabrasilnoticias.com###block-18
 grower.ch##table[width="195"]
 grower.ch##table[width="468"]
 growhow.in.ua###block-5
@@ -149024,6 +149024,7 @@ pikabu.ru##[href*="/acceptable-ads"]
 pikabu.ru##[src^="https://special.pikabu.ru/"][src*="banner.html"]
 pikabu.ru##a[href*="/payment/steam?"]
 pikabu.ru##aside > .sidebar-block:empty
+pikabu.ru##head > style:has-text(min-height:301px;) {remove:true;}
 pikabu.ru##img[alt="Facebook"]:not([data-large-image]):not([data-viewable])
 pikabu.ru#$#.promo-banner { display: none !important; }
 pikabu.ru#$#replace-xhr-response 'processCallbacks'
@@ -171617,6 +171618,7 @@ smartworld.it##body > script[src*="/common.min.js"] ~ :is(div,span)[class]:not([
 smartworld.it##body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 smartydns.com##.boxzilla-container
 smartydns.com##.boxzilla-overlay
+smartzone.de##.toast-ad-block-wrapper
 smash-karts.game-files.crazygames.com##+js(set-constant, adblockDetected, false)
 smash-media.jp##.st-app__modal
 smash-media.jp##.st-app__modal + div.st-hidden
@@ -181004,6 +181006,8 @@ tcaeco.ac.jp##.area_share_linkbox
 tcaeintegral.es##.widget-area-wrapper
 tcaeintegral.es#$#.c--anim { display: none !important; }
 tcaeintegral.es#$#html { overflow: auto !important; }
+tcbonepiecechapters.com##.half-page-ad-container
+tcbonepiecechapters.com##.sticky-footer-simple
 tcc.ua##.tm-cookies
 tcerregistry.moenv.gov.tw##.min-h-screen.mb-10 > .right-0.z-header.px-4.pb-4.md\:px-8
 tcgplayer.com##.compliance-banner
