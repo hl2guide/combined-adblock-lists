@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.586
-! Last Modified: 2026.05.17.0158+1000 AEST
+! Version: 1.0.587
+! Last Modified: 2026.05.17.0649+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -30015,6 +30015,8 @@ app2top.ru,ekabu.ru#@#.icon-facebook
 app2top.ru,ekabu.ru,fotostrana.ru#@#.btn-social
 app2top.ru,tut.by#@#.icon-vk
 appaddict.org###left-stack > a > img[alt]
+appagg.com##.ftblad ~ div[class][style*="box-shadow:none"]:has(> div[class] ins.adsbygoogle)
+appagg.com##.hbody > .si_list > .si_li:has(> div[class] ins.adsbygoogle)
 appagg.com##.hbody > .si_list > li.si_li:has(ins.adsbygoogle)
 appagg.com##.si_li:has(> .short_info > .si > ins.adsbygoogle)
 appagg.com##.si_list > li.si_li:has(> div[style*="height:"])
@@ -32735,9 +32737,9 @@ audiobookbay.is##div[style*="margin-bottom:"].ski
 audiobookbay.lu##.sky
 audiobookbay.lu##:matches-path(/^\/($|abss\/)/) .postContent a[href^="/"]:not([href*="/forum/"]):matches-attr(href=/^\/[-a-z]+\?[a-z]{2,}=/)
 audiobookbay.lu##:matches-path(/^\/($|abss\/)/) a:is([href^="/"],[href*="audiobookbay.lu/"]):matches-attr(href=/(^|audiobookbay\.lu)\/[-a-z0-9]+$/) img
+audiobookbay.lu##a[href^="/didl1-now"]
 audiobookbay.lu##a[href^="/dl-14-days-trial"]
 audiobookbay.lu##tr:has(> td:last-child > a:only-child > img[src^="/images/d"]:only-child)
-audiobookbay.lu##tr:has(> td:last-child > span > a[href*="?"])
 audiobooks4soul.com##+js(nostif, show)
 audiobooks4soul.com##[href^="https://ezaudiobooks.com/"]
 audiobooksnow.com##.sticky_consent_footer
@@ -96010,8 +96012,12 @@ hsbc.*,hsbcnet.com,hsbcinnovationbanking.com,create.hsbc,gbm.hsbc.com##+js(trust
 hsbc.ca##.cookie-banner-optout
 hsbc.co.jp,plarium.com##.c-cookie-notification
 hsbc.co.uk,internationalservices.hsbc.com,history.hsbc.com##+js(trusted-click-element, button[id="consent_prompt_submit"], , 1000)
+hsbc.com.tr###RenewedWebsiteModal
+hsbc.com.tr###__tealiumGDPRecModal
+hsbc.com.tr##.modal-backdrop
 hsbc.com.tr,advantage.com.tr##.new-cookie
 hsbc.com.tr,advantage.com.tr#%#//scriptlet('set-local-storage-item', 'cookiePolicy', 'true')
+hsbc.com.tr,nuernberger.com,transitions.com,unaitalianhospitality.com,telekom.com,barclays.co.uk,otterbox.fr,unicreditbank.cz,essilor.com,tastecooking.com,cinemark.com,lavazza.it,parcelforce.com,iberostar.com,nsandi.com,forcepoint.com,vodafone.com,sony-asia.com,abnamro.com,avis.de,unipolsai.it,o2.co.uk,sainsburysbank.co.uk,hsbc.co.uk,sunglasshut.com,oakley.com,telekom-dienste.de,zurich.it,ray-ban.com,lavazzagroup.com,sony.*,tescomobile.com,falke.com,disney.pl,thewaltdisneycompany.eu,shopdisney.eu,tuclothing.sainsburys.co.uk,epson.com.br,avisautonoleggio.it,qvc.it,gap.eu,sites.prh.com,khaleejtimes.com,tealium.com,robeco.com,totalenergies.de,hsbc.com,newbalance.*,sick.com,aktion-mensch.de,diesel.com,totalenergies.com,zurich.de,cineworld.co.uk,otterbox.de,dropbox.com,penguinrandomhouse.com,familienratgeber.de,barclaycard.co.uk,tuicruises.com,bahia-principe.com,open-telekom-cloud.com,t-systems.com,nh-hotels.de,magentasport.de,goertz.de,stepstone.de,smarthome.de,nuernberger.de,cloud.telekom-dienste.de,tui.com,france.tv,opendns.com,victoriassecret.com,huawei.com,argos.co.uk,tealiumiq.com,ti.com,disney.de,ups.com,macys.com,rakuten.de,trendmicro.com,epson.com,3m.com.tr,command.com.tr,virginmedia.com,francetvinfo.fr,greenmangaming.com,logitech.com,logitechg.com,webex.com###__tealiumGDPRecModal
 hsbnoticias.com###block-block-42
 hsbnoticias.com###block-infoblocks-infoblocks-fixedsize-17
 hsbnoticias.com###block-infoblocks-infoblocks-fixedsize-18
@@ -140507,7 +140513,6 @@ nudostar.com##.p-body-inner > ul.notices > li.notice > .notice-content > iframe[
 nudostar.com##.p-body-inner > ul.notices > li.notice > .notice-content:only-child:not(:has(>*)):upward(1)
 nudostar.com,slutmesh.net##+js(aopw, __aaZoneid)
 nudziara.pl###post.format_post.nudziara.masonry-brick
-nuernberger.com,transitions.com,unaitalianhospitality.com,telekom.com,barclays.co.uk,otterbox.fr,unicreditbank.cz,essilor.com,tastecooking.com,cinemark.com,lavazza.it,parcelforce.com,iberostar.com,nsandi.com,forcepoint.com,vodafone.com,sony-asia.com,abnamro.com,avis.de,unipolsai.it,o2.co.uk,sainsburysbank.co.uk,hsbc.co.uk,sunglasshut.com,oakley.com,telekom-dienste.de,zurich.it,ray-ban.com,lavazzagroup.com,sony.*,tescomobile.com,falke.com,disney.pl,thewaltdisneycompany.eu,shopdisney.eu,tuclothing.sainsburys.co.uk,epson.com.br,avisautonoleggio.it,qvc.it,gap.eu,sites.prh.com,khaleejtimes.com,tealium.com,robeco.com,totalenergies.de,hsbc.com,newbalance.*,sick.com,aktion-mensch.de,diesel.com,totalenergies.com,zurich.de,cineworld.co.uk,otterbox.de,dropbox.com,penguinrandomhouse.com,familienratgeber.de,barclaycard.co.uk,tuicruises.com,bahia-principe.com,open-telekom-cloud.com,t-systems.com,nh-hotels.de,magentasport.de,goertz.de,stepstone.de,smarthome.de,nuernberger.de,cloud.telekom-dienste.de,tui.com,france.tv,opendns.com,victoriassecret.com,huawei.com,argos.co.uk,tealiumiq.com,ti.com,disney.de,ups.com,macys.com,rakuten.de,trendmicro.com,epson.com,3m.com.tr,command.com.tr,virginmedia.com,francetvinfo.fr,greenmangaming.com,logitech.com,logitechg.com,webex.com###__tealiumGDPRecModal
 nuevamujer.com##a[href="https://www.nuevamujer.com/newsletter/"] > img
 nuevamujer.com##div[style="background-color: #E6E6E6; padding: 2px; text-align: center"]
 nuevos-mu.ucoz.com##+js(aeld, load, 2000)
