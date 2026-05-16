@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.584
-! Last Modified: 2026.05.16.1713+1000 AEST
+! Version: 1.0.585
+! Last Modified: 2026.05.16.2102+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1895,7 +1895,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .helpscout.net/notification/convo/read/$image
 .henchan.me^$script
 .hgo0*uyi.com/$script,xmlhttprequest,third-party
-.hh0*aoik.com/$script,xmlhttprequest,third-party
 .hilton.com/subscription/watermark.gif?
 .hindcine.tv^*.mp4|
 .hippovideo.co/gtrack?clientid=$image
@@ -2167,7 +2166,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .odezhda2.ru^$script,domain=odezhda2.ru
 .oeya.com/$domain=realtw.com
 .ofigeno.ru^$script
-.okp*ai.com/$script,xmlhttprequest,third-party
 .omsi2mods.ru^$script,domain=omsi2mods.ru
 .ondemandmsg.sbs.com.au%2Fr%2F*$image
 .ondemandmsg.sbs.com.au/r/$image
@@ -2296,7 +2294,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .qidian.com/gameBox.
 .qidian.com/pageOps.
 .qpqp0*oki.com/$script,xmlhttprequest,third-party
-.qqo*llo.com/$script,xmlhttprequest,third-party
 .qsko0*mas.com/$script,xmlhttprequest,third-party
 .qualtrics.com/subscription/watermark.gif?
 .quora.com%2Fqemail%2Fmark_read%3Fct%3D*$image
@@ -40929,7 +40926,6 @@ blog.getsocial.im###popup-backdrop
 blog.git-init.com##.kg-card:has(> a[href="https://blog.git-init.com/#/portal/signup/free"])
 blog.git-init.com##div[data-testid="portal-trigger-button"]
 blog.gitbutler.com##.post-share-section
-blog.gitbutler.com,ya.zerocoder.ru,conmebol.com,n-e-n.ru,moyo.ua,azbigmedia.com##.subscribe-section
 blog.google##.feedback-survey-container
 blog.google##.newsletter-homepage-form__section
 blog.google##.uni-newsletter-toast
@@ -41896,7 +41892,7 @@ bob-lemenuisier.fr##.eg-footer-strip-inr
 boba.ettoday.net##.recirculation
 bobasmiesiaca.pl##a[href="https://www.autoscribe.online/"]
 bobasmiesiaca.pl##a[target="_blank"] > img[src*="/wysiwig/"]
-bobasmiesiaca.pl,bydgoszcz.com,chojnakulturalnie.pl,cooltura24.co.uk,cosiedzieje.tv,dzienniknowy.pl,dziennikpowiatowy.pl,expresskaszebe.pl,faktykaliskie.info,gorlice.tv,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kociewiak.pl,koscierzyna24.info,kronikatygodnia.pl,krosno112.pl,kwidzyn1.pl,lokalna.news,lokalnatelewizja.pl,lubelska.tv,malbork1.pl,narew.info,nasztomaszow.pl,podkarpackahistoria.pl,pzl24.pl,radiotczew.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
+bobasmiesiaca.pl,bydgoszcz.com,chojnakulturalnie.pl,cooltura24.co.uk,cosiedzieje.tv,dzienniknowy.pl,dziennikpowiatowy.pl,expresskaszebe.pl,faktykaliskie.info,gorlice.tv,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kociewiak.pl,koscierzyna24.info,kronikatygodnia.pl,krosno112.pl,kwidzyn1.pl,lokalna.news,lokalnatelewizja.pl,lubelska.tv,malbork1.pl,narew.info,nasztomaszow.pl,obserwatorlokalny.pl,podkarpackahistoria.pl,pzl24.pl,radiotczew.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
 bobasmiesiaca.pl,bydgoszcz.com,portalpomorza.pl,swiebodzin.tv,tczewska.pl,telewizjamazury.pl,tv-wschod.pl##.advert-A2
 bobattre.se##img[alt*=banner]
 bober.lutsk.ua#@##topAdvert
@@ -65438,6 +65434,7 @@ dzen.ru##.zenad-card-rtb
 dzen.ru##:matches-path(/media) div[class^="article-render-mobile"][class$="type_yandex-direct"]
 dzen.ru##:matches-path(/pogoda) div[class^="Card_container"][class*="Advert"]
 dzen.ru##[aria-label="Контент страницы сюжета"] > [class*="discrete"] > div > div > div[id]
+dzen.ru##[aria-label="Опрос подписчиков"]
 dzen.ru##[aria-label^="Peкл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" p"][aria-label*="кл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" рекл"]
@@ -71714,6 +71711,12 @@ eusouandroid.co##.td-ss-main-sidebar .sfm_widget_sec
 eutelsat.com###header_higher
 eutesalvo.com##.adHome
 eutesalvo.com##.adMedium
+euyansang.com##.fixed-footer-email-signup
+euyansang.com##.tracking-consent
+euyansang.com#$##newsletter-popup { display: none !important; }
+euyansang.com#$#.modal-backdrop { display: none !important; }
+euyansang.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
+euyansang.com,blog.gitbutler.com,ya.zerocoder.ru,conmebol.com,n-e-n.ru,moyo.ua,azbigmedia.com##.subscribe-section
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
 ev-digitalinvest.de,invesdor.de###dsgvo-cookie-configurator
@@ -86548,13 +86551,14 @@ glavbukh.ru,gazeta-unp.ru,business.ru#$#.paywall-activated { display: none!impor
 glavbukh.ru,zdrav.ru,law.ru,kdelo.ru##.CookieNotifyWidget
 glavcom.ua###facebook-popup
 glavcom.ua##.banner_amp
+glavcom.ua##.banner_grid
 glavcom.ua##.banner_news
 glavcom.ua##.footer_buttons
 glavcom.ua##.kyk_menu
+glavcom.ua##.mark-as-preferred
 glavcom.ua##.post_socials
 glavcom.ua##.row div.chapter ~ article > div.body > ul.credits > li.subs
 glavcom.ua##amp-iframe[src^="https://go.rcvlink.com/"]
-glavcom.ua##div[id^="corebanner"]
 glavcom.ua,nv.ua##.cookie-label
 glavkniga.ru##.popup_banner_area
 glavmore.ru###topbox-container
@@ -169431,6 +169435,10 @@ shrtfly.net##+js(abort-on-property-read, tabUnder)
 shrtslug.biz##a[href^="https://adtrack2.click/"]
 shrtz.me##div[style*="padding-top:10px;"][style*="width:300px;"]
 shrubhub.com#%#//scriptlet('prevent-setInterval', 'showBlogPopup', '1000')
+sht-link.com##+js(prevent-fetch, adsbygoogle)
+sht-link.com#$##load-modal { display: none !important; }
+sht-link.com#$#.modal-backdrop { display: none !important; }
+sht-link.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 shtfplan.com###post-article-subscribe
 shtfplan.com##.overlay-container
 shtms.co,gitizle.vip,ay.live##+js(remove-attr, data-ppcnt_ads, main)
@@ -171017,10 +171025,9 @@ slappyto.net##.webrox._300x250.centered
 slashcam.de###MEDMRECHome
 slashcam.de###MEDMRECHome2Lazy
 slashcam.de###MEDMRECHome3Lazy
-slashdot.org###ai-stud-coding-bar
+slashdot.org###aistdo-coding-bar
 slashdot.org###announcement
 slashdot.org###main-nav-button:style(visibility: hidden !important;)
-slashdot.org###mongo-stick-it
 slashdot.org###slashdot_deals
 slashdot.org###stackcommerce-adwrap
 slashdot.org###vibe-coding-bar
@@ -171041,6 +171048,8 @@ slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asloa
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 slashdot.org#?#.grid_24:has-text(Featured Content)
+slashdot.org,sourceforge.net###ai-stud-coding-bar
+slashdot.org,sourceforge.net##[id*="mongo-"]
 slashfilm.com###primis-container
 slashfilm.com##.under-art
 slashfilm.com,healthdigest.com###primis-container
@@ -173524,7 +173533,6 @@ sourceforge.net###downloading > #mirror
 sourceforge.net###floating-content-wrapper
 sourceforge.net###get-updates
 sourceforge.net###mirror
-sourceforge.net###mongo-stick-bn
 sourceforge.net###nels
 sourceforge.net###newsletter-floating
 sourceforge.net###share-project-button
