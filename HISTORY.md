@@ -2,6 +2,7 @@
 
 - Added more bad hosts to the blocklist
 - Added government tracker blockers to the blocklist
+- Added ShadowWhisperer blocklists
 
 # 2026-05-05
 
