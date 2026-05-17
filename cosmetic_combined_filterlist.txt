@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.592
-! Last Modified: 2026.05.17.2107+1000 AEST
+! Version: 1.0.593
+! Last Modified: 2026.05.18.0159+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -373,7 +373,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$frame,denyallow=google.com,domain=dz4link.com
 *$frame,denyallow=google.com,domain=its.porn
 *$frame,denyallow=google.com,domain=shortearn.in
-*$frame,denyallow=google.com,domain=slreamplay.*|streampiay.*
 *$frame,denyallow=google.com|hcaptcha.com,domain=short.pe
 *$frame,denyallow=google.com|hcaptcha.com,domain=uii.io
 *$frame,denyallow=google.com|recaptcha.net,domain=4cash.me
@@ -977,7 +976,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$xhr,domain=thepiratebay.org,badfilter
 *$xhr,domain=up-load.io,badfilter
 *$xhr,frame,3p,domain=pcgamez-download.com
-*$xhr,frame,3p,domain=steanplay.*,denyallow=spcdn.cc
 *$xhr,frame,domain=sexvid.*
 *$xhr,redirect-rule=1x1.gif,domain=ign.com
 *$xhr,redirect-rule=noop.txt,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
@@ -72522,7 +72520,6 @@ ext.to##body > #torrent-title-tooltip ~ div:not([class],[id])
 ext.to,hyhd.org,knaben.xyz,vidsrc-embed.ru#$#abort-on-property-read Adcash
 ext.tofilecrypt.*,yifysubtitles.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/; abort-on-property-read aclib; abort-on-property-read Adcash; override-property-read isAdblock2 false;
 ext=$script,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*
-ext=$script,1p,domain=slreamplay.*
 extendoffice.com##.eo-consent__wrap
 extendoffice.com##.eo-subscribe
 extension.uned.es##.qCookieAnimacionEntrada
@@ -155719,6 +155716,7 @@ proxydocker.com##.container .adsbygoogle
 proxydocker.com##.facebookdiv[style="min-height:200px;"]
 proxydocker.com##.row[style*="margin-top: 0px;"] .facebookdiv
 proxyium.com###proxyscrape_ad
+proxyorb.com##+js(aeld, load, dataset.ready, elements, script[src^="https://www.googletagmanager.com/gtag/js?id="])
 proxyparts.de#%#//scriptlet('set-cookie', '__cookies_consent_gdpr', 'true')
 proxyparts.de#%#//scriptlet('set-cookie', '__permission_marketing', 'false')
 proxyparts.de#%#//scriptlet('set-cookie', '__permission_statistics', 'false')
@@ -171370,8 +171368,6 @@ slowosportowe.pl##a[class^="promo-"]
 slowturk.com.tr##.desc-share-group
 slpress.gr##.ocm-st-sticky
 slpress.gr#$#simulate-mouse-event '.popup_donations_displayed .ig_close$continue'
-slreamplay.*##+js(nano-stb, grecaptcha.ready, *)
-slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streampiay.*##+js(nowoif)
 slreamplay.cc##+js(no-window-open-if)
 sltrib.com###google-preferred
 sltrib.com##.donation-a-test
@@ -176755,12 +176751,6 @@ steamladder.com##.salad
 steampeek.hu##.partner_bar_cont
 steampiay.cc,pouvideo.cc##+js(no-window-open-if)
 steampiay.cc,pouvideo.cc,powvideo.net,powv1deo.cc##iframe[src^="/ben/mgnat.html"]
-steamplay.*##+js(aopr, btoa)
-steamplay.*##+js(aopr, console.clear)
-steamplay.*##+js(aopw, Fingerprint2)
-steamplay.*##+js(aopw, adcashMacros)
-steamplay.*,steanplay.*##.ad
-steamplay.*,steanplay.*,stemplay.*##+js(aopr, jwplayer.utils.Timer)
 steampowered.com##.discussionwidget_ShareBtn_22m-G > img[class^="partnereventshared_Button_"]
 steampowered.com##.game .block > .open_in_steam_container
 steampowered.com#$#simulate-mouse-event '#application_root div[class*="broadcast_embeddable_video_placeholder"] > div[class*="floating"] button'
@@ -176774,8 +176764,6 @@ steamverde.net##.focus-social
 steamverde.net##div[id^="sys-notify-"]
 steamverde.net#%#//scriptlet('prevent-setTimeout', 'offsetHeight === 0')
 steamworkshopdownloader.io##.alert-secondary
-steanplay.*##+js(aeld, , BACK)
-steanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 stechies.com##.ad_mark
 steelcity.online###sidebar .widget_block
 steelcity.online##.gov-ad-wrapper
@@ -177470,11 +177458,6 @@ strazpozarna.maps.arcgis.com#@#.social-share
 strcloud.in,streamtape.*##+js(aeld, contextmenu)
 stre4mpay.one,pooembed.eu,tpead.net,streamed.pk,bmovies.vip,sanet.st,yifysubtitles.ch,streamtape.com,streamtape.net,advertape.net,adblockeronstape.*,adblockplustape.*,adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,advertisertape.com,antiadtape.*,gettapeads.com,noblocktape.*,shavetape.*,stapadblockuser.*,stape.*,strcloud.*,streamadblocker.*,streamadblockplus.*,streamnoads.com,streamta.*,streamtapeadblock.*,streamtapeadblockuser.*,strtape.*,strtapeadblock.*,strtapeadblocker.*,strtapewithadblock.*,strtpe.*,tapeadsenjoyer.com,tapeadvertisement.com,tapeantiads.com,tapeblocker.com,tapelovesads.org,tapenoads.com,tapepops.com,tapewithadblock.org,watchadsontape.com,streamtape.*,wizja.cc,totalsportek.*,casthill.net,streamed.*,exposestrat.com,embedsports.top,nativesurge.net,yts.bz,yts.lt,yts.*,seir-sanduk.com,daddylive3.com,sterham.net,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,kaa.to,strumyk.net,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,flixrave.me,anime4i.com,cuttyy.com,daddyhd.com,daddylive.*,zavalise.com,wooflix.tv,yassflix.net,swipebreed.net,eurekaddl.lat,en.tgo-tv.xyz,miztv.shop,vidlink.pro,knaben.xyz,powstream.*,rojadirectaenvivo.pl,ext.to,nepu.to,capo4play.com,wawacity.cfd,1337x.to,zone-telechargement.*,kickassanime.mx,redecanais.in,streameast.*,thestreameast.*,anroll.net,anarchy-stream.com,freckledine.net,buffstreams.app,sanet.lc,1stream.eu,sportsonline.*,dl-protect.link,cricstreams.re,extreme-down.*,eztvx.to,skidrowreloaded.com,olympicstreams.*,streambucket.net,modsfire.com,official.nbabite.com,sportsonline.*##+js(abort-on-property-read, Adcash)
 stre4mpay.one,powcloud.*,powstream.*,stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##+js(no-window-open-if)
-stre4mpay.one,slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streampiay.*###uverlay
-stre4mpay.one,stre4mplay.*##+js(aopr, puOverlay)
-stre4mpay.one,stre4mplay.*##+js(nowoif)
-stre4mpay.one,stre4mplay.*##.ad
-stre4mpay.one,stre4mplay.*##div[style*="z-index: 1000"][style*="background: transparent"]
 streak.com##.navbar-shadow
 stream.bunkr.is##+js(acs, document.oncontextmenu)
 stream.bunkr.ru##+js(aost, Math, _0x)
