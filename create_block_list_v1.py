@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.2
-# Edited: 2026-03-05 17:03:32 +1100
+# Version 1.0.3
+# Edited: 2026-05-17 16:40:49 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -153,7 +153,7 @@ URL_PREFIX_1 = \
 
 # Testing list URLs
 TESTING_URLS = [
-    # https://github.com/blocklistproject/Lists
+    # blocklistproject - https://github.com/blocklistproject/Lists
     "https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt",
     "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt",
     "https://blocklistproject.github.io/Lists/adguard/crypto-ags.txt",
@@ -169,13 +169,17 @@ TESTING_URLS = [
     "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
     "https://blocklistproject.github.io/Lists/adguard/twitter-ags.txt",
     "https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt",
-    # https://github.com/hagezi/dns-blocklists
+    # hagezi - https://github.com/hagezi/dns-blocklists
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
-    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt"
+    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
+    # Government Trackers
+    "https://raw.githubusercontent.com/CobraZero969/EU-Gov-Tracker-Blocklist-by-madnesscc/refs/heads/main/pihole-eu-gov.txt",
+    # Bad Hosts - https://github.com/cenk/bad-hosts
+    "https://github.com/cenk/bad-hosts/raw/refs/heads/main/bad-hosts-abp"
 ]
 
 print()
