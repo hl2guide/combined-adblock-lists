@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.3
-# Edited: 2026-05-17 16:40:49 +10:00
+# Version 1.0.4
+# Edited: 2026-05-17 17:34:28 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -179,7 +179,22 @@ TESTING_URLS = [
     # Government Trackers
     "https://raw.githubusercontent.com/CobraZero969/EU-Gov-Tracker-Blocklist-by-madnesscc/refs/heads/main/pihole-eu-gov.txt",
     # Bad Hosts - https://github.com/cenk/bad-hosts
-    "https://github.com/cenk/bad-hosts/raw/refs/heads/main/bad-hosts-abp"
+    "https://github.com/cenk/bad-hosts/raw/refs/heads/main/bad-hosts-abp",
+    # ShadowWhisperer Lists
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Ads",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Chat",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Cryptocurrency",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Dating",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Gambling",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Junk",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Malware",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Marketing",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Remote",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Risk",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Scam",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Shock",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Tracking",
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Typo"
 ]
 
 print()
