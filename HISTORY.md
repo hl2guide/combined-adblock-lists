@@ -1,3 +1,8 @@
+# 2026-05-17
+
+- Added more bad hosts to the blocklist
+- Added government tracker blockers to the blocklist
+
 # 2026-05-05
 
 - Fixed YouTube issues (monitoring)
