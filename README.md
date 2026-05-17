@@ -8,16 +8,17 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 ## Details
 
 - Python code runs on GitHub directly using GitHub Actions
-    - Updates about every 5 hours, each day
+    - Updates about every 5 hours, each day (depending on GitHub Actions uptime)
 - Comments and duplicate lines are ignored and the lists are sorted
 
 ### Cosmetic Combined Filterlist
 
 - Includes specific filter lists from _AdBlockPlus_, _AdGuard_, _Brave_, _EasyList_, _EasyPrivacy_, _Fanboy_ and _uBlock_
     - (can be viewed in the `create_cosmetic_list_v2.py` file.)
+    - includes extra international rules
 - All domain blocking rules are excluded from the list
     - _Does not work in AdGuard Home or similar domain-based software_
-- The list is approximately 12.5MB in size
+- The list is approximately 12.6MB in size and has around 200,000 rules
 
 #### Direct raw text link
 
@@ -34,7 +35,7 @@ Blocks bad domains.
 - Only domain blocking rules are included in the list
     - _Works in AdGuard Home or similar domain-based software_
     - Consider performance reasons to not use it in browser-based extensions
-- The list is approximately 31.7MB in size
+- The list is approximately 63.8 MB in size and has around 2.7 million rules
 
 #### Direct raw text link
 
