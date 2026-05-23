@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.621
-! Last Modified: 2026.05.23.1732+1000 AEST
+! Version: 1.0.622
+! Last Modified: 2026.05.23.2112+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -722,7 +722,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,3p,domain=descarga.xyz,denyallow=arc.io
 *$script,3p,domain=desijaan.com,denyallow=fastly.net|unpkg.com|zencdn.net
 *$script,3p,domain=dvdplay.*
-*$script,3p,domain=easyvidplayer.com|embedseek.online|player4me.online
 *$script,3p,domain=eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com
 *$script,3p,domain=faselhd-watch.shop|kickassanime.mx,badfilter
 *$script,3p,domain=freewatchserialonline.com,denyallow=tvlogy.to|bootstrapcdn.com|disquscdn.com|disqus.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|jwpcdn.com
@@ -66290,11 +66289,7 @@ easyticket.de#@#.cookie-overlay:not(html):not(body)
 easyupload.io##.mb-0.pb-0
 easyupload.io##div[class^="reklam"]
 easyvidplayer.com##+js(addEventListener-defuser, click, openPopunder)
-easyvidplayer.com##+js(aeld, click, adId)
 easyvidplayer.com#$#prevent-listener click /(popunder)|(openPopunder)|(adId)/; abort-on-property-read window.open; abort-on-property-read cache_loader;
-easyvidplayer.com,embedseek.online,player4me.online##+js(aeld, click, popunder)
-easyvidplayer.com,embedseek.online,player4me.online##+js(aost, document.createElement, displayLayer)
-easyvidplayer.com,rpmplay.online,pandamovies.org,watchporn4k.com##+js(nowoif)
 easyvidplayer.com,vidplayer.live,embed4me.com,ezplayer.me##+js(addEventListener-defuser, click, adId)
 easyvoyage.co.uk##.code-block > div[style*="text-align"]:contains(ADVERTISEMENT)
 easyvoyage.com###esv-pub-hp
@@ -88828,6 +88823,7 @@ gptoday.net##.link-icon
 gptoday.net##.top-banner-leaderboard
 gptoday.net##.top-gallery > div.link-icon:has(> div.social-share)
 gptoday.net##.webpush_popup
+gptzero.me##body > div.fixed:has(> div.CookieConsent)
 gpucheck.com###placeholder_top_middle
 gpucheck.com##+js(set-constant, myAdManager, {})
 gpucheck.com##.unitBox
@@ -93693,6 +93689,7 @@ hidemyna.me#$##top-menu { top: 0px!important; }
 hidemyna.me#$#.main-download-popup { display: none!important; }
 hidemyna.me#$?##content-section > header:not(:has(> *)) { display: none!important; }
 hidemywp.co##+js(acs, jQuery, userAgent)
+hidencloud.com##+js(prevent-fetch, adsboosters)
 hideogenius.com#?#[id^="oframevideoplayer"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/понравился сайт/i))
 hideout.*##+js(acs, stop, adblock)
 hideproxy.me##.hidemeproxy__slideout
@@ -146271,7 +146268,6 @@ pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*,youwatchporn.com###tracking-
 pandamovies.org###video-overlay
 pandamovies.org##a[href^="https://freepopnews.skin/"]
 pandamovies.org#$#abort-current-inline-script document.createElement uam-wrapper;
-pandamovies.org,watchporn4k.com###video-overlay
 pandamovies.pw##+js(acs, puShown, /doOpen|popundr/)
 pandamovies.pw##+js(aopr, ExoLoader.serve)
 pandamovies.pw##+js(nowoif)
@@ -163300,7 +163296,6 @@ rpiunews.it###banner-testata
 rpiunews.it##.banner-body
 rpiunews.it##.djslider-loader
 rpmplay.online##+js(google-ima)
-rpmplay.xyz##+js(aopr, open)
 rpod.ru###adv240x400
 rpp.pe###rpp-alerta
 rpp.pe##.article__follow
@@ -196409,6 +196404,7 @@ urjalansanomat.fi##.widget:has(> a[href="/lounaat"])
 url-encode-decode.com###ShareModal
 url.namaidani.com##+js(no-window-open-if)
 url.namaidani.com##iframe#frame
+urlando.de##+js(trusted-set-cookie, urlando_consent, '{"analytics":false,"marketing":false,"timestamp":"$currentISODate$"}')
 urlaub.de#$#.cookies { display: none!important; }
 urlaub.de#$#.wrapper.hasCookies .page-header { top: 0!important; }
 urlaub.de#$#body > .wrapper.hasCookies { margin-top: 0px!important; }
@@ -202507,7 +202503,6 @@ watchporn.to##[href^="https://go.gkrtmc.com/"]
 watchporn.to,jerkwell.com,viralxxxporn.com,zzcartoon.com##+js(set-constant, flashvars.adv_pre_url, '')
 watchporn.to,jerkwell.com,xshemale.tv,viralxxxporn.com,zzcartoon.com##+js(set-constant, flashvars.adv_pre_src, '')
 watchporn4k.com##+js(addEventListener-defuser, click, totalClicks)
-watchporn4k.com##.happy-player-beside
 watchporn4k.com,mdhstream.cc,fucking-tube.com##.happy-section
 watchpornfree.info##aside > #execphp-2
 watchpornx.com###execphp-2
