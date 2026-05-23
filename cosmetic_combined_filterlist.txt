@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.620
-! Last Modified: 2026.05.23.1322+1000 AEST
+! Version: 1.0.621
+! Last Modified: 2026.05.23.1732+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3752,7 +3752,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/(?:[-a-z0-9]+\.){2}workers\.dev\/v3\/(?:forgotpassword|security|signup)\b/$doc,to=workers.dev
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/index\?a=/$doc,xhr,match-case,method=get,to=~edu|~gov
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/verify\b/$doc,match-case,method=get,to=~edu|~gov
-/^https:\/\/(?:[0-9a-z]+\.){1,2}(?:cfd|rest)\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$script,3p,match-case
+/^https:\/\/(?:[0-9a-z]+\.){1,2}(?:cfd|rest)\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/(?:\d{6}|[A-Za-z]{5})$/$script,3p,match-case
 /^https:\/\/(?:[^.]+\.)?\d{6}-coinbase\.com\//$doc,to=com|~coinbase.com
 /^https:\/\/(?:[a-f0-9]+\.)?[a-f0-9]{58}\.pages\.dev\//$doc,to=pages.dev
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc,to=weeblysite.com
@@ -17094,7 +17094,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 24health.by##.min-news + div.new
 24heures.ch##.publiBox
 24hindinews.com#?#.gb-container:-abp-properties(min-height)
-24hnbc.com,alokitoshitalakha.com,asianmetronews.com,bartakontho.com,bn.bd24report.com,borendronews.com,chapainews.com,comilla71tv.com,coxsbazarpost.com,crimeexpressbd.com,dailysylhetnews24.com,dakshinsunamganj24.com,edukhabar.com,firlive.com,globalmalayalam.com,hajjnews.com.bd,kanchanjanghaonline.com,khobor24ghonta.com,malayaleevision.com,mkantho.com,nabajug.com,narsingdijournal.com,odia-ray.in,ournews24.com,positivenewsbd.com,postpati.com,rbcnewsbd.com,safalkhabar.com,sajhasabal.com,satkhiratoday.com,seskhobor.com,sokalerkhobor24.com,sunamganjbarta.com,swapnilbangladesh.com,sylheterchakrirkhabar.com,sylhetprothidin24.com,tamilscreen.com,tezsamachar.in##.banner
+24hnbc.com,alokitoshitalakha.com,asianmetronews.com,bartakontho.com,bn.bd24report.com,borendronews.com,chapainews.com,comilla71tv.com,coxsbazarpost.com,crimeexpressbd.com,dailyamarbhumi.com,dailysylhetnews24.com,dakshinsunamganj24.com,edukhabar.com,firlive.com,globalmalayalam.com,hajjnews.com.bd,kanchanjanghaonline.com,khobor24ghonta.com,malayaleevision.com,mkantho.com,nabajug.com,narsingdijournal.com,odia-ray.in,ournews24.com,positivenewsbd.com,postpati.com,rbcnewsbd.com,safalkhabar.com,sajhasabal.com,satkhiratoday.com,seskhobor.com,sokalerkhobor24.com,sunamganjbarta.com,swapnilbangladesh.com,sylheterchakrirkhabar.com,sylhetprothidin24.com,tamilscreen.com,tezsamachar.in##.banner
 24hnbc.com,eyugam.com,tvcmedia.in,vichinthanamweekly.com##.banner-add
 24horas.cl,elconciso.es,forbes.com,teyit.org,gcup.spb.ru,amomeupet.org,rpgfan.com,techrepublic.com,9gag.com,aviasales.ru,huffingtonpost.jp,foxsports.com.mx,elfinanciero.com.mx,kursiv.media,talk.tw,designboom.com,elle.fr,mangacross.jp,manga-meets.jp,peopletalk.ru,foodallergy.org,sharecuts.cn,wtop.com,thegrammarexchange.infopop.cc,open.online,m.tecmundo.com.br,redbull.com,coindesk.com,playbuzz.com,huffingtonpost.co.uk,m.huffpost.com,digital-photography-school.com,tomshardware.com##.share-bar
 24hrnews.in###block-178
@@ -18900,7 +18900,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 5masterzzz.*,everydayporn.co,bussyhunter.com##div[style^="position: absolute; inset: 0px;"]
 5masterzzz.site##+js(nowoif, _blank)
 5masterzzz.site##body > div[style*="z-index:"]:not([id])
-5mio.org,mov2day.xyz,3xyaoi.com,videasy.net,vidsonic.net,twkan.com,insurance.tempatwisata.pro,vsembed.ru,moviego.watch,ythd.org,vidup.to,screenfetch.xyz,movies2watch.tv,totalsportek777.com,hdtoday.gg,movies4us.co,vidfast.pro,vidora.stream,seriesonline.sx,lodynet.*,watchseries.pe,movieshdwatch.to,zonatmo.com,himovies.sx,zoechip.*,flixhq.to,flixhd.*,cineb.*,musichq.cc,gomovies.*,hurawatch.cc,theflixertv.to##+js(abort-current-script, addEventListener, HTMLAllCollection)
 5mod-file.ru#%#//scriptlet("adjust-setInterval", ".fcounter span", "", "0.02")
 5mod.ru,mobzik.ru,tv-vybor.ru,diakov.net##.subscr-lazydev
 5movies.*###content-embed:style(display: block!important)
@@ -19379,6 +19378,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 8tracks.com##.ad_card
 8tracks.com##.banner_container
 8tsu.net#$#abort-on-property-read open
+8tsu.net,b9good.org,b9dm.org,9tsu.vip,5mio.org,mov2day.xyz,3xyaoi.com,videasy.net,vidsonic.net,twkan.com,insurance.tempatwisata.pro,vsembed.ru,moviego.watch,ythd.org,vidup.to,screenfetch.xyz,movies2watch.tv,totalsportek777.com,hdtoday.gg,movies4us.co,vidfast.pro,vidora.stream,seriesonline.sx,lodynet.*,watchseries.pe,movieshdwatch.to,zonatmo.com,himovies.sx,zoechip.*,flixhq.to,flixhd.*,cineb.*,musichq.cc,gomovies.*,hurawatch.cc,theflixertv.to##+js(abort-current-script, addEventListener, HTMLAllCollection)
 8tvr.pl###SmallAds
 8vp.ru##.custom
 8vp.ru##.vp-content-l-r > div > *
@@ -26143,7 +26143,7 @@ alokitoctg.com##div[data-adid] img:not([alt*="e-Paper"])
 alokitomymensingh24.com##.adv_single
 alokitomymensingh24.com##.banner-ad-01
 alokitonarayanganj24.net##.add .widget_area img:not([src*="54342.jpg"])
-alokitoshitalakha.com,nabajug.com##.itpolly_widget img
+alokitoshitalakha.com,dailyamarbhumi.com,nabajug.com##.itpolly_widget img
 alokitosonargaon.com##.head_bottom_add
 alonsoaliaga.github.io,everyeye.it,hausbau-forum.de,birgun.net,curseforge.com,sheepesports.com,automoto.it,calcmaps.com,moto.it,insidermonkey.com,udocz.com,gisarea.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 alorkantho24.news##.ad3
@@ -35861,7 +35861,7 @@ banglapostbd.com##.news-ad-container
 banglaralobd.com##.header-right-sidebar
 banglaralonews.com##.widget_area img
 banglarawaj.com,chilahatiweb.com,importmirror.com,kagojlive.blogspot.com,kushiyaranews.com,marudharabharti.com,publicnewshindi.com,sahibganjnews.com,samjhobharat.com,tistanews24.com,upayuktha.com,vidhikawaj.com###HTML2
-banglarchithi.com,bdsomachar24.com,businesshour24.com,dakshinermashal.com,dristyprotidin.com,jonotaradalot.com,moulvibazar24.com,rangpur24.com,somoyerkontha.com,somoyersangbad.com##.banner2
+banglarchithi.com,bdsomachar24.com,businesshour24.com,dakshinermashal.com,dristyprotidin.com,jonotaradalot.com,moulvibazar24.com,somoyerkontha.com,somoyersangbad.com##.banner2
 banglarchithi.com,hakkatha.com,ournews24.com##.themesBazar_widget img
 banglarjanapad.com##.stream-item:not(#tie-block_309)
 banglarjanapad.com,govindia.in,newslab24.in###block-25
@@ -57844,7 +57844,7 @@ dailyuploads.net##a[href="https://aptoze.com/"]
 dailyuploads.net##a[href^="https://href.li/"]
 dailyusharbani.com,kalerkotha.com,rangpur24.com,sokalershironam.com###home-online-poll
 dailyusharbani.com,rangpur24.com##[style*="min-width: 320px;"]
-dailyusharbani.com,sokalershironam.com##.mt-3 > img
+dailyusharbani.com,rangpur24.com,sokalershironam.com##.mt-3 > img
 dailyuttorpurbo.com##.logo-banner
 dailyuttorpurbo.com,nepalauto.com,nepalekhabar.com##div[class*="advert"]
 dailyvideoreports.net##+js(aeld, load, /showModal|isBlanketFound/)
@@ -81298,6 +81298,7 @@ ft.com##.n-messaging-slot--cookieConsentB
 ft.com##.n-sliding-popup
 ft.com##.o-ads
 ft.com##.o-banner--exponea-marketing-popup-prompt
+ft.com##.slot-wrapper
 ft.com##[data-trackable="story:related-promo"]
 ft.com##[id^="sp_message_container"]
 ft.com##[title="SP Consent Message"]
@@ -146219,6 +146220,7 @@ pamukovasosyalmedya.com,tcaeintegral.es,tremplin-numerique.org,ordvor.com##.join
 pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.nd-operate-guidance
+pan.baidu.com##.nd-workspace-header__top-ad
 pan.baidu.com#@#.share-list
 pan.bilnn.com##div[class^="jss"] > a[href="https://feige.bilnn.com/"]
 pan.quark.cn##.share-right-side-content > img
@@ -158904,9 +158906,6 @@ rangerboard.com##+js(acs, $, btoa)
 rangerboard.com##+js(no-xhr-if, googlesyndication)
 rangerboard.com##.adsbygoogle
 rangpur.news,safalkhabar.com##[class*="advertisement"]
-rangpur24.com##.codedokan_widget
-rangpur24.com##[alt="ad300"]
-rangpur24.com##[alt="ad600"]
 rank-king.jp##div[style="height:350px;"]
 rankedboost.com##.Article-A-Align
 rankedboost.com##.ArticleTopInsert
@@ -195258,9 +195257,6 @@ unchainedcrypto.com###block-10 > .container > .background-gradient
 unclutterapp.com###useCookiesAcceptBlock
 uncrate.com##.ad-wrapper-970
 uncrate.com##[href="https://un.cr/advertise"]
-uncrossy.com##+js(set, cookieManager, {})
-uncrossy.com##+js(set, cookieManager.initialize, noopFunc)
-uncrossy.com##+js(set, cookieManager.needsConsentBanner, falseFunc)
 uncut99.com,vintagepornfun.com###back-to-top + div[id][class*=" "]
 uncutnews.ch###CooDialog
 uncutprime.com#$#hide-if-matches-xpath './/a[contains(@href,"pornzen") or contains(@href,"PornZen")]/ancestor::div[starts-with(@class,"happy-footer")]'
