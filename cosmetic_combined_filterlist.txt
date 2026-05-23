@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.623
-! Last Modified: 2026.05.24.0202+1000 AEST
+! Version: 1.0.624
+! Last Modified: 2026.05.24.0653+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -69815,7 +69815,7 @@ enteratelatino.org##div[id^="enter-"]
 enterinit.com##*::selection:style(background-color:#338FFF!important)
 enterinit.com##.bs-wrap-gdpr-law
 enternity.gr###enternity_social_dialog
-enternity.gr##+js(trusted-replace-argument, document.getElementById, 0, json:"header", condition, /^[a-zA-Z]{12}$/)
+enternity.gr##+js(trusted-replace-argument, document.getElementById, 0, json:"header", condition, /^[A-Za-z]{12}$/)
 enternity.gr##.aent-mis
 enternity.gr##.main_content.article_page:style(margin-top: inherit !important;)
 enternity.gr##a#background_custom:remove()
@@ -142519,6 +142519,7 @@ oknonawagrowiec.pl##.penci-banner-has-text > a[target="_blank"] + img
 oknonawagrowiec.pl##.penci-promo-item > img
 oknonawagrowiec.pl##.wpb_single_image
 oknonet.pl###mainbaner
+oknonet.pl##.gosimbo
 oko-planet.su##body > table[width="100%"][height="150"]
 oko-planet.su#?#.bltitle:-abp-contains(Реклама)
 oko.info.pl###leftAdv
