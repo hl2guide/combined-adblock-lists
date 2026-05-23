@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.622
-! Last Modified: 2026.05.23.2112+1000 AEST
+! Version: 1.0.623
+! Last Modified: 2026.05.24.0202+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -39889,9 +39889,6 @@ birkenstock.com#$#div[class*="privacy-overlay"] { display: none!important; }
 birminghammail.co.uk##+js(set-constant, chameleonVideo.adDisabledRequested, true)
 birminghammail.co.uk##.pwa-modal-prompt
 birminghammail.co.uk##div[data-testid^="non-commercial-"]
-birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,gloucestershirelive,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.GooglePreferredSource_wrapper__lSRA6
-birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,gloucestershirelive,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.ShareBar_sharebar-inner-wrapper__D0YTf
-birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,gloucestershirelive,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.SocialFollowBar_wrapper__h4k_D
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.GooglePreferredSource_wrapper__lSRA6
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.ShareBar_sharebar-inner-wrapper__D0YTf
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.SocialFollowBar_wrapper__h4k_D
@@ -69818,6 +69815,7 @@ enteratelatino.org##div[id^="enter-"]
 enterinit.com##*::selection:style(background-color:#338FFF!important)
 enterinit.com##.bs-wrap-gdpr-law
 enternity.gr###enternity_social_dialog
+enternity.gr##+js(trusted-replace-argument, document.getElementById, 0, json:"header", condition, /^[a-zA-Z]{12}$/)
 enternity.gr##.aent-mis
 enternity.gr##.main_content.article_page:style(margin-top: inherit !important;)
 enternity.gr##a#background_custom:remove()
@@ -71955,6 +71953,7 @@ evhayat.com,thejewishvoice.com,photoshoptutorials.ws###snppopup-welcome
 evhayat.com,thejewishvoice.com,proiezionidiborsa.it###snppopup-exit
 evidea.com###pa-push-notification-subscription
 evidea.com###pa-push-notification-subscription-overlay
+evidenz.asfinag.at,shop.asfinag.at#%#//scriptlet('set-cookie-reload', 'NonEssentialCookiesAccepted', 'no')
 eviebot.com###wrapper > div.verticalleft
 evilangel.com##.Cms_PromoBanner
 evileaks.*##+js(acs, $, prompt)
@@ -74168,9 +74167,6 @@ fate-strange-fake.com,jitsuhaoresaikyo-anime.com,nierautomata-anime.com,onepunch
 fatede-go.com##.mod-rss
 fatede-go.com##.mod-rss-btm
 fatede-go.com##div[id^="ovl_"]
-fategrandorder.info##.ad_toprss
-fategrandorder.info##.heading3
-fategrandorder.info##.rss_big
 fatehnagarnews.com,rghnews.com,skytipsbd.com,udaipurkiran.in###text-16
 fateka.com##.newsletter-subscription-section
 fatgirlskinny.net##+js(aeld, load, isBlanketFound)
@@ -164793,6 +164789,7 @@ sai-zen-sen.jp##html.iikamo-modal-dialog_shown a[href^="https://www.amazon.co.jp
 sai-zen-sen.jp#$?#html.iikamo-modal-dialog_shown a[href^="https://www.amazon.co.jp/"] { visibility: visible !important; pointer-events: auto !important; }
 saidaonline.com##a[href^="advertising.php?"]
 saiganak.com##.entry-adsense
+saiganak.com##.entry-footer-subscribe
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 saigoneer.com###bottom-menu
 saigoneer.com##.bannergroup-main
@@ -169234,7 +169231,6 @@ shop.app#?#section[data-section-name="cookie-active-consent-notice"]
 shop.app,shopify.com##+js(trusted-click-element, button[data-component-name="reject"], , 1000)
 shop.app,shopify.engineering,shopify.com##section[data-section-name="cookie-active-consent-notice"]
 shop.applied-net.co.jp###fixeBox
-shop.asfinag.at#%#//scriptlet('set-cookie-reload', 'NonEssentialCookiesAccepted', 'no')
 shop.asobistore.jp##.snsbtns_area
 shop.asobistore.jp#@#.block-sponsor
 shop.benesse.ne.jp##.item-detail-sns
