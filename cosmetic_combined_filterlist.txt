@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.625
-! Last Modified: 2026.05.24.1341+1000 AEST
+! Version: 1.0.626
+! Last Modified: 2026.05.24.1749+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -5416,6 +5416,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /assets/jquery/p1anime.js$domain=fdewsdc.sbs|vidhidepro.com|nikaplayer.com
 /assets/jquery/p2anime.js?v=
 /assets/jquery/static.js?type=mainstream$~3p
+/assets/jquery/static.js?type=mainstream^$script,1p
 /assets/jquery/style*.js$domain=fsdcmo.sbs|flaswish.com
 /assets/js/*.sirdata.js$domain=futbolfantasy.com
 /assets/js/bootstrap.main.js$domain=totalsportek.pro|footybite.to
@@ -13996,6 +13997,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /vanillaanalytics/js/vendors/js.cookie.js
 /vast-bundle.min.js$domain=defileb.com|fplay.online|hovels.info|likelol.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
 /vast-new/src/videojs-preroll.js$script
+/vast-player-oxserver.js
 /vast.js$domain=aftonbladet.se|svd.se|godare.se|tv.nu
 /vast.js$domain=noodlemagazine.com|mat6tube.com|gaystream.click|zpjid.com|gaystream.link|rapidvid.net|vidrame.pro|hdmovieplay.xyz
 /vast.js$domain=noodlemagazine.com|ukdevilz.com
@@ -30488,6 +30490,7 @@ arabseed.*#$#abort-on-property-read atob; abort-on-property-read decodeURI; abor
 arabseed.me,arabseed.net##+js(abort-on-property-read, area51)
 arabseed.net##center > a[rel="nofollow"] > img
 arabsharing.com##.extras_footer
+arabshentai.com>>,avtub.cx>>,javdo.cc>>,javenglish.cc>>,javhd.*>>,javhdz.*>>,roshy.tv>>,sextb.*>>##+js(set, uas, [])
 arabstoday.net###barca
 arabtalking.com#%#//scriptlet('adjust-setInterval', 'secondsWait', '*', '0.001')
 arabtalking.com#%#//scriptlet('adjust-setTimeout', 'secondsWait', '*', '0.001')
@@ -51326,7 +51329,7 @@ cloudwards.net##.sticky-bottom
 cloudwards.net##.sticky-bottom-bar
 cloudwards.net,guitaradvise.com###cbox
 cloudways.com###cookies-bot
-cloudwish.xyz,gradehgplus.com,javindo.site,javindosub.site,kamehaus.net,movearnpre.com,vstream.id,arabshentai.com>>,avtub.cx>>,javdo.cc>>,javenglish.cc>>,javhd.*>>,javhdz.*>>,roshy.tv>>,sextb.*>>##+js(set, uas, [])
+cloudwish.xyz,gradehgplus.com,javindo.site,javindosub.site,kamehaus.net,movearnpre.com,vstream.id##+js(set, uas, [])
 cloudycdn.services##+js(json-prune, source.ads)
 cloudykitchen.com##.email-highlight
 cloudykitchen.com,redtedart.com##div[id^="fd-form-"]
@@ -199051,9 +199054,10 @@ vidplay.*,mcloud.*##body > div:not([class], [id]) > div[class][style]:only-child
 vidplay.*,mcloud.*,vidstream.*##body > #player-wrapper > div:not([class], [id]) > div[class][style]:only-child
 vidplay.*,vizcloud.*##+js(ra, data-id|data-p, '[data-id],[data-p]', stay)
 vidsonic.net##+js(abort-on-stack-trace, document.getElementById, /adblock/i)
+vidsonic.net##+js(aeld, error, /adblock/i)
 vidsonic.net##+js(no-xhr-if, adsbygoogle)
 vidsonic.net##+js(prevent-fetch, adsbygoogle)
-vidsonic.net##+js(rpnt, script, (detected && true), (false))
+vidsonic.net##+js(rpnt, script, if (_detectWebView()), return false;if (_detectWebView()))
 vidsonic.net#@##ad-box
 vidsonic.net#@##ad-container
 vidsonic.net#@##google-ad
