@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.626
-! Last Modified: 2026.05.24.1749+1000 AEST
+! Version: 1.0.627
+! Last Modified: 2026.05.24.2117+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -22338,7 +22338,7 @@ actcorp.in#$##cityModal { display: none !important; }
 actcorp.in#$#.modal-backdrop { display: none !important; }
 actcorp.in#$#body[class*="modal-open"] { overflow: auto !important; }
 actie.degoedezaak.org,ashush-projects.co.il,campax.org,controller.com,hamat-group.co.il,hamat.co.il,mashumashu.co.il,medor.co.il,mrfdev.com,ofek-mitam.com,pandoor.co.il,pelephone.co.il,vgardenfoods.com,voicemod.net##.cookies-consent
-action.pl,appartementamsterdam.nl,bestbuycyprus.com,cambridge.org,deakin.edu.au,dgpci.mai.gov.ro,discountbank.co.il,dividendmax.com,eluniversal.com.mx,faccsa.com,farrerpark.com,haber7.com,huurwoningamsterdam.nl,imda.gov.sg,jobg8.com,kameramsterdam.nl,lancsmokehouse.com,macpac.co.nz,mercantile.co.il,meups.com.br,motosport.co.il,nomos-glashuette.com,ostwest.tv,pdpc.gov.sg,piadinalumbro.gr,rules.co.uk,safra.sg,studiosamsterdam.nl,woonbotenamsterdam.com##.cookie-message
+action.pl,appartementamsterdam.nl,bestbuycyprus.com,cambridge.org,deakin.edu.au,dgpci.mai.gov.ro,discountbank.co.il,dividendmax.com,eluniversal.com.mx,faccsa.com,farrerpark.com,haber7.com,huurwoningamsterdam.nl,imda.gov.sg,jobg8.com,kameramsterdam.nl,lancsmokehouse.com,macpac.co.nz,mercantile.co.il,meups.com.br,motosport.co.il,nomos-glashuette.com,ostwest.tv,pdpc.gov.sg,piadinalumbro.gr,rules.co.uk,safra.sg,sozcu.com.tr,studiosamsterdam.nl,woonbotenamsterdam.com##.cookie-message
 actionaid.fr,anime-store.fr,anrat.net,app.radiooooo.com,centre-tao.com,didilz.com,dimo.cat,ebox-auto.com,fantasticable.fr,ibzjobs.com,laceter.com,laurore-bourgogne.com,parisensuel.com,pierreberthe.com,ril-immo.fr,servichene.com,vwfinances.com##.rgpd
 actiongame.com,brain-games.co.uk,classicgame.com,games-site.co.uk,hiddenobjectgames.com,mahjong.co.uk,mahjong.com,match3.co.uk,match3games.com,mindgames.com,neongames.co.uk,neongames.com,solitaireonline.com,timemanagementgame.com##.adBlocked,.banner
 actionindialive.com###tie-block_303
@@ -75021,6 +75021,8 @@ fightershop.com.pl##.cMonster
 fightful.com##+js(nosiif, getComputedStyle)
 fightingirl.com##.single-Breadcrumb + div.execphpwidget:has(> div > div[id^="yariman_"])
 fightingirl.com##article > div.execphpwidget:has(> div[style] > div[class^="click_fit__"] > script[src])
+fightmode.tv#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', 'declined')
+fightmode.tv#@#.ck-banner
 fightnews.info##.ads-overlay
 fightnews.info##.bet
 fightnews.info##.ui-widget-overlay
@@ -175062,6 +175064,7 @@ sport24.ru##footer > div:first-child + div a[href*="?utm"]
 sport24.ru##span:contains(Поделиться):upward(div[class])
 sport24.ru#?#div:-abp-has(> [style^="margin-bottom:"][style*="1rem"] > a > .bookmaker-rating)
 sport24.ru#?#div[aria-expanded="false"]:-abp-contains(Реклама)
+sport24.ru#?#div[style^="margin-bottom:"]:-abp-has(> div > div[aria-expanded="false"]:-abp-contains(Реклама))
 sport24.ru#?#footer > div:first-child:-abp-has([alt^="Доступно в "])
 sport24.ua##app-google-subscribe
 sport24.ua,24tv.ua##app-notification-popup
