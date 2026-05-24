@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.624
-! Last Modified: 2026.05.24.0653+1000 AEST
+! Version: 1.0.625
+! Last Modified: 2026.05.24.1341+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1708,12 +1708,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/track?v=
 .com/uploads/*-860x250.gif
 .com/v.js?v=3|$1p
-.com/vh1/$script,third-party
-.com/vh2/$script,third-party
-.com/vh5/$script,third-party
 .com/vinos.js?$third-party,script
-.com/vj1/$script,third-party
-.com/vj2/$script,third-party
 .com/vodad.js
 .com/vtrack
 .com/watch.*.js?key=
@@ -3000,7 +2995,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /993dy_new//gg123/*
 /99rejs/js/adv
 /99vjj/*$third-party
-/://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /:\/\/20\d\d\d\d\d\d\..*\.html/$third-party,subdocument
 /:\/\/[A-Za-z0-9]+.ru\/[A-Za-z0-9]{20,25}.js/$domain=music-radio.ru
 /:\/\/fmovies.[a-z]+\/[A-Za-z0-9]+$/$domain=fmovies.cab
@@ -3616,9 +3610,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /\.(?:cc|com|top|vip)\/index\/index\/lang\/[a-z]{2}-[a-z]{2}\b/$doc,to=cc|com|top|vip
 /\.(?:click|pages\.dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|pages.dev|surge.sh|~facebook.com
 /\.(?:pages\.dev|vercel\.app)\/appeal_case_id\b/$doc,to=pages.dev|vercel.app
-/\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
-/\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
-/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 /\.[a-z][a-z][a-z]\/$/$xhr,3p,domain=aniwatchtv.to|goku.sx
 /\.[a-z]{2,6}\/[0-9A-Za-z]{5,8}\.js$/$script,3p,domain=bestjavporn.com|ero-anime.website|javdock.com|javtiful.com|onscreens.me|hdpornflix.com|supjav.com|analdin.com|up4fun.top|thefantazy.com
@@ -20122,14 +20113,11 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 :8888/mb1/wap_
 :8888/zhu/pc_
 :8888/zhu/wap_
-:8891/v*/$script,third-party
 :8898/ads_
 :900*/d/*n=$script,third-party
 :900*/d/*t=$script,third-party
 :900*/sc/*n=$script,third-party
 :9001/code/
-:9875/vh2/
-:9875/vj2/
 :99/js/ads/
 :not(:empty/adc-ads-lib|$script
 =/ligatus/
@@ -96372,6 +96360,7 @@ huk24.de,huk.de#%#//scriptlet('trusted-set-cookie', 'consent_version', '2.8')
 hukmatpro.*,linuxslaves.com##+js(aopw, hidekeep)
 hukukihaber.net##.pull-right > a[onclick^="shareFacebook"]
 hukumonline.com##+js(trusted-set-cookie, hol_CookiePreferences, '{"necessary":true,"analytics":false,"advertising":false}')
+hukumonline.com##.text-center.py-2:has(> [id^="bling-"])
 hulakpatra.com,kagajpatra.com,onlinenews7.com##.proad
 hulaksanchar.com##.niti-ads
 hulchalnews24.com##.alignnone.size-medium
@@ -109099,6 +109088,8 @@ kingbokep.*##.md\:flex-row.flex-col.gap-3.flex.mt-3
 kingbokep.*##[grid-area="ads1"]
 kingbokep.*##div.flex.w-full.justify-center.overflow-x-auto
 kingbokep.*##div[style="width:300px;height:250px;z-index:1"]
+kingbokep.media###floating-bottom
+kingbokep.media###floating-top
 kingbolentool.com###uppush-notification
 kingbolentool.com##.spinWheelWrapper
 kingcard.com.tw#@##adbox
