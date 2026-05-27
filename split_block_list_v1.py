@@ -36,7 +36,7 @@ def split_file_by_size(filename, chunk_size_mb=80):
             file_number += 1
 
 # Usage
-blocklist_combined = 'blocklist_combined_filterlist.txt'
+BLOCKLIST_COMBINED = 'blocklist_combined_filterlist.txt'
 split_file_by_size(blocklist_combined, 80)
 
 try:
