@@ -44,6 +44,8 @@ jobs:
         run: python create_cosmetic_list_v2.py
       - name: Run create_block_list_v1.py
         run: python create_block_list_v1.py
+      - name: Run split_block_list_v1.py
+        run: python split_block_list_v1.py
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
@@ -62,5 +64,5 @@ jobs:
 # OLD:
 # python -m pip install --upgrade pip
 
-# Updated: 2026-02-01 11:55:18 +1100
+# Updated: 2026-05-28 06:12:18 +10:00
 # - adjusted schedule to every 5 hours to account for GitHub delay.
