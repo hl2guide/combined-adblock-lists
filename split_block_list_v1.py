@@ -37,12 +37,12 @@ def split_file_by_size(filename, chunk_size_mb=80):
 
 # Usage
 BLOCKLIST_COMBINED = 'blocklist_combined_filterlist.txt'
-split_file_by_size(blocklist_combined, 80)
+split_file_by_size(BLOCKLIST_COMBINED, 80)
 
 try:
-    os.remove(blocklist_combined)
-    print(f"{blocklist_combined} deleted successfully.")
+    os.remove(BLOCKLIST_COMBINED)
+    print(f"{BLOCKLIST_COMBINED} deleted successfully.")
 except FileNotFoundError:
-    print(f"{blocklist_combined} does not exist.")
+    print(f"{BLOCKLIST_COMBINED} does not exist.")
 except PermissionError:
-    print(f"Permission denied to delete {blocklist_combined}.")
+    print(f"Permission denied to delete {BLOCKLIST_COMBINED}.")
