@@ -1,5 +1,6 @@
 # 2026-05-28
 - Added new list to blocklist
+- Split blocklist to 80MB text files
 
 # 2026-05-17
 

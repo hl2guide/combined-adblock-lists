@@ -6,6 +6,12 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 [![Python CI - analyse with Pylint, lint with flake8, format with black](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_ci.yml/badge.svg)](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_ci.yml)
 [![Python Run - run a script and then save to GitHub repo](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_run_script.yml/badge.svg)](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_run_script.yml)
 
+## Important News
+
+### 2026-05-28
+
+**Users of the Blocklist please be sure to update the links to the new ~80MB sized links.**
+
 ## Details
 
 - Python code runs on GitHub directly using GitHub Actions
@@ -43,10 +49,11 @@ _Recommended for use in AdGuard Home or similar domain-based software._
     - Consider performance reasons to not use it in browser-based extensions
 - The list is approximately 63.8 MB in size and has around 2.7 million rules
 
-#### Direct raw text link
+#### Direct raw text links
 
 ```
-https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/main/blocklist_combined_filterlist.txt
+https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_000.txt
+https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_001.txt
 ```
 
 ## Recent News
