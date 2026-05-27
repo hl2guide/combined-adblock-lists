@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.4
-# Edited: 2026-05-17 17:34:28 +10:00
+# Version 1.0.5
+# Edited: 2026-05-28 05:50:58 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -194,7 +194,9 @@ TESTING_URLS = [
     "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Scam",
     "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Shock",
     "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Tracking",
-    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Typo"
+    "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Typo",
+    # Pyenb List
+    "https://raw.githubusercontent.com/Pyenb/Pi-hole-blocklist/main/blocklist.txt"
 ]
 
 print()
@@ -203,7 +205,7 @@ print('Starting Filter List downloads..')
 # How many threads should run in parallel?
 # NUM_WORKERS = 24
 # TESTING MORE WORKERS
-NUM_WORKERS = 32
+NUM_WORKERS = 40
 
 # Combines the URL lists to one list of URLs
 URLS = TESTING_URLS

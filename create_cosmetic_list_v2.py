@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.14
-# Edited: 2026-05-05 10:15:15 +1000
+# Version 2.0.15
+# Edited: 2026-05-28 05:51:43 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -307,7 +307,7 @@ print('Starting Filter List downloads..')
 # How many threads should run in parallel?
 # NUM_WORKERS = 24
 # TESTING MORE WORKERS
-NUM_WORKERS = 32
+NUM_WORKERS = 40
 
 # Combines the URL lists to one list of URLs
 URLS = TESTING_URLS
