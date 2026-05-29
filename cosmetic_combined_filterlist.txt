@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.649
-! Last Modified: 2026.05.29.0754+1000 AEST
+! Version: 1.0.650
+! Last Modified: 2026.05.29.1342+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -24099,6 +24099,7 @@ ah-me.com,gaygo.tv,tranny.one##.flirt-block
 ah.nl##.product-card-portrait_root__ZiRpZ:has(.promotion_root__pAAlu)
 ah.nl#@#.f-ad
 aha-music.com##.ant-card-contain-grid:has(> div.ant-card-head:contains(Share to))
+aha-music.com##.countdown-ad-wrap
 aha-music.com##.self-center > div:has(> div >a[href^="https://twitter.com/intent/"])
 aha.or.at#$#.cookie-consent { display: none !important; }
 aha.or.at#$#.cookie-consent ~ div.overlay { display: none !important; }
@@ -73567,7 +73568,7 @@ fandom.com#$#div[data-tracking-opt-in-overlay] { display: none !important; }
 fandom.com#?##WikiaBar:has(> #WikiaBarWrapper > .wikia-bar-anon > .message[data-wikiabarcontent])
 fandom.com,gamepedia.com##body #pageWrapper > #content[role="main"] > div[id^="siderail_"][id*="_gamepedia"]
 fandom.com,gamepedia.com#$?##pageWrapper > #content[role="main"] > #bodyContent:has(+div[id^="siderail_"][id*="_gamepedia"]) { width: 100%!important; }
-fandom.com,metacritic.com##.fandom-ad-wrapper
+fandom.com,gamespot.com,metacritic.com##.fandom-ad-wrapper
 fandomwire.com###fandom-cookie
 fandomwire.com##.g1-injected-unit
 fandomwire.com##.g1-newsletter-horizontal
@@ -81573,6 +81574,7 @@ full-count.jp#?#.l-sidebar > aside.l-sidebar__block:has(> div.l-sidebar-ranking 
 full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND))
 full4movies.website##center > button[class^="buttonPress-"]
 full4u.xyz##+js(no-window-open-if)
+fullamoda.com,huggingface.co##a[href^="https://play.google.com/store/apps/"]
 fullassia.com##+js(nowoif)
 fullassia.com##[class^="ban"]
 fullassia.com,assia23.com##+js(abort-on-property-read, ClickUnder)
@@ -96503,7 +96505,6 @@ huffpost.com,huffingtonpost.jp#@#.ad-leaderboard-flex
 huffpost.com,nypost.com#%#//scriptlet('abort-on-stack-trace', 'Object.keys', 'canEnterFloating')
 huge.se##.section-cookies-notice-outer
 hugedomains.com###fabButtonIconLinkID
-huggingface.co##a[href^="https://play.google.com/store/apps/"]
 hugkum.sho.jp###single-share-buttons-bottom
 hugo3c.tw##+js(nosiif, visibility, 1000)
 hugocursos.com.br,jogatina.com##.alerta
@@ -100220,6 +100221,7 @@ indoxxi.net##.coliklan
 indoxxi.tv###home-bnner-content
 indoxxi.tv###top-bnner-content
 indrenionline.com##.vc_widget_sidebar img
+indsponsors.nl##.min-h-screen > .sm\:max-w-md.shadow-2xl
 indulgexpress.com##.facebook_timeline
 indulgexpress.com##div[class*="section_content_check_"]
 industrialpunch.com##.ml-slider:not(#metaslider-id-53525)
@@ -122052,6 +122054,7 @@ majorgeeks.com##.content > table.alford
 majorgeeks.com##.geekycolumn > b > font[color="#000000"]
 majorgeeks.com##.geekycolumn > b > font[color="#000000"] + a[rel="nofollow"]
 majorgeeks.com##.geekywraplight > div:not([class]) > div[style]:has(> a[href*="&utm_source"])
+majorgeeks.com##.mg-giveaway-banner
 majorgeeks.com##[style*="background-color:"]:has(> a[href*="&utm_source"])
 majorgeeks.com##a[href*="/affiliate.php?"]
 majorgeeks.com##b:has(a[target^="reimage"])
@@ -125930,6 +125933,7 @@ memohaber.com##.socialdiv
 memoriadatv.com##+js(nano-stb)
 memoriadatv.com##ins.adsbygoogle
 memoriadatv.com#%#//scriptlet("adjust-setTimeout", "countdown", "", "0.02")
+memorial.com.tr##.smart-banner-block
 memorialcenter.org##.bLhnKD
 memorialcenter.org##.fptruc
 memoryhackers.org##+js(acs, RegExp, googlebot)
@@ -176011,6 +176015,7 @@ sportsplays.com##+js(abort-on-stack-trace, XMLHttpRequest, vfT)
 sportsplays.com##+js(nostif, abDetected)
 sportsplays.com##.bannerZone
 sportsplays.com,pravda-nn.ru,mindtecstore.com,profi.ru,starterstory.com,valentins.de,netgear.com##.modal-backdrop
+sportspyder.com##div[class^="_signUp_"]
 sportsq.co.kr###layerPopup_1
 sportsrec.com##.inline-parent-container
 sportsseoul.com##.btn-share-open
@@ -185409,6 +185414,7 @@ theguardian.com##.site-message
 theguardian.com##.site-message--banner
 theguardian.com##.site-message--cookies
 theguardian.com##.top-fronts-banner-ad-container
+theguardian.com##[data-component="preferred-source-button-prefer"]
 theguardian.com##[data-spacefinder-type="model.dotcomrendering.pageElements.NewsletterSignupBlockElement"]
 theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
@@ -188578,6 +188584,7 @@ tirage-gagnant.com##.sidebarclick
 tirangaacindianews.com##.addbx
 tirangaacindianews.com##.headnBx .text-right
 tirendo.de##.quick-newsletter-container
+tirerack.com##+js(trusted-click-element, #meru-cm button.meru-cc__bn[aria-label="Reject All"], , 2000)
 tires.costco.ca##+js(set, adobePageView, noopFunc)
 tires.costco.com##+js(set, adobePageView, noopFunc)
 tires.costco.com##+js(set, adobeSearchBox, noopFunc)
