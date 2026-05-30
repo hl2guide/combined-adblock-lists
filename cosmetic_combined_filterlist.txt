@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.657
-! Last Modified: 2026.05.31.0205+1000 AEST
+! Version: 1.0.658
+! Last Modified: 2026.05.31.0659+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -90846,6 +90846,7 @@ habr.com##.tm-footer__social
 habr.com##.tm-layout-sidebar__banner
 habr.com##.tm-layout__wrapper > .container-wrapper[style]
 habr.com##.tm-page__header
+habr.com##.tm-page__wrapper > .content-blur:empty
 habr.com##.tm-project-block
 habr.com##.tm-promo-post-link
 habr.com##.tm-sharing
@@ -144776,6 +144777,7 @@ opportunitydesk.org##body, div, p, span, a, h1, h2, h3, h4, h5, h6:style(-webkit
 oprah.com##.gtm-consent
 oprahdaily.com##.affiliate-disclaimer
 oprahdaily.com,caranddriver.com##section > div[class]:has(> div.ad-container)
+oprocentowanielokat.pl,przeglad-sejnenski.pl###baner
 ops.alertcalifornia.org##+js(trusted-set-cookie, popup-cookie-alertca, viewed)
 ops.pl,msze.info,flog.pl,naukowiec.org,rymy.eu,krzyzowki.edu.pl,odleglosci.info,ortograf.pl,interpunkcja.pl##.top-billboard
 opswat.com##.cookie-ntc
@@ -156291,7 +156293,6 @@ przeclaw24.pl##.main-col-top
 przeclaw24.pl##a[href^="https://booksy.com/"]
 przeclaw24.pl##a[href^="https://www.fruktolinka."]
 przedreptacswiat.pl###black-studio-tinymce-5
-przeglad-sejnenski.pl###baner
 przegladbrzeski.pl##a[href^="https://jakon-inwest.pl"]
 przegladkoninski.pl###head_advertise
 przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##+js(set-constant, arePiratesOnBoard, false)
@@ -207251,7 +207252,7 @@ www.aport.ru##.sidebar-item.banner
 www.asu.baby#$#abort-on-property-read initialAdURLs
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##.--advert
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##body > .footer ~ [src^="https://pay.google.com/"] + div[class]
-www.avito.ru##[data-chunks="item"] + div > div:first-child > div:first-child + div > div:first-child + div + div:last-child > div:only-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
+www.avito.ru##[data-chunks="item"] + div > div:first-child > div:first-child > div[class] > div:first-child + div > div:first-child + div + div:last-child > div:only-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
 www.avito.ru##div[class*="avito-ads-container"]
 www.avito.ru##div[class*="index-advRootWidget"]
 www.avito.ru##div[class*="styles-module-root_animation-"]:empty
