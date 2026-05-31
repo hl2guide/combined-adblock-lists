@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.662
-! Last Modified: 2026.06.01.0209+1000 AEST
+! Version: 1.0.663
+! Last Modified: 2026.06.01.0700+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -65608,7 +65608,6 @@ dzen.ru##[id*="_R-I-"]
 dzen.ru##[id*="_R-N-"]
 dzen.ru##[id*="_tsar"]
 dzen.ru##[id*="news_discrete_right"]
-dzen.ru##a.news-story-block__link ~ div > div:not([class])
 dzen.ru##a[class^="dzen-desktop--marketing-snackbar-"]
 dzen.ru##a[href*="://t.mail.ru/redir/"]
 dzen.ru##a[href^="https://trk.mail.ru/"]
@@ -65713,6 +65712,7 @@ dzen.ru#?#div[data-testid="article-showcase-card"]:-abp-has(> [data-testid="card
 dzen.ru#?#div[id] > div[id]:-abp-has(> div[style="visibility: visible;"])
 dzen.ru#?#p[class^="block"]:has(> span > b:contains(/^Подпишись на/))
 dzen.ru,sportsdzen.ru##.trapPopupContainer
+dzen.ru,sportsdzen.ru##a.news-story-block__link ~ div > div:not([class])
 dzen.ru,sportsdzen.ru##div[class*="mascot-banner"]
 dzen.ru,sportsdzen.ru##div[class*="snackbar-context-provider"]
 dzen.ru,sportsdzen.ru##div[class^="news-"][class*="Branding"]
@@ -104187,7 +104187,6 @@ iworld.com##.send_form
 iworld.com##div[onclick^="document.location='#popup'"]
 iwsc.net##[class^="l-cookies_"]
 ix8.la##div[class^="ADTOPLB_"] > .bd
-ixbt.com###accept_cookie_policy_wrapper
 ixbt.com###yandex_recommend
 ixbt.com##.Blocksmaster
 ixbt.com##.b-block__parterslist
@@ -104238,17 +104237,16 @@ ixbt.com,ixbt.games,ixbt.pro,www1.ru##.recommend-c
 ixbt.com,ixbt.market###accept_cookie_policy_wrapper
 ixbt.com,ixbt.market##.b-adfox
 ixbt.com,ixbt.market##.deskadv
+ixbt.com,ixbt.pro###cookie-consent-banner-root
 ixbt.com,ixbt.video##.gdpr-root
 ixbt.com,rbkgames.com,vyborok.com##div[id^="marketWidget"]
 ixbt.games##.desktop-c
 ixbt.games##.recommend-c
 ixbt.games##.sidebar-c
 ixbt.games##article > div.not-prose:has(> div[id^="ad-"])
-ixbt.games,ixbt.com##.gdpr-root
 ixbt.games,ixbt.pro##.clickable_zone
 ixbt.games,ixbt.pro,www.ixbt.com,www1.ru##div[id^="ad-"]
 ixbt.games,www1.ru##.text-color-navbar-social
-ixbt.market###accept_cookie_policy_wrapper
 ixbt.market###sidebar > .block-type-blog ~ section:last-of-type
 ixbt.market##nav [id^="icon/social/"]
 ixbt.market#?#nav a:-abp-has([id^="icon/social/"])
