@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.658
-! Last Modified: 2026.05.31.0659+1000 AEST
+! Version: 1.0.659
+! Last Modified: 2026.05.31.1357+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -31322,9 +31322,9 @@ artigercek.com##.content-tools > div.loaded
 artigercek.com#?#.container > div.row:has(> div[class^="col-"] div.small + a.social-icon)
 artima.com,turbobit.net###topbanner
 artinvestment.ru##div[style="border: 1px solid black"]
-artisbokep.online,artisbokep.site##.ab-top-video-banners
-artisbokep.online,artisbokep.site##.banner-slide
-artisbokep.online,artisbokep.site##.top-banner
+artisbokep.*,artisbokep.online,artisbokep.site##.ab-top-video-banners
+artisbokep.*,artisbokep.online,artisbokep.site##.banner-slide
+artisbokep.*,artisbokep.online,artisbokep.site##.top-banner
 artisbokep.site###floating-banner-inner
 artisbokep.site###popupBannerOverlay
 artisbokep.site###top-floating-banner-inner
@@ -37709,11 +37709,15 @@ benchmark.pl##.hidden-md-down
 benchmark.pl##.hidden-tb-down
 benchmark.pl##.hidden-tb-up
 benchmark.pl##.market-aside
+benchmark.pl##.wp-billboard
+benchmark.pl##.wp-screening-placeholder-container
 benchmark.pl##[class^="productCompareSimilar "]
 benchmark.pl##aside > .next-click
 benchmark.pl##body .ad-ph
+benchmark.pl##div[class*=" "]:has(>div[class*=" "]:first-child + script:last-child)
 benchmark.pl##img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"]:upward(1)
 benchmark.pl##style:has-text(right:0;top:0;bottom:0;left:0;margin:auto;position:absolute;):upward(1)
+benchmark.pl,select.wp.pl,so-magazyn.pl,kafeteria.pl,informacje.wp.pl,wplatform.media,pcformat.pl,staszownews.pl,zdrowienews.pl,kurierostrowiecki.pl,ostrowiec24.info,kielce112.pl,lublinnews.pl,lovelifestyle.pl,telefan24.pl,marketing-zone.pl,panoramaplock.pl,ipolska24.pl,dzieckopoznan.pl,historiapoznania.pl,sportpoznan.pl,pysznosci.pl,kultura.wp.pl,jastrzabpost.pl,wirtualnemedia.pl,open.fm,deliciousmagazine.pl,poczta.wp.pl,pilot.wp.pl,polygamia.pl,abczdrowie.pl,money.pl,dobreprogramy.pl,o2.pl,gadzetomania.pl,komorkomania.pl,autocentrum.pl,pudelek.pl,vpolshchi.pl,parenting.pl,autokult.pl,fotoblogia.pl,dom.wp.pl,pogoda.wp.pl,gry.wp.pl,wroclaw.wp.pl,moto.wp.pl,wideo.wp.pl,kuchnia.wp.pl,facet.wp.pl,sportowefakty.wp.pl,turystyka.wp.pl,magazyn.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,tech.wp.pl,opinie.wp.pl,teleshow.wp.pl,gwiazdy.wp.pl,film.wp.pl,wiadomosci.wp.pl,finanse.wp.pl##+js(remove-cookie, /^WPsad/)
 benchmark.unigine.com##.bottom-notice
 benchmarkreviews.com##body:style(background-image: none!important;)
 benchmarkreviews.com##html > body:style(background-image: none!important;)
@@ -42138,6 +42142,8 @@ boke112.com##a[href^="https://dwz.cn/"]
 boke112.com,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 bokep.pemersatu.top###myDiv
+bokepindo.*##.pos-bottom.widget-float
+bokepindo.*##.pos-top.widget-float
 bokepindo13.*,bokepindoh.*#$#abort-on-property-read open
 bokepsin.in.net##+js(nowoif, _blank)
 bokepvir.*###sticky-banner
@@ -106594,12 +106600,14 @@ jpl.nasa.gov##a[aria-label^="Share via"]
 jpl.nasa.gov##div[itemprop="articleBody"] > div.BaseGrid + div.BaseGrid:has(> div.relative > div.BlockNewsletterSignup)
 jpl.nasa.gov##div[itemprop="articleBody"] > div.BaseGrid + div.BaseGrid:has(> div.relative > div.bg-gray-light > a[href="/newsletter-signup/"])
 jpmusicblog.com##.gridmode-share-buttons
+jpnn.com###iftop + div
 jpnn.com###jpnn_m_nasional_medrec
 jpnn.com##+js(aopr, document.oncopy)
 jpnn.com##.ans-300x250
 jpnn.com##.text-center.mtb-10
 jpnn.com##div[class^="ans-"]
 jpnn.com##section.leaderboard
+jpnn.com,medcom.id##.sticky_bottom
 jpnumber.com##.frame-300-gray
 jpnumber.com##.sponsor-link1
 jpopasia.com,atlasobscura.com##.btn-facebook
@@ -108774,6 +108782,7 @@ kgd.ru##.soc-foot
 kgd.ru##div[style^="width:"][style*=";height:"][style*="px;background:#f3f6f9"]
 kgd.ru#?#div:-abp-has(> .modhead:-abp-contains(Мы в социальных сетях))
 kgd.ru#?#div:-abp-has(> .modhead:-abp-contains(Реклама))
+kgdavia.ru##.cookieAgr
 kget.com#$#simulate-mouse-event '.close-expanded-player$delay=0'
 kgm.gov.tr,dometrain.com,linuxliteos.com,portaleargo.it###spopupCont
 kgnow.com##.kcm
@@ -124685,7 +124694,6 @@ medcom.id###Ads_billboard
 medcom.id##.footer_sticky_inside
 medcom.id##.leaderboard
 medcom.id##.parallax_ads
-medcom.id##.sticky_bottom
 medcom.id##.widebanner.banner
 medcom.id##div.showcase.banner
 medcom.id##div.skycrapper.banner
@@ -153016,6 +153024,7 @@ pornhub.com#@#div > [style*="width: 100%;"]:first-child
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,pornhub.org###abAlert
 pornhub.com,pornhub.org###ageDisclaimerMainBG
+pornhub.com,pornhub.org###globalCookieBanner
 pornhub.com,pornhub.org###headerUpgradePremiumBtn
 pornhub.com,pornhub.org##.ad-tabSplit
 pornhub.com,pornhub.org##.bottomNav > a[href][target="_blank"]
@@ -167701,7 +167710,6 @@ selbstauskunft.net,dynv6.com##div[class^="d-cc--modal"]
 select.by##.min-height-200px
 select.by,banki24.by##.cookies_consent
 select.mamastar.jp##.c_area > div.renew-style:has(> div.articleSns)
-select.wp.pl,so-magazyn.pl,kafeteria.pl,informacje.wp.pl,wplatform.media,pcformat.pl,staszownews.pl,zdrowienews.pl,kurierostrowiecki.pl,ostrowiec24.info,kielce112.pl,lublinnews.pl,lovelifestyle.pl,telefan24.pl,marketing-zone.pl,panoramaplock.pl,ipolska24.pl,dzieckopoznan.pl,historiapoznania.pl,sportpoznan.pl,pysznosci.pl,kultura.wp.pl,jastrzabpost.pl,wirtualnemedia.pl,open.fm,deliciousmagazine.pl,poczta.wp.pl,pilot.wp.pl,polygamia.pl,abczdrowie.pl,money.pl,dobreprogramy.pl,o2.pl,gadzetomania.pl,komorkomania.pl,autocentrum.pl,pudelek.pl,vpolshchi.pl,parenting.pl,autokult.pl,fotoblogia.pl,dom.wp.pl,pogoda.wp.pl,gry.wp.pl,wroclaw.wp.pl,moto.wp.pl,wideo.wp.pl,kuchnia.wp.pl,facet.wp.pl,sportowefakty.wp.pl,turystyka.wp.pl,magazyn.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,tech.wp.pl,opinie.wp.pl,teleshow.wp.pl,gwiazdy.wp.pl,film.wp.pl,wiadomosci.wp.pl,finanse.wp.pl##+js(remove-cookie, /^WPsad/)
 selectAdvertiserElement$domain=bebisvarlden.se
 selectra.jp,walletinvestor.com##.sticky-footer
 selectra.net##.action-box
@@ -186607,6 +186615,7 @@ theproxy.lol,unblock-it.com,uproxy2.biz###cookieConsentUR99472
 theprp.com##.post-preview-next
 theprp.com##.post-preview-prev
 theptvnews.com##.td-a-rec img:not([src*="perfect_kejriwal-"])
+thepublic.info###silktide-wrapper
 thepublic.info##.main-article-share
 thepublic.info##.subscribe-form-wrap
 thepublic.info##.vertical-share-bl
@@ -196378,6 +196387,7 @@ uploadrar.*##.fs-5, p, ul, li, #how-to-open, .download-controls, .ad-box + cente
 uploadrar.*##form > center:has(.btn):has([href])
 uploadrar.*##main > center > a.btn-primary
 uploadrar.com###commonId > a > img
+uploadrar.com###gdpr-cookie-notice
 uploadrar.com###news_last
 uploadrar.com##.card.border-warning
 uploadrar.com##.my-4 > form[method="POST"] > center
