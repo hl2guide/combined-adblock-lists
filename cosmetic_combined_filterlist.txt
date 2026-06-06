@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.688
-! Last Modified: 2026.06.06.2127+1000 AEST
+! Version: 1.0.689
+! Last Modified: 2026.06.07.0205+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3680,6 +3680,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /\/image_pdf\/Ad\/1-News\/1-0_(%E5%88%A5%E5%86%8A%E4%BA%94%E8%BC%AA%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E3%83%8F%E3%82%99%E3%83%8A%E3%83%BC|tk_goods_3AD220921|jasupo_3AD210113)\.(jpg|gif)/$domain=world-tt.com
 /\/img\/(?!new).+\.gif/$image,1p,domain=jennylist.xyz
 /\/img\/(?!new).+\.gif/$image,~3p,domain=jennylist.xyz
+/\/inc\/embed\/index\.php/$frame,uritransform=//\/inc\/embed\/video-js-new.php/,from=wcoflix.tv,to=embed.wcostream.com
 /\/js\/(?:[a-z]+\/)?[a-z]+_[a-f0-9]{32}\.js\b/$script,1p,match-case,domain=mangakakalot.gg|natomanga.com|nelomanga.net
 /\/js\/[a-z]j\.js$/$script,~3p,domain=joysporn.sex
 /\/js\/[a-z]j\.js$/$script,~third-party,domain=joysporn.sex
@@ -27196,7 +27197,7 @@ amlbot.com#%#//scriptlet('trusted-set-cookie', 'localConsent', 'true')
 amlesson.ru##+js(aopw, disableSelection)
 amlesson.ru##+js(aopw, disable_keystrokes)
 ammanealing.org#?#.wpb_wrapper:-abp-has(> div > .sc_item_title:-abp-contains(Advertisement))
-ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.jamf.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
+ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.jamf.com,fortinet.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
 ammergauer-zeitgeist.de,sportarena.it,stacherhof-zillertal.at###ccmodal-container
 ammerlaender-versicherung.de#$#.cookieModalBackdrop { display: none !important; }
 ammerlaender-versicherung.de#@##cookieAccept
@@ -53881,7 +53882,7 @@ console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref] > 
 console.scaleway.com#%#//scriptlet('trusted-click-element', 'body > div:not([id]) > div[data-open="true"] > dialog > div[class] > div[class] > h2 + button')
 console.yandex.cloud##.header-app-notifier
 console.yandex.cloud#%#//scriptlet('set-local-storage-item', 'cc_mobile_promotion_visited', 'true')
-consoleconnect.com,pccwglobal.com,sorianatural.es###cc-overlay
+consoleconnect.com,olvacourier.com,pccwglobal.com,sorianatural.es###cc-overlay
 consoleroms.com,romspedia.com##+js(nano-sib, timeLeft)
 consoleroms.com,romspedia.com#%#//scriptlet("adjust-setInterval", "timeLeft ", "*", "0.02")
 consoletarget.com##+js(aopr, loadTool)
@@ -71465,6 +71466,7 @@ etsy.com###web2app-drawer
 etsy.com###web2app-shophome
 etsy.com##+js(trusted-set-cookie, p, eyJnZHByX3RwIjoyLCJnZHByX3AiOjF9, 1year, , reload, 1)
 etsy.com##.chrome-footer__app-link
+etsy.com##.chrome-footer__etsy-finds
 etsy.com##.download-app-takeover
 etsy.com##.wt-alert--success-02.wt-alert--fixed-bottom
 etsy.com##[data-page-type="listing_page_similar_listings_grid"]:has([id^="ad-listing-title-"])
@@ -97870,6 +97872,8 @@ idfl.me##[href="http://bit.ly/adsvbola"]
 idfl.me##[id^="yui-gen"].postcontainer
 idfl.me,teknoup.com###fancybox-wrap
 idg.se##.spklw-post-attr[data-type="ad"]
+idhubs.app##.pwa-banner
+idhubs.app##.pwa-overlay
 idi.it##.pure-cookies-notice-container
 idiallo.com###newsletter-article
 idilyazar.com#@#.ads_wrapper
@@ -122007,6 +122011,7 @@ mail.google.com##[data-pep-id="global-pep-gmail"]
 mail.google.com##[data-rp-onramp-input]
 mail.google.com##a[href^="http://li.blogtrottr.com/click?"]
 mail.google.com##div[class][style^="min-height:"] > form[role="search"] ~ div[class*=" "][style=""]
+mail.google.com##div[data-is-inner-content-recommendation]
 mail.google.com##div[data-pep-id="global-pep-gmail"]
 mail.google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 mail.google.com##div[role="banner"][aria-labelledby]
@@ -151089,6 +151094,8 @@ player.vgtrk.com##.pl-vid__like
 player.vgtrk.com##.pl-vid__share
 player.vgtrk.com#%#//scriptlet('set-constant', 'Object.prototype.IS_CHECK_REGISTRATION', 'false')
 player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read open
+player.videasy.to##+js(addEventListener-defuser, unload, unloaded_at)
+player.videasy.to##+js(no-window-open-if)
 player.vidify.top###root > .group > .inset-0.fade-in:has(> video.object-cover):style(display: none !important;)
 player.vidify.top###root > .group > .mx-auto:has(video[x5-video-player-type]):style(display: block !important;)
 player.vimeo.com##button[data-share-button]
@@ -165424,7 +165431,6 @@ sagar-tv.com###aab-overlay
 sagarmatha.tv##.no-vigyapan-sidebar-section
 sagartvnews.com##a[class^="myadsply"]
 sagat.no,svalbardposten.no##.nf-js-cookiebox
-sagepub.com#@#.scrollToTop
 sagewater.com##+js(set, aoAdBlockDetected, false)
 saggiamente.com###cookie-law-padding
 saggiamente.com##body > div#skin
@@ -178622,6 +178628,8 @@ streamz.cc##+js(abort-on-property-read, videoplay)
 streamz.cc##+js(remove-attr, onclick, form[action="dodownload.dll"] > input[onclick*="window.open"])
 streamzone.org###menuLeft
 streamzone.org##span[style*="3.0em;"]
+streamzy.to##.tg-banner
+streamzy.to##.tg-popup
 streamzz.*,streamz.*##+js(no-window-open-if, /video.php)
 streamzz.*,vidlink.org,streamz.*,nullpk.com,mitly.us,software-on.com##a[href^="http://deloplen.com/"]
 stredoevropan.cz##.td-header-sp-recs
@@ -190893,6 +190901,7 @@ toweroffantasy.info##+js(set-constant, nitroAds.abp, true)
 towerofgod.me##+js(noeval-if, ads)
 towleroad.com##.towletarget
 town.yahaba.iwate.jp,tvi.jp,rkc-kochi.co.jp,jrt.co.jp,fbc.jp,fct.co.jp,teny.co.jp,fmf.co.jp###gdpr_c
+townandcountrymag.com##[data-vars-block-type="Newsletter"]
 townandcountrymag.com,veranda.com,prevention.com,goodhousekeeping.com##section > div:has(> div.ad-container)
 townflex.com##.code-block
 townhall.com###closemenu
@@ -196732,6 +196741,7 @@ upload-4ever.com##a[onclick^="window.open("] ~ a[style*="text-align: left;"][sty
 upload-4ever.com##center > a.btn-success
 upload-4ever.com##div[class^="my-"] > ins.adsbygoogle:upward(1)
 upload-4ever.com#?#tbody > tr.wow:has(> td.bg-light > a[href="https://www.upload-4ever.com/register.html"])
+upload-apk.com##.vr-adv-unit
 upload.ac##.ads
 upload.ac##.btn-dl-plus
 upload.app,apkpure.*###policy-info
