@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.686
-! Last Modified: 2026.06.06.1335+1000 AEST
+! Version: 1.0.687
+! Last Modified: 2026.06.06.1745+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -20055,6 +20055,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 ://tracker.*/track/event
 ://tracking.*/beacon/
 ://tracking.*/event
+://tralut.*/collect/value?
+://tralut.*/js/script-dynamic.js
+://tralut.*/js/tracking.js
 ://trk.*.run^$document
 ://uads.$third-party,xmlhttprequest
 ://video-ads.
@@ -61892,7 +61895,6 @@ digitaltrends.com##div[class^="dtvideos"]
 digitaltrends.com##div[data-shortcode-name="respec-newsletter-signup"]
 digitaltrends.com#$#simulate-mouse-event '.m-sticky-video.is-stuck .m-sticky-video--close'
 digitaltrends.com#@#.ad_container
-digitaltrends.com,driveteslacanada.ca,mothership.sg##[href^="https://www.google.com/preferences/source"]
 digitaltrends.com,mozo.com.au##.b-newsletter-signup
 digitaltrends.com,themanual.com##.dt-primis
 digitalvidya.com###text-13
@@ -74307,6 +74309,8 @@ fastcompany.com##section[data-testid="newsletter-subscription-form"]
 fastcompany.com#?#.pb-1.gap-4:has-text(Sign up for)
 fastcompany.com#?#.pb-6:has-text(Newsletter)
 fastcompany.com,about.com##.adhesive
+fastcompany.com,inc.com###article_share_button
+fastcompany.com,inc.com###article_share_google_icon
 fastcompany.com,inc.com##.bcToaster
 fastcompany.com,inc.com,nationalreview.com,chronicle.com##.bcpNotificationBarStickyBottom
 fastcompanybrasil.com##.fcbr_social_share
@@ -75472,12 +75476,12 @@ filecr.com#@#.ad_unit
 filecr.com#@#.pub_300x250
 filecr.com#@#.text-ad
 filecr.com#@#.text_ad
-filecrypt.*###jh34[onmousedown^="var lsj = this;loc.href="]
 filecrypt.*##+js(ra, onclick, button[id][onclick*=".html"])
 filecrypt.*##+js(rmnt, script, '{delete window[')
 filecrypt.*##+js(rmnt, script, localStorage.setItem)
 filecrypt.*##+js(set, isAdblock, false)
 filecrypt.*##^script:has-text('{delete window[')
+filecrypt.*##button[onclick*=".href="]
 filecrypt.*##button[onclick*="duckier.com"]
 filecrypt.*##div:has(> [href*=".html"])
 filecrypt.*##div[class^="fiIItheadblock"]
@@ -90071,7 +90075,7 @@ gsmarena.com###subHeader3
 gsmarena.com###subHeader:has(> #topAdv)
 gsmarena.com###topAdv
 gsmarena.com###wrapper > div#outer > div#subHeader
-gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|offsetHeight/)
+gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|atob/)
 gsmarena.com##+js(remove-cookie, DeviceID)
 gsmarena.com##.adv-mid
 gsmarena.com##.d-flex:has(pgs-ad)
@@ -95338,6 +95342,7 @@ homecrux.com##.tac.us_wrapper
 homedecoratione.com##ins.adsbygoogle
 homedecoratione.com#@#.advertiser
 homedepot.ca##body:style(opacity: 1 !important;)
+homedepot.ca##sponsored-banner
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 homedepot.com##.js-sponsored--banner
 homedepot.com##[id*="sponsored"]
@@ -99847,7 +99852,9 @@ inc.com#$#.announcement { display: none !important; }
 inc.com#$#.fancybox-lock { overflow: auto !important; }
 inc.com#$#.sticky-bar { top: 0px !important; }
 inc.com#$#simulate-mouse-event '.bigWrapper div[class*="closeMustWatch"]'
+inc.com#?#.lg\:gap-3.lg\:justify-between:has-text(SIGN UP)
 inc.com#?#.lg\:gap-3:has-text(Weekly roundup)
+inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 inc.com#?#body > div.fancybox-overlay:has(> div.fancybox-wrap div.fancybox-inner div.bcRecommendations)
 inc.com#?#div[class^="ArticleGrid__feedContainer"] > div[class^="Article__articleContent__"]:has(> form.newsletter)
 inc.com,fastcompany.com###article_share_button
@@ -106818,6 +106825,7 @@ jpg2png.com,gtaweb.eu#$#body div.fc-message-root { display: none !important; }
 jpg6.su##iframe[src^="//go.gsrv.dev/"]
 jpgazeta.ru##.widget_grimlock_section
 jpgazeta.ru##[class*="share_save_widget"]
+jpix.ad.jp,smahospital.jp,nipponsteel.com##.p-gdpr
 jpl.nasa.gov##.BlockNewsletterSignup
 jpl.nasa.gov##.text-center.bg-gray-light
 jpl.nasa.gov##a[aria-label^="Share via"]
@@ -172336,7 +172344,6 @@ sm.news,tulapressa.ru##div[class^="msg_fixed_"]
 sma.de###tracker-banner
 smacharaajtak.com##aside.widget_media_image > img
 smachno.ua##.soc_table
-smahospital.jp,nipponsteel.com##.p-gdpr
 smailpro.com##+js(set, adsbygoogle_ama_fc_has_run, true)
 smailpro.com##.ads-sidebar-right
 smailpro.com##.flex > div.text-center:has(> div > ins.adsbygoogle)
