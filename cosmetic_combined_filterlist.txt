@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.689
-! Last Modified: 2026.06.07.0205+1000 AEST
+! Version: 1.0.690
+! Last Modified: 2026.06.07.0705+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1594,8 +1594,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .com/elan/$image
 .com/exload.js
 .com/external/*?width=300&height=250$frame,1p
-.com/f_lo.js|$script,1p
-.com/f_lo.js|$script,~3p
 .com/fr.js|$1p
 .com/g.gif?
 .com/gg.js
@@ -3680,7 +3678,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /\/image_pdf\/Ad\/1-News\/1-0_(%E5%88%A5%E5%86%8A%E4%BA%94%E8%BC%AA%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E3%83%8F%E3%82%99%E3%83%8A%E3%83%BC|tk_goods_3AD220921|jasupo_3AD210113)\.(jpg|gif)/$domain=world-tt.com
 /\/img\/(?!new).+\.gif/$image,1p,domain=jennylist.xyz
 /\/img\/(?!new).+\.gif/$image,~3p,domain=jennylist.xyz
-/\/inc\/embed\/index\.php/$frame,uritransform=//\/inc\/embed\/video-js-new.php/,from=wcoflix.tv,to=embed.wcostream.com
+/\/inc\/embed\/index\.php/$frame,uritransform=//\/inc\/embed\/video-js-new.php/,from=wco.tv|wcoflix.tv,to=embed.wcostream.com
 /\/js\/(?:[a-z]+\/)?[a-z]+_[a-f0-9]{32}\.js\b/$script,1p,match-case,domain=mangakakalot.gg|natomanga.com|nelomanga.net
 /\/js\/[a-z]j\.js$/$script,~3p,domain=joysporn.sex
 /\/js\/[a-z]j\.js$/$script,~third-party,domain=joysporn.sex
@@ -8000,8 +7998,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /flashad.js$script
 /flex-mag/js/dfp.js
 /flipptag.js
-/flo.js|
-/flo.js|$domain=~courtesgroupe.fr
 /floa.js$domain=ah-me.com|beeg.com|croea.com|imagetwist.com|kporno.com|picshick.com|picturelol.com|porntube.com
 /float_ad.js$script
 /float_r.js
@@ -43346,7 +43342,7 @@ br-campus.jp##.article-register-banner
 br-campus.jp##[id^="jsi-"][id*="register-modal"]
 br-dge.to##+js(set-cookie, cookieConsent, 1)
 br-dge.to##+js(trusted-set-cookie, cookieConsentGroups, '{"adConsentGranted":false,"adPersonalizationConsentGranted":false,"adUserDataConsentGranted":false,"analyticsConsentGranted":false,"functionalityConsentGranted":true,"personalizationConsentGranted":false,"securityConsentGranted":true}')
-br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,huellendirekt.de,kmudigital.at,kontostand.at,mazda-autohaus-volz-saarbruecken.de,serveminecraft.net,spares2repair.co.uk,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
+br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,huellendirekt.de,kmudigital.at,kontostand.at,mazda-autohaus-volz-saarbruecken.de,serveminecraft.net,spares2repair.co.uk,ukrinform.net,ukrinform.ua,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
 br.advfn.com##.special-post
 br.de##+js(set, akamaiDisableServerIpLookup, noopFunc)
 br.de##.c_toolbar_list > li.c_tb_social
@@ -55225,7 +55221,6 @@ crash.net##.social-sharing-buttons
 crash.net##button[onclick*="_sp_.gdpr.loadPrivacyManagerModal"]
 crash.net#%#//scriptlet('trusted-click-element', '#lbs-content div.placeholder.embed > button.embed-show-trigger')
 crash.net,nltimes.nl,ttnews.com##.block-better-social-sharing-buttons
-crash.net,ttnews.com##.block-better-social-sharing-buttons
 crash.net,visordown.com##.block-ad-manager
 crashavia.ru##.div-social
 crast.net###Adblock:style(display: none !important;)
@@ -60351,6 +60346,7 @@ designyourway.net##.reclamaint
 desigual.com##.t005-lightbox
 desigual.com##.t005-overlay
 desigual.com##b2c-cookies-notification
+desihoes.com###topRightBanner
 desiindian-brighton.co.uk,royalspiceworthing.com##.bxUGXS
 desijugar.net##+js(acs, document.onkeydown)
 desikhabar.in,tamizhakam.com###post-footer-ads
@@ -74282,8 +74278,6 @@ fastcompany.co.za##div[class^="google-ad_"]
 fastcompany.co.za##div[class^="search_googlePreferred"]
 fastcompany.co.za,biz.newdaily.co.kr,unionesarda.it##div[class^="article-share"]
 fastcompany.com###FCGlobalPlayerFrame
-fastcompany.com###article_share_button
-fastcompany.com###article_share_google_icon
 fastcompany.com##.adhesive-banner
 fastcompany.com##.article-container > div.flex:has(> div > div.newsletters__page__marketo__form__container)
 fastcompany.com##.article-container > div.py-8
@@ -97872,6 +97866,7 @@ idfl.me##[href="http://bit.ly/adsvbola"]
 idfl.me##[id^="yui-gen"].postcontainer
 idfl.me,teknoup.com###fancybox-wrap
 idg.se##.spklw-post-attr[data-type="ad"]
+idhubs.app##+js(remove-node-text, script, __AB_DET)
 idhubs.app##.pwa-banner
 idhubs.app##.pwa-overlay
 idi.it##.pure-cookies-notice-container
@@ -121749,8 +121744,6 @@ magazine-avantages.fr#%#//scriptlet('adjust-setTimeout', '/userConsentProcessEnd
 magazine.aldi-nord.de###modShareBtn
 magazine.artstation.com##.s-bar
 magazine.artstation.com##.sidebar-newslttr
-magazine.aruhi-corp.co.jp###related-post:style(margin-top: 30px !important;)
-magazine.aruhi-corp.co.jp##.patial-sns
 magazine.cainz.com###sideShareArea
 magazine.cainz.com##.page_sns
 magazine.dmkt-sp.jp##.bw-sns-magazine
@@ -214016,8 +214009,6 @@ zzzyk.com###Tinfo
 ~dizihastasi.com,~sluzbyspecjalne.com,~bilisimogretmeni.com,~mshowto.org,~klassikauto.pl,~telekritika.ua,~smarthomebeginner.com##div[class^="widget-social"]
 ~dobro.mail.ru,~e.mail.ru,mail.ru,~my.mail.ru,sportmail.ru##table > tbody > tr > td:first-child + td + td:last-child
 ~dogdrip.net,~smsonline.clou##ins[id][style*="--gn-ov-ad-height"]
-~dogdrip.net,~smsonline.cloud##*:not(body) > a[href^="https://content-loader.com/player"]
-~dogdrip.net,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/player"]
 ~dogdrip.net,~smsonline.cloud##amp-img[height="   120"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   300"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   336"]
@@ -214034,9 +214025,6 @@ zzzyk.com###Tinfo
 ~dogdrip.net,~smsonline.cloud##div[style^="height:    250px; width:    300px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    160px; height:    600px; margin: 0px auto; min-width: 160px; min-height: 600px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    300px; height:    250px;"]
-~dogdrip.net,~smsonline.cloud##html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2502032353000"]
-~dogdrip.net,~smsonline.cloud##html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2507172035000"]
-~dogdrip.net,~smsonline.cloud##html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2509031727000"]
 ~dogdrip.net,~smsonline.cloud##img[height="   250"][width="   300"]
 ~dogdrip.net,~smsonline.cloud##img[height="   90"][width="   728"]
 ~dogdrip.net,~smsonline.cloud##ins[style$="height:    90px; width:    728px;"]
