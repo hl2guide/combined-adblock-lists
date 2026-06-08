@@ -47,7 +47,7 @@ _Recommended for use in AdGuard Home or similar domain-based software._
     - (can be viewed in the `create_blocklist_list_v1.py` file.)
 - Only domain blocking rules are included in the list
     - Consider performance reasons to not use it in browser-based extensions
-- The list is approximately 63.8 MB in size and has around 2.7 million rules
+- The lists are approximately 112 MB in size and has around 5 million rules (around 1GB of RAM usage in AdGuard Home)
 
 #### Direct raw text links
 
