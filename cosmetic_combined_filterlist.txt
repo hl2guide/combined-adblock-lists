@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.700
-! Last Modified: 2026.06.09.0750+1000 AEST
+! Version: 1.0.701
+! Last Modified: 2026.06.09.1336+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -64576,7 +64576,8 @@ dribbble.com##.announcements
 dribbble.com##.js-ad-boosted
 dribbble.com##.service-result:has([data-promoted-badge])
 dribbble.com##[data-ad-data*="ad_link"]
-dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])
+dribbble.com##drb-infinite-scroll .service-result:has(drb-tooltip[data-featured-badge])
+dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-featured-badge])
 dribbblegraphics.com##+js(rmnt, script, deblocker)
 drikpanchang.com##.dpAdSection
 drimble.nl##.email-grid-item
@@ -122509,11 +122510,13 @@ makeuseof.com##.itunes
 makeuseof.com##.new-offers
 makeuseof.com##.new_sharebar
 makeuseof.com##.playstore
+makeuseof.com##.sidebar-default
 makeuseof.com##.single-post-newsletter
 makeuseof.com##.single-post-sharing-button-list
 makeuseof.com##.single-post-sidebar small[style^="color:"][style*="ray"]
 makeuseof.com##.w-google-addus-btn
 makeuseof.com##div[id^="axdsense"]
+makeuseof.com,military.com##.sidebar-first
 makeway.pl###shareWidget
 makezine.com###makeblog .mz-story-infinite-view .wrapper .row.sticky-sidebar-posts-nav .hamburger-navigator.open img.initial
 makezine.com###mz-mag-cover
@@ -127848,7 +127851,6 @@ military.com##.block--addtoanyadv
 military.com##.mlt-sidebar-widget--large
 military.com##.mlt-social-sharing-article-header
 military.com##.page__top
-military.com##.sidebar-first
 military.com##article.embedded-entity
 military.com,polygon.com##.w-google-addus-btn
 militaryarms.ru##.mrBlack
@@ -151518,6 +151520,8 @@ plus-plus.tv#%#//scriptlet('remove-class', 'show-cookies', 'body#page-plusplus')
 plus-soft.ru##noindex > center
 plus.ananweb.jp##article > nav.social
 plus.espn.com##.popup-container
+plus.fm-p.jp##.ad_overlay #footer_prelogin:style(margin-top: 150px !important; padding-bottom: 20px !important;)
+plus.fm-p.jp#@#.ad_overlay #footer_prelogin:style(margin-top: 100px !important;)
 plus.gmx.net#%#//scriptlet('trusted-click-element', '#save-all-conditionally')
 plus.net##.cf__main-block
 plus.nhk.jp##.hls-player_message
@@ -177284,6 +177288,7 @@ staples.com###searchResultsContainer [data-id^="tile"]:has(.standard-tile__spons
 staples.com##.SearchRootUX2__bannerAndSkuContainer
 staples.com##.flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*="Sponsored by"])
 staples.com##.footer-subscribe-form__formWrapper
+staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 staples.com#?#.side-by-side-carousel__carousel_container:has-text(Sponsored Products)
@@ -181744,6 +181749,7 @@ targeo.pl##body > div[style^="position: absolute; z-index:"]:not([class]):not([i
 target.com##+js(json-prune-fetch-response, data.search.products.[-].sponsored_ad.ad_source, , propsToMatch, url:/plp_search_v2?)
 target.com##.h-position-fixed-bottom
 target.com##.styles__Container-sc-spydln-0
+target.com##[data-module-type="GlobalRecommendedProducts"]:has(> [data-test*="sponsored_items"])
 target.com##[data-test="featuredProducts"]
 target.com##[data-test="recommended_products_placement_adaptpdp_sponsored_items"]
 target.com##[data-test="sponsored-text"]
@@ -199961,6 +199967,7 @@ vidoza.net##[id*="ScriptRoot"]
 vidplay.*,mcloud.*##body > div:not([class], [id]) > div[class][style]:only-child
 vidplay.*,mcloud.*,vidstream.*##body > #player-wrapper > div:not([class], [id]) > div[class][style]:only-child
 vidplay.*,vizcloud.*##+js(ra, data-id|data-p, '[data-id],[data-p]', stay)
+vidplus.pro##+js(rpnt, script, playVideo();, loadEmbedVideo();)
 vidsonic.net##+js(abort-on-stack-trace, document.getElementById, /adblock/i)
 vidsonic.net##+js(aeld, error, /adblock/i)
 vidsonic.net##+js(no-xhr-if, adsbygoogle)
@@ -206711,6 +206718,7 @@ woolworths.co.nz#?#cdx-cta:has-text(Learn more)
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 woolworths.com.au##.search-banner-top-mbox
 woolworths.com.au##div[class^="aem-video-ad-unit_component_video-container_"]
+woolworths.com.au##shared-header-adaptive-menu-panel.category-list .featured
 woolworths.com.au##shared-mbox:has(> div[data-mbox^="acs.w-s.web."])
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
