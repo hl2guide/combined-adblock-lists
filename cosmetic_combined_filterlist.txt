@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.709
-! Last Modified: 2026.06.11.0357+1000 AEST
+! Version: 1.0.710
+! Last Modified: 2026.06.11.0803+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -19577,6 +19577,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 9gag.com###jsid-app > div[style^="position: fixed; width:"][style*="top: 50px"]:style(top: 0 !important;)
 9gag.com###main > div[style^="position: relative;"][style*="z-index:"][style*="min-height:"]
 9gag.com###top-navb:style(top: 0 !important;)
+9gag.com##+js(abort-current-script, Math.random, moa_id)
 9gag.com##+js(acs, document.createElement, moa_id)
 9gag.com##+js(json-prune, config.ad data.posts.[-].promoted.[=].1)
 9gag.com##.badge-ad-container
@@ -23399,8 +23400,6 @@ aescripts.com,hakkousa.com,laurenbjewelry.com###notice-cookie-block
 aeslib.ru##.widget_custom_html.FixedWidget__fixed_widget
 aeslib.ru##aside > .widget_custom_html:not(.FixedWidget__fixed_widget)
 aeternum-map.gg##div:has(> div#player)
-aether.bar#$#.popout-wrapper { display: none !important; }
-aether.bar#$#html[data-no-scroll], html[data-no-scroll] body { overflow: auto !important; }
 aether.mom##+js(set-local-storage-item, modal-promotional-dismissed, true)
 aether.mom##+js(trusted-replace-argument, String.prototype.split, this, , condition, 'null,http')
 aether.mom##[href^="https://a.acebet.com/api/click?a="]
@@ -31114,6 +31113,7 @@ armadaboard.com##td[style*="theme_orig"] > table
 armani.com##.uiLayer-newsletterLink
 armani.com#$?#html[style^="margin-right:"]:has(>body) { overflow: visible!important; margin-right: 0!important; }
 armdocs.com##.disclaimer-notice
+armedangels.com##body::after
 armedangels.com#$#.cookie-permission-modal { display: none !important; }
 armedangels.com#$#body { overflow: auto !important; }
 armedangels.com#$#body::before { display: none !important; }
@@ -59202,7 +59202,7 @@ decolar.com##.go-to-app
 decolar.com##.subscription-sticky-footer-container
 decomaniacos.es##+js(acs, addEventListener, google_ad_client)
 decompiler.com##+js(abort-current-script, document.createElement, /disabled-link[\s\S]*?advertisement/)
-decompiler.com##+js(rpnt, script, /^([^{])/, `(function(){var win=typeof unsafeWindow!=="undefined"?unsafeWindow:window;var _P=function(){};for(var i=0;i<8;i++)_P.prototype["m"+i]=function(){};var _ea=new Proxy({__esModule:true,wait:Promise.resolve([{}]),Placement:_P},{get:function(t,k){if(k in t)return t[k];return function(){};}});win.ethicalads=_ea;})();$1`)
+decompiler.com##+js(rpnt, script, /^([^{])/, `(function(){var win=typeof unsafeWindow!=="undefined"?unsafeWindow:window;function P(){}P.prototype.load=function(){};P.prototype.rotate=function(){};P.prototype.fetch=function(){};P.prototype.inViewport=function(){};P.prototype.applyStyles=function(){};win.ethicalads={__esModule:true,wait:Promise.resolve([{}]),load:function(){},reload:function(){},load_placements:function(){},unload_placements:function(){},set_verbosity:function(){},check_dependencies:function(){},Placement:P};})();$1`)
 decompiler.com##+js(set-constant, ethicalads, {})
 decompiler.com##+js(set-constant, ethicalads.wait, true, , asResolved)
 decopedia.nl#@##cookieContainer
@@ -92953,6 +92953,7 @@ heavy-r.com##.mob-ban
 heavy-r.com##.nopop.hd-bar
 heavy-r.com##[class^="adzone"]
 heavy-r.com##iframe[src^="//a.pierlinks.com/"]
+heavy.com###custom_html-27
 heavy.com###fp-popup-modal
 heavy.com##+js(no-fetch-if, ads)
 heavy.com##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -99789,7 +99790,6 @@ impotsurlerevenu.org##+js(aopr, alerte_declanchee)
 impotsurlerevenu.org##div[style*="float:right;width:300px;"]
 impozitauto.ro###gdpr-filter
 impress-stores.co.il,tambour.co.il###cookie-consent-acf-modal
-impress.co.jp,ispazio.net,techradar.com,dumka.media,comments.ua,muhalif.com.tr,vidomo.media,dexerto.com,malatyaguncel.com,yenisakarya.com,phonearena.com,ortadogugazetesi.com,gucluanadolugazetesi.com,alanyapostasi.com.tr,samsungazetesi.com,hamlegazetesi.com.tr,uyan32.com,yeniizmir.com,ilerigazetesi.com.tr,egetelgraf.com,referansgazetesi.com.tr,sonmuhur.com,gazetearena.com,gazetegercek.com.tr,politikam.com,gercekhaberci.com,newsofx2.com,thedailystar.net,samayam.com,teluguone.com,hockeyfeed.com,marasbugun.com.tr,cinemascomics.com,iguru.gr,lidergazete.com,autocarindia.com,112.ua,tunota.com,tomshardware.com,24saatgazetesi.com,halktv.com.tr,www-ntv-com-tr.cdn.ampproject.org,libertatea.ro,afyonturkeligazetesi.com,moja-ostroleka.pl,kamudanhaber.net,ajansspor.com,takvim.com.tr,dirilispostasi.com,americatv.com.pe,haberantalya.com,gunhaber.com.tr,pisapapeles.net,antalyahurses.com,sozcu.com.tr,aydinkulis.com,doisongphapluat.com.vn,reisetopia.de,gazetebirlik.com,iscihaber.net,sonhaber.eu,politic.gr,asianetnews.com,lance.com.br,cxid.info,nld.com.vn,vtcnews.vn,theblock.co,bibamagazine.fr,business-standard.com,autoplus.fr,buzzorange.com,abendzeitung-muenchen.de,bayburtmedya.com,12punto.com.tr,athina984.gr,pchome.com.tw,bayburtmanset.com,tele1.com.tr,dealabs.com,pcquest.com,tko.pl,generacionxbox.com,menemenhaber.com.tr,matricedigitale.it,armyrecognition.com,analyticsindiamag.com,blocktrends.com.br,investing.com,studyfinds.org,trhaber.com,avgi.gr,deccanherald.com,aksam.com.tr,daily-bangladesh.com,noticiasautomotivas.com.br,turkiyegazetesi.com.tr,haberler.com,www-news18-com.cdn.ampproject.org,haberler.com,eurasiantimes.com,vesti-ua.net,hlavnespravy.sk,ictvietnam.vn,giga.de,news.itsfoss.com,fpsjp.net,bedavainternet.com.tr,buyuksivas.com,kredibankalar.com,akyazihaber.com,kamuajans.com,tamgaturk.com,tarsushaber.com,akademikpersonel.org,inegolonline.com,ordugazete.com,gunes.com,koinfinans.com,startefacts.com,donanimhaber.com,iha.com.tr,star.com.tr,karadenizgazete.com.tr,alem.com.tr,egepostasi.com,dunya.com,ulusal.com.tr,turkgun.com,cepkolik.com,teknoloji.org,lavnik.net,gadgets360.com,sokgazetesi.com.tr,fotospor.com,neowin.net,haberturk.com,memurlar.net,mirchi9.com,eltiempo.pe,vietnamnet.vn,sportskeeda.com,desidime.com,tuoitre.vn,clutchpoints.com,ithardware.pl,listelist.com,imparcialoaxaca.mx,elpais.com.co,minuto30.com,impact.ro,b1tv.ro,moviesroom.pl,techwafer.com,moonshot.news,radiokp.ru,brestcity.com,aykiri.com.tr,yenicaggazetesi.com.tr,cnnbrasil.com.br,saudigazette.com.sa##a[href^="https://news.google.com/publications/"]
 impressionen.de#$#body { position: static!important; overflow: visible!important; }
 impressionen.de#$?#div[data-ausw-test-layer="true"]:has(> div[class^="ausw_"] > div[class^="ausw_"] > section > aside[aria-label="Newsletter"]) { display: none!important; }
 impressionen.de#?#div[data-app] > div[class] > div:has(> div[class] > div[class] > section[role="dialog"] > aside[aria-label^="Zum Newsletter"])
@@ -125010,7 +125010,7 @@ meczenazywo.pl,mecze24.pl##.active > .list > li[class]:not([data-sport]):not(.in
 meczyki.org##.list > .promo
 meczyki.org##[class^="cool-stuff"]
 meczyki.org##a[href^="https://meczyki.net.pl/bukmacher/"] > img
-meczyki.pl##+js(no-window-open-if, bit.ly)
+meczyki.pl##+js(no-window-open-if, /bit\.ly|\/link\/.* _blank/)
 meczyki.pl##.background-custom[style*="width:"][style*="height:"][style*="background-image:"]
 meczyki.pl##.banner-wrapper
 meczyki.pl##.bookie-wrapper
@@ -148815,12 +148815,16 @@ peperi.com.br##.anuncios-responsivo
 peperi.com.br##.box-anuncio
 peple.com.tr##.footer-top
 pepper.com,pepper.pl##.listLayout-box:has(> .ad:only-child)
+pepper.pl###sidebarContentPortal .listLayout-box:has(> .slot)
 pepper.pl###softMessages-list
 pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="https://"], [title])
+pepper.pl##.box--content > .flex:has(> .slot--bg:only-child)
 pepper.pl##.js-banner.aGrid[data-track*="twitter_banner"]
 pepper.pl##.js-threadList > div[id^="customBannerList-"]:has(> .listLayout-box > .aGrid > picture > img[alt^="Newsletter"])
 pepper.pl##.listLayout-main > div:not([class], [id]) > .flex:has(> .ad--bg)
+pepper.pl##.listLayout-side > .flex:has(> div[id$="AdSlotPortal"])
 pepper.pl##.messages
+pepper.pl##.slot:has(div[id^="ad-"])
 pepper.pl##div[class*="hide--fromW"] > .flex:has(> .ad--bg)
 pepper.pl##div[id$="AdSlotPortal"]
 pepper.pl#$#.popover-cover.zIndex--modal:empty:has(+ .zIndex--modal.popover--layout-fixed-bottomSheet .vue-portal-target > .flex > button[data-t="showCookiesSettings"]) { display: none !important; }
@@ -166127,6 +166131,7 @@ samsung.com##.cm-cookie-geo > .cm-cookie-geo__msg
 samsung.com##.cm-cookie-geo__msg-wrap
 samsung.com##.cod05-app-banner
 samsung.com##.gb-gnb__notice-bar
+samsung.com##aside[aria-label="Cookie banner"]
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 samsung.com#@#.cookie-notice
 samsungapps.com#@#.cookiePopup:not(body)
@@ -168101,6 +168106,7 @@ seeklogo.com##.sstkBannerWp
 seekube.com##._1AsHk
 seekxl.de##.bg
 seekxl.de##.welcome
+seekyoursounds.com###leaderboard-master
 seelen.io##+js(trusted-prevent-fetch, googlesyndication, google-ca-pub-4459622307906677)
 seelen.io##body > div[style^="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"]
 seelow.de#%#//scriptlet('trusted-set-cookie', 'cookieconsent', 'technical')
@@ -183014,6 +183020,7 @@ techopedia.com##.techo-adlabel
 techopedia.com##.trust_desktop
 techorange.com##.elementor-hidden-desktop:has(> div.e-con-inner:only-child:not(:has(*)))
 techorange.com##aside > div.elementor-widget-template:has(div[data-widget_type="form.default"])
+techorange.com,impress.co.jp,ispazio.net,techradar.com,dumka.media,comments.ua,muhalif.com.tr,vidomo.media,dexerto.com,malatyaguncel.com,yenisakarya.com,phonearena.com,ortadogugazetesi.com,gucluanadolugazetesi.com,alanyapostasi.com.tr,samsungazetesi.com,hamlegazetesi.com.tr,uyan32.com,yeniizmir.com,ilerigazetesi.com.tr,egetelgraf.com,referansgazetesi.com.tr,sonmuhur.com,gazetearena.com,gazetegercek.com.tr,politikam.com,gercekhaberci.com,newsofx2.com,thedailystar.net,samayam.com,teluguone.com,hockeyfeed.com,marasbugun.com.tr,cinemascomics.com,iguru.gr,lidergazete.com,autocarindia.com,112.ua,tunota.com,tomshardware.com,24saatgazetesi.com,halktv.com.tr,www-ntv-com-tr.cdn.ampproject.org,libertatea.ro,afyonturkeligazetesi.com,moja-ostroleka.pl,kamudanhaber.net,ajansspor.com,takvim.com.tr,dirilispostasi.com,americatv.com.pe,haberantalya.com,gunhaber.com.tr,pisapapeles.net,antalyahurses.com,sozcu.com.tr,aydinkulis.com,doisongphapluat.com.vn,reisetopia.de,gazetebirlik.com,iscihaber.net,sonhaber.eu,politic.gr,asianetnews.com,lance.com.br,cxid.info,nld.com.vn,vtcnews.vn,theblock.co,bibamagazine.fr,business-standard.com,autoplus.fr,buzzorange.com,abendzeitung-muenchen.de,bayburtmedya.com,12punto.com.tr,athina984.gr,pchome.com.tw,bayburtmanset.com,tele1.com.tr,dealabs.com,pcquest.com,tko.pl,generacionxbox.com,menemenhaber.com.tr,matricedigitale.it,armyrecognition.com,analyticsindiamag.com,blocktrends.com.br,investing.com,studyfinds.org,trhaber.com,avgi.gr,deccanherald.com,aksam.com.tr,daily-bangladesh.com,noticiasautomotivas.com.br,turkiyegazetesi.com.tr,haberler.com,www-news18-com.cdn.ampproject.org,haberler.com,eurasiantimes.com,vesti-ua.net,hlavnespravy.sk,ictvietnam.vn,giga.de,news.itsfoss.com,fpsjp.net,bedavainternet.com.tr,buyuksivas.com,kredibankalar.com,akyazihaber.com,kamuajans.com,tamgaturk.com,tarsushaber.com,akademikpersonel.org,inegolonline.com,ordugazete.com,gunes.com,koinfinans.com,startefacts.com,donanimhaber.com,iha.com.tr,star.com.tr,karadenizgazete.com.tr,alem.com.tr,egepostasi.com,dunya.com,ulusal.com.tr,turkgun.com,cepkolik.com,teknoloji.org,lavnik.net,gadgets360.com,sokgazetesi.com.tr,fotospor.com,neowin.net,haberturk.com,memurlar.net,mirchi9.com,eltiempo.pe,vietnamnet.vn,sportskeeda.com,desidime.com,tuoitre.vn,clutchpoints.com,ithardware.pl,listelist.com,imparcialoaxaca.mx,elpais.com.co,minuto30.com,impact.ro,b1tv.ro,moviesroom.pl,techwafer.com,moonshot.news,radiokp.ru,brestcity.com,aykiri.com.tr,yenicaggazetesi.com.tr,cnnbrasil.com.br,saudigazette.com.sa##a[href^="https://news.google.com/publications/"]
 techotopia.com###coverstyle
 techotopia.com###mw-content-text > table[align="center"]
 techotopia.com###mw-panel > a > img
@@ -185091,6 +185098,7 @@ the-race.com##.ad_container_default
 the-race.com##.full-width-ad-spot
 the-race.com##.gh-footer-signup
 the-race.com##.gh-portal-triggerbtn-iframe
+the-race.com##.tr-header-side-ad
 the-race.com##.tr-top-nav-ad
 the-scientist.com###Torpedo
 the-scientist.com###boombox-top
@@ -188287,6 +188295,7 @@ thueringer-energienetze.com###CybotCookiebotDialogBodyUnderlay
 thueringer-energienetze.com#%#//scriptlet('trusted-click-element', 'a#CybotCookiebotDialogBodyButtonDecline')
 thuglak.com##div:has(> .adv)
 thuglink.com##+js(set, adblockEnabled, false)
+thuisbezorgd.nl##.c-cookieBanner
 thuisbezorgd.nl,takeaway.com,just-eat.ch,lieferando.at,lieferando.de,just-eat.fr,pyszne.pl,just-eat.dk,just-eat.no##div[data-selector-id="app-banner"]
 thuloparda.com###skippable-image-container
 thumbnails.porncore.net##a[href^="//share.naver.com/"]
@@ -196925,7 +196934,6 @@ upbolt.to,bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.co
 upbolt.to,bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com##body > div[class][oncontextmenu][style="display: block;"]
 upcoming.nl,revu.nl,nouveau.nl,marieclaire.nl,happyinshape.nl,grazia.nl,gezondnu.nl,beaumonde.nl,nautique.nl,golfersmagazine.nl,dingenvoorvrouwen.nl,elegance.nl,4gnews.pt,freiepresse.de,digitalkamera.de,pcguru.hu,weser-kurier.de,newsday.com,nationalpost.com,latribune.fr,financialpost.com,lfpress.com,torontosun.com,montrealgazette.com,schoener-wohnen.de,essen-und-trinken.de,brigitte.de,chip.de,newsletter.co.uk,pcmag.com,portsmouth.co.uk,scotsman.com,sunderlandecho.com##.newsletter-widget
 update-fitness.ch##.s-cookie-banner
-update.kia.com,aa.com.tr##.fixed.inset-0
 updatenews360.com##.aft-sticky-sidebar
 updatenews360.com##.header_ads_slide
 updatepunjab.com##.below-mid-header
@@ -204213,6 +204221,8 @@ web.nhk##div[class]:has(> button[style] svg[data-testid="ShareFilledIcon"])
 web.nhk##p[style$="calc(1rem * (var(--font-size-scale-factor, 1)))"] + div[class] > div[class] > button[style^="--"][style$="auto"]
 web.nhk#%#//scriptlet('trusted-set-cookie', '__bx_newsAppBanner', 'closed')
 web.nhk#%#//scriptlet('trusted-set-cookie', '__bx_plusAppBanner', 'closed')
+web.nxsha.app##+js(no-window-open-if, _blank)
+web.nxsha.app,update.kia.com,aa.com.tr##.fixed.inset-0
 web.peatus.ee###messageBar
 web.playerapp.tokyo#?#main > aside:has(> div > a[href^="https://itunes.apple.com/app/"])
 web.quizknock.com###header_iosapp_link
@@ -210182,6 +210192,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##a[class*="doodle-link"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
+ya.ru##div[class*="search"][class*="__wrapper"] + div[class*="-"]:has(> div > div[class*="content"] > div[class*="_state_"] > button[aria-label="Действия с рекламой"])
 ya.ru##div[class^="body_"][class$="_feed_yes"]
 ya.ru##div[class^="search"][class$="_doodle"]
 ya.ru##div[class^="search"][class$="doodle"]
