@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.713
-! Last Modified: 2026.06.12.0414+1000 AEST
+! Version: 1.0.714
+! Last Modified: 2026.06.12.0803+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -124357,14 +124357,15 @@ matchendirect.fr##.promoApp
 matchtv.ru###player_ima-ad-container
 matchtv.ru##.cookie-notice
 matchtv.ru##.e-ad-base-block
-matchtv.ru##.f-bonus-button__icon-wrapper
 matchtv.ru##.rexona_player_play
 matchtv.ru##.video-js > a[href^="https://t.me/"]
 matchtv.ru##.w-accept-cookie-notification
+matchtv.ru##[class*="f-bonus-"]
 matchtv.ru##[data-testid="w-accept-cookie-notification"]
 matchtv.ru##div[class*="NodeSocialButtonsComponent"]
 matchtv.ru##div[class*="WidgetArticle__share"]
 matchtv.ru##div[data-promo-desktop-url^="https://apps.rustore.ru/"]
+matchtv.ru##div[id^="webcaster_player"] > a[href^="https://matchtv.ru/subscriptions?"]
 matchtv.ru#%#//scriptlet('set-local-storage-item', 'matchtv-matchtv_accept_cookie', 'true')
 matchtv.ru,tochka.net,vgtimes.com,vgtimes.ru##.promo
 matec.de,myconvotherm.de##.cookie-inquiry-wrapper
@@ -147614,6 +147615,7 @@ partsnl.nl##*:style(user-select: text !important; -ms-user-select: text !importa
 partsnl.nl#@##cookienotice
 party.pl##.c-article__actions
 party.pl##.c-ecomm-widget
+party.pl##.obf647763bb57fdde2dc479e52b67317ecc
 partyamt.de##.anzeigen
 partyfiesta.com###block_contact_menu
 partyflock.nl##.nice-thing
@@ -165179,6 +165181,7 @@ rutube.ru#?#.wdp-showcase-module__wdp-showcase:-abp-has(> [aria-label^="Гале
 rutube.ru#?#div[class^="footer"] > div#notifier:has(> div.message-container-module__messageItem span.message-module__description:contains(Блокировщик рекламы))
 rutube.ru#?#section:-abp-has(> [aria-label="Присоединяйтесь в социальных сетях"])
 rutube.ru,rutube.sport##[id*="Player"] div[class*="disclaimer"]
+rutube.sport##button[aria-label*="баннер"]
 rutv.ru###btns
 rutvet.ru##a[href^="https://1ra.ru"]
 rutvet.ru##div[data-type="anti-abp"]
@@ -174924,6 +174927,7 @@ sovsport.ru##div[class^="marquee_wrapper_"]
 sovsport.ru##div[class^="match-day_advBlock"]
 sovsport.ru##div[class^="match-day_footer_"]
 sovsport.ru##div[class^="matches-by-id_bkRating"]
+sovsport.ru##div[class^="matches-by-id_seo_text_"]
 sovsport.ru##div[class^="more-bonuses-widget"]
 sovsport.ru##div[class^="news-by-id_stWidget"] > div[class^="st-widget_container"]:has(> div[class^="st-widget_block"] > div[class^="adv-marker"])
 sovsport.ru##div[class^="promo-menu"]
@@ -176618,6 +176622,7 @@ sports.ru#@#.link-tumblr
 sports.ru#@#.link-twitter
 sports.ru#@#.link-youtube
 sports.ru#@#.subscribe-button
+sports.ru,sbt.com.br##.webpush
 sports.ru,tribuna.com##.poll-share
 sports.ru,tribuna.com##a[href*="utm_campai"]
 sports.sina.com.cn###sinaadsbox
@@ -184905,7 +184910,6 @@ text-compare.com#$#abort-on-property-write window.confirm
 text-compare.com#$#override-property-read Element.prototype.remove noopFunc
 text.ru##.news-preview__tooltip
 textarchive.ru##div[id^="ad_"]
-textbin.net##+js(set-constant, isAdBlockActive, false)
 textbinn.com##.container > a[target="_blank"] > img
 textcleaner.net##+js(no-fetch-if, googlesyndication)
 textcompare.org##.ez-sidebar-wall
