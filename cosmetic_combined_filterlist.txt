@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.722
-! Last Modified: 2026.06.13.2153+1000 AEST
+! Version: 1.0.723
+! Last Modified: 2026.06.14.0213+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -44943,10 +44943,12 @@ business-gazeta.ru##.has-cookie
 business-gazeta.ru##.interests-box
 business-gazeta.ru##.invite-to-tg
 business-gazeta.ru##.lightning-news__telegram
+business-gazeta.ru##.nova--wrapper
 business-gazeta.ru##.popupAcceptNotify
 business-gazeta.ru##.sociality
 business-gazeta.ru##[class*="__advertising-"]
 business-gazeta.ru##[class^="weather-block"] ~ div
+business-gazeta.ru##[data-slot]
 business-gazeta.ru##div[class^="holiday-carousel"]
 business-gazeta.ru,osnmedia.ru##a[href^="https://yandex.ru/news/?favid="]
 business-gazeta.ru,www.ixbt.com##a[href*="erid="]
@@ -56906,7 +56908,6 @@ cyber.sports.ru##.header-bookmaker-banner
 cyber.sports.ru##.match-teaser__betting-bar
 cyber.sports.ru##.news-item__content a[href^="https://cyber.sports.ru/fantasy/"] > img
 cyber.sports.ru##.page-teaser
-cyber.sports.ru##.poll-widget__share
 cyber.sports.ru##.polling
 cyber.sports.ru##.post-content a[href*="://sirena.world/"]
 cyber.sports.ru##.teaser-bookmaker
@@ -107104,6 +107105,7 @@ jpsk.jp###footer-popup
 jpsub.com##.floatbar_div
 jptorrent.org##+js(nano-stb)
 jptorrent.org#%#//scriptlet('adjust-setTimeout', 'updateinfo', '1000', '0.02')
+jptrade.ru##.cookies_policy_wrap
 jptrade.ru##.header-info__holder
 jpworldnews.com##.wp-image-1366
 jq-school.com##.setfarme:nth-child(7)
@@ -176084,6 +176086,7 @@ sport.pl,gazeta.pl##.bottom_section > .promo-mg
 sport.pl,gazeta.pl##div[id^="DFP-007-CONTENTBOARD"]
 sport.rambler.ru##[data-sport_media-desktop*="rnet_widget"]
 sport.rambler.ru#?#[data-sport_media-desktop="content_block"] ~ div div:-abp-has(> div > [data-rcmw-init])
+sport.rambler.ru,weekend.rambler.ru###app > div[style^="background:"]
 sport.ro##.articleBoxCrossuri_boxStangaCentru
 sport.ro##.desktop-branding
 sport.ro,rtrp.jp##.shareTop
@@ -176619,6 +176622,7 @@ sports.ru##.sports-apps-promo
 sports.ru##.sports-recommendations-container
 sports.ru##.structured-body-wrapper > a[href^="https://t.me/"]
 sports.ru##.subscribe-feed
+sports.ru##.super-top
 sports.ru##.teaser-before-links__adv-label
 sports.ru##.video-supertop
 sports.ru##.widget-odds
@@ -176629,6 +176633,7 @@ sports.ru##[class*="parimatch"]
 sports.ru##[data-banner-id]
 sports.ru##[data-banner-type]
 sports.ru##[data-content-name="banner-dfp"]
+sports.ru##[data-content-name="banner-static"][data-content-piece^="SALES-"]
 sports.ru##[data-content-piece="adfox"]
 sports.ru##[data-control*="Videonow"]
 sports.ru##[data-control*="adblock"]
@@ -176639,6 +176644,8 @@ sports.ru##[data-control^="Aliens."]
 sports.ru##[data-control^="Banners."]
 sports.ru##[data-init2-by-float]
 sports.ru##[data-is-ad-poll] .bookmaker-info
+sports.ru##[data-link*="=erid"]
+sports.ru##[data-link*="erid="]
 sports.ru##[data-refresh]
 sports.ru##[data-refresh] + div
 sports.ru##[data-type="reklama"]
@@ -176649,7 +176656,9 @@ sports.ru##[type="bookmaker-bonus"]
 sports.ru##a#sitewrapper[href][target="_blank"][style*="cursor"]
 sports.ru##a[href*="/click?offer_id="][href*="landing_"][href*="partner_"]
 sports.ru##a[href*="/odds/"]
+sports.ru##a[href*="=erid"]
 sports.ru##a[href*="click"][target="_blank"][style^="display"]
+sports.ru##a[href*="erid="]
 sports.ru##a[href*="fon.bet/"]
 sports.ru##a[href="https://trbna.co/2u3V2dO"]
 sports.ru##a[href^="http://www.sports.ru/fantasy/promo/"]
@@ -204942,7 +204951,6 @@ weekend.ee#%#//scriptlet('remove-class', 'scrollDisabled', 'html')
 weekend.ee#%#//scriptlet('trusted-click-element', '.GDPR-Button_Settings, .GDPRSettingsModal-DoneButton', '', '2000')
 weekend.gazeta.pl##.cmsArtykulElem > .noApp:has(> div[style] > p[style]:contains(/^Polub Weekend Gazeta.pl na Facebooku$/))
 weekend.gazeta.pl##.shortSocialBar
-weekend.rambler.ru###app > div[style^="background:"]
 weekend.rambler.ru##[data-weekend_media-desktop*="rnet_widget"]
 weekender.com.sg###text-17
 weekendnotes.com##div[style*="330px;"][style*="60px;"]
