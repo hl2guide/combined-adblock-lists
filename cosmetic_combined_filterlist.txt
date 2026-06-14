@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.725
-! Last Modified: 2026.06.14.1410+1000 AEST
+! Version: 1.0.726
+! Last Modified: 2026.06.14.1841+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -48776,12 +48776,14 @@ chaptercheats.com##.mid_d
 chaptercheats.com##div[class^="adright"]
 chapteria.com##+js(acs, document.createElement, ignielAdBlock)
 character.ai##+js(trusted-set-cookie, cookie_consent_v1, reject_all)
+character.ai##.z-40.max-w-\[970px\]
 character.ai##div[id^="share-button-"]
 character.ai#%#//scriptlet('set-local-storage-item', 'MOBILE_APP_ANNOUNCEMENT_SEEN', 'true')
 character.ai#%#//scriptlet('set-local-storage-item', 'OPTIONAL_COOKIES_ACCEPTED_0', 'false')
 character.ai#%#//scriptlet('set-local-storage-item', 'VISITED_0', 'true')
 character.ai#%#//scriptlet('trusted-click-element', 'div[role="dialog"] > div[class]:has(a[href$="-Login-Process"]) ~ button')
 character.ai#%#//scriptlet('trusted-set-cookie', 'cookie_consent_v1', 'reject_all')
+character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 character.ai#?#body > div[tabindex="-1"]:has(> div > div.modal > div.modal-dialog p:contains(We use cookies))
 charbelnemnom.com###custom_html-16
 charbelnemnom.com##+js(aeld, /contextmenu|keydown/)
@@ -78373,6 +78375,7 @@ folketidende.dk##.block:has(> .adblock)
 folketidende.dk##.block:has(> div[id^=jourbox] > iframe[src*=readpeak])
 folkofolk.se##div[class^=MuiDialog-root]
 follak.com.pl,programnaukizachowania.pl,triopo.pl###cookies-law
+follow-it-form-subscribe
 follow.yahoo.co.jp##div[class^="AppPromotion_AppPromotion__"]
 follow.yahoo.co.jp,zdnet.de##.appPromo
 followchain.org###media_image-16
@@ -190380,6 +190383,7 @@ tomsguide.fr,tomshardware.fr###header_leaderboard
 tomshardware.*##+js(aopw, tmnramp)
 tomshardware.com###article-body > div.widthsetter ~ div.jwplayer__widthsetter
 tomshardware.com###article-body > p + .jwplayer__widthsetter
+tomshardware.com###clubPopup
 tomshardware.com###newsletter-slice
 tomshardware.com###rightcol_top
 tomshardware.com###rightcol_top + .space-b30
