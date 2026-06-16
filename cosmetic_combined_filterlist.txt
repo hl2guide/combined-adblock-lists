@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.736
-! Last Modified: 2026.06.17.0454+1000 AEST
+! Version: 1.0.737
+! Last Modified: 2026.06.17.0812+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -72469,7 +72469,6 @@ evropa2.cz##.ads
 evropochta.by#%#//scriptlet('set-local-storage-item', 'otherCookie', 'false')
 evropochta.by#%#//scriptlet('set-local-storage-item', 'saveCookie', 'true')
 evs.com##.language-switcher
-evspec.in,bradola.com,paradoxscans.com,hispajav.com,sub69.online,itdmusicy.com,janammusic.in.net##body > div[id][class*=" "]:has(div.adblock_subtitle)
 evtifeev.com###text-14
 evtifeev.com##.fones
 evvelcevap.com##.fancybox-overlay[class*="snp-pop-"]
@@ -76350,6 +76349,7 @@ finance.ifeng.com##.sConRbox
 finance.ifeng.com##div[class="slideImg-lGG7Uta-"]
 finance.ifeng.com,kulemi.com##.rec
 finance.mail.ru##div[data-logger-parent="top"] > header > div[class]:has(> div[data-rb-slot]:empty)
+finance.mail.ru,news.mail.ru##div[data-tooltip-root]
 finance.nl##div[style^="width:300px; height:250px;"]
 finance.ozon.ru##.app > .wrapper > .wrapper:has(> .biscuits)
 finance.ozon.ru##.biscuits
@@ -104257,6 +104257,8 @@ itdmusics.com##+js(acs, eval, replace)
 itdmusics.com##+js(aeld, load, onload)
 itdmusics.com##.content > * > div[style="width:300px;height:250px"]
 itdmusics.com##.itdmu-widget
+itdmusicy.com,itdmusics.com##body > div[class]:has(> a[href^="https://chpadblock.com/"])
+itdmusicy.com,itdmusics.com,evspec.in,bradola.com,paradoxscans.com,hispajav.com,sub69.online,itdmusicy.com,janammusic.in.net##body > div[id][class*=" "]:has(div.adblock_subtitle)
 itdmusicy.com,xporn.to,irootapk.net,ourcoincash.xyz,idrom.top,claimtrx.com,claimsatoshi.xyz##+js(abort-on-property-write, AdblockRegixFinder)
 itdoesnttastelikechicken.com#$#cookie-remover /adblocker/ true
 itdog.cn##.card[style="padding: 6px 10px 5px 5px;"]
@@ -137527,7 +137529,6 @@ news.mail.ru##div[data-module="LazyLoad.PromoPopup"] .block_separated_top
 news.mail.ru##div[data-module="LazyLoad.PromoPopup"] .js-module.block
 news.mail.ru##div[data-module="TrackBlocks"] table > tbody > tr > td > div:not(.daynews__item)
 news.mail.ru##div[data-qa="Box"]:has(div[data-qa="subscription_form"])
-news.mail.ru##div[data-tooltip-root]
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
 news.mail.ru#?#body > div:has(> div[id] > div > div.title:contains(блокировщика рекламы))
@@ -139641,7 +139642,7 @@ nio.com##div[class^="GlobalSiteGAGTMGDPR_GDPRConsent_"]
 niooz.fr##.pubDiv
 niopik.ru##.marketing-popup
 niopik.ru##div[data-ajax-load-block="FOOTER_TOGGLE_SUBSCRIBE"]
-niopik.ru,klinikarassvet.ru,unian.net##.shares-block
+niopik.ru,klinikarassvet.ru,unian.info,unian.ua,unian.net##.shares-block
 niotv.com##.epg_ad3
 niotv.com##.epg_ad_list
 niotv.com##.right_ad1
@@ -142330,7 +142331,7 @@ obc.co.jp##.smart-popup
 obcasypodlasia.pl##.webnus-ad
 obdeleven.com##.c-hi-cookie-popup
 obelink.*##.gdpr_cookie_bar
-obemdito.com.br,fdpbt.de,unian.net##.share-mobile
+obemdito.com.br,fdpbt.de,unian.info,unian.ua,unian.net##.share-mobile
 oberbank.at##.dt-newsletter
 oberbank.at,hisarhospital.com##div[class^="dt-cookie-"]
 oberberg-aktuell.de##.adv-indicator
@@ -152392,6 +152393,7 @@ pogoda.mail.ru##.js-springs__group__top
 pogoda.mail.ru##.m-fixed-panel
 pogoda.mail.ru##.unprinted
 pogoda.mail.ru##[data-logger-parent="sidebarRight"]
+pogoda.mail.ru##div[data-tooltip-root]
 pogoda.meta.ua##.main__banner-bottom
 pogoda.meta.ua##.sidebar__ads
 pogoda.meta.ua##div[class^="city__banner"]
@@ -195512,7 +195514,6 @@ txxx.com##.hYbuslay
 txxx.com##.header-blocked-ad
 txxx.com##.herrmhlmolu
 txxx.com##.hgggchjcxja
-txxx.com##.listing-content.listing-videos > div.listing-item
 txxx.com##.mpululuoopp
 txxx.com##.polumlluluoopp
 txxx.com##.rek-desk-list
@@ -195534,6 +195535,7 @@ txxx.porn##a[href^="https://track.lovescape.link/"]
 txxxporn.tube##.hlmffrrzdrmfrzhzhddm
 txxxporn.tube##.sugggestio
 txxxporn.tube,txxx.*##+js(remove-node-text, script, AdManager)
+txxxporn.tube,txxx.*##.listing-item:has(> div.thumb > div.img > iframe[src][scrolling="no"])
 txxxporn.tube,txxx.*##.nav-left > a.nav-hover[target="_blank"]
 txxxporn.tube,txxx.*##.page-video > div[class]:has(> span.da-text)
 txxxporn.tube,txxx.*##.pplayer div.jw-title-secondary:has(a[target="_blank"])
@@ -196790,6 +196792,7 @@ unian.info,unian.net,unian.ua##._pusher_notify
 unian.info,unian.net,unian.ua##.app-banner-tg
 unian.info,unian.net,unian.ua##.article__share-btn
 unian.info,unian.net,unian.ua##.banner-fb
+unian.info,unian.net,unian.ua##.bnr-block
 unian.info,unian.net,unian.ua##.footer-menu__app
 unian.info,unian.net,unian.ua##.newsfeed__ad
 unian.info,unian.net,unian.ua##.newsfeed__banner
@@ -196798,13 +196801,28 @@ unian.info,unian.net,unian.ua##.support-post
 unian.info,unian.net,unian.ua##.support-post__btn
 unian.info,unian.net,unian.ua##.support-unian
 unian.info,unian.net,unian.ua##div[class^="app-banner"]
+unian.info,unian.net,unian.ua##div[style="height: 300px"]
 unian.info,unian.net,unian.ua##div[style="height:260px;clear:both;"]
 unian.info,unian.net,unian.ua##div[style="height:600px"]
+unian.info,unian.net,unian.ua##div[style^="height:390px;"][style*="clear:both;"]
+unian.info,unian.net,unian.ua##iframe[src^="/content/lentainform-"]
 unian.info,unian.ua,unian.net##.app-banner-yt
+unian.info,unian.ua,unian.net##.article > div.oh
+unian.info,unian.ua,unian.net##.article-column > div[style^="height:"]
+unian.info,unian.ua,unian.net##.article__share-btn
 unian.info,unian.ua,unian.net##.newsfeed__list > .newsfeed__item:has(> .newsfeed__tg)
 unian.info,unian.ua,unian.net##.publication__gn
 unian.info,unian.ua,unian.net##.support-post
+unian.info,unian.ua,unian.net##.tabs-with-flex > div#tab1
+unian.info,unian.ua,unian.net##.tabs-with-flex > div#tabpanel1
 unian.info,unian.ua,unian.net##a[href="https://vb.me/unian_web"]
+unian.info,unian.ua,unian.net##div[style="height: 250px; overflow: hidden; margin-bottom: 20px;"]
+unian.info,unian.ua,unian.net##div[style="height: 335px"]
+unian.info,unian.ua,unian.net##div[style="height:370px"]
+unian.info,unian.ua,unian.net##div[style="height:370px; overflow: hidden"]
+unian.info,unian.ua,unian.net##div[style^="height: 280px;"]
+unian.info,unian.ua,unian.net##div[style^="min-height: 250px; margin-bottom: 20px;"]
+unian.info,unian.ua,unian.net##iframe[src="/content/redtram-mob-post.html"]
 unian.info,unian.ua,unian.net#$#.app-weather { display: none!important; }
 unian.info,unian.ua,unian.net#$#.home-top-block > .main-unit { width: 100% !important; }
 unian.info,unian.ua,unian.net#$#.main-column > div > aside { height: 30px!important; }
@@ -196812,24 +196830,10 @@ unian.info,unian.ua,unian.net#$#.main-menu { height: 50px !important; }
 unian.info,unian.ua,unian.net#$#.main-menu__content > div[class^="popup-"] { display: none !important; }
 unian.info,unian.ua,unian.net#$#.popup-tg { display: none !important; }
 unian.info,unian.ua,unian.net#$#.popup-vb { display: none !important; }
-unian.net##.article > div.oh
+unian.info,unian.ua,unian.net,1plus1.video##.o-share-table-cell-right
 unian.net##.article div[data-ad]:upward(1)
 unian.net##.article-column > div.read-also:contains(Новости партнеров)
-unian.net##.article-column > div[style^="height:"]
 unian.net##.newsfeed__list > .newsfeed__item.align-items-center
-unian.net##.tabs-with-flex > div#tab1
-unian.net##.tabs-with-flex > div#tabpanel1
-unian.net##div[style="height: 250px; overflow: hidden; margin-bottom: 20px;"]
-unian.net##div[style="height: 335px"]
-unian.net##div[style="height:370px"]
-unian.net##div[style="height:370px; overflow: hidden"]
-unian.net##div[style^="height: 280px;"]
-unian.net##div[style^="min-height: 250px; margin-bottom: 20px;"]
-unian.net##iframe[src="/content/redtram-mob-post.html"]
-unian.net,1plus1.video##.o-share-table-cell-right
-unian.net,unian.ua##.bnr-block
-unian.net,unian.ua##div[style^="height:390px;"][style*="clear:both;"]
-unian.net,unian.ua##iframe[src^="/content/lentainform-"]
 unian.net,unian.ua#?#.title-without-border:-abp-contains(Новини партнерів)
 unian.ua##.app-banner-yt
 unian.ua##.banner-fb
@@ -196837,9 +196841,7 @@ unian.ua##.social-btn-bottom
 unian.ua##.support-post
 unian.ua##.support-post__btn
 unian.ua##a[href^="https://profile.google.com/"]
-unian.ua##div[style="height: 300px"]
 unian.ua,1plus1.video##.o-share-control
-unian.ua,unian.net##.article__share-btn
 uniavisen.dk##.hide-from-print.banner-module.module
 unibas.ch##.shariff-article
 unibilgi.net,4sysops.com,upscpdf.com,javsister.com,freecoursesonline.me,arabtimesonline.com###custom_html-11
