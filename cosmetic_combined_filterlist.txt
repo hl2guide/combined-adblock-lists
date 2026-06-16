@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.733
-! Last Modified: 2026.06.16.0819+1000 AEST
+! Version: 1.0.734
+! Last Modified: 2026.06.16.1416+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -21979,6 +21979,7 @@ abstream.to##+js(rmnt, script, /adblock|Cuba|noadb|popundersPerIP/i)
 abstream.to,advertape.*,bunkr.*,easyvidplayer.com,marissasharecareer.com,livecamrips.*,pandamovies.org#$#abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 absurd.blogo.jp##.headlinerss
 absurdopedia.net###p-friends
+abt.com###privacy-act-overlay
 abtakapakesath.com,rashtrasamarpan.com,thattungal.com###HTML18
 abtakmedia.com,asrilanka.com,bdcrictime.com,businesspati.com,digantabani.com,dvgsuddi.com,ganjbasoda.net,jagprerna.com,khabarexpert.in,khelarpata.com,muznews.net,news129.com,newsganj.com,newstodayinhindi.com,pradhanavartha.in,techtamil.com,thehimachal.com,theriyuma.com,uttranews.com###custom_html-5
 abtakmedia.com,auznews24.com,bijapurfirst.com,businesspati.com,currentnewsdainik.com,dakhalchhattisgarh.com,demokraticfront.com,deshpriyonews.com,himachalvarta.com,indianewsviral.co.in,indiansamachar.in,jhansidarshan.com,kannadanewsnow.com,khabarbastar.in,khabarmanch.com,lokshakti.in,mahendranagarpost.com,mbmnewsnetwork.com,mujibsenanews.com,newsdeskkannada.com,pahiloclick.com,satyaday.com,tarunbharat.com,thenetizennews.com,theriyuma.com##.a-wrap
@@ -26131,7 +26132,7 @@ allyoucanwatch.net###discordPop
 allyouplay.com##.cookie-card_container
 allyourhorses.de###cookie__consent
 allzero.jp#%#//scriptlet('set-local-storage-item', '/.__consent', 'emptyArr')
-almaasdiamonds.com,americascup.com,cfu-airport.gr,clustrmaps.com,cobau.com.br,croatiaexcursions.com,estrelladecastilla.es,gofoexpress.com,jsi-airport.gr,kgs-airport.gr,leube.cz,map.purpleair.com,portal.amity.copiri.com,rho-airport.gr,skg-airport.gr,tapas.io,teamspeak.com,zth-airport.gr###gdpr-cookie-message
+almaasdiamonds.com,americascup.com,cfu-airport.gr,clustrmaps.com,cobau.com.br,croatiaexcursions.com,e1series.com,estrelladecastilla.es,gofoexpress.com,jsi-airport.gr,kgs-airport.gr,leube.cz,map.purpleair.com,portal.amity.copiri.com,rho-airport.gr,skg-airport.gr,tapas.io,teamspeak.com,zth-airport.gr###gdpr-cookie-message
 almabetter.com#%#//scriptlet('set-session-storage-item', 'popup_viewed', 'true')
 almacen-informatico.com###Informacion
 almafestival.info#$#abort-current-inline-script jQuery open
@@ -96655,7 +96656,7 @@ hrs.de##.sw-cookie-layer
 hrsvepet.se,cfosvepet.se,vdsvepet.se##.desktopbanner, .mobilbanner-section, #takeover-banner, .top-banner-wrapper, .toppbanner-under-header, .pre-header-banner-wrapper, div[data-leadflow-host], .banner-host-pro, .take-over-banner
 hrsvepet.se,cfosvepet.se,vdsvepet.se##.w-dyn-item:has(a[href="/katergori/employer-branding"])
 hrsvepet.se,cfosvepet.se,vdsvepet.se#?#:is(.recent-post-item, .w-dyn-item):has(a[href="#"]:not(.w-condition-invisible))
-hrt.hr##+js(trusted-click-element, a.cmptxt_btn_yes)
+hrt.hr##+js(trusted-click-element, 'a[data-cmp-purpose][aria-label="Svrha: Društvene mreže"],200,a[data-cmp-purpose][aria-label="Svrha: Ostalo"],200,a.cmpboxbtnsave')
 hrt.hr##.h-screen
 hrt.hr##.mt-4 > .hidden > .h-screen:has(> a[title="E-mail"])
 hrubieszow.info###black-studio-tinymce-7
@@ -150518,9 +150519,11 @@ pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Gebor
 pinterest.*#%#//scriptlet('trusted-click-element', 'div[data-test-id="appUpsell-continue"] > button')
 pinterest.*#?#.footerButtons a[href$="dwebandroid"]:upward(.footerButtons)
 pinterest.*#?#body > div:has(> div[style="z-index: 4;"] div[data-test-id="UnauthDefaultModal"])
+pinterest.com###__PWS_ROOT__ ~ div[class][style="z-index: 1000;"]:not([id])
 pinterest.com##a[href*="&epik="]
 pinterest.com##body > div[style="z-index: 1000;"] > div > div[name="trap-focus"] > div[role="dialog"]:has(a[href="https://www.pinterest.com/_/_/policy/cookies/"])
 pinterest.com##body > div[style^="z-index:"]:has(> div[style] > div[style] > div > span[class] > a[href="https://www.pinterest.com/_/_/policy/cookies/"])
+pinterest.com##body[style]:style(overflow: auto !important;)
 pinterest.com##div[class*="ScreenBanner"]
 pinterest.com##div[class^="AppUpsellHeader"]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
