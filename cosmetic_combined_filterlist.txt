@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.737
-! Last Modified: 2026.06.17.0812+1000 AEST
+! Version: 1.0.738
+! Last Modified: 2026.06.17.1413+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -29625,6 +29625,7 @@ apidog.ru##a[href^="/ads.php?"]
 apigo.com.tr##.ant-notification
 apihost.ru##a[href*="://timeweb.com/"]
 apihot.ru###sponser_vidjet
+apilex.ai#%#//scriptlet('set-local-storage-item', 'apilex-cookie-consent', 'rejected')
 apimages.com##[class^="optanon-show-settings"]
 apinsieme.it##.widget_wooslider_slideshow_slides
 apintie.sr##div[style*="width: 300px; height: 250px;"]
@@ -41919,6 +41920,7 @@ bmj.com###mdgxWidgetiFrame
 bmj.com###trendmd-suggestions
 bmj.com##.md\:min-h-\[250px\]
 bmj.com##.section-header
+bmjv.de,verfassungsschutz.de##.c-cookiebanner
 bml.ru##.cookiesModal
 bmlink.com##.Tg_1190x70
 bmlink.com##.Tg_190x70
@@ -102420,6 +102422,10 @@ internet-technologies.ru##div[class^="shortcode-"] > a[href*="/go/"]
 internet-technologies.ru##div[data-region][data-pending="true"]
 internet-technologies.ru##section[class*="related"]
 internet-technologies.ru#?#.content > div:-abp-has(> div div > iframe[src*="://yoomoney.ru/"])
+internet.ee#%#//scriptlet('set-cookie', 'eis_ads', 'false')
+internet.ee#%#//scriptlet('set-cookie', 'eis_analytics', 'false')
+internet.ee#%#//scriptlet('set-cookie', 'eis_general', 'true')
+internet.ee#@#.js-cookie-consent
 internetaddictsanonymous.org##a.wp-block-button__link[href="https://internetaddictsanonymous.org/online-meetings/"]
 internetaptieka.lv##+js(trusted-click-element, a.js-cookie-popup, , 650)
 internetaptieka.lv##+js(trusted-click-element, button.button_default, , 800)
@@ -104607,6 +104613,8 @@ ivbg.ru##.subscribe-me
 ivcelarstvi.cz##.shadow.w-100.bg-white.p-3
 ivd.ru##.article-content__container > div.article-action:has(> div > div.social-block)
 ivd.ru##.float-subscribe
+iverify.io,podspace.com,cartesia.ai#%#//scriptlet('set-local-storage-item', 'framerCookiesDismissed', 'true')
+iverify.io,podspace.com,cartesia.ai#%#//scriptlet('trusted-set-local-storage-item', 'framerCookiesConsentMode', '{"analytics":false,"marketing":false,"necessary":true,"preferences":false}')
 iveybusinessjournal.com##.cm-signup
 iveybusinessjournal.com##.share-stack
 ivfauthority.com##div[class^="ivfau-inarticle"]
@@ -109869,12 +109877,10 @@ kingarthurbaking.com##.dynotifyjs-corner
 kingarthurbaking.com##^html > head > link[rel="canonical"]:not([href*="/recipes/"]):upward(2) script:has-text(googletagmanager)
 kingarthurbaking.com,speeddate.it,mononews.gr,billboard.com,sakshi.com,natro.com,touristica.com.tr,gramwzielone.pl,prad.de,rollingstone.com,stetson.com,fdpbt.de,webmd.com,thepostmillennial.com,designmodo.com##.newsletter-wrapper
 kingbet.net#%#(function(){z=self.EventTarget.prototype.addEventListener;self.EventTarget.prototype.addEventListener=function(a,b){if(!/cut|copy|paste/.test(a.toString()))return z.apply(this,arguments)}})();
-kingbokep.*##.md\:flex-row.flex-col.gap-3.flex.mt-3
-kingbokep.*##[grid-area="ads1"]
-kingbokep.*##div.flex.w-full.justify-center.overflow-x-auto
-kingbokep.*##div[style="width:300px;height:250px;z-index:1"]
-kingbokep.media###floating-bottom
-kingbokep.media###floating-top
+kingbokep.*###floating-bottom
+kingbokep.*###floating-top
+kingbokep.*##[data-dgazzbdbfcbzagfz]
+kingbokep.*##[style^="height:"]:has(> img)
 kingbolentool.com###uppush-notification
 kingbolentool.com##.spinWheelWrapper
 kingcard.com.tw#@##adbox
@@ -151926,7 +151932,7 @@ plusrew.com##.mailpoet_form
 plusstyle.jp###float_btn
 pluto.tv##+js(json-prune, adBreaks.*)
 pluto.tv##+js(json-prune-fetch-response, adBreaks.[].startingOffset adBreaks.[].adBreakDuration adBreaks.[].ads adBreaks.[].startTime adBreak adBreakLocations, , propsToMatch, /session.json)
-pluto.tv##+js(xml-prune, 'xpath(//*[name()="Period"][not(contains(@id,"subclip"))] | //*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start)', , /\/episode\/.+?\.mpd\?/)
+pluto.tv##+js(xml-prune, 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"_ad%2Fcreative")]] | //*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start)', '', /\/episode\/.+?\.mpd\?/)
 pluto.tv##.pauseAdContainer
 pluto.tv##.tos-notification
 pluto.tv##body > div[role="presentation"][style^="position: fixed; z-index:"]
@@ -152280,8 +152286,6 @@ podrozerowerowe.info##.appriseOuter
 podrozerowerowe.info##.appriseOverlay
 podrywaj.org##.modal_wrapper
 podskazki.info##.widget_hugeit_slider_widget
-podspace.com,cartesia.ai#%#//scriptlet('set-local-storage-item', 'framerCookiesDismissed', 'true')
-podspace.com,cartesia.ai#%#//scriptlet('trusted-set-local-storage-item', 'framerCookiesConsentMode', '{"analytics":false,"marketing":false,"necessary":true,"preferences":false}')
 podtail.com##.action-container > li > a.pt-action[role="button"][data-action="share"]
 podtail.se##aside a[href*=utm_campaign], a[title*=casino]
 podtail.se#?#.item-list__item:-abp-contains(/annons från/i)
@@ -152579,7 +152583,6 @@ pokemongolive.com,nianticlabs.com##ark-cookiebar
 pokemonkorea.co.kr##.lst-connect
 pokemonmasters-game.com##.c-agree-cookie
 pokemonmasters-game.com##.c-modal[data-agree-pp-update]
-pokemonmasters-game.com,sungrove.co.jp##.c-sns-share
 pokemontcgpocket.com##div[class*="lang__card_frame"]:has(> div[class*="lang__card_inner"] > div[class^="downloads_wrapper"])
 pokemundo.com##+js(noeval-if, show)
 pokeos.com##+js(no-fetch-if, doubleclick)
@@ -190379,6 +190382,7 @@ tokyo2020.coni.it##.sponsor_int
 tokyoartbeat.com##.snsShareLinks
 tokyocheapo.com##.social-actions
 tokyodisneyresort.jp##.socialBlog > h2.heading4
+tokyodisneyresort.jp,pokemonmasters-game.com,sungrove.co.jp##.c-sns-share
 tokyoghoulre.com,demonslayermanga.com##.js-pages-container > div.flex.text-center > div[style="width: 450px;"]
 tokyoghoulre.com,watchnoblesse.com,watchtowerofgod.com,demonslayeranime.com,watchblackclover.com,watchkaguyasama.com,semawur.com##center > a[href] > img:not([class^="alignnone"])
 tokyohive.com##.overlay-social > .social-links > li:not(:first-child)
@@ -199435,7 +199439,6 @@ verdragonball.online,verboruto.net,vernaruto.tv#%#//scriptlet('prevent-addEventL
 verepeliculas.com##.fake_player
 verepeliculas.com##.ssocial
 verepeliculas.com##div[class^="ano_"]
-verfassungsschutz.de##.c-cookiebanner
 verfassungsschutz.de#@##cookiebanner
 verfassungsschutz.de#@#.cookiebanner:not(body)
 verfutebol.tv###superderbi
