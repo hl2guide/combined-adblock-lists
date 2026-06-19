@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.5
-# Edited: 2026-05-28 05:50:58 +10:00
+# Version 1.0.6
+# Edited: 2026-06-19 13:11:57 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -177,7 +177,7 @@ TESTING_URLS = [
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
     # Government Trackers
-    "https://raw.githubusercontent.com/CobraZero969/EU-Gov-Tracker-Blocklist-by-madnesscc/refs/heads/main/pihole-eu-gov.txt",
+    #"https://raw.githubusercontent.com/CobraZero969/EU-Gov-Tracker-Blocklist-by-madnesscc/refs/heads/main/pihole-eu-gov.txt",
     # Bad Hosts - https://github.com/cenk/bad-hosts
     "https://github.com/cenk/bad-hosts/raw/refs/heads/main/bad-hosts-abp",
     # ShadowWhisperer Lists
