@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.754
-! Last Modified: 2026.06.20.2155+1000 AEST
+! Version: 1.0.755
+! Last Modified: 2026.06.21.0219+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -38284,6 +38284,7 @@ bestbuy.com##.atwa-ninja-carousel:has(div[data-testid="sponsored-sbb"])
 bestbuy.com##.atwb-display-ad
 bestbuy.com##.display-ad-wrapper
 bestbuy.com##.generic-morpher:has(.spns-label)
+bestbuy.com##.marquee-ad-wrapper
 bestbuy.com##.product-list-sponsored-wrapper-grid-view
 bestbuy.com##.shop-dedicated-sponsored-carousel
 bestbuy.com##.shop-pushdown-ad
@@ -43115,7 +43116,6 @@ boredpanda.com#$##subscribe-before-leaving ~ div.modal-backdrop { display: none 
 boredpanda.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 boredpanda.com,citizen.com,coincodex.com##.get-app
 boredpanda.com,criticalthreats.org,lasexta.com,supermarketnews.co.nz,varesenews.it,vat19.com,wolverine.com##.social-box
-boredpanda.com,criticalthreats.org,lasexta.com,varesenews.it,vat19.com,wolverine.com##.social-box
 boredpanda.com,todayonline.com##.subscription-block
 boredteachers.com##main > div.py-8:has(> div.flex > a.share-network-facebook)
 borek.de##.mdm-sticky
@@ -45715,7 +45715,7 @@ byrdie.com##.header__newsletter-button
 byrdie.com##.mntl-leaderboard-spacer:style(min-height: 0 !important;)
 byrdie.com#@#.mntl-leaderboard-spacer
 byrosagold.com,floristikwerkstatt-mueller.com##.flash[data-cookie="eu_cookie"]
-byrut.games,onlinestreams.ru##div[class^="dle_b_"]
+byrut.games##[src="/sm/images/btn.svg"]
 byrutgame.org###activation
 byrutgame.org##.site-helper
 bysesukior.com,bysewihe.com,bysebuho.com,398fitus.com#$#abort-current-inline-script EventTarget.prototype.addEventListener 'delete window'; abort-on-property-read open; timer-override setTimeout readyWait; override-property-read window.ZorDon false
@@ -92126,6 +92126,8 @@ harakahdaily.net###jsemrp_372_719
 harakahdaily.net###jsemrp_373_873
 harakahdaily.net###jsemrp_374_469
 harakahdaily.net###jsemrp_380_290
+harapanrakyat.com###div-ad-pushdown
+harapanrakyat.com###div-ad-read_body_1
 harborsweets.com##.footer-top-bar
 hard-drive.net##.hd-discord
 hard-tm.ru##.baseHtml.noticeContent
@@ -144796,6 +144798,7 @@ onlinestempel.ch##+js(trusted-set-cookie, consent, %7B%22level%22%3A%5B%22necess
 onlinestores.com##body .newsletter
 onlinestream.live##[src^="/banners/"]
 onlinestreams.ru##[href="/reyting-bukmekerov/"]
+onlinestreams.ru##div[class^="dle_b_"]
 onlinestreams.ru#$#.wrapper { margin-top: 0!important; }
 onlinestudentseva.com##.adsbygoogle:style(max-height: 1px !important;)
 onlinetambov.ru###socAds
@@ -149349,6 +149352,7 @@ periodismokosher.com.ar###key2sticky
 periodismokosher.com.ar##.widget-content:has(a[target="_blank"])
 periodistadigital.com,realovirtual.com,tribunaavila.com,tribunaburgos.com,tribunaleon.com,tribunapalencia.com,tribunasalamanca.com,tribunasegovia.com,tribunasoria.com,tribunavalladolid.com,tribunazamora.com##.advertising
 periscopeforweb.com##.follow_box
+periskop.id##.ads-parallax-wrapper
 perito.media##.article__block-list > div.article__block:has(> div.article__block__text > p > a[href="https://t.me/prtbrt"])
 perito.media##.footer__swiper-row > div.footer-swiper:has(> div.footer-swiper__container a[href="https://perito.media/posts/perito-zapuskaet-patreon-i-boosty"])
 perito.media##section[class="form initted"]
@@ -153007,6 +153011,7 @@ polizei.brandenburg.de###pbb-cookielaw
 polizei.brandenburg.de##div[style*="width: 750px;"][style^="height: auto;"]
 polizei.news###centcon-side-inner
 polizei.news,reiseziele.ch##.mobile-billboard-box
+polizeiticker.ch##.css-1in00pe
 polki.pl###tcf277-modal
 polkurier.pl###cookieIW
 pollee.org##body > div[data-mg-c]
@@ -167600,6 +167605,7 @@ schwalbe.com#@#.cookie-box:not(body):not(html)
 schwarzenbacher-kundl.at###NotificationWrapper
 schwarzmueller.com##.dp_cookie-overlay
 schwarzwaelder-bote.de###pianoSnippetContainer
+schwarzwald-aktuell.eu##div[data-element_type="widget"]:has(.schwa-adlabel)
 schwebheim.de#$#html > body.borlabs-position-fix .bodyscroll { overflow-y: auto !important; }
 schwebheim.de#$#html > body.borlabs-position-fix { overflow-y: auto !important; }
 schwedenstube.de##a[href^="https://www.lead-alliance.net/tc.php"]
@@ -210934,6 +210940,7 @@ ya.ru,yandex.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.main__block-banner
 ya.ru,yandex.ru,yandex.*##.main__distr-popup
 ya.ru,yandex.ru,yandex.*##.t-construct-adapter__adv
+ya.ru,yandex.ru,yandex.*##[id^="search-"] .SportAdfox
 ya.ru,yandex.ru,yandex.*##div[class^="AdvRsya"]
 ya.ru,yandex.ru,yandex.*#?##search-result > .serp-item:-abp-has(> .AdvLabel)
 ya.ru,yandex.ru,yandex.*#?##search-result > [class]:-abp-has(> div.Organic > div a[href*="_crpd"])
