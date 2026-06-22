@@ -61,8 +61,6 @@ jobs:
           git add .
           git commit -m "update filterlist"
           git push
-        retry:
-          max-attempts: 4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
