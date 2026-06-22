@@ -1,3 +1,6 @@
+# 2026-06-22
+- Improved the github actions to retry simple failed steps
+
 # 2026-05-28
 - Added new list to blocklist
 - Split blocklist to 80MB text files

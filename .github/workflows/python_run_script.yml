@@ -40,12 +40,20 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run version_increment.py
         run: python version_increment.py
+        retry:
+          max-attempts: 4
       - name: Run create_cosmetic_list_v2.py
         run: python create_cosmetic_list_v2.py
+        retry:
+          max-attempts: 4
       - name: Run create_block_list_v1.py
         run: python create_block_list_v1.py
+        retry:
+          max-attempts: 4
       - name: Run split_block_list_v1.py
         run: python split_block_list_v1.py
+        retry:
+          max-attempts: 4
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
@@ -53,6 +61,8 @@ jobs:
           git add .
           git commit -m "update filterlist"
           git push
+        retry:
+          max-attempts: 4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -64,5 +74,5 @@ jobs:
 # OLD:
 # python -m pip install --upgrade pip
 
-# Updated: 2026-05-28 06:12:18 +10:00
+# Updated: 2026-06-22 16:33:18 +10:00
 # - adjusted schedule to every 5 hours to account for GitHub delay.
