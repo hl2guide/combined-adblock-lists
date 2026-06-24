@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.774
-! Last Modified: 2026.06.25.0259+1000 AEST
+! Version: 1.0.775
+! Last Modified: 2026.06.25.0716+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -13239,7 +13239,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /sw.js$script,domain=androidapks.biz|androidsite.net|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|downloadgames.info|downloadsite.org|ebooksite.org|emulatorsite.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|tvonlinesports.com|warezsite.net|watchmovies2.com|watchsite.net|youapk.net
 /sw.js$script,domain=lolabits.se|filechan.org|megaupload.nz|rapidshare.nu|openload.cc|hotfile.io
 /sw.js?origin=
-/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 /sw.js|$script,domain=pbembed.me|pornobomba.vip
 /sw/analytics.js
 /swa_t.gif?
@@ -16599,8 +16598,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 1movies.life##a[href^="/user/premiummembership"] > img
 1movies.life##div[id] > .close.ico
 1movies.life##div[id] > .close.ico + a[href^="/user/premiummembership"]
-1moviesz.to,bflix.la,flixtor.mov,myflixer.bz,myflixer.fi,hurawatch.la,sflix.fi,watchseries.st##+js(nostif, || !!_)
-1moviesz.to,myflixer.bz,flixzone.co,moontv.to,sflix.fi##+js(nowoif)
 1movietv.com##li[onclick="frame('/favis/redcash.html');"]
 1movietv.com##li[onclick="frame('/favis/redri.html');"]
 1ms.net##div[id^="cpmstar_modalVideoPopup_"]
@@ -19220,7 +19217,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 7dach.ru##.topic_shop_offers
 7dach.ru##[data-campaign-code][data-url*="http"]
 7dach.ru##div[style^="background-color:#fff3cd; color: #856404;"]
-7dach.ru,consultant.ru,cossa.ru,diary.ru,kriminal.tv,kursktv.ru,livesport.ws,mgnews.ru,nashmontreal.com,studclub.poltava.ua,vlasti.net###top_banner
+7dach.ru,consultant.ru,cossa.ru,kriminal.tv,kursktv.ru,livesport.ws,mgnews.ru,nashmontreal.com,studclub.poltava.ua,vlasti.net###top_banner
 7datarecovery.com,cloudmounter.net,electronic.us,elmedia-video-player.com,eltima.com,ftp-mac.com,macdroid.app,net-usb.com##.float-message__wrap
 7days-ua.com###content > div[align="center"]:has(> font:contains(Поділитись))
 7days.ru###GPM_7days_M_Top
@@ -28365,7 +28362,6 @@ aniguessr.com##.c-cookie-popup
 anihatsu.com##.rss-blogroll-header
 anihatsu.com##.rss-blogroll-kobetu
 anikai.to##+js(set-cookie, __p_mov, 1)
-anikai.to,animekai.*,anigo.to,flixzone.co,hianime.ws,moontv.to,yflix.to##+js(nostif, ||!!)
 anikaitv.to##+js(set, console.clear, trueFunc)
 anikaitv.to##+js(set, console.log, trueFunc)
 anikore.jp##.boardDetail__list > li:has(> div[id])
@@ -28681,8 +28677,6 @@ animejara.com###aj-cookies-compact
 animejoy.ru###modalbox
 animejp.net##.halim-film-notice
 animeka.com,europages.fr###sponsor
-animekai.*,anikai.to##+js(nowoif, _blank)
-animekai.*,anikai.to,flixtor.mov,myflixer.bz,sflix.fi,yflix.to##+js(nosiif, /;if\(!\(|=null/)
 animekai.*,animekai.la,animekai.gs,animekai.fo,animekai.fi,comix.to,anikai.to##body > a[target="_blank"][style^="position:"][style*="z-index:"]
 animekai.la,animekai.gs,animekai.fo,animekai.fi,anikai.to##+js(no-window-open-if)
 animekb.*##+js(nowebrtc)
@@ -29481,6 +29475,7 @@ anysex.com##[class^="content"] > .no_pop
 anysex.com##div[style="margin-top:-16px;"]
 anysex.com,jizzberry.com###main_video_fluid_html_on_pause
 anysex.com,mylust.com##.web-sh-link
+anysex.com,onmpeg.com,some.porn##.fluid_html_on_pause_container
 anyshemale.com##.section > .wide + .sidebarv
 anyshemale.com##.wide > .af
 anytechtune.com###headadd
@@ -61575,11 +61570,6 @@ diariosur.es#$#body { overflow: auto !important; }
 diariosur.es#@##didomi-notice
 diariovasco.com##+js(remove-cookie, /^(ev|vocuser)_/, when, scroll keydown)
 diariovasco.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,leonoticias.com##.voc-advertising
-diary.ru###w18p
-diary.ru##.menu_block
-diary.ru##.side_banners_box
-diary.ru,fireman.club,ku66.ru,pershij.com.ua,prostoprosport.ru,qrz.ru,track24.ru,ufanet.ru,xsport.ua##.advertising
-diary.ru,klopotenko.com###right_banner
 diaspordc.com##.td-a-rec-id-content_bottom
 diatribe.org##.newsletter-featured
 diavgeia.gov.gr,anacrowneplaza-niigata.jp##.cookieCheck
@@ -74910,7 +74900,7 @@ fbc.biz.ua##.side_socials
 fbc.biz.ua##.sidebar > a[target="_blank"] > img
 fbc.biz.ua,footballfacts.ru,gotovim-doma.ru,helpiks.org,i.ua,islam-today.ru,mota.ru,ojin.tv,ru-minecraft.org,vdv-kavkaz.ru##.baner
 fbc.biz.ua,iphone-gps.ru##.post_subscribe
-fbc.ua##.post_subscribe
+fbc.ua,nv86.ru##.post_subscribe
 fbcnews.com.fj##.banner-leaderboard
 fbcnews.com.fj##.homepage-advert
 fbcnews.com.fj##.story-content #fbc-sl
@@ -77163,6 +77153,7 @@ fireman.club##.ads-popup
 fireman.club##.followandsub
 fireman.club##.social-block-bottom
 fireman.club##div[class*="desktop_direct"]
+fireman.club,ku66.ru,pershij.com.ua,prostoprosport.ru,qrz.ru,track24.ru,ufanet.ru,xsport.ua##.advertising
 fireman.club,labirint.ru##.cookie-policy
 firenzemeteo.net##div[style="padding:10px;margin-bottom: 18px;color:#eaeaea;background-color:#494949;text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);"]
 firepic.org##.left_news_col
@@ -78472,7 +78463,7 @@ focus.ua##.u-m-h-250
 focus.ua##.u-unwrap
 focus.ua##.yo-social-panel
 focus.ua##div[class^="at-share"]
-focus.ua,sovets.net,tvtver.ru##[data-banner]
+focus.ua,nv86.ru,sovets.net,tvtver.ru##[data-banner]
 focus.ua,yapokupayu.ru##.js-post-share
 focus.ua,zoneofgames.ru##a.branding
 focus2move.com,canakkalekalem.com,whentai.com,76.ru,political.gr,grupoahora.net.br,krymr.com,canalrural.com.br,baominh.tech,e1.ru###onesignal-slidedown-container
@@ -98493,6 +98484,7 @@ idokep.hu##.hird-label
 idokep.hu##.mitvegyekfel
 idokep.hu##div[class*="ad-lockup-top-"]
 idokep.hu#$#hide-if-matches-xpath '//div[contains(@class,"info-small")][text()="Hirdetés"]'
+idokep.hu#$#override-property-read Navigator.prototype.onLine false
 idokep.hu#$#override-property-read adshield.isAdBlockerDetected false
 idokep.hu#$#override-property-read as_-1139087742 true; override-property-read as_-992624185 true; override-property-read as_1212759660 true
 idokep.hu#$#override-property-read as_-1173987845 true; override-property-read as_-1027524288 true; override-property-read as_1177859557 true; override-property-read as_2022485055 true; override-property-read as_-67098396 true; override-property-read as_1537073278 true; override-property-read as_1683536835 true; override-property-read as_1649642013 true; override-property-read as_-1041153609 true; override-property-read as_-293477881 true; override-property-read as_1310693793 true; override-property-read as_-1380101829 true; override-property-read as_-632426101 true; override-property-read as_971745573 true; override-property-read as_-419675937 true
@@ -111042,6 +111034,7 @@ kloomba.com###kl-o-gallery-ad
 kloomba.com##.kl-ad-item
 kloomba.com##a[href^="/ad-redirect.php"]
 kloomba.com,klumba.com###kl-ad-top
+klopotenko.com###right_banner
 klopotenko.com##.tag-social
 klopotenko.com##a[id^="linkFon"]
 klopotenko.com##div[class="franke-sidebar"]:not([style])
@@ -116200,7 +116193,7 @@ lesite24.com##div[id^="pum-"][data-popmake*="ads"]
 lesjours.fr##.tarteaucitron-alert-big-bottom
 lesko.info###content > center > a[target="_blank"]
 lesko.info##div[id*="block"]
-lesko.info##img[src*="BANER"]
+lesko.info,podhaleregion.pl##img[src*="BANER"]
 leslez.com##.opt
 leslez.com##.out_lnk
 leslez.com##.table.brd
@@ -133840,9 +133833,10 @@ myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 myandroid.org###amazon-icon
 myandroid.org,onworks.net#%#//scriptlet('adjust-setTimeout', 'rewritebutton', '*', '0.002')
 myanimecorner.ru##div[class^="commercials"]
-myanimelist.net##+js(no-fetch-if, method:POST body:page_view)
+myanimelist.net##+js(no-fetch-if, method:POST body:/content_view|impression|page_view/)
 myanimelist.net##+js(rmnt, style, body:is(:not(.ownlist)))
 myanimelist.net##._unit
+myanimelist.net##.ad-sas
 myanimelist.net##.amazon-ads
 myanimelist.net##.bookstore-detail-right
 myanimelist.net##.bookstores-recommend-plugin
@@ -135240,7 +135234,6 @@ namemc.com##.small-gutters > div[class="col-12"]
 namemc.com##[style="min-height: 238px"]
 namemc.com##div.ad-container
 namemc.com##div[class*="col-md"] > div[style*="min-height:"]
-namemc.com#$#override-property-read Navigator.prototype.onLine false
 namemc.com#$#override-property-read as_-1456619792 true; override-property-read as_1514845309 true; override-property-read as_-292031020 true; override-property-read as_-1380101829 true; override-property-read as_1310693793 true; override-property-read as_-632426101 true; override-property-read as_-1701653056 true; override-property-read as_989142566 true; override-property-read as_-953977328 true; override-property-read as_-1345201726 true; override-property-read as_1345593896 true; override-property-read as_-597525998 true
 namemc.com#$#override-property-read as_2073418414 true; override-property-read as_-1320722721 true; override-property-read as_-1188240253 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_01828408771 true; override-property-read as_91055421694 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 namemc.com$csp=script-src-attr 'none'
@@ -142228,6 +142221,8 @@ nv.ua##p[style="font-weight: bold"]
 nv.ua##section[data-type="advertising"]
 nv.ua#?#.content_wrapper > p:-abp-has(> a[href^="https://t.me/"])
 nv.ua,ura.news##.t-sociallinks
+nv86.ru##.footer-middle
+nv86.ru##.header-dropdown__social
 nvidia.com##+js(trusted-set-cookie, ak_bmsc, , 0, , domain, .nvidia.com)
 nvidia.com,otomobilir.com,dagiunderwear.com,vesti-ua.net,dagi.com.tr,cmwltd.co.uk,vidobu.com,kockariyerim.com,bebekodam.com,sleepy.com.tr,investors.atlassian.com,kocakademi.com,foxpost.hu,sport1tv.cz,sport1tv.hu###cookieAcceptBar
 nvidia.pl#@#.social-newsletter
@@ -145115,7 +145110,6 @@ onmeda.de##.on-ad
 onmeda.de##.on-top-banner-wrapper
 onmeda.de#@#.cmpboxWelcomeGDPR
 onmeda.de#@#.cmpwrapper
-onmpeg.com,some.porn##.fluid_html_on_pause_container
 onmsft.com###zd-leaderboard
 onmsft.com##.entry-content > h3:contains(/^Share This Post:$/)
 onmsft.com##.gb-grid-column > .gb-container .gb-inside-container > .gb-container:has(> .gb-inside-container > div[data-pw-desk="sky_atf"])
@@ -215250,10 +215244,6 @@ zzzyk.com###Tinfo
 ~catcut.net,~forum.zaycev.net,~mobile-4at-obshenie.chatovod.ru,~oknotivi.ru,~opa-kino.ru##a[href*="catcut.net"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cekkazan.com.tr,~fotografwdrodze.pl,~raiffeisen-media.ru##.social_facebook
-~challenges.cloudflare.com,1moviesz.to,anikai.to,animekai.*,anigo.to,bflix.la,flixtor.mov,flixzone.co,hianime.ws,hurawatch.la,moontv.to,myflixer.bz,myflixer.fi,sflix.fi,watchseries.st,yflix.to,1moviesz.to>>,anikai.to>>,animekai.*>>,anigo.to>>,bflix.la>>,flixtor.mov>>,flixzone.co>>,hianime.ws>>,hurawatch.la>>,moontv.to>>,myflixer.bz>>,myflixer.fi>>,sflix.fi>>,watchseries.st>>,yflix.to>>##+js(aeld, keydown, /^function\(.*\|\|.*}$/)
-~challenges.cloudflare.com,1moviesz.to,anikai.to,animekai.*,anigo.to,bflix.la,flixtor.mov,flixzone.co,hianime.ws,hurawatch.la,moontv.to,myflixer.bz,myflixer.fi,sflix.fi,watchseries.st,yflix.to,1moviesz.to>>,anikai.to>>,animekai.*>>,anigo.to>>,bflix.la>>,flixtor.mov>>,flixzone.co>>,hianime.ws>>,hurawatch.la>>,moontv.to>>,myflixer.bz>>,myflixer.fi>>,sflix.fi>>,watchseries.st>>,yflix.to>>##+js(set, console.clear, trueFunc)
-~challenges.cloudflare.com,1moviesz.to,anikai.to,animekai.*,anigo.to,bflix.la,flixtor.mov,flixzone.co,hianime.ws,hurawatch.la,moontv.to,myflixer.bz,myflixer.fi,sflix.fi,watchseries.st,yflix.to,1moviesz.to>>,anikai.to>>,animekai.*>>,anigo.to>>,bflix.la>>,flixtor.mov>>,flixzone.co>>,hianime.ws>>,hurawatch.la>>,moontv.to>>,myflixer.bz>>,myflixer.fi>>,sflix.fi>>,watchseries.st>>,yflix.to>>##+js(set, console.log, trueFunc)
-~challenges.cloudflare.com,1moviesz.to,anikai.to,animekai.*,anigo.to,bflix.la,flixtor.mov,flixzone.co,hianime.ws,hurawatch.la,moontv.to,myflixer.bz,myflixer.fi,sflix.fi,watchseries.st,yflix.to,1moviesz.to>>,anikai.to>>,animekai.*>>,anigo.to>>,bflix.la>>,flixtor.mov>>,flixzone.co>>,hianime.ws>>,hurawatch.la>>,moontv.to>>,myflixer.bz>>,myflixer.fi>>,sflix.fi>>,watchseries.st>>,yflix.to>>##+js(set, console.table, trueFunc)
 ~changecopyright.ru##a[href^="http://changecopyright.ru"]
 ~cityheaven.net###gg1
 ~civey.com##iframe[src^="https://widget.civey.com"]
