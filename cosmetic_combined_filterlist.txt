@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.784
-! Last Modified: 2026.06.27.0255+1000 AEST
+! Version: 1.0.785
+! Last Modified: 2026.06.27.0712+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3798,6 +3798,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/[0-9a-z]{8,}\.[a-z0-9]{7,}\.[a-z]{4,}\/[0-9a-f]{32}\/b4\/[0-9a-f]{13}\.js$/$script,3p,match-case
 /^https:\/\/[^.]+\.codeanyapp\.com\/wp-content\/.+\/spo[a-z]{2}i\//$doc,to=codeanyapp.com
 /^https:\/\/[a-z-]{5,13}\.[a-z]{2,6}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xhr,3p,match-case
+/^https:\/\/[a-z0-9-]+\.[a-z0-9-]+\.[a-z]+\/(api-integration\/)?cdn\/[a-z0-9]+\.js\?[a-z0-9]+=[a-z0-9_=-]{6,}/$third-party,xmlhttprequest
 /^https:\/\/[a-z0-9]+\.[a-z]{2,}\/blast\.js$/$script,1p,strict1p,to=~gov|~edu
 /^https:\/\/[a-z0-9]{2,}\.[a-z0-9]{4,11}\.com\/[a-zA-Z0-9]{30,}\?[a-zA-Z0-9]{25,}$/$doc,to=com|~google.com|~microsoft.com
 /^https:\/\/[a-z0-9]{2,}\.[a-z0-9]{4,11}\.ru\/[a-zA-Z0-9]{30,}\?[a-zA-Z0-9]{25,}$/$doc,to=ru
@@ -10397,6 +10398,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /motchat/design/defaulttheme/js/widgetv*/index.js$domain=incredibleindia.org
 /motorqq.$image,third-party
 /movie/files/episodes/*-RU.mp4|$third-party,media
+/movie/files/episodes/*bet.mp4|$third-party,media
 /mp-web-notification.js
 /mp3player.swf?file=*/bb1.mp3
 /mp3player.swf?file=*/bb2.mp3
@@ -49116,6 +49118,7 @@ chatgpt.com##div[class*=turn-messages]:style(--thread-content-max-width:unset!im
 chatgpt.com##div[class]:has(> button[class] > span.text-nowrap > svg.icon-sm > use[href="/cdn/assets/sprites-core-fxfgsfqf.svg#d3876b"])
 chatgpt.com##div[class]:has(> div.flex > button[aria-label="Ad options"])
 chatgpt.com##div[class^="lg"]:has(> div.mx-auto > div.block > div.relative > div.mb-2 > div.flex > div.flex-row > svg[height="62"][width="62"])
+chatgpt.com##div[data-testid] div[class^="max-"] > div[data-ad-card-root]
 chatgpt.com#$#log-if-selector-exists '.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])' ads-chatgpt
 chatgpt.com#%#//scriptlet('set-cookie', 'oai-allow-ne', 'false')
 chatgpt.com#%#//scriptlet('set-cookie', 'oai_consent_analytics', 'false')
@@ -70935,6 +70938,7 @@ eroanime-movie.com##.rss-grid
 eroasmr.com##+js(trusted-rpnt, script, vastTag, v)
 eroasmr.com##.elite_vp_videoPlayerAD
 erobanach.com##+js(abort-on-property-write, hidden)
+erobanach.com##+js(addEventListener-defuser, , returnAd)
 erobanach.com##.apad
 erobanach.com##.shiny-btn1
 erocadr.net##.spot
@@ -93372,7 +93376,7 @@ healthylives.tw#$?##fbVideo { remove: true; }
 healthymale.org.au,simpleanalytics.com##.bottom-20
 healthymatters.com.hk#%#//scriptlet('trusted-click-element', '.pop-up-ani div[name="close"]', '!localStorage:loginPopUpId')
 healthyplace.com###block-newsletterjs
-healthyplace.com,qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.ampproject.org,m.geboren.am,dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hatenadiary.com,hatenadiary.jp,syosetu.org##.ad
+healthyplace.com,qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.ampproject.org,m.geboren.am,dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,m.arukikata.co.jp,setn.com,hatenadiary.com,hatenadiary.jp,syosetu.org##.ad
 healthyrecipesblogs.com##.is-style-group-envelope
 healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 healthystyle.info###podnovka ~ div[style]
@@ -105745,6 +105749,8 @@ jauns.lv##.vfm--inset.vfm--fixed.vfm.items-center.justify-center.flex
 jauns.lv##div.flex:has(> div.flex > a.social-share-button)
 jauns.lv##div[class*="min-h-[300px]"]
 jauns.lv##iframe[id$="_DFP"]
+jav.direct###is_w_area:style(display: none!important;)
+jav.direct##.inv_scroll_cancel:style(overflow: auto !important; height: auto !important;)
 jav.direct##div[style^="max-width: 480px; max-height: 500px"]
 jav.gallery##[href^="https://jjgirls.com/sex/"]
 jav.guru##.banner-container
@@ -145643,9 +145649,6 @@ openloading.com##+js(ra, href, #clickfakeplayer)
 openloading.com,123moviesgo.*,jetanimes.co###clickfakeplayer
 openloadmov.*##+js(nowoif)
 openloadmovies.*##+js(aopr, AaDetector)
-openloadpro.com,erobanach.com##+js(addEventListener-defuser, , returnAd)
-openloadpro.com,jav.direct###is_w_area:style(display: none!important;)
-openloadpro.com,jav.direct##.inv_scroll_cancel:style(overflow: auto !important; height: auto !important;)
 openlua.cloud##+js(no-setInterval-if, contentDocument?.body?.querySelector)
 openlua.cloud##+js(prevent-fetch, /confidecross\.com|invoke\.js/)
 openlua.cloud##div.fixed.backdrop-blur-xl
@@ -175800,6 +175803,8 @@ sp.nttxstore.jp##.sns_mainitem
 sp.pictlink.com##.area-login-floating
 sp.pictlink.com#%#//scriptlet('trusted-click-element', '#TEST-PRIVACY-POLICY-AGREEMENT-BTN > a[data-jest="btn-primary"]')
 sp.pokepara.jp###modal_share
+sp.seiga.nicovideo.jp##.ad:style(display: none !important;)
+sp.seiga.nicovideo.jp##.owner_thumbnail:style(top: 20px !important;)
 sp.stylevamp.com,sp.stylevamp.de##+js(trusted-click-element, button[title="Accept & Continue"], , 1000)
 sp.stylevamp.de,cmp.wetteronline.de##+js(trusted-click-element, button[title="Akzeptieren & Weiter"], , 1000)
 sp.uta-net.com###overlay_banner
