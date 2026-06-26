@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.780
-! Last Modified: 2026.06.26.0720+1000 AEST
+! Version: 1.0.781
+! Last Modified: 2026.06.26.1210+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -178478,6 +178478,7 @@ startmycar.co.za###omnisend-dynamic-container
 startpage.com###add-homescreen-popup
 startpage.com###main > .block-display:has(> div[class^="css-"] > div[class^="css-"] > a[href^="https://support.startpage.com/"][target="_blank"])
 startpage.com###main > .support-banner
+startpage.com###main > div[class^="css-"]:has(> div:first-child + div > button:first-child + div[aria-label]:last-child > svg[aria-label="x-icon"])
 startpage.com###main > div[style]:not([class]):has(path)
 startpage.com###main > div[style^="margin-bottom:"] > div:has(> div[style^="margin-bottom:"] > svg)
 startpage.com##+js(spoof-css, .ad.a-bg, display, block)
