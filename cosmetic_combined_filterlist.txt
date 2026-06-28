@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.792
-! Last Modified: 2026.06.28.1815+1000 AEST
+! Version: 1.0.793
+! Last Modified: 2026.06.28.2140+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -6033,6 +6033,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /bv-analytics.js
 /bx-abd.js$domain=stallet.se
 /by.banclk?
+/bydataAnalytics.js
 /byteads^
 /c-hive.js
 /c-hive.min.js$script,~3p
@@ -24232,6 +24233,7 @@ aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
+agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 agyserkento.hu#$#.cookie-alert { display: none !important; }
 agyserkento.hu#$#.scroll-lock { overflow: auto !important; position: unset !important; padding-right: unset !important; }
 agyserkento.hu#$#html:not(.dropdown-opened) body.scroll-lock .main, html:not(.dropdown-opened) body.scroll-lock #dropdown-cat, html:not(.dropdown-opened) body.scroll-lock .footer, html:not(.dropdown-opened) body.scroll-lock .partners { filter: none !important; -webkit-filter: none !important; }
@@ -24270,7 +24272,6 @@ ahaber.com.tr#%#//scriptlet('prevent-addEventListener', '/scroll|resize/', 'chec
 ahaber.com.tr,aspor.com.tr##.pageTools
 ahaber.com.tr,takvim.com.tr,ahaber.com.tr##.application-widget
 ahajournals.org##.header--advertisment__container
-ahajournals.org##.pb-las
 ahajournals.org,tandfonline.com##.pb-ad
 ahaonline.cz##.ads
 ahaonline.cz##.boxReklama
@@ -83524,23 +83525,23 @@ gamedeveloper.com##div[data-module="newsletter-signup-promo"]
 gamedeveloper.com#?#div[data-module="newsletter-signup-promo"]
 gamedeveloper.com,iotworldtoday.com##.NewsletterSignupButton
 gamedistribution.com###gdsdk__splash
+gamedrive.*##+js(acs,  String.fromCharCode, fetch)
+gamedrive.*##+js(acs, eval, replace)
+gamedrive.*##+js(aeld, DOMContentLoaded, window.open)
+gamedrive.*##+js(aeld, click, _shouldProcessLink)
+gamedrive.*##+js(aeld, click, preventDefault)
+gamedrive.*##+js(aopr, b2a)
+gamedrive.*##+js(aost, document.querySelector, /showModal|chooseAction|doAction|callbackAdsBlocked/)
+gamedrive.*##.code-block a[href][target="_blank"] > img[data-recalc-dims]
+gamedrive.*##.hbo-banner
+gamedrive.*##.netflix-banner
+gamedrive.*##[id^="gridlove-module-"] > .gridlove-text-module-content > div:is(:has([data-format]), [onclick*='window.open'])
+gamedrive.*##a[href][target="_blank"][rel="noopener noreferrer"] > img
 gamedrive.org###BR-Footer-Ads
-gamedrive.org##+js(acs,  String.fromCharCode, fetch)
-gamedrive.org##+js(acs, eval, replace)
 gamedrive.org##+js(addEventListener-defuser, , window.open)
-gamedrive.org##+js(aeld, DOMContentLoaded, window.open)
-gamedrive.org##+js(aeld, click, _shouldProcessLink)
-gamedrive.org##+js(aeld, click, preventDefault)
-gamedrive.org##+js(aopr, b2a)
-gamedrive.org##+js(aost, document.querySelector, /showModal|chooseAction|doAction|callbackAdsBlocked/)
 gamedrive.org##+js(no-window-open-if)
 gamedrive.org##.code-block > a[target="_blank"]:not([href*="gamedrive.org"]) > img
-gamedrive.org##.code-block a[href][target="_blank"] > img[data-recalc-dims]
 gamedrive.org##.entry-content a[href="https://gamedrive.org/join"]
-gamedrive.org##.hbo-banner
-gamedrive.org##.netflix-banner
-gamedrive.org##[id^="gridlove-module-"] > .gridlove-text-module-content > div:is(:has([data-format]), [onclick*='window.open'])
-gamedrive.org##a[href][target="_blank"][rel="noopener noreferrer"] > img
 gamedrive.org##div[class*="-banner"][onclick*="window.open"]
 gamedrive.org##div[id^="BR-Footer-"]
 gamefaqs.gamespot.com###deals_emr.pod
@@ -102248,6 +102249,7 @@ insidethegames.biz##.btn-block.btn
 insight.co.kr##.fixedhead-share
 insightchhattisgarh.in,sanskardarshan.in###sticky-wrapper
 insightcrime.org##.page-general__newsletter-btn
+insights.assetmanagement.hsbc.com##+js(trusted-click-element, .reject-all > button)
 insights.com##+js(trusted-click-element, button#ccc-notify-accept, , 1000)
 insights.globalspec.com###exit-intent-registration-modal
 insights.globalspec.com###sitewide-overlay
@@ -111476,6 +111478,8 @@ kodi-tutorials.uk###main > .code-block
 kodi-tutorials.uk##.entry-content > .code-block
 kodi.org.pl##a[href^="https://sweterkowo.pl/sklep/kategoria/czapki/?utm_source="]
 kodialkhaber.com##.sj_popup_wrap
+kodibeginner.com##+js(no-setTimeout-if, ai_adb_detected)
+kodibeginner.com##+js(prevent-fetch, adsbygoogle)
 kodik.info,roboin.io,u.pcloud.link,drtuber.com,pubs.acs.org,m.glavcom.ua,calmclinic.com,infobae.com##.share_button
 kodinerds.net###adConsent
 kodinerds.net##.boxesSidebarRight
@@ -116357,6 +116361,8 @@ lessentiel.lu###app_bar
 lessentiel.lu##[data-testid="Ad"]
 lessentiel.lu##div[class^="Article_element__"] > div[type="typeInfoboxSummary"]:has(> .elementCrosshead > h2 > a[href*="whatsapp.com"])
 lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder"]
+lessentiel.lu##div[type="authors"] div[class]:has(> button[data-testid="ButtonShare"])
+lessentiel.lu##div[type="infobox"]:has(a[href="https://www.linkedin.com/company/lessentiellu/"])
 lessentiel.lu##section[class*="ad-content-wrapper"] > div > aside:has(div[data-ad-unit-id])
 lessentiel.lu##section[class^="Article_body__"] > div[class^="Article_element__"]:has(a[id^="cta-"])
 lessentiel.lu#?#aside:-abp-has(div + span:-abp-contains(Publicité))
@@ -153620,7 +153626,6 @@ popculture.com##.adInContent
 popculture.com##.ad_blk:style(position: absolute!important; left: -3000px!important;)
 popculture.com##.topnav:style(top: 0px !important;)
 popculture.com##.wp-block-savage-platform-primis-video
-popculture.com##.wp-block-savage-platform-raptive-ad
 popculture.com##.wp-container-core-group-is-layout-15
 popculture.com##body .modernInContent > div[id^="oas_FC"]
 popculture.com##body div.adInContent:style(position: absolute!important; left: -3000px!important;)
@@ -153633,6 +153638,7 @@ popculture.com##div[data-lx-claimed="zone-desktop-index-leaderboard"]
 popculture.com##div[id*="omni-skybox-plus-top"]
 popculture.com##form.pc-newsletter-sidebar
 popculture.com,comicbook.com##.social_blk
+popculture.com,songfacts.com##.wp-block-savage-platform-raptive-ad
 popdaily.com.tw##.buoy
 popdaily.com.tw##div[class^="DownloadAppBannerContainer-"]
 popdaily.com.tw##div[class^="FixedRecommendedArticleCard__"]
@@ -175183,6 +175189,7 @@ songbpm.com##.mb-6:has(> section > div[id^="ad--searches"])
 songbpm.com##div > div:has(> section > ins.adsbygoogle)
 songbpm.com#?#div.mb-6:has-text(Advertisement)
 songelenhaber.com.tr,abdpost.com##div[x-data="adblockBanner()"]
+songfacts.com##.sf_leaderboard_2025
 songkalpo.net##.single_page_ad
 songkick.com##.ad-primary-mobile
 songkick.com##.get-mobile-app-button
@@ -181666,6 +181673,7 @@ swiftuploads.com##+js(aeld, click, clicksCount)
 swiftuploads.com##+js(nowoif)
 swiftuploads.com##+js(ra, onclick, button[onclick*="open"])
 swiftuploads.com##+js(remove-attr, onclick, button[onclick*='window.open('])
+swiftuploads.com##+js(set, Element.prototype.closest, falseFunc)
 swiftuploads.com##.custom-download-button, .custom-download-section, #customDownloadBtn:style(display: none !important;)
 swiftuploads.com##.download-type.original-button, #down_2Form, #originalDownloadBtn:style(display: block !important;)
 swig.com##[aria-label="Cookie policy banner"]
@@ -198820,6 +198828,7 @@ usersdrive.com##+js(addEventListener-defuser, click, /a.target/)
 usersdrive.com##+js(aeld, click, _blank)
 usersdrive.com##+js(aopr, popurl)
 usersdrive.com##+js(nowoif, _blank)
+usersdrive.com##+js(rmnt, script, =");)
 usersdrive.com##a[onclick^="window.open("][rel^="noreferrer"]
 usersdrive.com##center > a[href][target="_blank"] > img
 usersdrive.com##main > div[style] > center > a[target="_blank"] > img
