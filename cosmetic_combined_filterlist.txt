@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.793
-! Last Modified: 2026.06.28.2140+1000 AEST
+! Version: 1.0.794
+! Last Modified: 2026.06.29.0202+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1921,6 +1921,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .imgpay.ru^$script,domain=imgpay.ru
 .imgur.com/lumbar.gif
 .in/js/ads/
+.in/js/footer_ad.js
 .infinityscans.net/|$popup,domain=infinityscans.org
 .info.kansaimiraibank.co.jp/c/*.gif
 .info/?h=*&user=$script,3p
@@ -4253,6 +4254,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /ad-blocking-detector/*
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-choices-$image
 /ad-choices.png$image
 /ad-gm-
@@ -4367,7 +4369,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /adblock-checker.
 /adblock-detect.$script
 /adblock-detect/*
-/adblock-detector.min.js$script
 /adblock-img.
 /adblock-modal-
 /adblock-modal.
@@ -4391,7 +4392,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /adblock_logger.$script
 /adblock_notify.js
 /adblockchecker.
-/adblockdetect.js$script
 /adblocker-detected.
 /adblocker-feature?
 /adblocker.blogads.
@@ -4523,7 +4523,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /ads-$domain=gmnewsbd.com|prothom-feni.com
 /ads-250.$image
 /ads-ad-
-/ads-async.$script
 /ads-blocking-detector.$script
 /ads-common.$image,script
 /ads-countdown.js$domain=aftonbladet.se
@@ -4654,7 +4653,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /adsen.php
 /adsense.index.js$domain=husbil.se
 /adsensebase.
-/adserv.$script
 /adserve/*$script
 /adserver.$popup
 /adserver.$~stylesheet,~xmlhttprequest,domain=~konograma.com
@@ -5314,7 +5312,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /ar/ads/*
 /ara/ads/*
 /arabycash-
-/arcads.js$script
 /archipelagobanners$domain=skargardenfinland.com
 /archivio/advertising/*
 /ard.png?
@@ -6396,7 +6393,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /cms.gif?
 /cms/stats/*
 /cms/werbung/*
-/cms_ads.js$script
 /cms_cookies_acceptance/cookie_policies-
 /cmslog.dll?
 /cn-track?
@@ -6545,7 +6541,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /console-ban.min.js
 /console-blocker/app-detect.js
 /consultant-slider.js$script,domain=kursremonta.ru
-/content-ads.js$script
 /content.php?id=148&type=g|$xmlhttprequest
 /content/ads/*$~xmlhttprequest
 /content/clyscontent.js
@@ -7091,7 +7086,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /cpm/ad.$popup
 /cpm/i.ashx?
 /cpmShopAds^
-/cpmbanners.js$script
 /cpro.$popup,third-party
 /cpro/ui/*
 /creame-whatsapp-me/public/js/joinchat.min.js
@@ -7443,7 +7437,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /dotapoker88-$image
 /dotaqiu-$image
 /dotbandeaucookie/*
-/doubleclick.min$script
 /doubleclick_dmm^*/file.mp4$media,domain=ahaonline.cz|info.cz|onetv.cz|iprima.cz
 /doubleclick_dmm^*/file.mp4$media,domain=expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 /doubleserve.js$badfilter
@@ -7992,9 +7985,11 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /fingerprint/iife.min.js
 /fingerprint2.js
 /fingerprint2.js$script,3p,redirect=fingerprint2.js,important
+/fingerprint2.js$script,redirect=fingerprint2.js
 /fingerprint2.min.js
 /fingerprint2.min.js$redirect=fingerprint2.js,domain=support.halabtech.com
 /fingerprint2.min.js$script,3p,redirect=fingerprint2.js,important,domain=~abqjournal.com|~amateuralbum.net
+/fingerprint2.min.js$script,redirect=fingerprint2.js
 /fingerprint3.js
 /fingerprint3.min.js
 /finn.no/finno.htm
@@ -8063,7 +8058,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /footer-newsletter.js
 /footer-tracking.js
 /footer/ad|
-/footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
 /footerpixel.gif?
@@ -9133,7 +9127,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /inread.
 /inread_
 /insales_counter.js?
-/insertads.js$script
 /inside-banner.mini.js$domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myonlineradio.hu|myonlineradio.nl|myonlineradio.sk|myradioendirect.fr|myradioenvivo.ar|myradioenvivo.mx|myradioonline.cl|myradioonline.es|myradioonline.it|myradioonline.pl|myradioonline.ro|ukradiolive.com
 /insights/reportEvent/*
 /insitemetrics/uRMJ/ujutilv2sll.js
@@ -9373,7 +9366,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /js/ad.js$domain=69shuba.com
 /js/adInitializer.js$domain=ddwloclawek.pl|ddtorun.pl
 /js/adLocker.
-/js/ad_common.js$script
 /js/admiral-
 /js/ads.$badfilter
 /js/ads/*0.js
@@ -9430,6 +9422,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /js/devtools-detector.js^$script,3p,domain=rubystm.com|rubyvid.com
 /js/dfp.js$script
 /js/dnsads.js?*^$domain=filmehd.to
+/js/doubleclick.min.js?v=
 /js/dyguosj/*
 /js/easyAD.js
 /js/easyAD2.js
@@ -12783,7 +12776,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /sli.*/imp?$image
 /slide_in_ads_close.gif$image
 /slider.*&pub=
-/slider_ad.js$script
 /sliderad.js$script
 /slot_cmp.js
 /slots.php?site=*$popup
@@ -13181,7 +13173,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /sticky-ads$script
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /stm-gdpr-compliance/assets/js/scripts.js
 /stn-player.js$domain=titantv.com
 /stock_bnr_300-$domain=food-foto.jp|model-foto.jp
@@ -13412,7 +13403,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /teaser_klubnika/*
 /teaserblock.site.js
 /teasers.
-/teasers/*$domain=~ableton.com|~adtran.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~asml.com|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~kinobulvar.info|~meganomkino.ru|~novsu.ru|~parool.nl|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~trouw.nl|~volkskrant.nl|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
+/teasers/*$domain=~ableton.com|~adtran.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~asml.com|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~igorlink.com|~kinobulvar.info|~meganomkino.ru|~novsu.ru|~parool.nl|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~trouw.nl|~volkskrant.nl|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
 /technorati.gif$domain=~technorati.com
 /tekst_advertentie_
 /telamon.png
@@ -14097,6 +14088,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/doubleclick.min.js
 /vendors~ads.
 /vendshow/*
 /venombet-$image
@@ -17331,6 +17323,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 24tv.ua,football24.ua,lux.fm##app-adv-placeholder
 24tv.ua,football24.ua,sport24.ua##[class*="partner-insert"] + .media_embed
 24tv.ua,football24.ua,sport24.ua##[class*="partner-insert"] + p
+24tv.ua,football24.ua,sport24.ua##[data-injection-type="LEGAL_SMALL"]
 24tv.ua,football24.ua,sport24.ua,zaxid.net##.legal
 24tv.ua,football24.ua,sport24.ua,zaxid.net##[class*="partner-insert"]
 24tv.ua,football24.ua,zaxid.net###user-vote-trigger
@@ -21712,7 +21705,7 @@ abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.p
 abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,czasbrodnicy.pl,ddtorun.pl,ddwloclawek.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-krajna.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,fakty.nl,faktyct.pl,faktypilskie.pl,gle24.pl,glossokolowa.pl,gniewkowo.eu,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,haloursynow.pl,hej.mielec.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,kolniak24.eu,koronowo.net.pl,koscianiak.pl,lca.pl,leszno24.pl,lowiczanin.info,magazynregionalny.pl,magazynzuzel.pl,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,msi-myslenice.pl,myglogow.pl,mypolkowice.pl,naszpruszcz.pl,naszradziejow.pl,nizanskie.info,nkp24.pl,nowinykrapkowickie.pl,nowysztum.pl,ostrodaflesz.pl,ostrowiecka.pl,pakosc24.pl,petronews.pl,pleszew24.info,plonskwsieci.pl,pogodawtoruniu.pl,portalsremski.pl,przelom.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,rzeczkrotoszynska.pl,seniorbb.pl,sportsinwinter.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,terazgabin.pl,terazlipno.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tvwalbrzych.pl,tygodnik.pl,tygodnikketrzynski.pl,tyna.info.pl,uniejow.net.pl,wdrawskupomorskim.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,wybudujemy.com.pl,zawiercie365.pl,zlomzy.pl,zycierawicza.pl,zyciesiedleckie.pl##div[style="background-color: #DDF0F3; padding-top: 50px; padding-bottom: 50px; margin-bottom: 20px;"]
 abcjanikowo24.pl,bialobrzegi24.net,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,czasbrodnicy.pl,czluchowinfo.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-lubon.pl,e-wabrzezno.info.pl,echo24.tv,ejarocin.pl,ekstrasierpc.pl,esopot.pl,extrawalcz.pl,fakty.nl,faktyct.pl,gazetarogozinska.pl,glospowiatusredzkiego.pl,glossokolowa.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwio.pl,haloursynow.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,in-westor.pl,infomogilno24.pl,ipoddebice.pl,isanok.pl,jastrowie24.pl,jura365.pl,koscianiak.pl,lca.pl,legio24.pl,leszno24.pl,lidzbarkonline.pl,lowiczanin.info,magazynzuzel.pl,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,msi-myslenice.pl,myglogow.pl,mypolkowice.pl,myszkow365.pl,naszamlawa.pl,naszpruszcz.pl,naszradziejow.pl,nkp24.pl,nowinykrapkowickie.pl,nowysztum.pl,nrypin.pl,ostrodaflesz.pl,ostrowiecka.pl,pakosc24.pl,panoramaplock.pl,petronews.pl,piasecznonews.pl,piszanin.pl,pleszew24.info,plonskwsieci.pl,pogodawtoruniu.pl,police24.pl,portalsremski.pl,powiatrawicki.info,prawobrzeze24.pl,przelom.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,seniorbb.pl,slu24.pl,sportsinwinter.pl,spotradomsko.pl,szemud24.pl,terazstrzelno.pl,tukutno.pl,tvwalbrzych.pl,tygodnikketrzynski.pl,tyna.info.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,wybudujemy.com.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl,zyciebytomskie.pl,zyciepabianic.pl,zyciezyrardowa.pl##.new-toplayer
 abcmouse.com,shopalike.nl,vimeo.com##.gdpr_banner
-abcnepal.tv,chakrapath.com,dainiknepal.com,kendrabindu.com,notebazar.com,onlinetvnepal.com,sailungonline.com##section.widget figure
+abcnepal.tv,chakrapath.com,dainiknepal.com,kendrabindu.com,notebazar.com,onlinetvnepal.com,puleso.com,sailungonline.com##section.widget figure
 abcnews.com##[data-testid="prism-sticky-ad"]
 abcnews.com,abcnews.go.com##.StickyAdWrapper
 abcnews.com,abcnews.go.com##.navigation--has-subnav {top:0;}
@@ -59463,6 +59456,8 @@ decolar.com###subscription-ab
 decolar.com##.go-to-app
 decolar.com##.subscription-sticky-footer-container
 decomaniacos.es##+js(acs, addEventListener, google_ad_client)
+decompiler.com###adblockWarning
+decompiler.com###artifactFileContent:style(display:block !important)
 decompiler.com##+js(abort-current-script, document.createElement, /disabled-link[\s\S]*?advertisement/)
 decompiler.com##+js(aeld, error)
 decompiler.com##+js(aeld, load, img)
@@ -59470,9 +59465,11 @@ decompiler.com##+js(prevent-fetch, /ethicalads\.io|nitropay\.com/)
 decompiler.com##+js(set, HTMLImageElement.prototype.onerror, undefined)
 decompiler.com##+js(set, HTMLImageElement.prototype.onload, undefined)
 decompiler.com##+js(set, Image.prototype.complete, false)
+decompiler.com##+js(set, Image.prototype.getBoundingClientRect, undefined)
 decompiler.com##+js(set-constant, ResizeObserver, undefined)
 decompiler.com##+js(set-constant, ethicalads, {})
 decompiler.com##+js(set-constant, ethicalads.wait, true, , asResolved)
+decompiler.com##body > div.container:has(#banner)
 decopedia.nl#@##cookieContainer
 decopedia.nl#@##cookieOverlay
 decorardicas.com.br##div[style^="width:300px;"]
@@ -79036,6 +79033,8 @@ football24.ua##app-simple-membrana-adv-block
 football24.ua##app-socials
 football24.ua##div[class*="BrandingPlace"]
 football24.ua##div[id^="igamingBlock-"]
+football24.ua##div[style="min-height: 375px;"]
+football24.ua#?#.adv-insert + p:-abp-has(img)
 football24.ua#?#.news-text > .insert:-abp-has(> a[target="_blank"])
 football24.ua,sport24.ua##app-external-content
 football24.ua,sport24.ua##div[class*="adv-wrapper"]
@@ -100691,6 +100690,7 @@ index.hu##.lapozo
 index.hu,totalcar.hu,velvet.hu##.megoszt
 indexbox.io##.cookie_block_header
 indexbox.io##div[id^="modal-start"]
+indexclix.com##[id^="promo"]
 indexiq.ru##.snackbar-cookies
 indexsubtitle.cc###adblockModal[style] ~ .modal-backdrop:style(display: none !important;)
 indexsubtitle.cc###adblockModal[style]:style(display: none !important;)
@@ -133995,6 +133995,7 @@ myanimelist.net##.btn-mal-service
 myanimelist.net##.footer-app
 myanimelist.net##.footer-mini-banner
 myanimelist.net##.header-mini-banner
+myanimelist.net##.js-scrollfix-bottom-rel.rightside > div[style]:has(.ad-sas)
 myanimelist.net##.js-sns-icon-container
 myanimelist.net##.mal-koukoku-unit
 myanimelist.net##.modal-content
@@ -139090,6 +139091,7 @@ newstm.in#?#div[id^="AS_O_"] div:-abp-has(> div > a> div h5:-abp-contains(Ad |) 
 newstodaynetwork.com##a.disabled img
 newstodaynetwork.com##div[id^="AS_O_RHS"] > div:has(> div > div > div > p)
 newstodaynetwork.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > div > a > h4:-abp-contains(Ad: ))
+newstodaytamil.in##section.py-2
 newstodayupdate.in###block-34
 newstomato.com##.rn_container div[style^="text-align:"][style*="margin-top:"]
 newstomato.com##.rnsc_sns
@@ -213803,6 +213805,7 @@ zaxid.net###header_advt-wrapper
 zaxid.net###slotPromoinformer300x250
 zaxid.net##.content-roll
 zaxid.net##.facebook-comments
+zaxid.net##.injection--LEGAL_SMALL
 zaxid.net##.mobile-branding-wrapper
 zaxid.net##.news-list-col > .news-list
 zaxid.net##.partner-wrap-block
