@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.802
-! Last Modified: 2026.07.01.0722+1000 AEST
+! Version: 1.0.803
+! Last Modified: 2026.07.01.1215+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -49121,6 +49121,7 @@ chatgpt.com##div[class*=turn-messages]:style(--thread-content-max-width:unset!im
 chatgpt.com##div[class]:has(> button[class] > span.text-nowrap > svg.icon-sm > use[href="/cdn/assets/sprites-core-fxfgsfqf.svg#d3876b"])
 chatgpt.com##div[class]:has(> div.flex > button[aria-label="Ad options"])
 chatgpt.com##div[class^="lg"]:has(> div.mx-auto > div.block > div.relative > div.mb-2 > div.flex > div.flex-row > svg[height="62"][width="62"])
+chatgpt.com##div[data-assistant-ads]
 chatgpt.com##div[data-testid] div[class^="max-"] > div[data-ad-card-root]
 chatgpt.com#$#log-if-selector-exists '.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])' ads-chatgpt
 chatgpt.com#%#//scriptlet('set-cookie', 'oai-allow-ne', 'false')
