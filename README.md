@@ -10,7 +10,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 
 ### 2026-07-03
 
-**Users of the Blocklist please be sure to update the links to the new ~80MB sized links.**
+**Users of the Blocklist please be sure to update the links to the new ~50MB sized links.**
 
 ## Details
 
@@ -47,13 +47,20 @@ _Recommended for use in AdGuard Home or similar domain-based software._
     - (can be viewed in the `create_blocklist_list_v1.py` file.)
 - Only domain blocking rules are included in the list
     - Consider performance reasons to not use it in browser-based extensions
-- The lists are approximately 112 MB in size and has around 5 million rules (around 1GB of RAM usage in AdGuard Home)
+- The lists are approximately 140 MB in size and has around 5 million rules (around 1GB of RAM usage in AdGuard Home)
 
 #### Direct raw text links
 
 ```
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_000.txt
+```
+
+```
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_001.txt
+```
+
+```
+https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_002.txt
 ```
 
 ## Recent News
