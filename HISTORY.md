@@ -1,4 +1,8 @@
 
+# 2026-07-03
+- Changed to comply with GitHub file size limit (50MB)
+- Added more lists
+
 # 2026-05-28
 - Added new list to blocklist
 - Split blocklist to 80MB text files

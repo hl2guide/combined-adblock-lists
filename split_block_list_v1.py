@@ -3,8 +3,8 @@
 Splits a combined text file of blocklist filters.
 """
 
-# Version 1.0.0
-# Edited: 2026-05-28 06:09:15 +10:00
+# Version 1.0.1
+# Edited: 2026-07-03 13:39:10 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -12,7 +12,7 @@ Splits a combined text file of blocklist filters.
 # IMPORTS
 import os
 
-def split_file_by_size(filename, chunk_size_mb=80):
+def split_file_by_size(filename, chunk_size_mb=47):
     """
     Splits a file into chunks of specified size (in MB).
     Output files are named: *_000.txt, *_001.txt, etc.
@@ -37,7 +37,7 @@ def split_file_by_size(filename, chunk_size_mb=80):
 
 # Usage
 BLOCKLIST_COMBINED = 'blocklist_combined_filterlist.txt'
-split_file_by_size(BLOCKLIST_COMBINED, 80)
+split_file_by_size(BLOCKLIST_COMBINED, 47)
 
 try:
     os.remove(BLOCKLIST_COMBINED)

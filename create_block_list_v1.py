@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.6
-# Edited: 2026-06-19 13:11:57 +10:00
+# Version 1.0.7
+# Edited: 2026-07-03 13:38:48 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -196,7 +196,18 @@ TESTING_URLS = [
     "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Tracking",
     "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Typo",
     # Pyenb List
-    "https://raw.githubusercontent.com/Pyenb/Pi-hole-blocklist/main/blocklist.txt"
+    "https://raw.githubusercontent.com/Pyenb/Pi-hole-blocklist/main/blocklist.txt",
+    # Sefinek Lists
+    "https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt",
+    "https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
+    "https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
+    # Optimized Big OISD
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt"
+    # Destroy Lists
+    "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
+    "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
+    # 1Hosts (Lite)
+    "https://badmojr.github.io/1Hosts/Lite/adblock.txt"
 ]
 
 print()

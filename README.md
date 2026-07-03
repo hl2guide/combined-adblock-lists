@@ -8,7 +8,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
 
 ## Important News
 
-### 2026-05-28
+### 2026-07-03
 
 **Users of the Blocklist please be sure to update the links to the new ~80MB sized links.**
 
