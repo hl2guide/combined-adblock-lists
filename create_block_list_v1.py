@@ -202,7 +202,7 @@ TESTING_URLS = [
     #"https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
     # Optimized Big OISD
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt"
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt",
     # Destroy Lists
     "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
     "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
