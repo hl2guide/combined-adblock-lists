@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.812
-! Last Modified: 2026.07.03.0653+1000 AEST
+! Version: 1.0.813
+! Last Modified: 2026.07.03.1151+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -42561,6 +42561,7 @@ bold.dk##div[class*="_banner"]
 bold.dk##div[class*=ad-top-wallpaper]
 bold.dk##div[class=row]:has([class*=artikler_monster])
 bold.dk##div[class^="col"]:has(> div[class][style] > div[placement])
+bold.dk##div[class^=col]:has(> div[class][style] > div[placement])
 bold.dk##div[id$=-banner]
 bolddata.nl##.modal-backdrop
 bolddata.nl##.modal-exit-intent
@@ -50850,6 +50851,7 @@ city-n.ru##.odnoklassniki
 city-n.ru##.vkontakte
 city-of-portsmouth-college.ac.uk##.copc-cookie-banner
 city.edogawa.tokyo.jp##.sec_sns
+city.fi##.lw-ad-slot
 city.living.jp##.ad-area-l
 city.nishitokyo.lg.jp###sns_btn_wp
 city.odawara.kanagawa.jp###socialtop
@@ -57672,6 +57674,7 @@ dagens.dk##.generic-widget[class*=" d-none-"]
 dagens.dk,dagens.no##div:has(> .annonce)
 dagens.dk,dust2.dk,www-dust2-dk.translate.goog,kanalfrederikshavn.dk,videnskab.dk,politirapporten.dk,nyheder24.dk,tilbudsugen.dk,alletilbudsaviser.co.no,sedirekte.com,tilbudsuken.no,subjekt.no,tu.no,migogkbh.dk,vinavisen.dk,digi.no,insidetelecom.no,landbrugsavisen.dk,migogaarhus.dk,migogaalborg.dk##.banner:not(html,body,:empty)
 dagens.no##.column > div[data-type="generic-widget"]:has(> div.group > div.code-element > a[href^="https://www.partner-ads.com/"])
+dagens.no##.column > div[data-type=generic-widget]:has(> div.group > div.code-element > a[href^="https://www.partner-ads.com/"])
 dagens.no##div > [href*="partner-ads.com/no/klikbanner."][style*=float]
 dagens.se##.item:has(.prebid, div[data-ad-unit-id], a[href*=casino], a[href="/sponsrat-innehall"])
 dagensarena.se##.fp__row--banner
@@ -59119,6 +59122,7 @@ db.sp.netkeiba.com##.nk_info_bunner
 db2010.pl##.elementor-slides
 dba-oracle.com##+js(ra, oncontextmenu|ondragstart|onselectstart)
 dba.dk###dbashopping-widget:has(a[href*="p1=sponsorclick"])
+dba.dk##.banners
 dba.dk##.marketing-container
 dba.dk##.search-dbashopping
 dbader.org##.email-cta-box
@@ -83884,6 +83888,7 @@ gamer.no##.col-lg-7:has(+ article)
 gamer.no##.column.one-half:has(.promoted-offer)
 gamer.no##.comcontent
 gamer.no##.container > div[class]:has(> [data-size-mapping="toppbanner"])
+gamer.no##.container > div[class]:has(> [data-size-mapping=toppbanner])
 gamer.no##.d-none.d-lg-flex
 gamer.no##.deal-container:has(a[href*="prisjakt.no"])
 gamer.no##.feed--commercial
@@ -83898,6 +83903,7 @@ gamer.no##[class*=-artikkelboard]:has(a[href*="/apx/"])
 gamer.no##[class^=ad-placeholder]
 gamer.no##[data-uname=gamer_artikkelboard]
 gamer.no##[data-uname^="gamer_skyskraper_"]
+gamer.no##[data-uname^=gamer_skyskraper_]
 gamer.no##[id$=-netboard]
 gamer.no##article ~ .text-center
 gamer.no##body > .content-wrap
@@ -83912,6 +83918,7 @@ gamer.no##div[class]:has(+ main)
 gamer.no##div[data-track-visibility]
 gamer.no##div[data-unit$=banner]
 gamer.no##header ~ * > [class]:has(> [data-name="gamer_toppbanner"])
+gamer.no##header ~ * > [class]:has(> [data-name=gamer_toppbanner])
 gamer.no##header ~ [class]:has(~ main):has([id*=-skyskraper-],[id*=toppbanner])
 gamer.no##header ~ div:has(div[data-unit*=banner])
 gamer.no##img[src^="blob:"]
@@ -104612,6 +104619,7 @@ itavcn.com##.hot_dealerxin
 itavcn.com##.mb_right > .mt8:nth-child(3)
 itavcn.com##.topadvzone
 itavcn.com##img[width="722"]
+itavisen.no###contents-wrap > .ai-viewport-1:first-of-type + div[id^=block-wrap-]
 itavisen.no##*:has(>.comcontent)
 itavisen.no##+js(trusted-click-element, [id="qc-cmp2-ui"] [mode="secondary"], , 2000)
 itavisen.no##+js(trusted-click-element, [id="qc-cmp2-ui"] button[class*="css-"]:nth-of-type(1), , 3000)
@@ -104637,6 +104645,8 @@ itavisen.no##article.clearfix:has(a[href*="/go/"])
 itavisen.no##article:has(.title:has-text(/^.*[?:;—]\san{2}ons[eø]r?$/))
 itavisen.no##article[class*=annonse]
 itavisen.no##cloudflare-app[app-id="no-adblock"]
+itavisen.no##k5a-stream > div[class^=k5a-][class*=" "] > article:has(.k5a-sticker-com)
+itavisen.no##k5a-stream > div[class^=k5a-][class*=" "]:has(article:only-of-type > a:not([href*="/2"]) .k5a-sticker-com)
 itavisen.no##p:has(> em > a[data-lasso-id])
 itavisen.no##p:has(~ .wp-block-buttons [data-lasso-name]):has-text(/^Annonse$/)
 itavisen.no##p:has-text(/^Annonse$/i):has(+ h3 > a[data-lasso-id])
@@ -107053,6 +107063,7 @@ jobijoba.com##.modal-wrapper
 jobindex.dk###jobmail_popup_block
 jobindex.dk##.modal-backdrop
 jobindex.dk##div[aria-label="Annonce"]
+jobindex.dk##div[aria-label=Annonce]
 jobindex.dk#$#.jix-cookie-consent-modal { display: none !important; }
 jobindex.dk#$#.modal-backdrop { display: none !important; }
 jobindex.dk#$#.modal-open { overflow: auto !important; }
@@ -108144,6 +108155,7 @@ jyllands-posten.dk##.artView__shareToolbar
 jyllands-posten.dk##.bpTopPlacement
 jyllands-posten.dk##.hidden.relative:has(ins[id*=noconsent])
 jyllands-posten.dk##body section[id^="monster_"]
+jyllands-posten.dk##body section[id^=monster_]
 jyllands-posten.dk##div[class*=interscrollerAd]
 jyllands-posten.dk,finans.dk##body div[class*=banner-container]
 jyllands-posten.dk,jyllands--posten-dk.translate.goog###MegaBoard_Top
@@ -113282,6 +113294,7 @@ kundapraa.com##.smart-head-row .h-text img
 kundeavisogtilbud.no##.mobile-app-banner-small
 kundeavisogtilbud.no##.page-promotion-item
 kundeavisogtilbud.no##div[class^="ad_"]
+kundeavisogtilbud.no##div[class^=ad_]
 kundeavisogtilbud.no,offertevolantini.it##.corner-popup-container
 kundeavisogtilbud.no,tilbudsaviseronline.dk##.anchor-wrapper
 kundenservice.logpay.de#$##cookie_wrapper { display: none !important; }
@@ -137445,10 +137458,13 @@ nettavisen.no##.am-bazaar-ad
 nettavisen.no##.background-na-commercial
 nettavisen.no##.commercial
 nettavisen.no##.teaser_body[href]:has(div.overlay_container [data-skin="commercial"])
+nettavisen.no##.teaser_body[href]:has(div.overlay_container [data-skin=commercial])
 nettavisen.no##a > .background-na-commercial ~ *
 nettavisen.no##amedia-frontpage > .optimus-complex-front:has(> header > h2:contains(/Reklame|REKLAME/))
 nettavisen.no##amedia-include[param-editionid="kommersiellartikkel"]
+nettavisen.no##amedia-include[param-editionid=kommersiellartikkel]
 nettavisen.no##amedia-smartembed:has(div.overlay_container [data-skin="commercial"])
+nettavisen.no##amedia-smartembed:has(div.overlay_container [data-skin=commercial])
 nettavisen.no#$#simulate-mouse-event '.brick-video.flowplayer.is-popped-out .fp-exit-float'
 nettavisen.no,www-nettavisen-no.translate.goog###topover
 nettavisen.no,www-nettavisen-no.translate.goog###topover-loader
@@ -156609,6 +156625,8 @@ prinxy.app##.sticky-banner
 prinxy.app##.sticky-footer
 prinz.de##.prinz-info--lb
 priorydirect.co.uk###cookie__Wrapper
+prisjagt.dk##.max-w-page-content-incl-ads > div[data-sentry-component=Section]:empty
+prisjagt.dk##.pjra\:hidden
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##.app--main > div[class^=sc-]:style(max-width: 97vw !important)
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##.category-list--top-level-item:style(flex: unset !important; margin-right: 15px !important)
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##.category-page > div:style(max-width: 98vw !important)
@@ -156622,6 +156640,7 @@ prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##div[data-test=Sid
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##nav[class^=Navigation-]:style(max-width: 95vw !important)
 prisjakt.no##+js(set, apntag.refresh, noopFunc)
 prisjakt.no##.max-w-page-content-incl-ads > div[data-sentry-component="Section"]:empty
+prisjakt.no##.max-w-page-content-incl-ads > div[data-sentry-component=Section]:empty
 prisjakt.no##.pjra-relative
 prisjakt.no##.pjra\:hidden
 prisjakt.no##div[class*=AdPlacement i]
@@ -169582,6 +169601,7 @@ senedd.tv#$#body { overflow: auto !important; }
 senest.dk##+js(prevent-fetch, pagead2.googlesyndication.com)
 senest.dk##.d-none-mobile.generic-widget
 senest.dk##.generic-widget > .group[class*="d-none-"]:has(> .code-element:only-child > div[data-ad-unit-id])
+senest.dk##.generic-widget > .group[class*=d-none-]:has(> .code-element:only-child > div[data-ad-unit-id])
 senetic.de,senetic.pl###rodoRow
 senetic.fr##.nwsBlock
 senetic.pl###floating_boxes.livechat-space
@@ -174770,6 +174790,7 @@ sodimac.com.pe##[class^="Footer-module_footer-bottom"]:has(#testId-accept-cookie
 sodrateatern.com##.styles__CookiebarWrap-g5ab7n-0
 soeco.se##react-cookies-popup
 soefart.dk##div[class*="mowgli"]
+soefart.dk##div[class*=mowgli]
 soel.ru##.bottom-slider
 soel.ru##.footer_logo_telegram
 soel.ru##.footer_logo_youtube
@@ -174788,6 +174809,7 @@ sofabold.dk##.centerMgfx
 sofabold.dk##.socialRightMenu
 sofabold.dk##.top_b_display
 sofabold.dk##div[class^="sidebanner"]
+sofabold.dk##div[class^=sidebanner]
 sofascore.com##.ad-unit-container
 sofascore.com##.ad-unit__text
 sofascore.com##.adUnitBox
@@ -185316,6 +185338,7 @@ telsu.fi##+js(prevent-fetch, googlesyndication.com)
 telsu.fi##.ch:has(em > a)
 telsu.fi##.dp
 telsu.fi##.pb
+telsu.fi##.pb_t { display: flex !important; height: 1px !important; min-height: 1px !important; max-height: 1px !important; padding: 0 !important; margin: 0 !important; overflow: hidden !important; pointer-events: none !important;}
 telsu.fi#?#.ch:has-text(/SP(O|0)NSOROITU/)
 telsu.fi#?#.ch:has-text(/SPON|SPONS|SPONSO|SPONSOR|SPONSORO|SPONSOROI|SPONSOROIT|SPONSOROITU/)
 teltarif.de###LxLottoBox
@@ -200749,6 +200772,7 @@ vg.no##.reg-grid-container > div[style="height: 150px; position: relative; z-ind
 vg.no##.reg-tools > .social
 vg.no##.wallpaper-sidekick
 vg.no##aside.grouped > section:not([class]):has(> div[class^="_container"] > astro-island[component-export="GiftHelperPymFrame"])
+vg.no##aside.grouped > section:not([class]):has(> div[class^=_container] > astro-island[component-export=GiftHelperPymFrame])
 vg.no##section[class*=articles_zulis]
 vg.no##ul[class^="css-"] > li[aria-label="facebook"]
 vg.no#$#simulate-mouse-event '.desktop__video-wrapper--sticky .video-nav__button[title="Flytt til topp"]'
@@ -210988,6 +211012,7 @@ xn--bodposten-n8a.no,ranaposten.no##.widget_links
 xn--bodposten-n8a.no,ranaposten.no##a[href$="/vpn-til-mac/"]
 xn--bodposten-n8a.no,ranaposten.no#?#.widget-goodpress-home-block-one:has-text(Annonsørinnhold)
 xn--bredbnd-ixa.dk##div[class^="speedtest-bg"] > a > img
+xn--bredbnd-ixa.dk##div[class^=speedtest-bg] > a > img
 xn--c1acj.xn--p1ai##.adv-links
 xn--c1ajfnfb.xn--p1acf##div[style^="background:"][style*="/ple.jpg)"]
 xn--d1aiavecq8cxb.xn--p1ai##app-block-page-header > div.shell
