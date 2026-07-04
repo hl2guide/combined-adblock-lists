@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.7
-# Edited: 2026-07-03 13:38:48 +10:00
+# Version 1.0.8
+# Edited: 2026-07-04 21:36:02 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -154,21 +154,37 @@ URL_PREFIX_1 = \
 # Testing list URLs
 TESTING_URLS = [
     # blocklistproject - https://github.com/blocklistproject/Lists
-    "https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/crypto-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/drugs-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/facebook-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/gambling-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/malware-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/scam-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/twitter-ags.txt",
-    "https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/abuse-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/ads-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/crypto-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/drugs-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/facebook-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/fraud-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/gambling-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/malware-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/phishing-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/ransomware-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/scam-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/tiktok-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/tracking-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/twitter-ags.txt",
+    "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/vaping-ags.txt",
+    # (404 errors) Older blocklistproject - https://github.com/blocklistproject/Lists
+    # "https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/crypto-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/drugs-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/facebook-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/gambling-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/malware-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/scam-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/twitter-ags.txt",
+    # "https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt",
     # hagezi - https://github.com/hagezi/dns-blocklists
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
