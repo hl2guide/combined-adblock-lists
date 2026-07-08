@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.841
-! Last Modified: 2026.07.09.0224+1000 AEST
+! Version: 1.0.842
+! Last Modified: 2026.07.09.0655+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -962,6 +962,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$strict3p,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$subdocument,redirect-rule=noop.html,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 *$xhr,3p,denyallow=github.com|stripe.com|fpjs.pro,domain=fingerprint.com|~dev.fingerprint.com|~docs.fingerprint.com
+*$xhr,3p,denyallow=kstatic.to,domain=kagane.to
 *$xhr,3p,domain=app.axenthost.com,redirect-rule=nooptext
 *$xhr,3p,domain=faselhd-watch.shop|kickassanime.mx,badfilter
 *$xhr,3p,domain=nsfwyoutube.com
@@ -36271,6 +36272,7 @@ banki.ru##[data-name^="clip_mpcard"]
 banki.ru##[data-test="flexbox"] > div[data-test="tooltip"]:nth-child(2)
 banki.ru##a[class^="TelegramLinkstyled_"]
 banki.ru##a[href="https://t.me/+l_TJuOBvJBAyYTNi"]
+banki.ru##body > div.gray:has(> div > div > div[class^="WidgetStack__sc-"] > div > div > div[data-module-id] > div[data-test="subscribe-widget"])
 banki.ru##div[class*="AdfoxBannerWrapper"]
 banki.ru##div[class^="DownloadMobileAppstyled__DownloadAppWrapStyled"]
 banki.ru##div[class^="Flexbox"] > div[class^="Tooltip"]:has(div[data-test="tooltip-children"] path[d^="M9.6394"])
@@ -53148,6 +53150,7 @@ coleman.cz##.CookiesPanel
 colemanfurniture.com##.user-consent-dialog
 coles.com.au##[data-testid="banner-container-desktop"]
 coles.com.au#?#.coles-targeting-UnitContainer:has(ul.product__top_messaging)
+coles.com.au#?#.list-item[role="presentation"]:has([data-testid="product-tile"]:has-text(Sponsored))
 coletividade-evolutiva.com.br###HTML1
 coletividade-evolutiva.com.br###HTML11
 coletividade-evolutiva.com.br###Image1
@@ -87379,6 +87382,7 @@ givemesport.com##.gms-content-wrapper a[href^="https://shop.givemesport.com/prod
 givemesport.com##.gms-message
 givemesport.com##.gms-notification-app
 givemesport.com##.gms-share
+givemesport.com##.no-badge.video:has(> div.w-adsninja-video-player)
 givemesport.com##.w-promotion-offer
 givemesport.com##div[style^="background: blue;"][style*="position: fixed;"]
 givemesport.com#$##gms-editorial > .gms-article-indicator.floating-fixed { margin-top: 0!important; }
@@ -89398,6 +89402,7 @@ gorod.dp.ua##iframe[src*="holder.com.ua"]
 gorod.gov.spb.ru##.fixed-alert
 gorod.gov.spb.ru##.icon-main-share
 gorod.mos.ru##.ui-info-modal__wrapper
+gorod.mos.ru#%#//scriptlet('set-local-storage-item', 'downloadAppComplete', '1')
 gorod.tomsk.ru###top-adv-container
 gorod.tomsk.ru##.topBan.w33.white
 gorod214.by##.information-new + div.col-md-12 > p[style="text-align: center;"]
@@ -100226,6 +100231,8 @@ imgbaron.com,picbaron.com##iframe[src^="//a.exosrv.com/"]
 imgbb.com##.abnr
 imgbox.com###full-page-redirect
 imgbox.com###image-content-container > .image-container + div[style="text-align:center; margin-top:4px;"] > div[style="display: inline-block;width:300px;height:250px"]
+imgbox.com##+js(remove-attr, href, a[href^="https://adv.clickadu.net/"][onclick], stay)
+imgbox.com##+js(remove-attr, href, a[href^="https://go.clickwhore.com/"][onclick], stay)
 imgbox.com##._ln-floater
 imgbox.com##[style="display: inline-block;width:300px;height:250px"]
 imgbox.com##a[href^="https://sinparty.com/"]
@@ -100350,6 +100357,7 @@ imgur.com##.fast-grid-ad
 imgur.com##.post-banner
 imgur.com##a[href].Post-item:has(.Post-item-external-ad):style(opacity: 0 !important; cursor: unset !important; pointer-events: none !important;)
 imgur.com##div[style="margin-bottom: 16px; position: relative; z-index: 1; min-height: 250px;"]
+imgur.com#%#(()=>{window.addEventListener("click",(function(t){const e=t?.target?.closest?.(".BottomRecirc a[href].Post-item");e&&(t.preventDefault(),location.assign(e.href))}),!0);})();
 imgur.com#?#.FastGrid > .Grid-column > div[style*="height:"]:has(> a[href] > .Post-item-container > .Post-item-meta > .Post-item-external-ad)
 imgur.com,imgur-com.translate.goog##+js(set-cookie, WHITELISTED_CLOSED, 1)
 imgur.io##.Ad
@@ -107236,6 +107244,7 @@ jobs.nike.com#@#.cookie-content
 jobs.nike.com#@#.cookies-popup:not(#style_important)
 jobs.pl,loveair.pl#$#.m-cookies-modal { display: none !important; }
 jobs.pl,loveair.pl#$#body { overflow: auto !important; }
+jobs.pnp.de##.list-advrtsmnt
 jobs.sap.com###rss-wrapper
 jobs.siemens-healthineers.com##+js(trusted-set-cookie, userCookieConsent-145, '{"1":true,"2":false,"3":false}')
 jobs.siemens-healthineers.com#%#//scriptlet('trusted-set-cookie', 'userCookieConsent-145', '%7B%221%22%3Atrue%2C%222%22%3Atrue%2C%223%22%3Afalse%7D')
@@ -108436,6 +108445,9 @@ kafanews.com#?#.nb2-list:-abp-has(> .nb2-head:-abp-contains(Визитка))
 kafeteria.pl,autokult.pl,fitness.wp.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl##div[class*=" "] > div[class]:first-child + img[src^="https://i.wpimg.pl/100x0/"]:upward(1)
 kaffeelix.at,loopearplugs.com,suomikauppa.fi,tedbaker.com,wearewild.com###gdpr-blocking-page-overlay
 kaft.com###cookie-policy-band
+kagane.to##+js(no-window-open-if)
+kagane.to,vidnest.fun,kora-sia.com,animeidhentai.com,nhplayer.com,tk2dl.com,miruro.tv,goplay.ml,goplay.su,animepahe.*,dopebox.to,flickystream.net,vidfast.pro,hivecomic.com,9xplayer.com,tempatwisata.pro,kuyhaa-me.site,igg-games.com,urlbluemedia.shop,kuyhaa.me,cosmic1.co,lodynet.link,pelismax.one,stbturbo.xyz,y2mate.*,gogoanimes.fi,vdbtm.shop,hdfilme.plus,get-to.link,zoro.se,moviekhhd.biz,drivemoe.com,watchsomuch.to,faselhd-embed.scdns.io,nxbrew.net,toonily.me,limetorrents.lol,pelisflix2.green,185.217.95.44,moviesjoyhd.to,faselhd.*,5.45.95.74,kissasian.*,opensubtitles.org,1337xx.to,lookmovie2.to,1l1l.to,file-upload.org,meetdownload.com,hentaiasmr.moe,witanime.org,yugenanime.tv,kissanimefree.cc,animeyt.es,anichin.top,monoschinos2.com,ssrmovies.singles,tuktukcinema.*,rule34hentai.net,animepahe.ru,vidsrc.*,123movies-hd.online,dramacool.*,123movies.*,jujmanga.com,otakufr.co,srsone.top,phimgiz.net,holymanga.net,strims.*,kissanime.*,xmovies8.pw,moviesjoy.*,1337x.*,0gomovies.*,vipbox.lc,semawur.com,tamilblasters.unblockit.dev,shingekinokyojinepisodes.com,ekinomaniak.net,rexdlfile.com,downloadhub.ink,cuturl.in,123movie.date,hblinks.pro,akwams.*,desiupload.co,leechall.com,allcalidad.la,disasterscans.com,masteranime.es,savesubs.com,gdtot.*,mkvcinemas.*,akwam.*,mirrored.to##+js(json-prune, *, rot_url)
+kagane.to,vidnest.fun,kora-sia.com,animeidhentai.com,nhplayer.com,tk2dl.com,miruro.tv,goplay.ml,goplay.su,animepahe.*,dopebox.to,flickystream.net,vidfast.pro,hivecomic.com,9xplayer.com,tempatwisata.pro,kuyhaa-me.site,igg-games.com,urlbluemedia.shop,kuyhaa.me,cosmic1.co,lodynet.link,pelismax.one,stbturbo.xyz,y2mate.*,gogoanimes.fi,vdbtm.shop,hdfilme.plus,get-to.link,zoro.se,moviekhhd.biz,drivemoe.com,watchsomuch.to,faselhd-embed.scdns.io,nxbrew.net,toonily.me,limetorrents.lol,pelisflix2.green,185.217.95.44,moviesjoyhd.to,faselhd.*,5.45.95.74,kissasian.*,opensubtitles.org,1337xx.to,lookmovie2.to,1l1l.to,file-upload.org,meetdownload.com,hentaiasmr.moe,witanime.org,yugenanime.tv,kissanimefree.cc,animeyt.es,anichin.top,monoschinos2.com,ssrmovies.singles,tuktukcinema.*,rule34hentai.net,animepahe.ru,vidsrc.*,123movies-hd.online,dramacool.*,123movies.*,jujmanga.com,srsone.top,phimgiz.net,holymanga.net,strims.*,kissanime.*,xmovies8.pw,moviesjoy.*,1337x.*,0gomovies.*,vipbox.lc,semawur.com,tamilblasters.unblockit.dev,shingekinokyojinepisodes.com,ekinomaniak.net,rexdlfile.com,downloadhub.ink,cuturl.in,123movie.date,hblinks.pro,akwams.*,desiupload.co,leechall.com,allcalidad.la,disasterscans.com,masteranime.es,savesubs.com,gdtot.*,mkvcinemas.*,akwam.*,mirrored.to,desustream.me,brbushare.com##+js(json-prune, *, pop_type)
 kageshworikhabar.com##.kages-widget
 kaggle.com#%#//scriptlet('set-cookie', 'ACCEPTED_COOKIES', 'true')
 kagoya.jp###kh-cta-5
@@ -146471,6 +146483,8 @@ orbispatches.com##div[class="small text-muted text-center"]
 orbispatches.com#@#.adsbyvli
 orbit-games.com#?#.widget_text:-abp-has(> div > p > a[href*="patreon.com/"])
 orbitaltoday.com##.pop-up
+orbitz.com#$#.CustomerNotificationsWrapper { display: none !important; }
+orbitz.com#$#.has-uitk-sheet { overflow: auto !important; }
 orbitz.com,hoteles.com,hotels.com##.uitk-view-row-theme-brand_promo_primary
 orca-app.dev###subscribe-form
 orcadian.co.uk##.cd-container
@@ -148862,6 +148876,7 @@ patronite.pl#%#//scriptlet('trusted-set-local-storage-item', 'patronite-gdpr', '
 patronlardunyasi.com##.Subscribe\\GeneralForm
 patronlardunyasi.com##.lg\:sticky > div.text-sm
 patronlardunyasi.com##.lg\:sticky > div.text-sm ~ div.justify-center > a[target="_black"]
+patronlig16.cfd##.footer-powered-by
 pattayatalk.com##.ipb_table > * > .redirect_forum
 pattayatalk.com##a[href^="http://www.pattayatalk.com/forums/index.php?"][href*="app=advadverts"]
 pauladeen.com##.component-sidebar-newsletter
@@ -153791,6 +153806,7 @@ polska-ie.com##.arrow_carrot-2up
 polska-ie.com#@##adsense
 polska-morska.pl##.reklama + p
 polska-morska.pl##a[href^="https://www.lotto.pl/"]
+polska-zbrojna.pl##a[href*="advert"]
 polskacanada.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 polskacanada.com##+js(acs, jQuery, contextmenu)
 polskaligatenisa.pl##app-rodo
@@ -201730,8 +201746,6 @@ vidmoly.to###dos_vlock
 vidmoly.to###vope
 vidmoly.to##+js(no-setTimeout-if, =document['createElement'])
 vidmoly.to##body > div[style*="opacity:"][style*="position: fixed; width:"][style*="z-index:"]:not([class], [id])
-vidnest.fun,kora-sia.com,animeidhentai.com,nhplayer.com,tk2dl.com,miruro.tv,goplay.ml,goplay.su,animepahe.*,dopebox.to,flickystream.net,vidfast.pro,hivecomic.com,9xplayer.com,tempatwisata.pro,kuyhaa-me.site,igg-games.com,urlbluemedia.shop,kuyhaa.me,cosmic1.co,lodynet.link,pelismax.one,stbturbo.xyz,y2mate.*,gogoanimes.fi,vdbtm.shop,hdfilme.plus,get-to.link,zoro.se,moviekhhd.biz,drivemoe.com,watchsomuch.to,faselhd-embed.scdns.io,nxbrew.net,toonily.me,limetorrents.lol,pelisflix2.green,185.217.95.44,moviesjoyhd.to,faselhd.*,5.45.95.74,kissasian.*,opensubtitles.org,1337xx.to,lookmovie2.to,1l1l.to,file-upload.org,meetdownload.com,hentaiasmr.moe,witanime.org,yugenanime.tv,kissanimefree.cc,animeyt.es,anichin.top,monoschinos2.com,ssrmovies.singles,tuktukcinema.*,rule34hentai.net,animepahe.ru,vidsrc.*,123movies-hd.online,dramacool.*,123movies.*,jujmanga.com,otakufr.co,srsone.top,phimgiz.net,holymanga.net,strims.*,kissanime.*,xmovies8.pw,moviesjoy.*,1337x.*,0gomovies.*,vipbox.lc,semawur.com,tamilblasters.unblockit.dev,shingekinokyojinepisodes.com,ekinomaniak.net,rexdlfile.com,downloadhub.ink,cuturl.in,123movie.date,hblinks.pro,akwams.*,desiupload.co,leechall.com,allcalidad.la,disasterscans.com,masteranime.es,savesubs.com,gdtot.*,mkvcinemas.*,akwam.*,mirrored.to##+js(json-prune, *, rot_url)
-vidnest.fun,kora-sia.com,animeidhentai.com,nhplayer.com,tk2dl.com,miruro.tv,goplay.ml,goplay.su,animepahe.*,dopebox.to,flickystream.net,vidfast.pro,hivecomic.com,9xplayer.com,tempatwisata.pro,kuyhaa-me.site,igg-games.com,urlbluemedia.shop,kuyhaa.me,cosmic1.co,lodynet.link,pelismax.one,stbturbo.xyz,y2mate.*,gogoanimes.fi,vdbtm.shop,hdfilme.plus,get-to.link,zoro.se,moviekhhd.biz,drivemoe.com,watchsomuch.to,faselhd-embed.scdns.io,nxbrew.net,toonily.me,limetorrents.lol,pelisflix2.green,185.217.95.44,moviesjoyhd.to,faselhd.*,5.45.95.74,kissasian.*,opensubtitles.org,1337xx.to,lookmovie2.to,1l1l.to,file-upload.org,meetdownload.com,hentaiasmr.moe,witanime.org,yugenanime.tv,kissanimefree.cc,animeyt.es,anichin.top,monoschinos2.com,ssrmovies.singles,tuktukcinema.*,rule34hentai.net,animepahe.ru,vidsrc.*,123movies-hd.online,dramacool.*,123movies.*,jujmanga.com,srsone.top,phimgiz.net,holymanga.net,strims.*,kissanime.*,xmovies8.pw,moviesjoy.*,1337x.*,0gomovies.*,vipbox.lc,semawur.com,tamilblasters.unblockit.dev,shingekinokyojinepisodes.com,ekinomaniak.net,rexdlfile.com,downloadhub.ink,cuturl.in,123movie.date,hblinks.pro,akwams.*,desiupload.co,leechall.com,allcalidad.la,disasterscans.com,masteranime.es,savesubs.com,gdtot.*,mkvcinemas.*,akwam.*,mirrored.to,desustream.me,brbushare.com##+js(json-prune, *, pop_type)
 vidnest.fun,vidnest.live,vidnest.io##+js(no-setTimeout-if, window.location.replace, 100)
 vidnest.fun,vidnest.live,vidnest.io##+js(remove-node-text, script, maxPopsPerCycle)
 vidnest.fun,vidnest.live,vidnest.io##.main_container center p a[target="_blank"][rel="noopener"]
@@ -207386,6 +207400,7 @@ wikipedia.org###siteNotice
 wikipedia.org###wmde-banner-app
 wikipedia.org##.cbnnr
 wikipedia.org##.cnotice
+wikipedia.org##.donate-banner
 wikipedia.org##.ext-quick-survey-panel
 wikipedia.org##.mw-dismissable-notice
 wikipedia.org##.mw-page-container:style(padding-left: 5px !important; padding-right: 5px !important)
