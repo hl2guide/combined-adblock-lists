@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.838
-! Last Modified: 2026.07.08.1129+1000 AEST
+! Version: 1.0.839
+! Last Modified: 2026.07.08.1722+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -3770,7 +3770,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/([a-z]+\.)?sythe\.org\/[\w\W]{30,}/$image
 /^https:\/\/([a-z]-){10,15}[a-z]\.(?:com|net|org)\.tr\//$doc,to=com.tr|net.tr|org.tr
 /^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
-/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/(?:analyticsdata|metrics)\/?$/$script,1p,match-case
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/(?:analyticsdata|gemets|metrics)\/?$/$script,1p,match-case
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4,6}\/\?id=AW-\d+/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4,6}\/\?id=G-[A-Z0-9]+/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
 /^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4}\/$/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
 /^https:\/\/(www\.)?sp\d{4,5}p\.com\//$doc,to=com|~shopee.vn
 /^https:\/\/3dzip\.[a-z]+\/wp-content\/uploads\/[a-f][a-f][a-f][a-f][a-f][a-f]\/[a-f][a-f][a-f][a-f][a-f][a-f]\.js\?ver=/$script
@@ -13822,7 +13824,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /ts.php?q=$xhr,3p
 /ts.php?z=$xhr,3p
 /tstotosaja.$image,third-party
-/tt1-1367073066.cos.
 /ttgcookieconsent-
 /ttj?id=
 /tuan-togel.$image
@@ -33128,8 +33129,8 @@ audiotrendt.com.pl,dolasu.pl,kenayeurope.de,sklepnumatic.pl,lamaxshop.pl,eltrox.
 audiotruyenfull.com##+js(nowoif)
 audiotruyenfull.com#$#abort-current-inline-script document.addEventListener ai_run
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
+audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.1phim10.com#$#abort-current-inline-script setTimeout Aff
 audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.1phim8.com#$#abort-current-inline-script setTimeout Aff
-audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.1phim9.com#$#abort-current-inline-script setTimeout Aff
 audiovideo.fi##.head.the-wrap
 audiovideo.fi##[id|=bunyad-widget-ads]
 audiovisualfromspain.com##.cookies-modal-footer-cmp
@@ -33431,7 +33432,6 @@ auto.de#$#div[class^="PreviewCookieModal"] { display: none !important; }
 auto.de#$#html, body { overflow: auto !important; }
 auto.economictimes.indiatimes.com###yolooverlay
 auto.economictimes.indiatimes.com##.mrec-ads-slot
-auto.economictimes.indiatimes.com##.newsletter-section
 auto.economictimes.indiatimes.com##.top-newsletter-subs
 auto.economictimes.indiatimes.com##.top-stripe-mc
 auto.economictimes.indiatimes.com#$#.model-bg { display: none !important; }
@@ -45008,8 +45008,8 @@ bunte.de##.fe-channel-item--promo
 bunte.de#%#//scriptlet('remove-class', 'sp-message-open', 'html.sp-message-open')
 bunte.de,chip.de,focus.de,tvspielfilm.de,tvtoday.de##[id^="sp_message_container"]
 bunte.de,chip.de,focus.de,tvspielfilm.de,tvtoday.de##html.sp-message-open > body:style(position: unset !important; overflow: unset !important)
+buomtv.life,clipsexvn.mobi,animehay08.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub2.com,dualeotruyenhn.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen12.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,vipphimsexhay.com,quatvn.lol,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 buomtv.life,phimsexai.net,animehay08.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub2.com,dualeotruyenhn.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen11.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,vipphimsexhay.com,quatvn.lol,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
-buomtv.life,phimsexhay.mobi,animehay08.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub2.com,dualeotruyenhn.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen12.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,vipphimsexhay.com,quatvn.lol,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 buonapesca.it###sponsor-bottom
 buonapesca.it##.banner-display
 buonapesca.it,picenooggi.it###adv
@@ -51912,6 +51912,7 @@ cm.com##.s-cookie-popup
 cmacked.com#%#//scriptlet("adjust-setInterval", ".show_download_links", "", "0.02")
 cmacked.com,macdrop.net##.adp-popup
 cmangax17.com#$#cookie-remover ads_num true
+cmangax18.com#$#cookie-remover ads_num true
 cmbc.com.cn#@#.adBox
 cmcmotorsports.com###shopify-section-sign-up_banner
 cmcmotorsports.com###tapcart-web-banner
@@ -54708,6 +54709,7 @@ coop-land.ru##article > .social ~ center
 coop-land.ru##article > div.text-center[style="margin-bottom: 20px;"]
 coop-land.ru##article > div[class="center m10"]
 coop-land.ru##body > div:not([id]):not([class]):empty
+coop.ch##.block-popover-cookie
 coop.co.uk##.coopssn-c-cookienotice
 coop.se##.js-personalInformationNotice
 coop.se#?#:is(a[href="/butiker-erbjudanden/"], a[href^="/handla"]):has(source[srcset*=annons], img[alt*=Annons])
@@ -76217,7 +76219,9 @@ filesmerge.com##.slider-body > div.slider_item:has(> div > h4:contains(/Ads|Werb
 filesmonster.com##.accept-privacypolicy
 filespace.com##.col-lg-8 tr:has(a[onclick^="share_"])
 filespayout.com##[href="javascript:void(0);"]
+filespayouts.com###Prem_traffic
 filespayouts.com###normal-box
+filespayouts.com###premium_pro
 filespayouts.com##+js(addEventListener-defuser, click, createElement)
 filespayouts.com##+js(rmnt, script, window.open)
 filespayouts.com##.idm-banner
@@ -87109,6 +87113,7 @@ girlstyle.com##.top-app-promotion
 girlstyle.com,thecatcity.com,urbanlifehk.com##.article-pop-up-ad
 girlstyle.com,thecatcity.com,urbanlifehk.com##.desktop-sidebar__block--fb
 girlsvip-matome.com###extra div.plugin-memo:last-child
+girlsvip-matome.com###kanren_box2
 girlsvip-matome.com###pickup2
 girlsvip-matome.com##.kotei_link
 girlsvip-matome.com##.sns_btn2
@@ -104047,6 +104052,7 @@ iqiyi.com##iqpdiv[data-cupid=container]
 iqiyi.com##li[data-flag="shop"]
 iqiyi.com##li[id^="100000"]
 iqiyi.com#$#body[style="overflow: hidden;"] { overflow: auto !important; }
+iqiyi.com#%#//scriptlet('trusted-json-set', 'Object.keys', '$.adSlots', '$remove$', '', 'arg')
 iqiyi.com#?#body > .header__ele:has(> .header__toast:contains(VIP))
 iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
@@ -105296,6 +105302,7 @@ ixbt.com,ixbt.market##.deskadv
 ixbt.com,ixbt.pro###cookie-consent-banner-root
 ixbt.com,ixbt.video##.gdpr-root
 ixbt.com,rbkgames.com,vyborok.com##div[id^="marketWidget"]
+ixbt.games###consent-ru-banner
 ixbt.games##.desktop-c
 ixbt.games##.recommend-c
 ixbt.games##.sidebar-c
@@ -106145,8 +106152,8 @@ javgg.net,javgg.co#@##AD_160
 javggvideo.xyz##+js(no-window-open-if)
 javggvideo.xyz##+js(nowoif)
 javgiga.com##.video-actions
+javgiga.wordpress.com,www.1phim10.com#$#abort-on-property-read localStorage
 javgiga.wordpress.com,www.1phim8.com#$#abort-on-property-read localStorage
-javgiga.wordpress.com,www.1phim9.com#$#abort-on-property-read localStorage
 javguard.club,vidguardto.xyz,pistona.xyz,gaystream.click,gaystream.click,go-streamer.net,vgfplay.xyz,tioplayer.com,listeamed.net,bembed.net,embedv.net,vembed.net,vid-guard.com,v6embed.xyz,vgembed.com##body > div[class]:empty
 javguard.club,vidguardto.xyz,pistona.xyz,gaystream.click,go-streamer.net,vgfplay.xyz,tioplayer.com,listeamed.net,bembed.net,embedv.net,vembed.net,vid-guard.com,v6embed.xyz,vgembed.com##+js(abort-on-stack-trace, document.createElement, afterOpen)
 javguard.club,vidguardto.xyz,pistona.xyz,gaystream.click,go-streamer.net,vgfplay.xyz,tioplayer.com,listeamed.net,bembed.net,embedv.net,vembed.net,vid-guard.com,v6embed.xyz,vgembed.com##+js(abort-on-stack-trace, open, _openAd)
@@ -132700,6 +132707,7 @@ mpg.de##.social-media-buttons
 mpg.football##+js(set, ads, true)
 mpheadline.com,satyagrahanews.in##.newsmatic-advertisement-block
 mphim.my#$#override-property-read urlAds ''
+mphimtv.my#$#override-property-read urlAds ''
 mpj-portal.jp##.mHoldem-app
 mpnewscast.com##.wpb_single_image .attachment-full
 mpnewscast.com##.wpb_single_image .wpb_heading
@@ -163736,7 +163744,6 @@ revistajaraysedal.es##img[width="325"]
 revistalideres.ec##.social-nav
 revistamarieclaire.globo.com,revistapegn.globo.com,epocanegocios.globo.com,vogue.globo.com,smh.com.au,theage.com.au###subscribe-newsletter
 revistamercado.do##.content  > p:has(> strong > a[href="https://revistamercado.do/mercado-newsletter"])
-revistamercado.do,catalog-az.ro,offidocs.com,bestforandroid.com,australiangeographic.com.au,vogueadria.com,bookdepository.com,crystalgemstoneshop.com,allthatsinteresting.com,gestion.pe,edureka.co,tubularinsights.com,rollei.de,hashicorp.com##.newsletter-section
 revistamotos.pt##img[height="300"]
 revistaoeste.com##.accept-cookies-container
 revistaoeste.com##.newsletter-side
@@ -185811,6 +185818,7 @@ tenga.co##.ProductMeta__Description
 tengriauto.kz,tengrinews.kz,tengrisport.kz##.content_main_share
 tengriauto.kz,tengrinews.kz,tengrisport.kz##.footer_sec_feedback_social
 tengriauto.kz,tengrinews.kz,vesti.kz##.push-form-container
+tengrinews.kz##.banner-google-news
 tengrinews.kz##.content_main_meta_stat_top
 tengrinews.kz##.content_main_text_share-mob
 tengrinews.kz##.side-share
@@ -185821,6 +185829,7 @@ tengrinews.kz##.tn-urgent-news-info
 tengrinews.kz##[class^="tn-social-"]
 tengrinews.kz##div.tn-shared
 tengrinews.kz#?#section:-abp-has(> .ya-news)
+tengrinews.kz,auto.economictimes.indiatimes.com,revistamercado.do,catalog-az.ro,offidocs.com,bestforandroid.com,australiangeographic.com.au,vogueadria.com,bookdepository.com,crystalgemstoneshop.com,allthatsinteresting.com,gestion.pe,edureka.co,tubularinsights.com,rollei.de,hashicorp.com##.newsletter-section
 tengrinews.kz,tengriauto.kz###tnStickyContainer
 tengrinews.kz,tengriauto.kz,tengrisport.kz##.content_main_share
 tengrinews.kz,tengriauto.kz,tengrisport.kz,smhn.info##.share_top
@@ -210540,6 +210549,7 @@ xbabe.com##.bnnrs-bottom
 xbabe.com##.nat-bottom
 xbabe.com##a[href^="https://xbabe.com/go/"]
 xbabe.com##div[class^="bnnr"]
+xbato.co.uk###xp-feature-popup
 xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
 xberuang.*##+js(nano-sib)
 xberuang.*##+js(set, safelink.adblock, false)
