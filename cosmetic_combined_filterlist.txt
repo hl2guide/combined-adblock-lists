@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.851
-! Last Modified: 2026.07.11.1128+1000 AEST
+! Version: 1.0.852
+! Last Modified: 2026.07.11.1705+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -52036,6 +52036,7 @@ cmp.sky.it##+js(trusted-click-element, button[aria-label="Continua senza accetta
 cmp.sky.it##+js(trusted-click-element, button[aria-label="Continua senza accettare"], , 2500)
 cmp.travelbook.de##+js(trusted-click-element, .cmp-banner button.accept-all)
 cmp.tvspielfilm.de,cmp.tvtoday.de,cmp.tvspielfilm.de,cmp.bunte.de,cmp.chip.de,cmp.focus.de,stol.it>>##+js(trusted-click-element, button[title="Akzeptieren"], , 1000)
+cmp.vg.no##+js(trusted-click-element, button[title="Godta alle"], , 1000)
 cmp.vg.no,cdn.privacy-mgmt.com#%#//scriptlet('trusted-click-element', '.sp_choice_type_ACCEPT_ALL', '', '1500')
 cmpsp.autobild.es#%#//scriptlet('trusted-click-element', 'button[title^="Aceptar"]')
 cmpv2.berliner-zeitung.de#%#//scriptlet('trusted-click-element', 'button[title="Zustimmen"]')
@@ -210572,6 +210573,7 @@ x.com###react-root > div > div > .rn-gvpnoh
 x.com###react-root main[class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="https://apps.apple.com/app"])
 x.com###react-root main[class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="market://details?id=com.twitter.android&referrer"])
 x.com###react-root main[class^="css-"] div[data-testid="primaryColumn"] > div[aria-label][class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="https://apps.apple.com/app"])
+x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 x.com##+js(trusted-set-cookie, d_prefs, MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw, 2629743, , domain, x.com)
 x.com##.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
 x.com##.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-1dbjc4n
