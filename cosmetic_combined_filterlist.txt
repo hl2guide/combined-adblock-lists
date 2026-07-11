@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.850
-! Last Modified: 2026.07.11.0659+1000 AEST
+! Version: 1.0.851
+! Last Modified: 2026.07.11.1128+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -104521,6 +104521,7 @@ israelnationalnews.com###taboola-3
 israelnationalnews.com###taboola-mid-main-column-thumbnails
 israelnationalnews.com###tbl-next-up
 israelnationalnews.com##+js(abort-current-script, Math.random, new RegExp)
+israelnationalnews.com##+js(rmnt, script, loadTaboola)
 israelnationalnews.com##.RightClm > #divin4
 israelnationalnews.com##.RightClm > div[style="height:305px;margin-top:25px;"][id^="avp_zid_"]:empty
 israelnationalnews.com##.article-edit-out:has(+ #fb-root)
@@ -176363,6 +176364,7 @@ sp.nicovideo.jp##.top-SpecialPickupContainer
 sp.nicovideo.jp##.watch-Like_Teaching
 sp.nicovideo.jp##.watch-OpeningPlayerInfo_LaunchAppsButton
 sp.nicovideo.jp##div[id$="BannerContainer"]
+sp.nicovideo.jp##div[style="height: 56px;"]:has(> a[href^="https://nicovideo.applink.nicovideo.jp/?link"])
 sp.nicovideo.jp#$##jsAppModalWithLogin { display: none !important; }
 sp.nicovideo.jp#$#.is-fixed body:not(.player-horizontal):has(#jsAppModalWithLogin) { position: static !important; width: unset !important; }
 sp.nicovideo.jp#$#.is-fixed:has(#jsAppModalWithLogin) { position: static !important; width: unset !important; }
