@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.8
-# Edited: 2026-07-04 21:36:02 +10:00
+# Version 1.0.9
+# Edited: 2026-07-14 22:01:20 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -269,7 +269,13 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not LINE.startswith("[Adblock Plus") and
                 not LINE.startswith("[uBlock") and
                 not LINE.startswith("﻿") and
-                not LINE.startswith("мв")
+                not LINE.startswith("мв") and
+                # Checks for invalid rules [new section: testing]
+                (len(LINE) > 5 and '.' in LINE) and
+                # not '.' not in LINE and
+                # Checks length of the maximum length for a fully
+                # qualified domain name (FQDN)
+                (len(LINE) < 265)
             )
 )
 
