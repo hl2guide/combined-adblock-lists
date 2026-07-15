@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.15
-# Edited: 2026-05-28 05:51:43 +10:00
+# Version 2.0.16
+# Edited: 2026-07-15 13:18:48 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -46,7 +46,7 @@ def download_worker(url_q: queue.Queue, result_q: queue.Queue):
 
         try:
             # Fetch the raw bytes; we’ll decode as UTF‑8 (fallback to latin‑1)
-            with urllib.request.urlopen(url, timeout=20) as resp:
+            with urllib.request.urlopen(url, timeout=60) as resp:
                 raw = resp.read()
                 try:
                     txt = raw.decode("utf-8")

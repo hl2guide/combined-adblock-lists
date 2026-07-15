@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.9
-# Edited: 2026-07-14 22:01:20 +10:00
+# Version 1.0.10
+# Edited: 2026-07-15 13:19:00 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -46,7 +46,7 @@ def download_worker(url_q: queue.Queue, result_q: queue.Queue):
 
         try:
             # Fetch the raw bytes; we’ll decode as UTF‑8 (fallback to latin‑1)
-            with urllib.request.urlopen(url, timeout=20) as resp:
+            with urllib.request.urlopen(url, timeout=60) as resp:
                 raw = resp.read()
                 try:
                     txt = raw.decode("utf-8")
