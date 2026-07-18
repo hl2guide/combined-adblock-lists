@@ -1,4 +1,7 @@
 
+# 2026-07-19
+- Disabled "destroylist" list due to network errors
+
 # 2026-07-03
 - Changed to comply with GitHub file size limit (50MB)
 - Added more lists
