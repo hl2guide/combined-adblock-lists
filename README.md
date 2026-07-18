@@ -74,3 +74,7 @@ https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist
 ## Recent News
 
 [HISTORY.md](HISTORY.md)
+
+## Credits
+
+[CREDITS.md](CREDITS.md)
