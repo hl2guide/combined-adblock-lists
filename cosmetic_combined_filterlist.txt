@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.878
-! Last Modified: 2026.07.19.0636+1000 AEST
+! Version: 1.0.879
+! Last Modified: 2026.07.19.1128+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -34861,6 +34861,8 @@ axios.com##.min-h-\[200px\]
 axios.com##.relative.col-span-full > div[style*="background-color:"][style*="height:"][style*="width:"]:empty:has(+ .shortFormNativeAd)
 axios.com##.right-rail-cta
 axios.com##.shortFormNativeAd
+axios.com##[data-vars-event-name="preferred_source_view"]
+axios.com##[data-vars-event-name="share_view"]
 axios.com##div[class^="Modal_ctaContainer"]
 axios.com##div[class^="SubscribeStreamCap__"]
 axios.com##div[data-cy="tab-content-top-stories"] ul[class^="space-"] > li.border-accent-blue-tint:has(> .shortFormNativeAd)
@@ -53825,7 +53827,7 @@ companyofheroes.com###cookies-settings
 companyofheroes.com##div[id^="privacy-policy-"]
 companyofheroes.com,games2gether.com,account.community.amplitude-studios.com##.cookies-control
 companyweb.be##div[class="print:hidden"] > div[aria-labelledby="modal-title"]
-companyweb.be,smythstoys.com##div[role="dialog"]
+companyweb.be,smythstoys.com,zencreator.pro##div[role="dialog"]
 comparaja.pt#$##cookie-information-template-wrapper { display: none !important; }
 comparaja.pt#$#html.noScroll > body { overflow: auto !important; }
 comparethemarket.com#$#body.consent-modal-open::after { display: none!important; }
@@ -162028,6 +162030,7 @@ reachplc.com,autoline.com.br##.cookiecontrol
 react.libhunt.com##.feed-item.clickable-card
 react.libhunt.com##.lib-list > .feed-item:not(.lib)
 reactgo.com##ins.adsbygoogle
+reactormag.com##.desktop\:mb-\[27px\]:has(> hubspot-newsletter)
 read.amazon.*###readerChromeOverlayBottom.readerChromeOverlayBottom-banner-desktop {bottom:0 !important;}
 read.amazon.*##+js(set, canRunAds, 1)
 read.amazon.*##+js(set, ue_adb_chk, 1)
@@ -197024,14 +197027,12 @@ twitch.tv##.channel-panels-container div[style^=position]:has(a[href^="/ext/ro13
 twitch.tv##.disclosure-card
 twitch.tv##.follow-prompt
 twitch.tv##.noty_bar
-twitch.tv##.online-video-ad-container
 twitch.tv##.side-info-container
 twitch.tv##.social-media-link
 twitch.tv##.stream-display-ad__wrapper
 twitch.tv##.twilight-root .toast-manager__container
 twitch.tv##.video-player--stream-display-ad_lower-third {height:100% !important;}
 twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
-twitch.tv##[data-a-target="outstream-ax-overlay"]
 twitch.tv##[data-test-selector="sda-wrapper"]
 twitch.tv##a[class^="ScCoreLink-"][target="_blank"]:has(> div > button[class^="ScInteractableBase"])
 twitch.tv##a[href*="store.asus.com/rog-promo/"]
