@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.880
-! Last Modified: 2026.07.19.1722+1000 AEST
+! Version: 1.0.881
+! Last Modified: 2026.07.19.2103+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -27837,7 +27837,6 @@ anapolis.go.gov.br##.nwe-template-part-component-termos
 anascrie.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
 anascrie.ro##+js(rmnt, script, /document.onkeydown|document.ondragstart/)
 anascrie.ro##style:has-text(@media print):remove()
-anasigorta.com.tr,smartdiszkont.hu,clark.de,intergastro.de,komplett.se,komplettbedrift.no,farmasiet.no,komplett.no##.cookie-consent-overlay
 anatomia-strasti.com##.b-side-block:not(.b-side-block-slider)
 anauk.net##+js(ra, oncontextmenu|onselectstart|onselect|ondragstart|ondrag, body)
 anaxi.com###drift-widget
@@ -142643,6 +142642,7 @@ ntuplay.xyz##+js(acs, document.onkeypress)
 ntuplay.xyz##+js(no-window-open-if)
 ntuplay.xyz##^script:has-text(_0x)
 ntuplay.xyz##body[oncontextmenu="return false"]:remove-attr(oncontextmenu)
+ntv.co.jp###ntv_setAD_SP_300_250
 ntv.co.jp###sns
 ntv.co.jp##.drama-box-share-area
 ntv.co.jp##.drama-share
@@ -145410,6 +145410,7 @@ oneinstack.com##.sidebar > .widget:last-child
 oneinstack.com##.w-ad
 onejailbreak.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 onejailbreak.com##.gtm-cls
+onejailbreak.com##div.post > div.mt-3:has(> ins.adsbygoogle)
 onejailbreak.com##div[id^="slot-"]:not(#style_important)
 onejailbreak.com,progameguides.com,aydinlik.com.tr,euronews.com,rtl.be,dogruhaber.com.tr,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,lance.com.br,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,newstime.joyn.de,hisse.net,gazetegercek.com.tr,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
 onejav.com##+js(abort-on-stack-trace, Number, _0x)
@@ -147148,6 +147149,7 @@ osgamers.com###sidebar > .inner:has(> div > div[class^="r89-"][class*="-rectangl
 osgamers.com##.r89-outstream-video
 osharetecho.com##.snsArea02
 oshi1.io##.notification-initial
+oshiete.ai#@#.snsBox
 oshiete.triumph-cpn.com##.tellMeTrimphAnswer__snsArea
 oshimaland.co.jp##.property-info-share
 oshiridaisuki.com##.article-header > div#text-4
@@ -194015,6 +194017,7 @@ travelrussia.ru##.fancybox__container
 travelrussia.ru##noindex > div[class^="widget-"]:not(#widget-topBar)
 travelrussia.ru#$##widget-topBar { display: none !important; }
 travelrussia.ru#%#//scriptlet('remove-class', 'topBar', 'body')
+travelscout24.de,anasigorta.com.tr,smartdiszkont.hu,clark.de,intergastro.de,komplett.se,komplettbedrift.no,farmasiet.no,komplett.no##.cookie-consent-overlay
 travelsupermarket.com##.gptAdUnit__Wrapper-sc-f3ta69-0
 traveltips.usatoday.com##.next-wrap
 traveltips.usatoday.com##.previous-wrap
@@ -210978,6 +210981,7 @@ x.com###react-root > div > div > .rn-gvpnoh
 x.com###react-root main[class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="https://apps.apple.com/app"])
 x.com###react-root main[class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="market://details?id=com.twitter.android&referrer"])
 x.com###react-root main[class^="css-"] div[data-testid="primaryColumn"] > div[aria-label][class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="https://apps.apple.com/app"])
+x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 x.com##+js(trusted-set-cookie, d_prefs, MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw, 2629743, , domain, x.com)
 x.com##.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
 x.com##.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-1dbjc4n
