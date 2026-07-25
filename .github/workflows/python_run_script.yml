@@ -13,6 +13,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 4
     strategy:
       matrix:
         python-version: ["3.14"]
