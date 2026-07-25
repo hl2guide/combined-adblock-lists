@@ -18,14 +18,14 @@ jobs:
       matrix:
         python-version: ["3.14"]
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }}
       - name: Cache pip packages
         id: pip-cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
         # Cache key includes OS, Python version, and a hash of the lock file
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements_ci.txt') }}
@@ -68,9 +68,10 @@ jobs:
 # Updated AEST: 2026-02-09 15:39:39 +1100
 
 # SOURCES:
-# https://github.com/actions/cache
-# https://github.com/actions/checkout
 # https://github.com/actions/setup-python
+# https://github.com/actions/checkout
+# https://github.com/actions/cache
 # https://github.com/astral-sh/ruff
 # https://pypi.org/project/isort/
 # https://pypi.org/project/ruff/
+# https://pypi.org/project/pylint/

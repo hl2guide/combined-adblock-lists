@@ -19,14 +19,14 @@ jobs:
         python-version: ["3.14"]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6 # Action to clone the repo
+        uses: actions/checkout@v7 # Action to clone the repo
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }} # Specify the Python version
       - name: Cache pip packages
         id: pip-cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
         # Cache key includes OS, Python version, and a hash of the lock file
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
@@ -58,8 +58,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 # SOURCES:
-# https://github.com/actions/checkout
 # https://github.com/actions/setup-python
+# https://github.com/actions/checkout
 # https://github.com/actions/cache
 
 # OLD:
