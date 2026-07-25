@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.909
-! Last Modified: 2026.07.25.2102+1000 AEST
+! Version: 1.0.910
+! Last Modified: 2026.07.25.2348+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -16896,9 +16896,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 20k.org##.full-width-height.layer-front.sqs-slide-layer
 20min.ch###min_billboard
 20min.ch##+js(nano-stb, readyPromise, 5000, 0.001)
-20min.ch##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
-20min.ch##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1%2CV2STACK42%3A0, , , domain, 20min.ch)
-20min.ch##+js(trusted-set-cookie, eupubconsent-v2, CQn0VdgQn0VdgAcABBDECoFgAAAAAEPgAAQ4L4JB_C7dbWFD-DZ3aLokeYwP99hBIsQhAAaAAmAFTBOQ4IQCw0EYBASAFCACGAIAo3RBIAJkEABEAUCAIIgFIQBEAAwQoBAKAABAgAERAgBACAgCCIAAUQAIAAANAkUAmAiAKYKEWEAgwIAACACBAAABAACAAQMACEAwBBAAAQIAQKBAgwJAuAKBAAEAARgAAAAAAAAAIAAAQAAAoACAACgABCAAEAAAAAAAAAAAAQAAAAAAAAACBAIAAAAAAEAEF5AATBQqIICiIBAgEBACBAAIKwgAgEAQAAJAAQAAJggIcAIAKKCJAAAAAAAAAAAAQYAAgAAEAAQiACAAAEAIEAAQAAYAEAAEAAAgAAAAoQAAAAQBAEAAIIAAAAACAKAAQIQAEAAALCAAIAAAFABAAEAAAABAAAAACAAQAAAAABAAQAAgQAEAXAFAAAAAAAAACAAAAAAAEAAgAAAAEAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAgEAAAAAACACCAAgBNAA.YAAACHwAAAAA.IL4JB_C7dbWFH-DZ3aLokeYwf99hBIsQhAAaAAmAFTBOQ4IQC00EaBASAFCACGAIAo3RBIAJsEAhEAUCAIIgVIQBkAAwQoBAKAABAgAERQgBACAgCCIAAUQAIAAANA0UAmQiAKYKEWEAgwIAAKACBAIABAACAAQMAGEAwBBAAASIAwKBAgwJAuAKBAAEAARgAEAAAAAAAIABAQAAAoACAACgABCAAEAAAAAAAAIAAAQAAAAAAAAACBAIAAAAAAEAEAAA)
+20min.ch##+js(trusted-click-element, #onetrust-consent-sdk button.ot-pc-refuse-all-handler)
 20min.ch##.loginPrompt-backdrop
 20min.ch##a[href*="/paidpost/"]
 20min.ch##a[href*="/postfinance_news/"]
@@ -39953,7 +39951,7 @@ bin.ua##div[style^="width:"][style*="240px;"][style*="height:"]
 bin.ua##noindex > a[onclick*="_in_text"]
 bina.az###central_banners
 bina.az##.crm-top
-bina.az,bitpump.ru,botanichka.ru,chem21.info,enovosty.com,ixbt.games,ixbt.market,ogorodnik.com,orelgrad.ru,propozitsiya.com,qafqazinfo.az,snow-motion.ru,stadion.uz,tap.az,turbo.az,uralpress.ru,www.ixbt.com##div[id*="banner"]
+bina.az,bitpump.ru,botanichka.ru,chem21.info,enovosty.com,ixbt.games,ixbt.market,ixbt.pro,ogorodnik.com,orelgrad.ru,propozitsiya.com,qafqazinfo.az,snow-motion.ru,stadion.uz,tap.az,turbo.az,uralpress.ru,www.ixbt.com##div[id*="banner"]
 binance.com##.DownloadBarMobile
 binance.com##.iumzRr
 binance.com##.ng-scope > div.download-fixed
@@ -51204,9 +51202,10 @@ civitai.com##.dark\:bg-dark-9.dark\:border-dark-4:has([aria-label="Close ad"])
 civitai.com##.gap-2[style*="250px;"]
 civitai.com##.gap-2[style*="280px;"]
 civitai.com##[height="250"]
+civitai.com,civitai.red##+js(trusted-replace-argument, String.prototype.endsWith, 0, , condition, /edit)
+civitai.com,civitai.red##a[href="/pricing"] img
+civitai.com,civitai.red##div.relative.flex[style="min-height:90px"]:has(> button[aria-label="Close ad"])
 civitai.green,civitai.com#?#body div:has(> div[dir="ltr"] form[style] > div[class^="mantine-"] > button[type="submit"])
-civitai.red##a[href="/pricing"] img
-civitai.red##div.relative.flex[style="min-height:90px"]:has(> button[aria-label="Close ad"])
 civitai.red,civitai.com##.mantine-ScrollArea-viewport > div > .gap-3 > .gap-2:has(> a[href="/pricing"] > img[alt*="disabling adblock"])
 civitai.red,civitai.com##a[aria-label="visit advertiser"]
 civitai.red,civitai.com##a[href="/pricing"] > img[alt*="disabling adblock"]
@@ -56591,7 +56590,7 @@ cryptorank.io##div[class^="sc-"] > a[rel="nofollow noopener noreferrer"]:has(> d
 cryptorank.io##div[class^="sc-"] > a[target="_blank"][rel="noopener"][href]:has(> div[class^="sc-"] > img)
 cryptorank.io##div[class^="sc-"] > button[class^="sc-"]:contains(Share)
 cryptorank.io##div[tabindex] > button:has-text(Buy $)
-cryptorank.io##tbody > tr:not(.init-scroll):has(a[href*="?"][target="_blank"])
+cryptorank.io##tbody > tr:not(.init-scroll) a[target="_blank"][href*="?"]:has(button)
 cryptorank.io##tbody td:has(a[target="_blank"][rel="nofollow noopener noreferrer"] > div[class^="sc-"] > button:contains(Create account now))
 cryptorank.io##tr.sc-a321a998-0:not(.init-scroll)
 cryptoreporter.info##.mh-share-buttons
@@ -111271,6 +111270,7 @@ kinorium.com##.proBan
 kinorium.com##.topMenu__pro-button
 kinorium.com##[class*="film-page__buttons-watch"]
 kinorium.com##[data-original-url*="erid="]
+kinorium.com##a[class*="_branding_movie_"]
 kinorubik.com##a[href^="http://kinorubik.com/module.php"]
 kinosha.se###dle-content > .player-block ~ div[style^="font-size"]
 kinoshek.net###swf
@@ -156406,7 +156406,7 @@ posttoday.com##.box-policy
 posttoday.com##.leaderboard
 postupi.online##.asterisk-nd_sm
 postupi.online##.bg-nd__social-btn
-posturi.gov.ro##:root:style(user-select:unset!important)
+posturi.gov.ro##:root:style(user-select: unset !important)
 posturinn.is##.ewvKFq
 postype.com##+js(aeld, contextmenu)
 postype.com##+js(rc, disable-selection, body)
