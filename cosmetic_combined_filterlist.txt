@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.911
-! Last Modified: 2026.07.26.0156+1000 AEST
+! Version: 1.0.912
+! Last Modified: 2026.07.26.0640+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -123977,6 +123977,8 @@ makeuseof.com##.single-post-sidebar small[style^="color:"][style*="ray"]
 makeuseof.com##div[id^="axdsense"]
 makeuseof.com,military.com##.sidebar-first
 makeuseof.com,polygon.com##.sidebar-default
+makeuseof.com>>##+js(trusted-click-element, button.sp_choice_type_REJECT_ALL, , 500)
+makeuseof.com>>##+js(trusted-click-element, button[title="More Options"])
 makeway.pl###shareWidget
 makezine.com###makeblog .mz-story-infinite-view .wrapper .row.sticky-sidebar-posts-nav .hamburger-navigator.open img.initial
 makezine.com###mz-mag-cover
@@ -204657,8 +204659,6 @@ vp.rambler.ru##[data-time-to-a]
 vp.rambler.ru#%#//scriptlet('set-constant', 'Object.prototype.autoPlay', 'noopFunc')
 vp.rambler.ru#%#//scriptlet('set-constant', 'Object.prototype.minPlayingVisibleHeight', '')
 vp.rambler.ru,media.eagleplatform.com##.eplayer-skin-share
-vpd.fi##+js(trusted-set-cookie, amcookie_allowed, 1, 1year, , domain, www.vpd.fi)
-vpd.fi##+js(trusted-set-cookie, amcookie_disallowed, recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat, 1year, , domain, www.vpd.fi)
 vpforums.org###master1
 vpforums.org##td[align="center"][style="padding: 0px;"]
 vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
