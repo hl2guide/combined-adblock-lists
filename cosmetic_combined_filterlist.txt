@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.919
-! Last Modified: 2026.07.27.1752+1000 AEST
+! Version: 1.0.920
+! Last Modified: 2026.07.27.1821+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -82047,6 +82047,7 @@ freewebcart.com##.pum-open-overlay:style(overflow: auto !important;)
 freewebcart.com##.pum-overlay
 freewebcart.com#%#//scriptlet("adjust-setInterval", "counter", "", "0.02")
 freewebcart.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
+freewebnovel.com##.slot-frame
 freewebsitetemplates.com,wilderssecurity.com##.Notices
 freewebstore.com##.utilities_grant_panel_show
 freeworker.*,electrobike.fi#$#.amgdprcookie-modal-container { display: none !important; }
@@ -136616,6 +136617,7 @@ natelinha.uol.com.br##.content-banner
 natemat.pl###article-body > div:not(.art):has(> div > iframe.instagram-media)
 natemat.pl###fbinvite
 natemat.pl##.art .lazyload-wrapper:has(> div[class] > div[class] > button.close + div[class] > a[href="/twoja-prywatnosc"])
+natemat.pl##.art div[class*="-"]:has(> a[data-analytics-name][target="_blank"])
 natemat.pl##.social-btn-share
 natemat.pl##div[class*="adslot"]
 natemat.pl##div[class="c-gFRWOk c-xTOgV"]
@@ -215551,6 +215553,8 @@ zeenews.india.com##.videoCube:has(> a[target="_blank"])
 zeenews.india.com##[class^="ads-box"]
 zeenews.india.com##body > #fb-root ~ #co-container.co-container
 zeenews.india.com##div:has(> [id*="-ad-"])
+zeenews.india.com##div[class*=" TopBanner-"]
+zeenews.india.com##div[class*="_ads_box_"]
 zeenews.india.com##div[id*="-mid-homepage"]
 zeenews.india.com#@#div[class^="ads-"]
 zeenews.india.com#@#div[class^="ads-box-"]
