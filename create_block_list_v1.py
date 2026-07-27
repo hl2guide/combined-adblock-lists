@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.11
-# Edited: 2026-07-19 05:10:57 +10:00
+# Version 1.0.12
+# Edited: 2026-07-27 17:44:01 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -169,22 +169,6 @@ TESTING_URLS = [
     "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/tracking-ags.txt",
     "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/twitter-ags.txt",
     "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/vaping-ags.txt",
-    # (404 errors) Older blocklistproject - https://github.com/blocklistproject/Lists
-    # "https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/crypto-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/drugs-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/facebook-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/gambling-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/malware-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/scam-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/twitter-ags.txt",
-    # "https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt",
     # hagezi - https://github.com/hagezi/dns-blocklists
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
@@ -219,11 +203,16 @@ TESTING_URLS = [
     #"https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
     # Optimized Big OISD
     "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt",
+    # Destroy Lists (official mirror)
+    "https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/community_active/adblock.txt",
+    "https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/primary_active/adblock.txt",
     # Destroy Lists (disabled due to errors)
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     # 1Hosts (Lite)
-    "https://badmojr.github.io/1Hosts/Lite/adblock.txt"
+    "https://badmojr.github.io/1Hosts/Lite/adblock.txt",
+    # The BOG AIO List
+    "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
 ]
 
 print()
