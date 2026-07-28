@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.922
-! Last Modified: 2026.07.28.0701+1000 AEST
+! Version: 1.0.923
+! Last Modified: 2026.07.28.1126+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -22816,7 +22816,6 @@ additudemag.com##.signup-global
 additudemag.com##body:not(.home) #content:style(margin-top: 13px !important;)
 additudemag.com,organicfacts.net,vinepair.com##.header-ad
 addmusictophoto.com##h6:contains(/^Advertisement$/)
-addnoise.nl,alpha-buch.de,andelprerov.cz,annualreviews.org,armesbastille.com,benq.com,casino.org,cdobrianza.it,cdobrianza.org,cesnet.cz,chimeratool.com,comune.roma.it,correiodoestado.com.br,crossref.org,einforma.co,engelsbergideas.com,eshop.efko.cz,fabricmill.com,goodtravel.de,granta.com,gruppovideomedia.it,gsi-one.org,hofer.it,ilbracere.com,ilgiardinodeilibri.it,islambook.com,jagledam.com,knowablemagazine.org,lockheedmartin.com,macrosad.com,marketingtribune.nl,megasport.co.il,milescorts.es,ods.cz,paracadutistirimini.com,pc-facile.com,poruba.ostrava.cz,promptamcs.com,querstarter.de,quesoslomogallego.com,rareseeds.com,ryxy.online,searchenginewatch.com,shinden.pl,svpressa.ru,szegedsport.hu,tirol-infos.at,trwalamotywacja.pl,werkenbijwestcord.nl###cookie-bar
 addnoise.nl,alpha-buch.de,andelprerov.cz,annualreviews.org,armesbastille.com,casino.org,cdobrianza.it,cdobrianza.org,cesnet.cz,chimeratool.com,comune.roma.it,correiodoestado.com.br,crossref.org,einforma.co,engelsbergideas.com,eshop.efko.cz,fabricmill.com,goodtravel.de,granta.com,gruppovideomedia.it,gsi-one.org,hofer.it,ilbracere.com,ilgiardinodeilibri.it,islambook.com,jagledam.com,knowablemagazine.org,lockheedmartin.com,macrosad.com,marketingtribune.nl,megasport.co.il,milescorts.es,ods.cz,paracadutistirimini.com,pc-facile.com,poruba.ostrava.cz,promptamcs.com,querstarter.de,quesoslomogallego.com,rareseeds.com,ryxy.online,searchenginewatch.com,shinden.pl,svpressa.ru,szegedsport.hu,tirol-infos.at,trwalamotywacja.pl,werkenbijwestcord.nl###cookie-bar
 addonbiz.com##+js(acs, addEventListener, nextFunction)
 addons.mozilla.org###site-welcome.site-balloon
@@ -74015,7 +74014,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###st
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] [class] > a[href*="utm_source=facebook"] span[class] > span[class][style*="-webkit-line-clamp"]:has-text(広告):upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] span[class] > a span[aria-labelledby]:has(> span[style="display: flex;"] > span[class]:has-text(/^S$/)):has(> span[style="display: flex;"] > span[class]:has-text(/^p$/)):has(> span[style="display: flex;"] > span[class]:has-text(/^d$/)):upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] span[class] > a[aria-label="広告"]:upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , /api/graphql)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._5pcr.fbUserPost._4nef._5pcr
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.aclb > div._4b-b
@@ -138461,7 +138460,7 @@ newegg.*#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[conta
 newegg.*#$#override-property-read window.__initialState__.SponsoredBrand emptyObj
 newegg.com###modal-Website
 newegg.com###promoTop
-newegg.com##+js(json-prune-fetch-response,  RecommendItems.RecommendInfo.[-].DataSource.[=].spsr RecommendInfo.[-].DataSource.[=].spsr, , m/product/ajax/productPersonalization)
+newegg.com##+js(json-prune-fetch-response,  RecommendItems.RecommendInfo.[-].DataSource.[=].spsr RecommendInfo.[-].DataSource.[=].spsr, , propsToMatch, m/product/ajax/productPersonalization)
 newegg.com##+js(set-constant, __initialState__.SponsoredBrand, {})
 newegg.com##.category-banner
 newegg.com##.floating-right-tools
@@ -151196,8 +151195,8 @@ phillyvoice.com###follow_social
 phillyvoice.com##.article-sponsor-sticky
 phillyvoice.com##.native-sponsor
 phillyvoice.com##.this-weekend-container
-philo.com##+js(json-prune-fetch-response, periods.[-].eventStreams.0.id, , /manifestv2)
-philo.com##+js(json-prune-xhr-response, periods.[-].eventStreams.0.id, , /manifestv2)
+philo.com##+js(json-prune-fetch-response, periods.[-].eventStreams.0.id, , propsToMatch, /manifestv2)
+philo.com##+js(json-prune-xhr-response, periods.[-].eventStreams.0.id, , propsToMatch, /manifestv2)
 philomag.de##.stickyfooter .node--promoted
 philoro.de,preisvergleich.de###truendo_container
 philosophia-perennis.com##.post-content .et_social_networks > ul > li:not(.et_social_printfriendly)
@@ -171501,6 +171500,7 @@ sfgate.com##main > div.f:has(> div.zone > div.package div[data-block-type="ad"])
 sfgate.com#?#.br4.deep.fdc:has-text(Google)
 sfgate.com#?#.br4:has-text(Want more SFGATE?)
 sfgate.com#?#.mb32.sy32:has-text(free newsletter)
+sfgate.com#?#.p20.mxa:has-text(BECOME A FRIEND)
 sfgate.com,shop.hbo.com#%#//scriptlet('trusted-set-local-storage-item', '_ketch_consent_v1_', 'eyJhbmFseXRpY3MiOnsic3RhdHVzIjoiZGVuaWVkIiwiY2Fub25pY2FsUHVycG9zZXMiOlsiYW5hbHl0aWNzIl19LCJlc3NlbnRpYWxfc2VydmljZXMiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImVzc2VudGlhbF9zZXJ2aWNlcyJdfSwidGFyZ2V0ZWRfYWR2ZXJ0aXNpbmciOnsic3RhdHVzIjoiZGVuaWVkIiwiY2Fub25pY2FsUHVycG9zZXMiOlsibWFpbF9ta3RnIiwiYmVoYXZpb3JhbF9hZHZlcnRpc2luZyIsImVtYWlsX21rdGciLCJzbXNfbWt0ZyJdfX0=')
 sfile.mobi##+js(nano-sib)
 sfile.mobi#%#(function(){var c=window.setInterval;window.setInterval=function(f,g){return g===1e3&&/downloadButton/.test(f.toString())&&(g*=0.01),c.apply(this,arguments)}.bind(window)})();
@@ -192594,7 +192594,7 @@ tomshardware.fr##.widget-toms-widget-google-news
 tomshardware.fr##.widget.widget-toms-widget-google-news
 tomshardware.fr##.widget__google_news
 tomshw.it###sticky_ads
-tomshw.it##+js(json-prune-fetch-response, components.[-].snapshot.[=]./www\.amazon\./, , livewire/update)
+tomshw.it##+js(json-prune-fetch-response, components.[-].snapshot.[=]./www\.amazon\./, , propsToMatch, livewire/update)
 tomshw.it##.adv
 tomshw.it##.customads
 tomshw.it##.customads__container_v2
