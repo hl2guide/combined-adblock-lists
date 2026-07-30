@@ -71,6 +71,18 @@ https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_004.txt
 ```
 
+### Allowlist
+
+Allows worthwhile websites.
+
+Sourced from my other repo [curated-adblock-lists](https://github.com/hl2guide/curated-adblock-lists).
+
+#### Direct raw text link
+
+```
+https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
+```
+
 ## Recent News
 
 [HISTORY.md](HISTORY.md)
