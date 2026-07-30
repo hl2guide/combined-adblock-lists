@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.932
-! Last Modified: 2026.07.30.0642+1000 AEST
+! Version: 1.0.933
+! Last Modified: 2026.07.30.1119+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -9067,6 +9067,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /implied-consent.min.js
 /implied-cookie-consent/*
 /impr.gif?
@@ -42068,7 +42069,7 @@ bluearan.co.uk###slider
 blueband.nl###cookie_message_holder
 bluebeards-revenge.co.uk#$##bbr-popup { display: none!important; }
 bluebeards-revenge.co.uk#$#body { overflow: visible!important; }
-bluebrixx.com,gls-group.eu##.cmpwrapper
+bluebrixx.com,g2a.com,gls-group.eu##.cmpwrapper
 bluecatnetworks.com##.v-mdu-notice
 bluedollar.net##+js(abort-current-script, document.getElementById, adblockEnabled)
 bluedollar.net##+js(acs, jQuery, adblock)
@@ -70497,7 +70498,7 @@ endfield.gg,expedition33.gg,cookierun.gg,dcworldscollide.gg,destiny2zone.com,dig
 endfield.gryphline.com##body > div[class*=" "]:has(> div > span > a[href$="/cookiesPolicy"])
 endgame.id###footerDOM
 endirect24.com##.rek
-endjin.com##[data-cta-id="fabric-weekly-newsletter"]
+endjin.com##[data-cta-id$="-weekly-newsletter"]
 endler.dev##.info
 endless-live.cz##+js(no-setTimeout-if, Adblocker)
 endless-live.cz#@##reklama
@@ -83403,6 +83404,7 @@ g2a.com##.com-container__sidebar
 g2a.com##.exit-modal--background
 g2a.com##.exit-modal--image > a[title="Weekly Sale"]
 g2a.com##.newsletter_no_color
+g2a.com##.trust_banner
 g2a.com##[data-test-id="cookie-modal"]
 g2a.com##div[data-test-id="cookie-modal"]
 g2a.com##div[data-testid="placement"]
@@ -87665,6 +87667,7 @@ github.com##.timeline-new-comment:style(max-width: none !important)
 github.com##.u-photo .avatar:style(width: 230px !important)
 github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
 github.com##.with-full-navigation:style(padding-right: 190px !important)
+github.com##[aria-labelledby="subscribe-to-newsletter"]
 github.com##[class^=prc-PageLayout-Content-]:style(max-width:2500px!important)
 github.com##[id$=conversation-sidebar]:style(max-width:240px!important)
 github.com##a[href*=".aliyun.com/minisite/goods?"]
@@ -92667,6 +92670,7 @@ hanime.tv##+js(set-cookie, in_d4, 1)
 hanime.tv##+js(set-cookie, in_m4, 1)
 hanime.tv##+js(trusted-set-cookie, in_d4, 1, , , domain, hanime.tv)
 hanime.tv##.banner-ad
+hanime.tv##.banner-ad-container
 hanime.tv##.banner_iframe
 hanime.tv##.desktop.htvad
 hanime.tv##.full-page-height > .int[style^="width:"]
@@ -112940,7 +112944,8 @@ koreatimes.co.kr###koreatimes_Minarticle6thpg_b_300_250
 koreatimes.co.kr###koreatimes_MinterplayPB_b_300_250
 koreatimes.co.kr###koreatimes_inarticle6thpg_b_580_400
 koreatimes.co.kr###koreatimes_righttop4_b_300_250
-koreatimes.co.kr##.TopButton_wrap__h9JwN
+koreatimes.co.kr##.Detail_ad-container__TXWnJ
+koreatimes.co.kr##.TopButton_wrap__PI2SB
 koreatimes.co.kr##.view_sns_div
 koreatimes.co.kr##button[aria-controls="share-popover"]
 koreatimes.co.kr##div[class^="BannerArea"]
@@ -131868,6 +131873,7 @@ moneycheck.com##.a-wrap a[href*="ban"][target="_blank"] > img
 moneycheck.com##.main-wrap > .a-wrap:has(> center > a[href*="ban"][target="_blank"] > img)
 moneycheck.com##.sponbot
 moneycheck.com##center > a[href*="ban"][target="_blank"] > img
+moneycontrol.com###aiNewsletterRhs
 moneycontrol.com###cagetory > li[class$="-mobile"]
 moneycontrol.com###dezerv_widget_web
 moneycontrol.com###mc_headband
