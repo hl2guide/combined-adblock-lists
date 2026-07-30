@@ -18,7 +18,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
     - Updates about every 5 hours, each day (depending on GitHub Actions uptime)
 - Comments and duplicate lines are ignored and the lists are sorted
 
-### Cosmetic Combined Filterlist
+### Cosmetic Combined Filterlist 🎨
 
 Cosmetic rules to hide elements within page content.
 
@@ -37,7 +37,7 @@ _Recommended for use in the AdGuard app or in AdGuard or uBlock Origin browser e
 https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/main/cosmetic_combined_filterlist.txt
 ```
 
-### Blocklist Combined Filterlist
+### Blocklist Combined Filterlist ⛔
 
 Blocks bad domains including known bad sites, scams, malware, ads etc.
 
@@ -71,7 +71,7 @@ https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_004.txt
 ```
 
-### Allowlist
+### Allowlist ✅
 
 Allows worthwhile websites.
 
