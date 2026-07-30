@@ -83,10 +83,10 @@ Sourced from my other repo [curated-adblock-lists](https://github.com/hl2guide/c
 https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
 ```
 
-## Recent News
+## Recent News 📰
 
 [HISTORY.md](HISTORY.md)
 
-## Credits
+## Credits 📖
 
 [CREDITS.md](CREDITS.md)
