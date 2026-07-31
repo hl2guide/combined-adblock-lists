@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.938
-! Last Modified: 2026.07.31.1146+1000 AEST
+! Version: 1.0.939
+! Last Modified: 2026.07.31.1744+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -50691,6 +50691,8 @@ cinafoniaci.com,scandinaviansoul.com##.rstbox[data-title="Cookies"]
 cinando.com###cookies-consent-general-popup
 cinando.com###cookies-consent-general-popup ~ div.modal-backdrop
 cinch.co.uk##.bQ_kb
+cincinnati.com##.page-main-content-container > .primary:style(width: 100% !important; max-width: 100% !important;)
+cincinnati.com##.page-main-content-container > .secondary
 cincinnati.com##aside[aria-label*="Video"] div[data-g-s="vp_dk"]
 cincinnati.com,cjonline.com,lansingstatejournal.com,usatoday.com,app.com,lohud.com##form[aria-label^="Sign up for newsletter"]
 cincinnati.com,hoopshype.com,app.com,rgj.com,usatoday.com##.gnt_ss
@@ -55430,6 +55432,11 @@ coub.com#@#.viewer__sharing__item
 coub.com#@#.viewer__sharing__items
 couchsurfing.com##div[data-cookie-disclaimer]
 couchtuner.*##+js(acs, RegExp, 0x)
+coucounews.com##.aceplanet-coupang-banner
+coucounews.com##.post-contents > div.text-left > p > div[style="display: flex; justify-content: center; overflow: hidden;"]
+coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"])
+coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"]) + div.cursor-pointer
+coucounews.com##main > div.px-2 > div:not([class]):not([style]) > div.text-left > div.grid > div:has(a[href^="https://blog.naver.com/byolla/"])
 council.gov.ru,kinopoisk.ru##.block_social
 counselheal.com,mobilenapps.com###vplayer_large
 counter.dev,lindaikejisblog.com##.da
@@ -56584,7 +56591,6 @@ cryptobriefing.com##.na-item.item
 cryptobriefing.com##.widget-newsletter-form
 cryptobriefing.com#$#.newsletter-modal { display: none !important; }
 cryptobriefing.com#$#body { overflow: auto !important; }
-cryptobriefing.com,huskers.com,rule34-videos.com,gifyu.com,topperlearning.com,aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
 cryptoclan.nl###elementor-popup-modal-40065
 cryptoclan.nl###elementor-popup-modal-40079
 cryptoclicks.net##+js(acs, fetch, adblock)
@@ -115736,6 +115742,7 @@ latestly.com###showMe
 latestly.com##.lhs_adv_970x90_div
 latestly.com##.social_share_blk
 latestly.com##div[style^="min-width: 300px; min-height: 250px;"]
+latestly.com,cryptobriefing.com,huskers.com,rule34-videos.com,gifyu.com,topperlearning.com,aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
 latestmanga.net##+js(abort-on-property-write, onClickTrigger)
 latestpornvideo.com##iframe[src^="https://willingcease.com/"]
 latexport.lv###notification
@@ -148498,6 +148505,7 @@ ozap.com###follow-plugin
 ozap.com##+js(rpnt, script, WB.defer, 'window.wbads={public:{getDailymotionAdsParamsForScript:function(a,b){b("")},setTargetingOnPosition:function(a,b){return}}};WB.defer', condition, wbads.public.setTargetingOnPosition)
 ozap.com,allocine.fr,jeuxvideo.com,purepeople.com#%#//scriptlet('trusted-click-element', '.didomi-dismiss-button[onclick="Didomi.setUserAgreeToAll();"]')
 ozarksfirst.com###nxcms_dotbiz
+ozbargain.com.au###main > div.node:not([id]):has(> div.n-right > form#newsletter_form)
 ozbargain.com.au###visitor-notice
 ozbargain.com.au##div[id^="ozbads-"]
 ozdilekteyim.com##ozd-mobile-app-download
@@ -162615,6 +162623,7 @@ readcomiconline.li##.divCloseBut
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 readcomiconline.li,dvdtrailertube.com,weekendnotes.com##div[style*="width: 300px; height: 250px;"]
 readcomiconline.li,nusantararom.org#%#//scriptlet("prevent-addEventListener", "/keydown|contextmenu/")
+readcomicsonline.lol##+js(nano-stb, e=>e-1)
 readcomicsonline.ru##+js(acs, document.createElement, "script")
 readcomicsonline.ru##.ads-large
 reader.gr###in_read_dfp_inread
@@ -171197,12 +171206,12 @@ servus.com,terramatermagazin.com##.da__placeholder
 servus.com,terramatermagazin.com##.sda
 servustv.com##+js(aeld, error, /function\([a-z]\){[a-z]\([a-z]\)}/)
 servustv.com##+js(no-fetch-if, doubleclick)
+servustv.com##+js(no-fetch-if, method:HEAD)
 servustv.com##+js(norafif, location.reload)
 servustv.com##+js(nosiif, /adex|loadAds|adCollapsedCount|ad-?block/i)
 servustv.com##+js(nostif, , 10000-15000)
 servustv.com##+js(nostif, /adex|loadAds|adCollapsedCount|ad-?block/i)
 servustv.com##+js(set, OneTrust, {})
-servustv.com##+js(set, OneTrust.IsAlertBoxClosed, trueFunc)
 servustv.com##.CookiePrivacyBanner
 servustv.com##._1tu2i3m0
 servustv.com##.ad-wrap
