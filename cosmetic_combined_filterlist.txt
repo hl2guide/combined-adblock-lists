@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.943
-! Last Modified: 2026.08.01.1147+1000 AEST
+! Version: 1.0.944
+! Last Modified: 2026.08.01.1723+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -1235,7 +1235,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 */larkf?id=*$domain=animeunity.cc
 */lib.ucopy/ucopy.js$script,domain=uol.com.br
 */media/*.mp4|$media,domain=rte.ie,redirect=noopmp3-0.1s
-*/player/plugins/vast-*.js$script
 */plugin/advertisement/$image
 */pwafeeds/amazon_$frame
 */rellect/AdblockDetector/handler.min.js$script,important,redirect=noopjs
@@ -5232,7 +5231,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /api/model/feed?siteId=$xhr,3p
 /api/model/feed?siteId=$xmlhttprequest,third-party
 /api/model/feed?siteId=$~xmlhttprequest,third-party
-/api/models/vast$xhr,domain=fullxh.com|megaxh.com|seexh.com|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.*|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhdate.world|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite5.com|xhwide5.com
 /api/models/vast?
 /api/models/vast?userId=*&adblocked=$xhr,1p
 /api/models?userId=$xhr,domain=fullxh.com|megaxh.com|seexh.com|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.*|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhdate.world|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite5.com|xhwide5.com
@@ -9710,6 +9708,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /l*.php?pubId=$third-party,script
 /l/DMP_picture_captcha?$document,popup
 /lahanpoker-$image
+/landing/windows.html?src=$frame,3p
 /landing_btn/*$script,stylesheet,~third-party,domain=~tmconsult.ru
 /langitqq.$image,third-party
 /lanye2015/images/kuan.jpg
@@ -14107,6 +14106,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /vast/?zid=$xmlhttprequest,third-party
 /vast/?zid=$~xmlhttprequest,third-party
 /vast/MTg?pod=$xmlhttprequest,domain=defileb.com|fplay.online|hovels.info|likelol.online|playep.pro|playy.online|plplayer.online|plwork.net|rollbun.com|sorb.info|toplay.biz|ttutu.biz|tuser.online
+/vast?$xhr,domain=fullxh.com|megaxh.com|seexh.com|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.*|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhdate.world|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite5.com|xhwide5.com
+/vast?*&subid_$xhr
+/vast?spot=$xhr
 /vast_1win.xml$xmlhttprequest
 /vastlog.txt?
 /vb/*/banr.gif
@@ -14665,6 +14667,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /wp-content/plugins/flat_pm/*
 /wp-content/plugins/form-builder-pro/fbp-script.js
 /wp-content/plugins/gdpr-cookie-compliance/*
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-
 /wp-content/plugins/icegram/*
 /wp-content/plugins/icegram/*$domain=mos-holidays.ru
 /wp-content/plugins/image-watermark/*$script
@@ -28497,7 +28501,7 @@ anichin.*,animekhor.org,animekompi.*,animexin.top,cosmicscans.*,kuronime.*,oplov
 anichin.co.id###floatcenter
 anichin.co.id##+js(abort-current-script, $, window.open()
 anichin.dev##[href="https://cek.to/anc-dwc"]
-anichin.moe,anichin.top,animekompi.vip,bokepindo69.*,cosmicscans.*,igodesu.tv,indobo.com,jurnalistekno.id,kawanfilm21.co,kimcilonly.site,kingbokep.*,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,simontokx.tv,sukasex.net,sukasex.tv,tantecentil.fans,westmanga.*##+js(nowoif)
+anichin.moe,anichin.top,animekompi.vip,bokepindo69.*,cosmicscans.*,igodesu.tv,indobo.com,jurnalistekno.id,kawanfilm21.co,kimcilonly.site,kingbokep.*,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,simontokx.tv,sukasex.net,sukasex.tv,tantecentil.fans,tv1.lk21official.*,westmanga.*##+js(nowoif)
 anichin.top,hlsplayer.top##+js(nowoif)
 anicobin.ldblog.jp##.rss-column-middle2
 anicobin.ldblog.jp##.tool-left
@@ -47896,6 +47900,7 @@ cas.sk##div[class^="withBlankSpaceReklamnyBox_"]
 cas2.kr3m.com#%#//scriptlet('trusted-click-element', '#btnConsent', '', '500')
 casa-cinema.*#$#abort-current-inline-script atob; abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window'
 casa-domotica24.it##.su-tabs
+casabasics.es##+js(rmnt, script, String.fromCharCode)
 casabrutus.com##.fixed.bottom-32
 casadoscontos.com.br##.cdc-general-ad
 casadosdados.com.br##.ads-header-min-height
@@ -49320,6 +49325,7 @@ charter97.org###smo_modal
 charter97.org##.article-subscription
 charter97.org##.subscription_mail
 charter97.org##.wrapper-sponsors
+chartkidmatt.com##.dream-post-content-htmlSnippet
 chartoo.in,chartoo.de,chartoo.com##aside#ej
 chartoo.in,chartoo.de,chartoo.com##aside#eq
 chartoo.in,chartoo.de,chartoo.com#%#//scriptlet('trusted-set-cookie', 'ypo', '39')
@@ -50281,6 +50287,7 @@ chongluadao.vn##._banner_1mcvy_1
 chooinkya.com###sidebar div[id^="block-"]:has(.rssimport a[href*="//2ch-2.net/"])
 chooinkya.com##.wp-block-rss
 choose.kaiserpermanente.org##+js(set, _satellite.kpCustomEvent, noopFunc)
+choosefi.com##[data-block-type="credit-card-top-offers"]
 chooyomi.com##+js(no-window-open-if)
 chopaltv.com##.gmr-banner-insidecontent
 choralia.net##+js(nano-sib, download)
@@ -106935,7 +106942,6 @@ javx357.com##+js(rmnt, script, disableRightClick)
 javx357.com##body > #back-top + div[id][class*=" "]
 javxspot.com##a[href^="https://uploadgig.com/premium"]
 javxxx.me###menu-main > li.nav-item:has(> a[rel^="sponsored"])
-javxxx.me###player_3x2_container_inner
 javxxx.me##+js(abort-on-stack-trace, Array.prototype.forEach, initPopunder)
 javxxx.me##.video-img:has(> #next-to-video-1)
 javxxx.me#@#.ad-placement
@@ -119902,10 +119908,14 @@ lk.rt.ru##[data-testid="SnowfallCanvas"]
 lk.rt.ru,ykt.ru##.n-banner
 lk21.*,lk21official.*,nontondrama.*###nativeAds
 lk21.me##.container > div[id$="banner"]
+lk21official.*###adContainer
 lk21official.*###admad
 lk21official.*###banner-content
+lk21official.*###openPopup
 lk21official.*###player > a[id][target="_blank"]
 lk21official.*###player-lux
+lk21official.*###skipAds
+lk21official.*###videoAd
 lk21official.cc,cloud.hownetwork.xyz###overlay
 lk21official.co##a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 lk21official.life,lk21.am.in##div[class^="admad-"]
@@ -120834,6 +120844,8 @@ lowendbox.com##div.block:has([id^="bsa"])
 lowendbox.com##iframe
 lowendspirit.com##div[class$="banners-holder"]
 lowendtalk.com###Foot > a[href] > img
+lowendtalk.com###Foot > ul[style] ~ a[href*="?"]:has(img[style]:not([title]))
+lowendtalk.com###Panel > .BoxFilter ~ div:not([class], [id]):has(a[target="_blank"] img)
 lowendtalk.com##.Row > #Panel > div:not([class]):not([id]) > a[href] > img
 lowendtalk.com##.Row > #Panel >a[href="http://bsa.ly/moo"]
 lowendtalk.com##div[style="text-align: center"] > a[href="http://bsa.ly/moo"]
@@ -123903,6 +123915,7 @@ mail.yahoo.com##+js(set-constant, AppState.reduxState.features.ads, false)
 mail.yahoo.com##+js(set-constant, AppState.reduxState.features.adshieldAdblockRecovery, false)
 mail.yahoo.com##+js(set-constant, AppState.reduxState.features.adshieldAdblockRecovery, false, , , true)
 mail.yahoo.com##+js(set-constant, AppState.reduxState.features.pencilAd, false)
+mail.yahoo.com##+js(trusted-click-element, #landshark .skip-link)
 mail.yahoo.com##+js(trusted-replace-argument, navigator.registerProtocolHandler, 0, noopFunc, condition, mailto)
 mail.yahoo.com##.panescroll #toolbar:style(right:0 !important;)
 mail.yahoo.com##.pc.panescroll #shellcontent:style(top: 0px !important;)
@@ -140165,6 +140178,7 @@ newsroom.ucla.edu###shareButtonElement
 newsroom.ucla.edu##.social-list-links
 newsroom.ucla.edu#?#.promo-card-muted:has-text(RSS feed)
 newsroom.ucla.edu#?#.promo-card-primary:has-text(Check your inbox)
+newsroom.wealthsimple.com##.CookieConsentBar_cookieConsentBar__A10YA
 newsroom24.ru###_prizmaNE
 newsroom24.ru##.special_banner_in
 newsroom24.ru##.standart_banner > [src*="/advertising/flash"] + *
@@ -142577,7 +142591,7 @@ novelba.com##footer div[style^="padding:"]
 novelcool.com##.mangaread-ad-box
 novelcool.com##.sus-download-app-box
 novelcrow.com##.code-block-3
-novelfire.net##.nf-ads
+novelfire.net,novelphoenix.com##.nf-ads
 novelfull.com##+js(abort-on-property-read, yeac)
 novelfull.com##+js(abort-on-stack-trace, setTimeout, _0x)
 novelfull.com##a[rel="nofollow noopener sponsored"]
