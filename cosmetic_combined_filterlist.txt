@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.947
-! Last Modified: 2026.08.02.1144+1000 AEST
+! Version: 1.0.948
+! Last Modified: 2026.08.02.1726+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -67480,8 +67480,7 @@ ebay.*#$#hide-if-matches-xpath './/span[contains(.,"Sponsored") or contains(.,"A
 ebay.*#$#hide-if-matches-xpath '//a[contains(.,"Sponsored")][@target="_self"]/ancestor-or-self::aside[contains(@class,"home-item-carousel")][@aria-labelledby]'
 ebay.*#$#hide-if-matches-xpath3 'let $t := string((//head/style[contains(.,"url(blob:")])[1]) let $beforeDisplay := substring-before($t, "display: block") let $afterLastBrace := (tokenize($beforeDisplay, "}")[last()]) let $cn :=substring-before(substring-after($afterLastBrace, ".s-"), ",") return if (string-length($cn)> 0) then //li[contains(@class,"s-card")][.//*[@role="heading"][@aria-level="6"][@class=concat("s-", $cn)]] else ()'
 ebay.*#$#json-prune 'modules.{}.containers.[].cardContainers ADS_AND_MERCH_LIST_V2'; hide-if-matches-xpath '//div[starts-with(@class, "vim vim-ds6")]//div[@data-viewport][position() > 1]';
-ebay.*#$?#.x-vi-evo-main-container__top-panel div.x-evo-atf-top-river { visibility: hidden !important; margin-bottom: -24px !important; }
-ebay.*#$?#.x-vi-evo-main-container__top-panel div.x-pda-placements { visibility: hidden !important; margin-bottom: -24px !important; }
+ebay.*#$?#.x-vi-evo-main-container__top-panel .x-pda-placements { visibility: hidden !important; margin-bottom: -24px !important; }
 ebay.*#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,ebay.pl##.gadget-banner-wrapper
 ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,ebay.pl##.s-feedback
