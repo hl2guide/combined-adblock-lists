@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.949
-! Last Modified: 2026.08.02.2110+1000 AEST
+! Version: 1.0.950
+! Last Modified: 2026.08.03.0151+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -24158,7 +24158,7 @@ agrasor.com##.abv-container
 agrasor.com##.header-section .right-container
 agraupdate.com,biswadarpan.com,dailyganomukti.com,paharipatrika.in,reportersnepal.com,teknaf71.com,vtvvitla.com##figure.wp-block-image.size-large
 agravery.com##.post > div:has(> ul > .social-link)
-agravery.com,babla.ru,clickthis.blog,cont.ws,dumskaya.net,filehippo.com,ifun.ru,inform-ua.info,kinda.media,klops.ru,kosht.media,liga.net,lookmeet.tv,mmovote.ru,myshared.ru,news.pn,obsuzhday.com,pik.net.ua,primpogoda.ru,prostopleer.com,regmarkets.ru,riavrn.ru,tut.by,vgolos.ua,vogue.ru,vz.ru,zaks.ru##.ad
+agravery.com,babla.ru,clickthis.blog,cont.ws,dumskaya.net,filehippo.com,ifun.ru,inform-ua.info,kinda.media,klops.ru,kosht.media,liga.net,lookmeet.tv,mmovote.ru,myshared.ru,news.pn,obsuzhday.com,pik.net.ua,primpogoda.ru,prostopleer.com,regmarkets.ru,riavrn.ru,tempmailg.com,tut.by,vgolos.ua,vogue.ru,vz.ru,zaks.ru##.ad
 agri-gator.com.ua##.adcontainer
 agri-gator.com.ua,football24.ru,itsider.com.ua,mmr.net.ua,obozvrn.ru,rama.com.ua,rusfootball.info,subbota.ua,youtebem.com##[itemtype="https://schema.org/WPAdBlock"]
 agriaffaires.com,bloggif.com,lesoir.be,play3-live.com,topquizz.fr###leaderboard
@@ -43111,6 +43111,9 @@ book.hacktricks.xyz,blissos.org###portals-root > div > div[data-rnw-media-class]
 book.hostlove.com##.novelf_sns
 book.oricon.co.jp##a[href^="https://apay-up-banner.com?merchantId="] > img
 book.st-hakky.com###hubspotForm
+book.trivago.com##+js(set, RISKX, {})
+book.trivago.com##+js(set, RISKX.go, noopFunc)
+book.trivago.com##+js(set, RISKX.setSid, noopFunc)
 book.zhulang.com##+js(aeld, /contextmenu|selectstart/)
 book.zongheng.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 book.zongheng.com##+js(aopr, document.oncontextmenu)
@@ -49437,6 +49440,7 @@ chatgpt.com#%#//scriptlet('set-cookie', 'oai_consent_marketing', 'false')
 chatgpt.com#%#//scriptlet('set-cookie-reload', 'oai_consent_personalization', 'false')
 chatgpt.com#?#.fixed.bottom-0:has-text(Try Atlas)
 chatgpt.com#?#.md\:px-\[60px\]:has-text(By messaging ChatGPT)
+chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
 chatgpt.com#?#.z-20.bottom-full:has-text(Get Extension)
 chatgptfree.ai##.elementor-widget-container > style + p:contains(/^ADS$/)
 chathamhouse.org##.newsletter-form.paragraph
@@ -55211,6 +55215,7 @@ corriere.it##.card--adv
 corriere.it##.fxr-between-center > .bck-adv:style(display: block !important;)
 corriere.it##.hp-adv-block
 corriere.it##.socialbar_container
+corriere.it##.sponsor-strip
 corriere.it##.sticky-video
 corriere.it##.tp-modal.manine-modal
 corriere.it##a[href^="https://it.chili.tv"]
@@ -112363,6 +112368,7 @@ kocpc.com.tw##div[id="share_button info"]
 kocpc.com.tw#?#div[id^="pum-"]:has(> div[id^="popmake-"] > div.pum-content > div[class^="popup"] > p[style] > a[onclick^="window.open('https://news.google.com/publications/"])
 koctas.com.tr##.cookie-dark-filter
 kod.ru##.post > h5:contains(Поделись)
+kod.ru##.site-banner
 kod.ru##[class^="Aside_soc_"]
 kod.ru##[title="Яндекс.Дзен"]
 kod.ru##a[class^="SmallTgBanner_"]
@@ -127037,6 +127043,7 @@ mediamarkt.es#@#.m_cookie
 mediamarkt.hu##.cookie-info-modal
 mediamarkt.hu##.footer-sticky-boxbf
 mediamarkt.hu##.ms-link-list
+mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 mediamarkt.nl##div:has(> [data-test="mms-search-consent-section"])
 mediamarkt.nl#$##cookieLayer { display:none!important; }
 mediamarkt.nl#$#.modal-backdrop { display:none!important; }
@@ -160246,7 +160253,6 @@ qmee.com##.mobile-app-hidden
 qmee.com##div[class^="prerender-"] > div[class^="Overlay-root-"].mobile-app-hidden
 qmh.sex##+js(no-window-open-if)
 qmh.sex##+js(set-constant, Object.prototype.directLinkAdsPlayVip2, '')
-qms.ru###pwa-prompt
 qms.ru##.result-link
 qmul.ac.uk##.btt__inner
 qmusica.tv###promo
@@ -177929,6 +177935,7 @@ speedtest.pl##div.mb-4
 speedtest.ru##.market-message
 speedtest.ru##.result-link
 speedtest.ru##.rustore-button
+speedtest.ru,qms.ru###pwa-prompt
 speedtest.vn###advArea
 speedtest.vn###sponsorRow
 speedtest.vn##.jconfirm
@@ -180918,6 +180925,9 @@ stocktwits.com#?#.leading-\[16px\]:has-text(Advertisement)
 stockwatch.pl##div[class*="-"] > span[data-adsourl]:first-child + img:last-child
 stockwatch.pl##div[class*="-"]:has(> span[data-adsourl]:first-child + img:last-child)
 stockwatch.pl##div[class^="ADbox"]
+stockx.com##[data-component="brand-tile"]:has([data-testid="sponsored-tag"])
+stockx.com##[data-component="product-tile"]:has([data-testid="sponsored-tag"])
+stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
 stoczniowcy.pl###reklama_top
 stoczniowcy.pl##.right
 stoen.pl#%#//scriptlet('trusted-set-cookie', 'cookinncookiev2', 'date:20240124|accepted:true|')
@@ -212328,6 +212338,7 @@ xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 xhamster.com,xhamster2.com##.video-view-ads:style(display: none!important;)
 xhamster.com,xhamster2.com##.wio-xbanner
 xhamster.com,xhamster2.com##body:style(overflow: visible!important; position: static!important;)
+xhamster.com,xhamster46.desi##.xplayer > div.xh-helper-hidden + div[class*="-hover-menu"]
 xhamster.fm,erotic-beauties.com,hardsex.cc,sex-movies.biz,sikwap.xyz,tube18.sexy##+js(abort-current-script, pop_init)
 xhamster11.com##+js(abort-on-property-write, wio-vpopunder)
 xhamster2.com##.wio-xspa
@@ -212335,7 +212346,6 @@ xhamster20.*##.player-add-overlay
 xhamster20.*##.yxd-jbanner
 xhamster45.desi##[data-role="cookies-modal"]
 xhamster46.desi##.thumb-list__item:has(> div[class*="skeleton-"])
-xhamster46.desi##.xplayer > div.xh-helper-hidden + div[class*="-hover-menu"]
 xhamster46.desi##div[data-role="cookies-modal"]
 xhamster46.desi,tr.myxh.today,r.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
 xhamster46.desi,tr.myxh.today,tr.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhopen.com,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.parental-bg { display: none !important; }
