@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.955
-! Last Modified: 2026.08.04.0303+1000 AEST
+! Version: 1.0.956
+! Last Modified: 2026.08.04.0653+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -13750,6 +13750,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /tracking.mail.shopee.$image
 /tracking.srv2.de/op/*$image
 /tracking.vegasgems.com/*$image
+/tracking/affiliate|$image
 /tracking/airdog
 /tracking/common.html
 /tracking/cookies?
@@ -30331,6 +30332,7 @@ app.padovia.it##.detour-ad-banner-item
 app.perusall.com,varma.fi#@#.needsclick[aria-label][style]
 app.plex.tv##+js(json-prune, MediaContainer.Metadata.[].Ad)
 app.privacy.com###app > div.banner.flex-column
+app.privacy.com#?#.banner:has-text(We care about your privacy.)
 app.programme.conventus.de##ion-app > #ion-overlay-1
 app.prolific.com#?#.orejime-Root:has-text(We collect and process your personal information)
 app.raindrop.io##.svSidebar > a[class^="upgrade-"]
@@ -47520,6 +47522,7 @@ careers.abb,careers.crowe.com,jobs.concentrix.com,careers.microsoft.com,footlock
 careers.americanexpress.com,fa-etvc-saasfaprod1.fa.ocs.oraclecloud.com,krogerfamilycareers.com,onskefoto.se,st1.com,st1.fi,st1.se,ventilationland.co.uk##.cookie-consent-modal
 careers.arcusfm.com,gg.deals,metro.istanbul,republicworld.com,gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 careers.bancoplata.mx,zenitaka.co.jp,blowjobit.com,futurepedia.io,search4porn.net,polizei-beratung.de#%#//scriptlet('set-cookie', 'cookie_consent', 'true')
+careers.dhl.com##.phenom-chatbot-wrapper
 careers.equinix.com#$#.consent-modal { display: none !important; }
 careers.equinix.com,vileda-professional.com,vileda.it,vileda-mea.com,vileda.ch,vileda.dk,vileda.ca,vileda.cz,vileda.com.au,vileda.at,vileda.hr,vileda.fi##.consent-modal ~ div.modal-backdrop
 careers.go7.io#%#//scriptlet('trusted-click-element', 'button[data-cy="agree-to-selected-cookies"]')
@@ -48219,6 +48222,7 @@ cbs.com,paramountplus.com##+js(xml-prune, Period[id*="-roll-"][id*="-ad-"], , pu
 cbs12.com##div[class^="index-module_adAfterContent"]
 cbs12.com##div[id^="js-Taboola-Container"]
 cbs6albany.com##div[style*="display"] > div[style*="text-align:"]:has(> div[style*="position"] > div[style*="display"]:contains(/^ADVERTISEMENT$/))
+cbs8.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href="https://tv.cbs8.com/"] > img)
 cbsaustin.com###js-Social-Share-0
 cbsnews.com###component-taboola-local-article
 cbsnews.com###floating-sharebar
@@ -56127,6 +56131,7 @@ cri.cn##.policy-dialog
 criativaonline.com.br##div[class*="stream-item"]
 cricbuzz.com###feedback-bar
 cricbuzz.com###top-btn
+cricbuzz.com##.carousal-item.min-w-fit div.items-center:has(> div#taboola-mid-home-carousel-text)
 cricbuzz.com##.cb-ad-unit
 cricbuzz.com##.cb-social-td
 cricbuzz.com##.cbz-leaderboard-banner
@@ -62039,6 +62044,7 @@ diariodominho.pt##a[href^="https://www.diariodominho.pt/linkout/"]
 diariodorio.com,omunicipiojoinville.com##.autozep-outer
 diarioeducacion.com,tuxnews.it,oracleerpappsguide.com###fb-root + div[id][class*=" "]
 diarioelargentino.com##.redes-footer
+diarioelargentino.com,elsiglodetorreon.com.mx##.redes-footer
 diarioelargentino.com,noticiasrcn.com##.btn-google-news
 diarioeldia.cl##.each-container.grid.grid-cols-1.items-center.default-gap.items-end.mx-auto.container.default-padding
 diarioeldia.cl,elterritorio.com.ar##.noticia-social-share
@@ -69217,6 +69223,7 @@ eldiario.es,elperiodico.com,epe.es##.branded-content
 eldiario.es,infolibre.es##.news-sponsored-content
 eldiarioalerta.com##.author-net
 eldiarioalerta.com##.sticky
+eldiariodechihuahua.mx##.btn-footer-up
 eldiariodelapampa.com.ar##.link-social
 eldiariodelapampa.com.ar##.makeadshorizontal
 eldiariodelfindelmundo.com##.zona_banners
@@ -70004,8 +70011,12 @@ elsevier.com#?##__next > div > div:has(> div > div[data-testid="cookie-banner"])
 elshinta.com##.inside-post-ad
 elshinta.com##.to-be-async-loaded-ad:has(.adsbygoogle)
 elsiglocoahuila.mx,elsiglodedurango.com.mx##.h-900.bg-light:has(.pub)
+elsiglocoahuila.mx,elsiglodedurango.com.mx,elsiglodetorreon.com.mx##.comparte
 elsiglodedurango.com.mx##aside > .comparte
 elsiglodetorreon.com.mx##.comparte > small:contains(COMPARTIR)
+elsiglodetorreon.com.mx##.email-suscribe
+elsiglodetorreon.com.mx##.google-buttons-container
+elsiglodetorreon.com.mx##.google-buttons-containertop
 elsiglodetorreon.com.mx##.lapub
 elsiglodetorreon.com.mx##.pubBoxDG
 elsiglodetorreon.com.mx##a[onclick^="return share"]
@@ -76871,16 +76882,16 @@ filmitorrent.net,utorr.cc###right > .colorstrip
 filmitorrent.net,utorr.cc###torrents ~ div[align="center"]
 filmitorrent.org##div[align="center"] > a[onclick="window.open(this.href,'_blank'); return false;"] > img
 filmitorrent.site###torrents ~ center
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech###dle-content > article ~ div a[href$="/pro.html"]
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech##.android-telegram-main
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech##.page-wrapper .last-news ~ .container > .information
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech##.remove-sda-wrap
 filmix.ac#?##player pjsdiv[style^="position: absolute;"] > pjsdiv[style^="position: absolute;"]:has(> pjsdiv:contains(AdBlock))
 filmix.ac,filmix.tech,filmix.zone##.social-counters
 filmix.ac,filmix.tech,filmix.zone##.social-wrap
 filmix.ac,filmix.tech,filmix.zone#?##oframeplayer > pjsdiv[style]:has(> pjsdiv[style]:contains(AdBlock))
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###branding_zone
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###information > div[style="height:200px!important;overflow:hidden"]
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone###dle-content > article ~ div a[href$="/pro.html"]
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.android-telegram-main
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.page-wrapper .last-news ~ .container > .information
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
 filmix.my,filmix.biz,filmix.ac,filmix.tech,filmix.zone##.remove-sda-wrap
 filmizlehdizle.com,fullfilmizlesene.net##+js(rpnt, script,this.ads.length > this.ads_start, 1==2)
 filmizlemax.*##.col3 > .video-bot3:has(.fsfb)
@@ -110165,6 +110176,8 @@ kbs.co.kr##.chrome_pick
 kbs.co.kr##.sec_share
 kbzk.com,thedenverchannel.com,wcpo.com##.newsletter-opt
 kcby.com##div[class^="index-module_premium_"]
+kcentv.com##.grid__cell > div.grid__module:has(> div.grid__module-sizer_name_story > div[data-module="story"] > div.story__inner > div.story__meta > a[href^="https://www.kcentv.com/article/about-us/how-to-watch-kcen-6-app-streaming-device/"])
+kcentv.com##.grid__section:has(> div.grid__content > div.grid__main > div.grid__cell > div.grid__module > div.grid__module-sizer_name_linked-image > div.linked-image > a[href="http://tv.kcentv.com/"])
 kcet.org##.active.kl-header-sticky.pane-kl-sticky-header.pane-panels-mini.panel-pane
 kcpu.gov.pl###theme-footer-fader
 kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wgal.com,wlwt.com,wmtw.com,wmur.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.ad-track
@@ -111000,6 +111013,7 @@ kievvlast.com.ua##.banner-target
 kievvlast.com.ua##.content > div[data-target][style]
 kiezbett.com###allowCookieBanner
 kihoilbo.co.kr##.lo_4.edit_banner_box.drag_alone
+kiiitv.com##.grid__cell[data-columns] > div[data-analytics-name]:has(a[href="https://tv.kiiitv.com/"] > img)
 kiinteistomaailma.fi###km-ccw
 kiitoskauppa.fi##.kiitos-cookies
 kijiji.ca###HeaderFeature > #FeatureContent
@@ -114555,8 +114569,11 @@ kvno.de#$##js-cookie-settings-manager { display: none !important; }
 kvno.de#$#body { overflow: auto !important; }
 kvraudio.com###kvr300600
 kvraudio.com##.kvrblockdynamic
+kvue.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href^="https://www.kvue.com/"] > img)
 kvue.com##.page__live-video-banner
 kvue.com##div[data-analytics-name="Braze Newsletter Signup-1"]
+kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
+kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 kvue.com,newscentermaine.com,ktvb.com,9news.com,wusa9.com,krem.com,kare11.com,wzzm13.com,king5.com##.universal-ad
 kw.com##.KWBanner
 kwamkidhen.com##[id*="ScriptRoot"]
@@ -120129,8 +120146,6 @@ localizaagencia.com##+js(nosiif, visibility, 1000)
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 localking.com.tw###adbannerurl
 locall.host#%#//scriptlet('prevent-addEventListener', 'scroll', 'requestAnimationFrame')
-localmemphis.com,kcentv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> div[data-analytics-name="Braze Newsletter Signup-1"])
-localmemphis.com,kcentv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
 localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
 localnewsodia.com###sidebar-right .widget_block figure
@@ -124696,6 +124711,7 @@ mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelom
 mangabats.com,nelomanga.net##.ads-contain
 mangaberri.com,mangacherri.com##+js(no-window-open-if)
 mangaberri.com,mangacherri.com,abola.pt,kagome.co.jp,whoer.net,app.famitsu.com,vsemirnyjbank.org,worldbank.org,bancomundial.org,albankaldawli.org,shihang.org,banquemondiale.org##.social-btn
+mangabolt.com##.ad-sandbox
 mangabtt.com##.alert-info:contains(Click on the)
 mangabtt.com##div[class] > div[style*="height:"]
 mangabtt.com##img[src$="/images/chapter/top.jpg"]
@@ -148806,7 +148822,9 @@ pacificleague.com##.p-detail_share
 pacificparadiseindian.com.au###footer_cookie
 pacificparadiseindian.com.au##div[data-class="app_download_banner"]
 pacificpower.net,rockymountainpower.net##wcss-cookie-banner
+pacjent.gov.pl###sprintbot-chat
 pacjent.gov.pl##.sekcja-ciasteczka
+pacjent.gov.pl,uml.lodz.pl,umg.edu.pl,high-way.me,pkw-sa.pl,oponylux.pl,prolific.com,ol.wittich.de,salk.at,bsvs.at,fh-kiel.de,strawberrygrower.org,metz-ce.de,expresspasts.lv,nabu.de,pasts.lv,jdm.pl,aptekacentrum.lublin.pl,frag-einen-anwalt.de,buecher.de,visitberlin.de,buecher-sale.de###klaro
 packaginginsights.com##.verticlblk
 packeasy.ch#@#.cookieconsent-wrapper
 packers.com##+js(prevent-fetch, imasdk.googleapis.com/js/sdkloader/ima3.js)
@@ -152299,6 +152317,7 @@ pimpbunny.com##.pb-header > div.pb-header-top-left-menu
 pimpbunny.com##.pb-header > div.pb-header-top-right-menu > a[href][rel="noopener"][target="_blank"]
 pimpbunny.com##.row > .col:has(> div[class^="ui-card-root"] > a[rel="noopener noreferrer sponsored"])
 pimpbunny.com##a[class*="includes-header-cake"]
+pimpbunny.com##div.row > div.col:has(> div > a[href^="https://a.pur.agency/"])
 pimpbunny.com##div[class^="components-become-creator-cta-wrapper"]
 pimpbunny.com##div[class^="includes-header-inner"] > ul
 pimpbunny.com##div[class^="pages-view-video-wrapper"] > .row > .d-lg-block
@@ -172585,6 +172604,7 @@ shooshtime.com##+js(abort-current-script, document.getElementsByTagName, adn)
 shooshtime.com##+js(acs, document.getElementsByTagName, adn)
 shooshtime.com##+js(nowoif)
 shooshtime.com##.primary > .plugs + .plugs
+shooshtime.com##.spot-horizontal
 shooshtime.com##.video_sponsor_anchor
 shooshtime.com##.wrap > ul > li > a:not([href*="shooshtime"])
 shooshtime.com##:is(.navbar_new, .bottomNav2) > a[target="_blank"]
@@ -199191,7 +199211,6 @@ umigatari.jp,seaparadise.co.jp,aqua-park.jp,hakkeijima-partnership.jp,uminomori.
 umin.ac.jp,foodsokuhou.com,sikopedia.com,apexheadline.com##.fab-btn.extended-fab
 umk.co.jp##+js(ra, oncontextmenu, body)
 umk.pl##.info-o-ciasteczkach
-uml.lodz.pl,umg.edu.pl,high-way.me,pkw-sa.pl,oponylux.pl,prolific.com,ol.wittich.de,salk.at,bsvs.at,fh-kiel.de,strawberrygrower.org,metz-ce.de,expresspasts.lv,nabu.de,pasts.lv,jdm.pl,aptekacentrum.lublin.pl,frag-einen-anwalt.de,buecher.de,visitberlin.de,buecher-sale.de###klaro
 umlandscout.de###loader-new
 umm.nordpoolgroup.com###modalMain
 ummid.com##body > .gridContainer > #Header
@@ -204622,6 +204641,7 @@ vodafone.hu##div[data-js="_nudge, _cookiePolicy"].nudge-slim
 vodafone.is##.dismissable-terms
 vodafone.it###cookiefascia
 vodafone.nl##div[class^="popup-"]
+vodafone.pt###cookieModalContainer
 vodafone.pt##+js(trusted-set-cookie, OPTOUTCONSENT, 1:1&2:0&3:0&4:0, , , domain, .vodafone.pt)
 vodafone.ua##.location-confirm
 vodafone.ua##.share-social-block
@@ -206822,6 +206842,8 @@ wbbjtv.com##.col-xs-12.wrapper-top-row
 wbez.org##.Form-newsletter-wrapper
 wbez.org##.Page-subscribe
 wbez.org##.PagePromoModuleC
+wbir.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,localmemphis.com,kcentv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> div[data-analytics-name="Braze Newsletter Signup-1"])
+wbir.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,localmemphis.com,kcentv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://www.menards.com/main/home.html"]
 wbprx.com###hidemead
@@ -210672,8 +210694,6 @@ wpxi.com##.mod-body
 wpxi.com##[href="/mobile-apps/"]
 wq.jd.com###id-pcprompt-mask
 wqad.com##.grid__cell[data-columns] > div[data-analytics-name]:has([aria-label*="News 8+ streaming app"] > img)
-wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
-wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 wqxr.org###story-chunk
 wradio.be##.c-advertiser-logos
 wral.com###antenna-widget-bucket
@@ -216873,6 +216893,7 @@ znews.vn,zingnews.vn##.btnZalo
 zobacz.ws##+js(abort-on-property-read, mdpDeBlocker)
 zocalo.com.mx##.anuncio-lateral-detalle
 zocalo.com.mx##.banner-medio
+zocalo.com.mx##.red-social
 zocbo.com###festivalPop
 zocdoc.com##article[data-test="search-result-item-ad"]
 zockify.de##.embed-responsive:has(> .embed-responsive-item > .vm-placement)
