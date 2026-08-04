@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.0.957
-! Last Modified: 2026.08.04.1122+1000 AEST
+! Version: 1.0.958
+! Last Modified: 2026.08.04.1730+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -15396,7 +15396,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 1001renkaat.com,anvelopelider.ro,bandenleader.be,bandenleader.nl,centralepneus.be,centralepneus.ch,centralepneus.fr,centralepneus.lu,dackleader.se,daekleader.dk,elastikaleader.gr,gumelider.com.hr,liderpnevmatik.si,maxigumi.hu,neumaticoslider.es,oponylider.pl,padangulyderis.lt,pneuleader.cz,pneuleader.sk,pneumaticileader.it,pneuslider.pt,rehviliider.ee,reifenleader.at,reifenleader.ch,reifenleader.de,riepulideris.lv,tyreleader.co.uk,tyreleader.ie##+js(trusted-set-cookie, ac, '{"version":"1","functional_storage":"granted","analytics_storage":"denied","ad_storage":"denied"}', 1year, , reload, 1)
 1001spiele.at#@##onetrust-consent-sdk
 1001spiele.de#@##onetrust-consent-sdk
-1001spiele.de,3gewinntspiele.com,6navi.ch,akustik-gitarre.com,anixehd.tv,bankkaufmann.com,boxxx.ch,buchmarkt.de,deavita.com,erosclubs.ch,erosgirls.ch,flugblattangebote.at,fruchtportal.de,fussballgucken.info,goldseiten.de,hcb.net,jobagent.ch,journalismus-koepfe.de,juve.de,kartenspielen.de,knobelspiele.com,kradblatt.de,laufen.de,m.gota.ch,macerkopf.de,mein-wahres-ich.de,melodieundrhythmus.com,modhoster.de,nordicsports.de,oberpfalzecho.de,pfaffenhofen-today.de,pixelio.de,prospektangebote.de,psi-magazin.de,regionews.at,rockland.de,salue.de,sexnews.ch,spieleklassiker.com,suedtirol.de,svs1916.de,urlaubsguru.de,wimmelbildspiele.de##.banner
+1001spiele.de,3gewinntspiele.com,6navi.ch,akustik-gitarre.com,anixehd.tv,bankkaufmann.com,boxxx.ch,buchmarkt.de,deavita.com,erosclubs.ch,erosgirls.ch,flugblattangebote.at,fruchtportal.de,fussballgucken.info,goldseiten.de,hcb.net,jobagent.ch,journalismus-koepfe.de,juve.de,kartenspielen.de,knobelspiele.com,kradblatt.de,laufen.de,m.gota.ch,macerkopf.de,mein-wahres-ich.de,melodieundrhythmus.com,modhoster.de,nordicsports.de,oberpfalzecho.de,pfaffenhofen-today.de,prospektangebote.de,psi-magazin.de,regionews.at,rockland.de,salue.de,sexnews.ch,spieleklassiker.com,suedtirol.de,svs1916.de,urlaubsguru.de,wimmelbildspiele.de##.banner
 1001spill.no###footer
 1001spill.no##.layout-two-columns-aside
 1001spill.no##.omega.grid_6
@@ -62044,7 +62044,6 @@ diariodominho.pt###hidethis2
 diariodominho.pt##a[href^="https://www.diariodominho.pt/linkout/"]
 diariodorio.com,omunicipiojoinville.com##.autozep-outer
 diarioeducacion.com,tuxnews.it,oracleerpappsguide.com###fb-root + div[id][class*=" "]
-diarioelargentino.com##.redes-footer
 diarioelargentino.com,elsiglodetorreon.com.mx##.redes-footer
 diarioelargentino.com,noticiasrcn.com##.btn-google-news
 diarioeldia.cl##.each-container.grid.grid-cols-1.items-center.default-gap.items-end.mx-auto.container.default-padding
@@ -78758,10 +78757,8 @@ flixcdn.cyou,pns.pro,4meplayer.pro,seekplays.com,easyvidplayer.com,vidplayer.liv
 flixclassic.pl#$#.app-gdpr { display: none !important; }
 flixclassic.pl#$#.overflow-hidden { overflow: visible !important; }
 flixeo.tv##.fixed.right-4
-flixer.gd##div.fixed.inset-0[role="presentation"]:has(> div[aria-labelledby="support-notice-title"])
-flixer.gd#%#//scriptlet('set-session-storage-item', 'backupBannerDismissed', 'true')
-flixer.su##.backdrop-blur-sm
-flixer.su##.max-w-sm.relative
+flixer.gd,flixer.su,flixer.*##[class^="fixed z-[60]"]:has(> div.relative > button)
+flixer.gd,flixer.su,flixer.*##div.fixed.inset-0[role="presentation"]:has(> div[aria-labelledby="support-notice-title"])
 flixhd.cc###vpn-top
 flixhd.cc##.dtc-share
 flixhouse.com##+js(rpnt, script, /window.location.href[^?]+this[^?]+;/)
@@ -91655,6 +91652,7 @@ guitaretab.com##.gtd-ad
 guitarflash3.com##.divCinema
 guitarinstructor.com##.policybanner
 guitarnick.com##+js(acs, document.getElementById, banner)
+guitarplayer.com,shortlist.com,gardeningknowhow.com,advnture.com,androidcentral.com,avnetwork.com,cinemablend.com,coachweb.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,fitandwell.com,fourfourtwo.com,gardeningetc.com,golfmonthly.com,goodto.com,guitarworld.com,homebuilding.co.uk,idealhome.co.uk,imore.com,laptopmag.com,livescience.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,musicradar.com,nexttv.com,pcgamer.com,petsradar.com,realhomes.com,space.com,t3.com,techlearning.com,techradar.com,themoneyedit.com,tomsguide.com,tomshardware.com,toptenreviews.com,tvtechnology.com,wallpaper.com,whathifi.com,whattowatch.com,windowscentral.com###slice-container-newsletterForm-exitIntent
 guitarplayer.ru##[class^="windowbg"] > noindex
 guitarplayer.ru##[id^="ya_direct_"]
 guitarplayer.ru##noindex > a[href*="svetomuz.ru"]
@@ -121609,6 +121607,7 @@ m.7days.ru##+js(remove-class, banners-brand, #page_content)
 m.99.com.cn##.detail-renxin > div .dtl-video-nr .xc-con
 m.99.com.cn##div:has(> iframe[src*="libaishuo.com"]:only-child)
 m.9gag.com##.bottom-sheet > ul.menu-list > li > a[class="icon"]:not([href])
+m.a-bly.com#?##stack\#-1 div[class]:has(> button.button__fill.button__xsmall.button__outline__gray.typography__subtitle4:contains(앱))
 m.aajtak.in##body > #adbocker_alt.adblocker-page
 m.aajtak.in##body > .pubTime:style(display: block !important)
 m.aajtak.in##body > .secArticleImage:style(display: block !important)
@@ -123562,6 +123561,7 @@ magasinetreiselyst.no##.adLarge
 magasinetreiselyst.no,guloggratis.dk###topBanner
 magasinetskolen.dk##.region-leaderboard
 magasinetskolen.dk##.region-sidebar-first > .clearfix > .first
+magaz.global##div[class^="GDPRPanel"] + div[class*="Popup_inCardAndBasket"]
 magaz.global,support.meduza.io##div[class^="GDPRPanel_root_"]
 magazif.com##.div-coffebreak-header
 magazif.com##div[id^="magid-"]
@@ -144980,6 +144980,8 @@ ohotniki.ru##.good
 ohotniki.ru##.good__header_top
 ohotniki.ru##[class*="preview__social"]
 ohotniki.ru#?#.rb_header:has(> form[action^="https://subscribe.ru/"])
+ohou.se#%#//scriptlet('set-cookie', 'ohsAppDownloadPopupClosed', 'yes')
+ohou.se#%#//scriptlet('set-cookie', 'ohsTopBannerClosed', 'yes')
 ohow.co###trigger
 ohp.pl,siemens.com##.cookiesnotification
 ohra.nl##+js(trusted-click-element, kpcf-cookie-toestemming >>> button[class="ohgs-button-primary-green"], , 1000)
@@ -151133,6 +151135,7 @@ perplexity.ai##.max-w-threadContentWidth:style(max-width:2000px!important)
 perplexity.ai##.py-md > div.gap-x-xs:has(> div[class] > svg[viewBox="0 0 400 91"]) + div.gap-x-sm
 perplexity.ai##.relative.gap-x-sm > div.animate-in:has(> button.text-inverse > div.flex > div.-mb-px)
 perplexity.ai##.w-full + div.relative.w-full > div.absolute  > div.flex.w-full.cursor-default.transition-all
+perplexity.ai##body > div.bottom-sm:has(> div[data-testid="consent-dialog"])
 perplexity.ai##button:has(> div > svg[data-icon="share"])
 perplexity.ai##div[class^="border-borderMain"] > div[class="isolate flex flex-col gap-md"][style^="opacity:"] > div.mt-md.flex.items-end.justify-between
 perplexity.ai##div[class^="border-borderMain"] > div[class="isolate flex flex-col gap-md"][style^="opacity:"] > div[class="flex flex-col gap-md"] > div[data-widget-id]
@@ -152694,8 +152697,6 @@ pixelify.net##.under-download-button-ad-div
 pixelify.net##div[class^="google-ad-"]
 pixelinform.com,sysidka.com##.a-wrap
 pixelinform.com,sysidka.com##.spc-social-block
-pixelio.de##.clipad
-pixelio.de##div[style="float:right; width: 300px; height: 250px"]
 pixelmonmod.com###footer-banner-ad-all
 pixelmonmod.com##.panel-body:has(> #sideblock-body-ad)
 pixelnerd.pl##.article-content > .extra-link:has(> p > a[href^="https://www.amazon.pl/wyprobujprime"])
@@ -172919,7 +172920,6 @@ shortlist.com###article-body > p[id]:has(> a[href^="https://news.google.com/publ
 shortlist.com##.align-xl-content-between
 shortlist.com##.widget-newsletter-slice
 shortlist.com##div[data-ad-slot-path]
-shortlist.com,gardeningknowhow.com,advnture.com,androidcentral.com,avnetwork.com,cinemablend.com,coachweb.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,fitandwell.com,fourfourtwo.com,gardeningetc.com,golfmonthly.com,goodto.com,guitarworld.com,homebuilding.co.uk,idealhome.co.uk,imore.com,laptopmag.com,livescience.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,musicradar.com,nexttv.com,pcgamer.com,petsradar.com,realhomes.com,space.com,t3.com,techlearning.com,techradar.com,themoneyedit.com,tomsguide.com,tomshardware.com,toptenreviews.com,tvtechnology.com,wallpaper.com,whathifi.com,whattowatch.com,windowscentral.com###slice-container-newsletterForm-exitIntent
 shortnest.com###dl-bbtn
 shortpixel.com###shortpixel-cookies
 shorts.xxx##.adfiller
@@ -181134,6 +181134,7 @@ store.gaijin.net##.yp-cb.js-cb-policy
 store.godox.pl##+js(trusted-set-cookie, _x13eucookie, '{"1":true,"2":false,"3":false,"4":false,"5":true}')
 store.google.com##bento-dialog[position="bottom"]
 store.google.com##blog-social-share[slot="socialShare"]
+store.google.com##dialog[data-dialog-name="crm_crm_popup_center"]
 store.gx.me#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '{%22marketing%22:false%2C%22necessary%22:true%2C%22version%22:2}')
 store.hpplus.jp##.rn14_share
 store.leica-camera.com#$#.cookie--permission { display: none !important; }
@@ -182253,6 +182254,7 @@ sud.ua##.b-menu-links
 sud.ua##.b-news-text > p > strong > em
 sud.ua##.b-sidebar-adv a[href="http://www.sud.ua/click/2"]
 sud.ua##.bbone-list
+sud.ua##.subscribe_tg
 sud.ua##li:has(> div.b-news-item a[href^="https://www.facebook.com/sudgazeta"])
 sud.ua#?#.b-news-list > ul > li:has(> div.b-news-item a[href="https://t.me/sudua"])
 sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/"])
@@ -198037,6 +198039,7 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.user.
 twitter.com,x.com,~platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","url":"[^"]+"/g', ',"expanded_url":"$1","url":"$1"', /graphql)
 twitteringmachines.com##div[style^="margin: 8px "] > div > div > p > a
 twitteringmachines.com##div[style^="margin: 8px "] > p > a
+twitterwebviewer.com###main-content p.text-center.text-balance:has(> a[rel="sponsored noopener"])
 twivideo.net##.content_area > div[style]:has(> div[style] > iframe[src^="https://creative.bbrdbr.com/"])
 twivideo.net##div[style="margin-top:-25px; margin-bottom:-35px;"]
 twizz.ru##.ad_block_inner
