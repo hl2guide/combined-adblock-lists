@@ -4,6 +4,7 @@ A combined filter list of the very best cosmetic rules for use in Adblockers lik
  **uBlock Origin** and **AdGuard**'s browser extension or app for Windows 11.
 
 Major Version: 1.1
+GUID: {850b6f81-011f-4b00-8d75-28739807d89c}
 
 [![Python CI - analyse with Pylint, lint with flake8, format with black](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_ci.yml/badge.svg)](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_ci.yml)
 [![Python Run - run a script and then save to GitHub repo](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_run_script.yml/badge.svg)](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_run_script.yml)
