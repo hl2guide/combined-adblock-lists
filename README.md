@@ -20,7 +20,7 @@ Major Version: 1.1
     - Updates about every 5 hours, each day (depending on GitHub Actions uptime)
 - Comments and duplicate lines are ignored and the lists are sorted
 
-### Cosmetic Combined Filterlist 🎨
+## Cosmetic Combined Filterlist 🎨
 
 Cosmetic rules to hide elements within page content.
 
@@ -33,13 +33,13 @@ _Recommended for use in the AdGuard app or in AdGuard or uBlock Origin browser e
     - _Does not work in AdGuard Home or similar domain-based software_
 - The list is approximately 13MB in size
 
-#### Direct raw text link
+### Direct raw text link
 
 ```
 https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/main/cosmetic_combined_filterlist.txt
 ```
 
-### Blocklist Combined Filterlist ⛔
+## Blocklist Combined Filterlist ⛔
 
 Blocks bad domains including known bad sites, scams, malware, ads etc.
 
@@ -51,7 +51,7 @@ _Recommended for use in AdGuard Home or similar domain-based software._
     - Consider performance reasons to not use it in browser-based extensions
 - The lists are approximately 235 MB in size
 
-#### Direct raw text links
+### Direct raw text links
 
 ```
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_000.txt
@@ -73,13 +73,13 @@ https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_004.txt
 ```
 
-### Allowlist ✅
+## Allowlist ✅
 
 Allows worthwhile websites.
 
 Sourced from my other repo [curated-adblock-lists](https://github.com/hl2guide/curated-adblock-lists).
 
-#### Direct raw text link
+### Direct raw text link
 
 ```
 https://raw.githubusercontent.com/hl2guide/curated-adblock-lists/refs/heads/main/lists/allowed.txt
