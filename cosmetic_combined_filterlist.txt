@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.13
-! Last Modified: 2026.08.08.1047+1000 AEST
+! Version: 1.1.14
+! Last Modified: 2026.08.08.1534+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -31979,7 +31979,7 @@ ascnb1.ru#?#.tablebg:-abp-has(> tbody > tr > td > h4:-abp-contains(/^Рекла�
 ascnb1.ru,matematikalegko.ru,orangeapps.ru,rgfootball.net,shadowlands.ru,tapclap.com###banners
 ascolicalcio1898.it##.cqcarousel-container
 ascolinotizie.it,fermonotizie.info,maceratanotizie.it,marchenotizie.info,pesarourbinonotizie.it,senigallianotizie.it,valmisa.com##.ban_box
-ascopost.com,fermanaghherald.com##.ad-text
+ascopost.com,fermanaghherald.com,sofx.com##.ad-text
 asd.ink,asd.pics,asd.homes##+js(addEventListener-defuser, DOMContentLoaded, _0x)
 asd.ink,asd.pics,asd.homes##+js(addEventListener-defuser, click, window.open)
 asd.ink,asd.pics,asd.homes##.main-content-xfs:style(display: block !important;)
@@ -84862,6 +84862,7 @@ gamespot.com##.js-where-to-buy
 gamespot.com##.newsletter-subscribe-box
 gamespot.com##.nlsub
 gamespot.com##.share--column
+gamespot.com##.user-actions
 gamespot.com##.vjs-overlay-onceux-countdown-text
 gamespot.com##.wp-block-gamespot-blocks-newsletter
 gamespot.com##script.stub-leader
@@ -121884,7 +121885,11 @@ m.bukalapak.com##.dp-card-container:has(.ico_promotion)
 m.bulbapedia.bulbagarden.net##a[href="http://playiconoclasts.com/"]
 m.bunjang.co.kr##div:has(> button[type="button"] > img[alt="페이스북 아이콘"][src^="data:image/png"])
 m.bunjang.co.kr##div[class^="Productsstyle__PowerLinkWrapper"]
+m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
+m.bunjang.co.kr##header > div[class^="_top-banner-large_"]:has(> button[class^="_top-banner-large-content_"] > img[src="https://static.bunjang.co.kr/web/ui/logo-icon.svg"])
+m.bunjang.co.kr##header > section[class*="_top-banner_"]:has( > section >  a[href="https://go.bgzt.link/app"])
 m.bunjang.co.kr#%#//scriptlet("set-cookie", "_bun_hide_lm", "0")
+m.bunjang.co.kr#%#//scriptlet('trusted-click-element', '.bun-ui-bottom-sheet-portal:has(.bun-ui-bottom-sheet > section[class^="BottomSheet_bodyRecipe__"] > img[src^="/static/media/app-nudge."]) .bun-ui-bottom-sheet-dim')
 m.bursadabugun.com##.newsShareIcons
 m.business-gazeta.ru##.currency
 m.businesstoday.in##.bt_socials
@@ -139966,7 +139971,7 @@ newsbreathe.com##.neder_advertisement_content_banner
 newsbritant.in##[id^="newsb-"]
 newsbryansk.ru##.social-network-block
 newsbtc.com###custom_html-30
-newsbtc.com##.jnews-cookie-law-policy
+newsbtc.com,sofx.com##.jnews-cookie-law-policy
 newsbunch.in##.card:has(> .card-body > img[alt*="Ad"])
 newsbunch.in##.nm-ads-section
 newsbusters.org###donateButtonHeading
