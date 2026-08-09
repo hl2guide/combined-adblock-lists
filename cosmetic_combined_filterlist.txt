@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.20
-! Last Modified: 2026.08.09.2021+1000 AEST
+! Version: 1.1.21
+! Last Modified: 2026.08.10.0120+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -75465,7 +75465,6 @@ fastpic.org###bleft
 fastpic.org###bright
 fastpic.org###mainContainer > .d-lg-block
 fastpic.org##+js(trusted-set-cookie, k3a9q, $now$%7C1)
-fastpic.org##+js(trusted-set-local-storage-item, _fpu5664332, 9999\,2147483647)
 fastpic.org##.bg-light.rounded
 fastpic.org##.col-auto > .justify-content-center
 fastpic.org##.nav-link[href="/donate"]
@@ -96250,6 +96249,7 @@ hk.trip.com#?#div[class^="tcp-headline-"][style]:has(> div.tcp-headline__title-c
 hk.yahoo.com##div[id^="my-ads"]
 hk01.com###article-content-section > div[class]:has(> div[class] > div[data-id="lazyload-placeholder"])
 hk01.com##+js(remove-cookie, /_pk_id|hk01_annonymous_id/, when, scroll keydown)
+hk01.com##+js(trusted-replace-argument, String.prototype.includes, 0, , condition, preview-cms)
 hk01.com##.lcs-share-button
 hk01.com##.md\:min-h-\[90px\]
 hk01.com##.min-h-\[250px\].mb-3
@@ -112947,13 +112947,10 @@ kompas.com,tribunnews.com##iframe[title="3rd party ad content"]
 kompas.id##.flex.items-center.justify-center.w-full.relative
 kompas.id##.flex.justify-center.lg\:px-8.my-6
 kompas.id##.flex:has(> div.bg-black > svg.svg-inline--fa)
-kompas.id##.items-center.justify-center.flex.relative.w-full.lg\:min-h-\[132px\].min-h-\[92px\]
 kompas.id##.items-stretch.flex-col.flex-1.flex.z-0.relative.w-full
 kompas.id##.relative.flex.justify-center.py-2.bg-white
 kompas.id##.relative:has(> [id^="div-gpt-ad"])
 kompas.id##.w-full.hidden.lg\:flex.bg-grey-10.justify-center.py-3
-kompas.id##.w-full.relative.z-0.flex.flex-1.flex-col.items-stretch.max-w-\[300px\].min-h-\[250px\]
-kompas.id##.w-full.relative.z-0.flex.flex-1.flex-col.items-stretch.max-w-\[320px\].min-h-\[100px\]
 kompas.id##span.flex:contains(Bagikan)
 kompas.id,letsdatascience.com##.bottom-0
 kompas.tv###_popIn_recommend_word
@@ -114256,7 +114253,6 @@ kumparan.com##[data-qa-id^="desktop-article-page-inline-"]:has(span:has-text(/AD
 kumparan.com##[data-qa-id^="desktop-sidebar-banner-"]
 kumparan.com##[data-qa-id^="left-skyscrapper-ads"]
 kumparan.com##[data-qa-id^="right-skyscrapper-ads"]
-kumparan.com#?#[data-qa-id^="desktop-article-page-inline-"]:has(span:has-text(/ADVERTISEMENT/i))
 kuna.io##div[class*="cookies-footer"]
 kunal-chowdhury.com##div[class^="adsZone"]
 kunasystem.pl,jobs.pl,loveair.pl#$#.m-cookies-modal { display: none !important; }
@@ -136935,7 +136931,6 @@ nara-np.co.jp##.cmp_article_share
 nara-np.co.jp##.newsletter-box
 narasi.tv##.cursor-pointer.ml-auto.w-fit.bg-\[\#e3e3e3\].justify-center.items-center.flex.right-2.top-2.absolute > .h-4.w-4.icon
 narasi.tv##.max-xl\:hidden.top-24.fixed.z-10
-narasi.tv##.max-xl\:hidden.top-24.left-0.fixed.z-10
 narasi.tv##.mb-4.bg-\[\#e3e3e3\]
 narasi.tv##.pb-6.billboard
 narasi.tv,novelgo.id,otospeedcar.com,paraedu.id,radarlombok.co.id##.adsbygoogle
@@ -216790,7 +216785,11 @@ zf.ro##.jw-reset.jw-wrapper
 zfans.de##.logo_rechts_mitte
 zfile.in.ua#$#.filelist > div#filelist2 { display: block !important; }
 zfilm-hd.org,zfilm1977.site,zfilme-hd1.site,zhinka.tv##div[style=" background-color: #fff; padding: 10px; margin-top: 15px; border: solid 3px #ea7468; "]
+zgbk.com###words-box:style(user-select: text !important;)
 zgbk.com##+js(acs, document.oncontextmenu)
+zgbk.com##+js(aeld, , blockEvent)
+zgbk.com##+js(rpnt, script, /\be(vent)?\.preventDefault\(\);?/g)
+zgbk.com##.detail .detail-con:not(.copycontent) .art-content p:style(pointer-events: auto !important;)
 zgonr.miliongames.com##.container_second
 zgorzelec.info##[app-ads]
 zgrzyt.info###box-polityka-pr
