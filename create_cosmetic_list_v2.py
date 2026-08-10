@@ -243,7 +243,7 @@ TESTING_URLS = [
     # YouTube Clean - Onsotumenh
     #f"{URL_PREFIX_GH}/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin/main/YouTubeFilterList.txt",
     # HaGeZi's The World's Most Abused TLDs
-    f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
+    # f"{URL_PREFIX_GH}/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
     # Web Annoyances Ultralist by yourduskquibbles
     f"{URL_PREFIX_GH}/yourduskquibbles/webannoyances/master/ultralist.txt",
     # AdGuard Popups filter
