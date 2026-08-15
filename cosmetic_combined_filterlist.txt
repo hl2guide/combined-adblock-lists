@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.47
-! Last Modified: 2026.08.16.0110+1000 AEST
+! Version: 1.1.48
+! Last Modified: 2026.08.16.0610+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -62087,6 +62087,7 @@ diamond.jp##.zai-subcolumn-banners-plus
 diamond.jp##.zai-subcolumn-fbanners
 diamondblog.jp##div[class^="special_link_in"]
 diamondlobby.com##.form-embed
+diamondv.jp##main[id] > div.MuiBox-root:has(> ul > li > button.react-share__ShareButton)
 diampokusy.com##+js(aopr, __Y)
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
@@ -65392,9 +65393,11 @@ dragonbox.de###up_optin
 dragonbox.de,roughradical.com.pl##div[id^="lgcookieslaw"]
 dragonflyshipping.ca##+js(trusted-click-element, button#c-t-bn, , 1000)
 dragonnest.com##+js(rpnt, script, gtag != null, false)
+dragontea.ink##+js(adjust-setInterval, /attachonce == false/, 800, 0.001)
 dragontea.ink##+js(no-setInterval-if, /errorcode|img:[\s\S]*?\)\.remove\(\)/)
 dragontea.ink##+js(no-setInterval-if, _0x)
 dragontea.ink##+js(remove-attr, style, body > div[style]:not([id]))
+dragontea.ink##+js(trusted-create-html, html, <img src="x:" style="display:none" onerror="(()=>{const u=x=>CryptoJSAesJson.decrypt(x\,'yourmumandjerome').split('autoptimize').join('%61utoptimize');if(typeof window.tea==='string'){let l=document.createElement('link');l.rel='stylesheet';l.setAttribute('href'\,u(window.tea));document.head.prepend(l);return}let v;Object.defineProperty(window\,'tea'\,{configurable:true\,get(){return v}\,set(x){v=x;document.write('<link rel=stylesheet href='+u(x)+'>')}})})();this.remove()">)
 dragontea.ink##+js(trusted-suppress-native-method, Node.prototype.removeChild, /^\[object HTMLImageElement\]$/, prevent, /emojis8\.js:/)
 dragontea.ink##.body-top-ads
 dragontea.ink##.dta
@@ -112510,7 +112513,6 @@ knews.com.tw##a[href="https://event.knews.com.tw/app"]
 knews.kg###gnews
 knewz.com###forms-block_ee1e843a9348070a466c6e3f908c9703
 knewz.com,politico.eu,revolvermag.com##.social-items
-knewz.com,revolvermag.com##.social-items
 knf.gov.pl##[aria-labelledby="cookie-info-title"]
 knf.gov.pl##div[aria-labelledby="cookie-info-title"]
 knfilters.com##._29gQfUz-bz_NyWhPRpjOSe
@@ -116880,6 +116882,7 @@ ledenicheur.fr##.pjra-w-\[970px\]
 ledenicheur.fr##div[class^="AdPlacement"]
 ledevoir.com###top-publicite-placeholder
 ledge.ai##.entry-footer-dl--sns
+ledge.ai##.flex-col > img[src*="EXPO_AUTUMN_bnr"]
 ledge.ai##.items-start > div.flex:has(> svg > path[d^="M714.163"])
 ledgertranscript.com###NNEsharearea
 ledicola.it##.eager-ad
@@ -157034,6 +157037,7 @@ portaltenisowy.info##.sidebar__advert--med
 portaltenisowy.info##div[class^="banner"]
 portalvirtualreality.ru#$#simulate-mouse-event '.viqeo-flyPlayer_close-button'
 portalvirtualreality.ru#@##go-to-top
+portalwloclawek.pl##img[src="https://sc.4media.com/data/aqwzxtvn/2026/01/23/1000120853-6972db884404b.jpg"]
 portalwrc.pl##+js(aeld, contextmenu)
 portalwrc.pl##.gAds-content
 portalwrc.pl##img[src^="/images/reklama/"]
