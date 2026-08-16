@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.48
-! Last Modified: 2026.08.16.0610+1000 AEST
+! Version: 1.1.49
+! Last Modified: 2026.08.16.1037+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -134600,7 +134600,7 @@ mtv.com.lb##.cookiesDisclaimer
 mtv.de,mtv.com,channel5.com,accuweather.com,southpark.*,southparkstudios.*,cbssports.com,cbs.com#%#//scriptlet('trusted-click-element', '#ketch-banner-button-secondary')
 mtv.fi##+js(json-prune, playbackItem.isStitched)
 mtv.fi##+js(m3u-prune, /https:\/\/prism-ads-cdn\.a2d\.tv\//, .m3u8)
-mtv.fi##+js(trusted-json-edit-fetch-response, .metadata.hideAds=true, propsToMatch, a2d.tv/play/)
+mtv.fi,mtvuutiset.fi##+js(trusted-json-edit-fetch-response, .metadata.hideAds=true, propsToMatch, a2d.tv/play/)
 mtv.ru##.like__share
 mtv.ru##.nb-footer__share
 mtv24.tv##[id^="custom_html-"]
