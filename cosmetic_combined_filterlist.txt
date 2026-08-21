@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.71
-! Last Modified: 2026.08.21.0616+1000 AEST
+! Version: 1.1.72
+! Last Modified: 2026.08.21.1038+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -43813,7 +43813,6 @@ bountyporn.com,pornoneverdie.com##.fly_player
 bournemouthecho.co.uk,decalgirl.com,feedspot.com,jobomas.com,police.uk,straitstimes.com,younow.com##.modal-backdrop
 bournemouthecho.co.uk,jobomas.com,patient.info##.modal
 bourns.com###BournsSurvey
-bourns.com###gdprConsent
 boursedirect.fr##.content-social
 boursedirect.fr##.slide-share
 boursier.com###infos-boursier_panel
@@ -46819,6 +46818,9 @@ camara.leg.br##.g-contexto-compartilhamento
 camaramar.com##+js(trusted-click-element, button.button.accept, , 2000)
 camaramar.com#$?##cookie-dialog { remove: true; }
 camaramar.com#@##cookie-dialog
+camarasantos.sp.gov.br#%#//scriptlet('set-local-storage-item', 'bs-acessibilidade', 'false')
+camarasantos.sp.gov.br#@##cookie-bar
+camarasantos.sp.gov.br#@#.cookie-bar:not(body)
 camarchive.tv##+js(no-fetch-if, popunder)
 camarchive.tv##+js(set-constant, adsBlocked, falseFunc)
 camarchive.tv##+js(set-constant, canads, true)
@@ -50819,6 +50821,7 @@ chytomo.com,texty.org.ua##div[class^="donate-"]
 chzzk.naver.com#%#//scriptlet('prevent-xhr', '/(veta.naver.com\/vas|veta.naver.com\/gfp|veta.naver.com\/call)/ method:OPTIONS')
 chzzk.naver.com#%#//scriptlet('spoof-css', '.banner_ad_wrapper', 'display', 'block')
 chzzk.naver.com#%#//scriptlet('trusted-json-set-xhr-response', 'content.playerAdDisplayResponse', 'json:{"preRoll":false,"midRoll":false}', 'content.playerAdDisplayResponse.preRoll', '/ad/display-status')
+chzzk.naver.com#%#//scriptlet('trusted-suppress-native-method', 'Function.prototype.call', ' |"setRequestHeader"', 'abort')
 chzzk.naver.com#@#.banner_ad_wrapper
 ci-en.dlsite.com##.c-articleFrame-item div.e-reactionBtn.is-twitter
 ci-en.dlsite.com##.e-buttonBox > div.e-buttonBox-item:has(> button.is-tweet)
@@ -65877,7 +65880,6 @@ drogariaspacheco.com.br#?#.row > div.col-12:has(> form input[placeholder^="cadas
 drogariavenancio.com.br##.cookiesModal__wrapper
 drogasil.com.br#@#[name^="google_ads_iframe"]
 drogeriedepot.de###light-box-bg
-drogeriedepot.de,sportboerse-shop.de,hirntot-shop.de,koffer.de,vansprint.de#%#//scriptlet('set-cookie', 'cookie-preference', '1')
 drogerienatura.pl##[x-data^="{...new Amasty.Cookie."]
 drogerienatura.pl#$##newsletter-popup-dn { display: none!important; }
 drogerienatura.pl#$#.modal-backdrop { display: none!important; }
@@ -88930,6 +88932,7 @@ gloswroclawia.pl##a[href^="https://oh-my-wear.com/"]
 gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 gloucestershirelive.co.uk##+js(set-constant, chameleonVideo.adDisabledRequested, true)
 glowbug.bandcamp.com#%#//scriptlet('trusted-set-cookie', 'cookie_preferences', '%7B%22allow%22%3A%5B%5D%7D')
+glowfestival.fi##+js(trusted-click-element, .cky-btn-accept)
 glowing.com##.adsWrapper-0-0-136
 glowonline.jp##.snsArea03
 glr.no##.topBarInLogoArea
@@ -114516,6 +114519,7 @@ kubyshka.org,radiochief.ru,riperam.org,znamyuzl.ru##a[href*="epngo.bz"]
 kucharze.pl##[id^="search-"] ~ aside
 kuchenny.com.pl##[class^="banery_"]
 kuchi-lab.com###common-cta-sp
+kuchler-apotheken.de,drogeriedepot.de,sportboerse-shop.de,hirntot-shop.de,koffer.de,vansprint.de#%#//scriptlet('set-cookie', 'cookie-preference', '1')
 kuchnia.wp.pl##.article figure > .article--photoSource + div[class*=" "]:has(> div[class] > strong:contains(/^Podziel się$/))
 kuchnia.wp.pl##.content div[class*=" "] > div[class] > div[class*=" "]:has(> a[data-st-area="goToSG"][href="https://www.wp.pl"]:only-child)
 kuchnia.wp.pl##.content div[class*=" "] div[class*=" "]:has(> span > svg > title:contains(/^Share$/))
@@ -114593,6 +114597,7 @@ kuliesius.jimdo.com###cc-m-imagesubtitle-image-3868849257
 kulis.az##.share_reaction
 kulis.az##div[class*="rek_"]
 kuljetusnet.fi###middle
+kuljetusnet.fi##.s2s_contenedor
 kuljetusnet.fi##div[class*=banner]
 kultfilmler.net##.video-top-alert
 kultmagasin.se##a[href*="/annonsering"]
@@ -139442,7 +139447,6 @@ newformat.info##.tm-content ~ .tm-main-bottom .widget_custom_html:not([style])
 newformat.info##.widget__subscribe
 newformat.info##a[class^="branding-"]
 newformat.info##img[src*="/_img/ban/"]
-newgameplus.pl,prowadnica.com.pl,amisell.pl,wgre.pl,ogrodslaski.pl,flora-centrum.pl,gustaf.pl,hialupharm.pl,essi.pl,pixonet.pl,sklep.natko.pl,sweetplanet.pl,medyczny.store,odlewkiperfum.pl,czasnaherbate.net##.jconfirm
 newgrodno.by##.main-nav-below > nav#top-nav > div.container > div.topbar-wrapper
 newgrodno.by##div[class^="the_champ_sharing"]
 newgrounds.com###share_content
@@ -146434,8 +146438,6 @@ omunicipio.com.br,omunicipiojoinville.com##.ads-mun
 omunicipioonline.com.br,repercussaoparanhana.com##.metaslider
 omuzaani.me##.abg-backdrop
 omuzaani.me##div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
-on-bike.pl,allweld.pl,sklepamarparkiety.pl,hispanito.pl,sklep.dps-software.pl,plantro.pl,meble.expert,xeromania.pl,przeciwpozarowy.com,najlepszefiltry.pl,dynamometryczne.pl,sklep.emmeble.pl,kupkrzeslo.pl,tts.com.pl,wiklik.pl,mildis.pl,upbiuro.pl,ergobiuro.pl,meblemwm.pl,pasiekisadowskich.pl,grupagsm.pl,lpbros.pl,sklep.muduko.com,rowerowelove.shop,efragola.pl,everprint.pl,sklep.serverico.pl,horse-toys.pl,netsklep.com,bubutik.pl,fitness-home.pl,alpinepro.pl,sklep-albatros.pl,monikakaminska.com,elitaro.pl,zegarkiwsieci.pl,yourhouse24.de,wings24.pl,softmm.com.pl,sklep.pl,ewozki.eu,portalgames.pl,gbs.pl,mawcom-elektronarzedzia.pl,metalkas.com.pl,bakeshop.pl,audiotop.pl,sklep.keeza.pl,sklepkawa.pl,fly-desk.com,estetic-dent-sklep.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop,flystore.pl,sklep.70mai.pl,agroczak.pl,led-studio.pl,jptech-maszyny.pl,notopstryk.pl,cebit.pl,polkabubu.pl#%#//scriptlet('set-local-storage-item', 'show_consent_modal', '1')
-on-bike.pl,allweld.pl,sklepamarparkiety.pl,hispanito.pl,sklep.dps-software.pl,plantro.pl,meble.expert,xeromania.pl,przeciwpozarowy.com,najlepszefiltry.pl,dynamometryczne.pl,sklep.emmeble.pl,kupkrzeslo.pl,tts.com.pl,wiklik.pl,mildis.pl,upbiuro.pl,ergobiuro.pl,meblemwm.pl,pasiekisadowskich.pl,grupagsm.pl,lpbros.pl,sklep.muduko.com,rowerowelove.shop,efragola.pl,everprint.pl,sklep.serverico.pl,horse-toys.pl,netsklep.com,bubutik.pl,fitness-home.pl,alpinepro.pl,sklep-albatros.pl,monikakaminska.com,elitaro.pl,zegarkiwsieci.pl,yourhouse24.de,wings24.pl,softmm.com.pl,sklep.pl,ewozki.eu,portalgames.pl,gbs.pl,mawcom-elektronarzedzia.pl,metalkas.com.pl,bakeshop.pl,audiotop.pl,sklep.keeza.pl,sklepkawa.pl,fly-desk.com,estetic-dent-sklep.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop,flystore.pl,sklep.70mai.pl,agroczak.pl,led-studio.pl,jptech-maszyny.pl,notopstryk.pl,cebit.pl,polkabubu.pl#%#//scriptlet('set-local-storage-item', 'user_consents', 'emptyArr')
 on-mag.fr#?#.uk-margin-remove-last-child:has(div:has(span:has-text(PUBLICITÉ)))
 on.cc###acceptDisclaimer
 on.com#%#//scriptlet('set-cookie', 'incentive-test', 'true')
@@ -184546,6 +184548,7 @@ sympla.com.br##div[class^="BannerPrivacystyle"]
 synamedia.com##.site-gdpr
 synapse-magazine.jp,straightpress.jp##div[class*="article__head__sns-btns"]
 sync.com###gdprConsent
+sync.com,bourns.com###gdprConsent
 syncfusion.com###feedbackButton
 syncfusion.com###swaychat-chat-widget
 syndication-bleacherreport-com.cdn.ampproject.org,nbcnewyork.com,foursquare.com,wsj.com###branch-banner-iframe
@@ -204776,6 +204779,8 @@ virtualbrest.ru#?#td > noindex:has(> table > tbody > tr > td > p > a[href="https
 virtualbrest.ru,virtualbrest.by##img[width="230"][height="90"]
 virtualdinerbot.com##+js(set, nitroAds.abp, true)
 virtualdrumming.com,wegotthiscovered.com###sticky-bottom
+virtualeye.pl,on-bike.pl,allweld.pl,sklepamarparkiety.pl,hispanito.pl,sklep.dps-software.pl,plantro.pl,meble.expert,xeromania.pl,przeciwpozarowy.com,najlepszefiltry.pl,dynamometryczne.pl,sklep.emmeble.pl,kupkrzeslo.pl,tts.com.pl,wiklik.pl,mildis.pl,upbiuro.pl,ergobiuro.pl,meblemwm.pl,pasiekisadowskich.pl,grupagsm.pl,lpbros.pl,sklep.muduko.com,rowerowelove.shop,efragola.pl,everprint.pl,sklep.serverico.pl,horse-toys.pl,netsklep.com,bubutik.pl,fitness-home.pl,alpinepro.pl,sklep-albatros.pl,monikakaminska.com,elitaro.pl,zegarkiwsieci.pl,yourhouse24.de,wings24.pl,softmm.com.pl,sklep.pl,ewozki.eu,portalgames.pl,gbs.pl,mawcom-elektronarzedzia.pl,metalkas.com.pl,bakeshop.pl,audiotop.pl,sklep.keeza.pl,sklepkawa.pl,fly-desk.com,estetic-dent-sklep.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop,flystore.pl,sklep.70mai.pl,agroczak.pl,led-studio.pl,jptech-maszyny.pl,notopstryk.pl,cebit.pl,polkabubu.pl#%#//scriptlet('set-local-storage-item', 'show_consent_modal', '1')
+virtualeye.pl,on-bike.pl,allweld.pl,sklepamarparkiety.pl,hispanito.pl,sklep.dps-software.pl,plantro.pl,meble.expert,xeromania.pl,przeciwpozarowy.com,najlepszefiltry.pl,dynamometryczne.pl,sklep.emmeble.pl,kupkrzeslo.pl,tts.com.pl,wiklik.pl,mildis.pl,upbiuro.pl,ergobiuro.pl,meblemwm.pl,pasiekisadowskich.pl,grupagsm.pl,lpbros.pl,sklep.muduko.com,rowerowelove.shop,efragola.pl,everprint.pl,sklep.serverico.pl,horse-toys.pl,netsklep.com,bubutik.pl,fitness-home.pl,alpinepro.pl,sklep-albatros.pl,monikakaminska.com,elitaro.pl,zegarkiwsieci.pl,yourhouse24.de,wings24.pl,softmm.com.pl,sklep.pl,ewozki.eu,portalgames.pl,gbs.pl,mawcom-elektronarzedzia.pl,metalkas.com.pl,bakeshop.pl,audiotop.pl,sklep.keeza.pl,sklepkawa.pl,fly-desk.com,estetic-dent-sklep.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop,flystore.pl,sklep.70mai.pl,agroczak.pl,led-studio.pl,jptech-maszyny.pl,notopstryk.pl,cebit.pl,polkabubu.pl#%#//scriptlet('set-local-storage-item', 'user_consents', 'emptyArr')
 virtualizationhowto.com##.stream-item-above-header
 virtualizationhowto.com##div[data-ai]
 virtualnights.com###fb-likegate:style(display: none!important;)
@@ -209323,6 +209328,7 @@ wgospodarce.pl##.adunit-player-constant-height
 wgospodarce.pl##.double-rectangles
 wgospodarce.pl##.meta__share-list
 wgospodarce.pl##.top-banner
+wgre.eu,newgameplus.pl,prowadnica.com.pl,amisell.pl,wgre.pl,ogrodslaski.pl,flora-centrum.pl,gustaf.pl,hialupharm.pl,essi.pl,pixonet.pl,sklep.natko.pl,sweetplanet.pl,medyczny.store,odlewkiperfum.pl,czasnaherbate.net##.jconfirm
 wgrr.com##a[href^="https://www.mccabelumber.com/"]
 wgv.de#$#body { overflow: visible!important; }
 wgv.de#$#div[id^="cookie_"] { display: none!important; }
