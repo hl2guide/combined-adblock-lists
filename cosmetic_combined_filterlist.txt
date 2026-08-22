@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.79
-! Last Modified: 2026.08.22.2012+1000 AEST
+! Version: 1.1.80
+! Last Modified: 2026.08.23.0110+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -2013,7 +2013,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
 .link/*?*=*-*-*-*-$third-party,xmlhttprequest
 .link/*?fre=$third-party,xmlhttprequest
-.link/r1svj83?$third-party,xmlhttprequest
+.link/2tjl3er?$third-party,xmlhttprequest
 .list-manage.com/track/
 .live/1*.html?cep=$doc
 .live/o.js$script,third-party
@@ -24033,6 +24033,8 @@ afzuigkap.nl,l28.nl,snickersshopbelgie.be###cookie_popup_body
 ag-vmeste.ru,praca.by#@#.cookie-agreement
 ag.mos.ru#%#//scriptlet('set-session-storage-item', 'ag-forced-auth-modal-displayed', 'true')
 ag.mos.ru,eapteka.ru##.cookie-informer
+ag.ru##.game-social-links
+ag.ru##div[class="header__main-coin"]
 ag.ru#%#//scriptlet('set-cookie', 'articlesRead', '1')
 ag.ru#%#//scriptlet('set-cookie', 'headercoin', '1')
 aga-clinic-experience.jp#@##ad_top
@@ -35293,7 +35295,7 @@ azubiheft.de###CookieModal
 azur-appartementen.be,regatta-appartementen.be,regatta.be,vonk-appartementen.be,vooruitzicht.be##.custom-consent
 azurair.ru##.cookie-warningbar
 azure.cn,microsoft.com###cookie-consent-holder
-azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#mycanvas.map[style="cursor:none"]
 azuremagazine.com##.flyout
 azuremagazine.com##.flyout--non-subscriber
 azuremagazine.com##.hero__metadata-left-rail
@@ -53598,6 +53600,7 @@ coinranking.com##.sticky--full-width
 coinranking.com##.top-leaderboard
 coinreaders.com##.scroll_bottom_bn
 coinrequest.io#%#//scriptlet('set-local-storage-item', 'BIT_REQUEST_VUE.cookies_enabled', 'true')
+coinsimulator.online##center:has(> ins[style^="display:inline-block;"][style*="width:"][style*="height:"]:first-child + script:last-child)
 coinsparty.com##+js(aeld, contextmenu)
 coinspeaker.com##.aside-little_newsletter
 coinspeaker.com##.wrapp_aside-share
@@ -135343,6 +135346,7 @@ music.yandex.*#%#//scriptlet('trusted-click-element', 'header[class^="PaywallMod
 music.yandex.ru##.d-share-popup
 music.yandex.ru##.head-kids__app
 music.yandex.ru##.page-artist__agent
+music.yandex.ru,music.yandex.*##section[aria-label="Баннер"]
 music.yandex.ru,music.yandex.*##section[class^="SideAdvertBanner_root_"]
 music.youtube.com##ytmusic-description-shelf-renderer[is-track-lyrics-page]:style(user-select: initial !important)
 music.youtube.com#$#override-property-read Object.prototype.enable_isk_gating undefined
@@ -151424,6 +151428,8 @@ pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redi
 pelando.com.br##.cbZEFj
 pelando.com.br##div[aria-label="anúncio patrocinado"]
 pelando.com.br##main + * + div[class] > div[role="dialog"]
+pelando.com.br#$#body { overflow: auto !important; }
+pelando.com.br#$?#dialog[data-sign-in-modal-component="max_visited_deals"] { remove: true; }
 pelando.com.br#%#//scriptlet('set-cookie', 'cookies_allowed', 'true')
 peleo.ru#@#.advert-block
 pelican.com###slide-up-container
@@ -160200,6 +160206,7 @@ publicdomainreview.org##.action-bar__subscribe
 publicdomainreview.org##.exit-modal__shade
 publicdomainreview.org##.fundraiser-banner
 publicdomainreview.org##.homepage__top-grid__newsletter
+publicdomainreview.org,tohurt.pl,mego.travel,vgf-ffm.de,picsman.ai,poets.org,spain.info,wbtaxi.com.by,ford.ua,batel.ru,abstimmung21-mitmachen.de,stadtkirche-selb.de,mateco.*,trainerakademie-koeln.de,thqnordic.com,dotlan.net,awa7.de,gartentraum.de,gorzdrav.org,rkf.online##.cookie-modal
 publicflashing.me##+js(aost, console, onload)
 publicflashing.me##div.hentry
 publichealthpolicyjournal.com##.custom-slider
@@ -184845,6 +184852,7 @@ t-online.de##^script:has-text(toscr\')
 t-online.de##^script:has-text(}(window);)
 t-online.de##aside[data-testid="StageLayout.StreamItem"]
 t-online.de##div[class^="adContainer"]
+t-online.de##div[class^="fixed z-(--z-overlay-content)"]
 t-online.de##div[data-component="CommercialNativendo"]
 t-online.de##div[data-external-sdi-mark="banner-placeholder"]
 t-online.de##div[data-testid="ArticleBody.StreamLayout"] > div[class] > div[data-testid="StageLayout.StreamItem"]:has(> div[data-commercial-breakpoint])
@@ -193814,7 +193822,6 @@ tohkaishimpo.com##body:style(-webkit-touch-callout: default !important; -webkit-
 toho-one.com##.overflow-y-auto.overflow-x-hidden.rounded-t-2xl.z-\[1000\]
 tohotheater.jp##.optIn
 tohurt.pl,kicksmaniac.com##.cookie-button
-tohurt.pl,mego.travel,vgf-ffm.de,picsman.ai,poets.org,spain.info,wbtaxi.com.by,ford.ua,batel.ru,abstimmung21-mitmachen.de,stadtkirche-selb.de,mateco.*,trainerakademie-koeln.de,thqnordic.com,dotlan.net,awa7.de,gartentraum.de,gorzdrav.org,rkf.online##.cookie-modal
 toimitilat.kauppalehti.fi##.inner.sp-article
 toimitilat.kauppalehti.fi##.justify-content-center:has(> #almad-leaderboard-1)
 toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
@@ -208315,6 +208322,7 @@ web.archive.org###wm-share
 web.basemark.com##.cookie-law
 web.bridge-net.jp##.fltBnr
 web.centro-zaragoza.com###cookie-wrapper-objeto
+web.core.windows.net##+js(aeld, beforeunload, workerBomb)
 web.de###ads
 web.de##+js(rmnt, script, '"Anzeige"')
 web.de##+js(trusted-click-element, a[aria-label="Abonnieren Sie ein Postfach ohne Fremdwerbung"], , 1000)
