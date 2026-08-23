@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.85
-! Last Modified: 2026.08.23.2012+1000 AEST
+! Version: 1.1.86
+! Last Modified: 2026.08.24.0111+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -91793,7 +91793,8 @@ gsmarena.com###subHeader3
 gsmarena.com###subHeader:has(> #topAdv)
 gsmarena.com###topAdv
 gsmarena.com###wrapper > div#outer > div#subHeader
-gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|atob|offfsetHeight/)
+gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|atob|return new Promise/)
+gsmarena.com##+js(no-fetch-if, doubleclick)
 gsmarena.com##+js(remove-cookie, /DeviceID|lpe/)
 gsmarena.com##.adv-mid
 gsmarena.com##.d-flex:has(pgs-ad)
@@ -91801,6 +91802,7 @@ gsmarena.com##.deal
 gsmarena.com##.floating-title > div[style="margin-left: -10px; margin-top: 30px; height: 145px;"] > div[id^="div-gpt-ad"]:upward(1)
 gsmarena.com##.module-arenaev
 gsmarena.com##.toast-container
+gsmarena.com##div.align-center.justify-center.flex-column.d-flex:has(.ad-c-label)
 gsmarena.com##div[style="margin-left: -10px; margin-top: 30px; height: 145px;"]
 gsmarena.com##iframe[id^="dm-hm-ifrm-"]
 gsmarena.com#$#body > div[class]:has(> div:not([class], [id]) > object[data^="https://fdn.gsmarena.com/"] ~ a[href="#"]) { display: none !important; }
@@ -96787,10 +96789,15 @@ hnexpress.co.in##.wp-block-jetpack-slideshow
 hnn.us##.nav__socialz
 hnntube.com##.jumbotron
 hnonline.sk##+js(json-prune, ads.*)
+hnonline.sk##.container div[class]:has(> div.ad--align)
 hnonline.sk##.item__ad-center
 hnonline.sk##.piano-pushnotify--hnonline
+hnonline.sk##.piano_nl_denny_prehlad
 hnonline.sk##div[class^="position_break_"]
 hnonline.sk##div[class^="position_item_right_"]:has(> div.ad--align:only-child)
+hnonline.sk#$#.tp-backdrop { display: none !important; }
+hnonline.sk#$#.tp-modal { display: none !important; }
+hnonline.sk#$#body.tp-modal-open { overflow: auto !important; }
 hnonline.sk,brainee.hnonline.sk,dia.hnonline.sk,hn24.hnonline.sk,mediweb.hnonline.sk##html:remove-class(ads-cls-fix)
 hnonline.sk,info.cz,lupa.cz#$#abort-current-inline-script Math.random adb
 hnonline.sk,wiadomoscikosmetyczne.pl,halowies.pl,tygodnik-rolniczy.pl,tsum.ru##.item__share
@@ -151404,9 +151411,14 @@ peepvip.com##.agepl-banner
 peer.tv##.rain1-cp-container
 peers.tv###btn-share
 peers.tv###prompt-form-container-phone
+peers.tv###vid_vpaut_div
+peers.tv##.adv-wrap
+peers.tv##.apps-mobile
+peers.tv##.apps-smart
 peers.tv##.moanerwrap
 peers.tv##.pronoslide
 peers.tv##.social-net
+peers.tv##.wrp-rklm-mid
 peervideo.club#%#//scriptlet('set-local-storage-item', 'hide-airtime-blue-header', 'true')
 pegacifra.com.br##.banner-rodape-cifra
 pegast.ru##.pgs-top
