@@ -210,9 +210,9 @@ TESTING_URLS = [
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     # 1Hosts (Lite)
-    "https://badmojr.github.io/1Hosts/Lite/adblock.txt",
-    # The BOG AIO List
-    "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
+    "https://badmojr.github.io/1Hosts/Lite/adblock.txt"
+    # The BOG AIO List (404 error)
+    #"https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
 ]
 
 print()
