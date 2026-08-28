@@ -1,7 +1,7 @@
 # combined-adblock-lists
 
 A combined filter list of the very best cosmetic rules for use in Adblockers like
- **uBlock Origin** and **AdGuard**'s browser extension or app for Windows 11.
+ **uBlock Origin** and **AdGuard**'s browser extension or paid-app for Windows 11, MacOS, Android or iOS.
 
 _Major Version:_ 1.1
 
