@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.106
-! Last Modified: 2026.08.29.0701+1000 AEST
+! Version: 1.1.107
+! Last Modified: 2026.08.29.1440+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -22183,7 +22183,6 @@ abrakadabra.com,e-texim.cz,evaair.com,flender.com.cn,harmony.co.il,heuristic.pl,
 abrakadabra.com,etherealmechanics.info,evaair.com,flender.com.cn,heuristic.pl,laboratoria.net,luxprom.pl,play.tv,portal.by.aok.de,ppkbjelovar.com,premium-aerotec.com,surflightingdesign.com,testo.com,transletra.pl###colorbox
 abramsbooks.com###abr_cookie_modal
 abraxas.ch##.c-disclaimer--default
-abrikos.us#@#.single-ad
 abril.com.br##+js(aeld, copy)
 abril.com.br##.LGPD-notice
 abril.com.br##.f-social
@@ -26438,7 +26437,7 @@ allzero.jp#%#//scriptlet('set-local-storage-item', '/.__consent', 'emptyArr')
 almabetter.com#%#//scriptlet('set-session-storage-item', 'popup_viewed', 'true')
 almabooks.co.il###elementor-popup-modal-14617
 almacen-informatico.com###Informacion
-almaftuchin.com,indokontraktor.com##+js(rmnt, script, adblock)
+almaftuchin.com,indokontraktor.com,niadi.net##+js(rmnt, script, adblock)
 almaimotthona.hu##.aszfLayerContent
 almamarket.pl###claw
 almamarket.pl,kozy.pl###claw
@@ -27795,7 +27794,6 @@ analdin.com,reverbpress.com,ugames.tv,uinterview.com,upolitics.com,usports.org,u
 analdin.com,streamporn.pw##+js(abort-on-property-read, popunder)
 analdin.com,tubewolf.com##.banner-top
 analdin.xxx###lj-container
-analdin.xxx##.banner-top
 analdin.xxx##div[style="position: absolute; inset: 0px; overflow: hidden; background: transparent; display: block;"]
 analdin.xxx##div[style^="text-align:"][style*="width: 950px;"]
 analdin.xxx##div[style^="text-align:left;"][style*="width:300px;"]
@@ -117041,7 +117039,6 @@ leakslove.com##.header-ad-all
 leakslove.com##a[href="/live-sex-chat/"]
 leakslove.com##a[href^="https://candyai.gg/"]
 lealternative.net###my-disclaimer-banner
-leanforum.ru#@#.sponsor_block
 leapyear.io##.gdpr--modal
 learn-c.org,learn-cpp.org,learn-golang.org,learn-html.org,learn-js.org,learn-perl.org,learn-php.org,learncs.org,learnjavaonline.org,learnpython.org,learnrubyonline.org,learnscala.org,learnshell.org,learnsqlonline.org###google-ad-right > div[class]:not(:has(> div > a[href]))
 learn-c.org,learn-cpp.org,learn-golang.org,learn-html.org,learn-js.org,learn-perl.org,learn-php.org,learncs.org,learnjavaonline.org,learnpython.org,learnrubyonline.org,learnscala.org,learnshell.org,learnsqlonline.org###google-ad-right > h4:contains(Sponsors)
@@ -164804,9 +164801,6 @@ redketchup.io##+js(set-constant, googletag.cmd.push, noopFunc)
 redketchup.io##.potato_modal
 redketchup.io##.potato_sticky
 redketchup.io##.potato_viewer
-redkino-admin.ru#@#.vl-advertisment
-redkino-admin.ru#@#.vl-header-ads
-redkino-admin.ru#@#.widget_viral_advertisement
 redkiwiapp.com##article > .hidden:has(#copy-link-button)
 redlandsdailyfacts.com##.dfm-sidebar-top-flex-container
 redlion.net##+js(set, aoAdBlockDetected, false)
@@ -182717,6 +182711,7 @@ streamingsites.com,torrentsites.com##.block-vpn
 streamingworld.*##+js(acs, atob, decodeURIComponent)
 streamingworld.*##+js(aopr, AaDetector)
 streamingworld.*##+js(aopw, Fingerprint2)
+streamiz.lol,analdin.xxx##.banner-top
 streamlabs.com###ultra_banner
 streamlabs.com##.s-callout--cookies
 streamlabs.com,cnbeta.com.tw##.share-unit
@@ -212681,7 +212676,7 @@ www.google.ac,www.google.ad,www.google.ae,www.google.al,www.google.am,www.google
 www.google.com###center_col > #gevUs > #topstuff:has(> div[class] > div[class] > h2 + ol[style])
 www.google.com###cnt > div[class]:has(#atvcap [title="Miksi tämä mainos?"])
 www.google.com##+js(aeld, mouseover, b.src, elements, #search #rso div[data-rpos] > div[data-ved])
-www.google.com##+js(rpnt, script, this.gbar_=, `window.addEventListener("mousemove",(()=>{W_jd&&document.querySelectorAll("#search #rso div[data-rpos]").forEach((t=>{let e=t.querySelector('div[data-hveid] span[jsaction^="trigger."] > a[href^="/goto?url="]');if(!e)return;let r=t.querySelector('div[id^="atritem-"]')?.attributes?.jsdata?.value?.split?.(";_;")?.[1];r&&Object.getOwnPropertySymbols(W_jd[r]).map((t=>{let l=W_jd[r][t];if("object"!=typeof l)return;let s=Object.values(l)?.[0]?.[32];if(console.log(s),s?.[3]?.[0]?.startsWith?.("http"))e.setAttribute("href",s[3][0]);else if(null!==s?.[3]){let t=Object.values(s?.[3]);t?.[0]?.[0]?.startsWith?.("http")&&e.setAttribute("href",t[0][0])}else null===s?.[3]&&s[11]?.[7]?.startsWith?.("http")&&(console.log(s),e.setAttribute("href",s[11][7]))}))}))}));this.gbar_=`)
+www.google.com##+js(rpnt, script, this.gbar_=, `window.addEventListener("mousemove",(()=>{W_jd&&document.querySelectorAll("#search #rso div[data-rpos]").forEach((t=>{let e=t.querySelector('div[data-hveid] span[jsaction^="trigger."] > a[href^="/goto?url="]');if(!e)return;let r=t.querySelector('div[id^="atritem-"]')?.attributes?.jsdata?.value?.split?.(";_;")?.[1];r&&Object.getOwnPropertySymbols(W_jd[r]).map((t=>{let l=W_jd[r][t];if("object"!=typeof l||null===l)return;let s=Object.values(l)?.[0]?.[32];if(s?.[3]?.[0]?.startsWith?.("http"))e.setAttribute("href",s[3][0]);else if(null!==s?.[3]){let t=Object.values(s?.[3]);t?.[0]?.[0]?.startsWith?.("http")&&e.setAttribute("href",t[0][0])}else null===s?.[3]&&s[11]?.[7]?.startsWith?.("http")&&e.setAttribute("href",s[11][7])}))}))}));this.gbar_=`)
 www.google.com##.QWEVge
 www.google.com##.tCroyc
 www.google.com##[jscontroller][data-limp] > .zQSHZb.cH2VZe[style^="right:"] > .gLpFG
