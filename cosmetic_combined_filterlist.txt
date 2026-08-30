@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.113
-! Last Modified: 2026.08.31.0414+1000 AEST
+! Version: 1.1.114
+! Last Modified: 2026.08.31.0813+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -120094,6 +120094,8 @@ liveindianews18.in##div[id^="livei-"]
 liveinternet.ru###\:gl_Bar
 liveinternet.ru###liveinternet_600x250
 liveinternet.ru###liveinternet_billboard
+liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
+liveinternet.ru##.Inner > .BAR + br + br + .BAR
 liveinternet.ru##.allpageinner td[height="100"]
 liveinternet.ru##.gifts
 liveinternet.ru##.header > .headerlinks
@@ -120118,7 +120120,7 @@ liveinternet.ru#?#.clear ~ div[class]:has(> div.float100 > div[align="center"] >
 liveinternet.ru#?#.leftcolumn > div[class]:has(> form[action="https://www.technohelp.ru/"])
 liveinternet.ru#?#body > div[class]:has(> div.myblockbottom__close)
 liveinternet.ru#?#script:not([src]) + div[id]:has(> div[style*="width: 100%;"])
-liveinternet.ru,livejournal.com##[id*="_R-A-"]
+liveinternet.ru,livejournal.com##[id*="_R-A-"]:not(img)
 liveinternet.ru,sdamgia.ru##[data-container]
 liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
 livejapan.com##.--color-sociel
@@ -205681,6 +205683,7 @@ vk.com,vk.ru#?#._post_content:-abp-has([src*="mradx."])
 vk.com,vk.ru#?#.feed_row > [id^="post-"] > ._post_content:-abp-has(> :first-child:not(.PostHeader))
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [href*="utm_source=vk_ads"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel][href*="utm_campaign"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has([aria-label="Реклама от автора"])
 vk.com,vk.ru#?#div[class^="feed_row "] > div[id^="feed_repost-"]:-abp-has(.wall_marked_as_ads)
 vk.com,vk.ru#?#div[class^="feed_row "] > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
