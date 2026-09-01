@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.121
-! Last Modified: 2026.09.02.0402+1000 AEST
+! Version: 1.1.122
+! Last Modified: 2026.09.02.0810+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -13052,6 +13052,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /sphinx_*.gif|
 /splash-redirector$domain=tvmatchen.nu
 /splash.*?idzone=$popup
+/splash.php?*fastpic$document
 /splash/page_header/*
 /splunk-logging-v2.js
 /spmsg20180522.js
@@ -23786,6 +23787,7 @@ afasiaarchzine.com##body > .wrapper ~ div[id][style]:not([class]):empty
 afasiaarchzine.com##body > .wrapper ~ div[id][style]:not([class]):has(> div:not([class][id]) > div[style^="font-size:"])
 afd.de##.fblbLeft
 afd.de##.fblbRight
+afd.de##.post-content > div:has( div > .brlbs-cmpnt-container)
 afdah2.com##+js(aopr, mm)
 afdigitale.it##.herald-below-header:has(> a[target="_blank"])
 afdigitale.it##.herald-da > a[target="_blank"] > img
@@ -34316,6 +34318,8 @@ autonews.fr##.bloc-netitmail
 autonews.fr##.uptogo
 autonews.fr,lavie.fr##.bloc-partage
 autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
+autonews.ru,rbc.ru,rbcautonews.ru,rbclifemedia.ru,sportrbc.ru##a[href*="erid="][target="_blank"]
+autonews.ru,rbc.ru,rbcautonews.ru,rbclifemedia.ru,sportrbc.ru##div[class^="fox-"][class*="banner"]
 autonews.ru,rbc.ru,rbcautonews.ru,rbclifemedia.ru,sportrbc.ru##div[class^="fox-tail"]
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru##.topline__branding__wrapper
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru,sportrbc.ru##.article__header__share-block
@@ -34325,6 +34329,7 @@ autonews.ru,rbc.ru,rbcautonews.ru,sportrbc.ru##body div .banner__container
 autonews.ru,rbc.ru,sportrbc.ru##body div .banner__filmstrip
 autonews.ru,rbc.ru,sportrbc.ru,utro.ru##[id^="unit_"]
 autonews.ru,rbcautonews.ru##.article__header__channel
+autonews.ru,rbcautonews.ru##div.app-link
 autonocion.com###an-gfollow-wrap
 autonocion.com##.Mobile_Bottom
 autonocion.com##.Mobile_Top
@@ -36587,6 +36592,7 @@ banki.ru##div[class^="Flexbox"] > div[class^="Tooltip"]:has(div[data-test="toolt
 banki.ru##div[class^="SocialBlocksstyled__"]
 banki.ru##div[class^="appsWidgetstyled__StyledAppsWidget"]
 banki.ru##div[class^="layout-footer_AdsMobileApp"]
+banki.ru##div[class^="styled__CollectMailWrapper"]
 banki.ru##div[data-gtm-view*="_news_page"][data-gtm-view*="view_widget"]
 banki.ru##div[data-gtm-view*="view_subscribe_news_page"]
 banki.ru##div[data-name="custom:advertising.block"]
@@ -36614,6 +36620,7 @@ banki.ru#?#div[data-test="news-all-markdown"] > p:has(> span[style] > span:conta
 banki.ru#?#div[data-test="news-all-markdown"] > p:has(> span[style] > span:contains(/^Дебетовая карта/)) ~ p:has(> a[href^="https://www.banki.ru/products/debitcards/"])
 banki.ru#?#footer > div[class]:-abp-has([href="/privacy/"])
 banki.ru,apowersoft-tr.com##div[data-share]
+banki.ru,gs24.pl,infobae.com,hna.de,indiatoday.in,clubic.com,semana.com,xataka.com.br,glavred.net,metropoles.com,autoevolution.com##a[href^="https://profile.google.com/cp/"]
 banki.ru,neowin.net,unionesarda.it#@#.article-share
 banki.ua##.b-fb-overlay
 banki.ua##.b-fb-popup
@@ -61984,6 +61991,7 @@ deviantart.com##.mobile_adhesion
 deviantart.com##.mobile_instream_ad_resizable
 deviantart.com##body > aside:has(> h2 > div > button[aria-label="Close"])
 deviantart.com##body > div#block-notice
+deviantart.com##body > span > aside:has(> div > a[href="https://www.deviantart.com/users/login"])
 deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!important;)
 deviantart.com##div[data-hook] > div[class]:has(> div[id^="deviantartcom_desktop"])
 deviantart.com##div[role="complementary"] > div[class]:empty:not(:has(>*))
@@ -88545,6 +88553,7 @@ gizmodo.com.au,kotaku.com.au,lifehacker.com.au,pedestrian.tv##.wp-block-pedestri
 gizmodo.in##.adageunicorns
 gizmodo.in##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 gizmodo.jp##.pb_main
+gizmodo.jp##div[class^="googlePreferredSource"]
 gizmodo.jp#?#.p-slider1-cardItem > article > ul > li.p-slider1-cardAssistSponsored:upward(3)
 gizmodo.jp#?#.p-sliderSmall1-card1 > article > p > a[href^="https://s-adserver.cxad.cxense.com"]:upward(3)
 gizmodo.jp#?#.p-timeline-card1 > div > div > ul > li.p-timeline-card1AssistSponsored:upward(4)
@@ -89016,6 +89025,7 @@ globo.com##+js(aeld, copy)
 globo.com##.banner-bottom-fixed-cpnt
 globo.com##.mobiliarioFooter
 globo.com##.mobiliarioNaoBarreira
+globo.com##.newsletter-g1
 globo.com##.newsletterMCWrapper
 globo.com##.titulo-pirulito
 globo.com##div[id^="banner_home"]
@@ -91792,6 +91802,7 @@ gruenderszene.de###newsletter_box
 gruenderszene.de##.container > #rotation-box
 gruenderszene.de##.content-ad-article
 gruene-bundestag.de,mein-apothekenmanager.de###cn-wrapper
+gruene.de##.relative:has(> img + div #can-form-area-haltet-mich-auf-dem-laufenden-home-header)
 gruene.de##div[class^="styles-module--popupWrapper--"]
 grueneerde.com##div[cms="behaelter-newsletterregistrierung-footer-abstandseitlich"]
 grueneerde.com#$#.CookieWarningComponent { display: none!important; }
@@ -91864,7 +91875,6 @@ gs.statcounter.com#$##main-el { padding-bottom: 0 !important; }
 gs.statcounter.com,7labs.io###email-subscribe
 gs24.pl##.componentsPromotionsVideo
 gs24.pl##div[class*="adsSlotContainer"]
-gs24.pl,infobae.com,hna.de,indiatoday.in,clubic.com,semana.com,xataka.com.br,glavred.net,metropoles.com,autoevolution.com##a[href^="https://profile.google.com/cp/"]
 gsa.gov###gsaFeedback
 gsch.tfmwish.com##.rssti
 gscimbom.com###right-area > .follow-us
@@ -144920,7 +144930,7 @@ o2.pl##div[data-testid="homePageView"] > div[style="box-shadow: none;"]:has(> di
 o2.pl##div[data-testid^="ad-placeholder-"]
 o2.pl##div[id^="video-player-"] > div.floating
 o2.pl##section > h2:has-text(Oferty dla Ciebie:)
-o2.pl,horoskop.wp.pl,pysznosci.pl,www.wp.pl,genialne.pl,abczdrowie.pl,autocentrum.pl,jastrzabpost.pl##div[class]:has(> img[src] ~ div:empty):matches-css(z-index: 0):matches-css(position: relative)
+o2.pl,horoskop.wp.pl,pysznosci.pl,www.wp.pl,genialne.pl,abczdrowie.pl,autocentrum.pl,jastrzabpost.pl,benchmark.pl##div[class]:has(> img[src] ~ div:empty):matches-css(z-index: 0):matches-css(position: relative)
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(=== 'function'))
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(adsFirstRegisterSlot))
 o2.pl,www.wp.pl##div:is([style="width:100%"], [style="width:100%;height:100%"]):has(> div[class] > img[src^="https://v.wpimg.pl/"][role="presentation"])
@@ -157411,6 +157421,8 @@ pornult.com##+js(aopr, exoJsPop101)
 pornult.com##+js(nostif, offsetWidth)
 pornult.com##+js(nowoif)
 pornult.com##.sexshp
+pornuse.com##.video__info > section:has(> div > div.direct-abnner)
+pornuse.com##div.video-underplayer__button:has(> span:contains(Share))
 pornuse.com##span[class]:has(> div.ip)
 pornv.xxx##.special-images
 pornv.xxx##.v__s
@@ -165583,9 +165595,6 @@ rep.ru##.b-main__split.hidden-print
 rep.ru,search.tut.by##.b-widget
 repack-games.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 repack-games.com##+js(acs, jQuery, contextmenu)
-repack-games.com##+js(aeld, click, window.open)
-repack-games.com##+js(rmnt, script, ai_adb)
-repack-games.com##div.game-cta-section
 repack-games.com#%#//scriptlet("prevent-addEventListener", "contextmenu", "undefined")
 repack-games.com,maclife.vn###single-share
 repack-xatab.ru##.shinered
@@ -180281,7 +180290,6 @@ sportrbc.ru##.js-header-slider-container
 sportrbc.ru##.news-bar
 sportrbc.ru##.social-widgets
 sportrbc.ru##.statistics__footer
-sportrbc.ru##a[href*="erid="][target="_blank"]
 sportrecs.com###embed .MuiButton-containedPrimary
 sportrecs.com###player .MuiButton-containedPrimary
 sportrecs.com##.MuiContainer-disableGutters
@@ -212189,7 +212197,7 @@ wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblo
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl#@#[class^="advertisement"]
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl,forum.kardiolo.pl##body > div[class]:has(> div:first-child:empty + div:last-child > svg[width="95"][height="95"]:only-child > path)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,gadzetomania.pl,polygamia.pl,dobreprogramy.pl,autokult.pl,fotoblogia.pl,komorkomania.pl,abczdrowie.pl,pysznosci.pl,money.pl,genialne.pl,deliciousmagazine.pl,jastrzabpost.pl,vibez.pl,kafeteria.pl##div[class]:has(> img[src] + div > style:has-text(flex: 0 0 100%))
-wp.pl,o2.pl##.wp-comments-adv-wrapper:not(:has(> .wp-comments-moth-teaser-container)):has(> .wp-comments-adv[data-testid^="ad-slot-"])
+wp.pl,o2.pl,benchmark.pl,autokult.pl##.wp-comments-adv-wrapper:not(:has(> .wp-comments-moth-teaser-container)):has(> .wp-comments-adv[data-testid^="ad-slot-"])
 wp.pl,pudelek.pl,benchmark.pl##div[class]:has(> div:first-child > a[class]:only-child > img[src^="https://v.wpimg.pl/"]:only-child):has(> div:first-child + div:last-child:empty)
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[class] > div:not([class], [id]):only-child:has(> div[class]:only-child > div[class]:first-child > a > img[src^="https://v.wpimg.pl/"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[style="position: relative; top: 0px;"]:has(> a[target="_blank"])
@@ -215061,10 +215069,12 @@ ya.ru##div[class*="search"][class*="__wrapper"] + div[class*="-"]:has(> div > di
 ya.ru##div[class^="body_"][class$="_feed_yes"]
 ya.ru##div[class^="search"][class$="_doodle"]
 ya.ru##div[class^="search"][class$="doodle"]
+ya.ru##html[class*="sekdllliom_top"] aside + div
+ya.ru##html[class*="sekdllliom_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
 ya.ru##main > div > div[data-hydration-id]
 ya.ru##main[class="body__wrapper"] form ~ div[style^="--height-ratio:"]
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="sektllliom-items-count:"]
+ya.ru##section[style*="sekdllliom-items-count:"]
 ya.ru##services-feed div.banner
 ya.ru##ul[class*="-section__list"]
 ya.ru#%#//scriptlet('trusted-set-local-storage-item', 'gaCounterShowTime', '$now$')
