@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.131
-! Last Modified: 2026.09.04.0412+1000 AEST
+! Version: 1.1.132
+! Last Modified: 2026.09.04.0758+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -34070,6 +34070,7 @@ autokult.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,medycyna2
 autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.footer-back-link
 autokult.pl,komorkomania.pl,fotoblogia.pl,kafeteria.pl,smaczneblogi.pl##div[class]:has(> div[class]:empty + img[src^="https://i.wpimg.pl/"])
 autolada.ru##div[id^="adv-block"]
+autoland.de#%#//scriptlet('trusted-click-element', 'div.cookiePermissions .cookie-permission--accept-button', '', '1000')
 autoleeb.at###lmt_cookie_banner
 autoliitto.fi##+js(trusted-set-cookie, cookiehub, eyJhbnN3ZXJlZCI6dHJ1ZSwicmV2aXNpb24iOjEsImRudCI6ZmFsc2UsImFsbG93U2FsZSI6ZmFsc2UsImltcGxpY3QiOmZhbHNlLCJyZWdpb24iOiIiLCJ0b2tlbiI6IlI1T3BFRU1NQTFmWGJQcHZVZ2Rnbm5PNGROMjJMejBQUzN2ajA0T0dHZFpTckd2RW9GVlpRVkpUSklUNElRbVYiLCJ0aW1lc3RhbXAiOiIyMDI1LTA3LTA5VDExOjMzOjEyLjAwNVoiLCJhbGxBbGxvd2VkIjpmYWxzZSwiY2F0ZWdvcmllcyI6W10sInZlbmRvcnMiOltdLCJzZXJ2aWNlcyI6W10sImltcGxpY2l0IjpmYWxzZX0=, 1year)
 autolikes.ru,topwar.ru##.sticky
@@ -34084,7 +34085,6 @@ automap.it#@#.ads2
 automarket.ro###box_alert_container *
 automatentest.de##.sideinfo
 automation.se,verkstadstidningen.se,transportnytt.se,datormagazin.se,cykelmagasinet.se##.a-wrap
-automation.siemens.com###cm-banner
 automaton-media.com###main ~ div[data-block] .gspb_button_wrapper > a[href="#popup"]
 automaton-media.com##.cd-bk
 automaton-media.com##.code-block.ai-viewport-3
@@ -58510,10 +58510,6 @@ dailycamera.com##+js(nostif, n.trigger, 1)
 dailycamera.com##+js(set, CnnXt.Event.fire, noopFunc)
 dailycamera.com##.info-box-body
 dailycamera.com,bocopreps.com,buffzone.com,bocopreps.com,greeleytribune.com,broomfieldenterprise.com,coloradohometownweekly.com##.dfm-sidebar-top-flex-container > a[target="_blank"]
-dailycaptchawork.com,famasocial.site,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##+js(abort-on-property-write, checkAdsStatus)
-dailycaptchawork.com,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.overlay
-dailycaptchawork.com,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.popSc
-dailycaptchawork.com,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.popup
 dailycar.co.kr##.adR
 dailycoffeenews.com##.banner-box
 dailycoffeenews.com##.sidebar-box
@@ -61910,7 +61906,6 @@ deview.co.jp##.news-swad
 deview.co.jp##.overlay_container
 deview.co.jp##.sp-break-ad-text
 deview.co.jp##.to-lineguide-link
-deview.co.jp,tokyo-np.co.jp,phileweb.com,antalyahurses.com,gazetevatan.com,hakimiyet.com,statusgator.com,dir.bg,leparisien.fr,macg.co,bikeperfect.com,fourfourtwo.com,maltatoday.com.mt,bartamanpatrika.com,sportiva.shueisha.co.jp,breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 deview.co.jp,twiflix.jp,hozonv.com,jp.yna.co.kr,jvcmusic.co.jp,promax.co.jp##.sns-link
 devilpage.pl###menu_reklama
 devilpage.pl##.banner2
@@ -66202,6 +66197,7 @@ dsocker1234.blogspot.com##+js(acs, String.prototype.charCodeAt, 'replace')
 dsocker1234.blogspot.com##+js(set, new_config.timedown, 0)
 dsocker1234.blogspot.com##.mb-3.order-last.col-md-3.col-12
 dspodcast.pl##.gogreen
+dsr24.de,automation.siemens.com###cm-banner
 dsrtashburton.org.uk##.hide-cookie-icon
 dsv.com##.banner-notification
 dsv.de###c3296
@@ -75678,6 +75674,9 @@ fastbikesmag.com#%#//scriptlet('remove-class', 'hustle-no-scroll', 'html')
 fastbikesmag.com,theintrepidguide.com###custom_html-21
 fastbox.su###jsUsePersonalDataBlock
 fastbox.su##.usePersonalData
+fastcars1.com###adblock-modal
+fastcars1.com###lm-slideup
+fastcars1.com###popup
 fastcoin.ga##.justify-content-center.col-sm-12.row > .overflow > center > .slide.carousel
 fastcoin.ga##center > .justify-content-center.row
 fastcoin.ga##div[style="height: 90px;"]
@@ -120000,6 +119999,10 @@ liveball.sx,liveball.*##div[class^="catfish_"]
 livebasah.eu.org##+js(remove-class, xepo_ads, body)
 livebharatnews.in,realitynews.in##div[class*="ads-height-"]
 livebihar24news.com###AD_FLOAT
+livebiz.in,tvserialnews.in,gadii.in,dailycaptchawork.com,famasocial.site,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##+js(abort-on-property-write, checkAdsStatus)
+livebiz.in,tvserialnews.in,gadii.in,dailycaptchawork.com,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.overlay
+livebiz.in,tvserialnews.in,gadii.in,dailycaptchawork.com,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.popSc
+livebiz.in,tvserialnews.in,gadii.in,dailycaptchawork.com,rlx32.com,primepropertynow.com,kdvqi.xyz,ehinditimes.com,rlx7.com,almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,mobiranking.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.popup
 liveblocks.io##.shadow-marketing-elevation-popover
 liveblog.pro##.lb-post-share
 livecamcroatia.com##section[class^="newsletter_wrap"]
@@ -139155,8 +139158,8 @@ net2ftp.com#%#//scriptlet('set-cookie', 'net2ftpcookie_consent_preferences', '0'
 net2ftp.com#%#//scriptlet('set-cookie', 'net2ftpcookie_consent_statistics', '0')
 net2ftp.com#%#//scriptlet('trusted-set-cookie-reload', 'CONSENT', 'YES+')
 net4energy.com,gurmeajanda.com##.leadinModal
-net77.cc##+js(addEventListener-defuser, load, showAdblockMessage)
 net77.cc##+js(no-setTimeout-if, /\.removeClass/, 5000)
+net77.cc#@#.ad-unit:not(.textads)
 netaffiliation.com##+js(acs, $, hide)
 netall.ru###r_detail_bottom
 netatopi.jp###ipc_cookie_confirmation
@@ -144052,6 +144055,7 @@ ntv.co.jp##.ntv-pageTop
 ntv.co.jp##.ntv-share
 ntv.co.jp##.ntv_setShare
 ntv.co.jp##.share-recipe-area
+ntv.co.jp,deview.co.jp,tokyo-np.co.jp,phileweb.com,antalyahurses.com,gazetevatan.com,hakimiyet.com,statusgator.com,dir.bg,leparisien.fr,macg.co,bikeperfect.com,fourfourtwo.com,maltatoday.com.mt,bartamanpatrika.com,sportiva.shueisha.co.jp,breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 ntv.com.tr##.article-app-widget
 ntv.com.tr##.article-socialFrame-widget
 ntv.com.tr##.bar--cookie-bar
@@ -150447,7 +150451,7 @@ paratic.com##.yaziMobileShareButtonsWrapper
 paratic.com,pulzo.com##.btn-google-news
 paratic.com,xhamster.com##.bottom_message
 paratiritis-news.gr##.page-footer > div[class]:has(> .container > .row > div[class] > form[data-name="Newsletter Form"])
-paravi.jp,news.ntv.co.jp##.share-contents
+paravi.jp##.share-contents
 parcan.es###cookie-consent-panel
 parcello.org###parcello-mo
 parcello.org##.horizontal-ad-space
@@ -157797,6 +157801,7 @@ positivr.fr##.positivr-sharers
 positivr.fr##.viously-sticked-top-right
 positivr.fr##.vsly-player, .positivr-positivrtv-cta
 positivr.fr#?#article:has(.sponsored-notice)
+positronica.ru##.swal2-container_cookie
 positv.fi##.ptads-article
 positv.fi##[class|="ads-section"]
 poskota.co.id###ads__bottom
@@ -172781,6 +172786,7 @@ settesere.it##.slick-track
 settrade.com###pdpa-policy
 settrade.com##.chatbot-icon
 settrade.com,set.or.th##.cookies-pdpa
+seturl.in###blocker-overlay
 setusoku.com###snsbox03
 setvnews24.com##.leadnews .widget_area
 seudinheiro.com###banner-fixed-mobile
@@ -204782,7 +204788,6 @@ vidzy.org,olamovies.*,lectortaurus.com,wmovies.org,9anime-hub.com,stmup.*,s1p1cd
 vie-publique.fr###orejime
 viedtelevizija.lv#%#//scriptlet('trusted-click-element', 'div[class^="cookies-permission__buttons"] > button:first-child')
 viefaucet.com##+js(nostif, /adbl/i)
-viefaucet.com##.ads > *:style(transform: rotateX(90deg) !important; height: 1px !important;)
 viefaucet.com##.ads:style(position: absolute; opacity: 0; pointer-events: none;)
 viefaucet.com##.offerwall-widget
 viefaucet.com#@#.ad-description
@@ -213816,6 +213821,7 @@ xda-developers.com##div[id^="edit"][class="postbit-wrapper "] > div[style="margi
 xda-developers.com#@#.ad-zone-container
 xda-developers.com,howtogeek.com,makeuseof.com##.quick-action-sidebar
 xda-developers.com,thegamer.com##.article-add-google
+xdabo.com##+js(no-window-open-if)
 xdaforums.com###xdaforums_leaderboard_atf
 xdaforums.com###xdaforums_leaderboard_btf
 xdaforums.com###xdaforums_right_1
