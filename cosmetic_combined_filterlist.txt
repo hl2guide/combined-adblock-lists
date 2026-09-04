@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.136
-! Last Modified: 2026.09.05.0353+1000 AEST
+! Version: 1.1.137
+! Last Modified: 2026.09.05.0755+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -7965,7 +7965,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /fancybox$script,domain=borsvarlden.com
 /fapp1.williamoneilindia.com/*$image
 /fartscroll.js
-/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin; img-src *.fastpic.org fastpic.org static.fastpic.ru
+/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
 /favicon.ico$image,3p,redirect=32x32.png,domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com,important
 /favicon.ico$third-party,image,xmlhttprequest,redirect=1x1-transparent.gif,domain=thehouseofportable.com
 /favicon.ico|$image,3p,domain=rufiiguta.com
@@ -34452,6 +34452,7 @@ autoua.net##a[href="https://insurance.autoua.net/ru/osago/"]
 autouncle.de###left-banner-container
 autouncle.de###right-banner-container
 autouncle.de##.autouncle-smart-banner
+autouncle.de##div[role="status"]:has(> a[href^="https://google.com/preferences/source?q="])
 autouncle.de##div[style="text-align: center; min-height: 180px;"]
 autouncle.dk##body > div[style^="text-align: center;"]
 autouncle.it###cookie-background-overlay
@@ -75817,26 +75818,22 @@ fastpeoplesearch.com##div[style]:has(> div[class^="ad-widget-"])
 fastpic.org###bleft
 fastpic.org###bright
 fastpic.org###mainContainer > .d-lg-block
-fastpic.org###picContainer .btn-outline-secondary {background-color:#2b6cb0;color:#fff;}
-fastpic.org###picContainer .btn-primary
-fastpic.org###picContainer > [style="position: relative;"] {background-image:none;}
-fastpic.org###picContainer a[href*="/fullview/"] > img:not([src])
 fastpic.org###x9f8e2b
 fastpic.org##+js(trusted-set-cookie, k3a9q, $now$%7C1)
 fastpic.org##.bg-light.rounded
 fastpic.org##.col-auto > .justify-content-center
-fastpic.org##.image-wrapper ~ div ~ div:not(.show-code-content)
 fastpic.org##.nav-link[href="/donate"]
 fastpic.org##.navbar > div:not([class])
 fastpic.org##.overlay-banner-container
-fastpic.org##.show-code-button
-fastpic.org##.show-code-content {display:block;}
 fastpic.org##.sticky-top
 fastpic.org##[id*="footer"] a[href*="twitter.com"]
 fastpic.org##a[href="https://static.fastpic.ru/FastPicUploader.apk"]
 fastpic.org##body > div[id][aria-hidden]
 fastpic.org##body[class] > div[id]:not([class]):not([style])
+fastpic.org##style:first-child + b:empty:last-child
 fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, inlineScript)
+fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] > img[src*="/preview/"] {margin-bottom:-38px;display:block;}
+fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] {display:inline-block;overflow:hidden;}
 fastpic.org,~new.fastpic.org##body > [style*="fixed"]
 fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; abort-on-property-read Event.prototype.preventDefault; abort-on-property-read HTMLDivElement.prototype.getBoundingClientRect
 fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
@@ -204028,6 +204025,8 @@ vezess.hu##.m-fbPopup
 vezet.ru###banner_cookies_group
 veziaici.net##+js(abort-on-property-read, LieDetector)
 vf.is##.m-auto.ad
+vfa.de#%#//scriptlet('trusted-click-element', 'button.cm-btn-decline', 'containsText:Nur essenzielle')
+vfa.de#%#//scriptlet('trusted-click-element', 'div.klaro button.c-button--secondary', '', '1000')
 vfg.se#@##sb_instagram
 vfl-gummersbach.de###sponsor-footer
 vfl-wolfsburg.de##.partners-footer
