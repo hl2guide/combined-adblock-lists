@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.135
-! Last Modified: 2026.09.04.2351+1000 AEST
+! Version: 1.1.136
+! Last Modified: 2026.09.05.0353+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -38,6 +38,7 @@ $frame,csp=sandbox allow-downloads allow-forms allow-modals allow-same-origin al
 $frame,csp=sandbox allow-downloads allow-forms allow-modals allow-same-origin allow-scripts,to=~buymeacoffee.com|~cbox.ws|~chatango.com|~cloudflare.com|~d21.team|~dailymotion.com|~discord.com|~disqus.com|~dood.*|~edgecastcdn.net|~facebook.com|~filemoon.*|~frembed.*|~google.*|~hcaptcha.com|~kamehaus.net|~ko-fi.com|~mixdrop.*|~moviesapi.*|~nontongo.win|~ok.ru|~primewire.*|~recaptcha.net|~sport-tv-guide.live|~strcdn.org|~streamingnow.*|~twitter.com|~vidbinge.*|~vidfast.*|~vidlink.*|~vidmoly.*|~vidsrc.nl|~vixcloud.co|~youtu.be|~youtube.com|~youtube-nocookie.com,from=1jour1film.*|456movie.com|animefever.cc|animeunity.to|anitaku.bz|antennasports.ru|bingemaster.netlify.app|bluphim.*|broflix.cc|cinemadeck.com|dailypudding.com|detodopeliculas.nu|euro2024direct.ru|flickystream.com|freek.to|freeshot.live|hydrahd.cc|javx.*|kaas.ro|kickassanime.*|kipflix.vercel.app|kissanime.*|moflix-stream.day|movie3k.net|netplayz.ru|novafork.com|osteusfilmestuga.online|phimmoifhd.com|popcornmovies.to|primeflix-web.vercel.app|putlockers.*|roselife.site|roshy.tv|seriescultes.store|smashystream.com|soccerinhd.com|uira.live|watchf1full.com|xsportbox.com
 $image,3p,denyallow=cdn77.org|fpbns.net|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,from=pussyspace.com|pussyspace.net
 $image,3p,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
+$image,3p,denyallow=googleapis.com,domain=vipbox1.org
 $image,script,stylesheet,subdocument,3p,xhr,domain=animepahe.com,badfilter
 $image,third-party,domain=258zw.com
 $image,third-party,domain=filescdn.com|filescdn.net|gsurl.in|lepetitlecteur.fr|ouo.io|ouo.press|protect-mylinks.com|send.cm
@@ -8085,7 +8086,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /fl.js$domain=oralhoes.com|sexytrunk.com|xxxbanjo.com|beeg.com|croea.com|imagetwist.com|kporno.com|picshick.com|picturelol.com|porntube.com|24video.in|peretrah.com|imgtaxi.com|chaostube.net|imgadult.com|imgdrive.net
 /flash_adver_
 /flashad.asp$subdocument
-/flashad.js$script
 /flex-mag/js/dfp.js
 /flipptag.js
 /floa.js$domain=ah-me.com|beeg.com|croea.com|imagetwist.com|kporno.com|picshick.com|picturelol.com|porntube.com
@@ -41648,6 +41648,7 @@ blog.feedspot.com##.mkt-container
 blog.finxter.com##.tve-leads-ribbon
 blog.finxter.com#$#.tve-leads-screen-filler { display: none !important; }
 blog.finxter.com#$#html { overflow: auto !important; }
+blog.floorp.app,fodors.com,aporntv.com,cargurus.com,hotdeals.com,ashemaletv.com,ipaomtk.com,faceitstats.com,ichgcp.net,cinestaan.com,operanews.com,tasteofhome.com,readersdigest.ca,gramfile.com,outlookindia.com,cnbctv18.com,internationalnewsandviews.com,additudemag.com,motoroctane.com,serverhunter.com,rogerebert.com,blavity.com,nuvid.*,soft112.com,perfectgirls.net,indaily.com.au,8tracks.com,digiday-com.cdn.ampproject.org,mathopenref.com##.advertisement
 blog.geizhals.at,unity.com,acmemarkets.com,amtrak.com,beko.com,bepanthen.com.au,berocca.com.au,booking.com,carrefour.fr,centrum.sk,claratyne.com.au,credit-suisse.com,ceskatelevize.cz,deporvillage.*,de.vanguard,dhl.de,digikey.*,drafthouse.com,dunelm.com,eurosport.fr,fello.se,fielmann.*,flashscore.fr,flightradar24.com,fnac.es,foodandwine.com,fourseasons.com,khanacademy.org,konami.com,jll.*,jobs.redbull.com,hellenicbank.com,intersport.*,gemini.pl,groceries.asda.com,lamborghini.com,menshealth.com,n26.com,nintendo.com,nokia.com,oneweb.net,omnipod.com,oralb.*,panasonic.com,parkside-diy.com,pluto.tv,popularmechanics.com,polskieradio.pl,pringles.com,questdiagnostics.com,radissonhotels.com,ricardo.ch,rockstargames.com,rte.ie,samsonite.*,spiele.heise.de,spirit.com,stenaline.co.uk,swisscom.ch,swisspass.ch,technologyfromsage.com,telenet.be,ticketmaster.*,tntsports.co.uk,theepochtimes.com,toujeo.com,uber-platz.de,vinted.com,wallapop.com,wickes.co.uk,workingtitlefilms.com,vattenfall.de,winparts.fr,yoigo.com,zoominfo.com##+js(trusted-click-element, button[id="onetrust-reject-all-handler"], , 1500)
 blog.germanos.gr###block-newsletterblock
 blog.getadmiral.com##.listingInner-sideBar-section
@@ -43929,14 +43930,20 @@ boyfriend.tv,boyfriendtv.com##a[href*="&creativeId="]
 boyfriend.tv,boyfriendtv.com##li[class="media-item no-popup"]
 boyfriend.tv,boyfriendtv.com,camwhores.*,txxx.com##.fh-line
 boyfriend.tv,boyfriendtv.com,hentaigasm.com,masahub.net,missav.ai,missav.ws,missav123.com,missav888.com,phun.org,porn-w.org##a[href*="//bit.ly/"]
+boyfriendtv.com###b-page-frame > * {pointer-events:auto;}
+boyfriendtv.com###b-page-frame {padding-top:0;}
+boyfriendtv.com###b-page-frame {pointer-events:none;}
 boyfriendtv.com##+js(abort-on-property-read, backgroundBlack)
 boyfriendtv.com##+js(addEventListener-defuser, click, interstitial)
 boyfriendtv.com##+js(aeld, click, interstitial)
 boyfriendtv.com##+js(aopr, popunder)
 boyfriendtv.com##+js(aopw, backgroundBanner)
 boyfriendtv.com##.ads-block-rightside
+boyfriendtv.com##.info-block-wrapper
 boyfriendtv.com##.js-toggle-content-wrapper a[href^="https://boyfriend.show/"][rel="sponsored"]:upward(.js-toggle-content-wrapper)
+boyfriendtv.com##.side-content-block
 boyfriendtv.com##.x-news-line
+boyfriendtv.com##body {cursor:default;}
 boyfriendtv.com##li[class]:has(a[href^="https://boyfriend.show/"][rel="sponsored"])
 boyfriendtv.com#%#//scriptlet('prevent-addEventListener', 'click', 'interstitial')
 boyfriendtv.com,historydaily.org##.adwrapper
@@ -47504,7 +47511,7 @@ capitalnepal.com,mahilaswasthya.com,setokhari.com##.insert-ad
 capitalnews.com.br##.idx1-tpl816-p1-box-banner
 capitalnews.com.br##.idx2-tpl816-p1-box-banner
 capitalnews.com.br##.tpl570-banner
-capitalnews.com.br##.tplbanner
+capitalnews.com.br,folhadoestado.com.br##.tplbanner
 capitaloneshopping.com##.extension-modal
 capitaloneshopping.com##.sp-cookie-consent-slide-up-el
 capitalsexy.com.br##.pub-final-completo
@@ -75391,6 +75398,9 @@ faphouse.com#$##modal-root { display: none !important; }
 faphouse.com#$#body { overflow: auto !important; }
 faphouse.com,faphouse.tv,faphouse1.com,faphouse2.com,fhaccess.com,fhcontent.com###cookie-wall-short
 faphouse.com,xhamsterpremium.com##.cookie-policy-agree
+faphouse4k.com##.fh-join-banner
+faphouse4k.com##.tour__join-section
+faphouse4k.com##div[data-main-page-join-source="banner"]
 fapl.ru##a[href^="/redirect/"][target="_blank"] > img[alt][title]
 fapl.ru##iframe[src*="/upload/fapl_"]
 fapmeifyoucan.net##+js(set-cookie, fameifyoucandisclamer, 1)
@@ -75828,6 +75838,7 @@ fastpic.org##body > div[id][aria-hidden]
 fastpic.org##body[class] > div[id]:not([class]):not([style])
 fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, inlineScript)
 fastpic.org,~new.fastpic.org##body > [style*="fixed"]
+fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; abort-on-property-read Event.prototype.preventDefault; abort-on-property-read HTMLDivElement.prototype.getBoundingClientRect
 fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
 fastpokemap.se##.slicknav_menu
 fastream.to##+js(abort-on-property-read, LieDetector)
@@ -79675,7 +79686,6 @@ fodors.com##.video-inline
 fodors.com#$##fdr-newsletter-popup { display: none !important; }
 fodors.com#$##newsletter-popup-modal-overlay { display: none !important; }
 fodors.com#$#body { overflow: auto !important; }
-fodors.com,aporntv.com,cargurus.com,hotdeals.com,ashemaletv.com,ipaomtk.com,faceitstats.com,ichgcp.net,cinestaan.com,operanews.com,tasteofhome.com,readersdigest.ca,gramfile.com,outlookindia.com,cnbctv18.com,internationalnewsandviews.com,additudemag.com,motoroctane.com,serverhunter.com,rogerebert.com,blavity.com,nuvid.*,soft112.com,perfectgirls.net,indaily.com.au,8tracks.com,digiday-com.cdn.ampproject.org,mathopenref.com##.advertisement
 fodors.com,thehulltruth.com##div[class^="ad-placeholder"]
 foerch.de,ozdilekteyim.com##.anonymous-consent-banner
 foerde.news###popup-container
@@ -79729,6 +79739,8 @@ folhadelondrina.com.br##.ultimos-posts-container
 folhadelondrina.com.br##.widget-ofertas
 folhademaputo.co.mz##.bg-pattern-hatch
 folhadoslagos.com##.shareAreas > .share:not(.comment)
+folhamax.com###HEADER2_PREMIUMADS
+folhamax.com###banner-full-materia-01
 folhaonline.es##.fl-col-has-cols > div[class="fl-col-content fl-node-content"] > div.fl-col-group-align-center.fl-col-group-custom-width
 folhape.com.br##.bannerTopo
 folhape.com.br##.midias
@@ -89746,7 +89758,9 @@ golflink.com,yourdictionary.com##.ui-advertisement
 golflivet.se##a[href*="/annonssamarbete/"], .deals_block_wrapper, .ai-close-fit
 golfmagazin.de,jaegermagazin.de,st-georg.de,tennismagazin.de##.ad_list
 golfmagic.com,kbb.com,thisismoney.co.uk##.sticky-container
+golfmonthly.com##div[data-bordeaux-hook-loaded]
 golfmonthly.com##iframe[src^="data:text/html;base64,"][style*="z-index:2147483647"] {remove:true;}
+golfmonthly.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 golfmonthly.com#$#abort-on-property-write window.alert
 golfmonthly.com#$#abort-on-property-write window.confirm
 golfmonthly.com#$#override-property-read window.navigator.connection.rtt 1001
@@ -90045,6 +90059,8 @@ goodstream.one##+js(set, adbon, 0)
 goodtape.io##+js(trusted-set-local-storage-item, cookieConsent, '{"consentedAt":"$currentISODate$"}')
 goodtherapy.org###gdprWarning
 goodthingsguy.com##.ss-pu-container
+goodto.com,homesandgardens.com##div[data-bordeaux-hook-loaded]
+goodto.com,homesandgardens.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 goodtoknow.co.uk##+js(abort-current-script, IPCCoreQueue, bidWon)
 goodtoknow.co.uk##.adContainerTop
 goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
@@ -93067,6 +93083,7 @@ hakaimagazine.com##.newssignup
 hakaimagazine.com##.post-story-social-sharing
 hakaimagazine.com##.shareicons
 hakanbaysal.com#@#div[id^="crt-"][style]
+hakimiyet.com##.col-span-1 > div.grid:has(> div.flex > a[title="X Sayfası"])
 hakimiyet.com##div[class^="px-"] > div.flex:has(> div.flex > a[href^="https://news.google.com/publications/"])
 hakimiyet.com,elazigonline.com,sha.com.tr##.items-center > span[class="hidden lg:block"]:contains(/^PAYLAŞ$/)
 hakkarihabertv.com##.news_detail + script + div[style^="padding: 15px; background: #f9f9f9;"]
@@ -106929,7 +106946,6 @@ jaldhakanews.com###HTML101
 jaldhakanews.com###HTML123
 jaldimoney.com##.widget_custom_html:not(#custom_html-9)
 jaljalaonline.com,malayalamtodayonline.com###boxes
-jalopnik.com##.add-on-google-widget
 jalopnik.com,kotaku.com,qz.com##.js_qz_newsletter_signup_placeholder
 jalorenews.com###bellow-header-widget
 jam-news.net###donationPopup
@@ -124924,6 +124940,8 @@ maisons-phenix.com#@#.cc_container
 maisonsdumonde.com##[data-el="product-card-grid"] article:has([data-el="product-card__sponsored"])
 maisonstandards.com##.overlay_full_screen
 maisonstandards.com##.popin_consent
+maisquefato.com.br##div[class$="-box-banner"]
+maisquefato.com.br##div[class*="-bl-banner"]
 maisregiao.com.br##.fb-page
 maisregiao.com.br##.item-ads
 maisregiao.com.br##.itens-ads
@@ -130238,6 +130256,7 @@ midhudsonnews.com##.midhu-target
 midianews.com.br###ban_header
 midianews.com.br###lgpdbanner
 midianews.com.br##.banner_relogio
+midianews.com.br##.close-megabanner-header
 midianews.com.br##div[style="height: 280px;"]
 midiario.com,prensa.com##.height-bantop-fijo
 midifan.com##.mid-aaa
@@ -135210,8 +135229,12 @@ multipolster.de#%#//scriptlet('set-cookie', 'mnd-cookie-accepted-wwwmultipolster
 multirbl.valli.org###lo-ads
 multirenowacja.pl###skNewsletterPopupFooter
 multishare.cz##.left-layout-buttons
+multishows.top###adBlockModal
 multishows.top###adBlockModal:style(display: none !important;)
+multishows.top###ms-homepage-root
 multishows.top##+js(addEventListener-defuser, load, runLiveDetection)
+multishows.top##+js(rmnt, script, /adbl/i, stay, 1)
+multishows.top##+js(set-local-storage-item, ad_free_expiry, 9999999999999)
 multishows.top##body:style(overflow: auto !important;)
 multishows.top#%#//scriptlet('trusted-set-local-storage-item', 'ad_free_expiry', '9999999999999')
 multishows.top,movish.to,movies4us.co,popcornmovies.*##div[x-show="!cookiePolicy"]
@@ -147959,7 +147982,7 @@ openallurls.com##.articles-col > form ~ br
 openallurls.com##.nav-content-wrap > .row > .col-sm-6:has(> div[style^="width:"][style*="min-height:"] > .adsbygoogle)
 openalternative.co##+js(json-prune, props.ads.*)
 openalternative.co##.duration-100.rounded-lg:has(a[href="/advertise"])
-openalternative.co##.relative.rounded-lg:has(a[href="/advertise"])
+openalternative.co##.relative.rounded-lg:has(a[href^="/advertise"])
 openalternative.co##a.ease-out[href^="https://trycomp.ai?"]
 openalternative.co##body > div.min-h-dvh > div.relative:has(> a[href^="https://trycomp.ai"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
@@ -151286,9 +151309,11 @@ pcgamer.com##aside[data-component-name="Recirculation:ArticleRiver"]
 pcgamer.com##div.placeholder[data-slot-name]
 pcgamer.com##div[class^="slot-"][style*="background-color: rgb(237, 237, 237);"]
 pcgamer.com##div[class^="van_vid_carousel"]
+pcgamer.com##div[data-bordeaux-hook-loaded]
 pcgamer.com##div[style="position: fixed; bottom: 0px; left: 0px; width: 100%; min-height: 90px; background-color: rgba(245, 245, 245, 0.8); z-index: 9995;"]
 pcgamer.com##section[class="box newsletter-signup"]
 pcgamer.com#$#abort-current-inline-script eval /x50p3331wdfu/
+pcgamer.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 pcgamer.com#$#override-property-read as_1003867235 true; override-property-read as_-117070902 true; override-property-read as_-528137426 true; override-property-read as_retry true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1133223624 true; override-property-read as_9-1906210701 true; override-property-read as_1-961448718 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 pcgamer.com#$#override-property-read window.navigator.connection.rtt 1001
 pcgamer.com#$#override-property-read window.x9vhy6gdq24a true; override-property-read window.x6ze2g6tew62 true; override-property-read window.x50p3331wdfu true
