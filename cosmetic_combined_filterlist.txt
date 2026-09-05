@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.140
-! Last Modified: 2026.09.05.2306+1000 AEST
+! Version: 1.1.141
+! Last Modified: 2026.09.06.0259+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -80315,6 +80315,7 @@ forbes.com##.article-body .tp-container-inner
 forbes.com##.article-body .tweet_quote > a > span:style(display: none !important;)
 forbes.com##.article-body .tweet_quote > a:style(cursor: auto !important; background-color: transparent !important; color: #000 !important;)
 forbes.com##.article-body > div[style^="padding: 20px 0pt; margin: 20px 0pt; border-bottom: 1px solid #DDDDDD;"]
+forbes.com##.article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
 forbes.com##.article-container > sharing
 forbes.com##.article-fbs-sharing
 forbes.com##.article-sharing__container
@@ -80360,6 +80361,7 @@ forbes.com##.vestpocket
 forbes.com##.video-placeholder.sticky-video-placeholder > fbs-video.sticky-video
 forbes.com##[data-id="ad-container"]
 forbes.com##[data-testid="locked-top-ad-container"]
+forbes.com##article .paywall_ribbon
 forbes.com##article-body-container.article-body > tweet-quotes
 forbes.com##body fbs-ad:not(#style_important)
 forbes.com##div[article-sharing]
@@ -80372,6 +80374,7 @@ forbes.com##div[class^="zephr-event-promotional"]
 forbes.com##div[data-testid="ad-container"]
 forbes.com##div[data-testid^="fbs-ad"]
 forbes.com##fbs-ad
+forbes.com##fbs-video[ad-unit-path]
 forbes.com##header a[href^="https://account.forbes.com/subscribe"]
 forbes.com##main div[class][style^="top:"]:has(> div > fbs-video[ad-unit-path])
 forbes.com##main div[class][style^="top:"]:has-text(FORBES’ FEATURED Video)
