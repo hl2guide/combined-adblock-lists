@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.142
-! Last Modified: 2026.09.06.0746+1000 AEST
+! Version: 1.1.143
+! Last Modified: 2026.09.06.1145+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -206872,6 +206872,13 @@ vpforums.org##td[align="center"][style="padding: 0px;"]
 vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
 vpforums.org,miuiturkiye.net,slatedroid.com###banner_div_empty
 vpforums.org,miuiturkiye.net,slatedroid.com###tt_mobile_banner
+vpg.no###cookieConsentModal
+vpg.no##+js(trusted-click-element, #cookieConsentModal.show .js-cookie-configuration-button .btn-primary, , 2000)
+vpg.no##+js(trusted-click-element, 'xpath://button[@class="btn btn-primary js-offcanvas-cookie-submit"][normalize-space(.)="Lagre"]', , 3000)
+vpg.no##+js(trusted-click-element, input[id="cookie_ønskeliste-og-andre-funksjoner"]:not(:checked), , 2500)
+vpg.no##.js-offcanvas-singleton.offcanvas-start
+vpg.no##.modal-backdrop.fade
+vpg.no##.offcanvas-backdrop.fade
 vpk.name###bt-stop-ra
 vpk.name###side > div[style*="300px"][style*="600px"]
 vplaboratory.ru##.top-message
