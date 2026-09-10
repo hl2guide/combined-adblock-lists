@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.166
-! Last Modified: 2026.09.11.0357+1000 AEST
+! Version: 1.1.167
+! Last Modified: 2026.09.11.0802+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -28703,6 +28703,7 @@ anime-planet.com##.cta.pure-1
 anime-planet.com##.halo
 anime-planet.com##.video-banner
 anime-sama.*#$#abort-on-property-read aclib.runBanner
+anime-sama.to##.ad-container
 anime-sanka.com#%#//scriptlet("adjust-setInterval", "decodeURIComponent(link)", "", "0.02")
 anime-sharing.com##.js-installPromptContainer
 anime-sharing.com##.vbseo_share
@@ -45132,6 +45133,9 @@ buceteiro.com###related
 buceteiro.com##.list > ul > li:has(.ads)
 buch-dein-visum.de#%#//scriptlet('set-cookie', 'cfm_cookieSettings-UA-123827688-1', 'true')
 buch-deine-reise.de,alltours-reisecenter.de##.cfmCookieLayer
+buchholz-aktuell.de,mobileshop-lund.de,gsweb.services,dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
+buchholz-aktuell.de,mobileshop-lund.de,gsweb.services,dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+buchholz-aktuell.de,mobileshop-lund.de,gsweb.services,dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 buchstaben.com##div[style^="min-height: 330px;"]
 buckedup.com##.consent-cookie-container
 bucketlistjourney.net,goodnewsnetwork.org,guru99.com,melaniecooks.com,psypost.org##.af-form-wrapper
@@ -51179,8 +51183,6 @@ cinema.dinamalar.com##.gal-img2
 cinema.dinamalar.com##.gallery-embed-container > ul > li[class^="gal-img"][style^="width:"][style*="overflow:"]
 cinema.dinamalar.com##div[class^="topadtxt"]
 cinema.dinamalar.com##div[id^="selAd"]
-cinema.maalaimalar.com##.in.fade.modal-backdrop
-cinema.maalaimalar.com##body:style(overflow: auto !important;)
 cinema.ne.jp##.outh-sns
 cinema.vikatan.com,sakshi.com##.tbl-feed-card:has(.trc-content-sponsored)
 cinema5.ru##.promo__slider
@@ -62009,13 +62011,13 @@ deviantart.com##.mobile_adhesion
 deviantart.com##.mobile_instream_ad_resizable
 deviantart.com##body > aside:has(> h2 > div > button[aria-label="Close"])
 deviantart.com##body > div#block-notice
-deviantart.com##body > div.ReactModalPortal ~ div[class]:not([id]):has(> dialog a[href^="https://www.deviantart.com/core-membership"])
 deviantart.com##body > span > aside:has(> div > a[href="https://www.deviantart.com/users/login"])
 deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!important;)
 deviantart.com##div[data-hook] > div[class]:has(> div[id^="deviantartcom_desktop"])
 deviantart.com##div[role="complementary"] > div[class]:empty:not(:has(>*))
 deviantart.com##div[role="complementary"] > div[class]:has(> div > iframe[title="DealerAdIframe"])
 deviantart.com##header[role="banner"] ~ div[class*=" "]:has(> span.surface > a[href="https://www.deviantart.com/users/login"])
+deviantart.com#%#//scriptlet('trusted-click-element', 'dialog:has(a[href^="https://www.deviantart.com/core-membership"]) button[aria-label="Close"]')
 deviantart.com#?##root > div[class]:has(> div[class] > a[href$="/policy/privacy"])
 deviantart.com#?##root > header ~ div[class] > span.theme-light > a[href$="/users/login"]:upward(header ~ div[class])
 deviantart.com#?#[role="complementary"] ._ern3r:has-text(Promoted)
@@ -68175,6 +68177,8 @@ echo-online.de##.pollBlock__wrapper
 echo-online.de##.vrm-socialShare
 echo-online.de#?#.frontpageOverview >section[data-testid="popularBlock"] + aside:not([data-testid]):has(> .pollBlock__wrapper)
 echo-online.de#?#.storyElementWrapper__container > div[data-testid="storyElementWrapper-cceWidget-element"]:has(.newsletterWidgetSimple)
+echo-online.de#@#.banner_ad_full
+echo-online.de,ka-news.de,insideevs.de,de.motor1.com,rlptoday.de,news.de,mainpost.de,aufderbuehne.de,trainingsworld.com,zaubertopf.de,maclife.de,kuechengoetter.de,survivethis.news,prad.de,infranken.de,nachrichten.at,moviejones.de,np-coburg.de,frankenpost.de,insuedthueringen.de,augsburger-allgemeine.de,4fansites.de,general-anzeiger-bonn.de,kurier.de,knuddels.de,fumsmagazin.de,reisefrage.net,motorradfrage.net,autofrage.net,sportlerfrage.net,gesundheitsfrage.net,finanzfrage.net,wer-weiss-was.de,spielfilm.de,jappy.com,serienjunkies.de,woxikon.de,wize.life,computerfrage.net,gutefrage.net,teckbote.de,ligainsider.de,woxikon.de,rp-online.de,frag-mutti.de,ksta.de,sol.de,noz.de,mopo.de,express.de,berliner-kurier.de,berliner-zeitung.de#@#.full_AD
 echo.msk.ru##*:not(div)[class] > div[style^="overflow:"]
 echo.msk.ru##.tooltipster-default
 echo.msk.ru##div.first[style]
@@ -109826,7 +109830,6 @@ ka-news.de###piano-index-offer:empty
 ka-news.de##.cad_box
 ka-news.de##.fusslogos
 ka-news.de##.webpush-layer
-ka-news.de,insideevs.de,de.motor1.com,rlptoday.de,news.de,mainpost.de,aufderbuehne.de,trainingsworld.com,zaubertopf.de,maclife.de,kuechengoetter.de,survivethis.news,prad.de,infranken.de,nachrichten.at,moviejones.de,np-coburg.de,frankenpost.de,insuedthueringen.de,augsburger-allgemeine.de,4fansites.de,general-anzeiger-bonn.de,kurier.de,knuddels.de,fumsmagazin.de,reisefrage.net,motorradfrage.net,autofrage.net,sportlerfrage.net,gesundheitsfrage.net,finanzfrage.net,wer-weiss-was.de,spielfilm.de,jappy.com,serienjunkies.de,woxikon.de,wize.life,computerfrage.net,gutefrage.net,teckbote.de,ligainsider.de,woxikon.de,rp-online.de,frag-mutti.de,ksta.de,sol.de,noz.de,mopo.de,express.de,berliner-kurier.de,berliner-zeitung.de#@#.full_AD
 ka-style.jp##.l-footerBanner
 ka-style.jp##.p-postHeaderBanner
 ka-style.jp##nav.p-columnCategory ~ .p-footerEditable
@@ -132385,9 +132388,6 @@ mobileproxy.space##span > h4:contains(Поделитесь статьёй)
 mobileproxy.space#?#body > div[style*="fixed"]:has(> div.toast > div.toast-body > a[href="/pages/skidka-20-za-otzyv.html"])
 mobileread.com##div[id^="edit"] > div[style="padding: 6px 0px 0px 0px"]
 mobiles-actus.com###header3
-mobileshop-lund.de,gsweb.services,dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
-mobileshop-lund.de,gsweb.services,dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
-mobileshop-lund.de,gsweb.services,dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 mobileshop.eu##.fixed-warning
 mobilesringtones.com##[href^="https://obqj2.com/"]
 mobilesyrup.com###mc_newsletter_signup_article
@@ -144668,6 +144668,7 @@ nur.kz###js-widget-pm
 nur.kz##.block-branded-icon
 nur.kz##.block-main-info__sponsor-image
 nur.kz##.block-social
+nur.kz##.google-preferred-sources-link-container
 nur.kz##.js-article-share
 nur.kz##.js-branding-top
 nur.kz##.js-commercial-menu
@@ -156448,6 +156449,7 @@ pons.com##.ce_sharebuttons
 pons.com##.parallax-container
 pons.com##body div[id^="ad_contentslot"]:not(#style_important)
 pons.com##div[class^="idm_topslot_"]
+pons.com##div[data-slot="mpu"]
 pons.com#$##feature-guard { display: none !important; }
 pons.com#$#astro-island[props*="cookieList"] { display: none !important; }
 pons.com#$#html { overflow: auto !important; }
@@ -181448,6 +181450,8 @@ sravni.ru##._12siume
 sravni.ru##._1p39i0c
 sravni.ru##.adfox_placeholder
 sravni.ru##.calculator-incut
+sravni.ru##.stk-post > div.sravni-v2-defaultTextBlock:has(a[href*="/?int_source=mag"])
+sravni.ru##.stk-post > div.sravni-v2-defaultTextBlock:has(a[href="https://t.me/sravni_tg"])
 sravni.ru##.stk-post > div[data-container-name="DefaultTextBlockGreen"]:has(a[href="http://t.me/sravni_tg"])
 sravni.ru##.stk-post > div[data-container-name="DefaultTextBlockGreen"]:has(a[href^="https://www.sravni.ru/debetovye-karty/?"])
 sravni.ru##.subscription-popup
@@ -183995,6 +183999,7 @@ subyshare.com##a[href*="&utm_medium=banner"][target="_blank"]
 subzero-wolf.com##.footer-announcement
 success.trendmicro.com##c-dcx-cookie
 success.trendmicro.com##div[data-aura-class="cBSP_Forum_CookieNotifierCmp"]
+successcds.net##a[href^="https://superprofile.bio/vp/Class-10-combo-offer"]
 successteam.typeform.com##div[data-qa="cookie-region"]
 succulent-plant.com###inner
 succulentlyurban.com##.fixed-already.color-dark.fixed-header-type-4.fixed-header-area
