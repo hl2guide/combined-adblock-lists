@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.175
-! Last Modified: 2026.09.12.2312+1000 AEST
+! Version: 1.1.176
+! Last Modified: 2026.09.13.0331+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -18036,7 +18036,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 36kaakda.in###LinkList2
 36kaakda.in,99samacharexpress.in,abtakapakesath.com,battinews.com,chapainawabganjnews.com,chilahatiweb.com,eelanesan.com,hellodharnews.com,malabarflash.com,media24media.com,tapnewsindia.com,topbharat.in,visarnews.com###HTML5
 36kaakda.in,99samacharexpress.in,battirepnews.com,chilahatiweb.com,cnblive.com,ekumaon.com,eluvannews.com,kanaighatnews.com,kolhapurlive.in,malwalive.com,media24media.com,nbcbangla.com,tamilarul.net###HTML4
-36kaakda.in,battinews.com,chetaktimes.com,dailyhealthletters.com,gandhawarta.com,gzpnews.com,hadapsarexpress.com,hamaramahanagar.in,jalorenews.com,jaunpurlive.com,kalerdak24.com,kalviseithi.net,kd24news.in,liveaaryaavart.com,madhepuratimes.com,malabarflash.com,poonththalir.blogspot.com,rajsamachar.com,shortnews.lk,siyanenews.com,spyviewnews.in,thattungal.com###Image2
+36kaakda.in,battinews.com,chetaktimes.com,dailyhealthletters.com,gandhawarta.com,gzpnews.com,hadapsarexpress.com,hamaramahanagar.in,jalorenews.com,jaunpurlive.com,kalerdak24.com,kalviseithi.net,kd24news.in,liveaaryaavart.com,madhepuratimes.com,maharashtramaza.in,malabarflash.com,poonththalir.blogspot.com,rajsamachar.com,shortnews.lk,siyanenews.com,spyviewnews.in,thattungal.com###Image2
 36kaakda.in,battinews.com,cnblive.com,gossip99.com,kanaighatnews.com,kushiyaranews.com,punalurnews.com,thattungal.com,ukliveuttrakhand.com###HTML3
 36kr.com##.app-track-card
 36kr.com##.home-ad-flow-banner
@@ -41494,6 +41494,7 @@ blitz.gg##div[class^="🤑"]:has(> div[class*="🤑"])
 blitz.gg##div[data-label="Advertisements"]
 blitz.if.ua#?#p:-abp-has(> a[href^="https://web.telegram.org/"])
 blitzfoxhub.com##.ad-free-button
+blitzfoxhub.com##.post-share-follow-top
 blitzfoxhub.com##.smart-head-row .ts-button
 blitzfoxhub.com,cikavosti.com,gsminfo.com.ua##.theiaStickySidebar
 blitzfoxhub.com,draug.ru,emdigital.ru,enthub.it,modsforwot.ru,pogodavtomske.ru#?#div:-abp-has(> [id^="yandex_rtb"])
@@ -120708,6 +120709,7 @@ liveonsat.com##+js(ra, oncontextmenu)
 liveonsat.com##td[align="right"] td[height="50"]:has(> script:contains(google_ad_client))
 liveonsat.com##td[width="100%"][height="50"]
 liveonsat.com,tt1069.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "ad blocker")
+livep2p.top,p2plive7.top##.wrap-overlay
 livepage.pro##.sharebox
 livepage.pro,1yar.tv##form[name="subscribe"]
 livepeer.org##.PzNks.sc-jlyJG
@@ -150230,7 +150232,6 @@ p2pb2b.com##div[class^="CookieNotification_wrapper"]
 p2pb2b.com##div[class^="CookieNotification_wrapper_"]
 p2pb2b.com##svg[id^="registerBtn_"]
 p2peye.com###article_content a[ref="nofollow"]
-p2plive7.top##.wrap-overlay
 p2pplay.pro##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
 p2pplay.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 p2pstreams.live##div[style^="height:100px;"][style*="max-height:100px;"]
@@ -168592,6 +168593,7 @@ ru##[data-test="themes-line"] a[href*="/longread"]
 ru##[data-test="themes-line"] a[href*="erid="]
 ru##[data-test="themes-line"] a[href*="erid="] ~ div
 ru##[data-test="themes-line"] a[href*="utm_campaign"]
+ru##[data-test="themes-line"] a[href][aria-label="Баннер"]
 ru##[data-test="themes-line"] a[href][target="_blank"]
 ru##[title="Выбрать соцсеть для шаринга"]
 ru-admin.net##.menu_block.navi > a:not([href^="/"]):not([href^="http://ru-admin.net"])
@@ -168923,6 +168925,8 @@ runnersworld.com##.sponsor-bar
 runnersworld.se##.content-wrapper > .container:has(.post-card-sponsored)
 runnersworld.se##.post-card-sponsored, .modal-plus, .modal-backdrop
 runnersworld.se,utsidan.se,driva-eget.se,foretagande.se,revisionsvarlden.se,travelnews.se,mittforetag.com,dental24.se##.sponsored
+running-point.de##.tp-announcement-bar__wrapper
+running-point.de##.tp-footer__newsletter-emarsys
 runningmagazine.ca##.repeater-bottom-leaderboard
 runningmanzx.com##.guangao
 runningnews.gr##+js(acs, disableselect, reEnable)
@@ -218958,6 +218962,7 @@ zipcode.com.ng##+js(aeld, copy, Source)
 zipcode.com.ng##+js(rmnt, script, document.onselectstart)
 ziperto.com##+js(nosiif, visibility, 1000)
 ziperto.com##+js(remove-node-text, script, newHref = href.replace)
+ziperto.com##.entry center.dl-dark-neglect > a.download-btn[target="_blank"]
 ziperto.com##a[href*="https://givawey.click/"]
 ziperto.com,installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.com,organiccrack.com,procrackkey.co,up4pc.com,crackdownload.org,corecrack.com,shanpc.com,torrentfilefree.com,patchcracks.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,idmcrackeys.com,crackedhere.com,licensekeysfree.org,assadpc.com,thecrackbox.com,crackproductkey.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,cracksoon.com,boxcracked.com,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,usecracked.com,crackedversion.com,aryancrack.com,fultech.org,cracksray.com,pcwarezbox.com,cracksmat.com,startcrack.co,crackbros.com,pcfullversion.com,bypassapp.com,fileserial.com,pc4download.com,freeprocrack.org,upcrack.org,topkeygen.com,crackproduct.com,downloadpirate.com,combpc.pro##center > [class*="buttonPress-"]
 zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtube.com###topBanner
