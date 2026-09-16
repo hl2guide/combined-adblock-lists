@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.194
-! Last Modified: 2026.09.17.0432+1000 AEST
+! Version: 1.1.195
+! Last Modified: 2026.09.17.0828+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -13605,6 +13605,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /tm.cookie.js
 /tm00738.bj.
 /tmbi-a9-header-$script
+/tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 /tncms/ads/*$script
 /tncms/tracking.js
 /tnt.ads.$script
@@ -112463,9 +112464,10 @@ kinogo.fm###overlay_u
 kinogo.la,libertycity.net,libertycity.ru##.social_buttons
 kinogo.media##.pod-playertg
 kinogo.media,obrut.show###oframeplayer > pjsdiv[style*="top: 32.5px;"]
-kinogo.my,kinogohd.im,kinogoua.net###kpOverlay
-kinogo.my,kinogohd.im,kinogoua.net###pwa-bar
-kinogo.my,kinogohd.im,kinogoua.net##.regpro
+kinogo.my,kinogohd.im,kinogomy.net,kinogoua.net###kpOverlay
+kinogo.my,kinogohd.im,kinogomy.net,kinogoua.net###pwa-bar
+kinogo.my,kinogohd.im,kinogomy.net,kinogoua.net##.leftblok_contener a[href*="/app.html"]
+kinogo.my,kinogohd.im,kinogomy.net,kinogoua.net##.regpro
 kinogo.online##.app-download
 kinogo.org##.cshflow
 kinogo.org,kinogo.tm,klook.com,m.globalsources.com,megamarket.ru,prioritypass.com,trainman.in,klook.com,newchic.com,m.zaful.com,c.mi.com,m.vseinstrumenti.ru##.app-download
@@ -154162,10 +154164,10 @@ pinterest.com##body > div[style^="z-index:"]:has(> div[style] > div[style] > div
 pinterest.com##div[class*="ScreenBanner"]
 pinterest.com##div[class^="AppUpsellHeader"]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
-pinterest.com##div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
-pinterest.com##div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 pinterest.com#%#//scriptlet('set-session-storage-item', 'showedAppUpsellCurrentSession', 'true')
 pinterest.com#%#//scriptlet('trusted-set-local-storage-item', 'appUpsell', '$now$')
+pinterest.com#@#div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
+pinterest.com#@#div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 pinterest.com,reddit.com###credential_picker_container
 pinterest.com,reddit.com###credential_picker_iframe
 pinterpoin.com###banner-ad-1
@@ -200691,6 +200693,7 @@ uaprom.info##a[href*="://www.wem.ua"]
 uaprom.info##body > #header
 uaserial.com##.js-telegram
 uaserial.com##.js-tiktok
+uaserial.tv##.join__telegram
 uaserials.com###ask_modal_overlay
 uaserials.com,uaserials.my##div[class^="uas-custom-"]
 uaspectr.com##.ft-social
