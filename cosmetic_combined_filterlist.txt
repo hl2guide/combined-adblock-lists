@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.200
-! Last Modified: 2026.09.18.0440+1000 AEST
+! Version: 1.1.201
+! Last Modified: 2026.09.18.0831+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -2021,7 +2021,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .lightstories.site^$script
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
 .link/*?*=*-*-*-*-$third-party,xmlhttprequest
-.link/jal559hv?$third-party,xmlhttprequest
+.link/jvp0461jga?$third-party,xmlhttprequest
 .list-manage.com/track/
 .live/1*.html?cep=$doc
 .live/o.js$script,third-party
@@ -27475,7 +27475,7 @@ amiparis.com#$#div[data-test="cookie-modal-wrapper-overlay"] { display: none !im
 amishamerica.com##a[rel="nofollow"] > img
 amitek.it##+js(trusted-set-cookie, cookie_consent_consent, gived)
 amitmerchant.com##.tinyletterForm
-amiunique.org,armegoszto.hu,kaidee.com,rewardlink.io,stellarium-web.org##.v-snack__wrapper
+amiunique.org,armegoszto.hu,kaidee.com,rewardlink.io,smaxi.vgn.de,stellarium-web.org##.v-snack__wrapper
 amiunique.org,receivefreesms.net,track24.net,angielskieespresso.pl,op.gg,cameralabs.org##a[href^="https://play.google.com/store/apps/details?id="]
 amlbot.com#%#//scriptlet('trusted-set-cookie', 'localConsent', 'true')
 amlesson.ru##+js(aopw, disableSelection)
@@ -38714,7 +38714,7 @@ best-vpn-deals.com##.modal
 best18porn.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 best18porn.com##.banner
 best18porn.com##.in-player-spot
-best24news.com##[class^="gb-element-"]:has(> ins.adsbygoogle)
+best24news.com,sportsgaliyara.com##[class^="gb-element-"]:has(> ins.adsbygoogle)
 best4you.sk##a[href*="Onlinefilmy.eu"]
 best4you.sk##a[href*="tipsport.sk"]
 best4you.sk##a[href="http://www.Onlinefilmy.eu"]
@@ -76090,6 +76090,8 @@ fastpic.org##a[href="https://static.fastpic.ru/FastPicUploader.apk"]
 fastpic.org##body > div[id][aria-hidden]
 fastpic.org##body[class] > div[id]:not([class]):not([style])
 fastpic.org##style:first-child + b:empty:last-child
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, MouseEvent)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, document.dispatchEvent)
 fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] > img[src*="/preview/"] {margin-bottom:-38px;display:block;}
 fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] {display:inline-block;overflow:hidden;}
 fastpic.org,~new.fastpic.org##body > [style*="fixed"]
@@ -134867,6 +134869,10 @@ mp.pl##.row > #top-board:has(> :is(#ad-top-banner, #bazalekow-top-banner))
 mp.weixin.qq.com###js_pc_qr_code
 mp1news.com###widget-sidebar-2 ~ .widget:not(#widget-sidebar-14)
 mp1st.com##.aji-social-items-wrapper
+mp1st.com##.kevinsingle-content > p:contains(/^\u00A0+$/)
+mp1st.com##.mp1st-floating-bar
+mp1st.com##.mp1st-inline-social-block
+mp1st.com##.mp1st-social-block
 mp3-convert.org##+js(no-window-open-if)
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 mp3.big.az##.blockreklam
