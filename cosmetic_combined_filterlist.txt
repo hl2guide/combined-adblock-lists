@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.197
-! Last Modified: 2026.09.17.1943+1000 AEST
+! Version: 1.1.198
+! Last Modified: 2026.09.17.2151+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -60512,6 +60512,7 @@ deepl.com###dl_app_banner_popup
 deepl.com###iosAppAdPortal
 deepl.com###lmt_pro_ad_container
 deepl.com##+js(aeld, copy)
+deepl.com##.below-navigation-banner-wrapper
 deepl.com##.bg-deepl-blue
 deepl.com##.lmt_targetToolbar__appPromotion_container
 deepl.com##.z-40.bg-blue-next-100.py-3.items-start.sm\:items-center:has(> div.flex-1 > div > a[href="/pro-write"])
@@ -60528,6 +60529,7 @@ deepl.com##div[aria-labelledby="app-stores-banner-description"]:has(> a[href^="h
 deepl.com##div[class*="write_ad_dialog--"]
 deepl.com##div[class]:has(> aside[data-testid="write-promo-banner"])
 deepl.com##div[class^="StickyBanner-module--container--"]
+deepl.com##div[class^="homeExperience-module"]
 deepl.com##div[class^="homeExperience-module-"]
 deepl.com##div[class^="homeExperience-module--"] > section:not([class*="homeExperience-module--eseotericText--"])
 deepl.com##div[data-testid="above-navigation-banner"]
@@ -84187,7 +84189,6 @@ fxmag.pl##div[class^="VerticalSocialBar_vertical_social_bar_container"] > div > 
 fxmag.pl##text[class^="Ad-module-"]
 fxmag.pl##text[class^="Ad_"]
 fxmag.pl,dailycal.org##div[class^="Newsletter_container"]
-fxmag.pl,stimme.de,oloygeia.gr,berliner-zeitung.de,sueddeutsche.de,eurosport.de,itmedia.co.jp,ndtv.in,femmeactuelle.fr,from-ua.org,nikkansports.com,meteoweb.eu,businessinsider.jp,enikos.gr,ostdeutscheallgemeine.com,falstaff.com,ad.nl,real.gr,motor-fan.jp,ign.com,dw.com,alfavita.gr,actualidadiphone.com,jprime.jp,laviola.it,fanipogody.pl,yna.co.kr,pchocasi.com.tr,spidersweb.pl,empireonline.com,jiji.com,fictionhorizon.com,beebom.com,techwiser.com,12punto.com.tr,infobae.com,fitbook.de,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,stadt-bremerhaven.de,ekonomim.com,omgubuntu.co.uk,winfuture.de,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com,clubic.com,sugarfreelondoner.com,fotomac.com.tr,dengarden.com,mako.co.il,ajansspor.com,gazetadopovo.com.br,onejailbreak.com,progameguides.com,aydinlik.com.tr,euronews.com,rtl.be,dogruhaber.com.tr,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,lance.com.br,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,newstime.joyn.de,hisse.net,gazetegercek.com.tr,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
 fxp.co.il##div[style^="position: fixed;width: 162px; height: 600px;"]
 fxporn69.*##+js(aeld, click, exopop)
 fxporn69.*##+js(nostif, nextFunction, 2000)
@@ -106424,6 +106425,7 @@ itc.ua#?#.post-txt > p:-abp-has(.highlight > a[href*="utm_"])
 itc.ua#?#.xoxo > li.widget_execphp:has(h3:contains(Партнерські блоги))
 itc.ua#?#a[href*="://telemart.ua/"]:-abp-has(> span > strong)
 itc.ua,ain.ua##amp-wordpress-embed
+itc.ua,fxmag.pl,stimme.de,oloygeia.gr,berliner-zeitung.de,sueddeutsche.de,eurosport.de,itmedia.co.jp,ndtv.in,femmeactuelle.fr,from-ua.org,nikkansports.com,meteoweb.eu,businessinsider.jp,enikos.gr,ostdeutscheallgemeine.com,falstaff.com,ad.nl,real.gr,motor-fan.jp,ign.com,dw.com,alfavita.gr,actualidadiphone.com,jprime.jp,laviola.it,fanipogody.pl,yna.co.kr,pchocasi.com.tr,spidersweb.pl,empireonline.com,jiji.com,fictionhorizon.com,beebom.com,techwiser.com,12punto.com.tr,infobae.com,fitbook.de,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,stadt-bremerhaven.de,ekonomim.com,omgubuntu.co.uk,winfuture.de,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com,clubic.com,sugarfreelondoner.com,fotomac.com.tr,dengarden.com,mako.co.il,ajansspor.com,gazetadopovo.com.br,onejailbreak.com,progameguides.com,aydinlik.com.tr,euronews.com,rtl.be,dogruhaber.com.tr,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,lance.com.br,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,newstime.joyn.de,hisse.net,gazetegercek.com.tr,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
 itc.ua,latuaitalia.ru##.sn
 itc.ua,mc.today##div[class^="max-"]
 itcafe.hu##div[class$="responsive-300px-250px"]
@@ -112512,6 +112514,7 @@ kinokordon.net#?#[id^="oframevideoplayer"] > pjsdiv:-abp-has(> pjsdiv:-abp-conta
 kinokrad.cc##.boxsocbut
 kinokrad.cc##div[id^="shareurlid-"]
 kinokrad.co,kinoprofi.vip###subscribe_sidebar
+kinokrad.my##.banner-tg
 kinokrad.my##.share-on-player
 kinokurort.ru,x-livecams.com,024.by,xn--90aqok.xn--p1ai,linux-gaming.ru,walletsrates.com,zatuschok.com,cpd.by,ustaliy.ru,aurora.ua,androidsfaq.com,prizyvanet.ru,rucore.net,vesti.uz,nalivay-ka.ru,perstni.com##.lwpcngNotice
 kinoland.biz##.page__share
@@ -131225,6 +131228,7 @@ minecraftservers.org##.second-banner
 minecraftskins.com##.antiblock-wrapper
 minecraftuuid.com##.ml-auto > a[href^="https://serverflex.io/"]
 minecraftuuid.com##section > section.bg-primary:has(> div.container > a[href^="https://serverflex.io/"])
+minefun.io##.own-video-ad
 minepay.top##.sponsors-container
 mineralstech.com##.consent-dialog-overlay
 mineralwasser.com#%#//scriptlet('trusted-click-element', 'a[data-borlabs-cookie-unblock]')
@@ -208442,6 +208446,9 @@ walmart.ca##+js(trusted-click-element, button[aria-label="close button"], , 1000
 walmart.ca##.w_6wTF
 walmart.ca##div[data-testid="layout-container"] > section[role="banner"][class^="bg-white sticky nav-clickable-padded bottom-0"]
 walmart.ca##section[aria-label*="Sponsored"]
+walmart.ca#$#body > div:not([class]):has(> div[data-testid="dialog-modal"] > div[data-focus-lock-disabled="false"] a[href="https://www.walmartcanada.ca/cookie-notice"]) { display: none !important; }
+walmart.ca#$#body { overflow: auto !important; }
+walmart.ca#%#//scriptlet('trusted-click-element', 'div[data-testid="dialog-modal"] button[aria-label="acceptAll b"]', '', '500')
 walmart.ca#?#.bottom-0.nav-clickable-padded:has-text(Your data)
 walmart.com###hf-feedback-bubble-fixed-link
 walmart.com###vh-app-container
@@ -217903,6 +217910,7 @@ yt1s.com,y2mate.com##+js(set-constant, clickAds.isShown, true)
 yt1s.com.co##+js(no-window-open-if)
 yt1s.com.co>>##+js(no-fetch-if, googlesyndication.com)
 yt1s.com.co>>##+js(trusted-replace-argument, window.open, 1, repl:/blank/self/)
+yt1s.com.co>>##+js(trusted-set-local-storage-item, __vidsnapper_variant_index, -3)
 yt2conv.com##+js(nowoif)
 yt2conv.com##+js(ra, onclick, a#downloadbtn[onclick^="window.open"], stay)
 yt2save.com##+js(no-setTimeout-if, document.body.innerHTML)
