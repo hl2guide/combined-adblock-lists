@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.12
-# Edited: 2026-07-27 17:44:01 +10:00
+# Version 1.0.13
+# Edited: 2026-09-17 21:40:55 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -206,13 +206,15 @@ TESTING_URLS = [
     # Destroy Lists (official mirror)
     "https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/community_active/adblock.txt",
     "https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/primary_active/adblock.txt",
-    # Destroy Lists (disabled due to errors)
+    # Destroy Lists (disabled due to errors - testing now)
+    "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
+    "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     # 1Hosts (Lite)
     "https://badmojr.github.io/1Hosts/Lite/adblock.txt"
-    # The BOG AIO List (404 error)
-    #"https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
+    # The BOG AIO List (404 error - testing now)
+    "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
 ]
 
 print()
