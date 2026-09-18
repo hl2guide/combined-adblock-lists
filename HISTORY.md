@@ -1,4 +1,7 @@
 
+# 2026-09-18
+- removed regex filters from cosmetic list for performance reasons
+
 # 2026-07-27
 - Re-enabled "destroylist" lists (using CDN)
 
