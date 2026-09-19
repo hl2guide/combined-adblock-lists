@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.211
-! Last Modified: 2026.09.19.2333+1000 AEST
+! Version: 1.1.212
+! Last Modified: 2026.09.20.0334+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -15409,6 +15409,10 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 18pussy.porn###player_spot
 18pussy.porn,milf-porn.xxx##.footer-margin
 18pussy.porn,milf-porn.xxx##.table
+18subindo.com##.banner-float
+18subindo.com##.banner-float-left
+18subindo.com##.banner-float-right
+18subindo.com##.banner-rotate-wrap
 18subindo.com##.request-warning-bubble
 18subindo.com##a[href^="https://tinyurl.com/"]
 18teensex.tv,3movs.xxx,adultdeepfakes.com,babesmachine.com,chaturbate.com,daftporn.com,fboomporn.com,freepornpicss.com,gramateurs.com,happysex.ch,hdtube.porn,its.porn,kawaiihentai.com,milffox.com,oldies.name,paradisehill.cc,playporngames.com,playsexgames.xxx,playvids.com,porngames.com,private.com,submittedgf.com,teenextrem.com,video.laxd.com,vikiporn.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,xnudepics.com,youcanfaptothis.com,yourdailygirls.com,youx.xxx##.banner
@@ -32508,8 +32512,6 @@ autohauskenner.de###tools_consent_panel
 autohebdo.de###before-footer-autopromo
 autohebdo.de###home-autopromo
 autohebdo.de##.home-cta-push
-autohebdo.de,gizmodo.com#$##sd-cmp { display: none !important; }
-autohebdo.de,gizmodo.com#$#html[class*="sd-cmp"] { overflow: auto !important; }
 autohero.com##header > div[class^="container_"] > div[class^="body_"] + div[class^="root_"]
 autohit.cz###leva-reklama
 autohjornet.com###cookiesAcceptWrapper
@@ -37323,6 +37325,7 @@ bet.ua##app-follow-us
 bet.ua##app-subscribe-form
 bet365.*##.ccm-CookieConsentPopup
 bet365.com##.rcc-ee
+bet365.com.au#?#body div.rcc-b:has(> div.rcc-ef > div.rcc-9f > div.rcc-a:contains(bet365 uses cookies))
 beta-accounts.paradoxinteractive.com#%#//scriptlet('trusted-set-cookie', 'cookies_accepted', 'cookies-accepted')
 beta-accounts.paradoxinteractive.com#%#//scriptlet('trusted-set-cookie', 'targeting_optout', 'targeting-optout')
 beta.ideas.lego.com###coookies
@@ -75887,6 +75890,7 @@ finanzen.net##.mrec-height-prefix
 finanzen.net##.native-content-ad-container
 finanzen.net##.row.d-flex.align-items-center:has(a[href^="http://g.finanzen.net/allvest-fonds-home-intelligent-invest"])
 finanzen.net##.snapshot__trading:has(.button-advertising-hint)
+finanzen.net##.social-buttons-toggle
 finanzen.net##.sticky__container--mrec
 finanzen.net##a[href="#p500Werbehinweis"]
 finanzen.net##a[href="http://g.finanzen.net/ubs-aktiendetail-hebel-fallback"]
@@ -111581,6 +111585,8 @@ kotaku.com#?#.mt-10:has-text(Level up your inbox)
 kotaku.com#?#div.mt-10:has-text(newsletter)
 kotaku.com#@##dfp-ad-1
 kotaku.com#@##dfp-ad-2
+kotaku.com,autohebdo.de,gizmodo.com#$##sd-cmp { display: none !important; }
+kotaku.com,autohebdo.de,gizmodo.com#$#html[class*="sd-cmp"] { overflow: auto !important; }
 kotaku.com,gizmodo.com##.post-bottom > div.mt-10:has(> div > form.mc4wp-form)
 kotaku.com.au##.ad-no-desktop
 kotaro269.com###content-top-news
@@ -112813,6 +112819,7 @@ kutv.com##a[class*="socialWidget-module_newsLetterAnchor"]
 kuudere.*#%#//scriptlet('set-local-storage-item', 'kuudere_notif_dialog_dismissed', '1')
 kuudere.*#%#//scriptlet('trusted-set-local-storage-item', 'infoDialogPreference', '{"show":false,"version":"0.9.9"}')
 kuulatori.fi##.col-md-12:has(#advlink)
+kuulolaiteparistokauppa.fi##+js(trusted-set-local-storage-item, cookie_consent, {"necessary":true\,"functional":true\,"analytics":false\,"marketing":false\,"timestamp":"$currentISODate$"})
 kuvake.net###ticker
 kuvake.net##div[style*="min-width: 300px; max-width: 450px;"]
 kuvake.net#@#.ad728x90
@@ -130905,6 +130912,8 @@ motchill.*##+js(aeld, click, popactive)
 motchill.biz###catfish
 motchill.biz##.popUpBannerBox
 motchill2.net,watchparksandrecreation.net,watchpsychonline.net,watchdoctorwhoonline.com,watcheverybodylovesraymond.com##.content > .sbox:has(> .dt_social_single)
+motchille.ws##+js(set-constant, HTMLAnchorElement.prototype.click, noopFunc)
+motchille.ws##div.fixed.inset-0
 motchillw.sh#$#prevent-listener click sessionStorage
 motchillw.sh,fcloud.live#$#prevent-listener click links
 moteris.lt,panele.lt,tavovaikas.lt##.banner-desktop
