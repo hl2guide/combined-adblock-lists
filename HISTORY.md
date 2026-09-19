@@ -1,4 +1,7 @@
 
+# 2026-09-19
+- excluded filters for popular banks for security reasons
+
 # 2026-09-18
 - removed regex filters from cosmetic list for performance reasons
 

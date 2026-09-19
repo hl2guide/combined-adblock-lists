@@ -354,6 +354,16 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not (len(LINE) <= 7) and
                 # does not contain common regex syntax (Testing 2026-09-18 13:58:29 +10:00)
                 not any(s in LINE for s in ("/[", "a-z", "$/", "0-9")) and
+                # exclude filters for popular banks
+                not any(s in LINE for s in ("commbank.com.au", "westpac.com.au", "nab.com.au", "anz.com.au")) and
+                not any(s in LINE for s in ("macquarie.com.au", "ing.com.au", "bendigobank.com.au", "boq.com.au")) and
+                not any(s in LINE for s in ("suncorpbank.com.au", "amp.com.au", "hsbc.com.au", "mystate.com.au")) and
+                not any(s in LINE for s in ("ubank.com.au", "bankwest.com.au", "stgeorge.com.au", "banksa.com.au")) and
+                not any(s in LINE for s in ("bankofmelbourne.com.au", "chase.com", "bankofamerica.com", "citi.com")) and
+                not any(s in LINE for s in ("wellsfargo.com", "usbank.com", "capitalone.com", "pnc.com")) and
+                not any(s in LINE for s in ("truist.com", "td.com", "bmo.com", "firstcitizens.com")) and
+                not any(s in LINE for s in ("citizensbank.com", "huntington.com", "usaa.com", "hsbc.com")) and
+                not any(s in LINE for s in ("barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com")) and
                 not LINE.startswith("мв")
             )
 )
