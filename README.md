@@ -19,7 +19,7 @@ _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 ## Details
 
 - Python code runs on GitHub directly using GitHub Actions
-    - Updates about every 5 hours, each day (depending on GitHub Actions uptime)
+    - Updates about every 3 hours, each day (depending on GitHub Actions uptime)
 - Comments and duplicate lines are ignored and the lists are sorted
 
 ## Cosmetic Combined Filterlist 🎨
