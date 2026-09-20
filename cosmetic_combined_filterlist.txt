@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.214
-! Last Modified: 2026.09.20.1211+1000 AEST
+! Version: 1.1.215
+! Last Modified: 2026.09.20.1904+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -17690,9 +17690,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4tymode.win##+js(aeld, load, nextFunction)
 4up.pics,1minx.com,555fap.com,chinese-pics.vip,cnxxx.org,cosplaytele.vip,hentaicovid.vip##+js(addEventListener-defuser, click, popup)
 4up.pics,1minx.com,555fap.com,chinese-pics.vip,cnxxx.org,cosplaytele.vip,hentaicovid.vip##+js(no-window-open-if)
-4wank.com##.plads
 4wank.com##.related-videos > center:contains(Advertisement)
 4wank.com,daporn.com,epicgfs.com,fapcat.com,fpo.xxx,hentai-moon.com,scatxxxporn.com,xmateur.com##.top
+4wank.com,fapnado.xxx##.plads
 4woodi.pl##.widget_snap_ad
 4x4earth.com##+js(nostif, samOverlay)
 4x4earth.com##+js(set, adBlockDetected, false)
@@ -18937,6 +18937,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 ://email.*/o/$image
 ://emailtracking.$image
 ://fallback.*/collector
+://fastpic.org^
+://fastpic.org^$csp=sandbox allow-same-origin;
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://fbm.*/banners/
 ://foxvideo-sports$xhr,3p,removeparam=ad.prof,domain=foxsports.com
@@ -20834,6 +20836,7 @@ abyssplayer.com#$#abort-on-property-write document.onclick; abort-on-property-wr
 abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,filmespi.online,playembedapi.site,abysscdn.com,playhydrax.com,hydrax.net##+js(set-constant, isClick, true)
 abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com##body > #player ~ div[style^="position: fixed;"][style*="z-index:"]
 abzonline.de,agrarzeitung.de,ahgz.at,ahgz.de,coating-converting.de,fibers-in-process.de,finanzfrage.net,fleischwirtschaft.de,food-service.de,fvw.de,gutefrage.net,horizont.net,packaktuell.ch,packreport.de,praxistipps.focus.de,textiletechnology.net,umweltwirtschaft.com##.Ad
+ac,ag,ai,app,art,biz,blog,buzz,by,cc,city,cloud,club,co,com,dev,family,fi,fm,gg,in,info,ink,io,is,kim,kz,la,lib,life,loan,love,me,name,net,news,org,plus,press,pro,pub,rest,ru,run,sh,si,so,space,su,tech,today,tv,ua,video,vip,website,wiki,win,work,xyz##a[href*="fastpic.org"]:not([href^="https://new.fastpic.org/"]) {pointer-events:none;}
 ac-illust.com##.belt-banner
 ac-illust.com##.login__bar.bottom-0
 ac-illust.com#$?##cookie-bar { remove: true; }
@@ -28323,7 +28326,7 @@ apa.org##.vertical-icon-bar
 apa.tv##.centerbanner
 apacer.com###go-cta-btn
 apache.be##.region-cookiebanner
-apad2.top,besplatnyeprogrammy.ru,games-7.com,hdrip.info,mediagetguru.ru,mixsoft.org,monna2.top,torrent-muzic.ru,torrent-soft.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,fastpic.org,games-7.com,hdrip.info,mediagetguru.ru,mixsoft.org,monna2.top,~new.fastpic.org,torrent-muzic.ru,torrent-soft.ru##:not(this-site-promotes-malware)
 apahotel.com,snkrdunk.com,yamareco.com,snkrdunk.com,haber61.net,avtocod.ru,yeniduzen.com,yenicaggazetesi.com.tr,20minutes.fr,picwish.com,halktv.com.tr,whosampled.com,lefigaro.fr,type.jp,yenihaberden.com,victorysportsnews.com###app-banner
 apara.com.tr,anews.com.tr,harpersbazaar.com.tr,minikacocuk.com.tr,minikago.com.tr,724dinle.com,takvim.com.tr,atvavrupa.tv,paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 aparat.cam##+js(no-window-open-if)
@@ -73473,11 +73476,14 @@ fapnado.com,fapnado.xxx##.zpot-vertical
 fapnado.com,young-sexy.com##.popup
 fapnado.xxx##.fluid_html_on_pause_container
 fapnado.xxx##.fluid_start_container
+fapnado.xxx##.hqb-topbar
 fapnado.xxx##.pause-ad-pullup
+fapnado.xxx##.text_link_holder
 fapnado.xxx##.video-holder > center:has(+ div[id^="ts_ad_"])
 fapnado.xxx##a[href^="https://www.tckcandy.com/"]
 fapnado.xxx##ul.primary > li:has(> a[class^="nav-"][class*=" gn"][target="_blank"])
 fapnado.xxx,fapnado.com##.text_link_holder
+fapnado.xxx,some.porn,xcafe.com##.fluid_html_on_pause_container
 fapnado.xxx,teenager365.to,ebony8.com,zeenite.com,shemalesin.com,sortporn.com,porndr.com,freeporn8.com##.top
 fapnfuck.com##a[href^="https://fapnfuck.com/redirect_cs.php?"]
 fapnow.*##.block-video + div[align="center"]
@@ -84366,6 +84372,9 @@ gdanszczak.pl,gdyniak.pl,krakusik.pl##div[class*="adName"]
 gdata.de###newsletterbox-guidebook-sidebar
 gdata.de,gdata-software.com,gdatasoftware.com###gd-cookie-consent
 gdatasoftware.com,gdata-software.com###gd-cookiebar
+gdebenz.ru###share-ask
+gdebenz.ru###upd-banner
+gdebenz.ru##a[href*="erid"]
 gdebenz.ru,gdebenz.org###max-banner
 gdebenz.ru,gdebenz.org###share-ask
 gdebenz.ru,gdebenz.org###upd-banner
@@ -163371,7 +163380,8 @@ riamo.ru##div[class][style^="--"][style$=":300px;"]
 riamo.ru##div[class][style^="--"][style$=":500px;"]
 riamo.ru##main ~ aside > nav ~ [class]
 riamo.ru,360.ru##dialog[aria-label="cookie-agreement"]
-riamo.ru,riamobalashiha.ru##div[class][style^="--"][style*=":250px"]
+riamo.ru,riamobalashiha.ru##article > div[class][style^="--"][style*="0px"]
+riamo.ru,riamobalashiha.ru##article ~ div[class][style^="--"][style*="0px"]
 riamoneytransfer.com##body > div.fixed:has(section[aria-labelledby="consent-banner-title"])
 riamoneytransfer.com##main > div[class]:has(> div[class][style*="opacity"]:only-child)
 riamoneytransfer.com#?#main > section + div[class^="sc-"][data-projection-id]:has(> div[class^="sc-"][data-projection-id] > div[class^="sc-"] > button[data-projection-id]:contains(cookie))
@@ -174876,7 +174886,6 @@ some.porn###video-page-player-blocker:style(pointer-events:none)
 some.porn##.skeleton
 some.porn##.w-full > div[class]:has(> div[class] > div[data-spot])
 some.porn##div[class]:has(> div > div[data-spot-new^="ntv-"])
-some.porn,xcafe.com##.fluid_html_on_pause_container
 someday-fashion.com,opus-fashion.com#$#.sim-sweepstakes-teaser-modal { display: none!important; }
 someday-fashion.com,opus-fashion.com#$#html { overflow: visible!important; }
 someecards.com###sec-header-container
@@ -194694,12 +194703,6 @@ turk-debrid.net#$##s65c { display: none !important; }
 turk-debrid.net#%#//scriptlet("abort-current-inline-script", "window.document.getElementById", "s65c")
 turk-internet.com##.widget_jnews_twitter
 turk.net#%#//scriptlet('trusted-set-cookie', 'cookie-consent', 'dismissed')
-turkanime.*###sponsored
-turkanime.*##+js(nostif, blocked)
-turkanime.*##.AltkisimMenu
-turkanime.*##.panel-title:has-text(REKLAM)
-turkanime.*##div.col-xs-12:has-text(MMPORG OYUNLAR)
-turkanime.co##+js(aeld, , pop)
 turkanime.co##.swal2-backdrop-show
 turkascihaberleri.com##.nofocus
 turkca.0pk.ru###hoverprompt
@@ -200869,13 +200872,11 @@ video.repubblica.it###gs-social-sharebuttons
 video.repubblica.it###kw-cookie-policy
 video.ridus.ru,filmpro.ru##.vjs-share__bottom
 video.sibnet.ru###pobeda2023-sticky
-video.sibnet.ru###vjs-overlayclip-box
 video.sibnet.ru###vjs-overlayclip-container-box
 video.sibnet.ru##.block1
 video.sibnet.ru##.pobeda2023_push
 video.sibnet.ru##.right_column > #menu_profile ~ .block1[style]
 video.sibnet.ru##.video__topline
-video.sibnet.ru##.vjs-overlayclip-box-close
 video.sibnet.ru,tamasha.com##.vjs-share-button
 video.sky.it##.c-adv-generic
 video.sports.ru##.css-c4sutr
@@ -203077,6 +203078,7 @@ vosgesmatin.fr,republicain-lorrain.fr,estrepublicain.fr##.scrollToolBar > .toolB
 voshod-solnca.ru##.banner-calendar
 voshod-solnca.ru##.block-share-button
 voshod-solnca.ru##.order-calendar
+voshod-solnca.ru#?#footer div:-abp-has(> .footer__column-header ~ #vk-footer)
 vosizneias.com###ml_subscribe
 vosizneias.com##.body > div[style^="position: relative;"]:has(> #gruuvAd)
 vosp.cz##.nt-cookie-notice
