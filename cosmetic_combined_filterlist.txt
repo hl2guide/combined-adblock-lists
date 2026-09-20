@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: Cosmetic Combined Filterlist
-! Version: 1.1.217
-! Last Modified: 2026.09.21.0559+1000 AEST
+! Version: 1.1.218
+! Last Modified: 2026.09.21.0848+1000 AEST
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/hl2guide/combined-adblock-lists
 ! License: https://github.com/hl2guide/combined-adblock-lists?tab=MIT-1-ov-file#readme
@@ -17637,10 +17637,10 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,ypojie.com##.widget_ui_orbui
 4spn.github.io#?##oframepreroll pjsdiv:has(> pjsdiv[style^="position: absolute;"]:contains(ADBLOCK))
 4stream.*##+js(nowoif)
+4studio.com.ua###sidebar > .widget_text
 4studio.com.ua##.header-block
 4studio.com.ua##.moretel
 4studio.com.ua,mhl.khl.ru##.header_socials
-4studio.com.ua,sportarena.ua###sidebar > .widget_text
 4sysops.com###custom_html-18
 4sysops.com###footer-sidebar-2
 4sysops.com###footer-sidebar-3
@@ -28671,6 +28671,7 @@ aplicaciones.ai##.essb-share-button-inline
 aplik.ru,discover24.ru,edurusnews.ru,holostyak.site,inforuss.info,itc.ua,krashevseh.ru,lentaruss.ru,mobnovelty.ru,smiruss.ru,soderzhanki2.ru,trud-ost.ru##.widget_execphp
 aplikuj.pl##div[x-data="cookie"]
 aplikuj.pl,bracket2026.com,btr-tools.com,cgn.gg,chemist-4-u.com,coderland.com,extract.pics,hopetv.org,londonciv.org.uk,schletter-group.com,stringfurniture.com##.inset-0.fixed
+apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,domenus.ru,e-domizil.de,fikser.ru,foxsports.com.au,goyabu.vip,gregorys.gr,hafnarfjordur.is,hoster.ru,hsleiden.nl,ima.is,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,naturgenussfestival.de,news.com.au,rooftopatpier17.com,rosatomflot.ru,sgtech.co.il,sinfonia.is,socalgas.com,swapspace.co,totalplay.com.mx,tudogostoso.com.br,wardvillage.com,webhint.io##.disclaimer
 apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,domenus.ru,e-domizil.de,foxsports.com.au,goyabu.vip,gregorys.gr,hafnarfjordur.is,hoster.ru,hsleiden.nl,ima.is,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,naturgenussfestival.de,news.com.au,rooftopatpier17.com,rosatomflot.ru,sgtech.co.il,sinfonia.is,socalgas.com,swapspace.co,totalplay.com.mx,tudogostoso.com.br,wardvillage.com,webhint.io##.disclaimer
 apnades.in##h2[id*="sponsor"]
 apnades.in,jogiexpress.com###secondary .widget_media_video
@@ -67926,7 +67927,6 @@ elektrikmen.com##+js(aopw, document.ondragstart)
 elektrikmen.com##style:has-text(/-moz-user-select:none|@media print/):remove()
 elektrikstore.hu,kesvadasz.hu,tipik.hu###exposeMaskOverlay
 elektro-plast.com.pl##+js(ra, oncontextmenu)
-elektro.info.pl,mashingup.jp#@#.is-sponsored
 elektroauto-news.net##.elementor-element-1f0334b
 elektroauto-news.net##.elementor-element-5edce23
 elektroauto-news.net##.elementor-element-6c8f458
@@ -118192,6 +118192,7 @@ livetv.sx##td:has(> table:only-child > tbody:only-child > tr:only-child > td:onl
 livetv.sx##td[height^="9"][bgcolor]
 livetv.sx##td[valign="top"] > a ~ a ~ a ~ table[bgcolor]
 livetv.sx##tr[height] ~ tr > td[colspan][height][bgcolor="#000000"]
+livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 livetv.sx,tamboff.ru##iframe[src*="banner"]
 livetvkerala.com##.cntarea img
 livetvon.*##+js(aopw, u_cfg)
@@ -176764,10 +176765,11 @@ sportarena.com##.social-like
 sportarena.com##.ui-widget-overlay
 sportarena.com##.wrapper div.social
 sportarena.com##div[aria-describedby="socialModal"]
+sportarena.ua###page > .nomobile:empty
+sportarena.ua##.blog__social
+sportarena.ua##.category__advertisement
 sportarena.ua##.margin-bottom-20 ~ hr
-sportarena.ua##.menu-top-red
 sportarena.ua##.social-title-bottom
-sportarena.ua##body > .nomobile
 sportas.lt##[id^=s300x600_]
 sportas.lt##a[href*="ttp://www.taupiems.lt"]
 sportauspuff-direkt.com###cookieNoteAGB
@@ -180109,6 +180111,7 @@ stylehaus.jp##.pickup
 stylehaus.jp##.smart-app-bnr
 stylenews.ru##.alm-btn-wrap
 stylenews.ru#@#.header-social
+styler.rbc.ua##.s-cookie
 styleroom.fi##.bg-box:has([id|=placement-ad-grid])
 styletread.co.nz##.popup_overlay
 stylevamp.de###secondary > .widget-ads + .widget.widget-highlight
@@ -193291,7 +193294,9 @@ tribuna.com##div[data-anchor^="_"][class^="_"]
 tribuna.com##div[style^="--banner-height:"]
 tribuna.com##span[class^="_comments__loader"][class*="_spinner_"]
 tribuna.com#?#div:-abp-has(> div > [style="display: flex;"] > div[id*="_Inread"])
+tribuna.com#?#div[class$="match_layout__left_column__main"] > div:-abp-has([href*="/betting/"])
 tribuna.com#?#div[class*="right_column"] div:-abp-has(> [style^="--banner-height:"])
+tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
 tribuna.com#?#div[class^="_structured-body_"] > div:-abp-has([id*="Postscripts_News"])
 tribuna.kr.ua##.ltteleg-overlay
 tribuna.kr.ua##.vc_align_left
@@ -210928,6 +210933,7 @@ xsport.ua##[aria-label*="social link"]
 xsport.ua##a[href^="https://news.google.com/search?q="]
 xsport.ua##div[class^="social-sharer_"]:not([data-scroll="comment-block"]):style(visibility: hidden !important;)
 xsport.ua#$#.social-sharer__item--google-news { visibility: hidden !important; }
+xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="sponsored"])
 xsport.ua#?#.MuiStack-root:-abp-has(> p ~ svg)
 xsport.ua#?#div.MuiBox-root:-abp-has(> div[class*="-root"] > div[id^="div-gpt-ad"])
 xsports.lv#@#.notice-cookie
