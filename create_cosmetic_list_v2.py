@@ -256,6 +256,12 @@ TESTING_URLS = [
     f"{URL_PREFIX_GH}/{URL_PART_ADG}/{URL_PART_2}/filter.txt",
     # AdGuard Widgets filter
     f"{URL_PREFIX_GH}/{URL_PART_ADG}/filter_22_Annoyances_Widgets/filter.txt",
+    # TESTING AdGuard
+    # Base filter
+    f"https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+    # Tracking
+    f"https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
+    f"https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt",
     # Adblock Warning Removal List
     f"{URL_PREFIX_GH}/{URL_PART_EL}/antiadblock_english.txt",
     # EasyList
