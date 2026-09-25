@@ -1,4 +1,7 @@
 
+# 2026-09-25
+- excluded filters for government tax websites for security reasons
+
 # 2026-09-19
 - excluded filters for popular banks for security reasons
 
