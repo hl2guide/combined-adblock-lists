@@ -370,6 +370,14 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not any(s in LINE for s in ("truist.com", "td.com", "bmo.com", "firstcitizens.com")) and
                 not any(s in LINE for s in ("citizensbank.com", "huntington.com", "usaa.com", "hsbc.com")) and
                 not any(s in LINE for s in ("barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com")) and
+                # exclude filters for tax websites
+                not any(s in LINE for s in ("irs.gov", "gov.uk", "bzst.de")) and
+                not any(s in LINE for s in ("gouv.fr", "belastingdienst.nl", "agenciatributaria.es")) and
+                not any(s in LINE for s in ("agenziaentrate.gov.it", "skatteverket.se", "skatteetaten.no")) and
+                not any(s in LINE for s in ("skat.dk", "vero.fi", "ato.gov.au")) and
+                not any(s in LINE for s in ("ird.govt.nz", "nta.go.jp", "iras.gov.sg")) and
+                not any(s in LINE for s in ("incometax.gov.in", "sat.gob.mx", "afip.gob.ar")) and
+                not any(s in LINE for s in ("sii.cl", "dian.gov.co")) and
                 not LINE.startswith("мв")
             )
 )

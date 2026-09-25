@@ -3,7 +3,7 @@
 A combined filter list of the very best cosmetic rules for use in Adblockers like
  **uBlock Origin** and **AdGuard**'s browser extension or paid-app for Linux, Windows 11, Android, MacOS or iOS.
 
-_Major Version:_ 1.12
+_Major Version:_ 1.13
 
 _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 
