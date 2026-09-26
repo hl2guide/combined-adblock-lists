@@ -332,6 +332,24 @@ if __name__ == "__main__":
 
 COMBINED = all_text
 
+EXCLUDE_LIST_BANKS = ["commbank.com.au", "westpac.com.au", "nab.com.au", "anz.com.au",
+"macquarie.com.au", "ing.com.au", "bendigobank.com.au", "boq.com.au",
+"suncorpbank.com.au", "amp.com.au", "hsbc.com.au", "mystate.com.au",
+"ubank.com.au", "bankwest.com.au", "stgeorge.com.au", "banksa.com.au",
+"bankofmelbourne.com.au", "chase.com", "bankofamerica.com", "citi.com",
+"wellsfargo.com", "usbank.com", "capitalone.com", "pnc.com",
+"truist.com", "td.com", "bmo.com", "firstcitizens.com", "paypal.com",
+"citizensbank.com", "huntington.com", "usaa.com", "hsbc.com",
+"barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com"]
+
+EXCLUDE_LIST_TAX_GOV = ["irs.gov", "gov.uk", "bzst.de",
+"gouv.fr", "belastingdienst.nl", "agenciatributaria.es",
+"agenziaentrate.gov.it", "skatteverket.se", "skatteetaten.no",
+"skat.dk", "vero.fi", "ato.gov.au",
+"ird.govt.nz", "nta.go.jp", "iras.gov.sg",
+"incometax.gov.in", "sat.gob.mx", "afip.gob.ar",
+"sii.cl", "dian.gov.co"]
+
 # Combines and cleans up text data
 print()
 print("Combining and cleaning lists..")
@@ -361,24 +379,8 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 # does not contain common regex syntax (Testing 2026-09-18 13:58:29 +10:00)
                 not any(s in LINE for s in ("/[", "a-z", "$/", "0-9")) and
                 # exclude filters for popular banks
-                EXCLUDE_LIST_BANKS = ["commbank.com.au", "westpac.com.au", "nab.com.au", "anz.com.au",
-                "macquarie.com.au", "ing.com.au", "bendigobank.com.au", "boq.com.au",
-                "suncorpbank.com.au", "amp.com.au", "hsbc.com.au", "mystate.com.au",
-                "ubank.com.au", "bankwest.com.au", "stgeorge.com.au", "banksa.com.au",
-                "bankofmelbourne.com.au", "chase.com", "bankofamerica.com", "citi.com",
-                "wellsfargo.com", "usbank.com", "capitalone.com", "pnc.com",
-                "truist.com", "td.com", "bmo.com", "firstcitizens.com", "paypal.com",
-                "citizensbank.com", "huntington.com", "usaa.com", "hsbc.com",
-                "barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com"]
                 not any(s in LINE for s in EXCLUDE_LIST_BANKS) and
                 # exclude filters for tax websites
-                EXCLUDE_LIST_TAX_GOV = ["irs.gov", "gov.uk", "bzst.de",
-                "gouv.fr", "belastingdienst.nl", "agenciatributaria.es",
-                "agenziaentrate.gov.it", "skatteverket.se", "skatteetaten.no",
-                "skat.dk", "vero.fi", "ato.gov.au",
-                "ird.govt.nz", "nta.go.jp", "iras.gov.sg",
-                "incometax.gov.in", "sat.gob.mx", "afip.gob.ar",
-                "sii.cl", "dian.gov.co"]
                 not any(s in LINE for s in EXCLUDE_LIST_TAX_GOV) and
                 not LINE.startswith("мв")
             )
