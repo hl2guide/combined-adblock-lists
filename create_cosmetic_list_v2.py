@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.17
-# Edited: 2026-09-18 13:58:44 +10:00
+# Version 2.0.18
+# Edited: 2026-09-27 03:22:01 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -361,23 +361,25 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 # does not contain common regex syntax (Testing 2026-09-18 13:58:29 +10:00)
                 not any(s in LINE for s in ("/[", "a-z", "$/", "0-9")) and
                 # exclude filters for popular banks
-                not any(s in LINE for s in ("commbank.com.au", "westpac.com.au", "nab.com.au", "anz.com.au")) and
-                not any(s in LINE for s in ("macquarie.com.au", "ing.com.au", "bendigobank.com.au", "boq.com.au")) and
-                not any(s in LINE for s in ("suncorpbank.com.au", "amp.com.au", "hsbc.com.au", "mystate.com.au")) and
-                not any(s in LINE for s in ("ubank.com.au", "bankwest.com.au", "stgeorge.com.au", "banksa.com.au")) and
-                not any(s in LINE for s in ("bankofmelbourne.com.au", "chase.com", "bankofamerica.com", "citi.com")) and
-                not any(s in LINE for s in ("wellsfargo.com", "usbank.com", "capitalone.com", "pnc.com")) and
-                not any(s in LINE for s in ("truist.com", "td.com", "bmo.com", "firstcitizens.com", "paypal.com")) and
-                not any(s in LINE for s in ("citizensbank.com", "huntington.com", "usaa.com", "hsbc.com")) and
-                not any(s in LINE for s in ("barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com")) and
+                EXCLUDE_LIST_BANKS = ["commbank.com.au", "westpac.com.au", "nab.com.au", "anz.com.au",
+                "macquarie.com.au", "ing.com.au", "bendigobank.com.au", "boq.com.au",
+                "suncorpbank.com.au", "amp.com.au", "hsbc.com.au", "mystate.com.au",
+                "ubank.com.au", "bankwest.com.au", "stgeorge.com.au", "banksa.com.au",
+                "bankofmelbourne.com.au", "chase.com", "bankofamerica.com", "citi.com",
+                "wellsfargo.com", "usbank.com", "capitalone.com", "pnc.com",
+                "truist.com", "td.com", "bmo.com", "firstcitizens.com", "paypal.com",
+                "citizensbank.com", "huntington.com", "usaa.com", "hsbc.com",
+                "barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com"]
+                not any(s in LINE for s in EXCLUDE_LIST_BANKS) and
                 # exclude filters for tax websites
-                not any(s in LINE for s in ("irs.gov", "gov.uk", "bzst.de")) and
-                not any(s in LINE for s in ("gouv.fr", "belastingdienst.nl", "agenciatributaria.es")) and
-                not any(s in LINE for s in ("agenziaentrate.gov.it", "skatteverket.se", "skatteetaten.no")) and
-                not any(s in LINE for s in ("skat.dk", "vero.fi", "ato.gov.au")) and
-                not any(s in LINE for s in ("ird.govt.nz", "nta.go.jp", "iras.gov.sg")) and
-                not any(s in LINE for s in ("incometax.gov.in", "sat.gob.mx", "afip.gob.ar")) and
-                not any(s in LINE for s in ("sii.cl", "dian.gov.co")) and
+                EXCLUDE_LIST_TAX_GOV = ["irs.gov", "gov.uk", "bzst.de",
+                "gouv.fr", "belastingdienst.nl", "agenciatributaria.es",
+                "agenziaentrate.gov.it", "skatteverket.se", "skatteetaten.no",
+                "skat.dk", "vero.fi", "ato.gov.au",
+                "ird.govt.nz", "nta.go.jp", "iras.gov.sg",
+                "incometax.gov.in", "sat.gob.mx", "afip.gob.ar",
+                "sii.cl", "dian.gov.co"]
+                not any(s in LINE for s in EXCLUDE_LIST_TAX_GOV) and
                 not LINE.startswith("мв")
             )
 )
