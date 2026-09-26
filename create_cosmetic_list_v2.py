@@ -367,7 +367,7 @@ LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
                 not any(s in LINE for s in ("ubank.com.au", "bankwest.com.au", "stgeorge.com.au", "banksa.com.au")) and
                 not any(s in LINE for s in ("bankofmelbourne.com.au", "chase.com", "bankofamerica.com", "citi.com")) and
                 not any(s in LINE for s in ("wellsfargo.com", "usbank.com", "capitalone.com", "pnc.com")) and
-                not any(s in LINE for s in ("truist.com", "td.com", "bmo.com", "firstcitizens.com")) and
+                not any(s in LINE for s in ("truist.com", "td.com", "bmo.com", "firstcitizens.com", "paypal.com")) and
                 not any(s in LINE for s in ("citizensbank.com", "huntington.com", "usaa.com", "hsbc.com")) and
                 not any(s in LINE for s in ("barclays.com", "deutschebank.com", "lloydsbank.com", "danskebank.com")) and
                 # exclude filters for tax websites
