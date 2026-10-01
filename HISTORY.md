@@ -1,4 +1,7 @@
 
+# 2026-10-01
+- refactored code to allow for LINE modifications and cleaned up code
+
 # 2026-09-25
 - excluded filters for government tax websites for security reasons
 
