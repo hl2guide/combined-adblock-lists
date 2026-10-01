@@ -354,41 +354,69 @@ EXCLUDE_LIST_TAX_GOV = ["irs.gov", "gov.uk", "bzst.de",
 print()
 print("Combining and cleaning lists..")
 # COMBINED = "\n".join(FILTER_LISTS)
-LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
-            # fixes for bad filters -- TESTING
-            if LINE.startswith("$"):
-                LINE = "*" + LINE
 
-            if (
-                LINE.strip() and
-                # Skips lines that are allow rules or comments
-                not LINE.startswith("﻿") and
-                not LINE.startswith("!") and
-                not LINE.startswith("! Search Results") and
-                not LINE.startswith("! Title") and
-                not LINE.startswith("﻿[Adblock Plus 3") and
-                not LINE.startswith("[Adblock Plus 3") and
-                not LINE.startswith("#") and
-                not LINE.startswith("%") and
-                not LINE.startswith("&") and
-                not LINE.startswith("-") and
-                not LINE.startswith("@@") and
-                not LINE.startswith("[Adblock") and
-                not LINE.startswith("[uBlock") and
-                not LINE.startswith("||") and
-                # does dont contain two * symbols
-                not (LINE.count("*") >= 2) and
-                # does not have less than 8 characters
-                not (len(LINE) <= 7) and
-                # does not contain common regex syntax (Testing 2026-09-18 13:58:29 +10:00)
-                not any(s in LINE for s in ("/[", "a-z", "$/", "0-9")) and
-                # exclude filters for popular banks
-                not any(s in LINE for s in EXCLUDE_LIST_BANKS) and
-                # exclude filters for tax websites
-                not any(s in LINE for s in EXCLUDE_LIST_TAX_GOV) and
-                not LINE.startswith("мв")
-            )
-)
+LINES = set()
+for raw in COMBINED.splitlines():
+    LINE = raw.strip()
+    if LINE.startswith("$"):
+        LINE = "*" + LINE
+    if (
+        LINE
+        and not LINE.startswith("\ufeff")
+        and not LINE.startswith("!")
+        and not LINE.startswith("#")
+        and not LINE.startswith("%")
+        and not LINE.startswith("&")
+        and not LINE.startswith("-")
+        and not LINE.startswith("@@")
+        and not LINE.startswith("[Adblock")
+        and not LINE.startswith("[uBlock")
+        and not LINE.startswith("||")
+        and not LINE.startswith("мв")
+        and LINE.count("*") < 2
+        and len(LINE) > 7
+        and not any(s in LINE for s in ("/[", "a-z", "$/", "0-9"))
+        and not any(s in LINE for s in EXCLUDE_LIST_BANKS)
+        and not any(s in LINE for s in EXCLUDE_LIST_TAX_GOV)
+    ):
+        LINES.add(LINE)
+
+# OLD:
+# LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
+#             # fixes for bad filters -- TESTING
+#             if LINE.startswith("$"):
+#                 LINE = "*" + LINE
+
+#             if (
+#                 LINE.strip() and
+#                 # Skips lines that are allow rules or comments
+#                 not LINE.startswith("﻿") and
+#                 not LINE.startswith("!") and
+#                 not LINE.startswith("! Search Results") and
+#                 not LINE.startswith("! Title") and
+#                 not LINE.startswith("﻿[Adblock Plus 3") and
+#                 not LINE.startswith("[Adblock Plus 3") and
+#                 not LINE.startswith("#") and
+#                 not LINE.startswith("%") and
+#                 not LINE.startswith("&") and
+#                 not LINE.startswith("-") and
+#                 not LINE.startswith("@@") and
+#                 not LINE.startswith("[Adblock") and
+#                 not LINE.startswith("[uBlock") and
+#                 not LINE.startswith("||") and
+#                 # does dont contain two * symbols
+#                 not (LINE.count("*") >= 2) and
+#                 # does not have less than 8 characters
+#                 not (len(LINE) <= 7) and
+#                 # does not contain common regex syntax (Testing 2026-09-18 13:58:29 +10:00)
+#                 not any(s in LINE for s in ("/[", "a-z", "$/", "0-9")) and
+#                 # exclude filters for popular banks
+#                 not any(s in LINE for s in EXCLUDE_LIST_BANKS) and
+#                 # exclude filters for tax websites
+#                 not any(s in LINE for s in EXCLUDE_LIST_TAX_GOV) and
+#                 not LINE.startswith("мв")
+#             )
+# )
 
 OUTPUT_FILE = "cosmetic_combined_filterlist.txt"
 
