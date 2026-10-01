@@ -65,6 +65,30 @@ def download_worker(url_q: queue.Queue, result_q: queue.Queue):
         finally:
             url_q.task_done()
 
+def is_valid_filter(line: str) -> bool:
+    """
+    Checks whether a filter is valid.
+    """
+    return (
+        line
+        and not line.startswith("\ufeff")
+        and not line.startswith("!")
+        and not line.startswith("#")
+        and not line.startswith("%")
+        and not line.startswith("&")
+        and not line.startswith("-")
+        and not line.startswith("@@")
+        and not line.startswith("[Adblock")
+        and not line.startswith("[uBlock")
+        and not line.startswith("||")
+        and line.count("*") < 2
+        and len(line) > 7
+        and not any(s in line for s in ("/[", "a-z", "$/", "0-9"))
+        and not any(s in line for s in EXCLUDE_LIST_BANKS)
+        and not any(s in line for s in EXCLUDE_LIST_TAX_GOV)
+        and not line.startswith("мв")
+    )
+
 def main():
     """
     The main function.
@@ -356,29 +380,11 @@ print("Combining and cleaning lists..")
 # COMBINED = "\n".join(FILTER_LISTS)
 
 LINES = set()
-for RAW_TEXT in COMBINED.splitlines():
-    LINE = RAW_TEXT.strip()
+for raw_text in COMBINED.splitlines():
+    LINE = raw_text.strip()
     if LINE.startswith("$"):
         LINE = "*" + LINE
-    if (
-        LINE
-        and not LINE.startswith("\ufeff")
-        and not LINE.startswith("!")
-        and not LINE.startswith("#")
-        and not LINE.startswith("%")
-        and not LINE.startswith("&")
-        and not LINE.startswith("-")
-        and not LINE.startswith("@@")
-        and not LINE.startswith("[Adblock")
-        and not LINE.startswith("[uBlock")
-        and not LINE.startswith("||")
-        and not LINE.startswith("мв")
-        and LINE.count("*") < 2
-        and len(LINE) > 7
-        and not any(s in LINE for s in ("/[", "a-z", "$/", "0-9"))
-        and not any(s in LINE for s in EXCLUDE_LIST_BANKS)
-        and not any(s in LINE for s in EXCLUDE_LIST_TAX_GOV)
-    ):
+    if is_valid_filter(LINE):
         LINES.add(LINE)
 
 # OLD:
