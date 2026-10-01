@@ -356,8 +356,8 @@ print("Combining and cleaning lists..")
 # COMBINED = "\n".join(FILTER_LISTS)
 
 LINES = set()
-for raw in COMBINED.splitlines():
-    LINE = raw.strip()
+for RAW_TEXT in COMBINED.splitlines():
+    LINE = RAW_TEXT.strip()
     if LINE.startswith("$"):
         LINE = "*" + LINE
     if (
