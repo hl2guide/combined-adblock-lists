@@ -12,7 +12,7 @@ _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 
 ## Considerations
 
-ℹ️ Please Note: Modern adblockers are more limited due to "Manifest MV3" restrictions.
+ℹ️ Please Note: Modern adblockers are more limited due to "Manifest V3" restrictions.
 
 For those the cosmetic list works but the blocklist files do not (too many rules).
 
