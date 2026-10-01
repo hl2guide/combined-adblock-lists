@@ -17,7 +17,7 @@ _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 For those the cosmetic list works but the blocklist files do not (too many rules).
 
 In order, I recommend instead using either:
-1. Official AdGuard App for [Windows 11](https://adguard.com/en/adguard-windows/overview.html), [Mac](https://adguard.com/en/adguard-mac/overview.html), [Android](https://adguard.com/en/adguard-android/overview.html), [iOS](https://adguard.com/en/adguard-ios/overview.html) or [Linux](https://adguard.com/en/adguard-linux/overview.html)
+1. Official AdGuard App for [Windows 11](https://adguard.com/en/adguard-windows/overview.html), [Mac](https://adguard.com/en/adguard-mac/overview.html), [Android](https://adguard.com/en/adguard-android/overview.html), [iOS](https://adguard.com/en/adguard-ios/overview.html) or [Linux](https://adguard.com/en/adguard-linux/overview.html) (paid option)
 2. Official [uBlock Origin for Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/) (effective and efficient)
 3. Official [Brave](https://brave.com) browser's built-in ad blocker (easy use)
 
