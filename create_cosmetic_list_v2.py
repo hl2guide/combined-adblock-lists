@@ -6,8 +6,8 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 2.0.18
-# Edited: 2026-09-27 03:22:01 +10:00
+# Version 2.0.19
+# Edited: 2026-10-01 16:13:06 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -355,6 +355,10 @@ print()
 print("Combining and cleaning lists..")
 # COMBINED = "\n".join(FILTER_LISTS)
 LINES = set(LINE.strip() for LINE in COMBINED.splitlines()
+            # fixes for bad filters -- TESTING
+            if LINE.startswith("$"):
+                LINE = "*" + LINE
+
             if (
                 LINE.strip() and
                 # Skips lines that are allow rules or comments
