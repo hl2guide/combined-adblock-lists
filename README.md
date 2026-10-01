@@ -12,17 +12,14 @@ _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 
 ## Considerations
 
-Modern adblockers are more limited due to "Manifest MV3" restrictions.
+ℹ️ Please Note: Modern adblockers are more limited due to "Manifest MV3" restrictions.
 
 For those the cosmetic list works but the blocklist files do not (too many rules).
 
-> ℹ️ Please Note: Modern adblockers are more limited due to "Manifest MV3" restrictions.
-For those the blocklist files do not correctly apply (too many rules).
-
 In order, I recommend instead using either:
-1. AdGuard for Windows (paid)
-2. _uBlock Origin_ for Firefox (effective and efficient)
-3. Brave browser's built-in ad blocker (easy use)
+1. Official [AdGuard for Windows (paid)](https://adguard.com/en/adguard-windows/overview.html)
+2. Official [uBlock Origin for Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/) (effective and efficient)
+3. Official [Brave](https://brave.com) browser's built-in ad blocker (easy use)
 
 ## Important News
 
