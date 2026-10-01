@@ -3,6 +3,10 @@
 A combined filter list of the very best cosmetic rules for use in Adblockers like
  **uBlock Origin** and **AdGuard**'s browser extension or paid-app for Linux, Windows 11, Android, MacOS or iOS.
 
+Modern adblockers are more limited due to "Manifest MV3" restrictions.
+
+For those the cosmetic list works but the blocklist files do not (too many rules).
+
 _Major Version:_ 1.13
 
 _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
@@ -46,6 +50,14 @@ https://raw.githubusercontent.com/hl2guide/combined-adblock-lists/refs/heads/mai
 Blocks bad domains including known bad sites, scams, malware, ads etc.
 
 _Recommended for use in AdGuard Home or similar domain-based software._
+
+> ℹ️ Please Note: Modern adblockers are more limited due to "Manifest MV3" restrictions.
+For those the blocklist files do not correctly apply (too many rules).
+
+In order, I recommend instead using either:
+1. AdGuard for Windows (paid)
+2. _uBlock Origin_ for Firefox (effective and efficient)
+3. Brave browser's built-in ad blocker (easy use)
 
 - Includes specific filter lists from _The Block List Project_
     - (can be viewed in the `create_blocklist_list_v1.py` file.)
