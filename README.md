@@ -3,7 +3,7 @@
 A combined filter list of the very best cosmetic rules for use in Adblockers like
  **uBlock Origin** and **AdGuard**'s browser extension or paid-app for Linux, Windows 11, Android, MacOS or iOS.
 
-_Major Version:_ 1.13
+_Major Version:_ 1.14
 
 _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 
@@ -11,6 +11,13 @@ _GUID:_ {850b6f81-011f-4b00-8d75-28739807d89c}
 [![Python Run - run a script and then save to GitHub repo](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_run_script.yml/badge.svg)](https://github.com/hl2guide/combined-adblock-lists/actions/workflows/python_run_script.yml)
 
 ## Important News
+
+### 2026-10-04
+
+⭐ After careful consideration I've decided to sunset the cosmetic list after plenty of testing.
+
+- The list was way too large and caused side effects
+- The blocklist and allowlist will remain
 
 ### 2026-07-04
 
