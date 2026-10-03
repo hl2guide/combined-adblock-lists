@@ -1,3 +1,8 @@
+# 2026-10-04
+- VITAL: sunset the cosmetic list after plenty of testing
+
+1. The list was way too large and caused side effects
+2. The blocklist and allowlist will remain
 
 # 2026-10-01
 - refactored code to allow for LINE modifications and cleaned up code
