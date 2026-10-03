@@ -7,7 +7,7 @@ Creates a combined text file of cosmetic filter every 6 hours using GitHub actio
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
 # Version 2.0.19
-# Edited: 2026-10-01 16:13:06 +10:00
+# Edited: 2026-10-03 23:59:14 +10:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -86,6 +86,7 @@ def is_valid_filter(line: str) -> bool:
         and not any(s in line for s in ("/[", "a-z", "$/", "0-9"))
         and not any(s in line for s in EXCLUDE_LIST_BANKS)
         and not any(s in line for s in EXCLUDE_LIST_TAX_GOV)
+        # and not any(s in line for s in EXCLUDE_JUNK_SITES)
         and not line.startswith("мв")
     )
 
@@ -373,6 +374,10 @@ EXCLUDE_LIST_TAX_GOV = ["irs.gov", "gov.uk", "bzst.de",
 "ird.govt.nz", "nta.go.jp", "iras.gov.sg",
 "incometax.gov.in", "sat.gob.mx", "afip.gob.ar",
 "sii.cl", "dian.gov.co"]
+
+EXCLUDE_JUNK_SITES = ["twitter.com","tumblr.com","reddit.com","pinterest.com",
+"ok.ru","norsk-tipping.no","facebook.com","livejournal.com","linkedin.com",
+"..."]
 
 # Combines and cleans up text data
 print()
