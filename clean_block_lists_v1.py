@@ -35,7 +35,7 @@ for b in BLOCKLIST_FILES:
     with open(b, "r", encoding="utf-8") as f:
         domains = [line.strip() for line in f if line.strip()]
     with ThreadPoolExecutor(max_workers=100) as pool:
-        valid = [d for d, ok in zip(domains, pool.map(domain_exists, domains)) if ok]
+        valid = [d for d, ok in zip(domains, pool.map(is_valid_format, domains)) if ok]
     with open(b, "w", encoding="utf-8") as f:
         f.write("\n".join(valid) + "\n")
     print(f"Cleaned blocklist file: {b}")
