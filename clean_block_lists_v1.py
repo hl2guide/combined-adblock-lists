@@ -1,16 +1,33 @@
 """Check domains from a text file and remove invalid ones."""
 
+import re
 import socket
 from concurrent.futures import ThreadPoolExecutor
 import glob
 
 def domain_exists(domain: str) -> bool:
     """Check if a domain resolves to an IP address."""
-    try:
-        socket.gethostbyname(domain)
-        return True
-    except socket.gaierror:
+
+    if is_valid_format(domain):
+        try:
+            socket.gethostbyname(domain)
+            return True
+        except (socket.gaierror, UnicodeError):
+            return False        
+    else:
         return False
+
+def is_valid_format(domain: str) -> bool:
+    """Check domain syntax (length, chars, structure)."""
+    if len(domain) > 253:
+        return False
+    return bool(DOMAIN_RE.match(domain))
+
+DOMAIN_RE = re.compile(
+    r"^(?!-)[a-zA-Z0-9-]{1,63}(?<!-)"   # first label
+    r"(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-))*" # additional labels
+    r"\.[a-zA-Z]{2,63}$"                # TLD
+)
 
 BLOCKLIST_FILES = glob.glob("blocklist_combined_filterlist.txt_*.txt")   
 
