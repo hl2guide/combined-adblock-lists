@@ -23,11 +23,7 @@ def is_valid_format(domain: str) -> bool:
         return False
     return bool(DOMAIN_RE.match(domain))
 
-DOMAIN_RE = re.compile(
-    r"^(?!-)[a-zA-Z0-9-]{1,63}(?<!-)"   # first label
-    r"(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-))*" # additional labels
-    r"\.[a-zA-Z]{2,63}$"                # TLD
-)
+DOMAIN_RE = re.compile(r'^([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,6}$', re.IGNORECASE)
 
 BLOCKLIST_FILES = glob.glob("blocklist_combined_filterlist.txt_*.txt")   
 
