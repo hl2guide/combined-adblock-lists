@@ -20,14 +20,17 @@ def domain_exists(domain: str) -> bool:
 def is_valid_format(domain: str) -> bool:
     """Check domain syntax (length, chars, structure)."""
     if len(domain) > 253:
+        print(f"{domain} is invalid format")
         return False
-    return bool(DOMAIN_RE.match(domain))
+    else:
+        return bool(DOMAIN_RE.match(domain))
 
 DOMAIN_RE = re.compile(r'^([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,6}$', re.IGNORECASE)
 
 BLOCKLIST_FILES = glob.glob("blocklist_combined_filterlist.txt_*.txt")   
 
 for b in BLOCKLIST_FILES:
+    print(f"Cleaning blocklist file: {b} ...")
     with open(b, "r", encoding="utf-8") as f:
         domains = [line.strip() for line in f if line.strip()]
     with ThreadPoolExecutor(max_workers=100) as pool:
