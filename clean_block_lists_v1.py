@@ -1,8 +1,11 @@
+"""Check domains from a text file and remove invalid ones."""
+
 import socket
 from concurrent.futures import ThreadPoolExecutor
 import glob
 
 def domain_exists(domain: str) -> bool:
+    """Check if a domain resolves to an IP address."""
     try:
         socket.gethostbyname(domain)
         return True
