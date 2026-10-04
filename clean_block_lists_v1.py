@@ -22,8 +22,7 @@ def is_valid_format(domain: str) -> bool:
     if len(domain) > 253:
         print(f"{domain} is invalid format")
         return False
-    else:
-        return bool(DOMAIN_RE.match(domain))
+    return bool(DOMAIN_RE.match(domain))
 
 DOMAIN_RE = re.compile(r'^([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,6}$', re.IGNORECASE)
 
