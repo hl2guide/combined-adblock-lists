@@ -62,6 +62,10 @@ https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist
 https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_004.txt
 ```
 
+```
+https://github.com/hl2guide/combined-adblock-lists/raw/refs/heads/main/blocklist_combined_filterlist.txt_005.txt
+```
+
 ## Allowlist ✅
 
 Allows worthwhile websites.
