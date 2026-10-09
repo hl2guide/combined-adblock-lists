@@ -206,11 +206,11 @@ TESTING_URLS = [
     # Optimized Big OISD
     "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt",
     # Destroy Lists (official mirror)
-    "https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/community_active/adblock.txt",
-    "https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/primary_active/adblock.txt",
+    #"https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/community_active/adblock.txt",
+    #"https://cdn.jsdelivr.net/gh/phishdestroy/destroylist@main/rootlist/formats/primary_active/adblock.txt",
     # Destroy Lists (disabled due to errors - testing now)
-    # "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
-    # "https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
+    #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
+    #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/primary_active/adblock.txt",
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     # 1Hosts (Lite)
