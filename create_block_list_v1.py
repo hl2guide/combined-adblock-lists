@@ -153,6 +153,8 @@ URL_PREFIX_1 = \
 
 # Testing list URLs
 TESTING_URLS = [
+    # TESTING 2026-10-09 13:05:10 +11:00
+    "https://malwareworld.com/data/suspiciousDomains.txt",
     # blocklistproject - https://github.com/blocklistproject/Lists
     "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/abuse-ags.txt",
     "https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/main/adguard/ads-ags.txt",
@@ -213,7 +215,7 @@ TESTING_URLS = [
     #"https://raw.githubusercontent.com/phishdestroy/destroylist/main/rootlist/formats/community_active/adblock.txt",
     # 1Hosts (Lite)
     "https://badmojr.github.io/1Hosts/Lite/adblock.txt",
-    # The BOG AIO List (404 error - testing now)
+    # The BOG AIO List
     "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
 ]
 
