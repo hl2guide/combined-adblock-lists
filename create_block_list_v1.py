@@ -212,9 +212,9 @@ TESTING_URLS = [
     # Pyenb List
     "https://raw.githubusercontent.com/Pyenb/Pi-hole-blocklist/main/blocklist.txt",
     # Sefinek Lists
-    "https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt",
-    "https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
-    "https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
+    #"https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt",
+    #"https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
+    #"https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
