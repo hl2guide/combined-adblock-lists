@@ -1,3 +1,6 @@
+# 2026-10-16
+- added more blocklists
+
 # 2026-10-04
 - VITAL: sunset the cosmetic list after plenty of testing
 
