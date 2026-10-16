@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.14
-# Edited: 2026-10-09 12:58:49 +11:00
+# Version 1.0.15
+# Edited: 2026-10-16 18:36:03 +11:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -178,6 +178,18 @@ TESTING_URLS = [
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
+    # HaGeZi's Pro Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt",
+    # AWAvenue
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt",
+    # Dan Pollock's List
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt",
+    # Phishing URL Blocklist (PhishTank and OpenPhish)
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt",
+    # Dandelion Sprout's Anti-Malware List
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt",
+    # Scam Blocklist by DurableNapkin
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt",
     # Government Trackers
     #"https://raw.githubusercontent.com/CobraZero969/EU-Gov-Tracker-Blocklist-by-madnesscc/refs/heads/main/pihole-eu-gov.txt",
     # Bad Hosts - https://github.com/cenk/bad-hosts
@@ -200,6 +212,9 @@ TESTING_URLS = [
     # Pyenb List
     "https://raw.githubusercontent.com/Pyenb/Pi-hole-blocklist/main/blocklist.txt",
     # Sefinek Lists
+    "https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt",
+    "https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
+    "https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt",
     #"https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.fork.txt",
