@@ -1,9 +1,16 @@
 
-* https://github.com/blocklistproject/Lists
-* https://github.com/hagezi/dns-blocklists
-* https://github.com/cenk/bad-hosts
-* https://github.com/ShadowWhisperer/BlockLists
-* https://github.com/Pyenb/Pi-hole-blocklist
-* https://github.com/sjhgvr/oisd
-* https://github.com/thedoggybrad/easylist-mirror
-* https://github.com/phishdestroy/destroylist
+* [blocklistproject](https://github.com/blocklistproject/Lists)
+* [hagezi blocklists](https://github.com/hagezi/dns-blocklists)
+* [AWAvenue](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
+* [cenk bad hosts](https://github.com/cenk/bad-hosts)
+* [ShadowWhisperer blocklist](https://github.com/ShadowWhisperer/BlockLists)
+* [Pyenb blocklist](https://github.com/Pyenb/Pi-hole-blocklist)
+* [easylist](https://github.com/thedoggybrad/easylist-mirror)
+* [Dan Pollock's List](https://someonewhocares.org)
+* Phishing URL Blocklist (PhishTank and OpenPhish)
+* Dandelion Sprout's Anti-Malware List
+* [Scam Blocklist by DurableNapkin](https://github.com/durablenapkin/scamblocklist)
+* [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
+* [oisd big] (https://oisd.nl)
+* [1Hosts Lite](https://github.com/badmojr/1Hosts)
+* [AIO-Firebog-Blocklists](https://github.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists)
