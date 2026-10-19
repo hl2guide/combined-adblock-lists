@@ -8,7 +8,6 @@
 * [Pyenb blocklist](https://github.com/Pyenb/Pi-hole-blocklist)
 * [Scam Blocklist by DurableNapkin](https://github.com/durablenapkin/scamblocklist)
 * [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
-* [ShadowWhisperer blocklist](https://github.com/ShadowWhisperer/BlockLists)
 * [blocklistproject](https://github.com/blocklistproject/Lists)
 * [cenk bad hosts](https://github.com/cenk/bad-hosts)
 * [easylist](https://github.com/thedoggybrad/easylist-mirror)
