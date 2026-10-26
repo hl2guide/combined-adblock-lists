@@ -1,3 +1,6 @@
+# 2026-10-26
+- upgraded to Python 3.15
+
 # 2026-10-16
 - added more blocklists
 
