@@ -6,7 +6,7 @@ ones to a plain-text file (one domain per line).
 Progress messages are printed every 10,000 domains completed.
 
 Examples:
-    python check_domains.py domains.txt -o live_domains.txt --concurrency 10000000
+    python check_domains.py Testing/domains.txt -o live_domains.txt --concurrency 10000000
     python check_domains.py domains.txt -o live_domains.txt
     python check_domains.py domains.txt -o live.txt -c 80 -t 3
     python check_domains.py domains.txt -o live.txt --require-registered

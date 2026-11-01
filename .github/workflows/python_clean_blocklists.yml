@@ -37,7 +37,7 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run check_domains.py
-        run: python "Testing/check_domains.py" domains.txt -o live_domains.txt --concurrency 10000000
+        run: python "Testing/check_domains.py" Testing/domains.txt -o Testing/live_domains.txt --concurrency 10000000
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
