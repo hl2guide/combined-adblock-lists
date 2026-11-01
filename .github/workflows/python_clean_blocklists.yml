@@ -36,8 +36,8 @@ jobs:
       - name: Install dependencies
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Run clean_block_lists_v1.py
-        run: python clean_block_lists_v1.py
+      - name: Run check_domains.py
+        run: python testing\check_domains.py domains.txt -o live_domains.txt --concurrency 10000000
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
