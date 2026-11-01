@@ -199,6 +199,9 @@ async def run(args: argparse.Namespace) -> int:
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    """
+    Parses arguments.
+    """
     parser = argparse.ArgumentParser(
         description="Check domains concurrently; write successful ones to a text file.",
     )
