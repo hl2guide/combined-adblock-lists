@@ -25,6 +25,7 @@ from pathlib import Path
 
 try:
     import whois as whois_lib  # python-whois
+    from whois.parser import PywhoisError
 except ImportError:
     whois_lib = None
 
@@ -87,7 +88,7 @@ def _whois_blocking(domain: str) -> bool | None:
     """
     try:
         record = whois_lib.whois(domain)
-    except Exception:
+    except PywhoisError:
         # python-whois raises for "no match" responses as well as for real
         # errors, so we cannot distinguish "available" from "failed" here.
         return None
@@ -103,7 +104,9 @@ def _whois_blocking(domain: str) -> bool | None:
         return True
     return False
 
-
+"""
+Checks one.
+"""
 async def check_one(
     domain: str,
     sem: asyncio.Semaphore,
@@ -130,6 +133,9 @@ async def check_one(
 # Driver
 # --------------------------------------------------------------------------- #
 
+"""
+Async.
+"""
 async def run(args: argparse.Namespace) -> int:
     if args.require_registered and whois_lib is None:
         print(
