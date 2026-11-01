@@ -6,8 +6,8 @@ Creates a combined text file of blocklist filters every 5 hours using GitHub act
 # Downloads in parallel and then combines cosmetic filter lists into one text file.
 # It also REMOVES allow rules, comment lines and duplicate lines.
 
-# Version 1.0.15
-# Edited: 2026-10-16 18:36:03 +11:00
+# Version 1.0.16
+# Edited: 2026-11-01 18:57:52 +11:00
 
 # Generated using AI (duck.ai)
 # Tested on local PC and on GitHub
@@ -231,7 +231,24 @@ TESTING_URLS = [
     # 1Hosts (Lite)
     "https://badmojr.github.io/1Hosts/Lite/adblock.txt",
     # The BOG AIO List
-    "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt"
+    "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt",
+    # TESTING 2026-11-01 18:57:31 +11:00 ========================
+    # furkan-bayrak lg-tv-blocklist
+    "https://raw.githubusercontent.com/furkan-bayrak/lg-tv-blocklist/main/lists/safe-adblock.txt",
+    # Perflyst and Dandelion Sprout's Smart-TV Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt",
+    # HaGeZi's Xiaomi Tracker Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt",
+    # HaGeZi's Windows/Office Tracker Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt",
+    # HaGeZi's Vivo Tracker Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt",
+    # HaGeZi's Samsung Tracker Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt",
+    # HaGeZi's OPPO & Realme Tracker Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt",
+    # HaGeZi's Normal Blocklist
+    "https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt"
 ]
 
 print()
