@@ -104,15 +104,15 @@ def _whois_blocking(domain: str) -> bool | None:
         return True
     return False
 
-"""
-Checks one.
-"""
 async def check_one(
     domain: str,
     sem: asyncio.Semaphore,
     timeout: float,
     require_registered: bool,
 ) -> tuple[str, bool]:
+    """
+    Checks one.
+    """
     async with sem:
         dns_ok = await has_dns(domain, timeout)
         if not dns_ok:
@@ -133,10 +133,10 @@ async def check_one(
 # Driver
 # --------------------------------------------------------------------------- #
 
-"""
-Async.
-"""
 async def run(args: argparse.Namespace) -> int:
+    """
+    Async.
+    """
     if args.require_registered and whois_lib is None:
         print(
             "error: --require-registered needs python-whois (pip install python-whois)",
