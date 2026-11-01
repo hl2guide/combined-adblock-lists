@@ -13,3 +13,11 @@
 * [easylist](https://github.com/thedoggybrad/easylist-mirror)
 * [hagezi blocklists](https://github.com/hagezi/dns-blocklists)
 * [oisd big](https://oisd.nl)
+* furkan-bayrak lg-tv-blocklist
+* Perflyst and Dandelion Sprout's Smart-TV Blocklist
+* HaGeZi's Xiaomi Tracker Blocklist
+* HaGeZi's Windows/Office Tracker Blocklist
+* HaGeZi's Vivo Tracker Blocklist
+* HaGeZi's Samsung Tracker Blocklist
+* HaGeZi's OPPO & Realme Tracker Blocklist
+* HaGeZi's Normal Blocklist
