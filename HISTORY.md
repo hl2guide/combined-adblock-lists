@@ -1,3 +1,6 @@
+# 2026-11-01
+- added more lists
+
 # 2026-10-26
 - upgraded to Python 3.15
 
