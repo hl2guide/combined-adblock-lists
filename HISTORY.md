@@ -1,3 +1,6 @@
+# 2026-11-06
+- Updated GitHub Action to run off hour for more reliable schedule of runs
+
 # 2026-11-01
 - added more lists
 
