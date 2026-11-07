@@ -1,3 +1,6 @@
+# 2026-11-07
+- Started using cron-job.org instead for reliable scheduled commits
+
 # 2026-11-06
 - Updated GitHub Action to run off hour for more reliable schedule of runs
 
