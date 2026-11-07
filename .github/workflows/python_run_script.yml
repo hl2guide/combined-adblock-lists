@@ -57,7 +57,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-# Disabled cosmetic list generation!
+# 2. Started using a cronjob at cron-job.org for more
+#    reliable GitHub Action runs (every two hours)
+# 1. Disabled cosmetic list generation!
 
 # SOURCES:
 # https://github.com/actions/setup-python
