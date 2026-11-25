@@ -1,4 +1,7 @@
 # 2026-11-07
+- Changed commits to hourly run schedule
+
+# 2026-11-07
 - Started using cron-job.org instead for reliable scheduled commits
 
 # 2026-11-06
